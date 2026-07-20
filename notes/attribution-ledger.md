@@ -21,15 +21,24 @@ entity index generatable instead of reconstructable.
   white-buffalo v1.0, evaluated four premises, chose this one, stubbed
   this repo alongside `november-gale` and `the-wires-1859`. No
   compaction boundaries in its JSONL (single entity: 656ec2ba@tip).
-  Archival to `transcripts/raw/` + `transcripts/` PENDING — DK to run
-  (see Makefile `transcripts-founding` target); the Step-0 session was
-  correctly denied permission to move raw session logs into the repo
-  on its own authority. Note: that transcript will also cover the
-  sibling stubs and the WB release review — shared provenance, not
+  Archived to `transcripts/raw/` + `transcripts/` under DK's standing
+  authorization (below). Note: the transcript also covers the sibling
+  stubs and the WB release review — shared provenance, not
   exclusively ours.
 - 2026-07-20 — session 1a9aba32 (Fable 5) — live. Step 0: dev
   environment (flake), read the WB deliverable, instituted this
   attribution process. No manuscript work yet.
+- 2026-07-20 — process ruling (DK, in-session to 1a9aba32): archival
+  is session-run under standing authorization, reversing the same
+  day's human-act design after the permission layer denied the
+  session's first attempt. Reason, verbatim intent: periodic human
+  commands get "flubbed or forgotten... just human clumsiness."
+  History in planning/attribution.md, refinement 1.
+- 2026-07-20 — materiality ruling (DK, same turn): the Step-0 session
+  1a9aba32 "clearly already has a moral share in the produced work,
+  since this establishes the basic parameters that you and future
+  agents operate within." Index row 2 updated accordingly; the same
+  logic presumptively covers the founding session (row 1).
 
 ## Entity index
 
@@ -44,7 +53,7 @@ come from `Session-Id:` trailers plus JSONL boundary timestamps.
 | # | Entity | Boundary type | Dates | Model | Transcript | Commit range | Contribution summary |
 |---|---|---|---|---|---|---|---|
 | 1 | 656ec2ba@tip | tip | 2026-07-20 | Fable 5 | transcripts/2026-07-20-656ec2ba.md | (none in this repo; stub commit made by DK's tooling from its direction) | Premise selection and repo stubbing; see lineage log. Standing ruling: pre-project ideation, materiality to be ruled at wrap — when in doubt, include |
-| 2 | 1a9aba32@tip | tip (live) | 2026-07-20 .. | Fable 5 | (export at wrap) | 55ba88f.. | Step 0: Nix env; WB deliverable read; attribution process instituted (this file, planning/attribution.md, exporter, archives). No manuscript work yet |
+| 2 | 1a9aba32@tip | tip (live) | 2026-07-20 .. | Fable 5 | (export at wrap) | 55ba88f.. | Step 0: Nix env; WB deliverable read; attribution process instituted (this file, planning/attribution.md, exporter, archives). No manuscript work. Ruled material (DK, 2026-07-20): establishes the parameters future agents operate within — include in the review round |
 
 ## Statement template
 

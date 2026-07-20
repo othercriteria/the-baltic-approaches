@@ -51,9 +51,11 @@ work, so its disciplines apply to every session from the first:
   the surviving lineage when DK reports them.
 - **Decisions live in text**, not thinking — conclusions and span
   accounting go into files or visible output in-session.
-- **Transcript/JSONL archival is DK's act** (`make transcripts`,
-  `make raw-archive SESSION=<uuid>` at session wrap); sessions remind,
-  never run it themselves.
+- **Sessions run archival themselves**: `make archive SKIP=<own-session-uuid>`
+  at wrap (and opportunistically at start, to catch predecessors).
+  Standing authorization from DK, 2026-07-20 — recurring hygiene must
+  not depend on a human remembering a command (attribution.md,
+  refinement 1, has the history).
 - The ledger's Statements section is append-only, forever.
 
 ## Process rules (presumed to apply to any model on this project)

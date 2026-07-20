@@ -9,10 +9,13 @@ contemporaneous is refinement 1 of planning/attribution.md.
 Usage:
   python3 scripts/export-transcripts.py [session-id-prefix ...]
   python3 scripts/export-transcripts.py --source-dir DIR [prefix ...]
+  python3 scripts/export-transcripts.py --skip PREFIX
 
 --source-dir exports from a different Claude project directory —
 needed for sessions that shaped this project but ran elsewhere (the
 founding session 656ec2ba ran in -home-dlk-workspace).
+--skip excludes a session (prefix ok) — used by `make archive` so the
+live session never ships a partial transcript.
 """
 
 import json
@@ -144,6 +147,12 @@ def main():
         sessions_dir = Path(args[i + 1]).expanduser()
         args = args[:i] + args[i + 2 :]
 
+    skip = []
+    while "--skip" in args:
+        i = args.index("--skip")
+        skip.append(args[i + 1])
+        args = args[:i] + args[i + 2 :]
+
     if not sessions_dir.exists():
         print(f"No sessions found at {sessions_dir}", file=sys.stderr)
         sys.exit(1)
@@ -164,6 +173,10 @@ def main():
     if args:
         main_sessions = [
             f for f in main_sessions if any(f.stem.startswith(w) for w in args)
+        ]
+    if skip:
+        main_sessions = [
+            f for f in main_sessions if not any(f.stem.startswith(w) for w in skip)
         ]
 
     for session_file in main_sessions:

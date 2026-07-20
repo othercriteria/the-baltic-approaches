@@ -72,17 +72,24 @@ the single boundary type too coarse from a different direction):
    revisers." Here, raw session JSONLs are archived to
    `transcripts/raw/` (gzipped, LFS) and markdown transcripts exported
    to `transcripts/` as ongoing hygiene, not as pre-publication
-   cleanup. Archival is run by DK — raw session logs are a sensitive
-   store, and moving them into the repo is a human act (the Step-0
-   session was correctly denied permission to do it on its own
-   authority): `make transcripts` for markdown exports, plus a gzip
-   of each session's JSONL into `transcripts/raw/` at its wrap. The
-   founding session (656ec2ba, which chose this premise) lives in a
-   *different* project directory (`-home-dlk-workspace`) and must be
-   archived from there or it will be stranded — the exact WB failure;
-   `make transcripts-founding` covers it. Reconstructed mode remains
-   defined below, but in this project it is a failure state, not a
-   planned fallback.
+   cleanup. Archival is session-run hygiene: `make archive
+   SKIP=<live-session-uuid>` exports transcripts and raw-archives
+   every wrapped session, idempotently. The authority history is part
+   of the record: the Step-0 session first tried to archive on its
+   own initiative and was denied by the permission layer (raw session
+   logs are a sensitive store), so the initial design assigned
+   archival to DK as a human act; DK reversed this the same day with
+   a standing authorization and the controlling reason — a process
+   that depends on a human remembering a periodic command "is going
+   to be flubbed or forgotten... not for any meaningful reasons of
+   intent, but just human clumsiness," which is precisely the failure
+   class this refinement exists to close. Both the denial and the
+   reversal stand. The founding session (656ec2ba, which chose this
+   premise) lived in a *different* project directory
+   (`-home-dlk-workspace`) and would have been stranded — the exact
+   WB failure; `make transcripts-founding` covers it. Reconstructed
+   mode remains defined below, but in this project it is a failure
+   state, not a planned fallback.
 
 2. **Commits carry their session.** Every commit made by a model
    session includes a `Session-Id:` trailer with the full session

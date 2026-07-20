@@ -22,7 +22,14 @@ FOUNDING_ID = 656ec2ba-b295-4e5d-8712-5e270300dcde
 FOUNDING_DIR = $(HOME)/.claude/projects/-home-dlk-workspace
 OWN_DIR = $(HOME)/.claude/projects/-home-dlk-workspace-the-mission-1986
 
-.PHONY: archive transcripts transcripts-founding raw-archive shelf
+.PHONY: archive transcripts transcripts-founding raw-archive shelf test demo
+
+# Wargame instrument
+test:
+	@python3 -m pytest tests/ -q
+
+demo:
+	@python3 -m wargame wargame/scenarios/toy-landjut.toml --days 14
 
 # Fetch the research shelf (reference/pdf/, gitignored; manifest of
 # record is reference/shelf.md)

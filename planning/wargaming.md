@@ -106,7 +106,7 @@ attrition/advance arithmetic comes from the period models (option 1),
 with LC-style structures carrying the parts models don't
 (deception, discrete enabler decisions, the sea's shadow).
 
-## Resolution structure (session lean 2026-07-20; DK to ratify)
+## Resolution structure (ratified by DK, 2026-07-20)
 
 Top-down, not bottom-up. The honest quantities are aggregate
 (division/corps: movement, daily attrition, throughput, decision

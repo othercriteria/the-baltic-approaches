@@ -22,7 +22,12 @@ FOUNDING_ID = 656ec2ba-b295-4e5d-8712-5e270300dcde
 FOUNDING_DIR = $(HOME)/.claude/projects/-home-dlk-workspace
 OWN_DIR = $(HOME)/.claude/projects/-home-dlk-workspace-the-mission-1986
 
-.PHONY: archive transcripts transcripts-founding raw-archive
+.PHONY: archive transcripts transcripts-founding raw-archive shelf
+
+# Fetch the research shelf (reference/pdf/, gitignored; manifest of
+# record is reference/shelf.md)
+shelf:
+	@python3 scripts/fetch-shelf.py
 
 archive:
 	@python3 scripts/export-transcripts.py $(if $(SKIP),--skip $(SKIP))

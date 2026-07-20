@@ -24,8 +24,15 @@
           gnumake
           pandoc
           texlive
-          python3
           vale
+
+          # Coding footprint (heftier than WB by design: wargaming models,
+          # ledger tooling, fetch scripts). ruff + jq also serve the
+          # user-level PostToolUse lint hooks.
+          (python3.withPackages (ps: with ps; [ numpy pytest ]))
+          ruff
+          uv
+          jq
 
           # PDF work: reading, QA renders, page surgery
           poppler-utils # pdftotext, pdftoppm, pdfinfo, pdfseparate, pdfunite

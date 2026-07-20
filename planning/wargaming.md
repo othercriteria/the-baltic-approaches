@@ -1,0 +1,78 @@
+# Wargaming approach
+
+*Step-0 sketch (2026-07-20). Purpose and options; system choice is a
+Phase-1 decision after the echelon/front question narrows.*
+
+## What the wargaming is for
+
+Following the Red Storm Rising / Convoy-84 precedent (Clancy & Bond
+gamed the convoy battles; the book's operational spine came out of
+the game), but scoped to our needs:
+
+1. **Plot logistics integrity.** Time-space-attrition honesty at
+   50-60k words of sustained operations: can that brigade actually
+   reach that river line by that chapter; what does a week of
+   defensive combat leave of a division. Feeds and is fed by the
+   order-of-battle ledger (CLAUDE.md) — the game state IS the ledger's
+   attrition column.
+2. **Honest surprise.** A gamed campaign produces the unplanned
+   reverses and ugly tradeoffs that invented campaigns lack; the
+   Convoy-84 lesson is that the dice write better operational irony
+   than the author does.
+3. **Doctrinal demonstration.** The book's thesis (tempo as
+   throughput, echelonment as constraint) should be *checkable* in
+   the model: if the counterstroke works in the narrative but not in
+   the game, that is an Andon Cord moment for the thesis itself.
+
+## Options
+
+**1. Ad hoc, period-published models in Python (current lean).**
+Implement the models the period itself argued with — which makes the
+tooling double as research and even as diegetic texture (a 1986
+staff officer can plausibly have met Dupuy's numbers or the
+Lanchester debate):
+
+- Lanchester square/linear laws — the baseline everyone attacks;
+- Dupuy's QJM (Numbers, Predictions and War, 1979/1985) — the
+  attrition-and-advance-rate framework actually used in 1980s
+  NATO/WP net assessments;
+- Epstein's adaptive dynamic model (The Calculus of Conventional
+  War, 1985) — built *against* Lanchester precisely to model
+  withdrawal and tempo decisions;
+- the Posen/Mearsheimer attrition-FEBA exchange (International
+  Security, 1984-88) — the 3:1 rule debate, i.e., the period's own
+  fight about whether these models mislead (thematically on the
+  nose: metrics that mislead is the book's engine).
+
+Deterministic + seeded, inspectable, pytest-covered, outputs writing
+directly into the OOB ledger. Hex/area map as plain data files.
+
+**2. Semi-COTS: open engines.** Survey before committing (forced
+alternatives; queue a proper look in Phase 1):
+
+- **VASSAL** (open-source board-wargame engine) — we'd build a tiny
+  module over our own map/counters; buys a real map UI and manual
+  play with DK, costs module-building time and gives no automation;
+- open-source hex-wargame codebases (candidates to survey: any
+  maintained operational-level engines with data-driven scenarios);
+- commercial period sims (Flashpoint Campaigns, the Tiller corpus)
+  are out per the free/open constraint, but their documentation and
+  scenario research are legitimate shelf material.
+
+**3. Hybrid (likely landing zone).** Python models for attrition/
+tempo arithmetic and ledger integration; a VASSAL-or-paper map for
+the human-visible operational picture when DK and the session game a
+campaign move-by-move. Decide after the front is chosen — LANDJUT
+needs naval/amphib representation that none of the land models
+carry natively, which would push more weight onto the ad hoc side.
+
+## Disciplines (from the project's process rules)
+
+- The model is an instrument, not an oracle: its outputs are briefs;
+  the counter-brief (does this result survive contact with the
+  research shelf?) precedes canon.
+- Every gamed campaign gets committed: inputs, seed, outputs, and
+  the narrative deltas it forced — same provenance discipline as
+  everything else.
+- Calibration comes from the shelf (Dupuy's historical rates, CSI/
+  Leavenworth case studies), not from genre fiction.

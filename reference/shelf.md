@@ -15,6 +15,7 @@ white-buffalo.
 | FM 100-5 *Operations*, 1986 (207 pp) | The setting-year edition; canonical vocabulary for what a 1986 officer could have read |
 | Romjue, *From Active Defense to AirLand Battle* (TRADOC, 1984; 144 pp) | The official history of the 1976→1982 doctrinal fight — the intellectual drama the mentor arc dramatizes; also the best map of Active Defense's named defects |
 | FM 100-2-1 *The Soviet Army: Operations and Tactics* (1984; 203 pp) | What NATO *believed* about Soviet echelonment, OMGs, and norms in-period — the threat model characters reason with (right or wrong) |
+| *Littoral Commander: The Baltic* rules (Bae & Wernert, Dietz Foundation 2025; 104 pp) | Wargaming baseline, NOT period doctrine: grand-tactical Baltic system to build our micro-strategic instrument against (planning/wargaming.md has the steal/skip list) |
 
 ## Fetch queue (free/PD; URLs to be hunted)
 
@@ -59,11 +60,13 @@ white-buffalo.
 
 ## Shelf disciplines
 
-- Period line: primary doctrine must be dated ≤1986 for anything a
-  character can know; post-1986 scholarship (Glantz's later work,
-  CSI retrospectives) is for *us* — mark distillations accordingly
-  so nothing anachronistic leaks into characters' mouths (CLAUDE.md
-  voice rule).
+- Period line: primary doctrine must predate the setting year for
+  anything a character can know. The year is provisionally mid-80s
+  and UNPINNED (planning/setting-time.md) — so distillations must
+  tag source dates rather than assume 1986; later scholarship
+  (Glantz's later work, CSI retrospectives) is for *us* — mark
+  distillations accordingly so nothing anachronistic leaks into
+  characters' mouths (CLAUDE.md voice rule).
 - Every fetched item gets pinned (sha256) in the fetch script; a
   moved/dead URL is a fix-the-script event, not a lose-the-source
   event.

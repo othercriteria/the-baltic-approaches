@@ -66,6 +66,46 @@ campaign move-by-move. Decide after the front is chosen — LANDJUT
 needs naval/amphib representation that none of the land models
 carry natively, which would push more weight onto the ad hoc side.
 
+## Baseline to build against: Littoral Commander: The Baltic
+
+DK's pointer (2026-07-20) for the non-model-based part; rules PDF on
+the shelf (`reference/pdf/littoral-commander-baltic-rules.pdf`, 104
+pp, Bae & Wernert, Dietz Foundation 2025). Deltas first: LC is
+**grand tactical** (20 km hexes, company-battalion counters, hours-
+scale turns) with a 2030+ unit set; we are closer to
+**micro-strategic** (DK's term — a whole small theater held in one
+frame, days-scale, division/brigade counters, mid-80s kit). So it is
+a baseline, not a chassis. What's worth stealing:
+
+- **Capability cards bought from a command-point budget** (LC's
+  JCCs): a clean way to represent theater-level enablers (a FOFA
+  strike package, a sortie surge, an OMG commitment) as discrete,
+  priced decisions rather than continuous modifiers — and priced
+  decision-making under a budget is literally the book's subject.
+- **Deception counters and concealment as first-class units**
+  (MILDECs): cheap fog-of-war that produces honest surprise without
+  hidden bookkeeping — the recon-strike payload needs exactly this
+  (what you kill may be a decoy; what you didn't find kills you).
+- **Logistics units with explicit resupply values**, targetable and
+  capturable: throughput made visible on the map.
+- **Naval zone abstraction** (off-map areas at 700/1,200 km with
+  range/CV penalties): the pattern for LANDJUT's Baltic dimension —
+  represent the sea fight's *pressure* on the land campaign without
+  simulating it.
+- **Initiative from results** (last turn's destruction decides who
+  moves first): tempo advantage as an earned, visible state — close
+  to the book's thesis in mechanism form.
+- **Scenario = narrative + OOB + CP allocation + victory conditions**,
+  and the rulebook's own ethos ("adapted to fit the educational
+  objective and not as a straitjacket") — the right spirit for an
+  instrument that serves a manuscript.
+
+What we would *not* inherit: card-driven near-future kill-chain
+content, the 2030 unit set, and the tactical turn grain — our
+attrition/advance arithmetic comes from the period models (option 1),
+with LC-style structures carrying the parts models don't
+(deception, discrete enabler decisions, the sea's shadow).
+
 ## Disciplines (from the project's process rules)
 
 - The model is an instrument, not an oracle: its outputs are briefs;

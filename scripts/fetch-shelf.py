@@ -41,6 +41,13 @@ ITEMS = [
         "https://www.bits.de/NRANEU/others/amd-us-archive/FM%20100-2-1(84).pdf",
         "8b42a298ca15b562770b7aa026fe6aa987368487ac0c5cce295cc8dccd78380e",
     ),
+    # Wargaming baseline, not period doctrine (rules PDF publicly
+    # hosted by the retailer; the game itself is on the purchase list)
+    (
+        "littoral-commander-baltic-rules.pdf",
+        "https://gamers-hq.de/media/pdf/9a/da/c0/Booklet_-_Rules_LCBaltic2-3-freigeschaltet.pdf",
+        "68f5dcf64b79700531e2d736949800662e8eedad7d6ed86f8400812a63a05e9a",
+    ),
 ]
 
 

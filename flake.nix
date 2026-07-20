@@ -20,6 +20,7 @@
         packages = with pkgs; [
           # Writing / build (white-buffalo pipeline: Makefile + assemble-style scripts)
           git
+          git-lfs # transcripts/raw/ JSONL archive (attribution process)
           gnumake
           pandoc
           texlive

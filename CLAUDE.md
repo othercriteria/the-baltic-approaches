@@ -37,6 +37,25 @@ reveals otherwise, that is an Andon Cord conversation, not a silent drift.
 - order-of-battle ledger (formations, equipment, attrition state by chapter)
 - continuity notes per Part
 
+## Provenance (binding from Step 0, unlike the Phase-1-pending sections)
+
+The attribution process (`planning/attribution.md`) exists *before* the
+work, so its disciplines apply to every session from the first:
+
+- **Every commit carries a `Session-Id:` trailer** with the session's
+  full UUID (alongside the Co-Authored-By line).
+- **After a compaction**, the successor's first act: append the boundary
+  to the lineage log in `notes/attribution-ledger.md` and draft its
+  predecessor's index row (marked summary-derived).
+- **Rewinds and discarded branches get logged** in the lineage log by
+  the surviving lineage when DK reports them.
+- **Decisions live in text**, not thinking — conclusions and span
+  accounting go into files or visible output in-session.
+- **Transcript/JSONL archival is DK's act** (`make transcripts`,
+  `make raw-archive SESSION=<uuid>` at session wrap); sessions remind,
+  never run it themselves.
+- The ledger's Statements section is append-only, forever.
+
 ## Process rules (presumed to apply to any model on this project)
 
 Inherited from White Buffalo's model-author findings; a fresh critique profile

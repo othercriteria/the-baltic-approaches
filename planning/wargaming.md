@@ -106,6 +106,33 @@ attrition/advance arithmetic comes from the period models (option 1),
 with LC-style structures carrying the parts models don't
 (deception, discrete enabler decisions, the sea's shadow).
 
+## Resolution structure (session lean 2026-07-20; DK to ratify)
+
+Top-down, not bottom-up. The honest quantities are aggregate
+(division/corps: movement, daily attrition, throughput, decision
+lag), the period models and their calibration data live at that
+grain, and bottom-up aggregation has no validation ground truth —
+it compounds error toward being confidently wrong about exactly what
+the book is about. Structure:
+
+- **Top of frame = the theater command owning the front** (BALTAP/
+  AFNORTH for LANDJUT), *not* ACE/SACEUR. Higher echelons enter as
+  boundary conditions — air apportionment, withheld releases —
+  scripted or stochastic, never played. (The reader contract in
+  mechanism form: the top of the model is weather.)
+- **Battalion is the atomic counter** (~50-80 maneuver battalions
+  both sides at LANDJUT scale). Campaign frame moves counters;
+  engagement layer (the period models) adjudicates contacts.
+- **Decompose on demand only:** a named engagement can be zoomed to
+  companies by hand for a chapter, informed by the model's outcome,
+  not generated below battalion. Below battalion is prose.
+- **Verify top-down:** calibrate against Dupuy's historical rates
+  and the 3:1-debate worked cases; run identical scenarios through
+  Lanchester/QJM/Epstein and treat divergence as a sensitivity
+  brief, not a contest to pick a winner.
+- Emergent surprise comes from deception counters, priced enabler
+  decisions, and engagement dice — not from simulated fire teams.
+
 ## Disciplines (from the project's process rules)
 
 - The model is an instrument, not an oracle: its outputs are briefs;

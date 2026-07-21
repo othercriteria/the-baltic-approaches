@@ -63,6 +63,20 @@ hysteresis), deep-target choice (echelon vs throughput), pursuit
 into a starved enemy, and the OOB-ledger export (wargame/ledger.py).
 Campaign 1 closes here; notes/wargaming-findings.md carries the
 claim ledger and handoff.
+
+v7 opens campaign 2 with the air command layer, grounded in
+reference/air-apportionment.md: the deep/close split is a THEATER
+decision (COMBALTAP at Karup), not the corps'. In
+apportionment_mode="advocacy" the corps holds only a request;
+each day (after advocacy_lag_days) the theater moves advocacy_rate
+of the gap between its current apportionment and the corps request
+— the persuasion tax as a first-order lag, the G-3's air-side
+quality as a number beside v4's recognition lag. naval_claim_frac
+models the standing maritime-strike claim (Op Hurricane pattern) on
+the same deep-capable airframes while the amphib window is open;
+the sea-state day that releases the beach watch releases the
+Tornados too. apportionment_mode="direct" (default) reproduces v6
+exactly.
 """
 
 import math
@@ -112,6 +126,8 @@ class DayLog:
     bfill: float = 1.0  # blue supply fulfillment (effectiveness input)
     rfill: float = 1.0  # red supply fulfillment (falls as its LOC stretches)
     pause: bool = False  # red operational pause (building supply forward)
+    deep_frac: float = 0.0  # v7: today's GRANTED apportionment (theater's)
+    air_naval: float = 0.0  # v7: deep-capable points diverted to the fleet strike
 
 
 @dataclass
@@ -137,6 +153,19 @@ class Campaign:
             if p.get("amphib_close_max", 0)
             else None
         )
+        # v7: the apportionment is theater state, not a blue knob.
+        # "direct" reproduces v6 (deep_fraction used as-is);
+        # "advocacy" starts at the theater's own prior and moves
+        # toward the corps request only as fast as the daily
+        # conference grants it.
+        mode = p.get("apportionment_mode", "direct")
+        if mode == "advocacy":
+            self.deep_frac_today = p.get(
+                "theater_deep_fraction", p.get("deep_fraction", 0.0)
+            )
+        else:
+            self.deep_frac_today = p.get("deep_fraction", 0.0)
+        self.naval_frac_today = 0.0
         state = {}
         for name, ax in self.axes.items():
             spec = ax["spec"]
@@ -147,6 +176,21 @@ class Campaign:
             )
         for day in range(1, days + 1):
             wx = self._weather(rng)  # theater-wide, one draw per day
+            if mode == "advocacy" and day > p.get("advocacy_lag_days", 0):
+                req = p.get("corps_request_deep", self.deep_frac_today)
+                gap = req - self.deep_frac_today
+                self.deep_frac_today = min(
+                    max(self.deep_frac_today + p.get("advocacy_rate", 0.0) * gap, 0.0),
+                    1.0,
+                )
+            # Maritime-strike claim on deep-capable sorties while the
+            # amphib window is open; sea state releases it (same day
+            # as the beach watch).
+            self.naval_frac_today = (
+                p.get("naval_claim_frac", 0.0)
+                if self.amphib_release_day and day < self.amphib_release_day
+                else 0.0
+            )
             live = [n for n, st in state.items() if not st.fallen]
             if self.aircraft > 0:
                 points_today = self.aircraft * p["sorties_per_aircraft"] * wx
@@ -244,7 +288,8 @@ class Campaign:
                 blue.reserve.remove(u)
                 blue.units.append(u)
                 blue_arrivals += 1
-        air_close, air_deep = self._air(red, st, wx, air_share)
+        air_close, air_deep, air_naval = self._air(red, st, wx, air_share)
+        self._naval_log = air_naval  # picked up by _log for this axis-day
 
         # Supply fulfillment: throughput is the constraint. Blue
         # draws on short interior lines (flat theater capacity); red
@@ -516,25 +561,34 @@ class Campaign:
     def _air(self, red, st, wx, points):
         """Allocate this axis's air share; pay the airframe bill.
         Deep sorties fly into the follow-on echelon's air defense
-        and cost more than close support over friendly lines."""
+        and cost more than close support over friendly lines.
+        v7: the deep fraction is the THEATER's granted apportionment
+        (self.deep_frac_today), and the maritime-strike claim skims
+        the deep-capable share first — those sorties fly against the
+        invasion fleet, pay the deep airframe price, and give the
+        land battle nothing."""
         p = self.params
-        deep_frac = p.get("deep_fraction", 0.0)
-        deep = points * deep_frac
-        close = points - deep
+        deep = points * self.deep_frac_today
+        naval = deep * self.naval_frac_today
+        deep -= naval
+        close = points - deep - naval
         if deep > 0 and red.reserve:
             red.attrit_reserve(deep * p["deep_attrition_per_point"])
             st.red_delay_days += min(
                 deep * p["deep_delay_per_point"], p["deep_delay_cap_dpd"]
             )
         else:
+            # No echelon left to interdict: land-deep effort reverts
+            # to close support (the naval claim does not — the fleet
+            # is still there).
+            close += deep
             deep = 0.0
-            close = points
         if getattr(self, "aircraft", 0.0) > 0:
-            losses = close * p.get("loss_per_close_point", 0.0) + deep * p.get(
-                "loss_per_deep_point", 0.0
-            )
+            losses = close * p.get("loss_per_close_point", 0.0) + (
+                deep + naval
+            ) * p.get("loss_per_deep_point", 0.0)
             self.aircraft = max(self.aircraft - losses, 0.0)
-        return close, deep
+        return close, deep, naval
 
     def _check_fallen(self, st):
         if st.feba_km >= st.length_km:
@@ -588,5 +642,7 @@ class Campaign:
                 bfill=round(bfill, 2),
                 rfill=round(rfill, 2),
                 pause=pause,
+                deep_frac=round(getattr(self, "deep_frac_today", 0.0), 3),
+                air_naval=round(getattr(self, "_naval_log", 0.0), 1),
             )
         )

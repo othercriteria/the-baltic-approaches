@@ -4,6 +4,65 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-21 — v7 (air command layer) — CAMPAIGN 2 OPENS (session 71ede904)
+
+DK direction: campaign 2 must land (1) the honest air story and
+(2) echelon decomposition to at least division grade. v7 is (1),
+built directly on reference/air-apportionment.md.
+
+Mechanics: **apportionment_mode="advocacy"** — deep_fraction is now
+THEATER state (COMBALTAP's), initialized at theater_deep_fraction;
+the corps holds only corps_request_deep, and each daily conference
+(after advocacy_lag_days) grants advocacy_rate of the remaining gap.
+**naval_claim_frac** — the Op Hurricane pattern: while the amphib
+window is open, that share of deep-capable sorties flies against
+the invasion fleet (pays the deep airframe price, gives the land
+battle nothing); the sea-state day that releases the beach watch
+releases the Tornados. "direct" mode reproduces v6 exactly
+(regression-tested). 40 tests green.
+
+**Finding 1 (point values, toy scenario): the persuasion tax is
+paid in days, not sorties.** Corps request 1.0 against theater
+prior 0.2, 30 days, n=40: direct ownership ends at 36.6 blue CV;
+advocacy at rate 0.3 ends at 18.8 — HALF THE FORCE spent on the
+argument — while the campaign-mean granted deep is 0.91. At rate
+0.15 the theater eventually grants 0.82 of the effort and blue
+still ends at 9.8: the sorties arrive after the echelon they were
+for. Rate 0.0 reproduces the voiceless floor exactly (identity
+verified 100/100 in the sweep). The intermediate rate also drags
+the theater through the split-effort zone during exactly the wrong
+week — v1's "split is worst" ghost, returned as a temporal
+phenomenon.
+
+**Finding 2 (the sweep's correction, n=100 perturbed worlds):
+the tax has a sign only the enemy model can supply.** Blue CV
+monotone in advocacy_rate in just 41/100 worlds; the tax at rate
+0.3 is median 6% but p90 81%. Where the corps' standing request is
+wrong for the world (close-support-favoring parameter draws), the
+theater's inertia PROTECTS the force from its own G-3. So: the
+persuasion tax is only a tax when the corps is right, and whether
+it is right is the G-2 question — the instrument's central claim
+(policy ranking is hostage to the enemy model) now covers the
+argument about the policy. For the book: the new commander's G-3
+fighting the Karup conference is fighting over enemy models, and
+the conference's conservatism is both antagonist and safety net —
+which is better drama than a villainous bureaucracy, and truer.
+
+**Naval claim (directional, not certified):** at advocacy 0.3,
+claim 0.3 halves blue's ending CV (18.8 → 9.0) while axes-held
+stays flat-to-better — the fleet strike is priced in force, not
+ground, and the ground/force criterion split (v5) reappears at the
+joint level: COMBALTAP's Hurricane insurance is bought with
+LANDJUT's ending strength.
+
+**v8 queue (mandate 2):** echelon decomposition — divisions as
+decision-makers (own reserves, own recognition lags, local CA),
+corps-grade decisions separated (air sub-allocation between axes,
+corps reserve, hold-line politics), so "where do the interesting
+decisions live" becomes an experiment instead of a frame
+assumption (the hostile review's attack 3, answered in the
+instrument's own language).
+
 ## 2026-07-21 — calibration pass opens (session 71ede904; research, no mechanics)
 
 FM 101-10-1 consumption extraction done →

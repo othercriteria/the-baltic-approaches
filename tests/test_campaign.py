@@ -480,3 +480,109 @@ def test_year_parameterization_mechanism():
     assert dropped == []  # toy units carry no in_service dates
     bn = Battalion(name="x", side="red", kind="armor", cv=10, in_service=1985)
     assert bn.in_service > 1955
+
+
+# -- v7: the air command layer (theater apportionment, advocacy, --
+# -- naval claim) — reference/air-apportionment.md ---------------
+
+
+def run_v7(days=18, seed=1986, **over):
+    data, axes, _ = load_scenario(SCEN)
+    data["params"]["wx_standdown_prob"] = 0.0
+    data["params"]["wx_min"] = 1.0
+    data["params"]["wx_max"] = 1.0
+    data["params"].update(over)
+    camp = Campaign(axes=axes, params=data["params"], seed=seed)
+    state = camp.run(days)
+    return camp, state, axes
+
+
+def test_direct_mode_reproduces_v6():
+    # The v7 layer must not perturb direct-mode runs: same logs as a
+    # run that never heard of apportionment_mode.
+    a, _, _ = run_v7(deep_fraction=1.0, apportionment_mode="direct")
+    data, axes, _ = load_scenario(SCEN)
+    data["params"]["wx_standdown_prob"] = 0.0
+    data["params"]["wx_min"] = 1.0
+    data["params"]["wx_max"] = 1.0
+    data["params"]["deep_fraction"] = 1.0
+    del data["params"]["apportionment_mode"]
+    b = Campaign(axes=axes, params=data["params"], seed=1986)
+    b.run(18)
+    assert [(e.feba_km, e.air_deep, e.air_close) for e in a.logs] == [
+        (e.feba_km, e.air_deep, e.air_close) for e in b.logs
+    ]
+
+
+def test_advocacy_converges_toward_request_after_lag():
+    camp, _, _ = run_v7(
+        apportionment_mode="advocacy",
+        theater_deep_fraction=0.2,
+        corps_request_deep=1.0,
+        advocacy_rate=0.3,
+        advocacy_lag_days=2,
+    )
+    fracs = {}
+    for e in camp.logs:
+        fracs.setdefault(e.day, e.deep_frac)
+    # Held at the theater prior through the lag...
+    assert fracs[1] == 0.2 and fracs[2] == 0.2
+    # ...then moves monotonically toward the request, never past it.
+    days = sorted(fracs)
+    seq = [fracs[d] for d in days]
+    assert all(b >= a for a, b in zip(seq, seq[1:]))
+    assert seq[-1] > 0.8 and seq[-1] <= 1.0
+
+
+def test_advocacy_rate_zero_leaves_corps_voiceless():
+    camp, _, _ = run_v7(
+        apportionment_mode="advocacy",
+        theater_deep_fraction=0.2,
+        corps_request_deep=1.0,
+        advocacy_rate=0.0,
+    )
+    assert all(e.deep_frac == 0.2 for e in camp.logs)
+
+
+def test_naval_claim_skims_deep_until_sea_state_release():
+    camp, _, _ = run_v7(
+        apportionment_mode="advocacy",
+        theater_deep_fraction=1.0,
+        corps_request_deep=1.0,
+        advocacy_rate=0.0,
+        naval_claim_frac=0.5,
+    )
+    rel = camp.amphib_release_day
+    assert rel is not None
+    before = [e for e in camp.logs if e.day < rel and e.air_deep + e.air_naval > 0]
+    after = [e for e in camp.logs if e.day >= rel]
+    # While the window is open the fleet strike takes half the deep
+    # effort; the sea-state day hands it back to the land battle.
+    assert before and all(e.air_naval > 0 for e in before)
+    assert all(e.air_naval == 0 for e in after)
+    day1 = [e for e in before if e.day == 1]
+    assert all(abs(e.air_naval - e.air_deep) < 0.11 for e in day1)
+
+
+def test_naval_sorties_pay_the_deep_airframe_price():
+    base, _, _ = run_v7(
+        apportionment_mode="advocacy",
+        theater_deep_fraction=1.0,
+        advocacy_rate=0.0,
+        naval_claim_frac=0.0,
+        days=6,
+    )
+    claimed, _, _ = run_v7(
+        apportionment_mode="advocacy",
+        theater_deep_fraction=1.0,
+        advocacy_rate=0.0,
+        naval_claim_frac=0.5,
+        days=6,
+    )
+    # Same deep-rate airframe bill either way (the claim redirects
+    # sorties, it does not ground them)...
+    assert abs(base.aircraft - claimed.aircraft) < 1.0
+    # ...but the land battle sees less interdiction.
+    d_base = sum(e.air_deep for e in base.logs)
+    d_claim = sum(e.air_deep for e in claimed.logs)
+    assert d_claim < d_base * 0.7

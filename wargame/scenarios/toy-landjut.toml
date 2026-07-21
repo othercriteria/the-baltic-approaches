@@ -115,6 +115,21 @@ deep_supply_per_point = 6.0 # red flow cut per deep point-day (throughput mode)
 ca_pursuit_fill = 0.5
 ca_pursuit_mult = 2.0
 
+# v7: the air command layer (reference/air-apportionment.md). The
+# deep/close split is COMBALTAP's, decided daily at Karup; the corps
+# holds a request and argues. "direct" reproduces v6 (deep_fraction
+# as a free knob) for baselines and sweeps; switch to "advocacy" to
+# make the split theater-owned.
+apportionment_mode = "direct"
+theater_deep_fraction = 0.2  # the theater's prior (close-minded start) — toy
+corps_request_deep = 1.0     # the G-3's standing ask (CLI --deep overrides)
+advocacy_rate = 0.3          # fraction of the gap granted per daily conference
+advocacy_lag_days = 1        # days before the corps' argument first moves
+# Maritime-strike claim (Op Hurricane pattern): while the amphib
+# window is open, this share of deep-capable sorties flies against
+# the invasion fleet, not the land battle. Sea state releases it.
+naval_claim_frac = 0.0       # off by default; experiments turn it on
+
 [[axes]]
 name = "coastal-luebeck"
 length_km = 95  # Travemünde approaches -> Kiel Canal, roughly

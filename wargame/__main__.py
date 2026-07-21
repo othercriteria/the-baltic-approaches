@@ -37,7 +37,10 @@ def main():
 
     data, axes, dropped = load_scenario(args.scenario, year=args.year)
     if args.deep is not None:
+        # Direct mode: sets the split. Advocacy mode (v7): sets the
+        # corps REQUEST — the theater still decides.
         data["params"]["deep_fraction"] = args.deep
+        data["params"]["corps_request_deep"] = args.deep
     if args.no_hold:
         for ax in axes.values():
             ax["spec"]["hold_km"] = ax["spec"]["length_km"]

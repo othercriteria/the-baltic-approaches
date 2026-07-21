@@ -132,14 +132,28 @@ for *structural* departures.)
 
 ## Research queue (front-specific)
 
-- PHP/CWIHP Warsaw Pact documents on the Baltic/Danish axis (Wilson
-  Center digital archive collection: WP military planning)
-- DIIS, *Danmark under den kolde krig* (2005) — English summary vol
-- GDR 5th Army and SH-axis OOB with echelon timings
+- ~~PHP/CWIHP Warsaw Pact documents on the Baltic/Danish axis~~ →
+  ON THE SHELF 2026-07-21: 1964 war-plan dossier, Polish Maritime
+  Front directives 1961 (ex. "Storm") and 1967 (ex. "Summer 67" —
+  Schwerin–Lübeck–Jutland axes, Straits landings, 57 nuclear
+  strikes), Bange SOYUZ-75/SHCHIT-88 commentary. Facsimiles are
+  Polish/Russian — distillation still owed. Wilson Center digital
+  archive unreachable from this network (two more docs identified:
+  ex. VAL-77, Maritime Front offensive-operation decision — DK
+  browser fetch?).
+- ~~DIIS, *Danmark under den kolde krig* (2005) — English summary
+  vol~~ → ON THE SHELF: no full English volume exists; the 7-pp
+  English summary + all four Danish volumes held (vol 3, 1979-91,
+  carries the WP-threat-assessment material; Danish reading owed).
+- GDR 5th Army and SH-axis OOB with echelon timings (PHP facsimiles
+  above are 1960s — mid-80s state still open)
 - 6th PzGren Division brigade structure and garrisons (Bundeswehr
   sources)
-- Schleswig-Holstein Territorial Command structure (Davies's
-  "corps-sized, two divisions" claim)
+- ~~Schleswig-Holstein Territorial Command structure~~ → source ON
+  THE SHELF: Dragoner, *Die Bundeswehr 1989* Teil 2.2
+  (Territorialheer) — Davies-grade compendium, TerrKdo S-H OOB;
+  read + cross-check against Davies's "corps-sized, two divisions"
+  claim still owed before the OOB ledger encodes it.
 - HDv 100/100 (mid-80s edition) + Danish field regulations
 - BOLD GUARD / exercise records for LANDJUT (war-origin cover +
   procedure texture)
@@ -149,3 +163,10 @@ for *structural* departures.)
 - Mobilization timelines: Danish call-up mechanics, UKMF and US 9th
   ID deployment schedules (the covering-force clock in days —
   wargame calibration input)
+- **Air apportionment authority: LANDJUT request vs AIRBALTAP
+  allocation** — who actually decides the deep/close split in this
+  theater? Raised to load-bearing by the echelon hostile review
+  (planning/echelon-hostile-review.md, attack 2): if the split is
+  decided at Karup, the instrument's signature lever is not the
+  protagonist's. NATO-archives BALTAP cluster (on the shelf) +
+  BOLD GUARD exercise records are the likely sources.

@@ -129,6 +129,204 @@ ITEMS = [
         "https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-LPS12561/pdf/GOVPUB-D101-PURL-LPS12561.pdf",
         "1217db93c9f33f046ad53f9375f945381e19ed9d75517d0d9503d0acefb8900e",
     ),
+    # Batch 4 (2026-07-21, fetch-queue hunt, session 71ede904).
+    # CSI/Leavenworth/SASO cluster — Soviet operational art and the
+    # combined-arms survey that was on the queue from Step 0
+    (
+        "house-toward-combined-arms-warfare-1984.pdf",
+        "https://archive.org/download/DTIC_ADA528264/DTIC_ADA528264.pdf",
+        "fdc57c95c1d067a5924ec130ad6adf39c7e7a21e09b9abc8c9e9849b2f6abbd6",
+    ),
+    # 1984 Art of War Symposium transcript (Glantz, Carlisle) — Soviet
+    # offensive operational art argued by the principals; CARL-only
+    (
+        "glantz-1984-art-of-war-symposium-don-to-dnepr.pdf",
+        "https://cgsc.contentdm.oclc.org/digital/api/collection/p4013coll8/id/4111/download",
+        "83335fa8ede45ad8dfc56d6f54c63bb564db0be02954333dd07b0dab0dc5bb59",
+    ),
+    (
+        "glantz-soviet-operational-art-tactics-1930s.pdf",
+        "https://archive.org/download/DTIC_ADA232954/DTIC_ADA232954.pdf",
+        "94b07300332375df51426bfed9d1e59f3dbccb4cf9f5ac307abee505ff57e09d",
+    ),
+    # CSI Report 11 (1986) — echeloned defense at Kursk
+    (
+        "glantz-soviet-defensive-tactics-kursk-csi-report-11.pdf",
+        "https://archive.org/download/soviet-defensive-tactics-at-kursk-russia-july-1943-david-m-glantz-1986/Soviet_defensive_tactics_at_Kursk_russia_July_1943_-_David_M_Glantz_1986.pdf",
+        "23fda93501b131e34a48ff72959ee5a3b03cf990230706c22ae3c9227ae63f90",
+    ),
+    # Leavenworth Papers 7+8: August Storm — front-level operational
+    # art and its tactical execution (forward detachments, echelons)
+    (
+        "glantz-august-storm-strategic-leavenworth-paper-7.pdf",
+        "https://archive.org/download/DTIC_ADA144378/DTIC_ADA144378.pdf",
+        "13674a9bc02a723c4e07786b32125f0ac1dd3f5ae430f6284ba4b9de8d22a06e",
+    ),
+    (
+        "glantz-august-storm-tactical-leavenworth-paper-8.pdf",
+        "https://archive.org/download/DTIC_ADA143942/DTIC_ADA143942.pdf",
+        "986c482b3ad832459149c585a9d30e8eee6bbcc0fa04a68d2d3b04faaf624e06",
+    ),
+    # Dupuy/QJM methodology cluster — advance rates (ORALFORE), the
+    # official CAA evaluation of the HERO database (CHASE), and the
+    # clearest free exposition of QJM internals (NPS thesis)
+    (
+        "hero-oralfore-opposed-rates-of-advance-1972.pdf",
+        "https://archive.org/download/DTIC_AD0902830/DTIC_AD0902830.pdf",
+        "f1e90358ced5ebb6d175019124a936faa23eb74e123b2afe44c06b7e0dc499d8",
+    ),
+    (
+        "caa-chase-combat-history-analysis-1986.pdf",
+        "https://archive.org/download/DTIC_ADA179734/DTIC_ADA179734.pdf",
+        "7c9414f0a10403c637b56066da0fe15b8b9deef949521ddc174545495abad2b4",
+    ),
+    (
+        "nps-thesis-qjm-historic-ground-combat.pdf",
+        "https://archive.org/download/quantifiedjudgme00cianpdf/quantifiedjudgme00cian.pdf",
+        "712fdf4fc2d8c713399e35001b1e8b056b3f7c6479e45eafb3624b566b6f2dbb",
+    ),
+    # Period net-assessment debate — Mearsheimer self-archived copies
+    # (MIT Press copyright; author's own site; personal research use,
+    # never redistribute). Posen 1984-85 and Epstein's two articles
+    # have no legitimate open host — purchase/library list.
+    (
+        "mearsheimer-1982-why-soviets-cant-win-quickly.pdf",
+        "https://www.mearsheimer.com/wp-content/uploads/2019/07/A0006.pdf",
+        "18a0927b0c3da661b61f90f3e5850318b0411e20831ef6eb56ccbdb26a2cc5d8",
+    ),
+    (
+        "mearsheimer-1988-numbers-strategy-european-balance.pdf",
+        "https://www.mearsheimer.com/wp-content/uploads/2019/07/A0011.pdf",
+        "f6d2ee8668330caf54922ccd62bff2c561bc1c8d1462beb33d119a7402542c79",
+    ),
+    (
+        "mearsheimer-1989-assessing-conventional-balance-3-1-rule.pdf",
+        "https://www.mearsheimer.com/wp-content/uploads/2019/07/A0013.pdf",
+        "69212eca594ed77aada0ac4a2db3af9158ce93b45e8f231bfad315c6c3acbadf",
+    ),
+    # IS 13:4 correspondence section (52 pp) — the Epstein side of the
+    # 3:1 exchange lives here in open form
+    (
+        "is-13-4-1989-correspondence-reassessing-net-assessment.pdf",
+        "https://www.mearsheimer.com/wp-content/uploads/2019/07/A0012.pdf",
+        "b98fc4f36e33790024b8d5da2ca0c1d83f8dff70c357bb8bf2b466a353eb2336",
+    ),
+    # Declassified WP assessments (CIA FOIA reading room via
+    # archive.org mirrors; cia.gov blocks non-browser fetches from
+    # here). Image-only scans, no text layer. Public domain.
+    (
+        "nie-11-14-85-warsaw-pact-theater-forces-1985-2000.pdf",
+        "https://archive.org/download/cia-readingroom-document-0000802732/0000802732.pdf",
+        "22f6da18ca6666a0957ea96371e59e3b6b595eca8246b7e4e8484c6d88c7049a",
+    ),
+    (
+        "nie-11-14-81-warsaw-pact-forces-opposite-nato.pdf",
+        "https://archive.org/download/cia-readingroom-document-0000281660/0000281660.pdf",
+        "8307ded3f659684f85580085418a28f4380c0c966325cdadbae9723f0308676e",
+    ),
+    (
+        "nie-11-14-79-warsaw-pact-forces-opposite-nato.pdf",
+        "https://archive.org/download/cia-readingroom-document-0000278537/0000278537.pdf",
+        "34fcab699eafc256211377a36b904536f9fa0e68ae90d842d668525f75246d25",
+    ),
+    # NI IIM 83-10002 — the sanitized 1983 interagency memo on WP
+    # campaign employment against NATO (Baltic axis coverage)
+    (
+        "ni-iim-83-10002-employment-warsaw-pact-forces-against-nato.pdf",
+        "https://archive.org/download/cia-readingroom-document-0000261340/0000261340.pdf",
+        "70fec1a2c4c2509a0c5e6c4b4baf2e86e9a3489a81cdce81710b981ff4865222",
+    ),
+    # Batch 5 (2026-07-21, Baltic/LANDJUT hunt, session 71ede904).
+    # PHP (ETH Zurich) — WP war-planning primary sources for the
+    # Danish axis: the 1964 plan dossier and two Polish Maritime
+    # Front exercise directives in facsimile (the enemy's clock)
+    (
+        "php-warsaw-pact-war-plans-1964-dossier.pdf",
+        "https://www.files.ethz.ch/isn/108642/warplan_dossier.pdf",
+        "f0241f5423dbcace69a5811f1f1d6f76f3084e9b9ebec6f4a454a336ecaa6ac6",
+    ),
+    (
+        "php-maritime-front-directive-1961.pdf",
+        "https://phpisn.ethz.ch/kms2.isn.ethz.ch/serviceengine/Files/PHP/20316/ipublicationdocument_singledocument/5bc8ce55-ee20-44c5-a30c-632f879be2b2/pl/OperationalDirective_041061.pdf",
+        "7c9ce212db0d845fb73ca08425643ce25bd611c0762c7c1d18e44334a5d30c67",
+    ),
+    (
+        "php-maritime-front-directive-1967.pdf",
+        "https://phpisn.ethz.ch/kms2.isn.ethz.ch/serviceengine/Files/PHP/20318/ipublicationdocument_singledocument/61cd99c8-8388-466c-bbd5-f454fda05a53/ru/OperationalDirective_310567.pdf",
+        "a970ff094f1efc0bb73a3e5b641a87fa7dc3f490709dc058c32b32a43f88a605",
+    ),
+    (
+        "wilson-bange-soyuz75-shchit88.pdf",
+        "https://www.wilsoncenter.org/sites/default/files/media/documents/publication/Bange%20Commentary.pdf",
+        "506921d585e5e45fa25357b2ac56809006cab0ead09a359b167c8170cbc42550",
+    ),
+    # DIIS, Danmark under den kolde krig (2005): the 7-pp English
+    # summary is the only English release (no full English volume
+    # exists); vol 3 (1979-91) carries the WP-threat material
+    (
+        "diis-denmark-cold-war-english-summary.pdf",
+        "https://phpisn.ethz.ch/lory1.ethz.ch/documents/Denmark_English_summary.pdf",
+        "1f29a5b2446bfcb9204f364700c8e098f9c2fdcc439d13732a7bc6f58190cc03",
+    ),
+    (
+        "diis-kk-bind1-1945-62.pdf",
+        "https://pure.diis.dk/ws/files/27984/KKBind1.pdf",
+        "7d868600543f7ee650523b7fe7174af7bfd7134bc3312a4dd113b913e7f8bdc4",
+    ),
+    (
+        "diis-kk-bind2-1963-78.pdf",
+        "https://pure.diis.dk/ws/files/27985/KKBind2.pdf",
+        "86218035290679936fec8949ee00e2dd323c1220efae671bac3b86c8e2b90ba8",
+    ),
+    (
+        "diis-kk-bind3-1979-91.pdf",
+        "https://pure.diis.dk/ws/files/27986/KKBind3.pdf",
+        "f5a354434392a9712fec478e4b89376e48b1cac11c22e092cef1e5d323faec05",
+    ),
+    (
+        "diis-kk-bind4-konklusioner.pdf",
+        "https://pure.diis.dk/ws/files/27987/KKBind4.pdf",
+        "5b5eed35ccb1739b256b59591d14c9b335916220081dc2fc1561063e504af948",
+    ),
+    # NATO Archives Online — BALTAP activation cluster (1962,
+    # declassified); the archive holds 600+ more BALTAP/LANDJUT items
+    (
+        "nato-sgm-0694-62-baltap-activation.pdf",
+        "https://archives.nato.int/uploads/r/nato-archives-online/f/4/6/f46dde450ec17987210b1e9e41ddcb9751a465ff5a38db6ebd81a5252b7a1176/SGM-0694-62_ENG_NHQO62000582E.pdf",
+        "f46dde450ec17987210b1e9e41ddcb9751a465ff5a38db6ebd81a5252b7a1176",
+    ),
+    (
+        "nato-ipt-020-244-baltap-activation.pdf",
+        "https://archives.nato.int/uploads/r/nato-archives-online/1/5/3/1538e3ef2a537ff9e62afd1aee2032145bd294611cd87fd92042c7afa58a54d5/IPT_020_244_ENG_NHQO62001054E.pdf",
+        "1538e3ef2a537ff9e62afd1aee2032145bd294611cd87fd92042c7afa58a54d5",
+    ),
+    (
+        "nato-sglp-0433-62-baltap-hq.pdf",
+        "https://archives.nato.int/uploads/r/nato-archives-online/e/7/7/e77138f6aa0a1aa78b054e19ab4433531189672148f7b5b227d69f8d4129df95/SGLP_0433_62_ENG_NHQI62000832E.pdf",
+        "e77138f6aa0a1aa78b054e19ab4433531189672148f7b5b227d69f8d4129df95",
+    ),
+    # Dragoner, Die Bundeswehr 1989, Teil 2.2 (Territorialheer) —
+    # answers the TerrKdo Schleswig-Holstein OOB question. CAVEAT:
+    # author-released research compendium on a hobbyist mirror, not
+    # an institutional publication — treat as Davies-grade (verify
+    # before canon)
+    (
+        "dragoner-bundeswehr-1989-territorialheer.pdf",
+        "https://www.microarmormayhem.com/BW_Territorials.pdf",
+        "1f38e698d672b159e4798bef342dea314246fcd0fd5b5d619ace597cff9df20c",
+    ),
+    # Danish Agency for Culture — Cold War installations (official):
+    # 33-site survey (78 MB) and the systematic registration note
+    (
+        "slks-kold-krig-33-fortaellinger-2014.pdf",
+        "https://slks.dk/fileadmin/publikationer/Kulturarv/Kold_Krig_2014.pdf",
+        "581f67dc10f07fdef8d2b84ced66cfdab08a8cb017304f61013e6e674fd0e85b",
+    ),
+    (
+        "slks-dkka-baggrundsnotat.pdf",
+        "https://slks.dk/fileadmin/user_upload/kulturarv/fysisk_planlaegning/DKKA_baggrundsnotat_v8.pdf",
+        "813240fb27e7e67dea4285a49f4243e4dc907d4d2a8ebbc2681b1a2ef488abe5",
+    ),
 ]
 
 

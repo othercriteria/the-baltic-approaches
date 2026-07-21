@@ -20,6 +20,8 @@ class Battalion:
     cv: float  # combat value at full strength, abstract points
     strength: float = 1.0  # fraction remaining
     in_service: int | None = None  # first year fieldable, if known
+    arrival_day: int = 1  # campaign day the unit reaches the axis
+    # (>1 = follow-on echelon; subject to interdiction delay)
 
     @property
     def effective_cv(self):
@@ -31,26 +33,42 @@ class Battalion:
 
 @dataclass
 class Force:
-    """All battalions of one side assigned to one axis."""
+    """All battalions of one side assigned to one axis.
+
+    `units` are in contact; `reserve` are follow-on echelons not yet
+    arrived (the campaign moves them across on their arrival day,
+    plus any interdiction delay).
+    """
 
     side: str
     units: list[Battalion] = field(default_factory=list)
+    reserve: list[Battalion] = field(default_factory=list)
 
     @property
     def cv(self):
         return sum(u.effective_cv for u in self.units)
 
     @property
+    def reserve_cv(self):
+        return sum(u.effective_cv for u in self.reserve)
+
+    @property
     def alive(self):
         return [u for u in self.units if u.strength > 0.05]
 
     def distribute_losses(self, total_cv_lost):
-        """Spread a CV loss across surviving units pro rata."""
+        """Spread a CV loss across surviving in-contact units pro rata."""
         cv = self.cv
         if cv <= 0 or total_cv_lost <= 0:
             return
         frac = min(total_cv_lost / cv, 1.0)
         for u in self.units:
+            if u.strength > 0:
+                u.apply_loss_fraction(frac)
+
+    def attrit_reserve(self, frac):
+        """March-column attrition (interdiction) on unarrived echelons."""
+        for u in self.reserve:
             if u.strength > 0:
                 u.apply_loss_fraction(frac)
 
@@ -72,9 +90,14 @@ def load_scenario(path, year=None):
             kind=u["kind"],
             cv=u["cv"],
             in_service=u.get("in_service"),
+            arrival_day=u.get("arrival_day", 1),
         )
         if year and bn.in_service and bn.in_service > year:
             dropped.append(bn.name)
             continue
-        axes[u["axis"]][u["side"]].units.append(bn)
+        force = axes[u["axis"]][u["side"]]
+        if bn.arrival_day > 1:
+            force.reserve.append(bn)
+        else:
+            force.units.append(bn)
     return data, axes, dropped

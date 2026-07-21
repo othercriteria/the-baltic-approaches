@@ -12,22 +12,40 @@ year = 1986 # provisional; see planning/setting-time.md
 season = "november"
 
 [params]
-alpha = 0.055          # red daily fire effect on blue (per CV) — placeholder
+alpha = 0.055          # red daily fire effect on blue (per CV) — placeholder scale,
+                       # but tuned so realized daily loss fractions land in the
+                       # HERO band (division engagement norm ~1.0%/day, terrain/
+                       # weather cells 1.6-3.6%/day, bn ceiling ~3.5% — Figs 47-48)
 beta = 0.075           # blue on red (defender's advantage folded in) — placeholder
-blue_tolerance = 0.045 # daily loss fraction blue stands and absorbs — placeholder
+blue_tolerance = 0.03  # daily loss fraction blue will stand and absorb — HERO-
+                       # anchored: above the 1%/day division norm, below the
+                       # 3.5%/day short-of-catastrophe ceiling
 w_max_kmd = 12.0       # max withdrawal, km/day — placeholder
 march_kmd = 25.0       # unopposed road march, km/day — placeholder
 advance_ratio = 3.0    # ratio for pressure advance (the contested 3:1!)
 pressure_kmd = 4.0     # advance under pressure at ratio, km/day — placeholder
+                       # (real advance rates await QJM/NP&W, holdings pipeline)
+
+# Air model (November: short days suppress the totals; see
+# planning/setting-time.md). All values placeholder scale.
+blue_air_points = 6.0            # daily air effort available to LANDJUT
+deep_fraction = 0.0              # share sent deep (CLI --deep overrides)
+close_support_cv_per_point = 1.2 # CV added to today's engagement per point
+deep_attrition_per_point = 0.012 # march-column loss fraction per point-day
+deep_delay_per_point = 0.15      # arrival delay added per point-day...
+deep_delay_cap_dpd = 0.6         # ...capped: interdiction cannot STOP the
+                                 # echelon, only make it late and weaker
 
 [[axes]]
 name = "coastal-luebeck"
-length_km = 95 # Travemünde approaches -> Kiel Canal, roughly
-note = "Baltic coast axis; amphib threat on the flank NOT modeled in v0"
+length_km = 95  # Travemünde approaches -> Kiel Canal, roughly
+hold_km = 55    # political stand line short of the Canal approaches — toy
+note = "Baltic coast axis; amphib threat on the flank NOT modeled yet"
 
 [[axes]]
 name = "inland-bad-segeberg"
 length_km = 110
+hold_km = 65    # toy forward-defense line
 note = "Inland axis toward Rendsburg / the Canal crossings"
 
 # --- Red: two-division-ish first echelon, battalion atoms ---------
@@ -117,6 +135,82 @@ side = "red"
 axis = "inland-bad-segeberg"
 kind = "arty"
 cv = 6
+
+# --- Red second echelon (the FOFA target): a second division-ish
+# wave per axis, arriving on a march schedule interdiction can
+# stretch but not stop ------------------------------------------
+
+[[units]]
+name = "R-11 TR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "armor"
+cv = 10
+arrival_day = 5
+
+[[units]]
+name = "R-11 TR II"
+side = "red"
+axis = "coastal-luebeck"
+kind = "armor"
+cv = 10
+arrival_day = 5
+
+[[units]]
+name = "R-11 MRR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 5
+
+[[units]]
+name = "R-11 MRR II"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 6
+
+[[units]]
+name = "R-11 AR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "arty"
+cv = 6
+arrival_day = 6
+
+[[units]]
+name = "R-12 TR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "armor"
+cv = 10
+arrival_day = 6
+
+[[units]]
+name = "R-12 TR II"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "armor"
+cv = 10
+arrival_day = 6
+
+[[units]]
+name = "R-12 MRR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "mech"
+cv = 8
+arrival_day = 7
+
+[[units]]
+name = "R-12 AR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "arty"
+cv = 6
+arrival_day = 7
 
 # --- Blue: LANDJUT-ish covering force, battalion atoms ------------
 

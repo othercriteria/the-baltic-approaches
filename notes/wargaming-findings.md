@@ -4,6 +4,77 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-20 — v1 (echelonment, close-vs-deep air, hold lines)
+
+Mechanics added per the v0 tension list: red follow-on echelons on
+arrival schedules; a blue air-allocation lever (`deep_fraction`:
+close support adds CV to today's fight, interdiction attrits and
+delays the *unarrived* echelon, delay rate capped — you cannot stop
+the second echelon, only make it late and weaker); political hold
+lines per axis (forward defense as geometry — withdrawal stops
+there, standing means full-contact attrition); logs now carry the
+G3's decision input (projected full-contact loss) alongside the
+realized outcome. Attrition parameters re-anchored to the HERO
+handbook's bands (division engagement norm ~1.0%/day; terrain/
+weather cells 1.6-3.6%/day; Figs 47-48). 13 tests green.
+
+**The four-corner experiment** (toy numbers — mechanism
+demonstration, NOT a finding about LANDJUT; sensitivity sweep is
+queued before anything here informs canon):
+
+| policy | coastal | inland | blue force |
+|---|---|---|---|
+| close air + hold lines | FALLEN d12 | FALLEN d14 | annihilated |
+| ALL-DEEP air + hold lines | FALLEN | **HOLDING d18** (85/110 km, red 2nd ech delayed ~9 days) | 2.5 CV — held by a thread |
+| split 50/50 + hold lines | FALLEN | FALLEN | annihilated |
+| split 50/50, free withdrawal | FALLEN | FALLEN | preserved (4 bns/axis) |
+
+Three structural results, all thesis-shaped:
+
+1. **The constraint is the arrival rate, not today's firepower.**
+   All-deep beats all-close *even though blue gives up every point
+   of close support while being ground down at its hold line* —
+   because the second echelon's arrival schedule, not the current
+   force ratio, is what kills the defense. Subordinating today's
+   fight to the system's constraint is The Goal's move, emerging
+   from the machinery unprompted.
+2. **Splitting the effort is the worst belligerent policy.** 50/50
+   loses both axes AND the force — half-interdiction doesn't delay
+   the echelon enough to matter, and half-close-support doesn't
+   stop the grinding. The intuitive compromise is the trap. (Toy-
+   number caveat applies at full strength here; but the shape —
+   concave payoff punishing hedges — is exactly the metrics-
+   mislead engine the book needs, because a staff measuring "sorties
+   supporting troops in contact" will always drift toward close.)
+3. **The standing dilemma sharpened.** v0 showed rational
+   withdrawal loses the theater; v1 shows forward defense loses the
+   *army* (hold + close = annihilation by day 12-14, projected
+   daily losses climbing past 20-40% while the log's "S" column
+   marks the days the hold line forbade the withdrawal the model
+   wanted). The book's opening act lives in that S column.
+
+**New tensions / v2 queue:**
+- No blue counterattack: the arc's payoff (applied counterstroke)
+  has no mechanism yet — blue can only delay, bleed, or die. A
+  counterattack window (when red's in-contact echelon is spent and
+  the next is delayed) is the natural v2 feature and IS the tempo
+  payload.
+- Interdiction is weather/night-blind: November's short days
+  (setting-time.md) should gate air points daily; currently air is
+  a constant. Variance layer (the reserved seed) belongs here.
+- Close support scales linearly and never saturates; needs
+  diminishing returns before any policy conclusion survives.
+- Hold lines are static; political release of a hold line mid-
+  campaign (the Andon Cord moment upward) would let the model stage
+  the book's command-relationship drama.
+- Loss-fraction log columns divide by a floored denominator and
+  read >100% on annihilation days — cosmetic, fix with the
+  logging-clarity pass.
+- Sensitivity sweep harness (vary alpha/beta/delay params, report
+  which structural results survive) — REQUIRED before any of
+  today's shapes inform canon; the counter-brief discipline applied
+  to our own instrument.
+
 ## 2026-07-20 — v0 build (Lanchester core + axis frame + toy LANDJUT)
 
 **Headline: the toy model already stages the book's argument.**

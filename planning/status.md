@@ -92,8 +92,13 @@ should attack before drafting:
    nationality x protagonist nationality x succession direction —
    settle via character sketches (one pass; all four move together).
 3. Calibration research pass (blocking model work, not writing):
-   FM 101-10-1 consumption extraction, OOB verification, PHP/DIIS
-   documents, mobilization timelines, November climatology.
+   ~~FM 101-10-1 consumption extraction~~ (done 2026-07-21 →
+   reference/consumption-factors.md, CAL-1..4; CAL-1 sensitivity
+   run strengthened v6's deep-dominance), OOB verification and
+   PHP/DIIS documents (sources now ON THE SHELF, reading/
+   distillation owed — batches 4-6 in reference/shelf.md, incl.
+   ORALFORE for the advance-rate bench), mobilization timelines,
+   November climatology (both still open).
 4. The fresh critique profile of the drafting model (CLAUDE.md
    process rules) — before any prose is drafted.
 5. ~~Unsettle-review #1 above, early and cheap.~~ Done 2026-07-21;

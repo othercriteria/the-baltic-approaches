@@ -58,6 +58,16 @@ should attack before drafting:
    division-altitude or Danish-brigade book see that Rendsburg
    can't?* Cheap to run, and the answer strengthens whichever way
    it goes.
+   **RUN 2026-07-21** (session 71ede904) →
+   planning/echelon-hostile-review.md. The review concedes the
+   front and the ensemble but lands three real attacks (Rogo has
+   authority, the G-3 has a grease pencil; the feedback engine is
+   weakest at corps; the instrument contains no non-corps decision
+   grades, so the convergence was unfalsifiable as run). It asks
+   for two cheap artifacts before the choice is clean: a
+   division-framed wargame sketch and a one-page
+   Jutland-Division-commander outline. Ruling is DK's; the brief
+   is filed, not acted on.
 
 2. **The Goal's engine assumes iteration; a three-week war may not
    provide it.** Rogo learns because the plant runs every day —
@@ -86,7 +96,8 @@ should attack before drafting:
    documents, mobilization timelines, November climatology.
 4. The fresh critique profile of the drafting model (CLAUDE.md
    process rules) — before any prose is drafted.
-5. Unsettle-review #1 above, early and cheap.
+5. ~~Unsettle-review #1 above, early and cheap.~~ Done 2026-07-21;
+   awaiting DK ruling (see the unsettling's entry above).
 
 ## Standing DK reminders (loose ends outside the repo)
 

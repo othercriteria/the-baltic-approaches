@@ -126,10 +126,15 @@ firepower (ammo) — parked as texture until a mechanism needs it.
 - **CAL-1 — `pause_intensity = 0.25` is likely too low.** The FM's
   closest analog to a paused-but-forward red is the *inactive
   situation* at 0.41 of defense-day-1 (§2); 0.25 sits nearer
-  *pursuit* (0.20). A red that pays 0.4x while paused builds its
-  stockpile ~20% slower per pause day (buildup net of consumption) —
-  direction: softens v6's pulsed-red findings at the margin. Cheap
-  sensitivity run before adopting.
+  *pursuit* (0.20). Sensitivity run DONE (scratch/
+  cal1-pause-intensity.py, n=40 x 30 days): at deep=1.0 the v6
+  conclusions are insensitive (held 1.00 both, blue CV 36.6 vs
+  35.9); at deep=0.0 the FM value makes the pulsed red *harder*
+  (held 0.65 -> 0.23, blue CV 11.1 -> 5.3) — deep-dominance
+  *strengthens* under calibration. Caveat: the parameter conflates
+  paused consumption with paused contact intensity; the FM number
+  calibrates only the consumption face, so the honest fix is a
+  parameter split (campaign-2 mechanics, queued).
 - **CAL-2 — posture-dependent demand is real and one-sided.** Current
   model: flat `demand_per_cv` both sides. FM: defense-day-1 : 
   protracted ≈ 2:1, and *defense out-draws attack* in Class V. A

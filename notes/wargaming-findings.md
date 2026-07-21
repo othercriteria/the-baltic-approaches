@@ -4,7 +4,33 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
-## 2026-07-21 — v6 (pulsed red, deep-target choice, ledger bridge) — CAMPAIGN 1 CLOSED
+## 2026-07-21 — calibration pass opens (session 71ede904; research, no mechanics)
+
+FM 101-10-1 consumption extraction done →
+reference/consumption-factors.md (division Class V by posture, the
+intensity ladder, theater per-capita, Soviet unit-of-fire/refill
+frame, deltas CAL-1..4). Per the campaign-1 handoff this is
+research-before-model; no instrument code changed.
+
+**CAL-1 sensitivity run** (scratch/cal1-pause-intensity.py; n=40,
+30 days, pause_intensity 0.25 vs FM-derived 0.41): at deep=1.0 the
+v6 conclusions are insensitive (held 1.00/1.00, blue CV 36.6/35.9);
+at deep=0.0 the calibrated pause makes the pulsed red HARDER (held
+0.65→0.23, blue CV 11.1→5.3). **v6's "deep re-dominates vs the
+pulsed red" strengthens under calibration** — the first v6 claim to
+face new data and survive it, with margin. Mechanism note: the gain
+to red comes through the parameter's *contact-intensity* face
+(a 0.41-intensity pause still grinds blue), not its consumption
+face; `pause_intensity` conflates the two, and the FM calibrates
+only consumption. Queued for campaign 2: split into
+pause_consumption_frac (≈0.41, FM-anchored) and pause_combat_frac
+(doctrine parameter, likely lower) — until then the pulsed red at
+0.25 is the *conservative* setting for blue-favorable claims.
+
+Also confirmed at 30 days (past the 24-day horizon artifact):
+throughput-targeting still forces more pauses than
+echelon-targeting at deep=1.0 (17.0 vs 11.7 pause days) — v6
+finding 3 survives the longer horizon.
 
 Mechanics: **red operational pauses** (a starved red stops, drops to
 patrol-intensity consumption, builds a stockpile forward, resumes on

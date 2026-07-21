@@ -39,6 +39,15 @@ entity index generatable instead of reconstructable.
   since this establishes the basic parameters that you and future
   agents operate within." Index row 2 updated accordingly; the same
   logic presumptively covers the founding session (row 1).
+- 2026-07-21 — session 1a9aba32 WRAPPED (no compaction boundaries:
+  single entity, 1a9aba32@tip). Span: Step-0 entire — dev env,
+  attribution process, holdings repo + guardrails, research shelf
+  (17 pinned docs), bulk-archive survey, wargame instrument
+  campaign 1 (v0-v6, closed), front/echelon/command-device planning,
+  successor entry point (planning/status.md). Commit range
+  55ba88f..(this wrap commit), all with Session-Id trailers.
+  Raw-archive of this session's JSONL falls to the successor or DK:
+  `make raw-archive SESSION=1a9aba32-d86d-41c9-9fe6-f89d300b45c0`.
 
 ## Entity index
 
@@ -53,7 +62,7 @@ come from `Session-Id:` trailers plus JSONL boundary timestamps.
 | # | Entity | Boundary type | Dates | Model | Transcript | Commit range | Contribution summary |
 |---|---|---|---|---|---|---|---|
 | 1 | 656ec2ba@tip | tip | 2026-07-20 | Fable 5 | transcripts/2026-07-20-656ec2ba.md | (none in this repo; stub commit made by DK's tooling from its direction) | Premise selection and repo stubbing; see lineage log. Standing ruling: pre-project ideation, materiality to be ruled at wrap — when in doubt, include |
-| 2 | 1a9aba32@tip | tip (live) | 2026-07-20 .. | Fable 5 | (export at wrap) | 55ba88f.. | Step 0: Nix env; WB deliverable read; attribution process instituted (this file, planning/attribution.md, exporter, archives). No manuscript work. Ruled material (DK, 2026-07-20): establishes the parameters future agents operate within — include in the review round |
+| 2 | 1a9aba32@tip | tip | 2026-07-20 .. 07-21 (wrapped) | Fable 5 | (export after wrap) | 55ba88f..wrap, Session-Id trailers throughout | Step-0 entire: env; attribution process + holdings/guardrails; shelf (17 docs); bulk survey; wargame campaign 1 (v0-v6, findings log is the span's core record); LANDJUT/echelon/command-device planning; status.md handoff incl. two self-filed unsettles. Ruled material (DK, 2026-07-20): establishes the parameters future agents operate within — include in the review round |
 
 ## Statement template
 

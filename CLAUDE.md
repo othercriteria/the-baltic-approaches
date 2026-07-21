@@ -1,9 +1,11 @@
 # The Mission (1986) - Writing Project
 
-**Status: pre-Phase-1 stub.** Structure and process ported from
-[white-buffalo](https://github.com/othercriteria/white-buffalo); nothing below
-is binding until Phase 1 (planning) runs and this file is revised against the
-actual project. See `planning/premise.md` and `planning/provenance.md`.
+**Status: pre-Phase-1, Step-0 complete.** Structure and process ported from
+[white-buffalo](https://github.com/othercriteria/white-buffalo); the
+Phase-1-pending sections below remain non-binding until Phase 1 runs.
+**Successor sessions start at `planning/status.md`** (broad outline, open
+decisions, standing unsettles); founding context in `planning/premise.md`
+and `planning/provenance.md`.
 
 ## Project Structure
 

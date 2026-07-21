@@ -230,6 +230,25 @@ projects. If work here ever surfaces a question their record cannot
 answer and their statements bear on, that is a conversation to have
 with DK first.
 
+## Session wrap ritual (added at first working session's wrap, 2026-07-21)
+
+What the first session under this process found it actually needed
+at wrap — made explicit so successors don't re-derive it:
+
+1. Update your own index row in the ledger (tip rows are drafted by
+   the session itself at wrap; a row written at session start goes
+   stale — mine said "no manuscript work yet" within hours of doing
+   the work).
+2. Append your wrap entry to the lineage log (dates, one-line span
+   summary, commit range endpoints).
+3. Run `make archive SKIP=<own-uuid>` (catches any predecessors).
+4. Leave the raw-archive of YOUR OWN session to the successor or DK
+   (`make raw-archive SESSION=<uuid>`) — a live JSONL archived
+   mid-session would be partial; note it in the handoff.
+5. If a successor entry point exists (planning/status.md), refresh
+   it — the summary a successor reads is part of the record the
+   review round will one day show this session.
+
 ## Relationship to the front matter
 
 White-buffalo's disclosure sentence was "written in the tense of the

@@ -61,11 +61,19 @@ wx_max = 1.0
 # Counterattack window (the tempo payload) — all placeholder scale
 ca_enabled = true
 ca_proj_mult = 2.5    # risk acceptance multiplier over defense tolerance
-ca_at_ratio = 1.1     # red/blue CV ratio below which red is "spent"
+ca_at_ratio = 1.1     # red/blue MASSED CV ratio below which red is "spent"
 ca_window_days = 2    # follow-on echelon must be at least this far out
 ca_exploit = 1.6      # cohesion premium the spent echelon pays
 ca_blue_cost = 1.25   # attacker's price blue pays
 ca_kmd = 6.0          # ground retaken per counterattack day
+
+# Command-decision layer (v4)
+ca_min_reserve_cv = 8.0    # can't counterattack without a massed reserve
+ca_recognition_days = 1    # G-3 lag: window must stand open this long
+                           # before command acts (0 = the book's ideal;
+                           # the protagonist's growth is this number)
+emergency_commit_cv = 8.0  # line CV at which the reserve commits defensively
+red_reinforces_success = true # arriving echelons go to the leading axis
 
 [[axes]]
 name = "coastal-luebeck"
@@ -373,6 +381,7 @@ side = "blue"
 axis = "coastal-luebeck"
 kind = "armor"
 cv = 10
+role = "reserve" # withheld tactical reserve (v4)
 
 [[units]]
 name = "B-6PG PzGrenBtl I"
@@ -401,6 +410,7 @@ side = "blue"
 axis = "inland-bad-segeberg"
 kind = "armor"
 cv = 10
+role = "reserve" # withheld tactical reserve (v4)
 
 [[units]]
 name = "B-JDiv InfBtl I"
@@ -422,3 +432,26 @@ side = "blue"
 axis = "inland-bad-segeberg"
 kind = "arty"
 cv = 6
+
+# --- Amphib pin (LANDZEALAND's shadow on the mainland fight): these
+# units watch the beaches while the WP landing window (Palka: 7th
+# Landing Div + 6th Air-Landing Div against the isles) stays open;
+# November sea state closes it ~day 13 (climatology PLACEHOLDER,
+# planning/setting-time.md). Encoded as arrival_day pending a
+# dynamic sea-state mechanism. -----------------------------------
+
+[[units]]
+name = "B-DK CoastGrp I (beach watch)"
+side = "blue"
+axis = "coastal-luebeck"
+kind = "inf"
+cv = 7
+arrival_day = 13
+
+[[units]]
+name = "B-DK CoastGrp II (beach watch)"
+side = "blue"
+axis = "inland-bad-segeberg"
+kind = "inf"
+cv = 7
+arrival_day = 13

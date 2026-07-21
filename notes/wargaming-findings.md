@@ -4,6 +4,70 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-21 — v4 (command-decision layer: reserves, recognition, red choice)
+
+Mechanics: withheld tactical reserves (present, not in contact, no
+losses and no line CV until committed — protective capacity bought
+with a thinner line); counterattack now requires MASSING (window
+evaluated against line+reserve strength; a CA cancelled on risk
+grounds keeps its committed reserve defensively); emergency commit
+when the line nears collapse; **recognition lag** — the window must
+stand open `ca_recognition_days` before command acts, i.e. the
+G-3's quality is now a number; red reinforce-success (arriving
+echelons divert to the leading axis); amphib pin encoded (two
+beach-watch units released ~day 13 when the November sea state
+closes the Pałka landing window — placeholder, dynamic version
+queued). 27 tests green.
+
+**Experiment results (30 seeds, deep=1.0, 24 days):**
+
+1. *Recognition ladder* — monotone and quantified: each day of G-3
+   lag costs ~2-4 km of theater and ~0.5-1.5 counterattack days
+   (lag 0: 130 km ceded, 6.4 CA days; lag 4: 144 km, 3.7). The
+   difference between a sharp operations officer and a mediocre one
+   is now a measurable campaign quantity — and the protagonist's
+   growth curve has a parameter name.
+2. *The reserve tradeoff is real and neither side dominates*:
+   withholding reserves retakes ground (134 vs 165 km ceded) but
+   spends force (32.9 vs 42.0 blue CV); everything-on-line preserves
+   the force and cedes ground (and never counterattacks at all —
+   no massed reserve, no window). Ground versus force as a genuine
+   command decision, cleanly rendered.
+3. *Naive reinforce-success HURTS red* (FEBA 134 adaptive vs 205
+   scripted; blue survives 3.5x better against the adaptive rule).
+   Diagnosis: the rule commits arriving battalions piecemeal into
+   the leading axis, and square-law engagement math punishes
+   piecemeal commitment brutally. Partly artifact (red has no
+   mass-before-committing discipline — v5 item), but the underlying
+   phenomenon is real doctrine: Soviet norms required committing
+   echelons WHOLE for exactly this reason. The artifact and the
+   doctrine point the same direction; fix red's discipline before
+   drawing any canon from red behavior.
+
+**Sweep re-run under v4 (n=150, ±40% perturbation) — a certified
+claim died, on schedule:**
+
+- interdiction dominance (all-deep ≥ all-close): 99% — SURVIVES
+- monotone in deep: 95% — survives
+- all-deep strictly better: 57% (was 79%) — weakened by the
+  command layer; reserves give close-support configs survivability
+- **"counterattack requires deep>0": 11% (was 100%) — DEAD.**
+  With a reserve system, massing alone can open the window that v3
+  thought only interdiction could buy. v3's claim was conditional
+  on blue having no reserves — every layer of added realism has so
+  far killed one confident claim. The standing meta-lesson
+  (structural claims have one-iteration half-lives) is now 3-for-3
+  and belongs in the book's own epistemology: the staff's models
+  keep being right about mechanisms and wrong about conclusions.
+
+**v5 queue:** red commitment discipline (mass echelons before
+committing — unblocks honest red-behavior findings); CA termination
+(counterattacks currently run until the window shuts; culmination
+needs modeling); dynamic sea-state for the amphib window; the
+logistics layer (ammo/supply throughput — the artillery closure's
+deferred obligation); researched strengths + mobilization timelines
+(research queue).
+
 ## 2026-07-21 — Artillery item CLOSED by argument (one guard added)
 
 The v0 finding "artillery is wrong: modeled as direct-fire CV"

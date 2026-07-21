@@ -251,6 +251,108 @@ def test_artillery_cannot_hold_or_take_ground():
     assert st.feba_km == 0.0
 
 
+def _mini_params(base):
+    p = dict(base)
+    p.update(
+        wx_standdown_prob=0.0,
+        wx_min=1.0,
+        wx_max=1.0,
+        red_deep_points=0.0,
+        red_reinforces_success=False,
+    )
+    return p
+
+
+def test_withheld_reserve_takes_no_losses_until_committed():
+    from wargame.oob import Force
+
+    data, _, _ = load_scenario(SCEN)
+    p = _mini_params(data["params"])
+    p["ca_enabled"] = False
+    p["emergency_commit_cv"] = 0.0  # never emergency-commit in this test
+    line = [Battalion(name=f"b-m{i}", side="blue", kind="mech", cv=8) for i in range(4)]
+    res = Battalion(name="b-res", side="blue", kind="armor", cv=10, role="reserve")
+    red = [Battalion(name=f"r-m{i}", side="red", kind="mech", cv=8) for i in range(5)]
+    axes = {
+        "x": {
+            "spec": {"name": "x", "length_km": 200, "hold_km": 200},
+            "blue": Force("blue", units=line, withheld=[res]),
+            "red": Force("red", units=red),
+        }
+    }
+    camp = Campaign(axes=axes, params=p, seed=1)
+    camp.run(6)
+    assert res.strength == 1.0, "withheld reserve took losses"
+    assert any(u.strength < 1.0 for u in line), "line never attrited"
+
+
+def test_recognition_lag_delays_or_forfeits_counterattack():
+    def first_ca(lag):
+        data, axes, _ = load_scenario(SCEN)
+        p = _mini_params(data["params"])
+        p["ca_enabled"] = True
+        p["deep_fraction"] = 1.0
+        p["ca_recognition_days"] = lag
+        camp = Campaign(axes=axes, params=p, seed=1986)
+        camp.run(24)
+        days = [e.day for e in camp.logs if e.ca]
+        return min(days) if days else None
+
+    fast, slow = first_ca(0), first_ca(4)
+    assert fast is not None, "sharp G-3 never counterattacked"
+    assert slow is None or slow > fast
+
+
+def test_red_reinforces_success_diverts_arrivals():
+    from wargame.oob import Force
+
+    data, _, _ = load_scenario(SCEN)
+    p = _mini_params(data["params"])
+    p.update(ca_enabled=False, red_reinforces_success=True, deep_fraction=0.0)
+    # Axis "a": no blue at all -> red races ahead. Axis "b": solid
+    # blue defense. The echelon scripted for "b" should divert to "a".
+    red_a = [Battalion(name="ra", side="red", kind="mech", cv=8)]
+    red_b = [Battalion(name="rb", side="red", kind="mech", cv=8)]
+    follow_b = Battalion(
+        name="rb-follow", side="red", kind="armor", cv=10, arrival_day=3
+    )
+    blue_b = [
+        Battalion(name=f"bb{i}", side="blue", kind="mech", cv=8) for i in range(6)
+    ]
+    axes = {
+        "a": {
+            "spec": {"name": "a", "length_km": 300, "hold_km": 300},
+            "blue": Force("blue"),
+            "red": Force("red", units=red_a),
+        },
+        "b": {
+            "spec": {"name": "b", "length_km": 300, "hold_km": 300},
+            "blue": Force("blue", units=blue_b),
+            "red": Force("red", units=red_b, reserve=[follow_b]),
+        },
+    }
+    camp = Campaign(axes=axes, params=p, seed=1)
+    camp.run(6)
+    assert follow_b in axes["a"]["red"].units, "echelon did not reinforce success"
+
+
+def test_commit_logged_on_counterattack_day():
+    data, axes, _ = load_scenario(SCEN)
+    p = _mini_params(data["params"])
+    p.update(ca_enabled=True, deep_fraction=1.0, ca_recognition_days=0)
+    camp = Campaign(axes=axes, params=p, seed=1986)
+    camp.run(24)
+    ca_days = [e for e in camp.logs if e.ca]
+    assert ca_days
+    axis_first_ca = {}
+    for e in camp.logs:
+        if e.ca and e.axis not in axis_first_ca:
+            axis_first_ca[e.axis] = e
+    assert any(e.commit > 0 for e in axis_first_ca.values()), (
+        "first counterattack day never committed the reserve"
+    )
+
+
 def test_year_parameterization_mechanism():
     data, axes, dropped = load_scenario(SCEN, year=1955)
     assert dropped == []  # toy units carry no in_service dates

@@ -46,6 +46,12 @@ v2 adds:
   exists only inside the window that interdiction buys.
 - Political hold release (axis spec `hold_release_day`): the upward
   Andon Cord — command frees the hold line mid-campaign.
+
+v4 adds the command-decision layer: withheld tactical reserves
+(massing gates the counterattack; emergency commit guards collapse),
+recognition lag (the G-3's quality as a number), theater-level red
+arrivals with reinforce-success, and the amphib pin via arrival-day
+release.
 """
 
 import math
@@ -63,6 +69,8 @@ class AxisState:
     feba_km: float = 0.0
     red_delay_days: float = 0.0  # accumulated blue-interdiction delay
     blue_delay_days: float = 0.0  # accumulated red-interdiction delay
+    window_days: int = 0  # consecutive days the CA window has stood open
+    ca_committed: bool = False  # reserve already committed to the attack
     fallen: bool = False
 
 
@@ -85,6 +93,7 @@ class DayLog:
     air_deep: float
     wx: float = 1.0  # weather factor applied to today's air
     ca: bool = False  # blue counterattacked today
+    commit: int = 0  # withheld-reserve units committed today (CA or emergency)
 
 
 @dataclass
@@ -116,6 +125,7 @@ class Campaign:
             else:
                 points_today = p.get("blue_air_points", 0.0) * wx
             share = points_today / len(live) if live else 0.0
+            red_arrivals = self._red_arrivals(day, state)
             for name, ax in self.axes.items():
                 st = state[name]
                 if st.fallen:
@@ -124,16 +134,40 @@ class Campaign:
                 release = spec.get("hold_release_day")
                 if release and day >= release:
                     st.hold_km = st.length_km
-                self._axis_day(day, ax, st, wx, share)
+                self._axis_day(day, ax, st, wx, share, red_arrivals.get(name, 0))
         return state
+
+    def _red_arrivals(self, day, state):
+        """Theater-level red echelon arrivals. With
+        red_reinforces_success, an arriving echelon is committed to
+        the most successful live axis (reinforce success, the
+        exploitation norm) instead of its scripted one."""
+        p = self.params
+        counts = {}
+        reinforce = p.get("red_reinforces_success", False)
+        live = [n for n, st in state.items() if not st.fallen]
+        for name, ax in self.axes.items():
+            st = state[name]
+            red = ax["red"]
+            for u in list(red.reserve):
+                if day >= u.arrival_day + st.red_delay_days:
+                    red.reserve.remove(u)
+                    target = name
+                    if reinforce and live:
+                        target = max(
+                            live,
+                            key=lambda n: state[n].feba_km / state[n].length_km,
+                        )
+                    self.axes[target]["red"].units.append(u)
+                    counts[target] = counts.get(target, 0) + 1
+        return counts
 
     # -- one axis-day ------------------------------------------------
 
-    def _axis_day(self, day, ax, st, wx, air_share):
+    def _axis_day(self, day, ax, st, wx, air_share, arrivals):
         red, blue = ax["red"], ax["blue"]
         p = self.params
 
-        arrivals = self._arrivals(day, red, st)
         # Blue mobilization: red interdiction (Baltic air/missile
         # threat to Danish roads, bridges, ports — the Pałka-
         # documented axis) delays and attrits it, same capped
@@ -154,6 +188,14 @@ class Campaign:
         air_close, air_deep = self._air(red, st, wx, air_share)
 
         r_cv, b_cv = red.cv, blue.cv
+        committed = 0
+
+        # Emergency commit: the line is about to break and a reserve
+        # exists — protective capacity spent to avoid collapse.
+        if b_cv <= p.get("emergency_commit_cv", 0.0) and blue.withheld:
+            committed += blue.commit_withheld()
+            b_cv = blue.cv
+
         if b_cv <= 0.5 or not blue.has_maneuver:  # defense collapsed
             adv = p["march_kmd"]
             st.feba_km += adv
@@ -174,6 +216,7 @@ class Campaign:
                 air_deep,
                 wx,
                 False,
+                commit=committed,
             )
             self._check_fallen(st)
             return
@@ -195,8 +238,30 @@ class Campaign:
                 air_deep,
                 wx,
                 False,
+                commit=committed,
             )
             return
+
+        # Counterattack window: evaluated against MASSED strength
+        # (line + withheld reserve) at dawn. Recognition lag models
+        # the G-3: the window must stand open for more than
+        # ca_recognition_days before the command acts on it. Who
+        # notices the window, and how fast, is the book.
+        window = self._window_open(day, red, b_cv + blue.withheld_cv, st)
+        st.window_days = st.window_days + 1 if window else 0
+        can_mass = (
+            blue.withheld_cv >= p.get("ca_min_reserve_cv", 0.0) or st.ca_committed
+        )
+        ca_today = (
+            p.get("ca_enabled", True)
+            and window
+            and can_mass
+            and st.window_days > p.get("ca_recognition_days", 0)
+        )
+        if ca_today and blue.withheld:
+            committed += blue.commit_withheld()
+            st.ca_committed = True
+            b_cv = blue.cv
 
         # Close support fights today without absorbing ground losses;
         # saturating (diminishing returns beyond what the engaged
@@ -213,7 +278,15 @@ class Campaign:
         blue_loss = max(b_cv - (b_after - cs_cv), 0.0)
         proj_blue_frac = blue_loss / b_cv
 
-        if self._ca_ready(day, red, blue, st, proj_blue_frac):
+        # Attacking means accepting more risk than defending — but
+        # not annihilation-level risk. (A cancelled CA still keeps
+        # its committed reserve in the line, defensively.)
+        if ca_today and proj_blue_frac > p["blue_tolerance"] * p.get(
+            "ca_proj_mult", 2.5
+        ):
+            ca_today = False
+
+        if ca_today:
             # Counterattack: full contact, no withdrawal; the spent
             # echelon pays a cohesion premium, blue pays the
             # attacker's price; FEBA moves back.
@@ -240,6 +313,7 @@ class Campaign:
                 air_deep,
                 wx,
                 True,
+                commit=committed,
                 ratio_known=True,
             )
             return
@@ -278,6 +352,7 @@ class Campaign:
             air_deep,
             wx,
             False,
+            commit=committed,
             ratio_known=True,
         )
         self._check_fallen(st)
@@ -296,34 +371,21 @@ class Campaign:
             return p.get("wx_standdown_factor", 0.15)
         return rng.uniform(p.get("wx_min", 0.5), p.get("wx_max", 1.0))
 
-    def _ca_ready(self, day, red, blue, st, proj_blue_frac):
-        """Counterattack window: red's in-contact echelon spent
-        (ratio below threshold), the follow-on echelon at least
-        ca_window_days away, ground to retake, and blue not itself
-        being shredded."""
+    def _window_open(self, day, red, blue_massed_cv, st):
+        """Is the counterattack window open at dawn? Red's in-contact
+        echelon spent relative to blue's MASSED strength, the
+        follow-on echelon at least ca_window_days away, and ground
+        to retake. (Risk and recognition are judged separately.)"""
         p = self.params
-        if not p.get("ca_enabled", True) or st.feba_km <= 0:
+        if st.feba_km <= 0:
             return False
-        # Attacking means accepting more risk than defending — but
-        # not annihilation-level risk.
-        if proj_blue_frac > p["blue_tolerance"] * p.get("ca_proj_mult", 2.5):
-            return False
-        if red.cv / max(blue.cv, 1e-9) >= p["ca_at_ratio"]:
+        if red.cv / max(blue_massed_cv, 1e-9) >= p["ca_at_ratio"]:
             return False
         if red.reserve:
             gap = min(u.arrival_day + st.red_delay_days - day for u in red.reserve)
             if gap < p["ca_window_days"]:
                 return False
         return True
-
-    def _arrivals(self, day, red, st):
-        arrived = 0
-        for u in list(red.reserve):
-            if day >= u.arrival_day + st.red_delay_days:
-                red.reserve.remove(u)
-                red.units.append(u)
-                arrived += 1
-        return arrived
 
     def _air(self, red, st, wx, points):
         """Allocate this axis's air share; pay the airframe bill.
@@ -371,6 +433,7 @@ class Campaign:
         air_deep,
         wx,
         ca,
+        commit=0,
         ratio_known=False,
     ):
         self.logs.append(
@@ -392,5 +455,6 @@ class Campaign:
                 air_deep=round(air_deep, 1),
                 wx=round(wx, 2),
                 ca=ca,
+                commit=commit,
             )
         )

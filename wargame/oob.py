@@ -22,6 +22,7 @@ class Battalion:
     in_service: int | None = None  # first year fieldable, if known
     arrival_day: int = 1  # campaign day the unit reaches the axis
     # (>1 = follow-on echelon; subject to interdiction delay)
+    role: str = "line"  # line | reserve (withheld tactical reserve)
 
     @property
     def effective_cv(self):
@@ -43,6 +44,11 @@ class Force:
     side: str
     units: list[Battalion] = field(default_factory=list)
     reserve: list[Battalion] = field(default_factory=list)
+    # Withheld tactical reserve: present on the axis, NOT in contact
+    # (takes no losses, adds no CV to the line) until committed — by
+    # counterattack or emergency. Withholding is protective capacity
+    # bought by a thinner line.
+    withheld: list[Battalion] = field(default_factory=list)
 
     @property
     def cv(self):
@@ -51,6 +57,17 @@ class Force:
     @property
     def reserve_cv(self):
         return sum(u.effective_cv for u in self.reserve)
+
+    @property
+    def withheld_cv(self):
+        return sum(u.effective_cv for u in self.withheld)
+
+    def commit_withheld(self):
+        """Commit the tactical reserve to the line; returns count."""
+        n = len(self.withheld)
+        self.units.extend(self.withheld)
+        self.withheld.clear()
+        return n
 
     @property
     def has_maneuver(self):
@@ -100,6 +117,7 @@ def load_scenario(path, year=None):
             cv=u["cv"],
             in_service=u.get("in_service"),
             arrival_day=u.get("arrival_day", 1),
+            role=u.get("role", "line"),
         )
         if year and bn.in_service and bn.in_service > year:
             dropped.append(bn.name)
@@ -107,6 +125,8 @@ def load_scenario(path, year=None):
         force = axes[u["axis"]][u["side"]]
         if bn.arrival_day > 1:
             force.reserve.append(bn)
+        elif bn.role == "reserve":
+            force.withheld.append(bn)
         else:
             force.units.append(bn)
     return data, axes, dropped

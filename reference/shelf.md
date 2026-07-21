@@ -16,6 +16,12 @@ white-buffalo.
 | Romjue, *From Active Defense to AirLand Battle* (TRADOC, 1984; 144 pp) | The official history of the 1976→1982 doctrinal fight — the intellectual drama the mentor arc dramatizes; also the best map of Active Defense's named defects |
 | FM 100-2-1 *The Soviet Army: Operations and Tactics* (1984; 203 pp) | What NATO *believed* about Soviet echelonment, OMGs, and norms in-period — the threat model characters reason with (right or wrong) |
 | *Littoral Commander: The Baltic* rules (Bae & Wernert, Dietz Foundation 2025; 104 pp) | Wargaming baseline, NOT period doctrine: grand-tactical Baltic system to build our micro-strategic instrument against (planning/wargaming.md has the steal/skip list) |
+| FM 101-10-1 *Staff Officers' FM: Organizational, Technical and Logistical Data* Vols 1+2 (1987; 1,467 + 378 pp) | THE planning-factors bench: TOEs, movement rates, consumption, engineer/supply/transport/medical planning data — wargame calibration and staff-scene arithmetic |
+| FM 100-5 *Operations*, 1976 (200 pp) | Active Defense itself — the legacy doctrine the periphery still runs; the protagonist's seniors' formative text (clean CARL copy; a scan also sits in /bulk) |
+| TRADOC Pam 525-5 *The AirLand Battle and Corps 86* (1981; 84 pp) | The transitional concept document between 1976 and 1982 — the idea mid-flight, exactly the register of "doctrine arriving somewhere else" |
+| Leavenworth Paper 16, *DePuy and the 1976 Edition of FM 100-5* (140 pp) | Official history of Active Defense's creation — companion to Romjue; the two ends of the doctrinal fight the mentor arc dramatizes |
+| FM 24-18 *Tactical Single-Channel Radio Communications Techniques* (1987; 322 pp) | Net procedure, prowords, antenna/jamming discipline — the sound of the book's radio traffic |
+| FM 71-100 *Division Operations* (1996 ed.; 206 pp) | Post-setting — for OUR construct reference only; period editions stay queued |
 
 ## Local archive tier (use in place, never redistribute)
 
@@ -29,19 +35,15 @@ same document via the queue below instead.
 
 ## Fetch queue (free/PD; URLs to be hunted)
 
-- FM 100-5 *Operations*, 1976 (Active Defense itself; local scan in
-  /bulk — fetch a clean CARL/archive.org copy when citing publicly)
-- FM 101-10-1 *Staff Officers' Field Manual: Organizational,
-  Technical and Logistical Data* (the planning-factors bench —
-  absent from /bulk, confirmed by survey)
-- FM 71-100 *Division Operations* + FM 71-series maneuver doctrine
-  (absent from /bulk)
+- FM 71-100 *Division Operations* 1990 edition + period FM 71-series
+  maneuver doctrine (71-1/71-2/71-3; only the 1996 71-100 found so
+  far — CARL has the 1990)
 - FM 55-30 *Army Motor Transport Units and Operations* (1980) — the
-  period parent of the convoy procedures in /bulk
-- FM 24-18 tactical single-channel radio (early-80s edition, for
-  exact-period prowords)
-- TRADOC Pam 525-5, *The AirLand Battle and Corps 86* (1981) — the
-  transitional concept document
+  period parent of the convoy procedures in /bulk (bits.de holds
+  only the 1999 change edition; 1980 not yet found online)
+- House, *Toward Combined Arms Warfare* (CSI, 1984) — not found this
+  round (armyupress is .mil-blocked from here; try DTIC mirrors on
+  archive.org)
 - Glantz's free CSI/SASO papers (his Frank Cass books are commercial —
   see purchase list): candidates include the Art of War symposium
   transcripts and CSI research surveys on Soviet operational art

@@ -48,6 +48,48 @@ ITEMS = [
         "https://gamers-hq.de/media/pdf/9a/da/c0/Booklet_-_Rules_LCBaltic2-3-freigeschaltet.pdf",
         "68f5dcf64b79700531e2d736949800662e8eedad7d6ed86f8400812a63a05e9a",
     ),
+    # Batch 2 (2026-07-20, post-bulk-survey): planning factors, legacy
+    # doctrine, radio procedure, the 1981 concept pamphlet. Hashes
+    # pinned after first verified fetch.
+    (
+        "fm-101-10-1-vol1-planning-factors-1987.pdf",
+        "https://archive.org/download/FM101-10-11/FM101-10-11.pdf",
+        "f77d1d449a00fa45dec71bece2e3eeb5297f0e76354056c79d552e3956d24ed1",
+    ),
+    (
+        "fm-101-10-1-vol2-planning-factors-1987.pdf",
+        "https://archive.org/download/FM101-10-12/FM101-10-12.pdf",
+        "8f12d55cdd1109657167e7ecb480e57935cecf2b59bc195893a78144a22c21cb",
+    ),
+    (
+        "fm-24-18-single-channel-radio-1987.pdf",
+        "https://www.bits.de/NRANEU/others/amd-us-archive/FM24-18(87).pdf",
+        "a78790c3eb5bbd9d626740d9618e8217f2dbaef01c2a15c5789adac666fc3710",
+    ),
+    (
+        "fm-100-5-operations-1976.pdf",
+        "https://cgsc.contentdm.oclc.org/digital/api/collection/p4013coll9/id/972/download",
+        "317bed0e400551e42d734f2ee91d0a2ec6dd9bc3de3b7a146149c86a1c5eab83",
+    ),
+    # 1996 edition (bits.de) — post-setting; for our construct
+    # reference only, the 1990/period editions stay on the queue
+    (
+        "fm-71-100-division-operations-1996.pdf",
+        "https://www.bits.de/NRANEU/others/amd-us-archive/fm71_100(96).pdf",
+        "5d56a1669b82988a8a374bed3c62ded094f8d4067560522c80b753cc78411d92",
+    ),
+    (
+        "tradoc-pam-525-5-airland-battle-1981.pdf",
+        "https://cgsc.contentdm.oclc.org/digital/api/collection/p4013coll9/id/656/download",
+        "d58f0b5b1e5ccf86e80dfbda7a5b0262d53967f1abad8738d9c41637ec7cf2ad",
+    ),
+    # Leavenworth Paper 16: DePuy and the 1976 FM 100-5 — the official
+    # history of Active Defense's creation (companion to Romjue)
+    (
+        "leavenworth-paper-16-depuy-fm100-5.pdf",
+        "https://archive.org/download/DTIC_ADA531279/DTIC_ADA531279.pdf",
+        "f2c989be481a0f4d38e9e880e5c5e58a0a75615a949ff76c3ebfdee8748a9be1",
+    ),
 ]
 
 

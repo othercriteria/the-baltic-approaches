@@ -327,6 +327,42 @@ ITEMS = [
         "https://slks.dk/fileadmin/user_upload/kulturarv/fysisk_planlaegning/DKKA_baggrundsnotat_v8.pdf",
         "813240fb27e7e67dea4285a49f4243e4dc907d4d2a8ebbc2681b1a2ef488abe5",
     ),
+    # Batch 6 (2026-07-21, period FM 71-series hunt, session 71ede904).
+    # FM 71-100 1990 was never webbed (CARL bibliography lists it,
+    # links no file); the 1978+C1 edition below is the manual actually
+    # in force mid-80s — period-superior for character knowledge
+    (
+        "fm-71-100-armored-mechanized-division-operations-1978-c1.pdf",
+        "https://archive.org/download/FM_71_100_A_D_O_1979/FM%2071-100%20Army%20and%20mechanized%20Divisions%20Operations%20%281979%29.pdf",
+        "5c944bb2602ca16483487c33917cab6ecb75697ae2e226378bc0d7fba353cbae",
+    ),
+    (
+        "fm-71-2-tank-mech-infantry-battalion-task-force-1977.pdf",
+        "https://www.bits.de/NRANEU/others/amd-us-archive/FM71-2%2877%29.pdf",
+        "b51abf3de172d69303b2954d8f4235346d37c25398e5451b21084f806948c634",
+    ),
+    # 1988 editions (the period 1977/1980 HTF editions are not
+    # public): post-provisional-setting — OUR reference, not the
+    # characters'. US-government works, public domain; the scans
+    # carry period distribution-restriction covers, long moot
+    # (superseded twice over, publicly hosted)
+    (
+        "fm-71-1-tank-mech-infantry-company-team-1988.pdf",
+        "https://archive.org/download/fm-71-1-1988/FM%2071-1%201988.pdf",
+        "5f987be109c342080d45368140ace32a938f9439f5b5353e073d6512c66847c9",
+    ),
+    (
+        "fm-71-3-armored-mech-infantry-brigade-1988.pdf",
+        "https://archive.org/download/fm-71-3-1988/FM%2071-3%201988.pdf",
+        "533789e81f82166327f882d04cc39fe3adc6eed74fde8638bd62134ab185e7d6",
+    ),
+    # FM 55-30 1980 exists only on paper; 1969 edition is the
+    # nearest public predecessor (convoy-procedure texture)
+    (
+        "fm-55-30-army-motor-transport-operations-1969.pdf",
+        "https://archive.org/download/FM55-30/FM55-30.pdf",
+        "f8e8ac06422c0637d86eda238ea06577a942664e921c3b72bc846afafb8d9d2c",
+    ),
 ]
 
 

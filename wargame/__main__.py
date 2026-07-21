@@ -24,6 +24,7 @@ def main():
         action="store_true",
         help="ignore hold lines (free Epstein withdrawal to theater rear)",
     )
+    ap.add_argument("--seed", type=int, default=None, help="weather seed")
     ap.add_argument("--json", type=Path, help="write day logs as JSON")
     args = ap.parse_args()
 
@@ -33,28 +34,31 @@ def main():
     if args.no_hold:
         for ax in axes.values():
             ax["spec"]["hold_km"] = ax["spec"]["length_km"]
+    seed = args.seed if args.seed is not None else data["meta"].get("seed", 1986)
 
     print(f"# {data['meta']['name']}")
     print(
         f"# deep_fraction={data['params'].get('deep_fraction', 0.0)}"
-        f" hold={'off' if args.no_hold else 'on'}"
+        f" hold={'off' if args.no_hold else 'on'} seed={seed}"
     )
     if dropped:
         print(f"# dropped (not in service): {', '.join(dropped)}")
 
-    camp = Campaign(axes=axes, params=data["params"])
+    camp = Campaign(axes=axes, params=data["params"], seed=seed)
     state = camp.run(args.days)
 
     print(
         f"{'day':>3} {'axis':<22} {'ratio':>6} {'proj':>6} {'bloss':>6} "
-        f"{'wdrw':>5} {'st':>2} {'adv':>5} {'feba':>6} {'arr':>3} {'resCV':>6}"
+        f"{'wdrw':>5} {'st':>2} {'adv':>5} {'feba':>6} {'arr':>3} "
+        f"{'resCV':>6} {'wx':>4}"
     )
     for e in camp.logs:
+        flag = "C" if e.ca else ("S" if e.standing else ".")
         print(
             f"{e.day:>3} {e.axis:<22} {e.ratio:>6} {e.proj_blue_frac:>6} "
             f"{e.blue_loss_frac:>6} {e.withdrawal_km:>5} "
-            f"{'S' if e.standing else '.':>2} {e.advance_km:>5} "
-            f"{e.feba_km:>6} {e.arrivals:>3} {e.red_reserve_cv:>6}"
+            f"{flag:>2} {e.advance_km:>5} "
+            f"{e.feba_km:>6} {e.arrivals:>3} {e.red_reserve_cv:>6} {e.wx:>4.2f}"
         )
     print()
     for name, st in state.items():

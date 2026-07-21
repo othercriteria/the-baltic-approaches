@@ -10,6 +10,7 @@
 name = "Toy LANDJUT opening, ~day 1-14"
 year = 1986 # provisional; see planning/setting-time.md
 season = "november"
+seed = 1986 # weather draws; CLI --seed overrides
 
 [params]
 alpha = 0.055          # red daily fire effect on blue (per CV) — placeholder scale,
@@ -35,6 +36,24 @@ deep_attrition_per_point = 0.012 # march-column loss fraction per point-day
 deep_delay_per_point = 0.15      # arrival delay added per point-day...
 deep_delay_cap_dpd = 0.6         # ...capped: interdiction cannot STOP the
                                  # echelon, only make it late and weaker
+close_sat_cv = 9.0               # close support saturates (diminishing
+                                 # returns) — placeholder ceiling
+
+# Weather gate on air (November Baltic PLACEHOLDER pending real
+# climatology; planning/setting-time.md). Seeded: meta.seed.
+wx_standdown_prob = 0.25   # fraction of days essentially stood down
+wx_standdown_factor = 0.15
+wx_min = 0.5
+wx_max = 1.0
+
+# Counterattack window (the tempo payload) — all placeholder scale
+ca_enabled = true
+ca_proj_mult = 2.5    # risk acceptance multiplier over defense tolerance
+ca_at_ratio = 1.1     # red/blue CV ratio below which red is "spent"
+ca_window_days = 2    # follow-on echelon must be at least this far out
+ca_exploit = 1.6      # cohesion premium the spent echelon pays
+ca_blue_cost = 1.25   # attacker's price blue pays
+ca_kmd = 6.0          # ground retaken per counterattack day
 
 [[axes]]
 name = "coastal-luebeck"
@@ -211,6 +230,58 @@ axis = "inland-bad-segeberg"
 kind = "arty"
 cv = 6
 arrival_day = 7
+
+# --- Blue mobilization inflow (Danish mobilization + FRG reserve
+# flow; the covering-force period ends when these arrive). Red
+# interdiction of blue mobilization NOT modeled yet. --------------
+
+[[units]]
+name = "B-6PG PzGrenBtl III (mob)"
+side = "blue"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 3
+
+[[units]]
+name = "B-HSK InfBtl I (mob)"
+side = "blue"
+axis = "coastal-luebeck"
+kind = "inf"
+cv = 7
+arrival_day = 5
+
+[[units]]
+name = "B-DK MotInfBtl I (mob)"
+side = "blue"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 7
+
+[[units]]
+name = "B-JDiv InfBtl III (mob)"
+side = "blue"
+axis = "inland-bad-segeberg"
+kind = "inf"
+cv = 7
+arrival_day = 4
+
+[[units]]
+name = "B-JDiv PzBtl II (mob)"
+side = "blue"
+axis = "inland-bad-segeberg"
+kind = "armor"
+cv = 10
+arrival_day = 6
+
+[[units]]
+name = "B-HSK InfBtl II (mob)"
+side = "blue"
+axis = "inland-bad-segeberg"
+kind = "inf"
+cv = 7
+arrival_day = 8
 
 # --- Blue: LANDJUT-ish covering force, battalion atoms ------------
 

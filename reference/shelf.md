@@ -73,7 +73,8 @@ repo so the only road for such files is the holdings repo.
 
 | Holding | Status |
 |---|---|
-| Dupuy, *Numbers, Predictions and War* | print copy acquired 2026-07-20; PDF to be produced from the printed text or sourced. Unblocks wargame v1 calibration (QJM advance rates, daily-casualty norms) |
+| Dupuy, *Numbers, Predictions and War* | print copy acquired 2026-07-20; PDF to be produced from the printed text or sourced. Still wanted for QJM structure (advance rates, OLI/CEV); attrition empirics now covered publicly by the HERO handbook |
+| Kim/Behr/Spafford, *The Phoenix Project* | PDF deposited 2026-07-20 (DK-directed) as a style example for Goldratt pastiche — the other famous Goal transposition. Flagged in the holdings catalog to pair with a purchased copy per the Dupuy standard |
 
 ## Purchase list (copyrighted; DK's call)
 

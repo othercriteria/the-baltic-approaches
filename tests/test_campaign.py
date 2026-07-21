@@ -7,14 +7,19 @@ from wargame.oob import Battalion, load_scenario
 SCEN = Path(__file__).parent.parent / "wargame" / "scenarios" / "toy-landjut.toml"
 
 
-def run(days=18, deep=None, hold=True):
+def run(days=18, deep=None, hold=True, seed=1986, wx=False, ca=False):
     data, axes, dropped = load_scenario(SCEN)
     if deep is not None:
         data["params"]["deep_fraction"] = deep
     if not hold:
         for ax in axes.values():
             ax["spec"]["hold_km"] = ax["spec"]["length_km"]
-    camp = Campaign(axes=axes, params=data["params"])
+    if not wx:
+        data["params"]["wx_standdown_prob"] = 0.0
+        data["params"]["wx_min"] = 1.0
+        data["params"]["wx_max"] = 1.0
+    data["params"]["ca_enabled"] = ca
+    camp = Campaign(axes=axes, params=data["params"], seed=seed)
     state = camp.run(days)
     return camp, state, axes
 
@@ -93,6 +98,60 @@ def test_withdrawal_rate_shape():
     assert epstein.withdrawal_rate_kmd(0.05, 0.05, 12) == 0.0
     assert 0 < epstein.withdrawal_rate_kmd(0.07, 0.05, 12) < 12
     assert epstein.withdrawal_rate_kmd(0.30, 0.05, 12) == 12
+
+
+def test_weather_seeded_and_reproducible():
+    a, _, _ = run(wx=True, seed=7)
+    b, _, _ = run(wx=True, seed=7)
+    c, _, _ = run(wx=True, seed=8)
+    assert [e.wx for e in a.logs] == [e.wx for e in b.logs]
+    assert [e.wx for e in a.logs] != [e.wx for e in c.logs]
+    assert all(0.0 < e.wx <= 1.0 for e in a.logs)
+
+
+def test_close_support_saturates():
+    """Effective close-support CV must stay below the saturation
+    ceiling regardless of points thrown at it."""
+    import math
+
+    sat, per_point = 9.0, 1.2
+    added = [
+        sat * (1.0 - math.exp(-(pts * per_point) / sat)) for pts in (1, 6, 60, 600)
+    ]
+    assert added == sorted(added)  # monotone
+    assert added[-1] <= sat  # never exceeds ceiling (== at float limit)
+    assert added[1] < 6 * added[0]  # sublinear already at 6 points
+
+
+def test_counterattack_fires_in_the_window():
+    """With interdiction stretching the echelon gap and CA enabled,
+    blue should counterattack at least once, and CA days move the
+    FEBA backward."""
+    camp, _, _ = run(deep=1.0, ca=True)
+    ca_days = [e for e in camp.logs if e.ca]
+    assert ca_days, "no counterattack ever fired"
+    assert all(e.advance_km < 0 for e in ca_days)
+
+
+def test_counterattack_never_fires_when_disabled():
+    camp, _, _ = run(deep=1.0, ca=False)
+    assert not any(e.ca for e in camp.logs)
+
+
+def test_hold_release_frees_withdrawal():
+    data, axes, dropped = load_scenario(SCEN)
+    data["params"]["wx_standdown_prob"] = 0.0
+    data["params"]["wx_min"] = 1.0
+    data["params"]["wx_max"] = 1.0
+    data["params"]["ca_enabled"] = False
+    for ax in axes.values():
+        ax["spec"]["hold_release_day"] = 8
+    camp = Campaign(axes=axes, params=data["params"], seed=1)
+    camp.run(18)
+    standing_days = [e.day for e in camp.logs if e.standing]
+    resumed = [e for e in camp.logs if e.day > 8 and e.withdrawal_km > 0]
+    assert standing_days and min(standing_days) < 8, "hold line never bound"
+    assert resumed, "withdrawal never resumed after hold release"
 
 
 def test_year_parameterization_mechanism():

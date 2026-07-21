@@ -4,6 +4,66 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-20 — v2 (counterattack windows, mobilization, weather, saturation)
+
+Mechanics: blue mobilization inflow (Danish/FRG reserve battalions on
+arrival schedules — the covering-force clock); counterattack windows
+(fires only when red's in-contact echelon is spent, the follow-on is
+≥2 days out, and blue accepts attacker-grade risk; FEBA moves back,
+spent echelon pays a cohesion premium); weather-gated air (seeded
+November placeholder: stand-down days + degraded factor); close-
+support saturation; political hold release (`hold_release_day`).
+18 tests green.
+
+**The arc exists in the machine now.** Single-seed run, deep=1.0:
+inland axis annihilates red's first echelon and drives the FEBA from
+65 km back to 2 km — interdiction delays echelon 2 (~5 days), the
+mobilizing defense grinds echelon 1 to the spent threshold, and nine
+consecutive counterattack days do the rest — while the coastal axis
+survives at 83/95 km with blue's covering force effectively
+destroyed. Failing defense → doctrinal insight applied → local
+counterstroke, with the cost showing on the other axis: the book's
+shape, from the instrument, unprompted.
+
+**30-seed robustness (weather variance), 21 days:**
+
+| deep | axes held (2/1/0 of 30) | mean blue CV | mean CA days |
+|---|---|---|---|
+| 0.0 | 0 / 30 / 0 | 6.6 | 0.0 |
+| 0.5 | 0 / 30 / 0 | 16.0 | 0.3 |
+| 1.0 | **26** / 4 / 0 | 30.5 | 9.4 |
+
+**Correction to a v1 finding, on the record:** v1's "the 50/50 hedge
+is the worst belligerent policy" did NOT survive v2 — with
+mobilization inflow and close-support saturation the payoff is
+monotone in deep_fraction, and split is simply intermediate. The
+concave-payoff shape was an artifact of a defense with no
+reinforcement clock. (The metrics-mislead point survives in weaker
+form: close support still *looks* better daily than its campaign
+value, but the trap is drift, not a cliff.) Lesson for the
+instrument's own epistemics: v1 structural claims have roughly
+one-iteration half-lives; nothing informs canon before the parameter
+sensitivity sweep, which is STILL REQUIRED and still pending.
+
+**New mechanism finding:** the counterattack window is
+mobilization-dependent, not just interdiction-dependent. With no
+blue inflow (v1 scenario), red's ratio advantage never dips below
+the spent threshold — no amount of interdiction opens the window,
+because the covering force shrinks as fast as red's first echelon.
+The counterstroke needs BOTH the delayed second echelon AND arriving
+fresh battalions. Thematically: tempo advantage is created by the
+interaction of the enemy's constraint with your own throughput —
+which is a cleaner statement of the book's thesis than either lever
+alone.
+
+**v3 queue:** parameter sensitivity sweep harness (REQUIRED,
+promoted); red operational choice (red currently never reallocates
+between axes or pauses to mass — a live opponent would); blue air
+attrition (air points are currently a free resource — sorties should
+cost aircraft, which is the sortie-generation payload); interdiction
+of blue mobilization (red air exists too); artillery still wrong
+(v0 item, still open); naval/amphib flank (still open).
+
 ## 2026-07-20 — v1 (echelonment, close-vs-deep air, hold lines)
 
 Mechanics added per the v0 tension list: red follow-on echelons on

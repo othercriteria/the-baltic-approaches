@@ -32,6 +32,18 @@ throughput-targeting still forces more pauses than
 echelon-targeting at deep=1.0 (17.0 vs 11.7 pause days) — v6
 finding 3 survives the longer horizon.
 
+**Instrument re-reading from the air-apportionment research**
+(reference/air-apportionment.md): `deep_fraction` is a
+COMBALTAP-altitude lever, not the G-3's — the corps *recommends*
+into a daily joint apportionment at Karup and sub-allocates what
+returns. The model's G-3-grade levers are recognition lag and
+reserve/CA commitment; the air lever belongs to the protagonist's
+theater, not his desk. Campaign-2 candidate: model corps advocacy
+as a lag/discount between requested and received deep emphasis
+(the persuasion tax made mechanical) — which would also give
+unsettle #2 its honest daily iteration loop: argue, receive,
+attribute, re-argue.
+
 Mechanics: **red operational pauses** (a starved red stops, drops to
 patrol-intensity consumption, builds a stockpile forward, resumes on
 a full tank — the pulsed offensive, with hysteresis); **deep-target

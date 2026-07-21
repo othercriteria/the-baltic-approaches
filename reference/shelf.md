@@ -170,6 +170,11 @@ repo so the only road for such files is the holdings repo.
   bench reference
 - Simpkin, *Red Armour* / *Race to the Swift* (1984/85) — period
   Western theorist of Soviet tempo thinking
+- Bogason, *NATO and the Baltic Approaches 1949-1989* (De Gruyter,
+  2023; 622 pp) — THE archival secondary source on BALTAP command
+  arrangements (Danish war-plan files); the remaining authority for
+  air-apportionment and command-architecture questions
+  (reference/air-apportionment.md). Holdings candidate
 
 ## Shelf disciplines
 

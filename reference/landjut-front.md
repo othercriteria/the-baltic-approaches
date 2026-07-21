@@ -163,10 +163,13 @@ for *structural* departures.)
 - Mobilization timelines: Danish call-up mechanics, UKMF and US 9th
   ID deployment schedules (the covering-force clock in days —
   wargame calibration input)
-- **Air apportionment authority: LANDJUT request vs AIRBALTAP
-  allocation** — who actually decides the deep/close split in this
-  theater? Raised to load-bearing by the echelon hostile review
-  (planning/echelon-hostile-review.md, attack 2): if the split is
-  decided at Karup, the instrument's signature lever is not the
-  protagonist's. NATO-archives BALTAP cluster (on the shelf) +
-  BOLD GUARD exercise records are the likely sources.
+- ~~Air apportionment authority: LANDJUT request vs AIRBALTAP
+  allocation~~ → ANSWERED 2026-07-21:
+  **reference/air-apportionment.md.** The split is decided at
+  Karup (COMBALTAP, advised by COMAIRBALTAP); the corps requests,
+  nominates BAI targets, and sub-allocates returned sorties.
+  Confirmed daily per FM 100-26. Two live anomalies for the book:
+  2 ATAF owned air defence over Schleswig-Holstein until 1990, and
+  the MFG Tornados were contested between NAVBALTAP's fleet-strike
+  plan (Op Hurricane) and any land-axis BAI. Remaining primary
+  sources: NATO Archives IMSWM-314-69; Bogason (purchase list).

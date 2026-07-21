@@ -4,6 +4,82 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-21 — v6 (pulsed red, deep-target choice, ledger bridge) — CAMPAIGN 1 CLOSED
+
+Mechanics: **red operational pauses** (a starved red stops, drops to
+patrol-intensity consumption, builds a stockpile forward, resumes on
+a full tank — the pulsed offensive, with hysteresis); **deep-target
+choice** (blue's deep fires attack either arrival schedules or
+supply flow); **pursuit** (counterattacks into a starved red bite
+2x); **the OOB ledger bridge** (wargame/ledger.py renders any run
+into the ledger format — game state and the manuscript's continuity
+bookkeeping now share one spine; example committed under
+wargame/examples/; regenerate, don't hand-edit). 35 tests green.
+
+**Finding 1: the grinding red was flattering blue enormously.**
+Against the pulsed red under all-close support, blue ends at 20.8
+CV instead of 55.4 — an honest red that fights only at full supply
+hits nearly three times harder over the campaign. The 24-day
+"theater holds 30/30" under pulses is a horizon artifact: the
+pulsed campaign is a longer war entered with a worn-out defense and
+a 168-CV red poised on a stockpile. Every prior blue-favorable
+number deserves a mental haircut for this.
+
+**Finding 2: v5's ground-vs-force bifurcation was itself
+conditional on the dishonest red.** Against the pulsed red, deep
+re-dominates BOTH criteria (final sweep: 99% axes-held dominance,
+71% strictly better, blue CV 49.3 vs 42.9). Fourth consecutive
+iteration to revise a certified claim, which is now the point:
+
+> **The policy ranking is hostage to the enemy model.** Deep vs
+> close flipped or bifurcated at v3 (red counter-interdiction), v5
+> (red grinding at the supply floor), and v6 (red pulsing) — same
+> blue, same theater, different theory of the enemy. You cannot
+> rank your own policies without a theory of the enemy's
+> operational method: the G-2 question precedes the G-3 question.
+> The instrument's two staged questions are now the book's two
+> hinges — *what is the goal?* and *what does the enemy think the
+> goal is?* Any chapter where the staff argues policy is secretly
+> arguing enemy models, and the book can stage that with receipts.
+
+**Finding 3: throughput-targeting edges echelon-targeting** against
+the pulsed red (FEBA 125 vs 131, blue CV 46.7 vs 39.3) and works by
+FORCING pauses (15.4 vs 10.0 pause days) — tempo denial made
+mechanical. Attacking the enemy's supply flow doesn't destroy him;
+it makes him fight on your clock instead of his.
+
+**Claim ledger at campaign close (survival across 6 iterations +
+final n=150 sweep):**
+
+| Claim | Status |
+|---|---|
+| Interdiction dominance (axes held) | SURVIVED every iteration; 99% final |
+| Monotone in deep fraction | survived; 99% final |
+| All-deep strictly better | criterion- and enemy-model-dependent (71% vs pulsed red); report conditionally, never flatly |
+| CA requires deep | dead (v4); 52% final — window also opens by massing and red starvation |
+| Split is worst | dead (v2); 33% final |
+| Counterstroke window is contested/fragile | survived v3-v6 in varying forms |
+| Guns can't hold ground | closure guard, tested |
+
+**Campaign 1 handoff (research before model):**
+- FM 101-10-1 consumption-factor extraction → real demand_per_cv
+- OOB verification: Davies vs official sources; GDR 5th Army/Polish
+  axis from PHP/CWIHP; mobilization timelines (the covering-force
+  clock in real days)
+- November Baltic climatology (weather + sea-state distributions)
+- Parked model work: longer horizons for pulsed campaigns; red axis
+  reallocation during pauses; red fires against blue supply (not
+  just mobilization); LANDZEALAND as a real axis; QJM advance rates
+  when NP&W lands in holdings
+
+**Process verdict on the six iterations:** the instrument's chief
+products are (1) a mechanism inventory that composes honestly, (2)
+calibrated humility — every confident conclusion died or
+conditionalized within one iteration, while every *mechanism*
+survived, exactly the epistemics the book's staff should live; and
+(3) the two staged questions above. The numbers were never the
+point; the shape of how the numbers betray you is the point.
+
 ## 2026-07-21 — v5 (logistics layer, culmination, red discipline, sea state)
 
 Mechanics: **supply throughput as the constraint** — blue draws on

@@ -25,7 +25,14 @@ def main():
         help="ignore hold lines (free Epstein withdrawal to theater rear)",
     )
     ap.add_argument("--seed", type=int, default=None, help="weather seed")
+    ap.add_argument(
+        "--deep-target",
+        choices=("echelon", "throughput"),
+        default=None,
+        help="what deep fires attack: arrival schedules or supply flow",
+    )
     ap.add_argument("--json", type=Path, help="write day logs as JSON")
+    ap.add_argument("--ledger", type=Path, help="write markdown OOB ledger")
     args = ap.parse_args()
 
     data, axes, dropped = load_scenario(args.scenario, year=args.year)
@@ -34,6 +41,8 @@ def main():
     if args.no_hold:
         for ax in axes.values():
             ax["spec"]["hold_km"] = ax["spec"]["length_km"]
+    if args.deep_target:
+        data["params"]["deep_target"] = args.deep_target
     seed = args.seed if args.seed is not None else data["meta"].get("seed", 1986)
 
     print(f"# {data['meta']['name']}")
@@ -78,6 +87,13 @@ def main():
     if args.json:
         args.json.write_text(json.dumps([vars(e) for e in camp.logs], indent=1))
         print(f"\nwrote {args.json}")
+    if args.ledger:
+        from .ledger import render
+
+        args.ledger.write_text(
+            render(data["meta"], data["params"], axes, state, camp.logs, args.days)
+        )
+        print(f"wrote {args.ledger}")
 
 
 if __name__ == "__main__":

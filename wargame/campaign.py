@@ -57,6 +57,12 @@ v5 adds the logistics layer: supply throughput scales combat output
 (red's fill falls as its LOC stretches — culmination as supply);
 red whole-echelon commitment via staging; counterattack culmination;
 seeded sea-state closure of the amphib window.
+
+v6 adds the pulsed offensive (red operational pauses with stockpile
+hysteresis), deep-target choice (echelon vs throughput), pursuit
+into a starved enemy, and the OOB-ledger export (wargame/ledger.py).
+Campaign 1 closes here; notes/wargaming-findings.md carries the
+claim ledger and handoff.
 """
 
 import math
@@ -78,6 +84,8 @@ class AxisState:
     ca_committed: bool = False  # reserve already committed to the attack
     ca_run_days: int = 0  # consecutive CA days this run (culmination clock)
     stage_since: int | None = None  # day red's staging area last went occupied
+    red_paused: bool = False  # operational pause: building supply forward
+    red_stockpile: float = 0.0  # supply accumulated during pauses
     fallen: bool = False
 
 
@@ -103,6 +111,7 @@ class DayLog:
     commit: int = 0  # withheld-reserve units committed today (CA or emergency)
     bfill: float = 1.0  # blue supply fulfillment (effectiveness input)
     rfill: float = 1.0  # red supply fulfillment (falls as its LOC stretches)
+    pause: bool = False  # red operational pause (building supply forward)
 
 
 @dataclass
@@ -252,8 +261,31 @@ class Campaign:
         if p.get("red_supply_points", 0.0) > 0:
             stretch = 1.0 - p.get("red_loc_penalty", 0.0) * (st.feba_km / st.length_km)
             cap = (p["red_supply_points"] / n_live) * max(stretch, 0.0)
+            # Deep fires against THROUGHPUT (deep_target="throughput"):
+            # today's flow interrupted instead of the echelon delayed.
+            if air_deep > 0 and p.get("deep_target", "echelon") == "throughput":
+                cap = max(cap - air_deep * p.get("deep_supply_per_point", 0.0), 0.0)
             demand = p["red_demand_per_cv"] * max(red.cv, 1e-9)
-            rfill = min(1.0, cap / demand) if demand > 0 else 1.0
+            # Operational pause with hysteresis: a starved red stops
+            # to build supply forward (the pulsed offensive) instead
+            # of grinding at the floor; it resumes on a stockpile.
+            flow_fill = cap / demand if demand > 0 else 1.0
+            if st.red_paused:
+                st.red_stockpile += p.get("red_pause_buildup", 0.0)
+                if (cap + st.red_stockpile) / max(demand, 1e-9) >= p.get(
+                    "red_resume_fill", 1.0
+                ):
+                    st.red_paused = False
+            elif flow_fill < p.get("red_pause_fill", 0.0) and st.red_stockpile <= 0:
+                st.red_paused = True
+            # A paused front consumes at pause intensity (patrols and
+            # fires), which is what lets the stockpile actually build.
+            demand_today = demand * (
+                p.get("pause_intensity", 0.25) if st.red_paused else 1.0
+            )
+            use = min(demand_today, cap + st.red_stockpile)
+            st.red_stockpile = max(st.red_stockpile - max(use - cap, 0.0), 0.0)
+            rfill = min(1.0, use / demand_today) if demand_today > 0 else 1.0
         b_eff = floor + (1.0 - floor) * bfill
         r_eff = floor + (1.0 - floor) * rfill
 
@@ -372,7 +404,10 @@ class Campaign:
             blue_loss *= p["ca_blue_cost"]
             red.distribute_losses(red_loss)
             blue.distribute_losses(blue_loss)
-            gain = min(p["ca_kmd"], st.feba_km)
+            gain = p["ca_kmd"]
+            if rfill < p.get("ca_pursuit_fill", 0.0):
+                gain *= p.get("ca_pursuit_mult", 1.0)  # pursuit
+            gain = min(gain, st.feba_km)
             st.feba_km -= gain
             self._log(
                 day,
@@ -405,15 +440,23 @@ class Campaign:
         w = min(w_wanted, max(st.hold_km - st.feba_km, 0.0))
         standing = w_wanted > 0 and w < w_wanted
         scale = epstein.contact_attrition_scale(w, p["w_max_kmd"])
+        if st.red_paused:
+            # Quiet front: patrols and fires only, while red builds
+            # supply. Blue may still counterattack into a pause (the
+            # CA path above bypasses this scaling deliberately).
+            scale *= p.get("pause_intensity", 0.25)
         red_loss *= scale
         blue_loss *= scale
         red.distribute_losses(red_loss)
         blue.distribute_losses(blue_loss)
 
         ratio = red.cv / max(blue.cv, 1e-9)
-        adv = min(w, p["march_kmd"])
-        if ratio >= p["advance_ratio"]:
-            adv += p["pressure_kmd"]
+        if st.red_paused:
+            adv = 0.0  # a paused red does not follow up withdrawals
+        else:
+            adv = min(w, p["march_kmd"])
+            if ratio >= p["advance_ratio"]:
+                adv += p["pressure_kmd"]
         st.feba_km += adv
         self._log(
             day,
@@ -435,6 +478,7 @@ class Campaign:
             commit=committed,
             bfill=bfill,
             rfill=rfill,
+            pause=st.red_paused,
             ratio_known=True,
         )
         self._check_fallen(st)
@@ -518,6 +562,7 @@ class Campaign:
         commit=0,
         bfill=1.0,
         rfill=1.0,
+        pause=False,
         ratio_known=False,
     ):
         self.logs.append(
@@ -542,5 +587,6 @@ class Campaign:
                 commit=commit,
                 bfill=round(bfill, 2),
                 rfill=round(rfill, 2),
+                pause=pause,
             )
         )

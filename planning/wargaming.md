@@ -1,5 +1,10 @@
 # Wargaming approach
 
+*Status: instrument campaign 1 CLOSED (2026-07-21, v6). Mechanism
+inventory, claim ledger, and research handoff live in
+notes/wargaming-findings.md; resume model work after the
+calibration research pass.*
+
 *Step-0 sketch (2026-07-20). Purpose and options; system choice is a
 Phase-1 decision after the echelon/front question narrows.*
 

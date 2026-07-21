@@ -100,6 +100,21 @@ red_loc_penalty = 0.55     # fill lost per fraction of theater depth gained
 amphib_close_min = 10
 amphib_close_max = 17
 
+# v6: red operational pauses (the pulsed offensive — a starved red
+# builds supply forward instead of grinding at the floor)
+red_pause_fill = 0.55    # flow fill below which red pauses
+red_resume_fill = 1.0    # (flow+stockpile)/demand needed to resume
+red_pause_buildup = 25.0 # supply points built forward per pause day
+pause_intensity = 0.25   # contact intensity while paused
+
+# v6: what blue's deep fires attack (CLI --deep-target overrides)
+deep_target = "echelon"     # "echelon" (delay arrivals) | "throughput"
+deep_supply_per_point = 6.0 # red flow cut per deep point-day (throughput mode)
+
+# v6: pursuit — counterattacks into a supply-starved red bite deeper
+ca_pursuit_fill = 0.5
+ca_pursuit_mult = 2.0
+
 [[axes]]
 name = "coastal-luebeck"
 length_km = 95  # Travemünde approaches -> Kiel Canal, roughly

@@ -58,6 +58,18 @@ work, so its disciplines apply to every session from the first:
   refinement 1, has the history).
 - The ledger's Statements section is append-only, forever.
 
+## Holdings (private companion repo)
+
+This repo may become public; it must stay freely redistributable.
+DK-owned materials that can't be (book scans, purchased ebooks) live
+in the `holdings/` submodule → `the-mission-1986-private`,
+**always-private**. Metadata stays public (reference/shelf.md
+Holdings table + the holdings catalog). Never copy holdings content
+into this repo, its build outputs, or transcripts — distilled notes
+about the material belong in reference/*.md, the material itself
+does not. `make hooks` installs the pre-commit guard that enforces
+the file side of this.
+
 ## Process rules (presumed to apply to any model on this project)
 
 Inherited from White Buffalo's model-author findings; a fresh critique profile

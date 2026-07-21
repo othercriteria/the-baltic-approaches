@@ -1,0 +1,32 @@
+#!/bin/sh
+# Pre-commit guard for the PUBLIC repo (install: make hooks).
+#
+# 1. No document binaries. This repo may become public; anything DK
+#    cannot freely redistribute lives in the holdings submodule
+#    (../the-mission-1986-private), never here. Freely-fetchable
+#    documents go through scripts/fetch-shelf.py into the gitignored
+#    reference/pdf/, not into git.
+# 2. Nothing under holdings/ as regular files. The submodule gitlink
+#    (mode 160000, path "holdings") is fine; actual file paths under
+#    holdings/ would mean the submodule got flattened into the tree.
+
+staged=$(git diff --cached --name-only --diff-filter=ACR)
+
+docs=$(printf '%s\n' "$staged" | grep -Ei '\.(pdf|epub|djvu|mobi|azw3?)$')
+if [ -n "$docs" ]; then
+    echo "pre-commit: document binaries staged in the public repo:" >&2
+    printf '  %s\n' $docs >&2
+    echo "Owned-but-not-redistributable -> holdings submodule." >&2
+    echo "Freely fetchable -> scripts/fetch-shelf.py (reference/pdf/ is gitignored)." >&2
+    exit 1
+fi
+
+flat=$(printf '%s\n' "$staged" | grep -E '^holdings/')
+if [ -n "$flat" ]; then
+    echo "pre-commit: files staged under holdings/ — the submodule" >&2
+    echo "appears flattened; its contents must never enter this repo:" >&2
+    printf '  %s\n' $flat >&2
+    exit 1
+fi
+
+exit 0

@@ -22,7 +22,13 @@ FOUNDING_ID = 656ec2ba-b295-4e5d-8712-5e270300dcde
 FOUNDING_DIR = $(HOME)/.claude/projects/-home-dlk-workspace
 OWN_DIR = $(HOME)/.claude/projects/-home-dlk-workspace-the-mission-1986
 
-.PHONY: archive transcripts transcripts-founding raw-archive shelf test demo
+.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo
+
+# One-time per clone: install the pre-commit guard (blocks document
+# binaries and flattened holdings/ paths from the public repo)
+hooks:
+	@ln -sf ../../scripts/pre-commit .git/hooks/pre-commit
+	@echo "Installed .git/hooks/pre-commit -> scripts/pre-commit"
 
 # Wargame instrument
 test:

@@ -41,11 +41,24 @@ white-buffalo.
 - Dupuy-adjacent free material: CAA/BDM studies on QJM validation if
   findable (the books themselves are purchases)
 
+## Holdings (owned, not redistributable — private companion repo)
+
+DK-owned materials that can't be freely redistributed live in the
+`holdings/` submodule (`the-mission-1986-private`, always-private).
+The *metadata* is public, here and in that repo's catalog — private
+means "not redistributed," never "concealed." The main repo's
+pre-commit guard (`make hooks`) blocks document binaries from this
+repo so the only road for such files is the holdings repo.
+
+| Holding | Status |
+|---|---|
+| Dupuy, *Numbers, Predictions and War* | print copy acquired 2026-07-20; PDF to be produced from the printed text or sourced. Unblocks wargame v1 calibration (QJM advance rates, daily-casualty norms) |
+
 ## Purchase list (copyrighted; DK's call)
 
 - Goldratt, *The Goal* (structure model — mentor dialogues, metrics
   engine)
-- Dupuy, *Numbers, Predictions and War* (QJM — wargaming calibration)
+- ~~Dupuy, *Numbers, Predictions and War*~~ → acquired, see Holdings
 - Epstein, *The Calculus of Conventional War* (1985; anti-Lanchester
   tempo model)
 - Glantz, *Soviet Military Operational Art: In Pursuit of Deep Battle*

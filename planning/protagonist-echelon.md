@@ -249,6 +249,88 @@ doctrine-returns-home candidate, hazard flagged above).
    were German, which Danish (research queue: binational staff
    key-position breakdown).
 
+## The change-of-command device (opened 2026-07-21, DK's degree of freedom)
+
+DK's observation: the change-of-command *timing* is a deviation we
+can permit ourselves. Sharpened by the research: since officeholders
+are fictional under no-borrowed-furniture, the alternation PHASE is
+ours to set — only the pattern (alternating GE/DA, multi-year
+tours) is kept furniture. So this device costs almost nothing in
+historical honesty; it must be judged purely on what it does to the
+book. Options, forced:
+
+**A. Settled commander** (in post ~18 months when war comes). The
+historical rhythm for a 1986 setting. Stable command relationship;
+the confusion clause must be carried entirely by doctrine, metrics,
+and the enemy. Baseline to beat.
+
+**B. October cut-over, handover complete.** A new commander — of
+the OTHER nation, per the alternation — takes the corps weeks
+before war. He commands legally and fully, but: he doesn't know
+his staff, his staff doesn't know him, his predecessor's SOPs are
+still taped to the map boards, and (November setting) **he took
+command three weeks after the corps' autumn exercise — he is the
+only man in the headquarters who missed the rehearsal for the war
+he must now fight.** The staff rehearsed under the other man, in
+the other man's style, possibly in the other man's language of
+emphasis. Alliance texture at maximum: a Danish general inheriting
+a half-German staff mid-mobilization (or mirrored), with both
+capitals watching whether "their" corps is still theirs.
+
+**C. War freezes the handover.** The successor is named, announced,
+perhaps present at Rendsburg as an observer — and mobilization
+freezes the transition ("you don't change horses"). A lame-duck
+commander fighting the opening battles with his successor in the
+building; or the reverse, a successor rushed into command with the
+predecessor retained as "advisor." Fresher than B, more paralyzing;
+risks overloading the book's opening with command soap-opera at the
+expense of the doctrinal payload.
+
+**D. The protagonist is the new arrival, not the commander.** G-3
+posted in October; the staff is settled, HE is not. Cheapest
+device of all (individual postings rotate constantly — not even a
+deviation), puts "adrift" on the protagonist personally, and gives
+the reader a natural everything-explained-to-the-new-man channel
+that must be handled without PowerPoint-in-prose. Composable with
+A (settled commander, new G-3) or, dangerously, with B (double
+transition — probably too much).
+
+**Interactions worth weighing:**
+
+- *The wargame already has the parameter.* Recognition lag
+  (ca_recognition_days) is the transition made mechanical: a new
+  command team starts with high lag, and the campaign showed each
+  day of lag costs 2-4 km and a counterattack day. Under option B,
+  the arc "the staff learns to see faster" is initialized by the
+  cut-over itself; the device and the instrument agree.
+- *The persuasion engine inverts under B.* A settled commander
+  must be argued out of settled views (Rogo-Peach classic). A new
+  commander MUST rely on his staff (he knows nothing local) but
+  trusts nothing yet — the G-3 becomes the corps' institutional
+  memory overnight, authority without rank. That is a fresher
+  persuasion problem than the classic, and it makes the G-3
+  load-bearing by construction rather than by talent (contract:
+  no anointed protagonist).
+- *Nationality algebra.* B with GE→DA succession: Danish commander,
+  and if the protagonist is the German G-3, every axis crosses the
+  national boundary (commander-staff, staff-divisions, Jonah). B
+  with DA→GE mirrors it. The year re-pick moves which flip is
+  available "on schedule"; October-1986 cut-over with GE→DA implies
+  our fictional alternation runs one year offset from the real one
+  — declare it and it's done.
+- *Genre risk, flagged:* new-commander-arrives is a war-fiction
+  trope (and C flirts with command melodrama). The mitigation is
+  the reader contract itself: the transition is not the story; it
+  is the *initial condition of the confusion*. The doctrine payload
+  must stay the plot.
+
+**Lean (recorded, not ruled):** B, with D's protagonist-tenure
+question left to character sketches (a G-3 one year in post — long
+enough to know the corps, short enough to own nothing — serving a
+commander three weeks in post reads as the strongest asymmetry).
+Declare the alternation-phase offset in the deviations register
+(reference/landjut-front.md).
+
 ## Current lean (recorded, not ruled — superseded by the
 reassessment above, kept for the record)
 

@@ -114,6 +114,22 @@ Battle's German intellectual debts — the "doctrine returns home"
 thread from the front reassessment (planning/protagonist-echelon.md),
 with the clean-nostalgia hazard flagged there.
 
+## Declared deviations from history
+
+The register the doctrine auditor will hold us to: deviations are
+permitted, declared, and priced — never silent. (Officeholders are
+fictional throughout per no-borrowed-furniture; entries here are
+for *structural* departures.)
+
+1. **COMLANDJUT alternation phase** (proposed 2026-07-21, pending
+   ruling): the fictional GE/DA alternation may run offset from the
+   historical one so that a change of command falls ~October of the
+   setting year — the war catches the corps with a new commander of
+   the other nation who missed the autumn exercise. Price: nil
+   beyond the offset itself; the alternation pattern and tour
+   lengths stay historical. See planning/protagonist-echelon.md,
+   "The change-of-command device."
+
 ## Research queue (front-specific)
 
 - PHP/CWIHP Warsaw Pact documents on the Baltic/Danish axis (Wilson

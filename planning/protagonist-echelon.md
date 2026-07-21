@@ -179,6 +179,66 @@ structure, HDv 100/100 — what doctrine the protagonist's own army
 actually ran — Danish 1986 structure, BOLD GUARD records) confirms
 the OOB and command-relationship facts the premise leans on.
 
+## Post-campaign-1 assessment (2026-07-21; LANDJUT fixed per DK)
+
+Six wargame iterations (notes/wargaming-findings.md) bear directly
+on the echelon question, and they collapse the option space:
+
+**Every load-bearing decision the campaign surfaced lives at the
+corps level — at LANDJUT HQ, Rendsburg.** The instrument's decisive
+levers: air allocation (deep vs close; echelon vs throughput
+targeting), reserve withholding/massing/release, recognition of the
+counterattack window, hold-line politics and their release,
+mobilization-schedule protection, and reading the enemy's
+operational method (grinding vs pulsed). Not one is a division
+decision in this theater; all are COMLANDJUT-staff decisions. The
+model has been writing the protagonist's job description for six
+iterations.
+
+**This theater dissolves option B's classic objection.** The
+PowerPoint-in-prose risk of corps staff assumed staff distance from
+the war. LANDJUT's theater is 95-110 km deep: by week two the corps
+HQ is inside artillery range and the war comes to the headquarters.
+And options B and D turn out to be the same option here — LANDJUT
+HQ *is* the composite formation: standing, binational (German
+commander under a Danish COMBALTAP), two national divisions plus
+allied reinforcements arriving on other people's schedules. The
+composite friction is native, not invented. Option C (brigade) is
+eliminated: the payloads are invisible from there.
+
+**Position: the G-3 operations/plans officer** — not the chief of
+staff (too senior to be adrift), not the commander (loses the
+Rogo-persuasion engine). The growth arc the instrument staged maps
+onto the post exactly: the campaign's closing finding was that the
+G-3's questions are unanswerable without the G-2's (what does the
+enemy think the goal is?) and the G-4's (what does throughput
+permit?) — so the protagonist's arc IS the discovery that his
+staff section's walls are the confusion. Recognition lag is his
+personal parameter; the ensemble is the staff-section shape the
+premise wanted (G-2 skeptic, G-4 veteran, air liaison, the Danish
+and German counterparts). Rank: Oberstleutnant i.G.-equivalent —
+in the room for every decision, owning none of them at the start.
+
+**Boss and pressure gradient, Rogo-shaped:** COMLANDJUT as the
+Donovan/Peach axis (persuadable, measured from above in the wrong
+units); BALTAP/AFNORTH and two national capitals supplying the
+hold-line politics; Jonah outside the chain entirely (the
+doctrine-returns-home candidate, hazard flagged above).
+
+**Still open (ruling withheld):**
+1. *Nationality.* German G-3 (doctrinal payload native — HDv
+   100/100, the Balck inheritance — and the doctrine-returns-home
+   irony lands hardest) vs Danish officer on the binational staff
+   (outsider vantage strengthens adrift/confused; the mobilization
+   clock is Denmark's; fresher for Anglophone readers). This is a
+   voice decision as much as a structural one — needs character
+   sketches, not more wargaming.
+2. *Exact post:* G-3 himself vs the plans officer under a
+   conventional G-3 (the latter deepens "adrift," weakens span of
+   control). Needs the real LANDJUT staff structure — which posts
+   were German, which Danish (research queue: binational staff
+   key-position breakdown).
+
 ## Current lean (recorded, not ruled — superseded by the
 reassessment above, kept for the record)
 

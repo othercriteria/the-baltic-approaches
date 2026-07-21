@@ -4,6 +4,60 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-21 — v3 (airframe stock, red counter-interdiction, sweep harness)
+
+Mechanics: sortie generation is now a STOCK (air points come from
+surviving airframes; sorties cost airframes; deep costs ~2x close —
+the sortie-generation payload made real: an air force can spend
+itself); red air against blue mobilization (grounded in the front
+research — the documented Baltic threat to Danish roads/bridges/
+ports — same capped late-and-weaker logic as blue's FOFA, in
+reverse); scenario upgraded to researched STRUCTURE with toy
+strengths (UKMF brigade per Davies/BALTAP sources, Soviet third
+echelon TO-VERIFY); and the REQUIRED sensitivity sweep harness
+(wargame/sweep.py). 22 tests green.
+
+**Headline: the counterattack window is contested ground.** v2's
+window (15 CA days, FEBA driven to 4 km) exists only while red's
+deep fight is absent. Turn on red interdiction of blue mobilization
+plus the third echelon, and the window narrows to a single dawn —
+day 10, ratio 0.93, one day below the threshold — which the
+campaign then loses forever when the next echelon lands. The
+counterstroke is not a blue capability; it is a prize the two deep
+fights compete for. For the book: the enemy has a G-3 too, and the
+protagonist's applied insight must beat the mirror-image insight —
+which is both truer doctrine (FOFA existed precisely because Soviet
+echelons existed) and better drama than v2's solvable puzzle.
+
+**Sweep results (n=150, all key params perturbed U(0.6, 1.4),
+21 days):** the first claims robust enough to survive their own
+counter-brief — still conditional on the toy scenario's shape, but
+no longer on its numbers:
+
+- all-deep holds ≥ as many axes as all-close: **100%**
+- monotone in deep fraction: **100%**
+- all-deep strictly better (held, then force): 79%
+- counterattack requires deep>0: **100%**
+- v1's "split is strictly worst": 13% — the dead claim stays dead
+  (parameter-dependent artifact, confirmed at ensemble scale)
+
+**Airframe economics note:** with the stock model, sustained
+all-deep spends the air force — points decline as airframes attrit,
+so late-campaign interdiction fades exactly when the third echelon
+arrives. Sortie-generation-as-throughput now interacts with the
+echelon clock; nobody tuned this, the mechanisms composed.
+
+**v4 queue:** the missed-dawn problem (CA evaluates at dawn against
+a hard ratio threshold; day 10's 0.93 was a real window the rule
+family may be too coarse to seize — consider commander-judgment
+variance or multi-day window detection; this is ALSO a
+characterization question: who notices the window is the book's
+protagonist); blue reserve massing (whole-force CA is wrong —
+counterattacks are massed from withheld reserves); red operational
+choice between axes; amphib axis (LANDZEALAND pressure); artillery
+(v0 item, still open); researched strengths + mobilization
+timelines into the scenario (research queue items feed directly).
+
 ## 2026-07-20 — v2 (counterattack windows, mobilization, weather, saturation)
 
 Mechanics: blue mobilization inflow (Danish/FRG reserve battalions on

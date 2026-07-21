@@ -7,7 +7,7 @@ from wargame.oob import Battalion, load_scenario
 SCEN = Path(__file__).parent.parent / "wargame" / "scenarios" / "toy-landjut.toml"
 
 
-def run(days=18, deep=None, hold=True, seed=1986, wx=False, ca=False):
+def run(days=18, deep=None, hold=True, seed=1986, wx=False, ca=False, red_air=None):
     data, axes, dropped = load_scenario(SCEN)
     if deep is not None:
         data["params"]["deep_fraction"] = deep
@@ -18,6 +18,8 @@ def run(days=18, deep=None, hold=True, seed=1986, wx=False, ca=False):
         data["params"]["wx_standdown_prob"] = 0.0
         data["params"]["wx_min"] = 1.0
         data["params"]["wx_max"] = 1.0
+    if red_air is not None:
+        data["params"]["red_deep_points"] = red_air
     data["params"]["ca_enabled"] = ca
     camp = Campaign(axes=axes, params=data["params"], seed=seed)
     state = camp.run(days)
@@ -124,10 +126,12 @@ def test_close_support_saturates():
 
 
 def test_counterattack_fires_in_the_window():
-    """With interdiction stretching the echelon gap and CA enabled,
-    blue should counterattack at least once, and CA days move the
-    FEBA backward."""
-    camp, _, _ = run(deep=1.0, ca=True)
+    """Mechanism test: with blue interdiction stretching the echelon
+    gap and NO red counter-interdiction, blue counterattacks and CA
+    days move the FEBA backward. (With red interdiction on, the
+    window can legitimately close — that is a scenario finding, not
+    a mechanism defect; see notes/wargaming-findings.md v3.)"""
+    camp, _, _ = run(deep=1.0, ca=True, red_air=0.0, days=24)
     ca_days = [e for e in camp.logs if e.ca]
     assert ca_days, "no counterattack ever fired"
     assert all(e.advance_km < 0 for e in ca_days)
@@ -152,6 +156,51 @@ def test_hold_release_frees_withdrawal():
     resumed = [e for e in camp.logs if e.day > 8 and e.withdrawal_km > 0]
     assert standing_days and min(standing_days) < 8, "hold line never bound"
     assert resumed, "withdrawal never resumed after hold release"
+
+
+def test_airframe_stock_depletes_and_floors_at_zero():
+    camp, _, _ = run(deep=1.0, days=21)
+    assert camp.aircraft >= 0.0
+    data, _, _ = load_scenario(SCEN)
+    assert camp.aircraft < data["params"]["blue_aircraft"]
+
+
+def test_deep_costs_more_airframes_than_close():
+    camp_deep, _, _ = run(deep=1.0, days=10)
+    camp_close, _, _ = run(deep=0.0, days=10)
+    assert camp_deep.aircraft < camp_close.aircraft
+
+
+def test_red_interdiction_delays_blue_mobilization():
+    data, axes, _ = load_scenario(SCEN)
+    data["params"]["wx_standdown_prob"] = 0.0
+    data["params"]["wx_min"] = 1.0
+    data["params"]["wx_max"] = 1.0
+    data["params"]["ca_enabled"] = False
+    camp = Campaign(axes=axes, params=data["params"], seed=1)
+    camp.run(18)
+    with_red = min(e.day for e in camp.logs if e.blue_arrivals > 0)
+
+    data2, axes2, _ = load_scenario(SCEN)
+    data2["params"]["wx_standdown_prob"] = 0.0
+    data2["params"]["wx_min"] = 1.0
+    data2["params"]["wx_max"] = 1.0
+    data2["params"]["ca_enabled"] = False
+    data2["params"]["red_deep_points"] = 0.0
+    camp2 = Campaign(axes=axes2, params=data2["params"], seed=1)
+    camp2.run(18)
+    without_red = min(e.day for e in camp2.logs if e.blue_arrivals > 0)
+    assert with_red > without_red
+
+
+def test_sweep_smoke():
+    from wargame.sweep import run_sample
+
+    outcomes = run_sample(SCEN, 0, days=8, lo=0.8, hi=1.2)
+    assert set(outcomes) == {0.0, 0.5, 1.0}
+    for o in outcomes.values():
+        assert 0 <= o["held"] <= 2
+        assert o["blue_cv"] >= 0
 
 
 def test_year_parameterization_mechanism():

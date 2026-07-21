@@ -69,8 +69,12 @@ def main():
             f"{name}: FEBA {st.feba_km:.0f}/{st.length_km:.0f} km [{status}] "
             f"| blue CV {blue.cv:.1f} ({len(blue.alive)} bns) "
             f"| red CV {red.cv:.1f} ({len(red.alive)} bns) "
-            f"| red delay {st.red_delay_days:.1f} d"
+            f"| red delay {st.red_delay_days:.1f} d "
+            f"| blue delay {st.blue_delay_days:.1f} d"
         )
+    if getattr(camp, "aircraft", None) is not None:
+        p0 = data["params"].get("blue_aircraft", 0.0)
+        print(f"airframes: {camp.aircraft:.0f}/{p0:.0f} remaining")
     if args.json:
         args.json.write_text(json.dumps([vars(e) for e in camp.logs], indent=1))
         print(f"\nwrote {args.json}")

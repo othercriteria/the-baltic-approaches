@@ -61,7 +61,8 @@ class AxisState:
     length_km: float
     hold_km: float  # withdrawal may not take the FEBA past this
     feba_km: float = 0.0
-    red_delay_days: float = 0.0  # accumulated interdiction delay
+    red_delay_days: float = 0.0  # accumulated blue-interdiction delay
+    blue_delay_days: float = 0.0  # accumulated red-interdiction delay
     fallen: bool = False
 
 
@@ -95,6 +96,10 @@ class Campaign:
 
     def run(self, days):
         rng = random.Random(self.seed)
+        p = self.params
+        # Sortie generation is a stock, not a faucet: air points come
+        # from surviving airframes, and sorties cost airframes.
+        self.aircraft = p.get("blue_aircraft", 0.0)
         state = {}
         for name, ax in self.axes.items():
             spec = ax["spec"]
@@ -105,6 +110,12 @@ class Campaign:
             )
         for day in range(1, days + 1):
             wx = self._weather(rng)  # theater-wide, one draw per day
+            live = [n for n, st in state.items() if not st.fallen]
+            if self.aircraft > 0:
+                points_today = self.aircraft * p["sorties_per_aircraft"] * wx
+            else:
+                points_today = p.get("blue_air_points", 0.0) * wx
+            share = points_today / len(live) if live else 0.0
             for name, ax in self.axes.items():
                 st = state[name]
                 if st.fallen:
@@ -113,25 +124,34 @@ class Campaign:
                 release = spec.get("hold_release_day")
                 if release and day >= release:
                     st.hold_km = st.length_km
-                self._axis_day(day, ax, st, wx)
+                self._axis_day(day, ax, st, wx, share)
         return state
 
     # -- one axis-day ------------------------------------------------
 
-    def _axis_day(self, day, ax, st, wx):
+    def _axis_day(self, day, ax, st, wx, air_share):
         red, blue = ax["red"], ax["blue"]
         p = self.params
 
         arrivals = self._arrivals(day, red, st)
-        # Blue mobilization flows in on its own schedule (red
-        # interdiction of blue mobilization is NOT modeled yet).
+        # Blue mobilization: red interdiction (Baltic air/missile
+        # threat to Danish roads, bridges, ports — the Pałka-
+        # documented axis) delays and attrits it, same capped
+        # late-and-weaker logic as blue's FOFA in reverse.
+        red_deep = p.get("red_deep_points", 0.0) * wx
+        if red_deep > 0 and blue.reserve:
+            blue.attrit_reserve(red_deep * p["red_deep_attrition_per_point"])
+            st.blue_delay_days += min(
+                red_deep * p["red_deep_delay_per_point"],
+                p["red_delay_cap_dpd"],
+            )
         blue_arrivals = 0
         for u in list(blue.reserve):
-            if day >= u.arrival_day:
+            if day >= u.arrival_day + st.blue_delay_days:
                 blue.reserve.remove(u)
                 blue.units.append(u)
                 blue_arrivals += 1
-        air_close, air_deep = self._air(red, st, wx)
+        air_close, air_deep = self._air(red, st, wx, air_share)
 
         r_cv, b_cv = red.cv, blue.cv
         if b_cv <= 0.5:  # defense collapsed: road-march advance
@@ -305,9 +325,11 @@ class Campaign:
                 arrived += 1
         return arrived
 
-    def _air(self, red, st, wx):
+    def _air(self, red, st, wx, points):
+        """Allocate this axis's air share; pay the airframe bill.
+        Deep sorties fly into the follow-on echelon's air defense
+        and cost more than close support over friendly lines."""
         p = self.params
-        points = p.get("blue_air_points", 0.0) * wx
         deep_frac = p.get("deep_fraction", 0.0)
         deep = points * deep_frac
         close = points - deep
@@ -319,6 +341,11 @@ class Campaign:
         else:
             deep = 0.0
             close = points
+        if getattr(self, "aircraft", 0.0) > 0:
+            losses = close * p.get("loss_per_close_point", 0.0) + deep * p.get(
+                "loss_per_deep_point", 0.0
+            )
+            self.aircraft = max(self.aircraft - losses, 0.0)
         return close, deep
 
     def _check_fallen(self, st):

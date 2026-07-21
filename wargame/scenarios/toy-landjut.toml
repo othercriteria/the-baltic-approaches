@@ -29,8 +29,20 @@ pressure_kmd = 4.0     # advance under pressure at ratio, km/day — placeholder
 
 # Air model (November: short days suppress the totals; see
 # planning/setting-time.md). All values placeholder scale.
-blue_air_points = 6.0            # daily air effort available to LANDJUT
+# v3: sortie generation is a STOCK — points come from airframes,
+# sorties cost airframes, deep costs more than close.
+blue_aircraft = 90.0             # theater airframes available to BALTAP air
+sorties_per_aircraft = 0.08      # air points per airframe per clear day
+loss_per_close_point = 0.20      # airframes lost per close point-day
+loss_per_deep_point = 0.45       # deep flies into the echelon's air defense
 deep_fraction = 0.0              # share sent deep (CLI --deep overrides)
+
+# Red air against blue mobilization (the documented Baltic threat
+# axis: Danish roads, bridges, ports) — same late-and-weaker logic
+red_deep_points = 3.0
+red_deep_attrition_per_point = 0.010
+red_deep_delay_per_point = 0.12
+red_delay_cap_dpd = 0.5
 close_support_cv_per_point = 1.2 # CV added to today's engagement per point
 deep_attrition_per_point = 0.012 # march-column loss fraction per point-day
 deep_delay_per_point = 0.15      # arrival delay added per point-day...
@@ -282,6 +294,76 @@ axis = "inland-bad-segeberg"
 kind = "inf"
 cv = 7
 arrival_day = 8
+
+# --- UKMF: UK 1st Infantry Brigade, LANDJUT's committed external
+# reinforcement (Davies; Wikipedia BALTAP). Arrival day toy. -----
+
+[[units]]
+name = "B-UKMF InfBtl I"
+side = "blue"
+axis = "coastal-luebeck"
+kind = "inf"
+cv = 7
+arrival_day = 9
+
+[[units]]
+name = "B-UKMF InfBtl II"
+side = "blue"
+axis = "coastal-luebeck"
+kind = "inf"
+cv = 7
+arrival_day = 10
+
+[[units]]
+name = "B-UKMF ArmdRecceSqn"
+side = "blue"
+axis = "coastal-luebeck"
+kind = "armor"
+cv = 8
+arrival_day = 10
+
+# --- Red third echelon (Soviet follow-on) — structure assumption
+# TO-VERIFY (reference/landjut-front.md); strengths toy -----------
+
+[[units]]
+name = "R-21 TR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "armor"
+cv = 10
+arrival_day = 11
+
+[[units]]
+name = "R-21 MRR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 12
+
+[[units]]
+name = "R-21 MRR II"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 12
+
+[[units]]
+name = "R-22 TR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "armor"
+cv = 10
+arrival_day = 12
+
+[[units]]
+name = "R-22 MRR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "mech"
+cv = 8
+arrival_day = 13
 
 # --- Blue: LANDJUT-ish covering force, battalion atoms ------------
 

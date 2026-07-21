@@ -77,6 +77,21 @@ the same deep-capable airframes while the amphib window is open;
 the sea-state day that releases the beach watch releases the
 Tornados too. apportionment_mode="direct" (default) reproduces v6
 exactly.
+
+v8 decomposes the decision grades (DK mandate 2; the hostile
+review's attack 3 answered in the instrument's own language). Each
+echelon now owns distinct decisions with its own quality number:
+THEATER (Karup) — the apportionment (v7; advocacy_rate/lag).
+CORPS (Rendsburg) — air sub-allocation between axes
+(corps_air_alloc="threat": shares weighted by the red picture as it
+stood corps_alloc_lag_days ago — the corps fights from a stale map)
+and the corps reserve (role="corps-reserve" units, dispatched to a
+collapsing axis after corps_recognition_days of standing trigger,
+arriving corps_reserve_move_days later as DIVISIONAL withheld
+reserve — commitment still chains through the lower echelon).
+DIVISION — the local reserve/CA machinery (v4), its lag now
+div_recognition_days (falls back to ca_recognition_days).
+Defaults ("equal", no corps units passed) reproduce v7 exactly.
 """
 
 import math
@@ -136,6 +151,8 @@ class Campaign:
     params: dict
     seed: int = 1986
     logs: list = field(default_factory=list)
+    # v8: corps reserve pool (Battalions; no axis until dispatched)
+    corps_reserve: list = field(default_factory=list)
 
     def run(self, days):
         rng = random.Random(self.seed)
@@ -174,6 +191,12 @@ class Campaign:
                 length_km=spec["length_km"],
                 hold_km=spec.get("hold_km", spec["length_km"]),
             )
+        # v8 corps state: threat-picture history (for the stale-map
+        # air allocation), per-axis emergency-standing counters, and
+        # dispatched-but-in-transit reserve units.
+        self._threat_history = []
+        self._corps_standing = dict.fromkeys(state, 0)
+        self._in_transit = []  # (arrive_day, axis_name, battalion)
         for day in range(1, days + 1):
             wx = self._weather(rng)  # theater-wide, one draw per day
             if mode == "advocacy" and day > p.get("advocacy_lag_days", 0):
@@ -196,7 +219,8 @@ class Campaign:
                 points_today = self.aircraft * p["sorties_per_aircraft"] * wx
             else:
                 points_today = p.get("blue_air_points", 0.0) * wx
-            share = points_today / len(live) if live else 0.0
+            shares = self._corps_air_shares(points_today, live)
+            self._corps_reserve_step(day, state)
             red_arrivals = self._red_arrivals(day, state)
             for name, ax in self.axes.items():
                 st = state[name]
@@ -207,9 +231,79 @@ class Campaign:
                 if release and day >= release:
                     st.hold_km = st.length_km
                 self._axis_day(
-                    day, ax, st, wx, share, red_arrivals.get(name, 0), len(live)
+                    day,
+                    ax,
+                    st,
+                    wx,
+                    shares.get(name, 0.0),
+                    red_arrivals.get(name, 0),
+                    len(live),
                 )
         return state
+
+    # -- corps grade (v8) ----------------------------------------------
+
+    def _corps_air_shares(self, points_today, live):
+        """Corps sub-allocation of the theater's air between axes —
+        the lever the research says the G-3 actually holds
+        (reference/air-apportionment.md). "equal" reproduces the
+        pre-v8 split. "threat" weights by red combat power per axis,
+        but through the picture as it stood corps_alloc_lag_days
+        ago: the corps allocates against a stale map, and its
+        staleness is a quality number."""
+        p = self.params
+        if not live:
+            return {}
+        threat = {
+            n: self.axes[n]["red"].cv + self.axes[n]["red"].staging_cv for n in live
+        }
+        self._threat_history.append(threat)
+        if p.get("corps_air_alloc", "equal") != "threat":
+            return dict.fromkeys(live, points_today / len(live))
+        lag = int(p.get("corps_alloc_lag_days", 0))
+        idx = max(len(self._threat_history) - 1 - lag, 0)
+        pic = self._threat_history[idx]
+        # Fallen-axis weights vanish; a picture with no live weight
+        # degenerates to the equal split.
+        weights = {n: max(pic.get(n, 0.0), 0.0) for n in live}
+        total = sum(weights.values())
+        if total <= 0:
+            return dict.fromkeys(live, points_today / len(live))
+        return {n: points_today * w / total for n, w in weights.items()}
+
+    def _corps_reserve_step(self, day, state):
+        """Corps reserve: dispatched to an axis whose line has stood
+        below the trigger for corps_recognition_days, arriving
+        corps_reserve_move_days later as DIVISIONAL withheld reserve
+        (the division still decides commitment — echelons chain)."""
+        p = self.params
+        for arrive, name, bn in list(self._in_transit):
+            if day >= arrive and not state[name].fallen:
+                self.axes[name]["blue"].withheld.append(bn)
+                self._in_transit.remove((arrive, name, bn))
+        if not self.corps_reserve:
+            return
+        trigger = p.get("corps_dispatch_cv", 0.0)
+        if trigger <= 0:
+            return
+        for name, st in state.items():
+            if st.fallen:
+                self._corps_standing[name] = 0
+                continue
+            if self.axes[name]["blue"].cv < trigger:
+                self._corps_standing[name] += 1
+            else:
+                self._corps_standing[name] = 0
+            if (
+                self._corps_standing[name] > p.get("corps_recognition_days", 0)
+                and self.corps_reserve
+            ):
+                bn = max(self.corps_reserve, key=lambda u: u.effective_cv)
+                self.corps_reserve.remove(bn)
+                self._in_transit.append(
+                    (day + int(p.get("corps_reserve_move_days", 1)), name, bn)
+                )
+                self._corps_standing[name] = 0
 
     def _red_arrivals(self, day, state):
         """Theater-level red echelon arrivals. Units arrive into the
@@ -401,11 +495,15 @@ class Campaign:
         )
         if not window:
             st.ca_run_days = 0  # window closed: culmination clock resets
+        # v8: the local reserve/CA decision is DIVISION grade; its
+        # recognition lag is the division's quality number
+        # (div_recognition_days; falls back to the pre-v8 name).
+        div_lag = p.get("div_recognition_days", p.get("ca_recognition_days", 0))
         ca_today = (
             p.get("ca_enabled", True)
             and window
             and can_mass
-            and st.window_days > p.get("ca_recognition_days", 0)
+            and st.window_days > div_lag
             and st.ca_run_days < p.get("ca_culminate_days", 10_000)
         )
         if ca_today and blue.withheld:

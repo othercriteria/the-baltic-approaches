@@ -68,6 +68,19 @@ should attack before drafting:
    division-framed wargame sketch and a one-page
    Jutland-Division-commander outline. Ruling is DK's; the brief
    is filed, not acted on.
+   **UPDATE, same day:** the air-apportionment research
+   (reference/air-apportionment.md) CONFIRMED attack 2's premise —
+   the deep/close split is COMBALTAP's at Karup — and wargame v8
+   answered attack 3's method demand: the instrument now contains
+   theater/corps/division decision grades, and across 60 perturbed
+   worlds the leverage concentrates at the corps-theater seam
+   (advocacy 11.8 CV median spread vs division 1.8), with the
+   G-3's one owned air lever (sub-allocation) nearly weightless.
+   The division-framed-sketch request is thereby partially
+   delivered inside the shared instrument (caveat: division layer
+   models only reserve/CA timing so far). The
+   Jutland-commander-outline request stands open. Ruling still
+   DK's.
 
 2. **The Goal's engine assumes iteration; a three-week war may not
    provide it.** Rogo learns because the plant runs every day —

@@ -130,6 +130,18 @@ advocacy_lag_days = 1        # days before the corps' argument first moves
 # the invasion fleet, not the land battle. Sea state releases it.
 naval_claim_frac = 0.0       # off by default; experiments turn it on
 
+# v8: the decision grades decomposed — each echelon owns decisions
+# and a quality number (reference/air-apportionment.md; hostile
+# review attack 3). Theater: advocacy_rate above. Corps: air
+# sub-allocation from a stale threat picture + the corps reserve.
+# Division: div_recognition_days (the old ca_recognition_days).
+corps_air_alloc = "threat"     # "equal" reproduces the pre-v8 split
+corps_alloc_lag_days = 1       # the corps map is this many days old
+corps_dispatch_cv = 10.0       # line CV that starts the corps clock
+corps_recognition_days = 1     # corps sees a collapsing axis this late
+corps_reserve_move_days = 2    # cross-corps road march, days
+div_recognition_days = 1       # division CA/reserve lag (was ca_recognition_days)
+
 [[axes]]
 name = "coastal-luebeck"
 length_km = 95  # Travemünde approaches -> Kiel Canal, roughly
@@ -487,6 +499,28 @@ side = "blue"
 axis = "inland-bad-segeberg"
 kind = "arty"
 cv = 6
+
+# --- Corps reserve (v8): held at Rendsburg's disposal, no axis
+# until dispatched; arrives as divisional withheld reserve after a
+# road march. LANDJUT's corps troops are documented THIN (Young);
+# two battalions is toy-generous — exercises the mechanism, do not
+# let the density leak toward canon. ------------------------------
+
+[[units]]
+name = "B-Corps PzJgBtl (corps res)"
+side = "blue"
+kind = "armor"
+cv = 8
+role = "corps-reserve"
+division = "Corps"
+
+[[units]]
+name = "B-Corps PzGrenBtl (corps res)"
+side = "blue"
+kind = "mech"
+cv = 8
+role = "corps-reserve"
+division = "Corps"
 
 # --- Amphib pin (LANDZEALAND's shadow on the mainland fight): these
 # units watch the beaches while the WP landing window (Palka: 7th

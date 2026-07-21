@@ -22,7 +22,8 @@ class Battalion:
     in_service: int | None = None  # first year fieldable, if known
     arrival_day: int = 1  # campaign day the unit reaches the axis
     # (>1 = follow-on echelon; subject to interdiction delay)
-    role: str = "line"  # line | reserve (withheld tactical reserve)
+    role: str = "line"  # line | reserve | beach-watch | corps-reserve
+    division: str | None = None  # v8: owning formation (echelon tag)
 
     @property
     def effective_cv(self):
@@ -121,6 +122,10 @@ def load_scenario(path, year=None):
         year = data.get("meta", {}).get("year")
     dropped = []
     axes = {}
+    # v8: corps-reserve units belong to no axis until the corps
+    # dispatches them; collected here, passed to Campaign by callers
+    # that model the corps grade (ignored otherwise — compat).
+    data["corps_reserve_units"] = []
     for axis in data["axes"]:
         axes[axis["name"]] = {"spec": axis, "blue": Force("blue"), "red": Force("red")}
     for u in data["units"]:
@@ -132,9 +137,13 @@ def load_scenario(path, year=None):
             in_service=u.get("in_service"),
             arrival_day=u.get("arrival_day", 1),
             role=u.get("role", "line"),
+            division=u.get("division"),
         )
         if year and bn.in_service and bn.in_service > year:
             dropped.append(bn.name)
+            continue
+        if bn.role == "corps-reserve":
+            data["corps_reserve_units"].append(bn)
             continue
         force = axes[u["axis"]][u["side"]]
         if bn.arrival_day > 1:

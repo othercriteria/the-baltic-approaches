@@ -4,6 +4,61 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-21 — v8 (echelon decomposition) — the attack-3 experiment (session 71ede904)
+
+Mechanics: the decision grades separated, each with a quality
+number. THEATER: v7 advocacy. CORPS: air sub-allocation between
+axes (corps_air_alloc="threat", weighted by the red picture as it
+stood corps_alloc_lag_days ago — the corps fights from a stale
+map) and the corps reserve (role="corps-reserve" units, dispatched
+to an axis standing below corps_dispatch_cv for
+corps_recognition_days, arriving corps_reserve_move_days later as
+DIVISIONAL withheld reserve — commitment chains through the lower
+echelon). DIVISION: the v4 reserve/CA machinery, lag renamed
+div_recognition_days. Defaults reproduce v7; 46 tests green. Toy
+corps reserve is two battalions (documented-thin corps troops —
+density must not leak toward canon).
+
+**Finding (point + sweep): leverage concentrates at the
+corps-theater seam, and the corps' owned lever is feather-light.**
+One-echelon-at-a-time quality swings around a common advocacy
+baseline (n=40 point; then 60 perturbed worlds x 3 seeds):
+
+| echelon knob | median CV spread | max-leverage worlds |
+|---|---|---|
+| theater advocacy_rate (0.1↔1.0) | 11.8 | 41/60 |
+| corps reserve recognition (0↔4 d) | 5.3 | 11/60 |
+| division CA recognition (0↔4 d) | 1.8 | 6/60 |
+| corps air-map staleness (0↔4 d) | 0.3 | 2/60 |
+
+The instrument now CONTAINS division-grade decisions, and they are
+an order of magnitude lighter than the theater seam — the hostile
+review's attack 3 ("the model contains no non-corps decision
+grades, so corps-convergence was unfalsifiable") is answered in
+the instrument's own language, with the honest caveats: the
+division layer models only reserve/CA timing (no obstacle
+sequencing, demolitions, or fires allocation — a richer layer
+could shift the ranking), and swing ranges encode judgment calls.
+
+The sharpest cut is the last row: air sub-allocation between axes
+— the ONE air lever the research confirms the G-3 actually owns
+(reference/air-apportionment.md) — is nearly worthless (0.3 CV;
+threat-weighting two axes just doesn't move enough). **What he
+controls doesn't matter; what matters he doesn't control — he can
+only argue.** That is the book's engine, measured: the
+protagonist's real instrument is the argument at the seam, and the
+instrument's quality number for it (advocacy_rate) is the campaign's
+dominant term. The Goal transposition survives in inverted form —
+Rogo discovered his metrics measured the wrong things; our G-3
+discovers his AUTHORITY covers the wrong things.
+
+**Standing caveats:** toy scenario shape; the corps-reserve grade
+untested against richer triggers (CA-opportunity dispatch is
+unbuilt); LANDZEALAND still not an axis. Queue: richer division
+grade (fires, obstacles, demolition timing) before any final
+echelon claim; calibrated demand postures (CAL-2); pause-parameter
+split (CAL-1).
+
 ## 2026-07-21 — v7 (air command layer) — CAMPAIGN 2 OPENS (session 71ede904)
 
 DK direction: campaign 2 must land (1) the honest air story and

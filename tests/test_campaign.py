@@ -292,7 +292,7 @@ def test_recognition_lag_delays_or_forfeits_counterattack():
         p = _mini_params(data["params"])
         p["ca_enabled"] = True
         p["deep_fraction"] = 1.0
-        p["ca_recognition_days"] = lag
+        p["div_recognition_days"] = lag  # v8 name; was ca_recognition_days
         camp = Campaign(axes=axes, params=p, seed=1986)
         camp.run(24)
         days = [e.day for e in camp.logs if e.ca]
@@ -586,3 +586,97 @@ def test_naval_sorties_pay_the_deep_airframe_price():
     d_base = sum(e.air_deep for e in base.logs)
     d_claim = sum(e.air_deep for e in claimed.logs)
     assert d_claim < d_base * 0.7
+
+
+# -- v8: echelon decomposition (corps air sub-allocation, corps ---
+# -- reserve, division lag) ---------------------------------------
+
+
+def run_v8(days=18, seed=1986, corps=False, **over):
+    data, axes, _ = load_scenario(SCEN)
+    data["params"]["wx_standdown_prob"] = 0.0
+    data["params"]["wx_min"] = 1.0
+    data["params"]["wx_max"] = 1.0
+    data["params"].update(over)
+    camp = Campaign(
+        axes=axes,
+        params=data["params"],
+        seed=seed,
+        corps_reserve=data["corps_reserve_units"] if corps else [],
+    )
+    state = camp.run(days)
+    return camp, state, axes
+
+
+def test_corps_reserve_units_stay_out_of_axes_unless_passed():
+    data, axes, _ = load_scenario(SCEN)
+    names = {
+        u.name
+        for ax in axes.values()
+        for force in (ax["blue"], ax["red"])
+        for u in force.units + force.reserve + force.withheld
+    }
+    assert not any("corps res" in n for n in names)
+    assert len(data["corps_reserve_units"]) == 2
+
+
+def test_equal_alloc_reproduces_pre_v8_split():
+    a, _, _ = run_v8(corps_air_alloc="equal", deep_fraction=1.0)
+    b, _, _ = run_v8(corps_air_alloc="equal", deep_fraction=1.0)
+    assert [(e.feba_km, e.air_deep) for e in a.logs] == [
+        (e.feba_km, e.air_deep) for e in b.logs
+    ]
+    # Equal split: both live axes see the same close+deep total each day.
+    per_day = {}
+    for e in a.logs:
+        per_day.setdefault(e.day, []).append(e.air_close + e.air_deep + e.air_naval)
+    for day, totals in per_day.items():
+        if len(totals) == 2:
+            assert abs(totals[0] - totals[1]) < 0.15
+
+
+def test_threat_alloc_weights_the_heavier_axis():
+    camp, _, axes = run_v8(
+        corps_air_alloc="threat", corps_alloc_lag_days=0, deep_fraction=0.0
+    )
+    day1 = {e.axis: e.air_close for e in camp.logs if e.day == 1}
+    heavier = max(axes, key=lambda n: axes[n]["red"].cv + axes[n]["red"].staging_cv)
+    assert day1[heavier] == max(day1.values())
+
+
+def test_corps_reserve_dispatches_after_recognition_and_march():
+    camp, _, axes = run_v8(
+        corps=True,
+        corps_dispatch_cv=45.0,  # trigger fires early (line CV starts ~30/axis)
+        corps_recognition_days=1,
+        corps_reserve_move_days=2,
+        ca_enabled=False,
+    )
+    total_withheld_names = {
+        u.name for ax in axes.values() for u in ax["blue"].withheld
+    } | {u.name for ax in axes.values() for u in ax["blue"].units}
+    assert any("corps res" in n for n in total_withheld_names)
+    assert not camp.corps_reserve  # pool spent
+
+
+def test_corps_reserve_untouched_when_no_trigger():
+    camp, _, axes = run_v8(corps=True, corps_dispatch_cv=0.0)
+    assert len(camp.corps_reserve) == 2
+
+
+def test_div_recognition_days_overrides_legacy_name():
+    a, _, _ = run_v8(
+        ca_enabled=True,
+        div_recognition_days=0,
+        ca_recognition_days=4,
+        deep_fraction=1.0,
+    )
+    b, _, _ = run_v8(
+        ca_enabled=True,
+        div_recognition_days=4,
+        ca_recognition_days=4,
+        deep_fraction=1.0,
+    )
+    ca_a = sum(1 for e in a.logs if e.ca)
+    ca_b = sum(1 for e in b.logs if e.ca)
+    assert ca_a >= ca_b

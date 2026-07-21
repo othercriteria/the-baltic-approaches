@@ -56,7 +56,12 @@ def main():
     if dropped:
         print(f"# dropped (not in service): {', '.join(dropped)}")
 
-    camp = Campaign(axes=axes, params=data["params"], seed=seed)
+    camp = Campaign(
+        axes=axes,
+        params=data["params"],
+        seed=seed,
+        corps_reserve=data.get("corps_reserve_units", []),
+    )
     state = camp.run(args.days)
 
     print(

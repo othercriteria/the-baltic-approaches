@@ -98,6 +98,29 @@ ITEMS = [
         "https://archive.org/download/DTIC_ADA278728/DTIC_ADA278728.pdf",
         "46841dc7a22259948dc1ccd7ddd7ecb3df1dccfedf2d18ccc6aeb3f6c88107f9",
     ),
+    # Batch 3 (2026-07-20, LANDJUT front research pass)
+    # The Balck/von Mellenthin-TRADOC consultation (BDM 1980) — the
+    # documented German intellectual debt of AirLand Battle
+    (
+        "bdm-balck-von-mellenthin-nato-tactics-1980.pdf",
+        "https://archive.org/download/DTIC_ADA097704/DTIC_ADA097704.pdf",
+        "2c653afd7b7ad49b08dc928947df3cc0cc9a7892125b78dde9468e12ed7a18bf",
+    ),
+    # Pałka, planning of the Polish People's Army landing operation
+    # (Danish isles) — Red-side primary-source scholarship
+    (
+        "palka-polish-landing-operation-planning.pdf",
+        "https://rcin.org.pl/Content/238081/WA303_274302_A52-KH-129-EE-6_Palka.pdf",
+        "040015ff3479aa53c1cf4140bd8466b1e0bf3992ffae05452504aee8793a4991",
+    ),
+    # Compiled Danish TO&Es 1980-89 (R Mark Davies, Fire & Fury) —
+    # wargamer-grade OOB bench for the Jutland Division side; verify
+    # against official sources before canon
+    (
+        "davies-danish-toe-1980-89.pdf",
+        "https://www.fireandfury.com/orbats/modcwdanish.pdf",
+        "28fc63cd2a0388ec410ceccf0d8c25bb1fc41d6f47d81c6866c1c5402ac3957b",
+    ),
 ]
 
 

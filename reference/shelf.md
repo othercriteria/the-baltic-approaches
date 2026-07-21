@@ -23,6 +23,9 @@ white-buffalo.
 | FM 24-18 *Tactical Single-Channel Radio Communications Techniques* (1987; 322 pp) | Net procedure, prowords, antenna/jamming discipline — the sound of the book's radio traffic |
 | FM 71-100 *Division Operations* (1996 ed.; 206 pp) | Post-setting — for OUR construct reference only; period editions stay queued |
 | Dupuy et al. (HERO), *Handbook on Ground Forces Attrition in Modern Warfare* (Sept 1986; 206 pp; DTIC ADA278728, unlimited distribution) | The public core of the Dupuy calibration bench: casualty-rate matrices by terrain/weather/posture, tank + artillery loss rates (incl. Soviet), daily rates by echelon. Period-exact. DK-surfaced; partially unblocks wargame v1 calibration ahead of the NP&W scan |
+| DePuy (ed.), *Generals Balck and von Mellenthin on Tactics: Implications for NATO Military Doctrine* (BDM, 1980; 61 pp) | The documented German intellectual debt of AirLand Battle — the "doctrine returns home" thread; also Jonah-voice source material (with the clean-nostalgia hazard flagged in planning) |
+| Pałka, planning of the Polish People's Army landing operation against the Danish isles (32 pp, academic) | Red-side primary-source scholarship for the Baltic amphib threat — the enemy's clock |
+| Davies, *Danish TO&Es 1980-1989* (Fire & Fury compilation; 15 pp) | Wargamer-grade Jutland Division / LANDJUT / territorial OOB bench — structure adopted provisionally, VERIFY against official sources before canon (reference/landjut-front.md tracks status) |
 
 ## Local archive tier (use in place, never redistribute)
 

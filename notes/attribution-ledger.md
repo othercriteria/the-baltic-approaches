@@ -49,6 +49,10 @@ entity index generatable instead of reconstructable.
   Raw-archive of this session's JSONL falls to the successor or DK:
   `make raw-archive SESSION=1a9aba32-d86d-41c9-9fe6-f89d300b45c0`.
 
+- 2026-07-21 — session 71ede904 (Fable 5) — live. Successor to
+  1a9aba32; entered via planning/status.md. First acts: raw-archive
+  of predecessor confirmed present, `make archive` run, this line.
+
 ## Entity index
 
 One row per entity: `<session-id>@<boundary-n>` or `<session-id>@tip`.
@@ -62,7 +66,7 @@ come from `Session-Id:` trailers plus JSONL boundary timestamps.
 | # | Entity | Boundary type | Dates | Model | Transcript | Commit range | Contribution summary |
 |---|---|---|---|---|---|---|---|
 | 1 | 656ec2ba@tip | tip | 2026-07-20 | Fable 5 | transcripts/2026-07-20-656ec2ba.md | (none in this repo; stub commit made by DK's tooling from its direction) | Premise selection and repo stubbing; see lineage log. Standing ruling: pre-project ideation, materiality to be ruled at wrap — when in doubt, include |
-| 2 | 1a9aba32@tip | tip | 2026-07-20 .. 07-21 (wrapped) | Fable 5 | (export after wrap) | 55ba88f..wrap, Session-Id trailers throughout | Step-0 entire: env; attribution process + holdings/guardrails; shelf (17 docs); bulk survey; wargame campaign 1 (v0-v6, findings log is the span's core record); LANDJUT/echelon/command-device planning; status.md handoff incl. two self-filed unsettles. Ruled material (DK, 2026-07-20): establishes the parameters future agents operate within — include in the review round |
+| 2 | 1a9aba32@tip | tip | 2026-07-20 .. 07-21 (wrapped) | Fable 5 | transcripts/2026-07-20-1a9aba32.md | 55ba88f..wrap, Session-Id trailers throughout | Step-0 entire: env; attribution process + holdings/guardrails; shelf (17 docs); bulk survey; wargame campaign 1 (v0-v6, findings log is the span's core record); LANDJUT/echelon/command-device planning; status.md handoff incl. two self-filed unsettles. Ruled material (DK, 2026-07-20): establishes the parameters future agents operate within — include in the review round |
 
 ## Statement template
 

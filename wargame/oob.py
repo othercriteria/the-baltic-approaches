@@ -49,6 +49,9 @@ class Force:
     # counterattack or emergency. Withholding is protective capacity
     # bought by a thinner line.
     withheld: list[Battalion] = field(default_factory=list)
+    # Staging area (red): arrived echelon units massing before
+    # commitment — the whole-echelon discipline. Not in contact.
+    staging: list[Battalion] = field(default_factory=list)
 
     @property
     def cv(self):
@@ -61,6 +64,17 @@ class Force:
     @property
     def withheld_cv(self):
         return sum(u.effective_cv for u in self.withheld)
+
+    @property
+    def staging_cv(self):
+        return sum(u.effective_cv for u in self.staging)
+
+    def commit_staging(self):
+        """Commit the staged echelon to the line; returns count."""
+        n = len(self.staging)
+        self.units.extend(self.staging)
+        self.staging.clear()
+        return n
 
     def commit_withheld(self):
         """Commit the tactical reserve to the line; returns count."""

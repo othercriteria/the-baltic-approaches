@@ -353,6 +353,76 @@ def test_commit_logged_on_counterattack_day():
     )
 
 
+def test_red_fill_declines_as_loc_stretches():
+    """Culmination as supply: red fulfillment must fall as the FEBA
+    advances into the theater."""
+    camp, _, _ = run(deep=0.0, days=14)
+    by_axis = {}
+    for e in camp.logs:
+        if e.rfill > 0 and e.ratio > 0:
+            by_axis.setdefault(e.axis, []).append((e.feba_km, e.rfill))
+    assert by_axis
+    strictly_declined = 0
+    for pts in by_axis.values():
+        deep_pts = [f for km, f in pts if km > 50]
+        shallow_pts = [f for km, f in pts if km < 20]
+        if deep_pts and shallow_pts:
+            # Never higher when stretched; an unconstrained axis may
+            # sit at 1.0 throughout.
+            assert max(deep_pts) <= max(shallow_pts)
+            if max(deep_pts) < max(shallow_pts):
+                strictly_declined += 1
+    assert strictly_declined >= 1, "no axis ever felt the LOC stretch"
+
+
+def test_red_commits_echelons_in_mass():
+    """Whole-echelon discipline: red arrivals appear in committed
+    masses (>= red_commit_min_cv worth, or the timeout batch), not
+    single battalions every day."""
+    camp, _, _ = run(deep=0.0, days=14)
+    bursts = [e.arrivals for e in camp.logs if e.arrivals > 0]
+    assert bursts, "no red commitment ever happened"
+    assert max(bursts) >= 3, "echelons never committed as a mass"
+
+
+def test_ca_culminates():
+    """A counterattack run cannot exceed ca_culminate_days without
+    the window closing in between."""
+    data, axes, _ = load_scenario(SCEN)
+    p = _mini_params(data["params"])
+    p.update(ca_enabled=True, deep_fraction=1.0, ca_recognition_days=0)
+    limit = p["ca_culminate_days"]
+    camp = Campaign(axes=axes, params=p, seed=1986)
+    camp.run(24)
+    runs = {}
+    best = 0
+    prev = {}
+    for e in camp.logs:
+        if e.ca:
+            runs[e.axis] = runs.get(e.axis, 0) + 1 if prev.get(e.axis) else 1
+            best = max(best, runs[e.axis])
+        else:
+            runs[e.axis] = 0
+        prev[e.axis] = e.ca
+    assert best <= limit
+
+
+def test_sea_state_release_is_seeded_and_in_range():
+    data, axes, _ = load_scenario(SCEN)
+    lo = data["params"]["amphib_close_min"]
+    hi = data["params"]["amphib_close_max"]
+    days_by_seed = {}
+    for seed in (1, 2, 3):
+        data_i, axes_i, _ = load_scenario(SCEN)
+        camp = Campaign(axes=axes_i, params=data_i["params"], seed=seed)
+        camp.run(2)
+        days_by_seed[seed] = camp.amphib_release_day
+        assert lo <= camp.amphib_release_day <= hi
+    camp2 = Campaign(*[], **{"axes": axes, "params": data["params"], "seed": 1})
+    camp2.run(2)
+    assert camp2.amphib_release_day == days_by_seed[1]
+
+
 def test_year_parameterization_mechanism():
     data, axes, dropped = load_scenario(SCEN, year=1955)
     assert dropped == []  # toy units carry no in_service dates

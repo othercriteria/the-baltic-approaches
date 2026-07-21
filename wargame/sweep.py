@@ -31,6 +31,9 @@ PERTURBED = [
     "close_support_cv_per_point",
     "sorties_per_aircraft",
     "red_deep_points",
+    "red_loc_penalty",
+    "red_supply_points",
+    "blue_supply_points",
 ]
 
 POLICIES = (0.0, 0.5, 1.0)

@@ -52,13 +52,18 @@ v4 adds the command-decision layer: withheld tactical reserves
 recognition lag (the G-3's quality as a number), theater-level red
 arrivals with reinforce-success, and the amphib pin via arrival-day
 release.
+
+v5 adds the logistics layer: supply throughput scales combat output
+(red's fill falls as its LOC stretches — culmination as supply);
+red whole-echelon commitment via staging; counterattack culmination;
+seeded sea-state closure of the amphib window.
 """
 
 import math
 import random
 from dataclasses import dataclass, field
 
-from .models import epstein, lanchester
+from .models import epstein
 
 
 @dataclass
@@ -71,6 +76,8 @@ class AxisState:
     blue_delay_days: float = 0.0  # accumulated red-interdiction delay
     window_days: int = 0  # consecutive days the CA window has stood open
     ca_committed: bool = False  # reserve already committed to the attack
+    ca_run_days: int = 0  # consecutive CA days this run (culmination clock)
+    stage_since: int | None = None  # day red's staging area last went occupied
     fallen: bool = False
 
 
@@ -94,6 +101,8 @@ class DayLog:
     wx: float = 1.0  # weather factor applied to today's air
     ca: bool = False  # blue counterattacked today
     commit: int = 0  # withheld-reserve units committed today (CA or emergency)
+    bfill: float = 1.0  # blue supply fulfillment (effectiveness input)
+    rfill: float = 1.0  # red supply fulfillment (falls as its LOC stretches)
 
 
 @dataclass
@@ -109,6 +118,16 @@ class Campaign:
         # Sortie generation is a stock, not a faucet: air points come
         # from surviving airframes, and sorties cost airframes.
         self.aircraft = p.get("blue_aircraft", 0.0)
+        # Sea state: the WP landing window closes for the season on a
+        # drawn day (November climatology PLACEHOLDER); beach-watch
+        # units release to their axes that day.
+        self.amphib_release_day = (
+            rng.randint(
+                int(p.get("amphib_close_min", 0)), int(p.get("amphib_close_max", 0))
+            )
+            if p.get("amphib_close_max", 0)
+            else None
+        )
         state = {}
         for name, ax in self.axes.items():
             spec = ax["spec"]
@@ -134,14 +153,19 @@ class Campaign:
                 release = spec.get("hold_release_day")
                 if release and day >= release:
                     st.hold_km = st.length_km
-                self._axis_day(day, ax, st, wx, share, red_arrivals.get(name, 0))
+                self._axis_day(
+                    day, ax, st, wx, share, red_arrivals.get(name, 0), len(live)
+                )
         return state
 
     def _red_arrivals(self, day, state):
-        """Theater-level red echelon arrivals. With
-        red_reinforces_success, an arriving echelon is committed to
-        the most successful live axis (reinforce success, the
-        exploitation norm) instead of its scripted one."""
+        """Theater-level red echelon arrivals. Units arrive into the
+        target axis's STAGING area and commit to the line only as a
+        mass (whole-echelon discipline: >= red_commit_min_cv, or
+        after red_commit_max_wait days) — the v4 finding was that
+        piecemeal commitment is suicide, and red knows it too. With
+        red_reinforces_success, arrivals stage on the most
+        successful live axis."""
         p = self.params
         counts = {}
         reinforce = p.get("red_reinforces_success", False)
@@ -158,13 +182,32 @@ class Campaign:
                             live,
                             key=lambda n: state[n].feba_km / state[n].length_km,
                         )
-                    self.axes[target]["red"].units.append(u)
-                    counts[target] = counts.get(target, 0) + 1
+                    self.axes[target]["red"].staging.append(u)
+                    if state[target].stage_since is None:
+                        state[target].stage_since = day
+        # Commitment pass: mass or timeout.
+        min_cv = p.get("red_commit_min_cv", 0.0)
+        max_wait = p.get("red_commit_max_wait", 0)
+        for name, ax in self.axes.items():
+            st = state[name]
+            red = ax["red"]
+            if not red.staging:
+                st.stage_since = None
+                continue
+            waited = day - st.stage_since if st.stage_since is not None else 0
+            no_more_coming = not red.reserve
+            if (
+                red.staging_cv >= min_cv
+                or waited >= max_wait
+                or (no_more_coming and red.staging)
+            ):
+                counts[name] = counts.get(name, 0) + red.commit_staging()
+                st.stage_since = None
         return counts
 
     # -- one axis-day ------------------------------------------------
 
-    def _axis_day(self, day, ax, st, wx, air_share, arrivals):
+    def _axis_day(self, day, ax, st, wx, air_share, arrivals, n_live):
         red, blue = ax["red"], ax["blue"]
         p = self.params
 
@@ -181,11 +224,38 @@ class Campaign:
             )
         blue_arrivals = 0
         for u in list(blue.reserve):
-            if day >= u.arrival_day + st.blue_delay_days:
+            if u.role == "beach-watch":
+                # Already in theater, pinned watching the coast; the
+                # sea state, not the rail net, releases them.
+                if self.amphib_release_day and day >= self.amphib_release_day:
+                    blue.reserve.remove(u)
+                    blue.units.append(u)
+                    blue_arrivals += 1
+            elif day >= u.arrival_day + st.blue_delay_days:
                 blue.reserve.remove(u)
                 blue.units.append(u)
                 blue_arrivals += 1
         air_close, air_deep = self._air(red, st, wx, air_share)
+
+        # Supply fulfillment: throughput is the constraint. Blue
+        # draws on short interior lines (flat theater capacity); red
+        # pays for every kilometer gained — its axis throughput
+        # falls as the LOC stretches (culmination as a supply
+        # phenomenon). Fulfillment scales combat OUTPUT, not
+        # resilience, through an effectiveness floor.
+        bfill, rfill = 1.0, 1.0
+        floor = p.get("supply_floor", 1.0)
+        if p.get("blue_supply_points", 0.0) > 0:
+            cap = p["blue_supply_points"] / n_live
+            demand = p["blue_demand_per_cv"] * max(blue.cv, 1e-9)
+            bfill = min(1.0, cap / demand) if demand > 0 else 1.0
+        if p.get("red_supply_points", 0.0) > 0:
+            stretch = 1.0 - p.get("red_loc_penalty", 0.0) * (st.feba_km / st.length_km)
+            cap = (p["red_supply_points"] / n_live) * max(stretch, 0.0)
+            demand = p["red_demand_per_cv"] * max(red.cv, 1e-9)
+            rfill = min(1.0, cap / demand) if demand > 0 else 1.0
+        b_eff = floor + (1.0 - floor) * bfill
+        r_eff = floor + (1.0 - floor) * rfill
 
         r_cv, b_cv = red.cv, blue.cv
         committed = 0
@@ -252,11 +322,14 @@ class Campaign:
         can_mass = (
             blue.withheld_cv >= p.get("ca_min_reserve_cv", 0.0) or st.ca_committed
         )
+        if not window:
+            st.ca_run_days = 0  # window closed: culmination clock resets
         ca_today = (
             p.get("ca_enabled", True)
             and window
             and can_mass
             and st.window_days > p.get("ca_recognition_days", 0)
+            and st.ca_run_days < p.get("ca_culminate_days", 10_000)
         )
         if ca_today and blue.withheld:
             committed += blue.commit_withheld()
@@ -271,11 +344,13 @@ class Campaign:
         cs_cv = sat * (1.0 - math.exp(-raw / sat)) if sat > 0 else raw
         b_cv_eff = b_cv + cs_cv
 
-        # Projected full-contact engagement (the G3's decision input).
-        # square_step(a, d, alpha, beta): alpha = A's fire on D. A=red.
-        r_after, b_after = lanchester.square_step(r_cv, b_cv_eff, p["alpha"], p["beta"])
-        red_loss = r_cv - r_after
-        blue_loss = max(b_cv - (b_after - cs_cv), 0.0)
+        # Projected full-contact engagement (the G3's decision
+        # input). Square-law daily fire with supply-scaled OUTPUT:
+        # each side's losses come from the other's effective fire
+        # (lanchester.square_step's Euler step, unrolled so the
+        # shooters can be efficiency-scaled).
+        red_loss = min(p["beta"] * b_cv_eff * b_eff, r_cv)
+        blue_loss = min(p["alpha"] * r_cv * r_eff, b_cv)
         proj_blue_frac = blue_loss / b_cv
 
         # Attacking means accepting more risk than defending — but
@@ -289,7 +364,10 @@ class Campaign:
         if ca_today:
             # Counterattack: full contact, no withdrawal; the spent
             # echelon pays a cohesion premium, blue pays the
-            # attacker's price; FEBA moves back.
+            # attacker's price; FEBA moves back. Culmination: a run
+            # of CA days exhausts itself (supply, fatigue) until the
+            # window closes and reopens.
+            st.ca_run_days += 1
             red_loss *= p["ca_exploit"]
             blue_loss *= p["ca_blue_cost"]
             red.distribute_losses(red_loss)
@@ -314,6 +392,8 @@ class Campaign:
                 wx,
                 True,
                 commit=committed,
+                bfill=bfill,
+                rfill=rfill,
                 ratio_known=True,
             )
             return
@@ -353,6 +433,8 @@ class Campaign:
             wx,
             False,
             commit=committed,
+            bfill=bfill,
+            rfill=rfill,
             ratio_known=True,
         )
         self._check_fallen(st)
@@ -434,6 +516,8 @@ class Campaign:
         wx,
         ca,
         commit=0,
+        bfill=1.0,
+        rfill=1.0,
         ratio_known=False,
     ):
         self.logs.append(
@@ -456,5 +540,7 @@ class Campaign:
                 wx=round(wx, 2),
                 ca=ca,
                 commit=commit,
+                bfill=round(bfill, 2),
+                rfill=round(rfill, 2),
             )
         )

@@ -4,6 +4,63 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-21 — v5 (logistics layer, culmination, red discipline, sea state)
+
+Mechanics: **supply throughput as the constraint** — blue draws on
+short interior lines (flat theater capacity); red pays for every
+kilometer gained, its axis throughput falling as the LOC stretches
+(culmination as a supply phenomenon); fulfillment scales combat
+OUTPUT through an effectiveness floor. Red whole-echelon commitment
+discipline (the v4 piecemeal finding handed to red as doctrine:
+mass ≥ red_commit_min_cv or timeout — arrivals now land in
+staging and commit in bursts). Counterattack culmination (a CA run
+exhausts itself after ca_culminate_days until the window closes and
+reopens). Sea state: the amphib window now closes on a seeded drawn
+day, releasing the beach watch. 31 tests green. FM 101-10-1 (on the
+shelf) is flagged as the calibration bench for real consumption
+factors — demand_per_cv is where its planning data plugs in.
+
+**Headline: the logistics layer forced the Goldratt question into
+the policy space.** At default parameters, all-close now beats
+all-deep on force preserved (55.4 vs 48.3 blue CV) — because red's
+own LOC stretch does interdiction's job for free (red fill bottoms
+at ~0.17: the theater's geometry starves the attacker without a
+single deep sortie). But the sweep (n=150, supply params perturbed
+too) shows deep=1.0 is the ONLY policy that ever holds the whole
+theater (41/150 vs 0/150 for all-close), and axes-held dominance
+survives at 100%/94% monotone. So the certified v3 claim did not
+invert — it BIFURCATED by criterion:
+
+> **Deep buys ground; close buys the force.** Which policy is
+> "better" now depends on what the commander is maximizing —
+> terrain integrity or force preservation — and the model cannot
+> answer that, because it is not a modeling question. It is the
+> book's title question: *what is the goal?* The instrument has
+> reproduced The Goal's central move — the metrics argument
+> dissolves into a purpose argument — from supply arithmetic alone.
+
+Claim ledger after v5's sweep: interdiction dominance on axes held
+100% (survives all five iterations); monotone 94%; all-deep
+strictly better 41% (criterion-dependent, correctly so);
+CA-needs-deep 3% (dead, stays dead — massing + a supply-starved
+red opens windows everywhere); split-worst 23% (dead, stays dead).
+
+**Also confirmed in-model:** red commitment now arrives in echelon
+bursts (max burst ≥3 bns, tested); CA runs bounded by culmination
+(tested); the deeper red drives the weaker it hits — which
+retroactively justifies Epstein against Lanchester with mechanisms
+Epstein didn't have to assume.
+
+**v6 queue:** red operational pauses (a real red at 0.17 fill
+PAUSES to build supply forward — the pulsed Soviet offensive;
+currently red grinds on, which flatters blue); symmetric supply
+interdiction (blue deep fires should be able to target red
+throughput, not just echelon arrival — and red ours); researched
+consumption factors from FM 101-10-1 and researched OOB strengths
+(the calibration pass that retires "toy"); CA pursuit/exploitation
+beyond the fixed ca_kmd; the OOB ledger proper (game state and
+ledger unification — CLAUDE.md's Phase-1 obligation).
+
 ## 2026-07-21 — v4 (command-decision layer: reserves, recognition, red choice)
 
 Mechanics: withheld tactical reserves (present, not in contact, no

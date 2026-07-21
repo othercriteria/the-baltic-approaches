@@ -75,6 +75,31 @@ ca_recognition_days = 1    # G-3 lag: window must stand open this long
 emergency_commit_cv = 8.0  # line CV at which the reserve commits defensively
 red_reinforces_success = true # arriving echelons go to the leading axis
 
+# v5: red whole-echelon commitment discipline (the v4 finding —
+# piecemeal commitment is suicide — given to red as doctrine)
+red_commit_min_cv = 20.0   # mass before committing...
+red_commit_max_wait = 2    # ...but never wait longer than this
+
+# v5: counterattack culmination (supply, fatigue)
+ca_culminate_days = 3
+
+# v5: supply throughput as the constraint. Blue on short interior
+# lines (flat theater capacity); red pays per km gained — LOC
+# stretch cuts its axis throughput toward zero at full depth.
+# All values placeholder scale; FM 101-10-1 (on the shelf) is the
+# calibration bench for real consumption planning factors.
+supply_floor = 0.45        # output floor when completely starved
+blue_supply_points = 55.0
+blue_demand_per_cv = 1.0
+red_supply_points = 110.0
+red_demand_per_cv = 1.0
+red_loc_penalty = 0.55     # fill lost per fraction of theater depth gained
+
+# v5: sea state closes the WP landing window on a drawn day
+# (November climatology PLACEHOLDER); beach-watch units release then
+amphib_close_min = 10
+amphib_close_max = 17
+
 [[axes]]
 name = "coastal-luebeck"
 length_km = 95  # Travemünde approaches -> Kiel Canal, roughly
@@ -446,7 +471,8 @@ side = "blue"
 axis = "coastal-luebeck"
 kind = "inf"
 cv = 7
-arrival_day = 13
+arrival_day = 99 # governed by sea state (role), not the march table
+role = "beach-watch"
 
 [[units]]
 name = "B-DK CoastGrp II (beach watch)"
@@ -454,4 +480,5 @@ side = "blue"
 axis = "inland-bad-segeberg"
 kind = "inf"
 cv = 7
-arrival_day = 13
+arrival_day = 99
+role = "beach-watch"

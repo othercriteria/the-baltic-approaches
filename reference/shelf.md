@@ -17,11 +17,29 @@ white-buffalo.
 | FM 100-2-1 *The Soviet Army: Operations and Tactics* (1984; 203 pp) | What NATO *believed* about Soviet echelonment, OMGs, and norms in-period — the threat model characters reason with (right or wrong) |
 | *Littoral Commander: The Baltic* rules (Bae & Wernert, Dietz Foundation 2025; 104 pp) | Wargaming baseline, NOT period doctrine: grand-tactical Baltic system to build our micro-strategic instrument against (planning/wargaming.md has the steal/skip list) |
 
+## Local archive tier (use in place, never redistribute)
+
+`/bulk/dlk/military` (DK's local archive) holds unclear-provenance
+scans of public-domain gov docs — surveyed 2026-07-20, curated map in
+`reference/bulk-survey.md`. Notables available locally: FM 100-5
+1976, FM 100-2-2/-2-3, the 1969-76 theater-rail cluster, 1980s radio
+procedure, the Aggressor exercise-enemy series, period map-symbol
+plates. Cite by path; when a clean public copy is needed, fetch the
+same document via the queue below instead.
+
 ## Fetch queue (free/PD; URLs to be hunted)
 
-- FM 100-5 *Operations*, 1976 (Active Defense itself — the legacy
-  doctrine peripheral theaters would still be running; cgsc contentdm
-  has it)
+- FM 100-5 *Operations*, 1976 (Active Defense itself; local scan in
+  /bulk — fetch a clean CARL/archive.org copy when citing publicly)
+- FM 101-10-1 *Staff Officers' Field Manual: Organizational,
+  Technical and Logistical Data* (the planning-factors bench —
+  absent from /bulk, confirmed by survey)
+- FM 71-100 *Division Operations* + FM 71-series maneuver doctrine
+  (absent from /bulk)
+- FM 55-30 *Army Motor Transport Units and Operations* (1980) — the
+  period parent of the convoy procedures in /bulk
+- FM 24-18 tactical single-channel radio (early-80s edition, for
+  exact-period prowords)
 - TRADOC Pam 525-5, *The AirLand Battle and Corps 86* (1981) — the
   transitional concept document
 - Glantz's free CSI/SASO papers (his Frank Cass books are commercial —

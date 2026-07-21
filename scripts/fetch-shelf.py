@@ -90,6 +90,14 @@ ITEMS = [
         "https://archive.org/download/DTIC_ADA531279/DTIC_ADA531279.pdf",
         "f2c989be481a0f4d38e9e880e5c5e58a0a75615a949ff76c3ebfdee8748a9be1",
     ),
+    # Dupuy/HERO attrition handbook (Sept 1986, DTIC unlimited
+    # distribution) — DK-surfaced; the public core of the Dupuy
+    # calibration bench alongside the purchased NP&W
+    (
+        "dupuy-hero-ground-forces-attrition-1986.pdf",
+        "https://archive.org/download/DTIC_ADA278728/DTIC_ADA278728.pdf",
+        "46841dc7a22259948dc1ccd7ddd7ecb3df1dccfedf2d18ccc6aeb3f6c88107f9",
+    ),
 ]
 
 

@@ -22,6 +22,7 @@ white-buffalo.
 | Leavenworth Paper 16, *DePuy and the 1976 Edition of FM 100-5* (140 pp) | Official history of Active Defense's creation — companion to Romjue; the two ends of the doctrinal fight the mentor arc dramatizes |
 | FM 24-18 *Tactical Single-Channel Radio Communications Techniques* (1987; 322 pp) | Net procedure, prowords, antenna/jamming discipline — the sound of the book's radio traffic |
 | FM 71-100 *Division Operations* (1996 ed.; 206 pp) | Post-setting — for OUR construct reference only; period editions stay queued |
+| Dupuy et al. (HERO), *Handbook on Ground Forces Attrition in Modern Warfare* (Sept 1986; 206 pp; DTIC ADA278728, unlimited distribution) | The public core of the Dupuy calibration bench: casualty-rate matrices by terrain/weather/posture, tank + artillery loss rates (incl. Soviet), daily rates by echelon. Period-exact. DK-surfaced; partially unblocks wargame v1 calibration ahead of the NP&W scan |
 
 ## Local archive tier (use in place, never redistribute)
 

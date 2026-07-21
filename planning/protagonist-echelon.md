@@ -94,7 +94,93 @@ direct authority; The Goal's structure suggests keeping the boss.
   Battle was being institutionalized exactly there by 1986. Keep on
   the list only as the null hypothesis.
 
-## Current lean (recorded, not ruled)
+## Front reassessment (2026-07-20, post-wargame-v2; DK-prompted)
+
+What changed since the original screen, and how it moves the
+ranking:
+
+**LANDJUT strengthened, on four grounds.**
+
+1. *The instrument keeps generating the book on this front.* Three
+   wargame iterations (notes/wargaming-findings.md) produced, on
+   LANDJUT geometry specifically: the no-depth dilemma (casualty-
+   rational defense loses a 95-110 km theater intact; forward
+   defense loses the army — geographically forced, not doctrinally
+   optional); the mobilization-dependence of the counterstroke
+   window (the covering-force clock IS the Danish/6th-PzGren
+   mobilization story); and a locally-scoped counterstroke arc.
+   None of this was prompted; the geometry did it.
+2. *The Red-side research base is better than first rated.* The
+   original screen said "decent." In fact the GDR archives opened
+   completely, and Warsaw Pact planning against Denmark and the
+   Baltic Approaches (Polish amphibious/airborne plans, GDR 5th
+   Army materials, Baltic coast exercises) is among the BEST-
+   documented WP operational planning anywhere — Parallel History
+   Project (ETH Zurich), CWIHP, and the Danish DIIS Cold War report
+   (2005). Queue these for the shelf.
+3. *The Bagnall problem spares LANDJUT.* By 1984-86 NORTHAG under
+   Bagnall was itself institutionalizing counterstroke/maneuver
+   concepts — the central front's *northern* command was reforming
+   too, not just CENTAG. A protagonist re-deriving tempo anywhere
+   in the NORTHAG wake strains the mentor arc. LANDJUT sits under
+   AFNORTH/BALTAP, outside both reform currents: doctrinally
+   orphaned in exactly the way the reader contract needs.
+4. *November synergy is LANDJUT-specific* (setting-time.md): the
+   closing Baltic amphib window puts the enemy on a clock; the
+   autumn exercise cycle (the real BOLD GUARD series ran in
+   Schleswig-Holstein) supplies war-origin cover locally.
+
+**A thematic finding worth its own flag:** AirLand Battle's
+intellectual debts to the German operational tradition are real and
+documented — TRADOC's consultations with Balck and von Mellenthin
+(~1980, BDM transcripts; queue for the shelf) fed the 1982 reform.
+On LANDJUT, the "legacy-doctrine periphery" formation is partly
+*German* (6th Panzergrenadier Division). So the doctrine the
+protagonist slowly discovers is not arriving from America — it is
+returning home in American packaging. A German Jonah (retired
+Bundeswehr, formative years on the Eastern Front) is historically
+grounded and thematically dense — and requires real care with the
+Wehrmacht-past dimension: flag for the authenticity/ethics screen
+when characters exist. (The myth-of-the-clean-quote risk: Balck
+nostalgia is its own genre failure mode. The veteran-reader and
+doctrine-auditor personas must police it.)
+
+**I NL Corps re-rated.** Still #2, but the Bagnall wrinkle cuts
+both ways: it weakens "nobody here knows better" (the neighboring
+corps was rehearsing counterstrokes), yet enables a sharper variant
+— see new option below. Research base still the best; freshness
+still the worst (the genre's designated weak flank).
+
+**New option (2b): a lagging national corps inside a reforming
+NORTHAG.** Protagonist in I NL or I BE Corps staff, watching I BR
+Corps rehearse Bagnall's counterstroke doctrine across the boundary
+while his own corps runs national legacy doctrine it cannot change
+(clause 2b at maximum: the fix exists, is visible, and is
+politically unreachable — doctrine as sovereignty problem). Fresher
+than the Hackett framing; keeps the excellent research base. Costs:
+the theater is not self-contained (victory scoping harder); the
+composite-formation texture is weaker (national corps are
+monolingual); and the reform-next-door irony risks making the book
+about NATO politics rather than operational art.
+
+**Unchanged:** Thrace (freshness maximal, legibility and research
+still disqualifying for the main arc), Norway (brigade war),
+eastern Turkey (bridge too far), CENTAG (null hypothesis).
+LANDZEALAND/the Danish islands: absorbed into LANDJUT design as the
+off-map amphib pressure (LC naval-zone pattern), not a separate
+candidate.
+
+**Re-ranked: LANDJUT clear #1** (was co-lean with I NL Corps);
+2b-variant NORTHAG second; I NL Corps classic third. Confidence
+higher than at the original screen because the wargame keeps
+independently converging on LANDJUT's structure — but the ruling
+stays open until the front-specific research pass (PHP/DIIS/BALTAP
+structure, HDv 100/100 — what doctrine the protagonist's own army
+actually ran — Danish 1986 structure, BOLD GUARD records) confirms
+the OOB and command-relationship facts the premise leans on.
+
+## Current lean (recorded, not ruled — superseded by the
+reassessment above, kept for the record)
 
 The reader contract + payload-legibility screen points at **A or D on
 the LANDJUT or I NL Corps fronts**: an echelon that owns tempo, in a

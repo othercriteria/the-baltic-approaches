@@ -154,7 +154,7 @@ class Campaign:
         air_close, air_deep = self._air(red, st, wx, air_share)
 
         r_cv, b_cv = red.cv, blue.cv
-        if b_cv <= 0.5:  # defense collapsed: road-march advance
+        if b_cv <= 0.5 or not blue.has_maneuver:  # defense collapsed
             adv = p["march_kmd"]
             st.feba_km += adv
             self._log(
@@ -177,7 +177,7 @@ class Campaign:
             )
             self._check_fallen(st)
             return
-        if r_cv <= 0.5:
+        if r_cv <= 0.5 or not red.has_maneuver:
             self._log(
                 day,
                 st,

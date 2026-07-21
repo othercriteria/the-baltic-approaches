@@ -203,6 +203,54 @@ def test_sweep_smoke():
         assert o["blue_cv"] >= 0
 
 
+def test_artillery_cannot_hold_or_take_ground():
+    """Guns alone neither hold nor advance (the v3 artillery
+    closure's one code guard)."""
+    from wargame.oob import Force
+
+    data, _, _ = load_scenario(SCEN)
+    p = dict(data["params"])
+    p.update(
+        wx_standdown_prob=0.0,
+        wx_min=1.0,
+        wx_max=1.0,
+        ca_enabled=False,
+        red_deep_points=0.0,
+    )
+
+    def mini(blue_units, red_units):
+        axes = {
+            "x": {
+                "spec": {"name": "x", "length_km": 50, "hold_km": 50},
+                "blue": Force("blue", units=blue_units),
+                "red": Force("red", units=red_units),
+            }
+        }
+        camp = Campaign(axes=axes, params=p, seed=1)
+        state = camp.run(3)
+        return camp, state["x"]
+
+    def arty(side, n):
+        return [
+            Battalion(name=f"{side}-a{i}", side=side, kind="arty", cv=6)
+            for i in range(n)
+        ]
+
+    def mech(side, n):
+        return [
+            Battalion(name=f"{side}-m{i}", side=side, kind="mech", cv=8)
+            for i in range(n)
+        ]
+
+    # Blue holds only artillery: treated as collapsed, red road-marches.
+    _, st = mini(arty("b", 3), mech("r", 3))
+    assert st.feba_km == 3 * p["march_kmd"] or st.fallen
+
+    # Red holds only artillery: no engagement, no advance.
+    _, st = mini(mech("b", 3), arty("r", 3))
+    assert st.feba_km == 0.0
+
+
 def test_year_parameterization_mechanism():
     data, axes, dropped = load_scenario(SCEN, year=1955)
     assert dropped == []  # toy units carry no in_service dates

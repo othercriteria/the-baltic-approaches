@@ -4,6 +4,40 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-21 — Artillery item CLOSED by argument (one guard added)
+
+The v0 finding "artillery is wrong: modeled as direct-fire CV"
+is resolved as a bookkeeping confusion, not a missing subsystem,
+on three grounds:
+
+1. **The coefficients are all-arms.** Alpha/beta are anchored to
+   HERO total-battle-casualty rates, which already include
+   artillery — historically the dominant casualty producer in them.
+   A separate artillery attrition mechanism at daily/battalion/
+   theater grain would double-count what the calibration data
+   embodies. This is the aggregation logic that ruled out bottom-up
+   modeling, applied consistently: QJM and Epstein also weight
+   artillery into aggregate combat power at this grain. Arty CV in
+   the stack is a composition weight, and that is legitimate.
+2. **Ammo-as-throughput belongs to the logistics layer.** The
+   NATO-shell-shortage problem is maximally Goal-shaped and WILL be
+   modeled — as supply throughput throttling all combat power, with
+   artillery as its biggest customer. Deferred-to, not denied;
+   tracked as the logistics layer's requirement.
+3. **Counterbattery/fires texture is prose**, per decompose-on-
+   demand doctrine (FM 6-20-30 family is in /bulk for that).
+
+Counter-brief, kept live: this closure fails only if campaign
+logic (not scene texture) ever hinges on a counterbattery duel or
+gun-specific ammo starvation. The first is implausible at our
+altitude; the second re-opens inside the logistics layer, where it
+belongs.
+
+One real defect fixed in code (~20 lines + test): pro-rata loss
+distribution could leave an axis "held" or "taken" by surviving
+artillery battalions alone. Guns neither hold nor take ground:
+`Force.has_maneuver` now gates both collapse and advance.
+
 ## 2026-07-21 — v3 (airframe stock, red counter-interdiction, sweep harness)
 
 Mechanics: sortie generation is now a STOCK (air points come from

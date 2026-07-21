@@ -53,6 +53,15 @@ class Force:
         return sum(u.effective_cv for u in self.reserve)
 
     @property
+    def has_maneuver(self):
+        """Guns can't hold ground or take it: a force whose surviving
+        in-contact units are all artillery neither holds nor
+        advances. (Artillery fires are otherwise folded into the
+        all-arms attrition coefficients — see the v3 artillery
+        closure in notes/wargaming-findings.md.)"""
+        return any(u.kind != "arty" and u.strength > 0.05 for u in self.units)
+
+    @property
     def alive(self):
         return [u for u in self.units if u.strength > 0.05]
 

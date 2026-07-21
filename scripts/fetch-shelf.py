@@ -121,6 +121,14 @@ ITEMS = [
         "https://www.fireandfury.com/orbats/modcwdanish.pdf",
         "28fc63cd2a0388ec410ceccf0d8c25bb1fc41d6f47d81c6866c1c5402ac3957b",
     ),
+    # Young, Multinational Land Formations and NATO (SSI, 1997) —
+    # the Corps LANDJUT case study: staff integration, command
+    # arrangements, OPCON/OPCOM history
+    (
+        "young-multinational-land-formations-nato.pdf",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-LPS12561/pdf/GOVPUB-D101-PURL-LPS12561.pdf",
+        "1217db93c9f33f046ad53f9375f945381e19ed9d75517d0d9503d0acefb8900e",
+    ),
 ]
 
 

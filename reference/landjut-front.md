@@ -23,6 +23,41 @@ characters (shelf discipline).*
   arriving on someone else's schedule. For the reader contract:
   command friction is structural, not invented.
 
+## The Rendsburg staff (research pass 2, 2026-07-21)
+
+- **COMLANDJUT alternated German/Danish.** Documented 1980s
+  officeholders: Kießling (GE, 1979-82), Asmussen (DA, 1982-85),
+  von Ondarza (GE, 1985-87). [German Wikipedia, LANDJUT HQ article,
+  fetched 2026-07-21] In a November-1986 setting the corps
+  commander is German; a year re-pick to 1983-84 makes him Danish —
+  **the setting-year choice and the command's nationality are
+  coupled** (noted in planning/setting-time.md criteria). Per the
+  no-borrowed-furniture premise, the officeholder is fictionalized;
+  the office and its alternation pattern are the researched
+  furniture we keep.
+- **The staff was integrated 50/50** — "not provided by a lead
+  nation, but consisted of equal parts Germans and Danes plus, in
+  peacetime, a British staff officer." [ibid.] Young (on the shelf,
+  111 pp) adds: NATO staff procedures throughout, "the most highly
+  developed multinational corps structure in the Alliance," and —
+  despite no native speakers — **the headquarters' working language
+  was English**. The US and Canada also posted personnel to
+  Rendsburg during the Cold War (they withdrew post-1990). [Young,
+  pp. 25-26 area]
+- Consequences for the protagonist question: any staff post is
+  structurally available to either nationality — the nationality
+  decision is purely voice/theme, confirmed free. And the working
+  language is a gift: German and Danish officers arguing doctrine
+  in English, the language the new American manuals arrive in —
+  the doctrine-returns-home thread acquires a linguistic layer.
+- TO-VERIFY: whether commander/deputy/CoS nationalities were
+  formally counterposed (German commander → Danish CoS?); actual
+  staff size; which G-posts were customarily which nation.
+- HQ support: Fernmeldebataillon 610 (Rendsburg) + a Danish signal
+  battalion; corps-troops thinness is documented (Young: "the corps
+  lacks assigned corps troops" — 1990s statement, TO-VERIFY for
+  1986, but consistent with a periphery formation).
+
 ## Blue forces
 
 - **Jutland Division**: three mechanized brigades (1st/2nd/3rd

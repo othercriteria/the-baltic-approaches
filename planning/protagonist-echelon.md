@@ -232,7 +232,17 @@ doctrine-returns-home candidate, hazard flagged above).
    (outsider vantage strengthens adrift/confused; the mobilization
    clock is Denmark's; fresher for Anglophone readers). This is a
    voice decision as much as a structural one — needs character
-   sketches, not more wargaming.
+   sketches, not more wargaming. RESEARCH UPDATE (2026-07-21): the
+   Rendsburg staff was integrated 50/50 with no lead nation, so any
+   post is structurally available to either nationality — the
+   decision is confirmed pure voice/theme. Two gifts from the
+   research: the HQ's working language was ENGLISH (Germans and
+   Danes arguing doctrine in the language the American manuals
+   arrive in), and COMLANDJUT's nationality alternated with the
+   calendar — the setting-year choice picks the commander's nation
+   (GE in 1985-87, DA in 1982-85), so protagonist nationality and
+   year jointly set whether the persuasion axis crosses a national
+   boundary. See reference/landjut-front.md.
 2. *Exact post:* G-3 himself vs the plans officer under a
    conventional G-3 (the latter deepens "adrift," weakens span of
    control). Needs the real LANDJUT staff structure — which posts

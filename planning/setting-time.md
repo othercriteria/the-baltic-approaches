@@ -32,6 +32,12 @@ Criteria for the re-pick, in rough priority order:
    built year-parameterized so candidate years can be diffed.
 4. **Season interaction** (below): the year choice must contain a
    plausible mobilization-to-war sequence in the chosen season.
+5. **Command-nationality coupling (LANDJUT).** COMLANDJUT alternated
+   German/Danish (GE 1979-82, DA 1982-85, GE 1985-87 —
+   reference/landjut-front.md): the year choice sets whether the
+   protagonist's corps commander is German or Danish, which
+   interacts with the protagonist-nationality decision
+   (planning/protagonist-echelon.md, open item 1).
 
 ## The season (provisional pick: late autumn — November)
 

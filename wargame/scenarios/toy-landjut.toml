@@ -190,6 +190,12 @@ zg_release_recognition_days = 2  # ...for this many days
 zg_move_days = 3               # Belt crossing + march to the front, toy
 zg_release_count = 0           # v12: release strongest N, keep the rest
                                # (0 = release everything)
+
+# v13: red may expand the airborne pool mid-campaign by diverting
+# air-capable units off the mainland march tables (observable —
+# blue's credibility ratchets up; the required kept garrison moves)
+red_air_reinforce_day = 0      # 0 = never
+red_air_reinforce_count = 0    # 0 = all air-capable still in reserve
 zg_success_ratio = 1.5         # landing succeeds if package CV at commit
                                # exceeds this x kept-garrison CV — toy,
                                # anchored loosely on the researched 1:1.3
@@ -462,6 +468,10 @@ kind = "armor"
 cv = 10
 arrival_day = 11
 
+# v13: two third-echelon regiments are air-landing-capable (the
+# Saltnicken inference — FE watched one exercise and added a
+# division to the earmarked list). Red may divert them from the
+# mainland march tables into the airborne pool.
 [[units]]
 name = "R-21 MRR I"
 side = "red"
@@ -469,6 +479,7 @@ axis = "coastal-luebeck"
 kind = "mech"
 cv = 8
 arrival_day = 12
+air_capable = true
 
 [[units]]
 name = "R-21 MRR II"
@@ -477,6 +488,7 @@ axis = "coastal-luebeck"
 kind = "mech"
 cv = 8
 arrival_day = 12
+air_capable = true
 
 [[units]]
 name = "R-22 TR I"

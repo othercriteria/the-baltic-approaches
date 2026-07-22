@@ -1028,3 +1028,70 @@ def test_partial_release_keeps_the_island():
         for u in ax["blue"].units + ax["blue"].reserve
     }
     assert sum(1 for n in mainland if "B-ZG" in n) == 4
+
+
+# -- v13: the expandable airborne pool ----------------------------
+
+
+def test_air_reinforcement_diverts_from_mainland_and_raises_credibility():
+    camp, _, axes = run_v11(
+        red_amphib="threat", red_air_reinforce_day=8,
+        deep_fraction=0.0, days=20,
+    )
+    pool_names = {u.name for u in camp.amphib_pool}
+    assert "R-21 MRR I" in pool_names and "R-21 MRR II" in pool_names
+    reserve_names = {
+        u.name for ax in axes.values() for u in ax["red"].reserve
+    } | {u.name for ax in axes.values() for u in ax["red"].units}
+    assert "R-21 MRR I" not in reserve_names
+    c = {}
+    for e in camp.logs:
+        c.setdefault(e.day, e.zeal_c)
+    rel = camp.pin_release_day
+    # Post-close the airborne floor is now higher than v12's:
+    # (8+16)/53 = 0.45 vs 0.15 — credibility late in the campaign
+    # stays correspondingly higher.
+    late = [c[d] for d in c if rel and d >= rel + 4]
+    if late:
+        assert min(late) > 0.3
+
+
+def test_reinforced_pool_punishes_v12_rational_core():
+    camp, _, _ = run_v11(
+        red_amphib="opportunist",
+        red_air_reinforce_day=12,
+        zg_release_mode="day",
+        zg_release_day=18,
+        zg_release_count=4,  # v12's core: keep one inf bn + arty
+        red_opportunist_lag=2,
+        deep_fraction=0.0,
+        days=28,
+        seed=1986,
+    )
+    # 24 CV air vs kept 7 maneuver x 1.5 = 10.5 -> viable, island falls.
+    assert camp._zealand_committed
+    assert camp.zealand_lost
+
+
+def test_sized_against_potential_stays_safe():
+    camp, _, _ = run_v11(
+        red_amphib="opportunist",
+        red_air_reinforce_day=12,
+        zg_release_mode="day",
+        zg_release_day=18,
+        zg_release_count=2,  # keep 8+7+7+6: 22 maneuver CV >= 24/1.5
+        red_opportunist_lag=2,
+        deep_fraction=0.0,
+        days=28,
+        seed=1986,
+    )
+    assert not camp.zealand_lost
+    assert not camp._zealand_committed
+
+
+def test_no_reinforcement_when_red_amphib_none():
+    camp, _, _ = run_v11(
+        red_amphib="none", red_air_reinforce_day=8,
+        deep_fraction=0.0, days=16,
+    )
+    assert not any(u.name.startswith("R-21") for u in camp.amphib_pool)

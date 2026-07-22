@@ -4,6 +4,59 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-22 — v13 (the expandable pool; sizing against potential) (session 71ede904)
+
+Mechanics: **air_capable** units on red's mainland march tables
+(two third-echelon regiments, 16 CV — the Saltnicken inference
+made mechanical) can divert into the airborne pool
+(red_air_reinforce_day/count; commensurable: they leave the
+mainland schedule; observable: blue's credibility ratchets up and
+the viability arithmetic moves). Garrison release remains
+IRREVERSIBLE (flagged simplification — no re-garrison machinery),
+so blue must size its kept core against red's POTENTIAL pool.
+68 tests green.
+
+**Finding 1 (40/40): the moving threat punishes the v12 core.**
+Reinforce-d12 + strike takes Zealand from a keep-one-battalion
+blue every time (24 CV air vs 10.5 defended threshold); sizing
+against potential (keep 4, ~22 maneuver CV) is safe everywhere
+and still beats the pin (39/40). The rational core roughly
+TRIPLES against one expandable-threat mechanism plus
+irreversibility. Mainland CV barely registers the island's loss —
+the criteria refuse collapse exactly where they should.
+
+**Finding 2: the capability scares for free — the v9 free lunch
+reappears one level up.** Blue sized against potential pays the
+sizing tax (median 12.0 CV of worst-case mainland strength) in
+EVERY world, including those where red never diverts a unit. Red's
+posture-level feint was priced away in v10; the force-structure
+option cannot be — its existence, not its exercise, does the
+work. (The bluff — actually diverting without striking — is a
+losing trade against a pre-committed blue: red pays ~14 CV
+mainland for nothing. Its true target is an adaptive blue's
+decision rule; unmodeled, noted.)
+
+**Finding 3 — the pin-rationalization ladder, and the governance
+number.** Pin price beyond the rational core: v12 median 24.7 CV;
+v13 median 13.2. Each decomposition step converts about half the
+remaining "over-insurance" into rational insurance — the model
+keeps discovering what FE knew. What still stands between keep-4
+and the historical hold-everything: the spring window,
+re-garrison impossibility in a longer war, sizing margin under
+uncertainty, the capital's politics. The epistemological
+punchline for the book: **you cannot prove the pin irrational —
+you can only keep finding reasons it wasn't**, and each reason
+was visible to a staff that could not model it.
+
+**Per DK's drilling criterion (~25 CV swing): the Zealand swing
+in play has fallen to ~13 CV.** Recommendation: close the Zealand
+drill at v13 — the thread's strategic structure is complete
+(feint priced, insurance gamed, pin decomposed to a residual
+that is now book-material rather than model-material) — and
+return to the standing queue: the richer division grade (owed
+before any final echelon claim), CAL-2 posture demand, blue
+adaptive sizing if the Zealand thread ever reopens. DK rules.
+
 ## 2026-07-22 — v12 (the threat decomposed; the pin priced) (session 71ede904)
 
 The v11 seam built: the Zealand threat is no longer one thing.

@@ -24,6 +24,10 @@ class Battalion:
     # (>1 = follow-on echelon; subject to interdiction delay)
     role: str = "line"  # line | reserve | beach-watch | corps-reserve
     division: str | None = None  # v8: owning formation (echelon tag)
+    # v13: air-landing-capable (the Saltnicken inference — a line
+    # formation that "has landing operations as an option"); red may
+    # divert it from the mainland schedule into the airborne pool
+    air_capable: bool = False
 
     @property
     def effective_cv(self):
@@ -150,6 +154,7 @@ def load_scenario(path, year=None):
             arrival_day=u.get("arrival_day", 1),
             role=u.get("role", "line"),
             division=u.get("division"),
+            air_capable=u.get("air_capable", False),
         )
         if year and bn.in_service and bn.in_service > year:
             dropped.append(bn.name)

@@ -253,6 +253,7 @@ class Campaign:
         self._zg_full_cv = sum(u.effective_cv for u in self.zealand_garrison) or None
         self._zg_released_day = None
         self._zg_standing = 0  # threshold-mode recognition counter
+        self._air_reinforced = False  # v13: airborne pool expansion, once
         # v10: amphib package state. "none" means the package never
         # formed: convertibles go straight to the mainland battle
         # (transit from day 1), specialists sit out (coastal duty).
@@ -474,12 +475,32 @@ class Campaign:
 
     def _amphib_step(self, day):
         """Daily package bookkeeping: scheduled release of the
-        convertibles; the static commit schedule; transit arrivals
-        join the leading axis."""
+        convertibles; v13 airborne reinforcement (air-capable units
+        still on the mainland march tables divert into the pool —
+        observable, so blue's credibility ratchets UP); the static
+        commit schedule; transit arrivals join the leading axis."""
         p = self.params
         rel = int(p.get("amphib_release_convertibles_day", 0))
         if rel and day >= rel and not self._amphib_released:
             self._release_convertibles(day)
+        reinf = int(p.get("red_air_reinforce_day", 0))
+        if (
+            reinf
+            and day >= reinf
+            and not self._air_reinforced
+            and p.get("red_amphib", "threat") != "none"
+        ):
+            self._air_reinforced = True
+            want = int(p.get("red_air_reinforce_count", 0)) or 10_000
+            for ax in self.axes.values():
+                for u in list(ax["red"].reserve):
+                    if want <= 0:
+                        break
+                    if u.air_capable:
+                        ax["red"].reserve.remove(u)
+                        u.role = "amphib-air"
+                        self.amphib_pool.append(u)
+                        want -= 1
         if (
             self._scheduled_commit
             and day >= self._scheduled_commit
@@ -526,7 +547,9 @@ class Campaign:
             sea = sum(
                 u.effective_cv for u in self.amphib_pool if u.role != "amphib-air"
             )
-            return (air + sea * window) / self._amphib_full_cv
+            # v13: reinforcement can push the staged picture past the
+            # original package — blue reads that as maximal threat.
+            return min((air + sea * window) / self._amphib_full_cv, 1.0)
         return window  # no package modeled: v9's binary threat
 
     def _zealand_state(self, day):

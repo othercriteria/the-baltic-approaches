@@ -126,6 +126,13 @@ def load_scenario(path, year=None):
     # dispatches them; collected here, passed to Campaign by callers
     # that model the corps grade (ignored otherwise — compat).
     data["corps_reserve_units"] = []
+    # v10: the amphib landing package (reference/zealand-landing.md,
+    # option C): real red units, no axis — staged for the landing
+    # threat. role="amphib" (specialists: landing/airborne regiments,
+    # naval infantry — near-zero alternative employment) or
+    # "amphib-convertible" (the mechanized follow-on — releasable to
+    # the mainland battle).
+    data["amphib_units"] = []
     for axis in data["axes"]:
         axes[axis["name"]] = {"spec": axis, "blue": Force("blue"), "red": Force("red")}
     for u in data["units"]:
@@ -144,6 +151,9 @@ def load_scenario(path, year=None):
             continue
         if bn.role == "corps-reserve":
             data["corps_reserve_units"].append(bn)
+            continue
+        if bn.role in ("amphib", "amphib-convertible"):
+            data["amphib_units"].append(bn)
             continue
         force = axes[u["axis"]][u["side"]]
         if bn.arrival_day > 1:

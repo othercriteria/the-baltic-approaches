@@ -61,6 +61,7 @@ def main():
         params=data["params"],
         seed=seed,
         corps_reserve=data.get("corps_reserve_units", []),
+        amphib_pool=data.get("amphib_units", []),
     )
     state = camp.run(args.days)
 

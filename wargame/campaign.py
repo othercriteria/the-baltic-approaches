@@ -113,6 +113,27 @@ Also v9: the CAL-1 parameter split (reference/consumption-factors
 burns) separates from pause_combat_frac (doctrine parameter, how
 hard a paused front fights); both default to pause_intensity for
 compatibility.
+
+v10 makes the landing package REAL (DK ruling: option C of
+reference/zealand-landing.md — units in, battle abstract). Units
+with role="amphib" (specialists) / "amphib-convertible" (the
+mechanized follow-on) form a red theater pool. Costs are now
+commensurable: STAGED units consume red theater supply at
+amphib_staged_intensity (FM inactive rate — the feint eats the
+mainland offensive's supply); convertibles may be RELEASED to the
+leading axis (amphib_release_convertibles_day, march delay,
+arriving into staging under echelon discipline) — thinning the
+package; COMMIT spends the package entirely (the units leave the
+board win or lose — mainland never sees them again). Blue's
+credibility c is now graded with the DOCUMENTED FE ratchet
+(reference/zealand-landing.md §3): c tracks the staged fraction
+fast upward, slowly downward (zeal_c_up >> zeal_c_down) — red's
+thinning is not immediately believed, so a late release exploits
+blue's institutional inertia. Hard evidence zeroes c outright
+(sea-state close, a failed landing). Insurance (naval skim,
+advocacy caution) and the beach-watch pin scale with c
+(pin releases below pin_release_c). With no amphib units passed,
+v9 behavior is reproduced exactly.
 """
 
 import math
@@ -164,6 +185,7 @@ class DayLog:
     pause: bool = False  # red operational pause (building supply forward)
     deep_frac: float = 0.0  # v7: today's GRANTED apportionment (theater's)
     air_naval: float = 0.0  # v7: deep-capable points diverted to the fleet strike
+    zeal_c: float = 0.0  # v10: blue's credibility in the landing threat
 
 
 @dataclass
@@ -174,6 +196,9 @@ class Campaign:
     logs: list = field(default_factory=list)
     # v8: corps reserve pool (Battalions; no axis until dispatched)
     corps_reserve: list = field(default_factory=list)
+    # v10: the amphib landing package (Battalions; staged for the
+    # landing threat until released, committed, or war's end)
+    amphib_pool: list = field(default_factory=list)
 
     def run(self, days):
         rng = random.Random(self.seed)
@@ -217,6 +242,20 @@ class Campaign:
         else:
             self.pin_release_day = self.amphib_release_day
         self._zealand_committed = committed
+        # v10: amphib package state. "none" means the package never
+        # formed: convertibles go straight to the mainland battle
+        # (transit from day 1), specialists sit out (coastal duty).
+        self._amphib_full_cv = sum(u.effective_cv for u in self.amphib_pool) or None
+        self._amphib_transit = []  # (arrive_day, battalion)
+        self._amphib_released = False
+        if amp == "none" and self.amphib_pool:
+            self._release_convertibles(1)
+            self.amphib_pool = [
+                u for u in self.amphib_pool if u.role != "amphib"
+            ]  # specialists withdrawn from play
+        # Blue's credibility in the landing threat (the G-2 estimate;
+        # graded, ratcheted). Starts at the staged picture.
+        self.zeal_c = self._amphib_target(1)
         # v7: the apportionment is theater state, not a blue knob.
         # "direct" reproduces v6 (deep_fraction used as-is);
         # "advocacy" starts at the theater's own prior and moves
@@ -246,24 +285,33 @@ class Campaign:
         self._in_transit = []  # (arrive_day, axis_name, battalion)
         for day in range(1, days + 1):
             wx = self._weather(rng)  # theater-wide, one draw per day
-            # v9: LANDZEALAND, the theater's other customer — how
-            # credible the straits threat stands today, and what it
-            # skims off the deep-capable effort.
-            threat_live, skim = self._zealand_state(day)
+            # v10: the amphib package moves (releases arrive, commit
+            # spends), then blue's graded credibility updates, then
+            # the theater's insurance follows the credibility.
+            self._amphib_step(day)
+            c, skim = self._zealand_state(day)
             if mode == "advocacy" and day > p.get("advocacy_lag_days", 0):
                 req = p.get("corps_request_deep", self.deep_frac_today)
                 gap = req - self.deep_frac_today
                 rate = p.get("advocacy_rate", 0.0)
-                if threat_live:
-                    # While the straits are credibly threatened the
-                    # conference grants the corps' argument slower —
-                    # the persuasion tax with the theater's real
-                    # dilemma inside it.
-                    rate *= 1.0 - p.get("zealand_caution", 0.0)
+                # The conference grants the corps' argument slower in
+                # proportion to how credible the straits threat
+                # stands — the persuasion tax with the theater's
+                # real dilemma inside it.
+                rate *= 1.0 - p.get("zealand_caution", 0.0) * c
                 self.deep_frac_today = min(
                     max(self.deep_frac_today + rate * gap, 0.0), 1.0
                 )
-            self.naval_frac_today = skim if threat_live else 0.0
+            self.naval_frac_today = skim
+            # v10: the staged package eats red theater supply at the
+            # FM inactive rate — the feint is a logistics customer.
+            staged_cv = sum(u.effective_cv for u in self.amphib_pool)
+            drain = (
+                staged_cv
+                * p.get("red_demand_per_cv", 0.0)
+                * p.get("amphib_staged_intensity", 0.41)
+            )
+            self._red_supply_today = max(p.get("red_supply_points", 0.0) - drain, 0.0)
             live = [n for n, st in state.items() if not st.fallen]
             if self.aircraft > 0:
                 points_today = self.aircraft * p["sorties_per_aircraft"] * wx
@@ -291,31 +339,109 @@ class Campaign:
                 )
         return state
 
-    # -- theater grade (v9) --------------------------------------------
+    # -- theater grade (v9/v10) ----------------------------------------
 
-    def _zealand_state(self, day):
-        """(threat_live, skim): is the LANDZEALAND/straits claim
-        credible today, and what fraction of deep-capable air does
-        it take? A threat-in-being holds naval_claim_frac until the
-        sea state closes; a committed landing surges to
-        zealand_battle_claim for the battle, then either fails
-        (everything releases at once — a spent threat pins nobody)
-        or succeeds (the straits fight persists)."""
+    def _release_convertibles(self, day):
+        """Send the convertible (mechanized) part of the package to
+        the mainland: march delay, then into the leading axis's
+        staging area (echelon discipline governs commitment)."""
+        march = int(self.params.get("amphib_release_march_days", 3))
+        for u in [x for x in self.amphib_pool if x.role == "amphib-convertible"]:
+            self.amphib_pool.remove(u)
+            self._amphib_transit.append((day + march, u))
+        self._amphib_released = True
+
+    def _amphib_step(self, day):
+        """Daily package bookkeeping: scheduled release of the
+        convertibles; commit day spends the whole package (the units
+        sail — the mainland never sees them again, win or lose);
+        transit arrivals join the leading axis."""
+        p = self.params
+        rel = int(p.get("amphib_release_convertibles_day", 0))
+        if rel and day >= rel and not self._amphib_released:
+            self._release_convertibles(day)
+        if (
+            self._zealand_committed
+            and day >= int(p.get("red_commit_day", 0))
+            and self.amphib_pool
+        ):
+            self.amphib_pool.clear()  # embarked: gone from the mainland war
+        for arrive, u in list(self._amphib_transit):
+            if day >= arrive:
+                self._amphib_transit.remove((arrive, u))
+                live = [
+                    n for n, ax in self.axes.items() if ax["blue"].has_maneuver
+                ] or list(self.axes)
+                target = max(
+                    live,
+                    key=lambda n: (
+                        self.axes[n]["red"].cv + self.axes[n]["red"].staging_cv
+                    ),
+                )
+                self.axes[target]["red"].staging.append(u)
+
+    def _amphib_target(self, day):
+        """What the indicator picture supports today: the staged
+        fraction of the package while the window is open; the
+        observed invasion during a landing battle; zero on hard
+        evidence (no threat formed, sea state closed, landing
+        failed)."""
         p = self.params
         amp = p.get("red_amphib", "threat")
         if amp == "none" or not self.amphib_release_day:
-            return False, 0.0
+            return 0.0
+        if self._zealand_committed:
+            commit_day = int(p.get("red_commit_day", 0))
+            if day >= self.zealand_resolve_day:
+                return 0.0 if p.get("zealand_landing_fails", True) else 1.0
+            if day >= commit_day:
+                return 1.0  # the invasion is observed fact
+        if day >= self.amphib_release_day:
+            return 0.0  # the sea has closed; even FE believed weather
+        if self._amphib_full_cv:
+            staged = sum(u.effective_cv for u in self.amphib_pool)
+            return staged / self._amphib_full_cv
+        return 1.0  # no package modeled: v9's binary threat
+
+    def _zealand_state(self, day):
+        """(credibility, skim). Blue's G-2 estimate of the landing
+        threat follows the indicator picture through the DOCUMENTED
+        FE ratchet (reference/zealand-landing.md §3): fast up, slow
+        down — force-structure reassurance (a thinning package) is
+        absorbed reluctantly, hard evidence (sea state, a failed
+        landing, the invasion itself) is believed at once."""
+        p = self.params
+        target = self._amphib_target(day)
+        hard = target == 0.0 or (
+            self._zealand_committed and day >= int(p.get("red_commit_day", 0))
+        )
+        if hard:
+            self.zeal_c = target
+        else:
+            rate = (
+                p.get("zeal_c_up", 0.5)
+                if target > self.zeal_c
+                else p.get("zeal_c_down", 0.05)
+            )
+            self.zeal_c = min(
+                max(self.zeal_c + rate * (target - self.zeal_c), 0.0), 1.0
+            )
         base = p.get("naval_claim_frac", 0.0)
-        if not self._zealand_committed:
-            return day < self.amphib_release_day, base
-        commit_day = int(p.get("red_commit_day", 0))
-        if day < commit_day:
-            return day < self.amphib_release_day, base
-        if day < self.zealand_resolve_day:
-            return True, p.get("zealand_battle_claim", base)
-        if p.get("zealand_landing_fails", True):
-            return False, 0.0
-        return True, p.get("zealand_battle_claim", base)
+        in_battle = (
+            self._zealand_committed
+            and int(p.get("red_commit_day", 0)) <= day < self.zealand_resolve_day
+        )
+        if (
+            not in_battle
+            and self._zealand_committed
+            and day >= self.zealand_resolve_day
+        ):
+            if not p.get("zealand_landing_fails", True):
+                in_battle = True  # the straits fight persists
+        skim = self.zeal_c * (
+            p.get("zealand_battle_claim", base) if in_battle else base
+        )
+        return self.zeal_c, skim
 
     # -- corps grade (v8) ----------------------------------------------
 
@@ -451,7 +577,9 @@ class Campaign:
                 # Already in theater, pinned watching the coast; the
                 # THREAT releases them — sea state, a landing's
                 # failure, or its absence (v9 pin_release_day).
-                if self.pin_release_day and day >= self.pin_release_day:
+                if (self.pin_release_day and day >= self.pin_release_day) or (
+                    self.zeal_c < p.get("pin_release_c", 0.0)
+                ):
                     blue.reserve.remove(u)
                     blue.units.append(u)
                     blue_arrivals += 1
@@ -476,7 +604,10 @@ class Campaign:
             bfill = min(1.0, cap / demand) if demand > 0 else 1.0
         if p.get("red_supply_points", 0.0) > 0:
             stretch = 1.0 - p.get("red_loc_penalty", 0.0) * (st.feba_km / st.length_km)
-            cap = (p["red_supply_points"] / n_live) * max(stretch, 0.0)
+            # v10: theater supply net of the staged amphib package's
+            # draw (set daily in run; falls back to the raw param).
+            supply = getattr(self, "_red_supply_today", p["red_supply_points"])
+            cap = (supply / n_live) * max(stretch, 0.0)
             # Deep fires against THROUGHPUT (deep_target="throughput"):
             # today's flow interrupted instead of the echelon delayed.
             if air_deep > 0 and p.get("deep_target", "echelon") == "throughput":
@@ -825,5 +956,6 @@ class Campaign:
                 pause=pause,
                 deep_frac=round(getattr(self, "deep_frac_today", 0.0), 3),
                 air_naval=round(getattr(self, "_naval_log", 0.0), 1),
+                zeal_c=round(getattr(self, "zeal_c", 0.0), 2),
             )
         )

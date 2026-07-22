@@ -165,6 +165,19 @@ zealand_caution = 0.0          # advocacy discount while the straits are
 pause_consumption_frac = 0.41
 pause_combat_frac = 0.25
 
+# v10: the landing package as real units (DK ruling, option C of
+# reference/zealand-landing.md). Staged units eat red theater
+# supply at the FM inactive rate; convertibles releasable to the
+# mainland; commit spends the package. Blue's credibility follows
+# the staged picture through the documented FE ratchet.
+amphib_staged_intensity = 0.41   # FM 101-10-1 inactive situation
+amphib_release_convertibles_day = 0  # 0 = hold the feint fat
+amphib_release_march_days = 3    # coast -> leading axis, toy
+zeal_c_up = 0.5                  # blue believes new threats fast...
+zeal_c_down = 0.05               # ...and reassurance almost never
+                                 # (the FE merchant-hull ratchet)
+pin_release_c = 0.25             # beach watch frees below this
+
 [[axes]]
 name = "coastal-luebeck"
 length_km = 95  # Travemünde approaches -> Kiel Canal, roughly
@@ -544,6 +557,87 @@ kind = "mech"
 cv = 8
 role = "corps-reserve"
 division = "Corps"
+
+# --- The landing package (v10): red's amphib force as real units,
+# no axis — staged for the Zealand threat. Structure echoes the
+# researched package (reference/zealand-landing.md §1: brigade-
+# strength "divisions" — landing regiments, airborne, naval
+# infantry, plus the mechanized follow-on that moved on merchant
+# hulls); CVs toy. Specialists (role=amphib) have near-zero
+# alternative employment; the mech follow-on (amphib-convertible)
+# is the releasable part. ------------------------------------------
+
+[[units]]
+name = "R-AMPH LandRegt I"
+side = "red"
+kind = "mech"
+cv = 5
+role = "amphib"
+division = "7LD"
+
+[[units]]
+name = "R-AMPH LandRegt II"
+side = "red"
+kind = "mech"
+cv = 5
+role = "amphib"
+division = "7LD"
+
+[[units]]
+name = "R-AMPH LandRegt III"
+side = "red"
+kind = "mech"
+cv = 5
+role = "amphib"
+division = "7LD"
+
+[[units]]
+name = "R-AMPH AbnRegt I"
+side = "red"
+kind = "inf"
+cv = 4
+role = "amphib"
+division = "6AD"
+
+[[units]]
+name = "R-AMPH AbnRegt II"
+side = "red"
+kind = "inf"
+cv = 4
+role = "amphib"
+division = "6AD"
+
+[[units]]
+name = "R-AMPH NavInfBde"
+side = "red"
+kind = "mech"
+cv = 4
+role = "amphib"
+division = "NIB"
+
+[[units]]
+name = "R-AMPH MechRegt I (follow-on)"
+side = "red"
+kind = "armor"
+cv = 10
+role = "amphib-convertible"
+division = "15MD"
+
+[[units]]
+name = "R-AMPH MechRegt II (follow-on)"
+side = "red"
+kind = "mech"
+cv = 8
+role = "amphib-convertible"
+division = "15MD"
+
+[[units]]
+name = "R-AMPH MechRegt III (follow-on)"
+side = "red"
+kind = "mech"
+cv = 8
+role = "amphib-convertible"
+division = "15MD"
 
 # --- Amphib pin (LANDZEALAND's shadow on the mainland fight): these
 # units watch the beaches while the WP landing window (Palka: 7th

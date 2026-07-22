@@ -796,3 +796,98 @@ def test_cal1_split_consumption_vs_combat_faces():
     b_soft = sum(e.blue_loss_frac for e in soft.logs if e.pause)
     b_hard = sum(e.blue_loss_frac for e in hard.logs if e.pause)
     assert b_hard > b_soft
+
+
+# -- v10: the landing package as real units (option C) ------------
+
+
+def run_v10(days=24, seed=1986, pool=True, corps=False, **over):
+    data, axes, _ = load_scenario(SCEN)
+    data["params"]["wx_standdown_prob"] = 0.0
+    data["params"]["wx_min"] = 1.0
+    data["params"]["wx_max"] = 1.0
+    data["params"].update(over)
+    camp = Campaign(
+        axes=axes,
+        params=data["params"],
+        seed=seed,
+        corps_reserve=data["corps_reserve_units"] if corps else [],
+        amphib_pool=data["amphib_units"] if pool else [],
+    )
+    state = camp.run(days)
+    return camp, state, axes
+
+
+def test_v10_no_pool_reproduces_v9_binary_credibility():
+    camp, _, _ = run_v10(pool=False, naval_claim_frac=0.4, deep_fraction=1.0)
+    rel = camp.pin_release_day
+    for e in camp.logs:
+        assert e.zeal_c == (1.0 if e.day < rel else 0.0)
+
+
+def test_staged_package_drains_red_supply():
+    fat, _, _ = run_v10(pool=True, deep_fraction=0.0, days=12)
+    thin, _, _ = run_v10(pool=False, deep_fraction=0.0, days=12)
+    r_fat = [e.rfill for e in fat.logs if e.day <= 10]
+    r_thin = [e.rfill for e in thin.logs if e.day <= 10]
+    assert sum(r_fat) < sum(r_thin), "feint should cost red supply fill"
+
+
+def test_release_sends_convertibles_to_leading_axis_and_ratchet_lags():
+    camp, _, axes = run_v10(
+        pool=True,
+        amphib_release_convertibles_day=6,
+        amphib_release_march_days=3,
+        deep_fraction=0.0,
+        days=20,
+    )
+    names = {
+        u.name
+        for ax in axes.values()
+        for u in ax["red"].units + ax["red"].staging
+    }
+    assert any("follow-on" in n for n in names), "convertibles never arrived"
+    assert all("LandRegt" not in n for n in names), "specialists must stay"
+    # Ratchet: credibility declines slowly after the release, no
+    # cliff — day 7's c still above 60% of day 5's.
+    c = {}
+    for e in camp.logs:
+        c.setdefault(e.day, e.zeal_c)
+    rel = camp.pin_release_day
+    if rel > 8:
+        assert c[7] > 0.6 * c[5]
+        assert c[7] < c[5], "credibility should decline after thinning"
+
+
+def test_commit_spends_the_package():
+    camp, _, axes = run_v10(
+        pool=True,
+        red_amphib="commit",
+        red_commit_day=4,
+        deep_fraction=0.0,
+        days=20,
+        seed=1986,
+    )
+    if camp.amphib_release_day <= 4:
+        return  # window closed first; degrades to threat
+    assert not camp.amphib_pool
+    names = {
+        u.name
+        for ax in axes.values()
+        for u in ax["red"].units + ax["red"].staging + ax["red"].reserve
+    }
+    assert not any("R-AMPH" in n for n in names), "committed units on mainland"
+
+
+def test_amphib_none_converts_followon_only():
+    camp, _, axes = run_v10(
+        pool=True, red_amphib="none", deep_fraction=0.0, days=12
+    )
+    names = {
+        u.name
+        for ax in axes.values()
+        for u in ax["red"].units + ax["red"].staging
+    }
+    assert any("follow-on" in n for n in names)
+    assert not any("LandRegt" in n or "AbnRegt" in n for n in names)
+    assert all(e.zeal_c == 0.0 for e in camp.logs)

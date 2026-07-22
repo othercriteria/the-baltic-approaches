@@ -4,6 +4,63 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-22 — v10 (the landing package made real; feint economics) (session 71ede904)
+
+DK rulings implemented: option B rejected, option C built — the
+package as real units, battle abstract, costs commensurable.
+
+Mechanics: roles **amphib** (specialists) / **amphib-convertible**
+(mechanized follow-on) form a red theater pool. STAGED units drain
+red theater supply at amphib_staged_intensity (0.41 — the FM
+inactive rate; the feint is a logistics customer). Convertibles
+RELEASABLE to the leading axis (march delay, staging/echelon
+discipline); COMMIT spends the package (mainland never sees it
+again). Blue's credibility is now graded with the documented FE
+ratchet: fast up (zeal_c_up 0.5), near-refusing down (zeal_c_down
+0.05); hard evidence (sea close, failed landing, the invasion
+itself) is believed at once; insurance (skim, caution, beach-watch
+pin via pin_release_c) scales with c. No pool → v9 reproduced
+exactly. 56 tests green.
+
+**Finding 1 (the sweep's reversal — the finding IS the reversal):
+pricing the package flips the feint's sign.** v9 (package-free)
+said the threat-in-being was nearly a free lunch. v10 medians
+across 60 perturbed worlds, blue CV under red's policy: none 21.0
+< hold-fat 24.0 < release-d10 24.8 < release-d6 25.9 < commit
+28.5 — **at toy economics red usually does best not forming the
+feint at all**: the supply drain plus the convertibles' absence
+usually exceed the insurance red extracts. The point-estimate
+result (hold-fat best, opportunity cost negative via fill
+dilution) survives in only 5/60 worlds; winners churn (none 26,
+commit 17, releases 14, hold 3; median margin 3.9 CV).
+
+**Finding 2 (robust, 53/60): blue's G-2 de-ratcheting speed buys
+< 2 CV.** The staged specialists and the sea-state clock hold the
+credibility floor regardless of how fast blue believes
+reassurance — uncomfortably faithful to FE's residual worst-case
+construct.
+
+**Finding 3 (the calibration lesson): the feint's profitability
+measures the defender's over-insurance.** Our modeled blue prices
+the threat rationally (caution 0.5, a slice of air, two pinned
+battalions); the HISTORICAL blue pinned roughly half the Danish
+field army for thirty years (reference/zealand-landing.md §4A).
+Against the modeled blue, red's feint underpays; against the
+historical blue it was handsomely profitable. The gap is the
+book's material: the threat-in-being works exactly insofar as the
+defender's institutions refuse to price it down — and the model's
+"rational" insurance schedule is the LEAST historically anchored
+number in it. Queue: make blue's insurance schedule itself a
+policy under test (COMBALTAP's own decision problem — how much
+Zealand insurance is right, given you cannot know the world), and
+calibrate the insurance scale against the historical pin ratio.
+
+**Caveats:** all economics at toy scale (supply values, CV
+weights, insurance fractions); commit's 17/60 wins are
+world-dependent variance worth a dedicated look; the specialists'
+zero-alternative-employment assumption is research-honest but the
+convertible set's size (26 CV) is a guess pending WP OOB work.
+
 ## 2026-07-22 — Zealand-landing research pass (blocks v10; no mechanics)
 
 Four-track pass (Pałka + FM 100-2-2 / DIIS vols 2-4 / NIE scans /

@@ -128,6 +128,10 @@ two IS articles have no legitimate open host → library list below.*
   approaches") — pull on demand, not wholesale
 - More PHP Polish-exercise facsimiles at the same collection
   (colltopic4241: 1961 nuclear-strikes list, 1971 Berlin Front msg)
+- Dragoner, *Die Bundeswehr 1989* Teil 2.1 (Feldheer, III. Korps /
+  6. PzGrenDiv volume) — carries the 6th PzGrenDiv detail and the
+  NATO-assigned HSchBrig 51 that Teil 2.2 (held) points to; same
+  hobbyist mirror as the held volume
 - Glantz, *1985 Art of War Symposium: From the Dnepr to the Vistula*
   — likely CARL contentdm p4013coll8, same pattern as the held 1984
   transcript
@@ -186,6 +190,23 @@ repo so the only road for such files is the holdings repo.
   Western theorist of Soviet tempo thinking
 - ~~Bogason~~ → PURCHASED 2026-07-22; placeholder scrape in
   holdings (see Holdings table)
+
+## Known scan defects and extraction recipes
+
+- **FM 101-10-1 Vols 1+2: pages scanned rotated 90° CW** (the
+  originals are landscape). The embedded OCR text layer already
+  reads in the correct orientation — the OCR engine handled the
+  rotation — so `pdftotext` works; plain extraction scrambles the
+  big multi-column tables, but **`pdftotext -layout` recovers them
+  cleanly** (verified against page images: Vol 1 p. 1-152 personnel
+  summary extracted digit-perfect, 2026-07-22). For visual
+  verification of any table: `pdftoppm -f N -l N -r 150 -png` then
+  counter-rotate (PIL `ROTATE_90`); do NOT rewrite the held files
+  in place — they are sha256-pinned. No cleaner public copy is
+  known; CARL's copy is the candidate if one is ever wanted.
+- ORALFORE: daily matrix analysis sheets OCR-garbled; page-image
+  route (as above) is the fallback (see reference/advance-rates.md
+  open items).
 
 ## Shelf disciplines
 

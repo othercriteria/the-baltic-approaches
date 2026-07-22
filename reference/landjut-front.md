@@ -166,15 +166,31 @@ for *structural* departures.)
   above are 1960s — mid-80s state still open)
 - 6th PzGren Division brigade structure and garrisons (Bundeswehr
   sources)
-- ~~Schleswig-Holstein Territorial Command structure~~ → source ON
-  THE SHELF (Dragoner, Teil 2.2) AND now UNDERCUT by Bogason
-  [Ch 6]: "The Germans originally planned two divisions, but in
-  the end only one armoured division was set up" — Davies's
-  "corps-sized, two divisions" reads as the plan, not the fact.
-  Post-1981 territorial layer documented: 51st Home Defence
-  Brigade, 4,500 men (2 inf + 2 tank + 2 arty bns) supporting the
-  sixth division [Ch 14]. Dragoner cross-check still owed for the
-  1989 state before the OOB ledger encodes it.
+- ~~Schleswig-Holstein Territorial Command structure~~ → CLOSED
+  2026-07-22: Bogason's undercut ("The Germans originally planned
+  two divisions, but in the end only one armoured division was set
+  up" [Ch 6]) is CONFIRMED by the Dragoner cross-check (Teil 2.2,
+  pp. 6-14; timeframe 1988-90). The 1989 TerrKdo S-H (HQ Kiel-Wik,
+  dual-hatted as "Deutscher Bevollmächtigter im Bereich AFNORTH")
+  contains NO divisions. Its wartime maneuver layer is
+  **Verfügungstruppenkommando 41** (Schleswig; a partly-active HQ
+  "im Rang eines Divisionskommandos" for ad-hoc battle groups)
+  leading cadre/mobilization formations: HSchBrig 61 (GerEinh,
+  2,844 — 2 Jäger bns, PzBtl 613 w/ 41 Leopard 1, FArtBtl 615 w/
+  18x105mm), HSchRgt 71 "Dithmarschen" (3,204 — 3 Jäger bns),
+  HSchRgt 81 "Angeln" (~2,900, still Heeresstruktur-3 pattern),
+  and Pionierregiment 60 (~6,150 — includes the Fernmeldekompanie
+  for the "Kommandant der Übergänge", the crossings commandant:
+  demolition/crossing authority has its own wartime commander,
+  directly relevant to the v14 demolition grade). LANDJUT-assigned
+  from the territorial layer: FmBtl 610 (Rendsburg, peacetime),
+  FlaRgt 600, PiBtl 650 (GerEinh). Heimatschutzbrigaden 51 + 56
+  are NATO-assigned to FIELD-ARMY divisions (→ Dragoner Teil 2.1,
+  NOT HELD — fetch-queue item; carries HSchBrig 51 detail and the
+  6. PzGrenDiv). Davies's "corps-sized force of two divisions" is
+  definitively the plan, not the 1989 fact. Convergence check: CIA
+  1989 App A's "41st Territorial Cmd 9,130" ≈ Dragoner's VfgTrKdo
+  41 grouping (61+71+81 ≈ 9,000 before the engineer regiment).
 - **Bogason scan wishlist for the paperback** (scrape
   tables/figures unusable): Ch 15 reinforcement table (UKMF
   strength varies 29,000/15,000/10,000 across the scrape!), MC 70

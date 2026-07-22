@@ -18,10 +18,20 @@ until Bundeswehr/Danish norms are found (front research queue).
 instrument without restriction, but for anything in a *character's
 hands* the period edition (FM 101-10-1, 1976/earlier-80s printing)
 must be verified against the setting year once pinned
-(shelf discipline, planning/setting-time.md). (3) US per-capita
-derivations assume a J-series heavy division of ~16,000-17,000 —
-TO-VERIFY against Vol 1 TOE data (scan extraction too poor to read
-the strength tables cleanly).
+(shelf discipline, planning/setting-time.md). (3) ~~US per-capita derivations assume a J-series heavy division
+of ~16,000-17,000 — TO-VERIFY~~ → VERIFIED 2026-07-22 (session
+3845eb93): `pdftotext -layout` defeats the scan where plain
+extraction failed, and the page was verified VISUALLY (render +
+counter-rotate; the held copies are scanned 90° CW — see the
+recipe in reference/shelf.md). Vol 1 p. 1-152, Section II
+Personnel Summary, heavy-division rows [TOE 87000J410-440],
+aggregate strength at authorization Level 1 / 2 / 3:
+AR DIV (6xM60/4xM113) **16,993** / 16,027 / 14,246;
+MX DIV (5xM60/5xM113) **17,278** / 16,247 / 14,463;
+AR DIV (M1/BFV) **17,027** / 15,860 / 14,165;
+MX DIV (M1/BFV) **17,330** / 16,115 / 14,390.
+The ~16.5k working figure stands; per-capita derivations below
+are good to ±3% at Level 1-2.
 
 ## 1. Division Class V (ammunition) consumption by posture
 
@@ -159,8 +169,10 @@ firepower (ammo) — parked as texture until a mechanism needs it.
 - Bundeswehr (HDv-series) and Danish consumption norms — the actual
   blue force's numbers (front research queue; this whole bench is a
   US stand-in until then).
-- FM 101-10-1 Vol 1 TOE strengths for clean per-capita math
-  (extraction defeated by scan quality; try OCR or CARL's copy).
+- ~~FM 101-10-1 Vol 1 TOE strengths for clean per-capita math~~ →
+  ANSWERED 2026-07-22, see standing caveat (3): heavy division
+  16,993-17,330 full TOE / 15,860-16,247 ALO-1 (`pdftotext
+  -layout` on the held copy).
 - Soviet unit-of-fire weight table from a cleaner FM 100-2-2 copy.
 - ~~NATO days-of-supply stock policy~~ → ANSWERED for Denmark
   2026-07-22 (cia-1984-nordic-forces-in-the-1980s.pdf, Table 5 +

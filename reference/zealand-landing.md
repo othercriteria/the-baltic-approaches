@@ -129,7 +129,14 @@ planning/setting-time.md criterion 6.
   the Polish "divisions" recarried as brigades. From 1985: 11-12
   days' WP preparation judged most likely. Warning doctrine:
   political warning 48h-8 days; tactical, worst case none [F: KK3
-  pp.431, 462-465; KK2 p.566].
+  pp.431, 462-465; KK2 p.566]. **CITE PRECISION FLAG (2026-07-22,
+  vol-3 mining pass):** the 48h-8d phrasing was NOT found verbatim
+  in KK3 ch. 77 (pp. 425-467); what vol 3 quantifies is WP
+  *preparation* time — bimodal ~1 week (fast) vs 11-14 days
+  (deliberate), with 11-12 days named the WP optimum from 1985.
+  The 48h-8d band's operative leg is KK2 p.566 — TO-VERIFY there
+  before the W-sweep cites it as FE doctrine. Full treatment:
+  reference/diis-findings.md §1.
 - 1987 counter-swing: FE paper 526/87 RAISES the Jutland-axis
   threat (WP corridor to the North Sea) under US/Petersen
   influence, "from debatable premises" (DIIS) — worst case kept

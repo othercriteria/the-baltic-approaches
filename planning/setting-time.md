@@ -42,6 +42,13 @@ criteria; headline consequences:
 - **Hardware**: no Oka, thin/converting Marineflieger Tornado force
   (air-apportionment 1983 re-check flagged there), US 9th ID
   mid-motorized-conversion; Danish F-16s and Leopard 1A3s fine.
+- **The held WP primary sources go live** (post-ruling confirmation,
+  2026-07-22, reference/php-maritime-front.md): the 1961/1967
+  Maritime Front directives' offensive scheme had its lineal climax
+  in SOYUZ-83 (May-June 1983, 240 km to Enschede in 9 days) — for a
+  Nov-1983 setting the held facsimiles are the SHARP layer of red's
+  current plan, not a superseded under-layer; the 1985 defensive
+  turn and the Zealand handover both post-date the setting.
 - **Kept-live counter-brief**: a middle year (1984-85) retains
   doctrine-unsettledness with more Tornados and CIA-table
   exactness, but dilutes both stated grounds; and criterion 7 says

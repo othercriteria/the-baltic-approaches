@@ -181,10 +181,19 @@ should attack before drafting:
    page-cites), ~~November climatology~~ (done 2026-07-22 →
    reference/november-climate.md; one gate open: RUSSWO-type
    ceiling/visibility table — flyable-day fraction is an
-   ASSUMPTION until found). Still open: PHP facsimile + DIIS vol-3
-   reading (language distillation), Danish road/rail/Little Belt
-   capacity (CAL-3 tonnage anchor), Danish call-up mechanics at
-   hour grain. **The v15 re-baseline is no longer research-blocked.**
+   ASSUMPTION until found), ~~PHP facsimiles~~ (done 2026-07-22 →
+   reference/php-maritime-front.md — red's Jutland thrust is ONE
+   army of the front, invariant 1961→mid-80s; nuclear-first is
+   red's default track; facsimiles are the sharp layer for a 1983
+   setting), ~~DIIS vol-3~~ (done 2026-07-22 →
+   reference/diis-findings.md — FE's W treatment is bimodal ~1wk
+   fast / 11-14d deliberate; EO Nov 1983 scored Able Archer month
+   "routine"; the 48h-8d band cite needs re-sourcing to KK2,
+   flagged in zealand-landing.md), ~~Glantz cluster~~ (done
+   2026-07-22 → reference/soviet-operational-art.md). Still open:
+   Danish road/rail/Little Belt capacity (CAL-3 tonnage anchor),
+   Danish call-up mechanics at hour grain, NIE mining (agent out).
+   **The v15 re-baseline is no longer research-blocked.**
 4. The fresh critique profile of the drafting model (CLAUDE.md
    process rules) — before any prose is drafted.
 5. ~~Unsettle-review #1 above, early and cheap.~~ Done 2026-07-21;

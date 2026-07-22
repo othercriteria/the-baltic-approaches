@@ -143,6 +143,67 @@ tempo tax against a threat that, in THIS book's canon, was never
 coming — and neither blue nor the reader learns that within the story
 (nbc-conceit.md's "one earned lampshade, then silence" rule).
 
+### The IC's classified reassessment — the fetch-queue item, now HELD
+### and mined (DK browser fetch 2026-07-22)
+
+CIA DI/SOVA, *Soviet Doctrine for Offensive Chemical Warfare
+Against NATO* (June 1984, info as of May 1984; sanitized, released
+2012; 17 pp;
+reference/pdf/cia-1984-soviet-offensive-chemical-warfare-nato.pdf).
+**Post-setting by ~7 months — for us, not for a Nov-1983
+character** — and it rewrites the belief-vs-reality section above
+in the IC's own voice:
+
+- **Key judgment:** "a sharp decline since the mid-1970s in Soviet
+  emphasis on using chemical weapons against NATO... we now
+  believe that the Soviets are unlikely to initiate extensive use
+  of chemical weapons during a war with NATO" [Key Judgments,
+  pp. iii-iv]. Before ~1975, chemicals were "gap fillers" bundled
+  into NUCLEAR strike plans against NATO (war games "integrating
+  large numbers of chemical weapons into Warsaw Pact plans for
+  nuclear strikes") — exactly the 46-nuclear+30-chemical package
+  our 1967 facsimile shows. After ~1975: offensive chemical
+  vanished from writings, General Staff Academy curricula, and
+  exercise allocations, while nuclear planning stayed richly
+  visible [pp. 1-3].
+- **Release, IC-confirmed:** Pact writings treat chemical with
+  nuclear "as weapons of mass destruction whose release requires a
+  Soviet political decision at the highest level — either the
+  Politburo or the wartime Supreme High Command (VGK)"; release
+  "would be simultaneous" with nuclear; "no East European
+  government or military officials would be involved in this
+  decision" [pp. 6-7]. The sole preauthorization exception: a NATO
+  surprise attack that decapitates Pact C2, in which case front
+  (perhaps army) commanders could order the initial strike
+  independently [p. 7]. → The 1967 facsimile's ОМП bundling is not
+  an artifact of one exercise document; it is the standing
+  architecture, per the IC's "most intensive examination of this
+  evidence... ever conducted" [p. 1].
+- **The mutual misestimation, documented (third instance of the
+  mirror-error theme):** one reason the Soviets shelved chemical is
+  that "they seem to believe that the United States and its allies
+  have an effective capability to respond in kind" [Key Judgments
+  p. iv] — a capability §3 below shows barely existed (aging
+  stockpile, nothing in-theater north of Seventh Army). Pact
+  estimates even credit **Denmark** among allies "with potential
+  chemical warhead options" [p. 6]! So: red deterred by a blue
+  chemical capability that was largely phantom, while blue sweats
+  in MOPP against a red intention that had atrophied a decade
+  earlier. Both G-2s wrong, both in the cautious direction — the
+  war stays clean partly because each side overestimates the
+  other's dirt.
+- **Epistemic timing for the book:** the reassessment's info cutoff
+  is May 1984. In November 1983 this document does not exist; the
+  IC's standing agreed position was still "the Soviets probably
+  expect to use chemicals once the nuclear threshold has been
+  crossed," with live debate about nonnuclear massive use [p. 1].
+  A 1983 G-2 briefing FM 100-2-1's integrated threat is not
+  strawmanned — he is state-of-the-art and wrong, and the
+  correction was ~7 months from print. (Also usable: the
+  Timoshenko Academy still taught offensive chemical [p. 2-3], and
+  Romania kept a small domestic stockpile because it doubted
+  Soviet wartime nuclear sharing [p. 7 fn].)
+
 ## 2. Blue's defensive posture and its cost
 
 ### MOPP levels and documented degradation

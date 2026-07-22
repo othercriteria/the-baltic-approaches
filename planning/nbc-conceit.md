@@ -130,6 +130,20 @@ load-bearing, on the book's own terms — tempo.**
   fodnotepolitik irony: the policy that weakens deterrence
   guarantees the local fight stays conventional. The 90-hour
   clock has a nuclear sibling nobody can afford to start.
+  **Bench status (2026-07-22, reference/nuclear-release.md):**
+  MC 14/3's own text names release as requiring "rapid
+  decision-making" and states NO timeline — the vagueness is
+  documented, deliberate, and itself the point; ABLE ARCHER 83's
+  scripted request-to-approval turnaround was ~same-day, but
+  that was a staff rehearsal with officers playing heads of
+  government, not a measured consultation. The real-world figure
+  is an open item — so the claim stands in-book as what it
+  actually was: **staff uncertainty**. Nobody at Rendsburg knows
+  how long the clock runs, which is better for the scene than
+  any number. And the question is concrete, not abstract: the
+  corps' own division has nuclear-certified tubes with US
+  custodial warheads in its garrisons (Kellinghusen, Meyn —
+  landjut-front.md).
 - **Chemical: repaired 2026-07-22 (DK amendment + facsimile
   re-read).** DK flagged the original quota-economics leg as
   risking special pleading and unpinned no-chemical *war-wide*:
@@ -147,6 +161,16 @@ load-bearing, on the book's own terms — tempo.**
   timeline is choosing no-chemical too.** The leg is now
   red-documented, not authorial: local chemical non-use rides
   the same barrier as nuclear, by red's own category system.
+  **IC-confirmed same day** (DK fetch: CIA June 1984 reassessment,
+  chemical-posture.md): Soviet offensive-chemical emphasis
+  collapsed after ~1975; release WMD-bundled at Politburo/VGK
+  level, "simultaneous" with nuclear, no East European officials
+  involved — and the reassessment postdates the setting by ~7
+  months, so a 1983 G-2 briefing the integrated threat is
+  state-of-the-art and wrong. Bonus symmetry: red kept chemical
+  shelved partly because it overestimated blue's
+  retaliation-in-kind (crediting even Denmark with chemical
+  options) — both G-2s wrong in the cautious direction.
   Residuals, honestly kept: (a) 1980s Soviet doctrinal drift
   toward chemical-as-quasi-conventional is real in NATO's
   *belief* (FM 100-2-1) — which is fine, since blue acts on its

@@ -344,6 +344,16 @@ ITEMS = [
         "https://www.cia.gov/readingroom/docs/CIA-RDP85S00316R000300040006-9.pdf",
         "fafba67273869f9257916eef7df327906fe845447d62bd773002e4b68114dc0a",
     ),
+    # DI intelligence assessment, June 1984 (sanitized, released
+    # 2012): Soviet Doctrine for Offensive Chemical Warfare Against
+    # NATO — the IC's classified picture to test against
+    # FM 100-2-1's public belief (reference/chemical-posture.md).
+    # DK browser fetch 2026-07-22 (filename 1984-06-01b.pdf).
+    (
+        "cia-1984-soviet-offensive-chemical-warfare-nato.pdf",
+        "https://www.cia.gov/readingroom/docs/1984-06-01b.pdf",
+        "c1b396b73f72a27407d4f603bfab4e7ecf1cf0e82b020391032ebe9038c8177e",
+    ),
     # Batch 6 (2026-07-21, period FM 71-series hunt, session 71ede904).
     # FM 71-100 1990 was never webbed (CARL bibliography lists it,
     # links no file); the 1978+C1 edition below is the manual actually

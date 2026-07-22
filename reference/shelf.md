@@ -89,6 +89,7 @@ this network, URLs work from a browser; both public domain):**
 |---|---|
 | CIA DI/SOVA, *Warsaw Pact: Planning for Operations Against Denmark* (Apr 1989; 18 pp, sanitized) | THE document on red's Denmark operation as the IC saw it: day-8 Zealand assault scenario, the 1978-vs-1987 force tables (incl. the Soviet package Warsaw was never told about), the 80-90%-of-total-airlift figure, tri-conditional failure judgment, mineclearing analysis. Distilled into reference/zealand-landing.md |
 | CIA DI, *Nordic Forces in the 1980s* (EUR 84-10207, Nov 1984; 50 pp, sanitized) | Blue's side of the ledger: Danish readiness (<25% peacetime manning), reinforcement clocks with transit times (UKMF 5-15 days, US divisions 25-40), and the ammunition-stocks table — Danish artillery at ~9-10 combat days vs the NATO 30-day requirement. Distilled into landjut-front.md + consumption-factors.md |
+| CIA DI, *Soviet Doctrine for Offensive Chemical Warfare Against NATO* (June 1984; 17 pp, sanitized, rel. 2012) | The IC's classified chemical picture — tests FM 100-2-1's public belief against what analysts actually assessed; top item of the chemical-posture fetch queue (DK fetch 2026-07-22; distillation owed → chemical-posture.md) |
 
 **Period FM 71-series (the maneuver-doctrine gap):**
 
@@ -125,12 +126,14 @@ two IS articles have no legitimate open host → library list below.*
   (Jutland/Straits) — digitalarchive.wilsoncenter.org
 - **CIA chemical-warfare estimates** (2026-07-22,
   reference/chemical-posture.md §7; cia.gov bot-blocked → DK
-  browser tier): *Soviet Doctrine for Offensive Chemical Warfare
-  Against NATO* (1984), *The Soviet Offensive Chemical Warfare
-  Threat to NATO*, *Indications and Warning of Soviet Intentions
-  to Use Chemical Weapons* (1978), *Soviet Motivations for the Use
-  of Chemical Weapons in Afghanistan and Southeast Asia* — URLs in
-  the chemical-posture open items
+  browser tier): ~~*Soviet Doctrine for Offensive Chemical Warfare
+  Against NATO* (1984)~~ → HELD same day (DK fetch; batch 7 table,
+  mined into chemical-posture.md); still wanted: *The Soviet
+  Offensive Chemical Warfare Threat to NATO*, *Indications and
+  Warning of Soviet Intentions to Use Chemical Weapons* (1978),
+  *Soviet Motivations for the Use of Chemical Weapons in
+  Afghanistan and Southeast Asia* — URLs in the chemical-posture
+  open items
 - **NIE siblings named by the held estimates** (2026-07-22,
   reference/nie-threat-estimates.md; cia.gov bot-blocks this
   network → DK browser tier if released): NIE 4-1-78 (the

@@ -94,9 +94,20 @@ characters (shelf discipline).*
   assigned). [Davies note c]
 - **6th Panzergrenadier Division**: three combat brigades +
   artillery regiment (Kellinghusen) + aviation (Itzehoe, ~50
-  helicopters) per the earlier structure search — TO-VERIFY against
-  Bundeswehr sources; brigade numbers/garrisons needed for the OOB
-  ledger.
+  helicopters) per the earlier structure search — ~~TO-VERIFY~~ →
+  closed to provisional grade 2026-07-22 (brigades 16 Wentorf /
+  17 Hamburg / 18 Neumünster, battalion sets, garrisons:
+  reference/oob-verification.md, GAP B).
+- **The division's artillery is nuclear-certified with US custodial
+  warheads IN ITS OWN GARRISONS** (2026-07-22,
+  reference/nuclear-release.md §4.2): Sondermunitionslager
+  Kellinghusen (155/203-mm AFAP, co-located with ArtRgt 6) and
+  Sondermunitionslager Meyn near Flensburg (Lance warheads for
+  RakArtBtl 650, the division's own rocket-artillery battalion),
+  both under US Army Artillery Group custody. The NBC conceit's
+  release question is not an abstraction at Rendsburg: the
+  corps' fire plan owns nuclear-capable tubes it cannot fire
+  (planning/nbc-conceit.md).
 
 ## Red forces and plans
 

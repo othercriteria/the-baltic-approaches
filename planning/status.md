@@ -29,11 +29,21 @@ start there before working (CLAUDE.md, Provenance).*
 - **Time:** year unpinned within ~1983-87 (now coupled to commander
   nationality — planning/setting-time.md criterion 5); season
   provisionally November.
-- **Instrument:** wargame/ campaign 1 CLOSED at v6 — mechanism
-  inventory, claim ledger, and the two staged questions (what is
-  the goal / what does the enemy think it is) in
-  notes/wargaming-findings.md. Research-first handoff there;
-  don't resume model work before the calibration pass.
+- **Instrument:** campaign 1 closed at v6; campaign 2 ran v7-v15
+  (2026-07-21/22, session 71ede904): theater air apportionment +
+  corps advocacy, echelon decomposition (three decision grades,
+  leverage measured), the LANDZEALAND thread (feint priced,
+  insurance gamed, pin decomposed and priced — drill closed by DK
+  ratification at ~13 CV residual swing), the division engineer
+  grade, and CAL-1/CAL-2 calibration. Findings log carries it all.
+  **STANDING GATE: v15/CAL-2 suspended the flagship
+  interdiction-dominance claim (it was conditional on flat demand);
+  the successor's first instrument task is a re-baselined scenario
+  under demand_posture=true + full sweep. No campaign-1/2 policy
+  ranking informs canon until that runs.** The two staged
+  questions are now four: what is the goal / what does the enemy
+  think it is / what does the enemy think WE think it is / and
+  whose consumption model is the argument standing on.
 - **Research shelf:** reference/shelf.md (manifest of record; 16
   pinned documents), reference/landjut-front.md (front facts,
   sourced, TO-VERIFY flags), reference/bulk-survey.md (/bulk map).

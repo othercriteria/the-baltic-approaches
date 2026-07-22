@@ -4,6 +4,44 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-22 — the 90-hour clock (pre-campaign-3 calibration run; no mechanics)
+
+DK asked whether the CIA/Bogason acquisitions merit a run before
+the next campaign. One did: **Bogason's 90-hour Jutland Division
+relocation clock (Helms 1975) exposes the toy scenario's implicit
+warning assumption** — JDiv battalions in place on day 1 assumes
+~4 days of acted-upon warning, while FE doctrine bounds warning at
+48h-8 days political, worst-case none. Run
+(scratch/warning-clock.py, n=40 x 30 days, advocacy baseline;
+arrival day = max(1, 4-W)):
+
+| W (warning days) | arrive | held | blue CV | FEBA |
+|---|---|---|---|---|
+| 4 (current scenario) | day 1 | 1.98 | 10.6 | 162 |
+| 2 | day 2 | 2.00 | 45.7 | 109 |
+| 1 | day 3 | 2.00 | 48.4 | 124 |
+| 0 | day 4 | 1.10 | 20.3 | 177 |
+
+**Finding: the opening is hostage to W (4x CV swing across the
+documented range), and the curve is non-monotone** — arriving a
+day or two late beats standing in the grinder from hour one, but
+only by conceding ground INCLUDING the political hold line without
+a fight (the collapse path marches red past hold_km freely, and
+models no delaying screen — the middle rows are flattered;
+sensitivity certified, ranking NOT). The v0 founding dilemma
+reappears at the mobilization layer: the militarily-rational
+arrival schedule is the politically-forbidden one, and
+Vorneverteidigung is why the division stands in the grinder.
+
+**Consequence for the re-baseline (the v15 gate): the canonical
+opening must DECLARE its warning assumption**, W belongs in the
+sweep's perturbation set, and the researched anchors (90-hour
+clock; UKMF 5-15 days — current day 9-10 arrival is consistent;
+US air 6 days; FE's 48h-8d political-warning band) are the
+calibration inputs. Also queued for the scenario re-cast: a
+delaying-screen representation so an uncovered axis is not a free
+march.
+
 ## 2026-07-22 — v15 (CAL-2: posture demand) — THE FLAGSHIP CLAIM SUSPENDED (session 71ede904)
 
 Mechanics: **demand_posture=true** scales each side's supply demand

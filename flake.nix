@@ -44,6 +44,12 @@
           # Fetching and unpacking reference documents
           curl
           unzip # also handy for epub inspection
+
+          # GitHub operations (repo creation/administration — the
+          # holdings private-remote task, PR work if any). SSH push
+          # auth already lives at the user level; gh covers the API
+          # side.
+          gh
         ];
 
         shellHook = ''

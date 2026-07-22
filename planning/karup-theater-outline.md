@@ -16,6 +16,14 @@ planning/protagonist-echelon.md (incumbent, re-affirmed),
 planning/echelon-hostile-review.md, and
 planning/jutland-commander-outline.md (declined); DK rules.*
 
+*RULING (DK, 2026-07-22, in-session to 71ede904, same day as
+filing): PROVISIONALLY DECLINED as protagonist. RETAINED as
+ensemble source material: the conference, the trilemma, the three
+claims in three currencies, and the commander who cannot prove
+the pin irrational are what the corps G-3 argues INTO from below
+— visibility without interiority. The "from above" paragraph is
+the corps book's view of its own arguments arriving.*
+
 ---
 
 # The Mission — theater version: one-page outline

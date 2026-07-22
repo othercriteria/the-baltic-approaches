@@ -14,6 +14,14 @@ The officeholder is fictional per no-borrowed-furniture. Sits
 beside planning/protagonist-echelon.md (the incumbent's case) and
 the hostile review; DK rules.*
 
+*RULING (DK, 2026-07-22, in-session to 71ede904): DECLINED as
+protagonist — "strong proposal, but corps-level still appeals."
+RETAINED as ensemble source material: the division commander's
+predicament (the proud belt closing the window it was meant to
+serve; the E45 geometry; the hold-line dawn from below) is what
+the corps G-3 sees on liaison visits — visibility without
+interiority.*
+
 ---
 
 # The Mission — division version: one-page outline

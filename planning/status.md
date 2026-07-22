@@ -118,11 +118,21 @@ should attack before drafting:
    advocate; protagonist COMBALTAP, chosen over the plans officer
    and the dual-hat with the argument on the page; its central
    claim: apportionment IS The Goal's subject and only the theater
-   chair meets it as decision). The bake-off record is now
-   complete at three altitudes — division (declined), corps
-   (standing), theater (filed) — plus the hostile review. Final
-   echelon ratification and the corps version's response to the
-   theater outline remain DK's.
+   chair meets it as decision).
+   **The bake-off is CLOSED (DK, 2026-07-22): division declined,
+   theater provisionally declined, corps STANDS.** Unsettle #1 is
+   thereby resolved (provisionally): the LANDJUT-HQ-G-3 choice
+   survived a hostile review, an enriched-instrument leverage
+   test, and steelmanned challengers at the altitudes above and
+   below. **Design directive from the ruling:** the declined
+   sketches are RETAINED as ensemble sourcebooks — everyone in
+   this theater is doing something interesting, and the corps
+   protagonist gets VISIBILITY above and below without their
+   interiority: the division commander's belt-vs-window
+   predicament seen on liaison visits; the Karup conference and
+   its trilemma argued into from below. The liaison-window
+   "commuting to the war" objection (hostile review, attack 3) is
+   answered by design: the windows are now sourced.
 
 2. **The Goal's engine assumes iteration; a three-week war may not
    provide it.** Rogo learns because the plant runs every day —

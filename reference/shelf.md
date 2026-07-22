@@ -174,6 +174,16 @@ repo so the only road for such files is the holdings repo.
 
 ## Purchase list (copyrighted; DK's call)
 
+- **Lautsch, *Kriegsschauplatz Deutschland. Erfahrungen und
+  Erkenntnisse eines NVA-Offiziers* (ZMSBw 2013)** — NEW 2026-07-22,
+  top red-OOB acquisition: the MB V head of operations planning
+  1983-86 on the plans themselves; the Küstenfront/covering-force
+  architecture in reference/oob-verification.md is currently
+  forum-transmitted from its pp. 121/124
+- Wenzke (ed.), *Die Streitkräfte der DDR und Polens in der
+  Operationsplanung des Warschauer Paktes* (ZMSBw 2010) — the
+  Moszumański chapter carries the Polish Coastal Front task detail
+  (which armies, which echelon, what timings)
 - Goldratt, *The Goal* (structure model — mentor dialogues, metrics
   engine)
 - ~~Dupuy, *Numbers, Predictions and War*~~ → acquired, see Holdings

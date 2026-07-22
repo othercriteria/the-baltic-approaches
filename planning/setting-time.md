@@ -52,6 +52,20 @@ Criteria for the re-pick, in rough priority order:
    year faces a knowable Polish threat; a late-window year faces an
    opaque Soviet one that even the enemy's own allies cannot see —
    materially different G-2 texture.
+7. **Red plan-posture coupling (added 2026-07-22,
+   reference/oob-verification.md).** The NVA/WP operational plans
+   for the northern theater changed character across the window:
+   1983 plan offensive (5. Armee to the Dutch border in 5-7 days,
+   32 nuclear strikes in the opening salvo); **1985 revision
+   defensive-first** (hold a Dassow-Lenzen line, restore the
+   border, counter-strokes only); 1988 strictly defensive. An
+   early-window year faces a red that intends the romp; a
+   post-1985 year faces a red whose own plan of record opens on
+   the defensive — which reshapes any war-origin story and what
+   red's covering posture looks like on day 1. Hardware pin in
+   the same seam: the 5. Raketenbrigade's SS-23 Oka arrives
+   Sept 1985 and dies with INF 1987-88. (Lautsch-sourced,
+   forum-transmitted pending purchase — verify before canon.)
 
 ## The season (provisional pick: late autumn — November)
 

@@ -114,10 +114,22 @@ characters (shelf discipline).*
   Army/UBF, 7LD becomes a coastal-defence brigade, Poland keeps
   only Bornholm. The amphib threat's structure is now a
   setting-year criterion (planning/setting-time.md, criterion 6).
-- **GDR 5th Army / land axis composition: TO-VERIFY** — the
-  standing assumption (GDR + Polish first echelon on the
-  Schleswig-Holstein axis, Soviet follow-on) needs the PHP/CWIHP
-  document base before the OOB ledger encodes it.
+- ~~GDR 5th Army / land axis composition: TO-VERIFY~~ → ANSWERED
+  2026-07-22 (provisional grade), full distillation in
+  **reference/oob-verification.md**: the standing assumption was
+  wrong in SHAPE. Mid-80s architecture (Lautsch — head of MB V
+  operations planning 1983-86): a thin two-division covering force
+  (GDR 8. MSD + Soviet 94. GdMSD, ~2 days) holds the border while
+  the **Polish Küstenfront (three armies + an air army)** deploys
+  through Mecklenburg onto the SH/Jutland axis; the NVA 5. Armee's
+  main body attacks SOUTH of the Elbe against I (NL) Corps; Soviet
+  weight on our axis is the Zealand landing + Baltic Fleet, not a
+  ground follow-on echelon. **1985 plan revision turned
+  defensive-first** (hold Dassow-Lenzen, restore the border) — a
+  Nov-1986 setting sits on that plan, not the 1983 offensive
+  (setting-year-coupled, see planning/setting-time.md). Key cites
+  forum-transmitted pending the Lautsch purchase (top acquisition,
+  DK list).
 
 ## Doctrine question for the protagonist's own army
 

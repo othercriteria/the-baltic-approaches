@@ -38,6 +38,20 @@ Criteria for the re-pick, in rough priority order:
    protagonist's corps commander is German or Danish, which
    interacts with the protagonist-nationality decision
    (planning/protagonist-echelon.md, open item 1).
+6. **Amphib-threat structure coupling (added 2026-07-22,
+   reference/zealand-landing.md).** The Zealand landing mission
+   changed hands across exactly our window: to mid-1985 it is the
+   (paper) Polish Coastal Front plan of 1977; after the May 1985
+   Moscow consultations (formalized in the Polish plan of Nov 1986)
+   it passes to the Soviet 16th Army/United Baltic Fleet — with the
+   7th Landing Division downgraded to a coastal-defence brigade
+   (Aug 1986) and Warsaw itself told nothing of the Soviet package.
+   Also date-pinned: Ivan Rogov's exercise-visit era ends when she
+   leaves the Baltic in Nov 1986 (FE scored it as −15% Soviet
+   Baltic lift — in our provisional setting month). An early-window
+   year faces a knowable Polish threat; a late-window year faces an
+   opaque Soviet one that even the enemy's own allies cannot see —
+   materially different G-2 texture.
 
 ## The season (provisional pick: late autumn — November)
 

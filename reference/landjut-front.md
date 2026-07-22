@@ -95,8 +95,14 @@ characters (shelf discipline).*
   People's Army landing operation (on the shelf, 32 pp) — 1961-63
   planning selected the 7th Landing Division ("blue berets") and
   6th Air-Landing Division ("red berets") for an air-sea landing on
-  the isles between Great Belt and Øresund. TO-VERIFY: how these
-  plans evolved by the mid-80s; the paper's own coverage window.
+  the isles between Great Belt and Øresund. ~~TO-VERIFY: how these
+  plans evolved by the mid-80s~~ → ANSWERED 2026-07-22, full
+  distillation in **reference/zealand-landing.md**: 1977 plan of
+  record (Køge/Fakse Bays, D6-7, 15 nuclear weapons underwriting);
+  May 1985/Nov 1986 the Zealand mission passes to the Soviet 16th
+  Army/UBF, 7LD becomes a coastal-defence brigade, Poland keeps
+  only Bornholm. The amphib threat's structure is now a
+  setting-year criterion (planning/setting-time.md, criterion 6).
 - **GDR 5th Army / land axis composition: TO-VERIFY** — the
   standing assumption (GDR + Polish first echelon on the
   Schleswig-Holstein axis, Soviet follow-on) needs the PHP/CWIHP

@@ -4,6 +4,29 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-22 — Zealand-landing research pass (blocks v10; no mechanics)
+
+Four-track pass (Pałka + FM 100-2-2 / DIIS vols 2-4 / NIE scans /
+web hardware) → **reference/zealand-landing.md**. What it settles
+for the instrument: `zealand_landing_fails=true` is
+over-determined for the conventional-with-barriers case (every
+actor's own verdict, incl. red's: "suicide" — the historical gap
+was closed with ~15 nuclear weapons, so the success branch is
+really the nuclear-release branch, out of scope); the v10 graded
+credibility can be built from DOCUMENTED machinery — cheap
+manipulable signals (exercise tempo, pickets, embarkation
+activity) vs costly honest ones (merchant mobilization ~20 days,
+minesweeper massing, the visible mine-clearing campaign), a
+blue-owned prior (own mine-barrier state, political release), and
+the FE's documented asymmetric ratchet (updates up fast, down
+almost never — the merchant-hull worst case as institutional
+floor). Commensurability decision laid out as options A/B/C with
+my lean (C: landing package as real units, battle abstract) and
+the counter-question (every historical actor concluded red would
+not commit conventionally — if the threat-in-being IS the story,
+A suffices); **DK decides**. Bonus coupling: the landing mission's
+1985/86 Polish→Soviet handover adds setting-time criterion 6.
+
 ## 2026-07-22 — v9 (LANDZEALAND as theater customer; the feint priced) (session 71ede904)
 
 DK question: introduce LANDZEALAND explicitly? Answer built:

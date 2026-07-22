@@ -125,6 +125,11 @@ two IS articles have no legitimate open host → library list below.*
   transcript
 - USNI Proceedings Baltic articles (Mar 1986 / Mar 1988) — paywalled;
   DK library access?
+- CIA DI/SOVA, "Warsaw Pact: Planning for Operations against
+  Denmark" (Apr 1989, declassified; cia.gov/readingroom
+  1989-04-01.pdf) — cia.gov bot-blocked from here; hunt the
+  archive.org reading-room mirror (key feasibility quotes already
+  distilled in reference/zealand-landing.md from the search index)
 
 ## Library list (no legitimate open copy; interlibrary loan or
 purchase of the IS Reader)
@@ -139,6 +144,9 @@ purchase of the IS Reader)
 - All three are reprinted in Miller (ed.), *Conventional Forces and
   American Defense Policy* (IS Reader) — one used copy covers the
   set
+- Mazurek, *Desant na Danię: Mit czy realny plan inwazji?* (2014)
+  — Polish-language monograph on the landing plans (cited by
+  Pałka); interlibrary loan tier
 
 ## Holdings (owned, not redistributable — private companion repo)
 

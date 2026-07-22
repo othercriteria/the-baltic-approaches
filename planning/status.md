@@ -111,6 +111,18 @@ should attack before drafting:
    are now in the room; the echelon ruling is fully teed up:
    incumbent's case (protagonist-echelon.md) + hostile review +
    challenger's strongest outline.
+   **DK ruling, 2026-07-22 (in-session to 71ede904): the division
+   version DECLINED** — "strong proposal, but corps-level still
+   appeals" — with a symmetric theater-altitude exercise
+   commissioned: planning/karup-theater-outline.md (fresh-context
+   advocate; protagonist COMBALTAP, chosen over the plans officer
+   and the dual-hat with the argument on the page; its central
+   claim: apportionment IS The Goal's subject and only the theater
+   chair meets it as decision). The bake-off record is now
+   complete at three altitudes — division (declined), corps
+   (standing), theater (filed) — plus the hostile review. Final
+   echelon ratification and the corps version's response to the
+   theater outline remain DK's.
 
 2. **The Goal's engine assumes iteration; a three-week war may not
    provide it.** Rogo learns because the plant runs every day —

@@ -1,9 +1,16 @@
 # Project status — successor entry point
 
-*Written 2026-07-21 at the wrap of the Step-0/instrument session
-(1a9aba32). Read this first; everything cites its source doc. The
-lineage log is in notes/attribution-ledger.md — log your session
-start there before working (CLAUDE.md, Provenance).*
+*Written 2026-07-21 (session 1a9aba32); revised in place through
+2026-07-22 by session 71ede904 at its wrap. Read this first;
+everything cites its source doc. The lineage log is in
+notes/attribution-ledger.md — log your session start there before
+working (CLAUDE.md, Provenance). Successor's first acts:
+`make raw-archive SESSION=71ede904-8327-4534-a71e-c4922ebbd729`,
+then `make archive SKIP=<your-uuid>`. **First instrument task: the
+v15 re-baseline** (declared warning parameter W + posture demand +
+full sweep — see the findings log's 90-hour-clock and v15
+entries); no campaign-1/2 policy ranking informs canon until it
+runs.*
 
 ## The broad outline as it stands (DK: "broad outline is set")
 

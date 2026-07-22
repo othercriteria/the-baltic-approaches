@@ -157,7 +157,7 @@ def load_scenario(path, year=None):
         if bn.role == "corps-reserve":
             data["corps_reserve_units"].append(bn)
             continue
-        if bn.role in ("amphib", "amphib-convertible"):
+        if bn.role in ("amphib", "amphib-air", "amphib-convertible"):
             data["amphib_units"].append(bn)
             continue
         if bn.role == "zealand-garrison":

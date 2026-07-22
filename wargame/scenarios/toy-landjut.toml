@@ -188,6 +188,8 @@ zg_release_day = 0             # for mode="day"
 zg_release_c = 0.2             # for mode="threshold": release when c below...
 zg_release_recognition_days = 2  # ...for this many days
 zg_move_days = 3               # Belt crossing + march to the front, toy
+zg_release_count = 0           # v12: release strongest N, keep the rest
+                               # (0 = release everything)
 zg_success_ratio = 1.5         # landing succeeds if package CV at commit
                                # exceeds this x kept-garrison CV — toy,
                                # anchored loosely on the researched 1:1.3
@@ -661,12 +663,15 @@ cv = 5
 role = "amphib"
 division = "7LD"
 
+# v12: the airborne echelon is its own threat component — its
+# delivery does not close with the sea (the FE worry that outlived
+# the fleet threat: "paratroops, helicopters, fast bombers")
 [[units]]
 name = "R-AMPH AbnRegt I"
 side = "red"
 kind = "inf"
 cv = 4
-role = "amphib"
+role = "amphib-air"
 division = "6AD"
 
 [[units]]
@@ -674,7 +679,7 @@ name = "R-AMPH AbnRegt II"
 side = "red"
 kind = "inf"
 cv = 4
-role = "amphib"
+role = "amphib-air"
 division = "6AD"
 
 [[units]]

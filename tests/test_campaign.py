@@ -971,3 +971,60 @@ def test_static_commit_fails_against_held_garrison():
     # Package 53 CV vs kept 46 CV: 53 <= 1.5*46 -> the landing fails.
     assert camp._zealand_committed and not camp.zealand_lost
     assert camp.pin_release_day is not None
+
+
+# -- v12: the threat decomposed (sealift windowed, airborne not) --
+
+
+def test_sea_close_leaves_airborne_credibility_floor():
+    camp, _, _ = run_v11(
+        red_amphib="threat", zg_release_mode="never",
+        deep_fraction=0.0, days=28,
+    )
+    rel = camp.amphib_release_day
+    c = {}
+    for e in camp.logs:
+        c.setdefault(e.day, e.zeal_c)
+    # No hard zero at the close: the day after, credibility is still
+    # most of its pre-close value (slow ratchet toward the air floor
+    # of ~8/53), and it never reaches zero while the airborne
+    # component stays staged.
+    assert c[rel] > 0.5 * c[rel - 1]
+    late = [c[d] for d in c if d >= rel + 3]
+    assert late and all(v > 0.1 for v in late)
+
+
+def test_post_close_airborne_strike_punishes_full_release():
+    camp, _, _ = run_v11(
+        red_amphib="opportunist",
+        zg_release_mode="day",
+        zg_release_day=18,  # past every sea-close draw
+        red_opportunist_lag=2,
+        deep_fraction=0.0,
+        days=28,
+        seed=1986,
+    )
+    assert camp._zealand_committed and camp._commit_day == 20
+    assert camp.zealand_lost, "air descent on an emptied island must succeed"
+
+
+def test_partial_release_keeps_the_island():
+    camp, _, axes = run_v11(
+        red_amphib="opportunist",
+        zg_release_mode="day",
+        zg_release_day=18,
+        zg_release_count=4,  # keep two battalions (~13 CV)
+        red_opportunist_lag=2,
+        deep_fraction=0.0,
+        days=28,
+        seed=1986,
+    )
+    assert not camp._zealand_committed  # 8 CV air <= 1.5 x 13 kept
+    assert not camp.zealand_lost
+    assert len(camp.zealand_garrison) == 2
+    mainland = {
+        u.name
+        for ax in axes.values()
+        for u in ax["blue"].units + ax["blue"].reserve
+    }
+    assert sum(1 for n in mainland if "B-ZG" in n) == 4

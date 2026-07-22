@@ -4,6 +4,65 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-22 — v12 (the threat decomposed; the pin priced) (session 71ede904)
+
+The v11 seam built: the Zealand threat is no longer one thing.
+**role="amphib-air"** marks the airborne echelon, whose delivery
+does not close with the sea (the FE worry that outlived the fleet
+threat). With the package modeled, the credibility target becomes
+(staged air CV + staged sealift CV × window) / full package — the
+sea close is NOT a hard zero anymore, it drops the target to the
+airborne floor and blue's slow ratchet takes days to follow. Red
+can commit after the close with the airborne component alone
+(hopeless against a garrison, decisive against an emptied island);
+the opportunist stays armed year-round and strikes only when the
+strike would succeed (it can count the garrison it faces). Blue
+gains partial release (zg_release_count: send the strongest N,
+keep the rest). Guns can't hold Zealand either: kept-garrison
+viability counts maneuver CV only. No package → v9 binary
+preserved. 64 tests green.
+
+**Finding 1 (40/40): v11's safe date was an artifact, as
+predicted.** Release-everything-post-sea now loses Zealand to the
+post-close air descent in every world; keeping only the artillery
+battalion fails the same way (the closure guard doing exactly its
+job). And the early partial release is punished too — pre-close
+the opportunist strikes with the FULL package. **The sea window
+disciplines the timing of release; the airborne component
+disciplines the amount.**
+
+**Finding 2 (39/40): the pin's rational core is one real
+battalion.** Minimax blue policy: release after the sea closes,
+keep ~7 maneuver CV (one infantry battalion + the guns) — Zealand
+never falls, worst-case 37.1 blue CV. The historical hold-always
+remains dominated (10.6), but now by a policy that respects the
+residual threat. The over-insurance cost ladder is monotone
+(39/40): every battalion kept beyond the core costs ~5-6 CV of
+worst-case mainland strength.
+
+**Finding 3 — the measurement DK commissioned: the price of the
+historical pin beyond its rational core is median 24.7 CV (p10
+16.2, p90 28.3) — over half of blue's achievable ending force.**
+In-model (November, 30 days, threat pool fixed), ~15% of the
+historical garrison buys all the safety there is to buy; the
+other ~85% insures against what the model does not contain: the
+spring reopening, warning-time collapse, an expandable airborne
+pool, and the politics of the capital. That list is now explicit,
+priced, and assignable — some of it is modelable (v13 candidate:
+red reinforces the airborne pool mid-campaign, the documented
+Saltnicken inference that 6th Gds MRD "had landing operations as
+an option"; predicted effect: the required kept garrison becomes
+a moving number blue must track — the G-2 loop closes), and some
+of it is the book's material precisely because no staff model
+contains it.
+
+**Caveats:** the opportunist has perfect knowledge of the kept
+garrison (a deterred-by-uncertainty red would make the kept
+battalion worth more, an error-prone red would make blue's risk
+real); the viability threshold is a sharp cliff (real correlation
+arithmetic has variance — blue would keep a margin, pushing the
+rational core up, not rescuing the pin); all CVs toy.
+
 ## 2026-07-22 — v11 (the garrison as blue policy; the insurance game) (session 71ede904)
 
 The v10 queue item built: blue's Zealand insurance is now a policy

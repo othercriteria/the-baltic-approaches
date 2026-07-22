@@ -376,9 +376,21 @@ class Campaign:
         self._zealand_committed = True
         self._commit_day = day
         self.zealand_resolve_day = day + int(p.get("zealand_battle_days", 0))
-        package_cv = sum(u.effective_cv for u in self.amphib_pool)
+        # v12: after the sea closes, only the AIRBORNE component can
+        # be delivered — an air-only descent, hopeless against a
+        # garrison, decisive against an emptied island.
+        sea_open = self.amphib_release_day and day < self.amphib_release_day
+        if sea_open:
+            striking = list(self.amphib_pool)
+        else:
+            striking = [u for u in self.amphib_pool if u.role == "amphib-air"]
+        package_cv = sum(u.effective_cv for u in striking)
         if self._zg_full_cv:
-            kept = sum(u.effective_cv for u in self.zealand_garrison)
+            # Guns can't hold ground on Zealand either: only the
+            # kept garrison's maneuver CV counts against a descent.
+            kept = sum(
+                u.effective_cv for u in self.zealand_garrison if u.kind != "arty"
+            )
             self._landing_fails = package_cv <= p.get("zg_success_ratio", 1.5) * kept
         else:
             self._landing_fails = p.get("zealand_landing_fails", True)
@@ -390,7 +402,8 @@ class Campaign:
             )
         else:
             self.pin_release_day = None  # Zealand falls: pinned for good
-        self.amphib_pool.clear()  # embarked: gone from the mainland war
+        for u in striking:  # embarked/emplaned: gone from the mainland war
+            self.amphib_pool.remove(u)
 
     def _zealand_garrison_step(self, day, state):
         """COMBALTAP's insurance decision, executed (v11): release
@@ -418,7 +431,14 @@ class Campaign:
                 move = int(p.get("zg_move_days", 3))
                 live = [n for n, st in state.items() if not st.fallen] or list(state)
                 target = min(live, key=lambda n: self.axes[n]["blue"].cv)
-                for u in list(self.zealand_garrison):
+                # v12: partial release — send the strongest N and
+                # keep the rest as the island's residual insurance
+                # (0 = release everything, the v11 behavior).
+                count = int(p.get("zg_release_count", 0)) or len(self.zealand_garrison)
+                units = sorted(self.zealand_garrison, key=lambda u: -u.effective_cv)[
+                    :count
+                ]
+                for u in units:
                     self.zealand_garrison.remove(u)
                     u.arrival_day = day + move
                     self.axes[target]["blue"].reserve.append(u)
@@ -429,12 +449,28 @@ class Campaign:
             and self.amphib_pool
         ):
             strike = self._zg_released_day + int(p.get("red_opportunist_lag", 2))
-            if (
-                day >= strike
-                and self.amphib_release_day
-                and day < self.amphib_release_day
-            ):
-                self._commit_landing(day)
+            # v12: the opportunist stays armed after the sea closes —
+            # the airborne component's delivery is windowless. It
+            # strikes only when the strike would SUCCEED (it can see
+            # the ferries; it can count the garrison it faces).
+            if day >= strike and self.amphib_release_day:
+                sea_open = day < self.amphib_release_day
+                striking = (
+                    self.amphib_pool
+                    if sea_open
+                    else [u for u in self.amphib_pool if u.role == "amphib-air"]
+                )
+                pkg = sum(u.effective_cv for u in striking)
+                kept = sum(
+                    u.effective_cv for u in self.zealand_garrison if u.kind != "arty"
+                )
+                viable = (
+                    pkg > self.params.get("zg_success_ratio", 1.5) * kept
+                    if self._zg_full_cv
+                    else sea_open
+                )
+                if viable:
+                    self._commit_landing(day)
 
     def _amphib_step(self, day):
         """Daily package bookkeeping: scheduled release of the
@@ -465,11 +501,14 @@ class Campaign:
                 self.axes[target]["red"].staging.append(u)
 
     def _amphib_target(self, day):
-        """What the indicator picture supports today: the staged
-        fraction of the package while the window is open; the
-        observed invasion during a landing battle; zero on hard
-        evidence (no threat formed, sea state closed, landing
-        failed)."""
+        """What the indicator picture supports today. v12 decomposes
+        the threat: the SEALIFT component's credibility closes with
+        the sea window; the AIRBORNE component's does not (the FE
+        worry that outlived the fleet threat). Target = (staged air
+        CV + staged sealift CV x window) / full package. Observed
+        invasion is 1.0; no-threat and a failed landing are 0.0.
+        Without a modeled package: v9's binary threat (sea close
+        zeroes everything — legacy)."""
         p = self.params
         amp = p.get("red_amphib", "threat")
         if amp == "none" or not self.amphib_release_day:
@@ -479,23 +518,39 @@ class Campaign:
                 return 0.0 if self._landing_fails else 1.0
             if day >= self._commit_day:
                 return 1.0  # the invasion is observed fact
-        if day >= self.amphib_release_day:
-            return 0.0  # the sea has closed; even FE believed weather
+        window = 1.0 if day < self.amphib_release_day else 0.0
         if self._amphib_full_cv:
-            staged = sum(u.effective_cv for u in self.amphib_pool)
-            return staged / self._amphib_full_cv
-        return 1.0  # no package modeled: v9's binary threat
+            air = sum(
+                u.effective_cv for u in self.amphib_pool if u.role == "amphib-air"
+            )
+            sea = sum(
+                u.effective_cv for u in self.amphib_pool if u.role != "amphib-air"
+            )
+            return (air + sea * window) / self._amphib_full_cv
+        return window  # no package modeled: v9's binary threat
 
     def _zealand_state(self, day):
         """(credibility, skim). Blue's G-2 estimate of the landing
         threat follows the indicator picture through the DOCUMENTED
         FE ratchet (reference/zealand-landing.md §3): fast up, slow
         down — force-structure reassurance (a thinning package) is
-        absorbed reluctantly, hard evidence (sea state, a failed
-        landing, the invasion itself) is believed at once."""
+        absorbed reluctantly, hard evidence (a failed landing, the
+        invasion itself; and, package unmodeled, the sea close) is
+        believed at once. v12: with the package modeled, the sea
+        close is NOT a hard zero — the target drops to the airborne
+        floor and blue's slow ratchet takes days to follow it."""
         p = self.params
         target = self._amphib_target(day)
-        hard = target == 0.0 or (self._zealand_committed and day >= self._commit_day)
+        amp = p.get("red_amphib", "threat")
+        hard = (
+            amp == "none"
+            or (self._zealand_committed and day >= self._commit_day)
+            or (
+                self._amphib_full_cv is None
+                and self.amphib_release_day
+                and day >= self.amphib_release_day
+            )
+        )
         if hard:
             self.zeal_c = target
         else:

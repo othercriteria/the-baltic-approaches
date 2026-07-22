@@ -165,12 +165,20 @@ should attack before drafting:
    settle via character sketches (one pass; all four move together).
 3. Calibration research pass (blocking model work, not writing):
    ~~FM 101-10-1 consumption extraction~~ (done 2026-07-21 →
-   reference/consumption-factors.md, CAL-1..4; CAL-1 sensitivity
-   run strengthened v6's deep-dominance), OOB verification and
-   PHP/DIIS documents (sources now ON THE SHELF, reading/
-   distillation owed — batches 4-6 in reference/shelf.md, incl.
-   ORALFORE for the advance-rate bench), mobilization timelines,
-   November climatology (both still open).
+   reference/consumption-factors.md, CAL-1..4; Vol-1 TOE strengths
+   verified 2026-07-22), ~~ORALFORE advance-rate bench~~ (done
+   2026-07-22 → reference/advance-rates.md, CAL-A..F incl. the
+   delaying-screen design), ~~OOB verification~~ (done 2026-07-22
+   to provisional grade → reference/oob-verification.md — the red
+   SH-axis architecture was wrong in shape: Polish Küstenfront
+   behind a 2-day GDR/Soviet screen; Lautsch purchase pending for
+   page-cites), ~~November climatology~~ (done 2026-07-22 →
+   reference/november-climate.md; one gate open: RUSSWO-type
+   ceiling/visibility table — flyable-day fraction is an
+   ASSUMPTION until found). Still open: PHP facsimile + DIIS vol-3
+   reading (language distillation), Danish road/rail/Little Belt
+   capacity (CAL-3 tonnage anchor), Danish call-up mechanics at
+   hour grain. **The v15 re-baseline is no longer research-blocked.**
 4. The fresh critique profile of the drafting model (CLAUDE.md
    process rules) — before any prose is drafted.
 5. ~~Unsettle-review #1 above, early and cheap.~~ Done 2026-07-21;

@@ -1305,3 +1305,54 @@ def test_uncovered_defaults_to_march_kmd_compat():
     camp = Campaign(axes=_mini_axes([], _mech("r", 3)), params=p, seed=1)
     state = camp.run(2)
     assert state["x"].feba_km == 2 * p["march_kmd"]
+
+
+# -- v18: NBC conceit measurement (norm shortfall, envelope) ---------
+
+
+def test_plan_lag_logged_against_red_norm():
+    data, _, _ = load_scenario(SCEN)
+    p = _mini_params(data["params"])
+    p.update(ca_enabled=False, uncovered_kmd=20.0)
+    axes = _mini_axes([], _mech("r", 3), spec_extra={"plan_kmd": 10.0})
+    camp = Campaign(axes=axes, params=p, seed=1)
+    camp.run(2)
+    # uncovered 20 km/day vs plan 10: red runs AHEAD (negative lag)
+    assert camp.logs[-1].plan_lag == -2.0
+    # without plan_kmd the field stays 0
+    camp2 = Campaign(axes=_mini_axes([], _mech("r", 3)), params=p, seed=1)
+    camp2.run(2)
+    assert all(e.plan_lag == 0.0 for e in camp2.logs)
+
+
+def test_envelope_red_exit_on_norm_shortfall():
+    data, _, _ = load_scenario(SCEN)
+    p = _mini_params(data["params"])
+    # strong blue, weak red: red advances ~nothing against plan 10
+    p.update(ca_enabled=False, nbc_red_lag_exit=3.0)
+    axes = _mini_axes(_mech("b", 6), _mech("r", 2), spec_extra={"plan_kmd": 10.0})
+    camp = Campaign(axes=axes, params=p, seed=1)
+    state = camp.run(6)
+    env = camp.conceit_envelope(state)
+    assert env["red_exit_day"] is not None and env["red_exit_day"] <= 4
+    assert env["blue_exit_day"] is None
+    assert not env["inside"]
+
+
+def test_envelope_blue_exit_on_fallen_axis():
+    data, _, _ = load_scenario(SCEN)
+    p = _mini_params(data["params"])
+    p.update(ca_enabled=False, uncovered_kmd=100.0, nbc_red_lag_exit=6.0)
+    axes = _mini_axes([], _mech("r", 3), spec_extra={"plan_kmd": 10.0, "length_km": 150})
+    camp = Campaign(axes=axes, params=p, seed=1)
+    state = camp.run(4)
+    env = camp.conceit_envelope(state)
+    assert state["x"].fallen and state["x"].fallen_day == 2
+    assert env["blue_exit_day"] == 2
+    assert not env["inside"]
+
+
+def test_envelope_inside_when_disabled_and_no_fall():
+    camp, state, _ = run(days=6)
+    env = camp.conceit_envelope(state)
+    assert env["inside"]  # toy-landjut has no plan_kmd/threshold; no fall by day 6

@@ -4,6 +4,89 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-22 — v17/v18: the researched red + the conceit envelope (session 3845eb93)
+
+**v17 — red architecture recast** (scenario only, no mechanics; 80
+tests green): the canonical scenario's red side now carries the
+researched shape (reference/oob-verification.md,
+php-maritime-front.md) — a THIN GDR/Soviet lead pair day 1 (8. MSD
++ 94. GdMSD patterns, 64 CV vs the old 98), the **Polish 1st Army
+as the real weight arriving day 2-5** (86 CV — X+2 entry through
+Mecklenburg), 2nd Army lead day 8-10, a late Soviet element per
+the CIA Nov-1984 conditional (day 12-13). Total mass ~218 vs the
+old ~224 — comparable; TIMING is what changed. The amphib package
+(7LD/6AD/NIB/15MD) is noted period-correct for the 1983 pin.
+
+**Finding 1 — the researched timing DISSOLVES the deep-vs-close
+ranking.** Sweep (150 worlds): mean blue CV 65.4 / 65.2 / 65.0
+across close/split/deep — indistinguishable; "all-deep strictly
+better" 38% (v16: 62%; campaign-1 flat-demand: 99-100%). Toy
+point: close now clearly ahead (73.9 vs 64.0 CV) and EVEN PURE
+DEEP generates 0.0 CA days. Diagnosis (n=30 probe): interdiction
+still WORKS — deep leaves red 36 CV lighter with 8.9 cumulative
+delay-days — it just doesn't MATTER: the Polish wave arrives too
+early for delay to open a seam (continuous arrival keeps the
+follow-on inside ca_window_days forever), while deep's
+opportunity cost bleeds the line daily in exactly the days the
+thin covering-echelon fight is winnable. **FOFA's payoff
+structure assumed the Central Front's geometry — deep echelons
+days away. The SH axis's researched architecture (a front
+already on approach march at H-hour) denies it.** The
+doctrine-arrives-somewhere-else premise, materialized by the
+instrument: the corps' flagship air argument of campaigns 1-2
+was an artifact of a WRONG enemy model, and the G-2's
+architecture picture — not doctrine — decides the G-3's air
+question. (The IC's real error — right armies, missed two-phase
+timing, nie-threat-estimates.md — would have produced exactly
+the wrong air recommendation.) Claim ledger: v16's successor
+claim (weak 62% deep-preference) lasted one iteration; standing
+claim now reads **air-policy ranking is ARCHITECTURE-dependent;
+under the researched architecture it is a wash with a close tilt
+at the reference point; CA remains deep-gated (84%) but the
+window rarely opens at all.**
+
+**Finding 2 — the W-inversion strengthens under the recast:**
+W=4 → 66.5 CV, W=0 → 77.0 (monotone, all hold 2.00): against a
+thin covering echelon + heavy day-2-5 wave, standing forward
+from hour one is strictly costly at the toy point; the screen
+carries the opening either way. Vorneverteidigung's price ~10 CV
+here. (Same caveats as v16: screen parameters declared, not
+calibrated.)
+
+**v18 — the NBC conceit's instruments** (measurement only, per
+planning/nbc-conceit.md §6; 84 tests green): per-axis
+`plan_kmd` (red's conventional-track norm — 10 km/d from the
+1967 directive's without-WMD phase lines), `plan_lag` in the
+daily log (days red stands behind its own timeline — the
+norm-shortfall its staff measures against the track it
+declined), and `Campaign.conceit_envelope()` (red exit: best
+live axis >= nbc_red_lag_exit=6.0 days behind, DECLARED
+threshold anchored on the ~3-4-day dual-timeline gap; blue
+exit: any axis falls). Never a mechanic; a run outside the
+envelope is a scenario finding.
+
+**Finding 3 — the canonical corridor EXITS the envelope on
+red's side, always (** n=30 x {3 policies, 4 W values}**):
+red-exit day ~12-13 in 30/30 runs everywhere; best-axis lag
+~+3.5-4.0 days at day 10, ~+14.5 at day 21; blue NEVER exits
+(no axis ever falls).** Reading, carefully: red's slowness is
+research-honest (WP norms of 30-50 km/d against ORALFORE's 3-10
+reality — advance-rates.md open item 5 said "a red plan written
+at 30 meeting ground that pays 10 is a scene"); what the
+instrument adds is the SHAPE: red crosses the declared
+limited-aims failure line at the END OF WEEK TWO, under every
+policy, and the campaign's third week runs entirely outside
+red's own patience envelope. Per nbc-conceit.md §5 this is
+formally the escape-clause condition — but the threshold is a
+declared toy number, and the envelope models TEMPTATION, not
+decision. **Flagged to DK as the promised Andon-Cord
+conversation, with the counter-reading attached:** a third week
+lived under audible red escalation pressure may be exactly the
+ambient dread the conceit was designed to deliver (the door
+holds; the knocking gets louder) — in which case the envelope
+threshold should be re-anchored to mark ACT-structure, not
+validity. DK's call, not the instrument's.
+
 ## 2026-07-22 — v16: THE RE-BASELINE (the v15 gate discharged; session 3845eb93)
 
 Campaign 3 opens by paying the v15 gate. Mechanics (all

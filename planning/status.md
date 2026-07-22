@@ -61,9 +61,20 @@ finding).*
   is ~6-15 CV paid for by reservists the corps doesn't command.
   Canonical scenario: wargame/scenarios/toy-landjut-v16.toml
   (year 1983; toy-landjut.toml frozen as campaign-1/2 baseline).
-  Queued: v17 red-architecture recast (Polish front behind the
-  2-day screen), NBC measurement adds, CAL-C advance ladder,
-  weather states. The two staged
+  **v17 (same day): red recast to the researched architecture —
+  and the deep-vs-close ranking DISSOLVES (sweep 65.4/65.2/65.0,
+  38% deep-better): FOFA's payoff assumed the Central Front's
+  echelon geometry; the SH axis's front-on-approach-march denies
+  it. The G-2's architecture picture, not doctrine, decides the
+  G-3's air question. v18 (same day): NBC conceit instruments in
+  (plan_lag norm-shortfall + conceit_envelope) — and the
+  canonical corridor exits the envelope on RED's side day ~12-13
+  in 30/30 runs (blue never exits): the third week runs outside
+  red's declared patience envelope. FLAGGED FOR DK RULING (the
+  nbc-conceit §5 Andon-Cord clause): validity failure to
+  re-scope, or the act-three ambient-dread structure working as
+  designed?** Still queued: CAL-C advance ladder, weather states
+  (RUSSWO-gated), Jonah/critique-profile items. The two staged
   questions are now four: what is the goal / what does the enemy
   think it is / what does the enemy think WE think it is / and
   whose consumption model is the argument standing on.

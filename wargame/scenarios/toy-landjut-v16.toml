@@ -8,15 +8,19 @@
 # do NOT let them leak toward canon. Researched anchors are cited
 # inline; everything uncited is still placeholder.
 #
-# Red architecture note (reference/oob-verification.md, 2026-07-22):
-# the real axis is a 2-day GDR/Soviet covering force, then a POLISH
-# front (1st Army Pomerania / 2nd Army Silesia — also the CIA Nov
-# 1984 assumption). This file still carries the older generic
-# echelon shape; the architecture recast is the queued v17 task —
-# kept out of the re-baseline so the v15 comparison stays clean.
+# Red architecture (v17 recast, 2026-07-22): the researched shape —
+# a thin GDR/Soviet lead pair (8. MSD + 94. GdMSD patterns), the
+# POLISH 1st Army as the real weight arriving day 2-5 (X+2 entry
+# through Mecklenburg), 2nd Army lead from day 8, a late Soviet
+# element per the CIA Nov 1984 conditional. Total red mainland CV
+# ~218 (v16 shape was ~224 — mass comparable, TIMING reshaped:
+# the FOFA target is now early and fat). One-army Jutland weight =
+# the 1961->mid-80s invariant. The amphib package below (7LD/6AD/
+# NIB/15MD) is period-CORRECT for the 1983 pin — the 1977 Polish
+# plan of record's structure (zealand-landing.md).
 
 [meta]
-name = "Toy LANDJUT opening, v16 re-baseline, ~day 1-21"
+name = "Toy LANDJUT opening, v17 (re-baseline + red recast), ~day 1-21"
 year = 1983 # provisionally PINNED 2026-07-22 (planning/setting-time.md)
 season = "november"
 seed = 1986 # weather draws only, NOT the year; CLI --seed overrides
@@ -73,6 +77,16 @@ screen_attrit_frac = 0.2  # screen life ~5 screening days — toy
 # opening; the sweep perturbs it.
 warning_baseline_days = 4  # the warning these tables were written for
 warning_days = 4           # this run's warning (sweep/CLI perturbs)
+
+# v18: the NBC conceit's envelope threshold (planning/nbc-conceit.md
+# §5-6; MEASUREMENT ONLY — never a mechanic). Red measures itself
+# against its own conventional-track norm (plan_kmd on each axis);
+# the gap between the 1967 directive's two timelines is ~3-4 days
+# (SH by day 7-8 with WMD vs 10-11 without — php-maritime-front.md),
+# so a red >= 6 days behind even the SLOW track has lost the
+# limited-aims rationale the conceit rides on. 6.0 is DECLARED
+# (anchored on, not derived from, the dual-timeline gap).
+nbc_red_lag_exit = 6.0
 
 # Air model (November: short days suppress the totals; see
 # planning/setting-time.md). All values placeholder scale.
@@ -278,6 +292,9 @@ name = "coastal-luebeck"
 length_km = 95  # Travemünde approaches -> Kiel Canal, roughly
 hold_km = 55    # political stand line short of the Canal approaches — toy
 bridge_km = 62  # v14: crossing behind the hold line (canal approach) — toy
+plan_kmd = 10.0 # v18: red's conventional-track norm (1967 directive:
+                # SH + north FRG by day 10-11 without WMD -> ~10 km/d
+                # on this axis; php-maritime-front.md)
 note = "Baltic coast axis; amphib threat on the flank NOT modeled yet"
 
 [[axes]]
@@ -285,171 +302,190 @@ name = "inland-bad-segeberg"
 length_km = 110
 hold_km = 65    # toy forward-defense line
 bridge_km = 72  # v14: crossing behind the hold line — toy
+plan_kmd = 10.0 # v18: as above
 note = "Inland axis toward Rendsburg / the Canal crossings"
 
-# --- Red: two-division-ish first echelon, battalion atoms ---------
-# kind: armor | mech | inf | arty. cv: abstract points (armor 10,
-# mech 8, arty 6 at full strength — pure placeholder scale).
+# --- Red covering echelon (v17 recast — reference/
+# oob-verification.md + php-maritime-front.md): the SH axis opens
+# with a THIN two-division GDR/Soviet lead (the 8. MSD Schwerin +
+# Soviet 94. GdMSD pair — Lautsch's covering divisions, rolled
+# forward as the offensive's lead wave), NOT a massed first
+# echelon. The front's weight is the Polish army behind it.
+# Division names are researched PATTERNS (wiki-grade,
+# oob-verification.md); strengths/CVs stay toy. kind scale as
+# before: armor 10, mech 8, arty 6.
 
 [[units]]
-name = "R-1 TR I"
+name = "R-8MSD MSR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+division = "8MSD"
+
+[[units]]
+name = "R-8MSD MSR II"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+division = "8MSD"
+
+[[units]]
+name = "R-8MSD PR I"
 side = "red"
 axis = "coastal-luebeck"
 kind = "armor"
 cv = 10
+division = "8MSD"
 
 [[units]]
-name = "R-1 TR II"
-side = "red"
-axis = "coastal-luebeck"
-kind = "armor"
-cv = 10
-
-[[units]]
-name = "R-1 MRR I"
-side = "red"
-axis = "coastal-luebeck"
-kind = "mech"
-cv = 8
-
-[[units]]
-name = "R-1 MRR II"
-side = "red"
-axis = "coastal-luebeck"
-kind = "mech"
-cv = 8
-
-[[units]]
-name = "R-1 MRR III"
-side = "red"
-axis = "coastal-luebeck"
-kind = "mech"
-cv = 8
-
-[[units]]
-name = "R-1 AR I"
+name = "R-8MSD AR I"
 side = "red"
 axis = "coastal-luebeck"
 kind = "arty"
 cv = 6
+division = "8MSD"
 
 [[units]]
-name = "R-1 AR II"
-side = "red"
-axis = "coastal-luebeck"
-kind = "arty"
-cv = 6
-
-[[units]]
-name = "R-2 TR I"
-side = "red"
-axis = "inland-bad-segeberg"
-kind = "armor"
-cv = 10
-
-[[units]]
-name = "R-2 TR II"
-side = "red"
-axis = "inland-bad-segeberg"
-kind = "armor"
-cv = 10
-
-[[units]]
-name = "R-2 MRR I"
+name = "R-94G MSR I"
 side = "red"
 axis = "inland-bad-segeberg"
 kind = "mech"
 cv = 8
+division = "94GMSD"
 
 [[units]]
-name = "R-2 MRR II"
+name = "R-94G MSR II"
 side = "red"
 axis = "inland-bad-segeberg"
 kind = "mech"
 cv = 8
+division = "94GMSD"
 
 [[units]]
-name = "R-2 AR I"
+name = "R-94G TR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "armor"
+cv = 10
+division = "94GMSD"
+
+[[units]]
+name = "R-94G AR I"
 side = "red"
 axis = "inland-bad-segeberg"
 kind = "arty"
 cv = 6
+division = "94GMSD"
 
-# --- Red second echelon (the FOFA target): a second division-ish
-# wave per axis, arriving on a march schedule interdiction can
-# stretch but not stop ------------------------------------------
+# --- The Polish 1st Army (Pomeranian MD) — the axis's REAL weight,
+# already on approach march at H-hour (X+2 entry through
+# Mecklenburg): the researched architecture puts the front's
+# striking echelon on the road EARLY, so the FOFA target is now
+# fatter and closer than the old day-5-7 wave — interdiction has
+# a bigger target and less time. Division patterns from the 1st
+# Army's set (8./12. DZ, 16./20. DPanc); the one-army Jutland
+# weight is the 1961->mid-80s invariant (php-maritime-front.md).
 
 [[units]]
-name = "R-11 TR I"
+name = "R-P1A 8DZ MRR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 2
+division = "P1A-8DZ"
+
+[[units]]
+name = "R-P1A 8DZ MRR II"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 2
+division = "P1A-8DZ"
+
+[[units]]
+name = "R-P1A 8DZ MRR III"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 3
+division = "P1A-8DZ"
+
+[[units]]
+name = "R-P1A 8DZ TR I"
 side = "red"
 axis = "coastal-luebeck"
 kind = "armor"
 cv = 10
+arrival_day = 3
+division = "P1A-8DZ"
+
+[[units]]
+name = "R-P1A 8DZ AR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "arty"
+cv = 6
+arrival_day = 4
+division = "P1A-8DZ"
+
+[[units]]
+name = "R-P1A 20DPanc TR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "armor"
+cv = 10
+arrival_day = 3
+division = "P1A-20DPanc"
+
+[[units]]
+name = "R-P1A 20DPanc TR II"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "armor"
+cv = 10
+arrival_day = 3
+division = "P1A-20DPanc"
+
+[[units]]
+name = "R-P1A 20DPanc MRR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "mech"
+cv = 8
+arrival_day = 4
+division = "P1A-20DPanc"
+
+[[units]]
+name = "R-P1A 20DPanc AR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "arty"
+cv = 6
+arrival_day = 4
+division = "P1A-20DPanc"
+
+[[units]]
+name = "R-P1A ArtBde I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "arty"
+cv = 6
+arrival_day = 4
+division = "P1A"
+
+[[units]]
+name = "R-P1A ArtBde II"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "arty"
+cv = 6
 arrival_day = 5
-
-[[units]]
-name = "R-11 TR II"
-side = "red"
-axis = "coastal-luebeck"
-kind = "armor"
-cv = 10
-arrival_day = 5
-
-[[units]]
-name = "R-11 MRR I"
-side = "red"
-axis = "coastal-luebeck"
-kind = "mech"
-cv = 8
-arrival_day = 5
-
-[[units]]
-name = "R-11 MRR II"
-side = "red"
-axis = "coastal-luebeck"
-kind = "mech"
-cv = 8
-arrival_day = 6
-
-[[units]]
-name = "R-11 AR I"
-side = "red"
-axis = "coastal-luebeck"
-kind = "arty"
-cv = 6
-arrival_day = 6
-
-[[units]]
-name = "R-12 TR I"
-side = "red"
-axis = "inland-bad-segeberg"
-kind = "armor"
-cv = 10
-arrival_day = 6
-
-[[units]]
-name = "R-12 TR II"
-side = "red"
-axis = "inland-bad-segeberg"
-kind = "armor"
-cv = 10
-arrival_day = 6
-
-[[units]]
-name = "R-12 MRR I"
-side = "red"
-axis = "inland-bad-segeberg"
-kind = "mech"
-cv = 8
-arrival_day = 7
-
-[[units]]
-name = "R-12 AR I"
-side = "red"
-axis = "inland-bad-segeberg"
-kind = "arty"
-cv = 6
-arrival_day = 7
+division = "P1A"
 
 # --- Blue mobilization inflow (Danish mobilization + FRG reserve
 # flow; the covering-force period ends when these arrive). Red
@@ -539,54 +575,87 @@ kind = "armor"
 cv = 8
 arrival_day = 10
 
-# --- Red third echelon (Soviet follow-on) — structure assumption
-# TO-VERIFY (reference/landjut-front.md); strengths toy -----------
+# --- Follow-on (v17): 2nd Army (Silesian MD) lead elements from
+# day 8 — the estimates' "two, probably three Polish armies"
+# (NI IIM 83) — and a LATE Soviet element carried per the CIA Nov
+# 1984 conditional ("if Polish forces run into difficulty, the
+# Soviets would most probably provide assistance from the Baltic
+# ... Military District"). air_capable tags ride the Polish wave
+# (the Saltnicken inference was a POLISH division — v13).
 
 [[units]]
-name = "R-21 TR I"
+name = "R-P2A 4DZ TR I"
 side = "red"
 axis = "coastal-luebeck"
 kind = "armor"
 cv = 10
-arrival_day = 11
+arrival_day = 8
+division = "P2A-4DZ"
 
-# v13: two third-echelon regiments are air-landing-capable (the
-# Saltnicken inference — FE watched one exercise and added a
-# division to the earmarked list). Red may divert them from the
-# mainland march tables into the airborne pool.
 [[units]]
-name = "R-21 MRR I"
+name = "R-P2A 4DZ MRR I"
 side = "red"
 axis = "coastal-luebeck"
 kind = "mech"
 cv = 8
-arrival_day = 12
+arrival_day = 9
 air_capable = true
+division = "P2A-4DZ"
 
 [[units]]
-name = "R-21 MRR II"
+name = "R-P2A 4DZ MRR II"
 side = "red"
 axis = "coastal-luebeck"
 kind = "mech"
 cv = 8
-arrival_day = 12
+arrival_day = 9
 air_capable = true
+division = "P2A-4DZ"
 
 [[units]]
-name = "R-22 TR I"
+name = "R-P2A 4DZ AR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "arty"
+cv = 6
+arrival_day = 10
+division = "P2A-4DZ"
+
+[[units]]
+name = "R-P2A 11DPanc TR I"
 side = "red"
 axis = "inland-bad-segeberg"
 kind = "armor"
 cv = 10
-arrival_day = 12
+arrival_day = 9
+division = "P2A-11DPanc"
 
 [[units]]
-name = "R-22 MRR I"
+name = "R-P2A 11DPanc MRR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "mech"
+cv = 8
+arrival_day = 10
+division = "P2A-11DPanc"
+
+[[units]]
+name = "R-SOV BMD TR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "armor"
+cv = 10
+arrival_day = 12
+division = "SOV-BMD"
+
+[[units]]
+name = "R-SOV BMD MRR I"
 side = "red"
 axis = "inland-bad-segeberg"
 kind = "mech"
 cv = 8
 arrival_day = 13
+division = "SOV-BMD"
 
 # --- Blue: LANDJUT-ish covering force, battalion atoms ------------
 

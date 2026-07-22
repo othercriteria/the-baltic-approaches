@@ -215,6 +215,10 @@ class AxisState:
     # v15 (CAL-2): yesterday's realized contact intensity — the staff
     # orders resupply on yesterday's expenditure
     last_scale: float = 1.0
+    # v18 (NBC conceit, measurement only): red's planned rate on
+    # this axis (spec plan_kmd) and the day the axis fell
+    plan_kmd: float | None = None
+    fallen_day: int | None = None
 
 
 @dataclass
@@ -245,6 +249,10 @@ class DayLog:
     deep_frac: float = 0.0  # v7: today's GRANTED apportionment (theater's)
     air_naval: float = 0.0  # v7: deep-capable points diverted to the fleet strike
     zeal_c: float = 0.0  # v10: blue's credibility in the landing threat
+    # v18 (NBC conceit): days red stands behind its own planned rate
+    # on this axis — the norm-shortfall its staff measures against
+    # the timeline it declined (planning/nbc-conceit.md §6)
+    plan_lag: float = 0.0
 
 
 @dataclass
@@ -348,6 +356,7 @@ class Campaign:
                 name=name,
                 length_km=spec["length_km"],
                 hold_km=spec.get("hold_km", spec["length_km"]),
+                plan_kmd=spec.get("plan_kmd"),
             )
         # v8 corps state: threat-picture history (for the stale-map
         # air allocation), per-axis emergency-standing counters, and
@@ -977,7 +986,7 @@ class Campaign:
                 commit=committed,
                 naval=air_naval,
             )
-            self._check_fallen(st)
+            self._check_fallen(st, day)
             return
         if r_cv <= COLLAPSE_CV or not red.has_maneuver:
             self._log(
@@ -1163,7 +1172,7 @@ class Campaign:
             pause=st.red_paused,
             ratio_known=True,
         )
-        self._check_fallen(st)
+        self._check_fallen(st, day)
 
     # -- helpers -----------------------------------------------------
 
@@ -1296,10 +1305,48 @@ class Campaign:
             self.aircraft = max(self.aircraft - losses, 0.0)
         return close, deep, naval
 
-    def _check_fallen(self, st):
+    def _check_fallen(self, st, day=None):
         if st.feba_km >= st.length_km:
             st.feba_km = st.length_km
             st.fallen = True
+            if st.fallen_day is None:
+                st.fallen_day = day
+
+    # -- v18: the NBC conceit's envelope (measurement only) ------------
+
+    def conceit_envelope(self, state):
+        """planning/nbc-conceit.md §5-6: the book's non-use logic
+        holds only inside an envelope — red's limited-aims rationale
+        survives (its conventional campaign is not failing beyond
+        the gap between its own two timelines) and blue has not
+        failed conventionally (no axis fallen — the point where
+        flexible response asks blue's question). This is a VALIDITY
+        CHECK, never a mechanic: a run outside the envelope is a
+        scenario finding, not an in-model escalation.
+
+        red exit: first day the BEST live axis stands >=
+        nbc_red_lag_exit days behind red's planned rate (plan_kmd).
+        blue exit: first day any axis falls. Returns a dict;
+        inside=True when neither exit occurred. Disabled (always
+        inside) when plan_kmd / the threshold are unset."""
+        p = self.params
+        thresh = p.get("nbc_red_lag_exit", 0.0)
+        red_exit = None
+        if thresh > 0:
+            by_day = {}
+            for e in self.logs:
+                by_day.setdefault(e.day, []).append(e.plan_lag)
+            for day in sorted(by_day):
+                if min(by_day[day]) >= thresh:
+                    red_exit = day
+                    break
+        blue_days = [st.fallen_day for st in state.values() if st.fallen_day]
+        blue_exit = min(blue_days) if blue_days else None
+        return {
+            "red_exit_day": red_exit,
+            "blue_exit_day": blue_exit,
+            "inside": red_exit is None and blue_exit is None,
+        }
 
     def _log(
         self,
@@ -1354,6 +1401,11 @@ class Campaign:
                 rmult=round(rmult, 3),
                 pause=pause,
                 deep_frac=round(getattr(self, "deep_frac_today", 0.0), 3),
+                plan_lag=(
+                    round(day - st.feba_km / st.plan_kmd, 1)
+                    if st.plan_kmd
+                    else 0.0
+                ),
                 air_naval=round(naval, 1),
                 zeal_c=round(getattr(self, "zeal_c", 0.0), 2),
             )

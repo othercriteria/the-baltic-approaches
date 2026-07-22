@@ -11,6 +11,10 @@ from dataclasses import dataclass, field
 
 import tomllib
 
+# A battalion below this strength fraction no longer counts as a
+# fighting unit (alive/has_maneuver threshold).
+ALIVE_STRENGTH = 0.05
+
 
 @dataclass
 class Battalion:
@@ -22,7 +26,9 @@ class Battalion:
     in_service: int | None = None  # first year fieldable, if known
     arrival_day: int = 1  # campaign day the unit reaches the axis
     # (>1 = follow-on echelon; subject to interdiction delay)
-    role: str = "line"  # line | reserve | beach-watch | corps-reserve
+    # line | reserve | beach-watch | corps-reserve | amphib |
+    # amphib-air | amphib-convertible | zealand-garrison
+    role: str = "line"
     division: str | None = None  # v8: owning formation (echelon tag)
     # v13: air-landing-capable (the Saltnicken inference — a line
     # formation that "has landing operations as an option"); red may
@@ -95,11 +101,11 @@ class Force:
         advances. (Artillery fires are otherwise folded into the
         all-arms attrition coefficients — see the v3 artillery
         closure in notes/wargaming-findings.md.)"""
-        return any(u.kind != "arty" and u.strength > 0.05 for u in self.units)
+        return any(u.kind != "arty" and u.strength > ALIVE_STRENGTH for u in self.units)
 
     @property
     def alive(self):
-        return [u for u in self.units if u.strength > 0.05]
+        return [u for u in self.units if u.strength > ALIVE_STRENGTH]
 
     def distribute_losses(self, total_cv_lost):
         """Spread a CV loss across surviving in-contact units pro rata."""

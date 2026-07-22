@@ -101,7 +101,9 @@ def main():
         from .ledger import render
 
         args.ledger.write_text(
-            render(data["meta"], data["params"], axes, state, camp.logs, args.days)
+            render(
+                data["meta"], data["params"], axes, state, camp.logs, args.days, camp
+            )
         )
         print(f"wrote {args.ledger}")
 

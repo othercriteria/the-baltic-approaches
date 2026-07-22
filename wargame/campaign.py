@@ -134,6 +134,38 @@ blue's institutional inertia. Hard evidence zeroes c outright
 advocacy caution) and the beach-watch pin scale with c
 (pin releases below pin_release_c). With no amphib units passed,
 v9 behavior is reproduced exactly.
+
+v11 gives blue its half of the insurance ledger: the Zealand
+garrison as role="zealand-garrison" units, releasable to the
+mainland (zg_release_mode never/day/threshold; the crossing rides
+the ordinary reserve queue, so red's interdiction taxes it), a
+landing whose outcome is CONDITIONAL on the garrison blue kept
+(zg_success_ratio x kept maneuver CV), and red_amphib="opportunist"
+— feint until blue releases, then commit into the gap.
+
+v12 decomposes the threat: role="amphib-air" marks the airborne
+echelon, whose delivery does not close with the sea. The
+credibility target becomes (air + sealift x window)/full — the sea
+close is no longer a hard zero, and a post-close air-only descent
+punishes an emptied island. zg_release_count enables partial
+release: the sea window disciplines the TIMING of release, the
+airborne component the AMOUNT.
+
+v13 makes the airborne pool expandable: air_capable mainland units
+divert into it (red_air_reinforce_day/count) — observable,
+commensurable, and, with release irreversible, forcing blue to
+size its kept core against red's POTENTIAL.
+
+v14 gives the division its engineer grade: obstacle belts
+(div_obstacle_pos, ready-day, exchange tilt, advance factor) and
+demolition timing (div_demo_trigger_km/lag; clean blow = bridging
+operation, late = stranded rearguard, too late = captured intact).
+
+v15 (CAL-2) scales supply demand by yesterday's contact intensity
+on the FM ladder (demand_posture=true; see the constants below).
+NOTE: at the toy point this inverts the deep-vs-close ranking —
+the campaign-1/2 policy claims are SUSPENDED pending a re-baselined
+scenario + sweep (notes/wargaming-findings.md, v15 entry).
 """
 
 import math
@@ -141,6 +173,23 @@ import random
 from dataclasses import dataclass, field
 
 from .models import epstein
+
+# A force at or below this CV has ceased to exist as an organized
+# defense/attack (collapse threshold for either side's line).
+COLLAPSE_CV = 0.5
+
+# v15 (CAL-2) demand ladder anchors, FM 101-10-1 via
+# reference/consumption-factors.md §2 (normalized to defense-day-1):
+DEMAND_INACTIVE = 0.41  # the inactive-situation floor
+DEMAND_ATTACK_CEIL = 0.80  # attack of position — defense out-draws attack
+
+# Fallback shared by both faces of the v9 pause split when neither
+# pause_consumption_frac nor pause_combat_frac is set.
+DEF_PAUSE_INTENSITY = 0.25
+
+# Landing succeeds iff package CV > this x kept-garrison maneuver CV
+# (v11; anchored loosely on the researched failing 1:1.3 correlation).
+DEF_ZG_SUCCESS_RATIO = 1.5
 
 
 @dataclass
@@ -308,7 +357,7 @@ class Campaign:
             # v10: the amphib package moves (releases arrive, commit
             # spends), then blue's graded credibility updates, then
             # the theater's insurance follows the credibility.
-            self._amphib_step(day)
+            self._amphib_step(day, state)
             self._zealand_garrison_step(day, state)
             c, skim = self._zealand_state(day)
             if mode == "advocacy" and day > p.get("advocacy_lag_days", 0):
@@ -400,15 +449,20 @@ class Campaign:
             kept = sum(
                 u.effective_cv for u in self.zealand_garrison if u.kind != "arty"
             )
-            self._landing_fails = package_cv <= p.get("zg_success_ratio", 1.5) * kept
+            self._landing_fails = (
+                package_cv <= p.get("zg_success_ratio", DEF_ZG_SUCCESS_RATIO) * kept
+            )
         else:
             self._landing_fails = p.get("zealand_landing_fails", True)
         self.zealand_lost = not self._landing_fails
         if self._landing_fails:
-            self.pin_release_day = min(
-                self.amphib_release_day or self.zealand_resolve_day,
-                self.zealand_resolve_day,
-            )
+            # A failed landing frees the pin at resolution — or at the
+            # sea-state close if that (rare) draw comes first.
+            self.pin_release_day = self.zealand_resolve_day
+            if self.amphib_release_day:
+                self.pin_release_day = min(
+                    self.pin_release_day, self.amphib_release_day
+                )
         else:
             self.pin_release_day = None  # Zealand falls: pinned for good
         for u in striking:  # embarked/emplaned: gone from the mainland war
@@ -427,7 +481,8 @@ class Campaign:
         mode = p.get("zg_release_mode", "never")
         if self.zealand_garrison and self._zg_released_day is None:
             trigger = False
-            if mode == "day" and day >= int(p.get("zg_release_day", 10_000)):
+            rel_day = int(p.get("zg_release_day", 0))
+            if mode == "day" and rel_day and day >= rel_day:
                 trigger = True
             elif mode == "threshold":
                 if self.zeal_c < p.get("zg_release_c", 0.0):
@@ -474,14 +529,15 @@ class Campaign:
                     u.effective_cv for u in self.zealand_garrison if u.kind != "arty"
                 )
                 viable = (
-                    pkg > self.params.get("zg_success_ratio", 1.5) * kept
+                    pkg
+                    > self.params.get("zg_success_ratio", DEF_ZG_SUCCESS_RATIO) * kept
                     if self._zg_full_cv
                     else sea_open
                 )
                 if viable:
                     self._commit_landing(day)
 
-    def _amphib_step(self, day):
+    def _amphib_step(self, day, state):
         """Daily package bookkeeping: scheduled release of the
         convertibles; v13 airborne reinforcement (air-capable units
         still on the mainland march tables divert into the pool —
@@ -499,7 +555,10 @@ class Campaign:
             and p.get("red_amphib", "threat") != "none"
         ):
             self._air_reinforced = True
-            want = int(p.get("red_air_reinforce_count", 0)) or 10_000
+            # 0 = divert every air-capable unit still on the tables
+            want = int(p.get("red_air_reinforce_count", 0)) or sum(
+                1 for ax in self.axes.values() for u in ax["red"].reserve
+            )
             for ax in self.axes.values():
                 for u in list(ax["red"].reserve):
                     if want <= 0:
@@ -518,9 +577,9 @@ class Campaign:
         for arrive, u in list(self._amphib_transit):
             if day >= arrive:
                 self._amphib_transit.remove((arrive, u))
-                live = [
-                    n for n, ax in self.axes.items() if ax["blue"].has_maneuver
-                ] or list(self.axes)
+                live = [n for n, st in state.items() if not st.fallen] or list(
+                    self.axes
+                )
                 target = max(
                     live,
                     key=lambda n: (
@@ -756,7 +815,6 @@ class Campaign:
                 blue.units.append(u)
                 blue_arrivals += 1
         air_close, air_deep, air_naval = self._air(red, st, wx, air_share)
-        self._naval_log = air_naval  # picked up by _log for this axis-day
 
         # Supply fulfillment: throughput is the constraint. Blue
         # draws on short interior lines (flat theater capacity); red
@@ -773,10 +831,18 @@ class Campaign:
         # direction). Yesterday's realized scale is today's demand
         # basis. Off unless demand_posture = true (baseline compat).
         posture = p.get("demand_posture", False)
-        b_mult = (0.41 + 0.59 * st.last_scale) if posture else 1.0
+        b_mult = (
+            (DEMAND_INACTIVE + (1.0 - DEMAND_INACTIVE) * st.last_scale)
+            if posture
+            else 1.0
+        )
         # A paused red's consumption is governed by the pause face
         # (same FM anchor) — the intensity face must not stack on it.
-        r_mult = (0.41 + 0.39 * st.last_scale) if posture and not st.red_paused else 1.0
+        r_mult = (
+            (DEMAND_INACTIVE + (DEMAND_ATTACK_CEIL - DEMAND_INACTIVE) * st.last_scale)
+            if posture and not st.red_paused
+            else 1.0
+        )
         if p.get("blue_supply_points", 0.0) > 0:
             cap = p["blue_supply_points"] / n_live
             demand = p["blue_demand_per_cv"] * max(blue.cv, 1e-9) * b_mult
@@ -810,7 +876,10 @@ class Campaign:
             # FM-anchorable (inactive situation ≈ 0.41 of defense-
             # day-1); the combat face below is a doctrine parameter.
             demand_today = demand * (
-                p.get("pause_consumption_frac", p.get("pause_intensity", 0.25))
+                p.get(
+                    "pause_consumption_frac",
+                    p.get("pause_intensity", DEF_PAUSE_INTENSITY),
+                )
                 if st.red_paused
                 else 1.0
             )
@@ -829,9 +898,9 @@ class Campaign:
             committed += blue.commit_withheld()
             b_cv = blue.cv
 
-        if b_cv <= 0.5 or not blue.has_maneuver:  # defense collapsed
+        if b_cv <= COLLAPSE_CV or not blue.has_maneuver:  # defense collapsed
             st.last_scale = 0.0  # no organized combat to supply
-            adv = self._engineer_advance(st, ax["spec"], p["march_kmd"])
+            adv = self._engineer_advance(day, st, ax["spec"], p["march_kmd"])
             st.feba_km += adv
             self._log(
                 day,
@@ -851,10 +920,11 @@ class Campaign:
                 wx,
                 False,
                 commit=committed,
+                naval=air_naval,
             )
             self._check_fallen(st)
             return
-        if r_cv <= 0.5 or not red.has_maneuver:
+        if r_cv <= COLLAPSE_CV or not red.has_maneuver:
             self._log(
                 day,
                 st,
@@ -873,6 +943,7 @@ class Campaign:
                 wx,
                 False,
                 commit=committed,
+                naval=air_naval,
             )
             return
 
@@ -922,7 +993,7 @@ class Campaign:
         # v14: division engineer effects on the exchange. A ready
         # obstacle belt under the FEBA favors the defender; a red
         # force bridging a blown crossing is under fire in the water.
-        if self._in_obstacle_belt(st, ax["spec"]):
+        if self._in_obstacle_belt(day, st, ax["spec"]):
             red_loss *= p.get("obstacle_red_mult", 1.0)
             blue_loss *= p.get("obstacle_blue_mult", 1.0)
         if st.crossing_left > 0:
@@ -972,6 +1043,7 @@ class Campaign:
                 wx,
                 True,
                 commit=committed,
+                naval=air_naval,
                 bfill=bfill,
                 rfill=rfill,
                 ratio_known=True,
@@ -990,7 +1062,9 @@ class Campaign:
             # supply. Blue may still counterattack into a pause (the
             # CA path above bypasses this scaling deliberately).
             # v9 CAL-1 split: this is the COMBAT face of the pause.
-            scale *= p.get("pause_combat_frac", p.get("pause_intensity", 0.25))
+            scale *= p.get(
+                "pause_combat_frac", p.get("pause_intensity", DEF_PAUSE_INTENSITY)
+            )
         red_loss *= scale
         blue_loss *= scale
         st.last_scale = scale  # tomorrow's resupply is ordered on this
@@ -1004,7 +1078,7 @@ class Campaign:
             adv = min(w, p["march_kmd"])
             if ratio >= p["advance_ratio"]:
                 adv += p["pressure_kmd"]
-            adv = self._engineer_advance(st, ax["spec"], adv)
+            adv = self._engineer_advance(day, st, ax["spec"], adv)
         st.feba_km += adv
         self._log(
             day,
@@ -1024,6 +1098,7 @@ class Campaign:
             wx,
             False,
             commit=committed,
+            naval=air_naval,
             bfill=bfill,
             rfill=rfill,
             pause=st.red_paused,
@@ -1047,14 +1122,14 @@ class Campaign:
         hold = spec.get("hold_km", spec["length_km"])
         if pos == "hold":
             return (hold - width, hold)
-        lo = 0.35 * hold
+        lo = p.get("obstacle_forward_frac", 0.35) * hold
         return (lo, lo + width)
 
-    def _in_obstacle_belt(self, st, spec):
+    def _in_obstacle_belt(self, day, st, spec):
         belt = self._obstacle_belt(spec)
         if belt is None:
             return False
-        if getattr(self, "_day_now", 0) < self.params.get("obstacle_ready_day", 0):
+        if day < self.params.get("obstacle_ready_day", 0):
             return False  # engineers still digging
         return belt[0] <= st.feba_km <= belt[1]
 
@@ -1065,7 +1140,6 @@ class Campaign:
         line. Late blow -> the rearguard is stranded (blue pays).
         Red arrives before execution -> captured intact."""
         p = self.params
-        self._day_now = day
         bridge = spec.get("bridge_km")
         trigger = p.get("div_demo_trigger_km", 0.0)
         if not bridge or trigger <= 0 or st.demo_blown or st.demo_captured:
@@ -1085,13 +1159,13 @@ class Campaign:
                     p.get("demo_strand_frac", 0.08) * max(blue.cv, 0.0)
                 )
 
-    def _engineer_advance(self, st, spec, adv):
+    def _engineer_advance(self, day, st, spec, adv):
         """Apply the division's engineering to red's advance: a
         ready obstacle belt slows movement through it; a blown
         bridge caps the advance at the line and opens a bridging
         operation (halted while crossing_left runs)."""
         p = self.params
-        if self._in_obstacle_belt(st, spec):
+        if self._in_obstacle_belt(day, st, spec):
             adv *= p.get("obstacle_adv_factor", 1.0)
         if st.crossing_left > 0:
             st.crossing_left -= 1  # bridging under fire: no advance
@@ -1191,6 +1265,7 @@ class Campaign:
         rfill=1.0,
         pause=False,
         ratio_known=False,
+        naval=0.0,
     ):
         self.logs.append(
             DayLog(
@@ -1216,7 +1291,7 @@ class Campaign:
                 rfill=round(rfill, 2),
                 pause=pause,
                 deep_frac=round(getattr(self, "deep_frac_today", 0.0), 3),
-                air_naval=round(getattr(self, "_naval_log", 0.0), 1),
+                air_naval=round(naval, 1),
                 zeal_c=round(getattr(self, "zeal_c", 0.0), 2),
             )
         )

@@ -102,6 +102,15 @@ should attack before drafting:
    methodological demand is fully discharged; its interpretive
    question (is the argument-altitude the right altitude for THIS
    book?) is where DK's ruling lives.
+   **Second requested artifact delivered 2026-07-22:**
+   planning/jutland-commander-outline.md — the division book's
+   one-pager, authored by a fresh-context ADVOCATE (not the corps
+   version's builder), with campaign 2's findings in hand (the
+   v14 belt-vs-window conflict is its plot engine; its Jonah is a
+   mobilized bridge engineer). Both artifacts the review demanded
+   are now in the room; the echelon ruling is fully teed up:
+   incumbent's case (protagonist-echelon.md) + hostile review +
+   challenger's strongest outline.
 
 2. **The Goal's engine assumes iteration; a three-week war may not
    provide it.** Rogo learns because the plant runs every day —

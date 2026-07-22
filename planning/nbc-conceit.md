@@ -130,20 +130,34 @@ load-bearing, on the book's own terms — tempo.**
   fodnotepolitik irony: the policy that weakens deterrence
   guarantees the local fight stays conventional. The 90-hour
   clock has a nuclear sibling nobody can afford to start.
-- **Chemical, the weakest leg, held by red's own economics:**
-  MOPP and decontamination are tempo killers, and this front's
-  objectives (ports, locks, airfields red needs operating) are
-  exactly what persistent agents poison. Red withholds chemical
-  for quota-system reasons (consumption-factors.md §5 logic:
-  chemical expenditure is an *assigned* resource for the
-  breakthrough that needs it — and the plan says this one
-  doesn't). Honest flag: period NATO belief (FM 100-2-1) treats
-  Soviet chemical as integrated, blue in-theater retaliation is
-  near-nil, and the genre neighbors let chemical through — so
-  this leg is authorial rule dressed in a defensible red
-  argument, TO-VERIFY against the 1967 directive's conventional
-  track (does it carry chemical? — open item) and permitted ONE
-  in-book lampshade, once, in the same scene as the rest.
+- **Chemical: repaired 2026-07-22 (DK amendment + facsimile
+  re-read).** DK flagged the original quota-economics leg as
+  risking special pleading and unpinned no-chemical *war-wide*:
+  chemical use in OTHER theaters is permitted as ambient fact
+  precisely so that its non-use on our front reads as
+  unremarkable rather than remarkable. Then the targeted re-read
+  of the 1967 directive (fac. p. 4) answered the open item
+  better than hoped: the tank-army plan counts "46 own nuclear
+  strikes, total yield 2065 KT, **and 30 chemical strikes**" as
+  one package, and every dual phase line in the document reads
+  "без применения оружия массового поражения" — *without use of
+  weapons of mass destruction*, the umbrella category. **In
+  red's own plan-of-record lineage on THIS front, chemical is
+  bundled with nuclear under ОМП: choosing the conventional
+  timeline is choosing no-chemical too.** The leg is now
+  red-documented, not authorial: local chemical non-use rides
+  the same barrier as nuclear, by red's own category system.
+  Residuals, honestly kept: (a) 1980s Soviet doctrinal drift
+  toward chemical-as-quasi-conventional is real in NATO's
+  *belief* (FM 100-2-1) — which is fine, since blue acts on its
+  beliefs: the corps stays in MOPP posture and the protective
+  regime's tempo tax is paid ON-SCREEN whether or not agents
+  ever come; (b) unconfirmed reports of chemical use on other
+  fronts may drift through the G-2 summaries (DK's ambient
+  option; genre-aligned per Hackett/Coyle) — the book never
+  adjudicates them; (c) the one budgeted lampshade now has
+  content: someone asks why not here, and the answer is red's
+  own bookkeeping, which blue can only infer.
 - **Say it once, then silence.** The whole logic above is earned
   in ONE scene (the estimate/seminar where G-2 and G-3 walk both
   sides' trees — the four staged questions naturally carry it:
@@ -187,8 +201,13 @@ decision.
   Control of Nuclear Forces* (1983, period-exact); NPG/MC 14/3
   open literature; Danish nuclear-policy specifics (peacetime
   no-nukes vs wartime ambiguity — DIIS vols carry some, partially
-  mined); whether the 1967 conventional track includes chemical
-  (facsimile re-read, targeted).
+  mined); ~~whether the 1967 conventional track includes
+  chemical~~ ANSWERED 2026-07-22 (fac. p. 4: chemical bundled
+  under ОМП with nuclear; conventional track = no-ОМП — see the
+  chemical leg above and reference/php-maritime-front.md);
+  NATO/US theater chemical posture c. 1983 (stocks in FRG,
+  retaliation doctrine, MOPP degradation factors — the tempo tax
+  blue pays on-screen).
 - **Reader-contract check:** the conceit is period-honest — real
   staffs planned conventional campaigns inside a nuclear frame
   daily without resolving it; treating non-use as procedure and

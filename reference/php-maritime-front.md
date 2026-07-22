@@ -210,6 +210,16 @@ document-level change 1961→1967.**
   [fac. p.4]. *The exact attribution (front-wide vs this one army) is
   ambiguous in the degraded text — flag [?]; the order of magnitude
   is not in doubt.*
+- **Chemical rides the nuclear track (re-read 2026-07-22, for the
+  NBC-conceit question — planning/nbc-conceit.md):** the 30
+  chemical strikes are counted in ONE package with the 46 nuclear
+  [fac. p.4], and every dual phase line in the directive is framed
+  "без применения оружия массового поражения" (*without use of
+  weapons of mass destruction* — the umbrella category covering
+  both) [fac. pp.3-4]. In this plan's own accounting the
+  conventional timeline is a no-ОМП timeline: **choosing the
+  conventional track is choosing no-chemical too.** Chemical is
+  not a below-the-barrier option on this front's plan lineage.
 
 **Command relationship — sharper than 1961.** The Coastal Front is
 "**subordinated until the moment of reaching the western border of

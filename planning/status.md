@@ -55,8 +55,13 @@ runs.*
   questions are now four: what is the goal / what does the enemy
   think it is / what does the enemy think WE think it is / and
   whose consumption model is the argument standing on.
-- **NBC conceit: LOCKED (DK directive 2026-07-22) —
-  planning/nbc-conceit.md.** No NBC use in-book; nuclear/chemical
+- **NBC conceit: LOCKED (DK directive 2026-07-22; chemical leg
+  amended same day) — planning/nbc-conceit.md.** No NBC use
+  on-front in-book; chemical use in OTHER theaters permitted as
+  ambient/unadjudicated fact (DK amendment — makes local non-use
+  unremarkable), and the 1967 facsimile re-read shows red's own
+  plan bundles chemical with nuclear under ОМП (conventional
+  track = no-chemical, primary-sourced); nuclear/chemical
   stay priced, unexercised branches in both decision trees;
   non-use is operationally load-bearing (red runs its documented
   slow timeline; blue's conventional performance keeps its own

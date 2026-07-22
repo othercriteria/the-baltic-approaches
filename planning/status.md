@@ -190,9 +190,15 @@ should attack before drafting:
    fast / 11-14d deliberate; EO Nov 1983 scored Able Archer month
    "routine"; the 48h-8d band cite needs re-sourcing to KK2,
    flagged in zealand-landing.md), ~~Glantz cluster~~ (done
-   2026-07-22 → reference/soviet-operational-art.md). Still open:
+   2026-07-22 → reference/soviet-operational-art.md), ~~NIE
+   mining~~ (done 2026-07-22 →
+   reference/nie-threat-estimates.md — the IC named the Polish
+   front and Denmark across all six years but never assembled the
+   two-phase covering-force sequence; W bifurcated: ~2 weeks full
+   generation vs 24-72h for what hits first; unheld sibling
+   estimates queued for DK browser). Still open:
    Danish road/rail/Little Belt capacity (CAL-3 tonnage anchor),
-   Danish call-up mechanics at hour grain, NIE mining (agent out).
+   Danish call-up mechanics at hour grain.
    **The v15 re-baseline is no longer research-blocked.**
 4. The fresh critique profile of the drafting model (CLAUDE.md
    process rules) — before any prose is drafted.

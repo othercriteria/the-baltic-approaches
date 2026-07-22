@@ -123,6 +123,13 @@ two IS articles have no legitimate open host → library list below.*
   two identified WP-Baltic docs need a browser fetch (DK): ex.
   VAL-77, and the Maritime Front offensive-operation decision
   (Jutland/Straits) — digitalarchive.wilsoncenter.org
+- **NIE siblings named by the held estimates** (2026-07-22,
+  reference/nie-threat-estimates.md; cia.gov bot-blocks this
+  network → DK browser tier if released): NIE 4-1-78 (the
+  warning-time estimate 11-14-79 defers to), NIE 11-14-79 Vol II
+  (the detailed OOB/doctrine volume), NIE 11-19-85 (*Soviet
+  Capabilities for Multitheater War*) and NIE 11-15-85 (naval) —
+  the employment detail 11-14-85 explicitly declines to carry
 - NATO Archives BALTAP seam: 600+ further items incl. LANDJUT HQ
   budget series 1963-71 (archives.nato.int search "baltic
   approaches") — pull on demand, not wholesale

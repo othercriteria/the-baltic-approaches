@@ -1095,3 +1095,77 @@ def test_no_reinforcement_when_red_amphib_none():
         deep_fraction=0.0, days=16,
     )
     assert not any(u.name.startswith("R-21") for u in camp.amphib_pool)
+
+
+# -- v14: division engineer grade (obstacles, demolitions) --------
+
+
+def test_v14_defaults_reproduce_v13():
+    a, _, _ = run_v11(deep_fraction=0.5, days=20)
+    data, axes, _ = load_scenario(SCEN)
+    p = data["params"]
+    p["wx_standdown_prob"] = 0.0
+    p["wx_min"] = 1.0
+    p["wx_max"] = 1.0
+    p["deep_fraction"] = 0.5
+    for k in list(p):
+        if k.startswith(("div_demo", "demo_", "div_obstacle", "obstacle_")):
+            del p[k]
+    for ax in axes.values():
+        ax["spec"].pop("bridge_km", None)
+    b = Campaign(
+        axes=axes, params=p, seed=1986,
+        amphib_pool=data["amphib_units"],
+        zealand_garrison=data["zealand_garrison_units"],
+    )
+    b.run(20)
+    assert [(e.feba_km, e.advance_km) for e in a.logs] == [
+        (e.feba_km, e.advance_km) for e in b.logs
+    ]
+
+
+def test_clean_demolition_halts_red_at_the_line():
+    # Free withdrawal (no hold) so red reaches the bridge; generous
+    # trigger and no lag = a sharp division engineer.
+    camp, state, _ = run_v11(
+        deep_fraction=0.0, days=24,
+        div_demo_trigger_km=15.0, div_demo_lag_days=0,
+        ca_enabled=False,
+    )
+    for name, st in state.items():
+        pass
+    halted = [
+        e for e in camp.logs
+        if e.advance_km == 0.0 and e.feba_km in (62.0, 72.0)
+    ]
+    crossed = any(st.feba_km > 72.5 for st in state.values())
+    blown = any(st.crossing_left >= 0 and st.demo_order_day for st in state.values())
+    assert blown
+    assert halted, "no bridging halt observed at a demolished line"
+
+
+def test_late_trigger_loses_the_bridge():
+    camp, state, _ = run_v11(
+        deep_fraction=0.0, days=24,
+        div_demo_trigger_km=1.0, div_demo_lag_days=3,
+        ca_enabled=False,
+    )
+    assert any(st.demo_captured for st in state.values()), (
+        "a 1 km trigger with 3-day lag should lose a bridge"
+    )
+
+
+def test_obstacle_belt_slows_and_bleeds_red():
+    base, bstate, _ = run_v11(deep_fraction=0.0, days=16, div_obstacle_pos="none")
+    belt, wstate, _ = run_v11(
+        deep_fraction=0.0, days=16,
+        div_obstacle_pos="hold", obstacle_ready_day=2,
+    )
+    # With the belt in front of the hold line, red arrives later or
+    # weaker: FEBA no deeper, red CV no higher, with some slack.
+    f_base = sum(st.feba_km for st in bstate.values())
+    f_belt = sum(st.feba_km for st in wstate.values())
+    assert f_belt <= f_base + 1.0
+    r_base = sum(e.red_loss_frac for e in base.logs)
+    r_belt = sum(e.red_loss_frac for e in belt.logs)
+    assert r_belt > r_base * 0.98

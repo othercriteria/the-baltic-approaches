@@ -4,6 +4,55 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-22 — v14 (the division engineer grade; the echelon table revised) (session 71ede904)
+
+Queue resumed per DK ratification. Mechanics: two genuinely
+divisional decisions with quality knobs (fires stay closed per the
+artillery closure — its reopening condition still unmet).
+**Obstacle belt**: div_obstacle_pos ("none"/"forward"/"hold"),
+ready after obstacle_ready_day; a ready belt under the FEBA slows
+red's advance (obstacle_adv_factor) and tilts the exchange
+(red 1.25x / blue 0.85x). **Demolition timing**: bridge_km per
+axis; the division orders the blow at div_demo_trigger_km,
+executes div_demo_lag_days later — clean blow = bridging operation
+(halted demo_crossing_days, 1.5x losses in the water); late blow
+strands the rearguard (8% of line CV); ordered too late = captured
+intact. Defaults off; pre-v14 baselines reproduce. 72 tests green.
+
+**Finding 1 — the echelon-leverage table, revised (60 worlds):
+a real division grade rivals the theater seam.** Max-leverage
+counts: theater advocacy 27/60 (median 6.1 CV), division engineer
+26/60 (median 10.7!), corps reserve 5/60 (1.6), division CA-lag
+2/60 (0.8). v8's "division an order of magnitude lighter" is
+REVISED: it was true of the decisions v8's division owned, not of
+the echelon — exactly the hostile review's objection, conceded
+and quantified. Note what remains true: the CORPS' own levers are
+now the lightest in the theater, bracketed from above (Karup) and
+below (the divisions' engineers). The G-3's altitude is the
+altitude of least mechanical leverage — his instrument is the
+argument, confirmed from a second direction.
+
+**Finding 2 — the belt's sign is inverted at the toy point, by
+two honest mechanisms.** Isolation runs: obstacle-only costs blue
+~10 CV and extinguishes the counterattack entirely (CA days
+1.6 → 0.0); demolition-only is mildly good (+1 CV, −4 km).
+Channels, both real model logic: (a) **the belt is a gift to
+red's quartermaster** — a slowed red stays near its railheads,
+fill rises, pauses fall (24.4 → 21.1 days): culmination-as-supply
+cuts both ways, the defense that denies ground denies the
+attacker his overextension; (b) **the belt desynchronizes the
+counterstroke** — echelon 1 spends itself slower and is still
+coherent when echelon 2 lands; the window (spent + gap) never
+opens. The engineering virtue buys ground at the price of tempo —
+Active Defense vs the maneuver defense, in one parameter. For the
+book: the division's obstacle plan and the corps G-3's
+counterstroke ambition are in structural conflict NEITHER can see
+from his own echelon — a staff argument the instrument found
+unprompted. Caveats: toy point; belt costs red no breaching
+supply (unmodeled — would soften channel (a)); sign is
+world-dependent (the sweep's 10.7 CV median spread is magnitude,
+not direction).
+
 ## 2026-07-22 — v13 (the expandable pool; sizing against potential) (session 71ede904)
 
 Mechanics: **air_capable** units on red's mainland march tables

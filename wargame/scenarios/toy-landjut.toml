@@ -196,6 +196,22 @@ zg_release_count = 0           # v12: release strongest N, keep the rest
 # blue's credibility ratchets up; the required kept garrison moves)
 red_air_reinforce_day = 0      # 0 = never
 red_air_reinforce_count = 0    # 0 = all air-capable still in reserve
+
+# v14: division-grade engineer decisions. Defaults OFF (trigger 0 =
+# no demolition policy; obstacle "none") so pre-v14 baselines
+# reproduce; experiments and future baselines turn them on.
+div_demo_trigger_km = 0.0      # order the blow when red this close — 0=never
+div_demo_lag_days = 1          # order-to-execution (the division's quality)
+demo_strand_km = 3.0           # blown this late strands the rearguard...
+demo_strand_frac = 0.08        # ...costing this fraction of line CV
+demo_crossing_days = 2         # red's bridging operation at a blown line
+demo_crossing_loss_mult = 1.5  # attrition multiplier while crossing
+div_obstacle_pos = "none"      # "none" | "forward" | "hold"
+obstacle_width_km = 8.0
+obstacle_ready_day = 4         # engineer effort takes days
+obstacle_adv_factor = 0.5      # advance through a ready belt
+obstacle_red_mult = 1.25       # attacker bleeds in the belt
+obstacle_blue_mult = 0.85      # defender fights from prepared positions
 zg_success_ratio = 1.5         # landing succeeds if package CV at commit
                                # exceeds this x kept-garrison CV — toy,
                                # anchored loosely on the researched 1:1.3
@@ -206,12 +222,14 @@ red_opportunist_lag = 2        # observe the ferries, then strike
 name = "coastal-luebeck"
 length_km = 95  # Travemünde approaches -> Kiel Canal, roughly
 hold_km = 55    # political stand line short of the Canal approaches — toy
+bridge_km = 62  # v14: crossing behind the hold line (canal approach) — toy
 note = "Baltic coast axis; amphib threat on the flank NOT modeled yet"
 
 [[axes]]
 name = "inland-bad-segeberg"
 length_km = 110
 hold_km = 65    # toy forward-defense line
+bridge_km = 72  # v14: crossing behind the hold line — toy
 note = "Inland axis toward Rendsburg / the Canal crossings"
 
 # --- Red: two-division-ish first echelon, battalion atoms ---------

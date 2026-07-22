@@ -158,6 +158,11 @@ class AxisState:
     red_paused: bool = False  # operational pause: building supply forward
     red_stockpile: float = 0.0  # supply accumulated during pauses
     fallen: bool = False
+    # v14: division-grade engineer decisions
+    demo_order_day: int | None = None  # demolition ordered (executes after lag)
+    demo_blown: bool = False
+    demo_captured: bool = False  # red took the bridge intact
+    crossing_left: int = 0  # red bridging-operation days remaining at the line
 
 
 @dataclass
@@ -718,6 +723,7 @@ class Campaign:
     def _axis_day(self, day, ax, st, wx, air_share, arrivals, n_live):
         red, blue = ax["red"], ax["blue"]
         p = self.params
+        self._division_demo_step(day, st, ax["spec"], blue)
 
         # Blue mobilization: red interdiction (Baltic air/missile
         # threat to Danish roads, bridges, ports — the Pałka-
@@ -810,7 +816,7 @@ class Campaign:
             b_cv = blue.cv
 
         if b_cv <= 0.5 or not blue.has_maneuver:  # defense collapsed
-            adv = p["march_kmd"]
+            adv = self._engineer_advance(st, ax["spec"], p["march_kmd"])
             st.feba_km += adv
             self._log(
                 day,
@@ -898,6 +904,14 @@ class Campaign:
         # shooters can be efficiency-scaled).
         red_loss = min(p["beta"] * b_cv_eff * b_eff, r_cv)
         blue_loss = min(p["alpha"] * r_cv * r_eff, b_cv)
+        # v14: division engineer effects on the exchange. A ready
+        # obstacle belt under the FEBA favors the defender; a red
+        # force bridging a blown crossing is under fire in the water.
+        if self._in_obstacle_belt(st, ax["spec"]):
+            red_loss *= p.get("obstacle_red_mult", 1.0)
+            blue_loss *= p.get("obstacle_blue_mult", 1.0)
+        if st.crossing_left > 0:
+            red_loss *= p.get("demo_crossing_loss_mult", 1.0)
         proj_blue_frac = blue_loss / b_cv
 
         # Attacking means accepting more risk than defending — but
@@ -973,6 +987,7 @@ class Campaign:
             adv = min(w, p["march_kmd"])
             if ratio >= p["advance_ratio"]:
                 adv += p["pressure_kmd"]
+            adv = self._engineer_advance(st, ax["spec"], adv)
         st.feba_km += adv
         self._log(
             day,
@@ -1000,6 +1015,76 @@ class Campaign:
         self._check_fallen(st)
 
     # -- helpers -----------------------------------------------------
+
+    # -- division grade: engineer decisions (v14) ----------------------
+
+    def _obstacle_belt(self, spec):
+        """(lo, hi) of the prepared belt, or None. Sited by division
+        policy: "hold" digs in front of the political hold line;
+        "forward" covers the covering-force fight."""
+        p = self.params
+        pos = p.get("div_obstacle_pos", "none")
+        if pos == "none":
+            return None
+        width = p.get("obstacle_width_km", 8.0)
+        hold = spec.get("hold_km", spec["length_km"])
+        if pos == "hold":
+            return (hold - width, hold)
+        lo = 0.35 * hold
+        return (lo, lo + width)
+
+    def _in_obstacle_belt(self, st, spec):
+        belt = self._obstacle_belt(spec)
+        if belt is None:
+            return False
+        if getattr(self, "_day_now", 0) < self.params.get("obstacle_ready_day", 0):
+            return False  # engineers still digging
+        return belt[0] <= st.feba_km <= belt[1]
+
+    def _division_demo_step(self, day, st, spec, blue):
+        """The demolition decision: order when red closes within
+        div_demo_trigger_km of the bridge, execute div_demo_lag_days
+        later. Clean blow -> red pays a bridging operation at the
+        line. Late blow -> the rearguard is stranded (blue pays).
+        Red arrives before execution -> captured intact."""
+        p = self.params
+        self._day_now = day
+        bridge = spec.get("bridge_km")
+        trigger = p.get("div_demo_trigger_km", 0.0)
+        if not bridge or trigger <= 0 or st.demo_blown or st.demo_captured:
+            return
+        if st.feba_km >= bridge:
+            st.demo_captured = True  # red is on it before the order ran
+            return
+        if st.demo_order_day is None:
+            if bridge - st.feba_km <= trigger:
+                st.demo_order_day = day
+            return
+        if day >= st.demo_order_day + int(p.get("div_demo_lag_days", 1)):
+            st.demo_blown = True
+            if bridge - st.feba_km < p.get("demo_strand_km", 3.0):
+                # Rearguard caught on the wrong bank.
+                blue.distribute_losses(
+                    p.get("demo_strand_frac", 0.08) * max(blue.cv, 0.0)
+                )
+
+    def _engineer_advance(self, st, spec, adv):
+        """Apply the division's engineering to red's advance: a
+        ready obstacle belt slows movement through it; a blown
+        bridge caps the advance at the line and opens a bridging
+        operation (halted while crossing_left runs)."""
+        p = self.params
+        if self._in_obstacle_belt(st, spec):
+            adv *= p.get("obstacle_adv_factor", 1.0)
+        if st.crossing_left > 0:
+            st.crossing_left -= 1  # bridging under fire: no advance
+            return 0.0
+        bridge = spec.get("bridge_km")
+        if bridge and st.demo_blown and st.feba_km < bridge <= st.feba_km + adv:
+            st.crossing_left = int(p.get("demo_crossing_days", 2))
+            st.demo_blown = False  # the clock, not the flag, now gates
+            return bridge - st.feba_km
+        return adv
 
     def _weather(self, rng):
         """Daily air-weather factor. November-Baltic PLACEHOLDER

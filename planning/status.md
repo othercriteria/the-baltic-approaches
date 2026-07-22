@@ -81,6 +81,17 @@ should attack before drafting:
    models only reserve/CA timing so far). The
    Jutland-commander-outline request stands open. Ruling still
    DK's.
+   **UPDATE 2026-07-22 (v14):** the division layer enriched
+   (obstacle siting, demolition timing) and the leverage table
+   re-run: a real division grade RIVALS the theater seam (26/60
+   vs 27/60 max-leverage worlds) — v8's "order of magnitude
+   lighter" conceded as an artifact of the thin division layer,
+   exactly as the review argued. The corps' own levers are now
+   measurably the lightest of the three echelons: the G-3's
+   instrument is the argument, confirmed twice. The review's
+   methodological demand is fully discharged; its interpretive
+   question (is the argument-altitude the right altitude for THIS
+   book?) is where DK's ruling lives.
 
 2. **The Goal's engine assumes iteration; a three-week war may not
    provide it.** Rogo learns because the plant runs every day —

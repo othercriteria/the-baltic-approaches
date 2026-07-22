@@ -133,6 +133,11 @@ def load_scenario(path, year=None):
     # "amphib-convertible" (the mechanized follow-on — releasable to
     # the mainland battle).
     data["amphib_units"] = []
+    # v11: blue's Zealand garrison — the other half of the insurance
+    # ledger. Holds the island; releasable to the mainland at
+    # COMBALTAP's (politically loaded) decision; its remaining
+    # strength decides whether a committed landing succeeds.
+    data["zealand_garrison_units"] = []
     for axis in data["axes"]:
         axes[axis["name"]] = {"spec": axis, "blue": Force("blue"), "red": Force("red")}
     for u in data["units"]:
@@ -154,6 +159,9 @@ def load_scenario(path, year=None):
             continue
         if bn.role in ("amphib", "amphib-convertible"):
             data["amphib_units"].append(bn)
+            continue
+        if bn.role == "zealand-garrison":
+            data["zealand_garrison_units"].append(bn)
             continue
         force = axes[u["axis"]][u["side"]]
         if bn.arrival_day > 1:

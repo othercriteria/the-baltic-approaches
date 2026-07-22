@@ -178,6 +178,22 @@ zeal_c_down = 0.05               # ...and reassurance almost never
                                  # (the FE merchant-hull ratchet)
 pin_release_c = 0.25             # beach watch frees below this
 
+# v11: COMBALTAP's insurance decision — the Zealand garrison as
+# releasable blue units, and the landing outcome conditional on
+# what blue actually kept (reference/zealand-landing.md: the full
+# garrison defeats the package at 1:1.3; a stripped one invites
+# it). An opportunist red punishes a release.
+zg_release_mode = "never"      # "never" (historical) | "day" | "threshold"
+zg_release_day = 0             # for mode="day"
+zg_release_c = 0.2             # for mode="threshold": release when c below...
+zg_release_recognition_days = 2  # ...for this many days
+zg_move_days = 3               # Belt crossing + march to the front, toy
+zg_success_ratio = 1.5         # landing succeeds if package CV at commit
+                               # exceeds this x kept-garrison CV — toy,
+                               # anchored loosely on the researched 1:1.3
+                               # failing correlation
+red_opportunist_lag = 2        # observe the ferries, then strike
+
 [[axes]]
 name = "coastal-luebeck"
 length_km = 95  # Travemünde approaches -> Kiel Canal, roughly
@@ -557,6 +573,60 @@ kind = "mech"
 cv = 8
 role = "corps-reserve"
 division = "Corps"
+
+# --- The Zealand garrison (v11): blue's insurance as real units.
+# Proportion echoes the researched picture (Zealand held ~3 Danish
+# brigades + territorials, roughly the field army's other half —
+# reference/zealand-landing.md); CVs toy. role=zealand-garrison:
+# holds the island unless COMBALTAP releases it to the mainland. --
+
+[[units]]
+name = "B-ZG PzBtl I"
+side = "blue"
+kind = "armor"
+cv = 10
+role = "zealand-garrison"
+division = "ZG"
+
+[[units]]
+name = "B-ZG MechBtl I"
+side = "blue"
+kind = "mech"
+cv = 8
+role = "zealand-garrison"
+division = "ZG"
+
+[[units]]
+name = "B-ZG MechBtl II"
+side = "blue"
+kind = "mech"
+cv = 8
+role = "zealand-garrison"
+division = "ZG"
+
+[[units]]
+name = "B-ZG InfBtl I"
+side = "blue"
+kind = "inf"
+cv = 7
+role = "zealand-garrison"
+division = "ZG"
+
+[[units]]
+name = "B-ZG InfBtl II"
+side = "blue"
+kind = "inf"
+cv = 7
+role = "zealand-garrison"
+division = "ZG"
+
+[[units]]
+name = "B-ZG ArtBtl I"
+side = "blue"
+kind = "arty"
+cv = 6
+role = "zealand-garrison"
+division = "ZG"
 
 # --- The landing package (v10): red's amphib force as real units,
 # no axis — staged for the Zealand threat. Structure echoes the

@@ -4,6 +4,66 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-22 — v11 (the garrison as blue policy; the insurance game) (session 71ede904)
+
+The v10 queue item built: blue's Zealand insurance is now a policy
+under test — COMBALTAP's own decision problem, one echelon above
+the G-3's.
+
+Mechanics: **role="zealand-garrison"** blue units (6 bns, ~46 CV —
+proportioned to the researched Zealand share) hold the island;
+zg_release_mode = never (historical) / day / threshold (release
+when credibility has sat below zg_release_c for
+zg_release_recognition_days). Released units cross the Belt into
+the weakest axis's reserve queue (red's interdiction of
+mobilization applies to the crossing). **Landing resolution is now
+conditional**: success iff package CV at commit > zg_success_ratio
+× the garrison blue actually KEPT (anchored loosely on the
+researched failing 1:1.3 correlation) — and a new red posture,
+**"opportunist"**, feints until blue releases, then commits
+red_opportunist_lag days later, sea window permitting. zealand_lost
+is a first-class outcome. Commit is now dynamic
+(self._commit_day); v10 reproduced exactly with the garrison held.
+61 tests green.
+
+**Finding 1 (the campaign's most robust claim yet — 40/40 worlds):
+within the model, the historical never-release policy is strictly
+dominated.** Any release policy beats hold-always on worst-case
+blue CV, because the model hands blue a SAFE DATE: the sea-state
+close hard-zeros credibility, disarms the opportunist, and frees
+46 CV for the mainland (point matrix: hold ends 10-14 CV;
+post-sea release 47.6, best against every red type, Zealand never
+lost; the threshold rule finds the date itself at the point —
+but only 10/40 in the sweep). Post-sea-release minimax-best:
+29/40. The opportunist's punishment is real (82% Zealand-lost vs
+release-d8) but calendar-bound.
+
+**Finding 2 — the divergence from history is the measurement.**
+The real COMBALTAP held the garrison for thirty years; our model
+says that was dominated. The difference is what the model has not
+decomposed: (a) the AIRBORNE leg of the threat had no sea window —
+FE's documented 1980s worry migrated to exactly "paratroops,
+helicopters, fast bombers" as the fleet threat faded
+(reference/zealand-landing.md §2-3); (b) a real war could outlast
+November (the window reopens; release is politically
+irreversible); (c) Zealand is the capital. The model manufactures
+the safe date by folding the whole threat into the sealift
+window. **v12 seam, queued: decompose the threat into sealift
+(windowed) and airborne (windowless) components.** Prediction:
+the safe date dissolves, never-release stops being dominated, and
+"how much residual airborne threat is needed to rationalize the
+historical pin" becomes a number the instrument can produce — the
+price of the political constraint, measured.
+
+**Finding 3 — the trilemma holds and refuses collapse:** early
+release buys ground (FEBA 146-154 vs 164), late release buys
+ending force (bookkeeping caveat: final-CV favors late arrivals —
+FEBA carries the other half of the story), and only pre-close
+release risks Zealand. Ground / force / the straits: three goals,
+one garrison — the theater's version of the book's title
+question, now sitting one echelon above the G-3 exactly where the
+Karup conference scenes need it.
+
 ## 2026-07-22 — v10 (the landing package made real; feint economics) (session 71ede904)
 
 DK rulings implemented: option B rejected, option C built — the

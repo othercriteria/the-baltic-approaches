@@ -199,6 +199,9 @@ class Campaign:
     # v10: the amphib landing package (Battalions; staged for the
     # landing threat until released, committed, or war's end)
     amphib_pool: list = field(default_factory=list)
+    # v11: blue's Zealand garrison (Battalions; hold the island or
+    # release to the mainland — COMBALTAP's insurance decision)
+    zealand_garrison: list = field(default_factory=list)
 
     def run(self, days):
         rng = random.Random(self.seed)
@@ -223,25 +226,33 @@ class Campaign:
         amp = p.get("red_amphib", "threat")
         commit_day = int(p.get("red_commit_day", 0))
         self.zealand_resolve_day = None
-        committed = (
-            amp == "commit"
-            and self.amphib_release_day
-            and commit_day >= 1
-            and commit_day < self.amphib_release_day
-        )
-        if committed:
-            self.zealand_resolve_day = commit_day + int(p.get("zealand_battle_days", 0))
+        # v11: landing outcome and pin-release are now settled by
+        # _commit_landing (outcome conditional on the garrison blue
+        # actually kept, when garrison units are modeled); commit can
+        # also arrive dynamically (red_amphib="opportunist" punishes
+        # a garrison release). Static "commit" keeps its schedule.
+        self._commit_day = None
+        self._zealand_committed = False
+        self._landing_fails = p.get("zealand_landing_fails", True)
+        self.zealand_lost = False
         if amp == "none":
             self.pin_release_day = 1
-        elif committed and p.get("zealand_landing_fails", True):
-            self.pin_release_day = min(
-                self.amphib_release_day, self.zealand_resolve_day
-            )
-        elif committed:
-            self.pin_release_day = None  # landing succeeded: pinned for good
         else:
             self.pin_release_day = self.amphib_release_day
-        self._zealand_committed = committed
+        self._scheduled_commit = (
+            commit_day
+            if (
+                amp == "commit"
+                and self.amphib_release_day
+                and commit_day >= 1
+                and commit_day < self.amphib_release_day
+            )
+            else None
+        )
+        # v11: Zealand garrison state — blue's half of the ledger.
+        self._zg_full_cv = sum(u.effective_cv for u in self.zealand_garrison) or None
+        self._zg_released_day = None
+        self._zg_standing = 0  # threshold-mode recognition counter
         # v10: amphib package state. "none" means the package never
         # formed: convertibles go straight to the mainland battle
         # (transit from day 1), specialists sit out (coastal duty).
@@ -289,6 +300,7 @@ class Campaign:
             # spends), then blue's graded credibility updates, then
             # the theater's insurance follows the credibility.
             self._amphib_step(day)
+            self._zealand_garrison_step(day, state)
             c, skim = self._zealand_state(day)
             if mode == "advocacy" and day > p.get("advocacy_lag_days", 0):
                 req = p.get("corps_request_deep", self.deep_frac_today)
@@ -351,21 +363,93 @@ class Campaign:
             self._amphib_transit.append((day + march, u))
         self._amphib_released = True
 
+    def _commit_landing(self, day):
+        """The landing goes in (v11). Outcome: when blue's garrison
+        is modeled, success is decided by the correlation the
+        research documents (reference/zealand-landing.md §1 — the
+        full garrison defeats the package; a stripped one does
+        not): success iff package CV at commit > zg_success_ratio x
+        the garrison blue actually kept. Without garrison units the
+        zealand_landing_fails param decides (v10 compat). The
+        package leaves the mainland war either way."""
+        p = self.params
+        self._zealand_committed = True
+        self._commit_day = day
+        self.zealand_resolve_day = day + int(p.get("zealand_battle_days", 0))
+        package_cv = sum(u.effective_cv for u in self.amphib_pool)
+        if self._zg_full_cv:
+            kept = sum(u.effective_cv for u in self.zealand_garrison)
+            self._landing_fails = package_cv <= p.get("zg_success_ratio", 1.5) * kept
+        else:
+            self._landing_fails = p.get("zealand_landing_fails", True)
+        self.zealand_lost = not self._landing_fails
+        if self._landing_fails:
+            self.pin_release_day = min(
+                self.amphib_release_day or self.zealand_resolve_day,
+                self.zealand_resolve_day,
+            )
+        else:
+            self.pin_release_day = None  # Zealand falls: pinned for good
+        self.amphib_pool.clear()  # embarked: gone from the mainland war
+
+    def _zealand_garrison_step(self, day, state):
+        """COMBALTAP's insurance decision, executed (v11): release
+        the garrison to the mainland per zg_release_mode ("never" /
+        "day" / "threshold" — credibility low for long enough).
+        Released units cross the Belt into the weakest axis's
+        reserve queue, so red's interdiction of mobilization applies
+        to the crossing. An opportunist red punishes: it commits
+        red_opportunist_lag days after observing the release, sea
+        window permitting."""
+        p = self.params
+        mode = p.get("zg_release_mode", "never")
+        if self.zealand_garrison and self._zg_released_day is None:
+            trigger = False
+            if mode == "day" and day >= int(p.get("zg_release_day", 10_000)):
+                trigger = True
+            elif mode == "threshold":
+                if self.zeal_c < p.get("zg_release_c", 0.0):
+                    self._zg_standing += 1
+                else:
+                    self._zg_standing = 0
+                trigger = self._zg_standing > p.get("zg_release_recognition_days", 0)
+            if trigger:
+                self._zg_released_day = day
+                move = int(p.get("zg_move_days", 3))
+                live = [n for n, st in state.items() if not st.fallen] or list(state)
+                target = min(live, key=lambda n: self.axes[n]["blue"].cv)
+                for u in list(self.zealand_garrison):
+                    self.zealand_garrison.remove(u)
+                    u.arrival_day = day + move
+                    self.axes[target]["blue"].reserve.append(u)
+        if (
+            p.get("red_amphib", "threat") == "opportunist"
+            and self._zg_released_day is not None
+            and not self._zealand_committed
+            and self.amphib_pool
+        ):
+            strike = self._zg_released_day + int(p.get("red_opportunist_lag", 2))
+            if (
+                day >= strike
+                and self.amphib_release_day
+                and day < self.amphib_release_day
+            ):
+                self._commit_landing(day)
+
     def _amphib_step(self, day):
         """Daily package bookkeeping: scheduled release of the
-        convertibles; commit day spends the whole package (the units
-        sail — the mainland never sees them again, win or lose);
-        transit arrivals join the leading axis."""
+        convertibles; the static commit schedule; transit arrivals
+        join the leading axis."""
         p = self.params
         rel = int(p.get("amphib_release_convertibles_day", 0))
         if rel and day >= rel and not self._amphib_released:
             self._release_convertibles(day)
         if (
-            self._zealand_committed
-            and day >= int(p.get("red_commit_day", 0))
-            and self.amphib_pool
+            self._scheduled_commit
+            and day >= self._scheduled_commit
+            and not self._zealand_committed
         ):
-            self.amphib_pool.clear()  # embarked: gone from the mainland war
+            self._commit_landing(day)
         for arrive, u in list(self._amphib_transit):
             if day >= arrive:
                 self._amphib_transit.remove((arrive, u))
@@ -391,10 +475,9 @@ class Campaign:
         if amp == "none" or not self.amphib_release_day:
             return 0.0
         if self._zealand_committed:
-            commit_day = int(p.get("red_commit_day", 0))
             if day >= self.zealand_resolve_day:
-                return 0.0 if p.get("zealand_landing_fails", True) else 1.0
-            if day >= commit_day:
+                return 0.0 if self._landing_fails else 1.0
+            if day >= self._commit_day:
                 return 1.0  # the invasion is observed fact
         if day >= self.amphib_release_day:
             return 0.0  # the sea has closed; even FE believed weather
@@ -412,9 +495,7 @@ class Campaign:
         landing, the invasion itself) is believed at once."""
         p = self.params
         target = self._amphib_target(day)
-        hard = target == 0.0 or (
-            self._zealand_committed and day >= int(p.get("red_commit_day", 0))
-        )
+        hard = target == 0.0 or (self._zealand_committed and day >= self._commit_day)
         if hard:
             self.zeal_c = target
         else:
@@ -429,14 +510,14 @@ class Campaign:
         base = p.get("naval_claim_frac", 0.0)
         in_battle = (
             self._zealand_committed
-            and int(p.get("red_commit_day", 0)) <= day < self.zealand_resolve_day
+            and self._commit_day <= day < self.zealand_resolve_day
         )
         if (
             not in_battle
             and self._zealand_committed
             and day >= self.zealand_resolve_day
         ):
-            if not p.get("zealand_landing_fails", True):
+            if not self._landing_fails:
                 in_battle = True  # the straits fight persists
         skim = self.zeal_c * (
             p.get("zealand_battle_claim", base) if in_battle else base

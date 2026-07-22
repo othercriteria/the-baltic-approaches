@@ -891,3 +891,83 @@ def test_amphib_none_converts_followon_only():
     assert any("follow-on" in n for n in names)
     assert not any("LandRegt" in n or "AbnRegt" in n for n in names)
     assert all(e.zeal_c == 0.0 for e in camp.logs)
+
+
+# -- v11: the garrison as blue policy; the opportunist red --------
+
+
+def run_v11(days=24, seed=1986, pool=True, zg=True, **over):
+    data, axes, _ = load_scenario(SCEN)
+    data["params"]["wx_standdown_prob"] = 0.0
+    data["params"]["wx_min"] = 1.0
+    data["params"]["wx_max"] = 1.0
+    data["params"].update(over)
+    camp = Campaign(
+        axes=axes,
+        params=data["params"],
+        seed=seed,
+        amphib_pool=data["amphib_units"] if pool else [],
+        zealand_garrison=data["zealand_garrison_units"] if zg else [],
+    )
+    state = camp.run(days)
+    return camp, state, axes
+
+
+def test_v11_never_mode_reproduces_v10():
+    a, _, _ = run_v11(zg=True, zg_release_mode="never", deep_fraction=0.5)
+    b, _, _ = run_v11(zg=False, zg_release_mode="never", deep_fraction=0.5)
+    assert [(e.feba_km, e.zeal_c) for e in a.logs] == [
+        (e.feba_km, e.zeal_c) for e in b.logs
+    ]
+    assert len(a.zealand_garrison) == 6  # untouched
+
+
+def test_garrison_release_arrives_via_reserve_queue():
+    camp, _, axes = run_v11(
+        zg_release_mode="day", zg_release_day=5, zg_move_days=3,
+        deep_fraction=0.0, days=20,
+    )
+    assert not camp.zealand_garrison
+    names = {
+        u.name for ax in axes.values() for u in ax["blue"].units
+    }
+    assert any("B-ZG" in n for n in names), "garrison never reached the line"
+
+
+def test_opportunist_punishes_release_and_takes_zealand():
+    camp, _, _ = run_v11(
+        red_amphib="opportunist",
+        zg_release_mode="day",
+        zg_release_day=4,
+        red_opportunist_lag=2,
+        deep_fraction=0.0,
+        days=24,
+        seed=1986,
+    )
+    if camp.amphib_release_day <= 6:
+        return  # window closed before the strike; no punishment possible
+    assert camp._zealand_committed and camp._commit_day == 6
+    # Full garrison released: the landing goes through.
+    assert camp.zealand_lost
+    assert camp.pin_release_day is None  # pinned for good
+
+
+def test_opportunist_never_commits_without_release():
+    camp, _, _ = run_v11(
+        red_amphib="opportunist", zg_release_mode="never",
+        deep_fraction=0.0, days=24,
+    )
+    assert not camp._zealand_committed
+    assert not camp.zealand_lost
+
+
+def test_static_commit_fails_against_held_garrison():
+    camp, _, _ = run_v11(
+        red_amphib="commit", red_commit_day=4, zg_release_mode="never",
+        deep_fraction=0.0, days=20, seed=1986,
+    )
+    if camp.amphib_release_day <= 4:
+        return
+    # Package 53 CV vs kept 46 CV: 53 <= 1.5*46 -> the landing fails.
+    assert camp._zealand_committed and not camp.zealand_lost
+    assert camp.pin_release_day is not None

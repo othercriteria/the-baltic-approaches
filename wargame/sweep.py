@@ -34,6 +34,10 @@ PERTURBED = [
     "red_loc_penalty",
     "red_supply_points",
     "blue_supply_points",
+    # v16: warning is a first-class scenario parameter (the 90-hour
+    # clock finding) — scenarios that declare warning_days get it
+    # perturbed like everything else (x U(lo,hi): W 4 -> ~2.4-5.6)
+    "warning_days",
 ]
 
 POLICIES = (0.0, 0.5, 1.0)

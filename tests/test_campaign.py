@@ -1191,3 +1191,117 @@ def test_posture_demand_raises_fill_during_low_intensity():
         m_off = sum(getattr(e, side) for e in off.logs) / len(off.logs)
         m_on = sum(getattr(e, side) for e in on.logs) / len(on.logs)
         assert m_on >= m_off - 1e-9
+
+
+# -- v16: warning parameter, delaying screen, uncovered rate ---------
+
+
+def _mini_axes(blue_units, red_units, blue_screen=(), spec_extra=None):
+    from wargame.oob import Force
+
+    spec = {"name": "x", "length_km": 200, "hold_km": 200}
+    if spec_extra:
+        spec.update(spec_extra)
+    return {
+        "x": {
+            "spec": spec,
+            "blue": Force("blue", units=list(blue_units), screen=list(blue_screen)),
+            "red": Force("red", units=list(red_units)),
+        }
+    }
+
+
+def _mech(side, n, **kw):
+    return [
+        Battalion(name=f"{side}-m{i}", side=side, kind="mech", cv=8, **kw)
+        for i in range(n)
+    ]
+
+
+def test_v16_warning_defaults_off_reproduce():
+    a, _, _ = run(deep=0.5)
+    data, axes, _ = load_scenario(SCEN)
+    data["params"].update(
+        wx_standdown_prob=0.0, wx_min=1.0, wx_max=1.0, ca_enabled=False,
+        deep_fraction=0.5, warning_days=1,  # no baseline declared: inert
+    )
+    camp = Campaign(axes=axes, params=data["params"], seed=1986)
+    camp.run(18)
+    assert [(e.feba_km, e.arrivals) for e in a.logs] == [
+        (e.feba_km, e.arrivals) for e in camp.logs
+    ]
+
+
+def test_warning_shift_displaces_mob_units():
+    data, _, _ = load_scenario(SCEN)
+    p = _mini_params(data["params"])
+    p.update(ca_enabled=False, warning_baseline_days=4, warning_days=1)
+    blue = _mech("b", 2) + _mech("bmob", 1, mob=True)
+    axes = _mini_axes(blue, _mech("r", 3))
+    late = _mech("bl", 1, mob=True)[0]
+    late.arrival_day = 6
+    axes["x"]["blue"].reserve.append(late)
+    camp = Campaign(axes=axes, params=p, seed=1)
+    camp.run(1)
+    force = axes["x"]["blue"]
+    # In-place mob unit pulled to the queue at max(1, Wb - W) = 3;
+    # scheduled mob arrival shifted 6 -> 9; non-mob line untouched.
+    assert all(u.name.startswith("b-m") for u in force.units)
+    assert late.arrival_day == 9
+    assert any(u.name.startswith("bmob") and u.arrival_day == 3 for u in force.reserve)
+
+
+def test_warning_longer_than_baseline_moves_mob_earlier_floor_one():
+    data, _, _ = load_scenario(SCEN)
+    p = _mini_params(data["params"])
+    p.update(ca_enabled=False, warning_baseline_days=4, warning_days=9)
+    axes = _mini_axes(_mech("b", 2), _mech("r", 3))
+    late = _mech("bl", 1, mob=True)[0]
+    late.arrival_day = 3
+    axes["x"]["blue"].reserve.append(late)
+    camp = Campaign(axes=axes, params=p, seed=1)
+    camp.run(1)
+    assert late.arrival_day == 1  # 3 + (4 - 9) floored at day 1
+
+
+def test_screen_slows_uncovered_axis_and_pays_for_it():
+    data, _, _ = load_scenario(SCEN)
+    p = _mini_params(data["params"])
+    p.update(
+        ca_enabled=False, uncovered_kmd=50.0, screen_kmd=15.0,
+        screen_attrit_frac=0.5,
+    )
+    # No organized blue defense at all: collapse branch every day.
+    bare = Campaign(axes=_mini_axes([], _mech("r", 3)), params=p, seed=1)
+    bare_state = bare.run(2)
+    screen = _mech("bs", 1, role="screen")
+    scr_axes = _mini_axes([], _mech("r", 3), blue_screen=screen)
+    scr = Campaign(axes=scr_axes, params=p, seed=1)
+    scr_state = scr.run(2)
+    assert bare_state["x"].feba_km == 100.0  # 2 days at uncovered 50
+    assert scr_state["x"].feba_km == 30.0  # 2 days at screened 15
+    assert screen[0].strength < 1.0  # the screen paid for the delay
+
+
+def test_exhausted_screen_reverts_to_uncovered_rate():
+    data, _, _ = load_scenario(SCEN)
+    p = _mini_params(data["params"])
+    p.update(
+        ca_enabled=False, uncovered_kmd=50.0, screen_kmd=15.0,
+        screen_attrit_frac=1.0,  # one screening day spends the screen
+    )
+    screen = _mech("bs", 1, role="screen")
+    axes = _mini_axes([], _mech("r", 3), blue_screen=screen)
+    camp = Campaign(axes=axes, params=p, seed=1)
+    state = camp.run(3)
+    # Day 1 screened (15), days 2-3 uncovered (50 each).
+    assert state["x"].feba_km == 115.0
+
+
+def test_uncovered_defaults_to_march_kmd_compat():
+    data, _, _ = load_scenario(SCEN)
+    p = _mini_params(data["params"])
+    p.update(ca_enabled=False)
+    camp = Campaign(axes=_mini_axes([], _mech("r", 3)), params=p, seed=1)
+    state = camp.run(2)
+    assert state["x"].feba_km == 2 * p["march_kmd"]

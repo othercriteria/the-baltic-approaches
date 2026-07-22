@@ -239,6 +239,8 @@ class DayLog:
     commit: int = 0  # withheld-reserve units committed today (CA or emergency)
     bfill: float = 1.0  # blue supply fulfillment (effectiveness input)
     rfill: float = 1.0  # red supply fulfillment (falls as its LOC stretches)
+    bmult: float = 1.0  # v16: blue demand multiplier (posture ladder)
+    rmult: float = 1.0  # v16: red demand multiplier (posture ladder)
     pause: bool = False  # red operational pause (building supply forward)
     deep_frac: float = 0.0  # v7: today's GRANTED apportionment (theater's)
     air_naval: float = 0.0  # v7: deep-capable points diverted to the fleet strike
@@ -263,6 +265,7 @@ class Campaign:
     def run(self, days):
         rng = random.Random(self.seed)
         p = self.params
+        self._apply_warning(p)
         # Sortie generation is a stock, not a faucet: air points come
         # from surviving airframes, and sorties cost airframes.
         self.aircraft = p.get("blue_aircraft", 0.0)
@@ -408,6 +411,47 @@ class Campaign:
                     len(live),
                 )
         return state
+
+    # -- v16: warning as a first-class scenario parameter --------------
+
+    def _apply_warning(self, p):
+        """The 90-hour-clock finding made mechanics (findings log,
+        2026-07-22): the scenario DECLARES its warning assumption.
+        warning_baseline_days (Wb) is the acted-upon warning the
+        scenario's positions/arrival tables were written for;
+        warning_days (W) is this run's warning. Units tagged mob are
+        mobilization-clocked: shorter warning shifts them later by
+        (Wb - W) days (floor day 1); in-place mob units are pulled
+        into the arrival queue at max(1, Wb - W) — the Jutland
+        Division's battalions are not in their Schleswig positions
+        if nobody started their clock (Bogason Ch 6 / Helms 1975).
+        Longer warning moves mob arrivals earlier, floor day 1.
+        Wb = 0 (default) disables the whole mechanism (compat).
+        Known simplification, carried from the warning-clock run: a
+        displaced withheld unit rejoins as an ordinary arrival — the
+        massing subtlety is lost when W < Wb."""
+        wb = p.get("warning_baseline_days", 0)
+        if not wb:
+            return
+        shift = wb - p.get("warning_days", wb)
+        if shift == 0:
+            return
+        for ax in self.axes.values():
+            for force in (ax["blue"], ax["red"]):
+                for u in force.reserve:
+                    if u.mob:
+                        u.arrival_day = max(1, u.arrival_day + shift)
+                if shift > 0:
+                    late = max(1, shift)
+                    for u in [x for x in force.units if x.mob] + [
+                        x for x in force.withheld if x.mob
+                    ]:
+                        if u in force.units:
+                            force.units.remove(u)
+                        else:
+                            force.withheld.remove(u)
+                        u.arrival_day = late
+                        force.reserve.append(u)
 
     # -- theater grade (v9/v10) ----------------------------------------
 
@@ -900,7 +944,18 @@ class Campaign:
 
         if b_cv <= COLLAPSE_CV or not blue.has_maneuver:  # defense collapsed
             st.last_scale = 0.0  # no organized combat to supply
-            adv = self._engineer_advance(day, st, ax["spec"], p["march_kmd"])
+            # v16: an uncovered axis is not a free march. ORALFORE's
+            # resistance bands (reference/advance-rates.md §2/§6):
+            # negligible/admin ≈ 45-60 km/day, screened (slight-to-
+            # moderate) ≈ 10-23. A live delaying screen (territorial
+            # units, role="screen") holds red one band down and pays
+            # for the delay with itself. Defaults reproduce pre-v16
+            # behavior (uncovered_kmd falls back to march_kmd).
+            rate = p.get("uncovered_kmd", p["march_kmd"])
+            if blue.screen_cv > 0:
+                rate = p.get("screen_kmd", rate)
+                blue.attrit_screen(p.get("screen_attrit_frac", 0.0))
+            adv = self._engineer_advance(day, st, ax["spec"], rate)
             st.feba_km += adv
             self._log(
                 day,
@@ -1046,6 +1101,8 @@ class Campaign:
                 naval=air_naval,
                 bfill=bfill,
                 rfill=rfill,
+                bmult=b_mult,
+                rmult=r_mult,
                 ratio_known=True,
             )
             return
@@ -1101,6 +1158,8 @@ class Campaign:
             naval=air_naval,
             bfill=bfill,
             rfill=rfill,
+            bmult=b_mult,
+            rmult=r_mult,
             pause=st.red_paused,
             ratio_known=True,
         )
@@ -1263,6 +1322,8 @@ class Campaign:
         commit=0,
         bfill=1.0,
         rfill=1.0,
+        bmult=1.0,
+        rmult=1.0,
         pause=False,
         ratio_known=False,
         naval=0.0,
@@ -1289,6 +1350,8 @@ class Campaign:
                 commit=commit,
                 bfill=round(bfill, 2),
                 rfill=round(rfill, 2),
+                bmult=round(bmult, 3),
+                rmult=round(rmult, 3),
                 pause=pause,
                 deep_frac=round(getattr(self, "deep_frac_today", 0.0), 3),
                 air_naval=round(naval, 1),

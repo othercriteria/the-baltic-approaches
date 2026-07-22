@@ -27,13 +27,18 @@ class Battalion:
     arrival_day: int = 1  # campaign day the unit reaches the axis
     # (>1 = follow-on echelon; subject to interdiction delay)
     # line | reserve | beach-watch | corps-reserve | amphib |
-    # amphib-air | amphib-convertible | zealand-garrison
+    # amphib-air | amphib-convertible | zealand-garrison | screen
     role: str = "line"
     division: str | None = None  # v8: owning formation (echelon tag)
     # v13: air-landing-capable (the Saltnicken inference — a line
     # formation that "has landing operations as an option"); red may
     # divert it from the mainland schedule into the airborne pool
     air_capable: bool = False
+    # v16: mobilization-clocked — this unit's position/arrival was
+    # written assuming the scenario's warning_baseline_days of
+    # acted-upon warning; shorter warning shifts it later (the
+    # 90-hour clock as scenario semantics, not a scratch hack)
+    mob: bool = False
 
     @property
     def effective_cv(self):
@@ -63,6 +68,12 @@ class Force:
     # Staging area (red): arrived echelon units massing before
     # commitment — the whole-echelon discipline. Not in contact.
     staging: list[Battalion] = field(default_factory=list)
+    # v16: delaying screen (territorial/Home-Guard elements). Not a
+    # line: takes no part in the organized battle. Acts only when
+    # the axis has NO organized defense — an uncovered axis with a
+    # live screen concedes ground at the screened band, not the
+    # unopposed one (ORALFORE, reference/advance-rates.md §6).
+    screen: list[Battalion] = field(default_factory=list)
 
     @property
     def cv(self):
@@ -79,6 +90,17 @@ class Force:
     @property
     def staging_cv(self):
         return sum(u.effective_cv for u in self.staging)
+
+    @property
+    def screen_cv(self):
+        return sum(u.effective_cv for u in self.screen if u.strength > ALIVE_STRENGTH)
+
+    def attrit_screen(self, frac):
+        """A screening day costs the screen (dispersed, overrun,
+        brushed aside) — delay is bought with the screen itself."""
+        for u in self.screen:
+            if u.strength > 0:
+                u.apply_loss_fraction(frac)
 
     def commit_staging(self):
         """Commit the staged echelon to the line; returns count."""
@@ -161,6 +183,7 @@ def load_scenario(path, year=None):
             role=u.get("role", "line"),
             division=u.get("division"),
             air_capable=u.get("air_capable", False),
+            mob=u.get("mob", False),
         )
         if year and bn.in_service and bn.in_service > year:
             dropped.append(bn.name)
@@ -175,7 +198,9 @@ def load_scenario(path, year=None):
             data["zealand_garrison_units"].append(bn)
             continue
         force = axes[u["axis"]][u["side"]]
-        if bn.arrival_day > 1:
+        if bn.role == "screen":
+            force.screen.append(bn)
+        elif bn.arrival_day > 1:
             force.reserve.append(bn)
         elif bn.role == "reserve":
             force.withheld.append(bn)

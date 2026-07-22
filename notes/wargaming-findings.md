@@ -4,6 +4,97 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-22 — v16: THE RE-BASELINE (the v15 gate discharged; session 3845eb93)
+
+Campaign 3 opens by paying the v15 gate. Mechanics (all
+default-off; 80 tests green; pre-v16 baselines reproduce):
+**warning as scenario semantics** (warning_baseline_days /
+warning_days params; units tagged `mob` shift by Wb−W, in-place
+mob units pulled to the queue at max(1, Wb−W) — the warning-clock
+scratch hack promoted, with its known massing simplification
+carried and documented); **the delaying screen** (role="screen"
+units; an axis with NO organized defense concedes at
+`uncovered_kmd` — ORALFORE negligible/admin band, 50 — or at
+`screen_kmd` (15, screened band) while a live screen exists,
+which attrits screen_attrit_frac per screening day, a DECLARED
+free parameter); **demand multipliers logged** (bmult/rmult in
+DayLog — the staff can now see its own demand model);
+`warning_days` added to the sweep's perturbation set.
+
+**The canonical scenario is now
+wargame/scenarios/toy-landjut-v16.toml** (toy-landjut.toml FROZEN
+as the campaign-1/2 baseline): year 1983 (the provisional pin),
+posture demand ON, supply re-tuned (scratch/v16-retune.py: mean
+realized demand multipliers b 0.770 / r ~0.75-0.81 → blue 55→42,
+red 110→82, buildup 25→19; verified fills flat b .918/r .871 vs
+re-tuned posture b .905/r .899 — red's residual +0.03 is the
+pause hysteresis self-regulating, declared not chased), mob tags
+on the 90-hour movers + Danish/German mob flow + UKMF, and one
+territorial screen battalion per axis (HSchRgt 71/81 pattern,
+Dragoner-sourced structure, toy CV). Red architecture recast
+(covering force → Polish front, oob-verification.md) deliberately
+EXCLUDED so the v15 comparison stays clean — queued v17.
+
+**Finding 1 — the flagship claim is RETIRED, not restored.** At
+the re-tuned toy point (direct, n=30 x 21d) the v15 inversion
+PERSISTS: close 79.7 blue CV / 103 km beats deep 71.0 / 104
+(both hold 2.00; deep alone buys CA days, 3.1). But across the
+150-world sweep the ORDER REVERSES: mean CV deep 65.6 > split
+62.9 > close 62.0, "all-deep strictly better" 62% (was 99-100%
+under flat demand), axes held 150/150 in EVERY policy — the old
+flagship metric (axes held) saturates under the re-baseline and
+no longer discriminates. Successor claim, entered in the ledger:
+**a weak, point-dependent deep-preference (62%), with the CA
+window still deep-gated (89%)**. The G-4 meta-lesson in final
+form: the deep-vs-close ranking is hostage first to the demand
+model (v15), then to the parameter point (v16) — the staff
+argument is genuinely undecidable with period tools, which is
+the book's argument, not a modeling failure.
+
+**Finding 2 — the 90-hour clock's stake is the SCREEN, not the
+schedule.** Re-run of the W table on the re-baselined advocacy
+baseline: W=4 → CV 71.2; W=2 → 85.8; W=1 → 81.9; W=0 → 81.6 —
+all hold 2.00, FEBA 109-117. Short warning is now nearly free
+BECAUSE the screen exists: sensitivity isolates it — with no
+effective screen (screen_kmd=50) W=0 LOSES an axis (held 1.00,
+CV 31.2, FEBA 165); even a weak screen (25 km/d, attrit 0.5)
+restores held 2.00 / CV 77.1. Two consequences: (a) the
+uncovered-march repair (CAL-A, 25→50 km/d) makes the no-screen
+collapse path twice as bad as the old free march — the original
+90-hour table's middle rows were flattered exactly as flagged;
+(b) **Vorneverteidigung's price is quantified (~6-15 CV for
+standing forward from hour one) and its enabler identified: the
+territorial screen** — the GerEinh cadre battalions, the least
+glamorous units in the OOB, are what make the militarily-rational
+arrival schedule survivable. For the book: the corps' forward
+posture is paid for by reservists the corps doesn't command
+(TerrKdo S-H is national, not NATO — landjut-front.md), which is
+a command-friction scene the instrument found unprompted.
+Caveats: screen strength/attrition are declared free parameters;
+the screen cannot be bypassed at this grain; W-CV ordering above
+the survival floor is toy-point arithmetic, not doctrine.
+
+**Finding 3 — the tempo payload thins under honest demand.** The
+advocacy baseline generates 0.0 CA days at the re-baselined point
+(deep=1.0 direct still generates 3.1): a posture-billed red
+economizes, culminates less, and opens fewer windows —
+consistent with v15's mechanism. CA-needs-deep survives at 89%
+in the sweep. The counterstroke chapter's premise (the window
+interdiction buys) now depends on red fighting at flat-rate
+appetite — i.e., on red's quartermaster being as overconfident
+as his G-3. That is red's version of the consumption meta-lesson
+and belongs in the enemy-model ledger.
+
+**Queued from here:** v17 red architecture recast (2-day
+GDR/Soviet covering force → Polish front echelons, one-army
+Jutland weight — oob-verification.md, php-maritime-front.md);
+the NBC conceit's two measurement-only adds (red norm-shortfall
+vs the nuclear timeline; conceit-envelope validity check —
+planning/nbc-conceit.md §6); CAL-C resistance-band advance
+ladder to replace the advance_ratio gate; November weather
+states from november-climate.md (flyable-day fraction still an
+ASSUMPTION pending the RUSSWO table).
+
 ## 2026-07-22 — the 90-hour clock (pre-campaign-3 calibration run; no mechanics)
 
 DK asked whether the CIA/Bogason acquisitions merit a run before

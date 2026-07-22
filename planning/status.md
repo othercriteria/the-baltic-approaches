@@ -6,11 +6,11 @@ everything cites its source doc. The lineage log is in
 notes/attribution-ledger.md — log your session start there before
 working (CLAUDE.md, Provenance). Successor's first acts:
 `make raw-archive SESSION=71ede904-8327-4534-a71e-c4922ebbd729`,
-then `make archive SKIP=<your-uuid>`. **First instrument task: the
-v15 re-baseline** (declared warning parameter W + posture demand +
-full sweep — see the findings log's 90-hour-clock and v15
-entries); no campaign-1/2 policy ranking informs canon until it
-runs.*
+then `make archive SKIP=<your-uuid>`. ~~First instrument task: the
+v15 re-baseline~~ **RUN 2026-07-22 (v16, session 3845eb93)** — the
+gate is discharged; see the findings log's v16 entry for the
+verdict (flagship claim retired; weak deep-preference; the screen
+finding).*
 
 ## The broad outline as it stands (DK: "broad outline is set")
 
@@ -47,11 +47,23 @@ runs.*
   insurance gamed, pin decomposed and priced — drill closed by DK
   ratification at ~13 CV residual swing), the division engineer
   grade, and CAL-1/CAL-2 calibration. Findings log carries it all.
-  **STANDING GATE: v15/CAL-2 suspended the flagship
-  interdiction-dominance claim (it was conditional on flat demand);
-  the successor's first instrument task is a re-baselined scenario
-  under demand_posture=true + full sweep. No campaign-1/2 policy
-  ranking informs canon until that runs.** The two staged
+  ~~STANDING GATE: v15/CAL-2 suspended the flagship claim~~ →
+  **GATE DISCHARGED 2026-07-22 (v16, session 3845eb93): the
+  re-baseline ran** — posture demand on, supply re-tuned, warning
+  declared + swept, delaying screen modeled, full sweep re-run.
+  Verdict: the flagship interdiction-dominance claim is RETIRED
+  (toy point now favors close; the 150-world sweep favors deep
+  weakly, 62%; axes held saturates at 100% and stops
+  discriminating). Successor claims in the ledger: weak
+  point-dependent deep-preference; CA window deep-gated (89%);
+  and the NEW screen finding — short warning's survivability
+  rides on the territorial screen, and Vorneverteidigung's price
+  is ~6-15 CV paid for by reservists the corps doesn't command.
+  Canonical scenario: wargame/scenarios/toy-landjut-v16.toml
+  (year 1983; toy-landjut.toml frozen as campaign-1/2 baseline).
+  Queued: v17 red-architecture recast (Polish front behind the
+  2-day screen), NBC measurement adds, CAL-C advance ladder,
+  weather states. The two staged
   questions are now four: what is the goal / what does the enemy
   think it is / what does the enemy think WE think it is / and
   whose consumption model is the argument standing on.

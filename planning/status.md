@@ -171,10 +171,14 @@ should attack before drafting:
 
 ## Standing DK reminders (loose ends outside the repo)
 
-- Create the private GitHub remote (othercriteria/
-  the-mission-1986-private) and push the holdings repo; the
-  submodule's relative URL then resolves for fresh clones.
-- Main repo has unpushed commits (push at your pleasure).
+- ~~Create the private GitHub remote and push the holdings repo~~
+  DONE 2026-07-22 (session 71ede904, DK-approved in-session):
+  repo created private via API, verified private before AND after
+  push (anonymous GET 404s), holdings main pushed, main repo
+  pushed, submodule relative URL verified by fresh clone +
+  submodule init. gh added to flake.nix for future GitHub API
+  work.
+- ~~Main repo has unpushed commits~~ pushed 2026-07-22.
 - After this session ends: `make raw-archive
   SESSION=1a9aba32-d86d-41c9-9fe6-f89d300b45c0` (a session cannot
   archive its own live JSONL; the successor or DK does it).

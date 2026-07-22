@@ -354,6 +354,16 @@ ITEMS = [
         "https://www.cia.gov/readingroom/docs/1984-06-01b.pdf",
         "c1b396b73f72a27407d4f603bfab4e7ecf1cf0e82b020391032ebe9038c8177e",
     ),
+    # SNIE 11/17-2-84/L (late 1984, sanitized): the COORDINATED
+    # community position on Soviet chemical warfare — adopts the
+    # 'selective'/WMD-gated view over NIE 11-14-81's 'massive',
+    # with the Army's dissent on the record. DK browser fetch
+    # 2026-07-22 (reading-room DOC_0000284028).
+    (
+        "cia-snie-11-17-2-84-soviet-chemical-threat-nato.pdf",
+        "https://www.cia.gov/readingroom/docs/DOC_0000284028.pdf",
+        "1ec0306c09559ddd3c9c35bb2c0f1e06cbd6dfba63c4b3bbd63686cba853f4f0",
+    ),
     # Batch 6 (2026-07-21, period FM 71-series hunt, session 71ede904).
     # FM 71-100 1990 was never webbed (CARL bibliography lists it,
     # links no file); the 1978+C1 edition below is the manual actually

@@ -204,6 +204,66 @@ in the IC's own voice:
   Romania kept a small domestic stockpile because it doubted
   Soviet wartime nuclear sharing [p. 7 fn].)
 
+### The community estimate — the interagency split on the record
+### (DK browser fetch 2026-07-22, second of the day)
+
+SNIE 11/17-2-84/L, *The Soviet Offensive Chemical Warfare Threat
+to NATO* (late 1984 — bibliography entries run to September 1984,
+cover annotation reads November 1984; sanitized, CIA HRP release;
+22 pp;
+reference/pdf/cia-snie-11-17-2-84-soviet-chemical-threat-nato.pdf).
+The COORDINATED community position (CIA, DIA, NSA, State + all
+four services), i.e. the answer to "did the IC buy SOVA's June
+1984 reassessment?" — mostly yes, with the Army's dissent
+formally recorded. **Post-setting — for us.**
+
+- **The self-aware break with the past:** "the views expressed in
+  this Estimate represent a significant departure from NIE
+  11-14-81... The Intelligence Community previously held the view
+  that if the Pact were to employ chemical weapons against NATO
+  it would do so on a 'massive' scale... We now believe that the
+  Pact would not use chemical weapons in that fashion. We have
+  chosen the term 'selective'" [Key Judgments pp. 2-3]. And:
+  "The use of chemical weapons is not a standard, integral
+  feature of the nonnuclear phase of war... initial release...
+  would require a decision at the highest Soviet political and
+  military levels" [KJ p. 3] — the community formally adopting
+  the WMD-gated view in late 1984.
+- **"All but Army agree** that, if the Soviets decided to employ
+  chemical weapons, such use would most likely occur
+  simultaneously with or subsequent to nuclear operations" [KJ
+  p. 3]. The Army footnote dissents in exactly FM 100-2-1's
+  voice: the decrease is quantity not doctrine, delivery "by
+  tube artillery, multiple rocket launchers, and aircraft"
+  remains provided for, and "chemical warfare can be separated
+  from nuclear warfare and must be considered in that
+  perspective" [KJ p. 3 fn. 1]. **The service that writes the
+  blue G-2's manual is the recorded dissent from the
+  community's benign turn** — so a corps staff briefing the
+  integrated threat in Nov 1983 isn't merely behind the times;
+  it stands where its own service's intelligence chief still
+  stood a year later.
+- **The refined threat model** (usable for red's decision tree):
+  likelihood of initiation "low as long as their conventional
+  operations against NATO proceeded satisfactorily"; selective
+  use conceivable "against key targets as a part of a strategy
+  to undermine NATO's escalatory capability during the
+  transitional period from conventional to nuclear warfare" [KJ
+  p. 3] — i.e., even the pessimistic case attaches chemical to
+  the ESCALATION seam, not to the conventional campaign. This is
+  the conceit's envelope stated by the IC: chemical risk turns
+  on (a) red's conventional campaign failing or (b) the nuclear
+  transition opening — both of which are exactly what the
+  conceit-envelope validity check already watches.
+- **The asymmetry, in the scope note's own words:** NATO's
+  "limited ability to reply in kind — based on aging US chemical
+  munitions — has forced the Alliance to threaten nuclear
+  retaliation for a Pact chemical attack" [Scope Note p. v] —
+  the official statement of the §3 retaliation gap, and of why
+  chemical use anywhere IS an escalation question.
+- Successor document named: NIE 11/17-85 (comprehensive CBW
+  program treatment, scheduled May 1985) — fetch-queue candidate.
+
 ## 2. Blue's defensive posture and its cost
 
 ### MOPP levels and documented degradation

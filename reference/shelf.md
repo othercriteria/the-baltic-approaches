@@ -202,6 +202,10 @@ repo so the only road for such files is the holdings repo.
   (which armies, which echelon, what timings)
 - Goldratt, *The Goal* (structure model — mentor dialogues, metrics
   engine)
+- Bracken, *The Command and Control of Nuclear Forces* (Yale 1983)
+  — period-exact release-procedure bench for the NBC conceit's one
+  earned scene (planning/nbc-conceit.md); free/PD alternatives to
+  check first: period NPG/MC 14/3 open literature
 - ~~Dupuy, *Numbers, Predictions and War*~~ → acquired, see Holdings
 - Epstein, *The Calculus of Conventional War* (1985; anti-Lanchester
   tempo model)

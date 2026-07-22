@@ -55,6 +55,15 @@ runs.*
   questions are now four: what is the goal / what does the enemy
   think it is / what does the enemy think WE think it is / and
   whose consumption model is the argument standing on.
+- **NBC conceit: LOCKED (DK directive 2026-07-22) —
+  planning/nbc-conceit.md.** No NBC use in-book; nuclear/chemical
+  stay priced, unexercised branches in both decision trees;
+  non-use is operationally load-bearing (red runs its documented
+  slow timeline; blue's conventional performance keeps its own
+  release question a draft; both release clocks slower than the
+  decisive phase). One earned scene, then no lampshading. Escape
+  clause is instrument-gated (conceit-envelope checks) and ends
+  at the Andon Cord, not in drafting.
 - **Research shelf:** reference/shelf.md (manifest of record; 56
   pinned documents after the 2026-07-21/22 hunts + DK's CIA fetches), reference/landjut-front.md (front facts,
   sourced, TO-VERIFY flags), reference/bulk-survey.md (/bulk map).

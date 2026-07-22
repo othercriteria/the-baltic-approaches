@@ -31,7 +31,9 @@ characters (shelf discipline).*
   fetched 2026-07-21] In a November-1986 setting the corps
   commander is German; a year re-pick to 1983-84 makes him Danish —
   **the setting-year choice and the command's nationality are
-  coupled** (noted in planning/setting-time.md criteria). Per the
+  coupled** (planning/setting-time.md criteria; RESOLVED by the
+  provisional 1983 ruling 2026-07-22: incoming commander Danish —
+  deviations register entry 1). Per the
   no-borrowed-furniture premise, the officeholder is fictionalized;
   the office and its alternation pattern are the researched
   furniture we keep.
@@ -150,14 +152,17 @@ permitted, declared, and priced — never silent. (Officeholders are
 fictional throughout per no-borrowed-furniture; entries here are
 for *structural* departures.)
 
-1. **COMLANDJUT alternation phase** (proposed 2026-07-21, pending
-   ruling): the fictional GE/DA alternation may run offset from the
-   historical one so that a change of command falls ~October of the
-   setting year — the war catches the corps with a new commander of
-   the other nation who missed the autumn exercise. Price: nil
-   beyond the offset itself; the alternation pattern and tour
-   lengths stay historical. See planning/protagonist-echelon.md,
-   "The change-of-command device."
+1. **COMLANDJUT alternation phase** (proposed 2026-07-21; made
+   concrete by the 1983 setting ruling, 2026-07-22): the fictional
+   GE/DA alternation runs offset ~one year from the historical
+   (historical change GE→DA was 1982: Kießling→Asmussen) so that
+   the change of command falls **October 1983 — incoming
+   commander DANISH, predecessor German**, three weeks in post
+   when the war comes, having missed the autumn exercise. Price:
+   nil beyond the offset itself; the alternation pattern and tour
+   lengths stay historical; officeholders fictional throughout.
+   See planning/protagonist-echelon.md, "The change-of-command
+   device"; ruling in planning/setting-time.md.
 
 ## Research queue (front-specific)
 

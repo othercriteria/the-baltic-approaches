@@ -1,13 +1,58 @@
 # Setting time: year and season
 
 *Opened 2026-07-20 on DK's ruling that "1986" was an arbitrary
-placeholder, now unpinned. The repo name and working title keep the
+placeholder, then unpinned. The repo name and working title keep the
 number until a real title exists; nothing narrative is committed to
 it.*
 
-## The year (unpinned; re-pick in Phase 1)
+## RULING (DK, 2026-07-22, in-session to 3845eb93): provisionally
+## November 1983
 
-Criteria for the re-pick, in rough priority order:
+Same epistemic status as the season pick: provisional, test in
+Phase-1 sketches and sample scenes before canon. DK's stated
+grounds: 1986 felt late for AirLand Battle to be as unsettled as
+the book wants to treat it (with the caveat that TRADOC's 1982-84
+posture may itself have been wish-casting/pitch-framing/attempted
+fait accompli — which is usable texture, not a counter-argument);
+and 1983 buys the "romp" (criterion 7's offensive plan of record).
+The session's brief (transcript, 2026-07-22) walked all seven
+criteria; headline consequences:
+
+- **Commander succession pins GE→DA**: with the registered
+  alternation-offset deviation, the October-1983 change of command
+  makes the incoming COMLANDJUT **Danish**, three weeks in post —
+  landing amid fodnotepolitik and the INF deployment month.
+  Protagonist nationality remains the pure voice choice
+  (three of the four coupled axes now provisionally set).
+- **Red believes its plan**: the 1983 offensive plan of record
+  (criterion 7) makes red the overconfident throughput-forecaster —
+  on-theme; the 1985+ defensive revisions become the road not yet
+  taken.
+- **Criterion 6 flips to the early-window branch**: the Zealand
+  threat is the knowable Polish 1977 plan (7th Landing Division
+  still a division); the late-window Soviet-opacity irony is
+  foregone — the G-2's failure becomes interpretive, not
+  informational.
+- **Period line moves to ≤1983** (shelf.md discipline updated):
+  FM 100-2-1 (1984), the CIA 1984/1989 papers, NIE 11-14-85,
+  FM 24-18 (1987), FM 101-10-1 (1987) are all OUR references now,
+  not character-knowable; the character-knowable Soviet-threat
+  bench (FM 30-40 era, Soviet Military Power 1981/83) is a new
+  fetch-queue item.
+- **Hardware**: no Oka, thin/converting Marineflieger Tornado force
+  (air-apportionment 1983 re-check flagged there), US 9th ID
+  mid-motorized-conversion; Danish F-16s and Leopard 1A3s fine.
+- **Kept-live counter-brief**: a middle year (1984-85) retains
+  doctrine-unsettledness with more Tornados and CIA-table
+  exactness, but dilutes both stated grounds; and criterion 7 says
+  1985 is when red's plan stops cooperating. Able Archer hazard
+  noted: the war-scare's near-miss character is post-Cold-War
+  knowledge (Gordievsky-era revelation) — characters cannot
+  perceive it; usable as dramatic irony only.
+
+## The year criteria (retained for the Phase-1 re-test)
+
+Criteria, in rough priority order:
 
 1. **Doctrine-arc position.** The reader contract wants a periphery
    still running legacy doctrine while the center reforms. AirLand

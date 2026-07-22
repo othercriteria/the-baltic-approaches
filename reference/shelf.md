@@ -131,7 +131,16 @@ two IS articles have no legitimate open host → library list below.*
 - Dragoner, *Die Bundeswehr 1989* Teil 2.1 (Feldheer, III. Korps /
   6. PzGrenDiv volume) — carries the 6th PzGrenDiv detail and the
   NATO-assigned HSchBrig 51 that Teil 2.2 (held) points to; same
-  hobbyist mirror as the held volume
+  hobbyist mirror as the held volume (note: 1989 state — for us;
+  the 1983 state needs back-dating care)
+- **The 1983 G-2's shelf** (new 2026-07-22, from the year pin):
+  what a character can have read about the Soviet Army must be
+  ≤1983 — FM 30-40 *Handbook on Soviet Ground Forces* (1975), DIA
+  *Soviet Military Power* (1981 and March 1983 editions, public
+  domain, easy fetches), FM 100-2-x 1982 coordinating drafts if
+  webbed (the held 1984 finals are post-line). Also the period
+  FM 101-10-1 edition (1976/77) for anything in a character's
+  hands (consumption-factors.md caveat 2)
 - Glantz, *1985 Art of War Symposium: From the Dnepr to the Vistula*
   — likely CARL contentdm p4013coll8, same pattern as the held 1984
   transcript
@@ -221,12 +230,21 @@ repo so the only road for such files is the holdings repo.
 ## Shelf disciplines
 
 - Period line: primary doctrine must predate the setting year for
-  anything a character can know. The year is provisionally mid-80s
-  and UNPINNED (planning/setting-time.md) — so distillations must
-  tag source dates rather than assume 1986; later scholarship
-  (Glantz's later work, CSI retrospectives) is for *us* — mark
-  distillations accordingly so nothing anachronistic leaks into
-  characters' mouths (CLAUDE.md voice rule).
+  anything a character can know. **The year is provisionally
+  NOVEMBER 1983** (pinned provisionally 2026-07-22,
+  planning/setting-time.md) — the character-knowable line is
+  **≤1983**. Held items now on OUR side of the line (instrument
+  and author reference, not character-knowable): FM 100-5 (1986),
+  FM 100-2-1 (1984), FM 101-10-1 (1987), FM 24-18 (1987), the
+  FM 71-series 1988 editions, Romjue (1984), NIE 11-14-85, both
+  CIA papers (1984/1989), HERO attrition handbook (1986), CHASE
+  (1986), the Glantz/CSI prints of 1984-86, Mearsheimer 1988/89 +
+  IS 13:4. Character-side anchors: FM 100-5 (1976 and 1982),
+  TRADOC Pam 525-5 (1981), Leavenworth P-16's subject matter, BDM
+  Balck/von Mellenthin (1980), NIE 11-14-79/-81, NI IIM 83-10002,
+  Mearsheimer 1982, ORALFORE (1972, via the QJM lineage).
+  Distillations must tag source dates; the pin is provisional, so
+  keep tagging rather than deleting the discipline.
 - Every fetched item gets pinned (sha256) in the fetch script; a
   moved/dead URL is a fix-the-script event, not a lose-the-source
   event.

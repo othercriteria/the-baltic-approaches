@@ -33,9 +33,13 @@ runs.*
   commander of the other nation, three weeks in post, missed the
   autumn exercise. Deviations register opened
   (reference/landjut-front.md).
-- **Time:** year unpinned within ~1983-87 (now coupled to commander
-  nationality — planning/setting-time.md criterion 5); season
-  provisionally November.
+- **Time: provisionally NOVEMBER 1983** (DK ruling 2026-07-22,
+  planning/setting-time.md — grounds: ALB genuinely unsettled in
+  1983, and criterion 7's offensive red plan of record; ripple
+  applied: period line ≤1983, GE→DA October-1983 change of
+  command, incoming COMLANDJUT Danish; counter-brief 1984-85 kept
+  live; test in Phase-1 sketches before canon). Protagonist
+  nationality remains the open voice choice.
 - **Instrument:** campaign 1 closed at v6; campaign 2 ran v7-v15
   (2026-07-21/22, session 71ede904): theater air apportionment +
   corps advocacy, echelon decomposition (three decision grades,
@@ -160,9 +164,11 @@ should attack before drafting:
 1. Phase 1 planning proper: outline, parts structure, the ledgers
    (CLAUDE.md lists them; the wargame ledger bridge exists —
    wargame/ledger.py).
-2. The coupled character/setting decision: year x commander
-   nationality x protagonist nationality x succession direction —
-   settle via character sketches (one pass; all four move together).
+2. The coupled character/setting decision: ~~year x commander
+   nationality x succession direction~~ (provisionally set
+   2026-07-22: 1983, Danish incoming, GE→DA) x **protagonist
+   nationality** (still open, pure voice) — settle the last axis
+   via character sketches.
 3. Calibration research pass (blocking model work, not writing):
    ~~FM 101-10-1 consumption extraction~~ (done 2026-07-21 →
    reference/consumption-factors.md, CAL-1..4; Vol-1 TOE strengths

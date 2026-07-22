@@ -107,6 +107,29 @@ content at all). But it hardens the command skeleton:
   simultaneous engagements, alternate at Vedbæk [Ch 6]; nuclear
   releasing authority delegated to Karup under Code GREEN [Ch 9].
 
+## 1983 re-check (flagged 2026-07-22 on the provisional year pin)
+
+The note was drafted against a mid-80s frame; a November-1983
+setting changes the force behind the structure (the structure
+itself — Karup decides, corps requests, 2 ATAF air-defence
+carve-out, ASCA — is stable across the window):
+
+- **The Marineflieger in late 1983 is mid-conversion**: MFG 1 took
+  its first Tornado July 1982 (operational readiness building
+  through 1983-84); MFG 2 still on F-104G with Kormoran. Op
+  Hurricane in 1983 leans on Starfighters plus a green, partial
+  Tornado wing — the Hurricane-vs-BAI contest is over a thinner,
+  less capable pool than the mid-80s framing implies. TO-VERIFY:
+  MFG 1's actual Nov-1983 operational aircraft count and
+  Kormoran-clearance state.
+- Danish F-16 force in late 1983: two squadrons converted (Esk 727,
+  730), the Draken squadrons still carrying strike/recce roles —
+  TO-VERIFY exact 1983 orbat before the sortie model cites it.
+- The ASCA compromise (1978) and the 2 ATAF carve-out both predate
+  1983 — no change.
+- FM 100-26 (the held apportionment-procedure cite) is 1973 — safely
+  character-knowable at 1983.
+
 ## Unknown / next sources
 
 - BALTAP OPLAN/SOP text naming authority or percentages: primary

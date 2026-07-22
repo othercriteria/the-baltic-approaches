@@ -96,7 +96,8 @@ blind truncated readers · hostile + regression certification rounds
 
 - **Voice:** ensemble members distinct; no anachronistic concepts (nothing
   post-setting-year in characters' mouths or frames; the year is
-  provisionally mid-80s and unpinned — planning/setting-time.md).
+  provisionally November 1983, pinned provisionally 2026-07-22 —
+  planning/setting-time.md).
 - **Didactic honesty:** each chapter's doctrinal payload earned in-scene, not
   briefed at the reader. The Goal's seminar unapologetically committed to its
   form — decide our register and hold it.

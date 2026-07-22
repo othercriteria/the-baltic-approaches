@@ -74,6 +74,11 @@ entity index generatable instead of reconstructable.
   of predecessor, `make archive`, this line. Opening task per DK:
   research-situation survey (agent-side and DK-gated) before the
   next instrument campaign.
+- 2026-07-22 — setting-year ruling (DK, in-session to 3845eb93):
+  **provisionally November 1983** (was: unpinned ~1983-87), on the
+  session's seven-criteria brief; ripple applied same day (period
+  line ≤1983, GE→DA October-1983 change of command, incoming
+  COMLANDJUT Danish). Record in planning/setting-time.md.
 
 ## Entity index
 

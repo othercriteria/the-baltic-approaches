@@ -83,6 +83,30 @@ the split itself.
   assuming command of AFNORTH air in war) is attested-but-thin;
   geography made the practical decision Karup's regardless.
 
+## Bogason pass (2026-07-22; scrape in holdings, tables unusable)
+
+The book is navy-centric: **the who-decides-the-daily-split
+question stays inference-only** (no apportionment/ATOC/ASOC/TACP
+content at all). But it hardens the command skeleton:
+- The 2 ATAF carve-out, precisely bounded [Ch 8]: 2 ATAF held
+  "operational control of aircraft in Schleswig-Holstein... even
+  after the BALTAP command was established; COMAIRBALTAP only had
+  operational command of air forces north of the Danish-German
+  border" — though tactical command within BALTAP. The functional
+  split [Ch 9]: AIRBALTAP offensive operations to the Elbe; 2 ATAF
+  air defence of all Schleswig-Holstein (with the HAWK/NIKE belts).
+- **The deconfliction machinery is named**: a 1978 compromise
+  created an "Air Space Control Authority" to coordinate the two
+  commands [Ch 9] — the interface our note listed as unknown.
+- Lineage: pre-1962 the same split ran COMTAFDEN (Karup, under
+  AFNORTH) vs 2 ATAF, and exercise HOLD FAST 1960 documented the
+  friction ("COMTAFDEN got little information about what happened
+  in the air") [Ch 6] — the arrangement AIRBALTAP was built to
+  fix, and textbook material for the book's air-argument scenes.
+- Karup fighter command centre capacity: 290 tracks / 50
+  simultaneous engagements, alternate at Vedbæk [Ch 6]; nuclear
+  releasing authority delegated to Karup under Code GREEN [Ch 9].
+
 ## Unknown / next sources
 
 - BALTAP OPLAN/SOP text naming authority or percentages: primary
@@ -92,10 +116,10 @@ the split itself.
 - Formal designation/manning of LANDJUT's air cell and AIRBALTAP's
   offensive tasking centre; the 2 ATAF deconfliction machinery over
   S-H.
-- **Bogason, *NATO and the Baltic Approaches 1949-1989* (De
-  Gruyter 2023, 622 pp)** — the definitive secondary source, built
-  on the Danish war-plan archives; paywalled. → purchase list /
-  holdings candidate.
+- ~~Bogason~~ → purchased + scrape in holdings 2026-07-22; mined
+  (see the Bogason pass above). Remaining machinery leads: Thostrup
+  in *Safeguarding Security in the Baltic Approaches 1962-2002*;
+  Helms's two *Tidsskrift for Søvæsen* articles (2005).
 
 ## Consequences
 

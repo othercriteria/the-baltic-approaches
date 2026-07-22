@@ -50,9 +50,20 @@ characters (shelf discipline).*
   language is a gift: German and Danish officers arguing doctrine
   in English, the language the new American manuals arrive in —
   the doctrine-returns-home thread acquires a linguistic layer.
-- TO-VERIFY: whether commander/deputy/CoS nationalities were
-  formally counterposed (German commander → Danish CoS?); actual
-  staff size; which G-posts were customarily which nation.
+- ~~TO-VERIFY: counterposing~~ → CONFIRMED (Bogason Ch 9, 1962
+  founding rules): alternating GE/DA chiefs at LANDJUT, "their
+  chiefs of staff preferably coming from the other country; if
+  not, the senior member of the staff was to be from the other
+  country." COMBALTAP always Danish, German deputy, Danish CoS
+  [Ch 12]. Still open: Rendsburg staff size and which G-posts
+  which nation (leads: Thostrup memoir; Helms 2005 articles).
+- **The 90-hour clock** (Bogason Ch 6, from COMBALTAP Helms's 1975
+  analysis): relocation of the Danish Jutland Division to its
+  battle positions in Schleswig took about 90 hours — the
+  covering-force gap between the German division in place and the
+  Danish half arriving, measured by the theater commander himself;
+  Danish-German troop cooperation judged "less successful than
+  desired" in the same passage.
 - HQ support: Fernmeldebataillon 610 (Rendsburg) + a Danish signal
   battalion; corps-troops thinness is documented (Young: "the corps
   lacks assigned corps troops" — 1990s statement, TO-VERIFY for
@@ -156,10 +167,19 @@ for *structural* departures.)
 - 6th PzGren Division brigade structure and garrisons (Bundeswehr
   sources)
 - ~~Schleswig-Holstein Territorial Command structure~~ → source ON
-  THE SHELF: Dragoner, *Die Bundeswehr 1989* Teil 2.2
-  (Territorialheer) — Davies-grade compendium, TerrKdo S-H OOB;
-  read + cross-check against Davies's "corps-sized, two divisions"
-  claim still owed before the OOB ledger encodes it.
+  THE SHELF (Dragoner, Teil 2.2) AND now UNDERCUT by Bogason
+  [Ch 6]: "The Germans originally planned two divisions, but in
+  the end only one armoured division was set up" — Davies's
+  "corps-sized, two divisions" reads as the plan, not the fact.
+  Post-1981 territorial layer documented: 51st Home Defence
+  Brigade, 4,500 men (2 inf + 2 tank + 2 arty bns) supporting the
+  sixth division [Ch 14]. Dragoner cross-check still owed for the
+  1989 state before the OOB ledger encodes it.
+- **Bogason scan wishlist for the paperback** (scrape
+  tables/figures unusable): Ch 15 reinforcement table (UKMF
+  strength varies 29,000/15,000/10,000 across the scrape!), MC 70
+  force tables (8.3 etc.), BALTAP org charts, minefield map Fig
+  18.4, HURRICANE diagrams Figs 18.6-18.7.
 - HDv 100/100 (mid-80s edition) + Danish field regulations
 - BOLD GUARD / exercise records for LANDJUT (war-origin cover +
   procedure texture)

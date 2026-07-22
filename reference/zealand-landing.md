@@ -214,6 +214,23 @@ be the barrier your own allies believe you cannot lay — and
 nobody in any of the three headquarters knows which picture is
 true.
 
+**Bogason's own perception-vs-reality verdicts** [added
+2026-07-22]: "In the 1980s the Danish Intelligence Office
+considered the risk of an attack by the WAPA to be relatively
+low"; "the Danes did not at any time see any imminent risk"
+[Ch 18-19] — consistent with our FE picture. His revising nuance:
+~1980 the feared case shifted to LIMITED aggression — a
+below-NATO-threshold grab of "Bornholm or Lolland and Falster as
+an element of political pressure against the Danish government"
+[Ch 18] — a threat mode our model does not represent (a
+sub-threshold island grab is neither feint nor full commit;
+noted, not queued). Op HURRICANE detail [Ch 18]: time-on-target
+coordinated HARPOON then EXOCET then KORMORAN strike to break an
+invasion force's momentum; helicopter targeting was planned "but
+neither navy had the equipment to do it until after the Cold
+War"; the nuclear alternative (SEP BARD BELL (E),
+SACEUR-authorized, outside Danish waters) tested Sept 1983.
+
 **The asymmetry that matters most for us:** FE updated UP easily
 and DOWN almost never — every downward datum was absorbed by the
 worst-case merchant-hull construct. Blue's estimate is not a clean
@@ -251,6 +268,20 @@ red partially controls:
   mobilization (~20 days), minesweeper massing, the actual
   air-superiority and mine-clearing campaigns.
 - *Blue-owned prior*: own mine-barrier state (political release).
+  Bogason [Ch 13, 18] now supplies the ladder exactly: nine
+  planned fields, 5,755 mines (1965 system); German-laid fields
+  east of Grønsund/Fehmarn, Danish the rest incl. the Køge/Faxe
+  anti-invasion fields; **release is a government decision**, but
+  the navy loads and takes waiting positions at Counter Surprise
+  Alert, lays CONTROLLED fields at Simple Alert, uncontrolled
+  mines at invasion beaches, full defensive mining at Reinforced
+  Alert — a graded, rehearsed sequence (ex. NORTHERN LIGHT 1967).
+  And his verdict splits the CIA-1984 hollow-capacity judgment:
+  "The navies had the capabilities for laying the minefields;
+  however, the main issue... was political: would the governments
+  decide to lay mines in time" [Ch 19] — while corroborating 1987
+  material decay ("critical deficiencies within 'decisive'
+  equipment like... mines"; replacement unaffordable) [Ch 18].
 - *The documented ratchet*: blue updates up fast, down slowly
   (institutional floor) — asymmetric update rates are not a
   modeling cynicism, they are the FE record. This gives the feint

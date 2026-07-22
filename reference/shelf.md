@@ -123,6 +123,14 @@ two IS articles have no legitimate open host → library list below.*
   two identified WP-Baltic docs need a browser fetch (DK): ex.
   VAL-77, and the Maritime Front offensive-operation decision
   (Jutland/Straits) — digitalarchive.wilsoncenter.org
+- **CIA chemical-warfare estimates** (2026-07-22,
+  reference/chemical-posture.md §7; cia.gov bot-blocked → DK
+  browser tier): *Soviet Doctrine for Offensive Chemical Warfare
+  Against NATO* (1984), *The Soviet Offensive Chemical Warfare
+  Threat to NATO*, *Indications and Warning of Soviet Intentions
+  to Use Chemical Weapons* (1978), *Soviet Motivations for the Use
+  of Chemical Weapons in Afghanistan and Southeast Asia* — URLs in
+  the chemical-posture open items
 - **NIE siblings named by the held estimates** (2026-07-22,
   reference/nie-threat-estimates.md; cia.gov bot-blocks this
   network → DK browser tier if released): NIE 4-1-78 (the

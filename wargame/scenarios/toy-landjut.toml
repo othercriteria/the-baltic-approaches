@@ -768,3 +768,9 @@ kind = "inf"
 cv = 7
 arrival_day = 99
 role = "beach-watch"
+
+# v15 (CAL-2): posture-dependent demand — consumption scales with
+# yesterday's engagement intensity on the FM 101-10-1 ladder
+# (reference/consumption-factors.md §2; defense out-draws attack).
+# Off by default: flip to true once re-baselined.
+demand_posture = false

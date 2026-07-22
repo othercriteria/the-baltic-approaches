@@ -163,6 +163,9 @@ class AxisState:
     demo_blown: bool = False
     demo_captured: bool = False  # red took the bridge intact
     crossing_left: int = 0  # red bridging-operation days remaining at the line
+    # v15 (CAL-2): yesterday's realized contact intensity — the staff
+    # orders resupply on yesterday's expenditure
+    last_scale: float = 1.0
 
 
 @dataclass
@@ -763,9 +766,20 @@ class Campaign:
         # resilience, through an effectiveness floor.
         bfill, rfill = 1.0, 1.0
         floor = p.get("supply_floor", 1.0)
+        # v15 (CAL-2): posture-dependent demand — consumption scales
+        # with engagement intensity (reference/consumption-factors.md
+        # §2 ladder: defense-day-1 1.0 ... inactive 0.41; attack
+        # capped at 0.8 of the defense rate, the FM's documented
+        # direction). Yesterday's realized scale is today's demand
+        # basis. Off unless demand_posture = true (baseline compat).
+        posture = p.get("demand_posture", False)
+        b_mult = (0.41 + 0.59 * st.last_scale) if posture else 1.0
+        # A paused red's consumption is governed by the pause face
+        # (same FM anchor) — the intensity face must not stack on it.
+        r_mult = (0.41 + 0.39 * st.last_scale) if posture and not st.red_paused else 1.0
         if p.get("blue_supply_points", 0.0) > 0:
             cap = p["blue_supply_points"] / n_live
-            demand = p["blue_demand_per_cv"] * max(blue.cv, 1e-9)
+            demand = p["blue_demand_per_cv"] * max(blue.cv, 1e-9) * b_mult
             bfill = min(1.0, cap / demand) if demand > 0 else 1.0
         if p.get("red_supply_points", 0.0) > 0:
             stretch = 1.0 - p.get("red_loc_penalty", 0.0) * (st.feba_km / st.length_km)
@@ -777,7 +791,7 @@ class Campaign:
             # today's flow interrupted instead of the echelon delayed.
             if air_deep > 0 and p.get("deep_target", "echelon") == "throughput":
                 cap = max(cap - air_deep * p.get("deep_supply_per_point", 0.0), 0.0)
-            demand = p["red_demand_per_cv"] * max(red.cv, 1e-9)
+            demand = p["red_demand_per_cv"] * max(red.cv, 1e-9) * r_mult
             # Operational pause with hysteresis: a starved red stops
             # to build supply forward (the pulsed offensive) instead
             # of grinding at the floor; it resumes on a stockpile.
@@ -816,6 +830,7 @@ class Campaign:
             b_cv = blue.cv
 
         if b_cv <= 0.5 or not blue.has_maneuver:  # defense collapsed
+            st.last_scale = 0.0  # no organized combat to supply
             adv = self._engineer_advance(st, ax["spec"], p["march_kmd"])
             st.feba_km += adv
             self._log(
@@ -929,6 +944,7 @@ class Campaign:
             # of CA days exhausts itself (supply, fatigue) until the
             # window closes and reopens.
             st.ca_run_days += 1
+            st.last_scale = 1.0  # counterattack: full-contact expenditure
             red_loss *= p["ca_exploit"]
             blue_loss *= p["ca_blue_cost"]
             red.distribute_losses(red_loss)
@@ -977,6 +993,7 @@ class Campaign:
             scale *= p.get("pause_combat_frac", p.get("pause_intensity", 0.25))
         red_loss *= scale
         blue_loss *= scale
+        st.last_scale = scale  # tomorrow's resupply is ordered on this
         red.distribute_losses(red_loss)
         blue.distribute_losses(blue_loss)
 

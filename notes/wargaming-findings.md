@@ -4,6 +4,47 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-22 — v15 (CAL-2: posture demand) — THE FLAGSHIP CLAIM SUSPENDED (session 71ede904)
+
+Mechanics: **demand_posture=true** scales each side's supply demand
+by yesterday's realized contact intensity on the FM 101-10-1
+ladder (reference/consumption-factors.md §2): blue interpolates
+inactive 0.41 → defense-day-1 1.0; red is capped at the attack
+rate 0.8 (the FM's documented direction: defense out-draws
+attack); a paused red's consumption stays governed by the pause
+face alone (an intensity-stacking defect was caught and fixed
+in-iteration). Off by default; 74 tests green.
+
+**Finding — the deep-vs-close ranking is hostage to the DEMAND
+model.** At the toy point (direct mode, n=30): flat demand gives
+the canonical result (deep 43.6 CV / 117 km vs close 13.6 / 149).
+FM-ladder demand INVERTS it (close 44.5 / 100 vs deep 37.3 / 123,
+axes-held 2.00 vs 1.90). Mechanism: intensity-coupled demand is an
+automatic economizer — a force fighting at low intensity stops
+paying flat-rate consumption, so blue's withdrawal phases stop
+starving it and red's grinding phases feed on a lower bill;
+supply-starvation channels (the heart of interdiction's campaign
+value in this model) weaken for both sides.
+
+**Verdict: SUSPENDED, not reversed.** Every pre-v15 supply
+parameter (demand_per_cv, supply_points) was placeholder-tuned
+against flat demand; flipping the demand model without re-tuning
+conflates calibration with mechanism. The standing claim ledger's
+flagship ("interdiction dominance, axes held — survived every
+iteration, 99-100%") is hereby marked **conditional on the flat
+demand model** until a re-baselined scenario (supply re-tuned to
+comparable starting fills under posture demand) re-runs the full
+sweep. That re-baseline + sweep is the successor's first
+instrument task; nothing from campaigns 1-2 policy rankings
+informs canon until it runs.
+
+**For the book, the fifth and sharpest form of the meta-lesson:**
+the staff's deep-vs-close argument hinges on consumption planning
+factors in a manual — use peacetime flat factors and deep wins;
+use intensity-coupled factors and close wins. The G-4 question
+precedes the G-3 question exactly as the G-2 question did — and
+nobody in a 1980s headquarters could have run this comparison.
+
 ## 2026-07-22 — v14 (the division engineer grade; the echelon table revised) (session 71ede904)
 
 Queue resumed per DK ratification. Mechanics: two genuinely

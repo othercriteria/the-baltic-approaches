@@ -1169,3 +1169,25 @@ def test_obstacle_belt_slows_and_bleeds_red():
     r_base = sum(e.red_loss_frac for e in base.logs)
     r_belt = sum(e.red_loss_frac for e in belt.logs)
     assert r_belt > r_base * 0.98
+
+
+# -- v15 (CAL-2): posture-dependent demand ------------------------
+
+
+def test_demand_posture_off_reproduces_v14():
+    a, _, _ = run_v11(deep_fraction=0.5, days=20, demand_posture=False)
+    b, _, _ = run_v11(deep_fraction=0.5, days=20)
+    assert [(e.feba_km, e.bfill, e.rfill) for e in a.logs] == [
+        (e.feba_km, e.bfill, e.rfill) for e in b.logs
+    ]
+
+
+def test_posture_demand_raises_fill_during_low_intensity():
+    off, _, _ = run_v11(deep_fraction=0.0, days=20, demand_posture=False)
+    on, _, _ = run_v11(deep_fraction=0.0, days=20, demand_posture=True)
+    # Intensity-scaled demand can only be <= flat demand (mult <= 1),
+    # so both sides' mean fill must not fall.
+    for side in ("bfill", "rfill"):
+        m_off = sum(getattr(e, side) for e in off.logs) / len(off.logs)
+        m_on = sum(getattr(e, side) for e in on.logs) / len(on.logs)
+        assert m_on >= m_off - 1e-9

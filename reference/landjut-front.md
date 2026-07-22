@@ -246,7 +246,35 @@ for *structural* departures.)
   units "manned in peacetime at less than 25 percent of their
   wartime strength," 1960s-vintage weapons, reserve refresher
   training infrequent 14-day periods [1984 p.13, Table 3; 1989
-  App A]. **cia-1989** App A Table 2 gives the fully-mobilized
+  App A]. **Supplemental pass 2026-07-22** (OCR of the full 50 pp;
+  first mining took the Danish chapters only): (1) **the IC's
+  red-side assumption, named**: "the major responsibility...
+  would fall to the Polish ground forces — the 1st Army out of
+  Pomerania and the 2nd Army out of Silesia," Soviet help from
+  the Baltic/Belorussian MDs only "if Polish forces run into
+  difficulty," with a Soviet tank-army increment quantified
+  (+60,000 men, +1,050 tanks, +500 arty); Table 2's own footnote:
+  "This assumes a purely Polish front on the Jutland axis" — the
+  IC named the RIGHT two armies (cf. oob-verification.md
+  Küstenfront) while still missing the covering-force phase
+  structure. Objectives verbatim: "isolate Hamburg and then move
+  north seizing the Kiel Canal, the Jutland Peninsula, and the
+  Danish Straits." (2) Force comparison at M+15: Denmark 72,000
+  + 60,000 HG vs Polish 71,300 — manpower near-parity, tanks
+  1,450 vs 379. (3) The Danish/German mission statement: mine
+  the Straits, defend "until NATO reinforcements arrive," provide
+  "the bulk of the defense of Schleswig-Holstein." (4)
+  Reinforcement caveats the clocks don't show: UKMF is
+  "earmarked for Denmark **but could be deployed elsewhere**";
+  II MAF remainder goes "to Norway or Denmark, as determined by
+  CINCNORTH"; SACEUR strategic reserve — AFNORTH has planning
+  PRIORITY on the 9th ID but LOWEST priority on 24th Mech/101st.
+  Blue's promised divisions are contingent, not booked. (5)
+  Nordic frame: Chief of Danish Defence Staff "nearly certain"
+  the Soviets occupy Finland in the initial phase, drawing
+  Sweden in; Norway/Denmark "count on Sweden and Finland to
+  delay the Soviets initially and give warning."
+  **cia-1989** App A Table 2 gives the fully-mobilized
   blue OOB: total 172,816 men / 640 tanks; West German 43,316
   (6th PzGren Div **26,847**, corps troops 7,339, 41st Territorial
   Cmd 9,130); Danish 129,500 (RDA 72,000 + Home Guard 57,500);

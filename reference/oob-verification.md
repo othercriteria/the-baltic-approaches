@@ -146,7 +146,14 @@ architecture is:
 
 - What a 1986 LANDJUT G-2 could know: the existence and garrisons of
   MB V's divisions, the Polish Pomeranian MD, GSFG's northern army —
-  building blocks, not the plan. The held **CIA 1989** paper estimates
+  building blocks, not the plan. And the IC's best year-adjacent
+  guess was GOOD at the army level: the **CIA Nov 1984** Nordic
+  Forces paper (held; supplemental pass 2026-07-22,
+  landjut-front.md) names "the 1st Army out of Pomerania and the
+  2nd Army out of Silesia" on a "purely Polish front on the
+  Jutland axis" — the right two armies of the real Küstenfront —
+  while still missing the two-phase covering-force architecture
+  entirely. The held **CIA 1989** paper estimates
   "four divisions probably would attack the Jutland Peninsula and Fyn"
   [CIA reading room, https://www.cia.gov/readingroom/docs/1989-04-01.pdf,
   on the shelf] — right order of magnitude for the first days,

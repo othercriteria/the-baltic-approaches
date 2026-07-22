@@ -92,6 +92,27 @@ reserve — commitment still chains through the lower echelon).
 DIVISION — the local reserve/CA machinery (v4), its lag now
 div_recognition_days (falls back to ca_recognition_days).
 Defaults ("equal", no corps units passed) reproduce v7 exactly.
+
+v9 makes LANDZEALAND explicit — as the THEATER'S OTHER CUSTOMER,
+not a simulated front (the protagonist sees Zealand only as the
+rival claim at Karup; the model does too). red_amphib chooses red's
+operational posture: "none" (no threat: beach watch frees on day 1,
+no naval skim, no theater caution), "threat" (the pin-in-being:
+v7/v8 behavior — costs red nothing, ties blue down until sea state
+closes the window), "commit" (the landing goes in on
+red_commit_day: theater air surges to the straits for
+zealand_battle_days at zealand_battle_claim, then the landing
+resolves — zealand_landing_fails=true PLACEHOLDER pending real
+sea-denial research — and a failed landing releases every pin AT
+ONCE, ahead of the weather). zealand_caution couples the threat to
+v7 advocacy: while the straits are credibly threatened the daily
+conference grants the corps' request at a discounted rate — the
+persuasion tax now has the theater's actual dilemma inside it.
+Also v9: the CAL-1 parameter split (reference/consumption-factors
+.md) — pause_consumption_frac (FM-anchored, what a paused red
+burns) separates from pause_combat_frac (doctrine parameter, how
+hard a paused front fights); both default to pause_intensity for
+compatibility.
 """
 
 import math
@@ -170,6 +191,32 @@ class Campaign:
             if p.get("amphib_close_max", 0)
             else None
         )
+        # v9: red's amphib posture decides what the sea-state clock
+        # means. The pin releases at: day 1 (no threat), the
+        # sea-state day (threat-in-being), or the landing's failure
+        # day if that comes sooner (a spent threat pins nobody).
+        amp = p.get("red_amphib", "threat")
+        commit_day = int(p.get("red_commit_day", 0))
+        self.zealand_resolve_day = None
+        committed = (
+            amp == "commit"
+            and self.amphib_release_day
+            and commit_day >= 1
+            and commit_day < self.amphib_release_day
+        )
+        if committed:
+            self.zealand_resolve_day = commit_day + int(p.get("zealand_battle_days", 0))
+        if amp == "none":
+            self.pin_release_day = 1
+        elif committed and p.get("zealand_landing_fails", True):
+            self.pin_release_day = min(
+                self.amphib_release_day, self.zealand_resolve_day
+            )
+        elif committed:
+            self.pin_release_day = None  # landing succeeded: pinned for good
+        else:
+            self.pin_release_day = self.amphib_release_day
+        self._zealand_committed = committed
         # v7: the apportionment is theater state, not a blue knob.
         # "direct" reproduces v6 (deep_fraction used as-is);
         # "advocacy" starts at the theater's own prior and moves
@@ -199,21 +246,24 @@ class Campaign:
         self._in_transit = []  # (arrive_day, axis_name, battalion)
         for day in range(1, days + 1):
             wx = self._weather(rng)  # theater-wide, one draw per day
+            # v9: LANDZEALAND, the theater's other customer — how
+            # credible the straits threat stands today, and what it
+            # skims off the deep-capable effort.
+            threat_live, skim = self._zealand_state(day)
             if mode == "advocacy" and day > p.get("advocacy_lag_days", 0):
                 req = p.get("corps_request_deep", self.deep_frac_today)
                 gap = req - self.deep_frac_today
+                rate = p.get("advocacy_rate", 0.0)
+                if threat_live:
+                    # While the straits are credibly threatened the
+                    # conference grants the corps' argument slower —
+                    # the persuasion tax with the theater's real
+                    # dilemma inside it.
+                    rate *= 1.0 - p.get("zealand_caution", 0.0)
                 self.deep_frac_today = min(
-                    max(self.deep_frac_today + p.get("advocacy_rate", 0.0) * gap, 0.0),
-                    1.0,
+                    max(self.deep_frac_today + rate * gap, 0.0), 1.0
                 )
-            # Maritime-strike claim on deep-capable sorties while the
-            # amphib window is open; sea state releases it (same day
-            # as the beach watch).
-            self.naval_frac_today = (
-                p.get("naval_claim_frac", 0.0)
-                if self.amphib_release_day and day < self.amphib_release_day
-                else 0.0
-            )
+            self.naval_frac_today = skim if threat_live else 0.0
             live = [n for n, st in state.items() if not st.fallen]
             if self.aircraft > 0:
                 points_today = self.aircraft * p["sorties_per_aircraft"] * wx
@@ -240,6 +290,32 @@ class Campaign:
                     len(live),
                 )
         return state
+
+    # -- theater grade (v9) --------------------------------------------
+
+    def _zealand_state(self, day):
+        """(threat_live, skim): is the LANDZEALAND/straits claim
+        credible today, and what fraction of deep-capable air does
+        it take? A threat-in-being holds naval_claim_frac until the
+        sea state closes; a committed landing surges to
+        zealand_battle_claim for the battle, then either fails
+        (everything releases at once — a spent threat pins nobody)
+        or succeeds (the straits fight persists)."""
+        p = self.params
+        amp = p.get("red_amphib", "threat")
+        if amp == "none" or not self.amphib_release_day:
+            return False, 0.0
+        base = p.get("naval_claim_frac", 0.0)
+        if not self._zealand_committed:
+            return day < self.amphib_release_day, base
+        commit_day = int(p.get("red_commit_day", 0))
+        if day < commit_day:
+            return day < self.amphib_release_day, base
+        if day < self.zealand_resolve_day:
+            return True, p.get("zealand_battle_claim", base)
+        if p.get("zealand_landing_fails", True):
+            return False, 0.0
+        return True, p.get("zealand_battle_claim", base)
 
     # -- corps grade (v8) ----------------------------------------------
 
@@ -373,8 +449,9 @@ class Campaign:
         for u in list(blue.reserve):
             if u.role == "beach-watch":
                 # Already in theater, pinned watching the coast; the
-                # sea state, not the rail net, releases them.
-                if self.amphib_release_day and day >= self.amphib_release_day:
+                # THREAT releases them — sea state, a landing's
+                # failure, or its absence (v9 pin_release_day).
+                if self.pin_release_day and day >= self.pin_release_day:
                     blue.reserve.remove(u)
                     blue.units.append(u)
                     blue_arrivals += 1
@@ -417,10 +494,15 @@ class Campaign:
                     st.red_paused = False
             elif flow_fill < p.get("red_pause_fill", 0.0) and st.red_stockpile <= 0:
                 st.red_paused = True
-            # A paused front consumes at pause intensity (patrols and
-            # fires), which is what lets the stockpile actually build.
+            # A paused front consumes at pause-consumption intensity
+            # (patrols and fires), which is what lets the stockpile
+            # actually build. v9 CAL-1 split: the consumption face is
+            # FM-anchorable (inactive situation ≈ 0.41 of defense-
+            # day-1); the combat face below is a doctrine parameter.
             demand_today = demand * (
-                p.get("pause_intensity", 0.25) if st.red_paused else 1.0
+                p.get("pause_consumption_frac", p.get("pause_intensity", 0.25))
+                if st.red_paused
+                else 1.0
             )
             use = min(demand_today, cap + st.red_stockpile)
             st.red_stockpile = max(st.red_stockpile - max(use - cap, 0.0), 0.0)
@@ -587,7 +669,8 @@ class Campaign:
             # Quiet front: patrols and fires only, while red builds
             # supply. Blue may still counterattack into a pause (the
             # CA path above bypasses this scaling deliberately).
-            scale *= p.get("pause_intensity", 0.25)
+            # v9 CAL-1 split: this is the COMBAT face of the pause.
+            scale *= p.get("pause_combat_frac", p.get("pause_intensity", 0.25))
         red_loss *= scale
         blue_loss *= scale
         red.distribute_losses(red_loss)

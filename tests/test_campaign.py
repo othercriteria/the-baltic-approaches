@@ -680,3 +680,119 @@ def test_div_recognition_days_overrides_legacy_name():
     ca_a = sum(1 for e in a.logs if e.ca)
     ca_b = sum(1 for e in b.logs if e.ca)
     assert ca_a >= ca_b
+
+
+# -- v9: LANDZEALAND as theater customer; CAL-1 pause split -------
+
+
+def test_v9_threat_defaults_reproduce_v8_shape():
+    # red_amphib="threat" + zealand_caution=0 must equal the pre-v9
+    # code path: pin releases on the sea-state day, skim only from
+    # naval_claim_frac while the window is open.
+    a, _, _ = run_v8(naval_claim_frac=0.5, deep_fraction=1.0)
+    data, axes, _ = load_scenario(SCEN)
+    p = data["params"]
+    p["wx_standdown_prob"] = 0.0
+    p["wx_min"] = 1.0
+    p["wx_max"] = 1.0
+    p["naval_claim_frac"] = 0.5
+    p["deep_fraction"] = 1.0
+    for k in ("red_amphib", "red_commit_day", "zealand_battle_claim",
+              "zealand_battle_days", "zealand_landing_fails", "zealand_caution"):
+        p.pop(k, None)
+    b = Campaign(axes=axes, params=p, seed=1986)
+    b.run(18)
+    assert [(e.feba_km, e.air_naval) for e in a.logs] == [
+        (e.feba_km, e.air_naval) for e in b.logs
+    ]
+
+
+def test_amphib_none_releases_pin_immediately_and_never_skims():
+    camp, _, _ = run_v8(red_amphib="none", naval_claim_frac=0.5, deep_fraction=1.0)
+    assert camp.pin_release_day == 1
+    assert all(e.air_naval == 0 for e in camp.logs)
+    watchers = [e for e in camp.logs if e.day == 1 and e.blue_arrivals > 0]
+    assert watchers, "beach watch should join the line on day 1"
+
+
+def test_commit_surges_then_failure_releases_everything_early():
+    camp, _, _ = run_v8(
+        red_amphib="commit",
+        red_commit_day=3,
+        zealand_battle_days=3,
+        zealand_battle_claim=0.8,
+        naval_claim_frac=0.3,
+        zealand_landing_fails=True,
+        apportionment_mode="advocacy",
+        theater_deep_fraction=1.0,
+        advocacy_rate=0.0,
+        seed=1986,
+    )
+    if camp.amphib_release_day <= 3:
+        return  # window closed before commit; posture degrades to threat
+    resolve = camp.zealand_resolve_day
+    assert resolve == 6
+    assert camp.pin_release_day == min(camp.amphib_release_day, 6)
+    battle = [e for e in camp.logs if 3 <= e.day < 6]
+    after = [e for e in camp.logs if e.day >= 6]
+    pre = [e for e in camp.logs if e.day < 3]
+    assert all(e.air_naval == 0 for e in after)
+    day_naval = {}
+    for e in battle + pre:
+        day_naval.setdefault(e.day, 0.0)
+        day_naval[e.day] += e.air_naval
+    assert max(day_naval[d] for d in (3, 4, 5)) > max(
+        (day_naval.get(d, 0.0) for d in (1, 2)), default=0.0
+    )
+
+
+def test_zealand_caution_slows_advocacy_until_threat_dies():
+    slow, _, _ = run_v8(
+        apportionment_mode="advocacy",
+        theater_deep_fraction=0.2,
+        corps_request_deep=1.0,
+        advocacy_rate=0.3,
+        advocacy_lag_days=0,
+        zealand_caution=0.8,
+        seed=7,
+    )
+    free, _, _ = run_v8(
+        apportionment_mode="advocacy",
+        theater_deep_fraction=0.2,
+        corps_request_deep=1.0,
+        advocacy_rate=0.3,
+        advocacy_lag_days=0,
+        zealand_caution=0.0,
+        seed=7,
+    )
+    fs = {e.day: e.deep_frac for e in slow.logs}
+    ff = {e.day: e.deep_frac for e in free.logs}
+    rel = slow.pin_release_day
+    assert all(fs[d] < ff[d] for d in range(2, rel))
+    # After the sea closes the discount ends and the gap narrows.
+    last = max(fs)
+    assert ff[last] - fs[last] < ff[rel] - fs[rel]
+
+
+def test_cal1_split_consumption_vs_combat_faces():
+    # Higher pause consumption -> stockpile builds slower -> more
+    # pause days. Combat face alone must not change pause counts'
+    # driver (it scales contact losses on pause days).
+    lean, _, _ = run_v8(
+        deep_fraction=0.0, pause_consumption_frac=0.15, pause_combat_frac=0.25
+    )
+    hungry, _, _ = run_v8(
+        deep_fraction=0.0, pause_consumption_frac=0.9, pause_combat_frac=0.25
+    )
+    assert sum(1 for e in hungry.logs if e.pause) >= sum(
+        1 for e in lean.logs if e.pause
+    )
+    soft, _, _ = run_v8(
+        deep_fraction=0.0, pause_consumption_frac=0.41, pause_combat_frac=0.05
+    )
+    hard, _, _ = run_v8(
+        deep_fraction=0.0, pause_consumption_frac=0.41, pause_combat_frac=0.9
+    )
+    b_soft = sum(e.blue_loss_frac for e in soft.logs if e.pause)
+    b_hard = sum(e.blue_loss_frac for e in hard.logs if e.pause)
+    assert b_hard > b_soft

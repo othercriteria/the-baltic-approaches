@@ -142,6 +142,29 @@ corps_recognition_days = 1     # corps sees a collapsing axis this late
 corps_reserve_move_days = 2    # cross-corps road march, days
 div_recognition_days = 1       # division CA/reserve lag (was ca_recognition_days)
 
+# v9: LANDZEALAND as the theater's other customer (not a simulated
+# front — the rival claim at Karup, which is how Rendsburg sees it).
+# red_amphib: "none" | "threat" (pin-in-being, costs red nothing)
+# | "commit" (landing on red_commit_day; air surges to the straits,
+# then the landing resolves and a spent threat pins nobody).
+red_amphib = "threat"
+red_commit_day = 0             # used only when red_amphib = "commit"
+zealand_battle_claim = 0.8     # deep-capable share flying straits/beach tasks
+                               # during the landing battle — toy
+zealand_battle_days = 4        # toy
+zealand_landing_fails = true   # PLACEHOLDER verdict: NATO sea denial holds
+                               # (Pałka distillation + DIIS vol 3 owed)
+zealand_caution = 0.0          # advocacy discount while the straits are
+                               # threatened; 0 keeps the v8 baseline —
+                               # experiments turn the coupling on
+
+# v9: CAL-1 parameter split (reference/consumption-factors.md).
+# Consumption face FM-anchored (inactive ≈ 0.41 of defense-day-1);
+# combat face stays a doctrine parameter at the old value. The
+# legacy pause_intensity remains as fallback for both.
+pause_consumption_frac = 0.41
+pause_combat_frac = 0.25
+
 [[axes]]
 name = "coastal-luebeck"
 length_km = 95  # Travemünde approaches -> Kiel Canal, roughly

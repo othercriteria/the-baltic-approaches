@@ -4,6 +4,61 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-22 — v9 (LANDZEALAND as theater customer; the feint priced) (session 71ede904)
+
+DK question: introduce LANDZEALAND explicitly? Answer built:
+**yes, at theater-customer resolution, not as a simulated front** —
+the protagonist sees Zealand only as the rival claim at Karup, so
+the model does too (this is also v0's founding intent: the LC
+naval-zone pattern, off-map pressure pinning blue).
+
+Mechanics: **red_amphib posture** — "none" (no threat: beach watch
+frees day 1, no skim, no caution), "threat" (the pin-in-being,
+v7/v8 behavior, costs red nothing), "commit" (landing on
+red_commit_day: air surges to the straits at zealand_battle_claim
+for zealand_battle_days, then resolves; zealand_landing_fails=true
+PLACEHOLDER pending Pałka/DIIS-vol-3 sea-denial research; a failed
+landing releases every pin at once, ahead of the weather).
+**zealand_caution** couples the threat into v7 advocacy: while the
+straits are credibly threatened, the conference grants the corps'
+request at a discounted rate — the persuasion tax now has the
+theater's actual dilemma inside it instead of a free parameter.
+Plus the **CAL-1 split**: pause_consumption_frac (0.41,
+FM-anchored) vs pause_combat_frac (0.25, doctrine parameter).
+Defaults reproduce v8 (regression-tested); 51 tests green.
+
+**Finding 1 (point): the threat-in-being is nearly a free lunch
+for red.** n=60, caution 0.5, skim 0.3: blue under "none" ends
+35.1 CV / 141 km; under "threat" 19.9 / 183 — the un-landed
+landing costs blue 15 CV and 42 km. An actually-committed landing
+that fails (releasing everything by ~day 8 instead of ~13) nets
+red roughly nothing beyond the feint (18.4-19.2 blue CV) — and
+the model does not even charge red for the spent landing force, so
+commit is UNDERPRICED and feint dominance is a floor.
+
+**Finding 2 (sweep, 60 worlds x 3 seeds): the feint's value has
+the persuasion tax's sign.** Threat-has-teeth in 41/60 (median
+8.6 CV) but p10 = −18.7: where the corps' deep request is wrong
+for the world, the caution the feint induces PROTECTS blue — red's
+pin works mainly by slowing blue's argument, so it only pays
+against a blue that is right. Feint ≥ failed landing for red in
+43/60 (a floor, per the underpricing). The staged questions now
+close a loop: red's cheapest theater weapon is an exploitation of
+blue's own G-2/G-3 seam — *what does the enemy think the goal is*
+has a mirror, *what does the enemy think WE think it is.* For the
+book: the Karup conference scenes carry all of this — the Zealand
+staff's claim is not obstruction, it is the enemy's feint working
+as designed, and nobody in the room can know which world they are
+in.
+
+**Caveats/queue:** commit underpriced (landing force should exist
+as chargeable red assets — possible v10, coupled to real WP amphib
+OOB research); landing-success branch unexplored; credibility is
+binary (a graded G-2 estimate of landing probability is the
+honest next step and IS the protagonist's G-2 seam, staged);
+zealand_caution/skim values toy. Standing queue: richer division
+grade; CAL-2 posture demand; corps CA-opportunity dispatch.
+
 ## 2026-07-21 — v8 (echelon decomposition) — the attack-3 experiment (session 71ede904)
 
 Mechanics: the decision grades separated, each with a quality

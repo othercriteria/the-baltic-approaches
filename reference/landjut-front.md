@@ -166,9 +166,33 @@ for *structural* departures.)
 - USNI Proceedings: "Defending the Baltic Approach" (Mar 1986),
   "Amphibious Objective: Baltic Approaches" (Mar 1988) — paywalled;
   DK library access?
-- Mobilization timelines: Danish call-up mechanics, UKMF and US 9th
-  ID deployment schedules (the covering-force clock in days —
-  wargame calibration input)
+- ~~Mobilization timelines~~ → SUBSTANTIALLY ANSWERED 2026-07-22
+  by two DK-fetched CIA papers (on the shelf):
+  **cia-1984-nordic-forces-in-the-1980s.pdf** (Nov 1984) Table 4
+  gives the reinforcement clocks with transit: UKMF (UK 1st Inf
+  Bde, 13,500) to Denmark by sea in **5-15 days, no
+  pre-positioning**; AMF(L) 8 days; US 9th ID ~25 days, 5th/24th
+  Mech ~30, 101st ~40 (sea, none pre-positioned); ~100 F-15/F-16
+  to three Danish airfields within 6 days of a mobilization
+  decision (CIA 1989 App C). Danish mobilization: 17,900 peacetime
+  → 72,000 + 60,000 Home Guard at M+15; five of six brigades form
+  TWO divisions on mobilization, the sixth deploys independently
+  [Table 2 + fn.3]. Danish readiness caveats (both papers):
+  standing army down ~25% since the early 1970s; LANDJUT-committed
+  units "manned in peacetime at less than 25 percent of their
+  wartime strength," 1960s-vintage weapons, reserve refresher
+  training infrequent 14-day periods [1984 p.13, Table 3; 1989
+  App A]. **cia-1989** App A Table 2 gives the fully-mobilized
+  blue OOB: total 172,816 men / 640 tanks; West German 43,316
+  (6th PzGren Div **26,847**, corps troops 7,339, 41st Territorial
+  Cmd 9,130); Danish 129,500 (RDA 72,000 + Home Guard 57,500);
+  Jutland Brigade available from BALTAP to reinforce LANDJUT.
+  Red-side mirror-image error, documented: the Soviets "may have
+  inferred (incorrectly) from NATO exercises that a British corps
+  and a West German mechanized division would operate in the
+  region" [1989 p.4] — the enemy's G-2 overestimates blue exactly
+  as blue's overestimated red. Still open: Danish call-up
+  mechanics at the hour-by-hour grain.
 - ~~Air apportionment authority: LANDJUT request vs AIRBALTAP
   allocation~~ → ANSWERED 2026-07-21:
   **reference/air-apportionment.md.** The split is decided at

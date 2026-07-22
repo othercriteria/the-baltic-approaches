@@ -45,8 +45,32 @@ Baltic amphib lift [F: DIIS KK3 p.446].
 
 **Sequencing doctrine put the landing late.** Both sides agree:
 air superiority → sea control → mine-clearing (days) → landing.
-CIA 1989: "would not be planned to begin before late in the first
-week of the war" [F via search index; doc on fetch queue]. The
+CIA 1989 (now ON THE SHELF, DK browser fetch 2026-07-22 —
+cia-1989-wp-planning-operations-against-denmark.pdf): "would not
+be planned to begin before late in the first week of the war"
+[F: Summary, p. iii]. The held document adds precision the search
+index lacked: the assessed scenario runs D3 front offensive →
+Kolding-Vamdrup-Bramming line ~day 7 → **Zealand offensive begins
+day 8** (6th Airborne drops near Haslev that morning; 7th
+Sea-Landing assaults Køge and Fakse bays; 15th Mech on merchant
+ships lands by end of day 8, bypasses Copenhagen toward
+Helsingør) → complete ~day 13 if resistance is strong [F: pp.
+1-2]. The airlift constraint is quantified: delivering the
+essential elements of one airborne division to Denmark takes
+**80-90 percent of the Soviets' TOTAL military air transport
+force**, at substantial risk [F: p. 5] — the "windowless"
+airborne leg is gated by a scarce theater asset. The failure
+judgment is tri-conditional: absent air superiority OR sea
+supremacy OR the successful land offensive northward (early
+linkup), "Pact planners would believe that the assault landing
+operation probably would fail" [F: p. 5]. And the 1987 force
+table names the Soviet Zealand package Warsaw was never told
+about: **6th Guards MRD (Northern Group — the division FE's
+Saltnicken readout flagged), 7th Guards Airborne Division
+(Baltic MD), 94th Guards MRD (GSFG)**, tripling the Soviet share
+of the assault force 1978→1987 (14,000 → 38,000 men) while the
+Polish share held flat [F: Table 1, p. 3]. Pałka's handover,
+FE's exercise inference, and the CIA's OOB now triangulate. The
 Polish plan itself: landing on D6-7 of the front offensive ≈ war
 day 8-9, having slipped from D+2 (1961) to D+5+ precisely out of
 respect for mines and mobilized defenders [F: Pałka p.106; DIIS
@@ -171,6 +195,25 @@ not written down" [F: KK3 pp.465-466]. Blue's confidence should be
 a function of its own barrier state, which is a political-release
 decision — an Andon-cord-shaped input.
 
+**The mine-barrier perception triangle (completed 2026-07-22 by
+the Nordic Forces paper, cia-1984-nordic-forces-in-the-1980s.pdf):**
+three intelligence pictures of one barrier. Red feared it
+near-decisive (Hoffmann: "extremely complicated, if not
+impossible"; Kapitanets's minesweeping verdict). Danish doctrine
+leaned on it as pivotal (FE from 1986; mining "a decisive element
+of their national defense" per CIA 1989 p. 5). And the US IC in
+Nov 1984 judged the LAYING capacity hollow: "Denmark is
+especially weak in an area where it should play a coequal role
+with the West German Navy: minelaying. Only one of Denmark's four
+minelaying-capable vessels is designed as a minelayer; two other
+vessels are out of commission, and the fourth is a training
+ship," plus an assessed skilled-personnel shortage [F: p. 13].
+Civilian ferries/trawlers would be mobilized as auxiliary
+minelayers. For the book: the barrier that deters the enemy may
+be the barrier your own allies believe you cannot lay — and
+nobody in any of the three headquarters knows which picture is
+true.
+
 **The asymmetry that matters most for us:** FE updated UP easily
 and DOWN almost never — every downward datum was absorbed by the
 worst-case merchant-hull construct. Blue's estimate is not a clean
@@ -257,9 +300,9 @@ branch the enemy himself had rejected.
 
 ## Fetch/purchase queue additions
 
-- CIA DI/SOVA, "Warsaw Pact: Planning for Operations against
-  Denmark" (Apr 1989, declassified) — cia.gov blocked from here;
-  hunt the archive.org reading-room mirror (fetch queue).
+- ~~CIA DI/SOVA 1989~~ → ON THE SHELF (DK browser fetch,
+  2026-07-22), together with the bonus find CIA "Nordic Forces in
+  the 1980s" (Nov 1984) — blue-side readiness/stocks/clocks.
 - Mazurek, *Desant na Danię: Mit czy realny plan inwazji?* (2014)
   — Polish; library/purchase list.
 - Bogason already on the purchase list (holdings candidate).

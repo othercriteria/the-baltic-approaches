@@ -162,5 +162,18 @@ firepower (ammo) — parked as texture until a mechanism needs it.
 - FM 101-10-1 Vol 1 TOE strengths for clean per-capita math
   (extraction defeated by scan quality; try OCR or CARL's copy).
 - Soviet unit-of-fire weight table from a cleaner FM 100-2-2 copy.
-- NATO days-of-supply stock policy (what the corps *holds* vs what
-  it burns — the stockpile side of the ledger).
+- ~~NATO days-of-supply stock policy~~ → ANSWERED for Denmark
+  2026-07-22 (cia-1984-nordic-forces-in-the-1980s.pdf, Table 5 +
+  p.13): NATO requirement 30 combat days; Danish stocks 1983:
+  105 mm **10.0 days**, 155 mm **8.8**, 203 mm **9.4**, mortars
+  17.3, TOW 15.0 (1988 projections: 8.9/11.0/8.4/14.9/30.0-if-
+  funded); "the most critical shortfall ... is in the army's
+  artillery ammunition"; Denmark met only 50% of its NATO TOW
+  requirement in 1982. → Blue's supply constraint is DOCUMENTED at
+  roughly ONE-THIRD of the planning requirement in exactly the
+  class the FM's own tables say dominates a defender's
+  consumption. The re-baseline task (v15 gate) should anchor
+  blue_supply_points against this: a blue that fights at Table
+  2-16 defense rates exhausts national artillery stocks in ~9
+  days — the campaign's second week is fought on whatever NATO
+  resupply arrives, which is its own throughput story.

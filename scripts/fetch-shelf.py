@@ -327,6 +327,23 @@ ITEMS = [
         "https://slks.dk/fileadmin/user_upload/kulturarv/fysisk_planlaegning/DKKA_baggrundsnotat_v8.pdf",
         "813240fb27e7e67dea4285a49f4243e4dc907d4d2a8ebbc2681b1a2ef488abe5",
     ),
+    # Batch 7 (2026-07-22, DK browser fetches — cia.gov bot-blocks
+    # this network; these URLs work from a normal browser. Both US
+    # Government works, public domain; image scans, no text layer).
+    # DI/SOVA research paper, Apr 1989: THE document on red's
+    # Denmark operation and its constraints
+    (
+        "cia-1989-wp-planning-operations-against-denmark.pdf",
+        "https://www.cia.gov/readingroom/docs/1989-04-01.pdf",
+        "86c2fa3485b72152e83cf7b61c0bb1a8ddfb51f7f10e747cd33cba8ff3e8f525",
+    ),
+    # DI research paper EUR 84-10207, Nov 1984: Nordic defense
+    # capabilities — blue's readiness/stocks/reinforcement clocks
+    (
+        "cia-1984-nordic-forces-in-the-1980s.pdf",
+        "https://www.cia.gov/readingroom/docs/CIA-RDP85S00316R000300040006-9.pdf",
+        "fafba67273869f9257916eef7df327906fe845447d62bd773002e4b68114dc0a",
+    ),
     # Batch 6 (2026-07-21, period FM 71-series hunt, session 71ede904).
     # FM 71-100 1990 was never webbed (CARL bibliography lists it,
     # links no file); the 1978+C1 edition below is the manual actually

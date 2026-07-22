@@ -82,6 +82,14 @@ image-only scans):**
 | Dragoner, *Die Bundeswehr 1989* Teil 2.2, Territorialheer | TerrKdo Schleswig-Holstein OOB — answers a standing landjut-front.md TO-VERIFY. Davies-grade compendium (author-released, hobbyist mirror): verify before canon |
 | SLKS (Danish Agency for Culture), *Kold Krig* site survey (2014; 78 MB) + DKKA registration note | Danish fortification/installation texture — scene material tier |
 
+**Batch 7 — DK browser fetches (2026-07-22; cia.gov bot-blocks
+this network, URLs work from a browser; both public domain):**
+
+| Document | Why it's on the shelf |
+|---|---|
+| CIA DI/SOVA, *Warsaw Pact: Planning for Operations Against Denmark* (Apr 1989; 18 pp, sanitized) | THE document on red's Denmark operation as the IC saw it: day-8 Zealand assault scenario, the 1978-vs-1987 force tables (incl. the Soviet package Warsaw was never told about), the 80-90%-of-total-airlift figure, tri-conditional failure judgment, mineclearing analysis. Distilled into reference/zealand-landing.md |
+| CIA DI, *Nordic Forces in the 1980s* (EUR 84-10207, Nov 1984; 50 pp, sanitized) | Blue's side of the ledger: Danish readiness (<25% peacetime manning), reinforcement clocks with transit times (UKMF 5-15 days, US divisions 25-40), and the ammunition-stocks table — Danish artillery at ~9-10 combat days vs the NATO 30-day requirement. Distilled into landjut-front.md + consumption-factors.md |
+
 **Period FM 71-series (the maneuver-doctrine gap):**
 
 | Document | Why it's on the shelf |
@@ -125,11 +133,8 @@ two IS articles have no legitimate open host → library list below.*
   transcript
 - USNI Proceedings Baltic articles (Mar 1986 / Mar 1988) — paywalled;
   DK library access?
-- CIA DI/SOVA, "Warsaw Pact: Planning for Operations against
-  Denmark" (Apr 1989, declassified; cia.gov/readingroom
-  1989-04-01.pdf) — cia.gov bot-blocked from here; hunt the
-  archive.org reading-room mirror (key feasibility quotes already
-  distilled in reference/zealand-landing.md from the search index)
+- ~~CIA DI/SOVA 1989 Denmark paper~~ → HELD (batch 7, DK browser
+  fetch), together with the bonus CIA *Nordic Forces in the 1980s*
 
 ## Library list (no legitimate open copy; interlibrary loan or
 purchase of the IS Reader)

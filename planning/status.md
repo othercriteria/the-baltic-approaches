@@ -44,8 +44,8 @@ start there before working (CLAUDE.md, Provenance).*
   questions are now four: what is the goal / what does the enemy
   think it is / what does the enemy think WE think it is / and
   whose consumption model is the argument standing on.
-- **Research shelf:** reference/shelf.md (manifest of record; 16
-  pinned documents), reference/landjut-front.md (front facts,
+- **Research shelf:** reference/shelf.md (manifest of record; 54
+  pinned documents after the 2026-07-21/22 hunts), reference/landjut-front.md (front facts,
   sourced, TO-VERIFY flags), reference/bulk-survey.md (/bulk map).
   Holdings (non-redistributable) in the always-private companion
   repo via holdings/ submodule.

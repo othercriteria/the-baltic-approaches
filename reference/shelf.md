@@ -166,6 +166,7 @@ repo so the only road for such files is the holdings repo.
 |---|---|
 | Dupuy, *Numbers, Predictions and War* | print copy acquired 2026-07-20; PDF to be produced from the printed text or sourced. Still wanted for QJM structure (advance rates, OLI/CEV); attrition empirics now covered publicly by the HERO handbook |
 | Kim/Behr/Spafford, *The Phoenix Project* | PDF deposited 2026-07-20 (DK-directed) as a style example for Goldratt pastiche — the other famous Goal transposition. Flagged in the holdings catalog to pair with a purchased copy per the Dupuy standard |
+| Bogason, *NATO and the Baltic Approaches 1949-1989* (De Gruyter 2023) | print copy PURCHASED 2026-07-22; low-quality web scrape deposited same day as placeholder (tables garbled — DK offers page scans on arrival). The remaining authority for the air-apportionment and command-architecture inferences (reference/air-apportionment.md) |
 
 ## Purchase list (copyrighted; DK's call)
 
@@ -183,11 +184,8 @@ repo so the only road for such files is the holdings repo.
   bench reference
 - Simpkin, *Red Armour* / *Race to the Swift* (1984/85) — period
   Western theorist of Soviet tempo thinking
-- Bogason, *NATO and the Baltic Approaches 1949-1989* (De Gruyter,
-  2023; 622 pp) — THE archival secondary source on BALTAP command
-  arrangements (Danish war-plan files); the remaining authority for
-  air-apportionment and command-architecture questions
-  (reference/air-apportionment.md). Holdings candidate
+- ~~Bogason~~ → PURCHASED 2026-07-22; placeholder scrape in
+  holdings (see Holdings table)
 
 ## Shelf disciplines
 

@@ -1103,3 +1103,35 @@ name = "Farø bridges"
 would_connect = ["vordingborg", "nykobing_f"]
 allowed = ["storstrom-road", "storstrom-rail"]
 note = "Farø motorway link opened 1985. In Nov 1983 the Storstrøm crossing (1937) is the ONLY fixed link south from Zealand — a real chokepoint; the two allowed edges model it, and no additional parallel fixed link may be added."
+
+# ---------------------------------------------------------------- named story flows (drive `atlas critical`)
+
+[[flow]]
+id = "jyske-march"
+sources = ["fredericia"]
+sinks = ["schleswig"]
+note = "Jyske Division mobilization march to sector"
+
+[[flow]]
+id = "zealand-reinf"
+sources = ["region:SJ"]
+sinks = ["rendsburg"]
+note = "Zealand beach-watch brigades released west (specimen chs. 15-16)"
+
+[[flow]]
+id = "red-tonnage"
+sources = ["rostock", "schwerin"]
+sinks = ["lubeck"]
+note = "Red front tonnage to the IGB axis"
+
+[[flow]]
+id = "inter-island"
+sources = ["koebenhavn"]
+sinks = ["fredericia"]
+note = "Inter-island civil/military contention corridor"
+
+[[flow]]
+id = "nato-north"
+sources = ["hamburg"]
+sinks = ["rendsburg", "flensburg"]
+note = "Reinforcement/supply flow from the south"

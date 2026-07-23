@@ -76,10 +76,17 @@ class Edge:
 
 
 class Atlas:
-    def __init__(self, nodes: dict[str, Node], edges: list[Edge], absences: list[dict]):
+    def __init__(
+        self,
+        nodes: dict[str, Node],
+        edges: list[Edge],
+        absences: list[dict],
+        flows: list[dict] | None = None,
+    ):
         self.nodes = nodes
         self.edges = edges
         self.absences = absences
+        self.flows = flows or []
         self.by_id = {e.id: e for e in edges}
         self.adj: dict[str, list[Edge]] = {n: [] for n in nodes}
         for e in edges:
@@ -131,7 +138,7 @@ class Atlas:
                 if end not in nodes:
                     raise ValueError(f"edge {edge.id}: unknown node {end}")
             edges.append(edge)
-        return cls(nodes, edges, raw.get("absence", []))
+        return cls(nodes, edges, raw.get("absence", []), raw.get("flow", []))
 
     # -- name/group resolution ------------------------------------
 
@@ -264,6 +271,33 @@ class Atlas:
             if (e.a in reach) != (e.b in reach):
                 cut.append(e)
         return total, cut
+
+    # -- criticality: knockout loss across the named story flows ---
+
+    def critical(self):
+        """For each edge, total max-flow loss (t/d) across the
+        dataset's [[flow]] entries when that edge is removed.
+        Returns [(loss, edge)] sorted descending, plus baselines."""
+
+        def endpoints(specs):
+            out = []
+            for s in specs:
+                out.extend(self.resolve(s))
+            return out
+
+        base = {}
+        for f in self.flows:
+            src, snk = endpoints(f["sources"]), endpoints(f["sinks"])
+            base[f["id"]] = (self.max_flow(src, snk)[0], src, snk)
+        ranked = []
+        for e in self.edges:
+            loss = 0.0
+            for fid, (b, src, snk) in base.items():
+                loss += b - self.max_flow(src, snk, without={e.id})[0]
+            if loss > 0:
+                ranked.append((loss, e))
+        ranked.sort(key=lambda x: (-x[0], x[1].id))
+        return ranked, {fid: b for fid, (b, _, _) in base.items()}
 
     # -- dataset lint ---------------------------------------------
 

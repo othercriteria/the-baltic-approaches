@@ -104,3 +104,15 @@ def test_bridge_drop_what_if(atlas):
 def test_region_flow_resolution(atlas):
     flow, cut = atlas.max_flow(atlas.resolve("region:SJ"), atlas.resolve("region:JY"))
     assert flow > 0
+
+
+def test_critical_ranking(atlas):
+    """The named story flows load and the knockout ranking puts a
+    water crossing (ferry) at the top — the theater's defining
+    constraint surfaces from the data, not from authorial memory."""
+    assert len(atlas.flows) >= 5
+    ranked, base = atlas.critical()
+    assert all(b > 0 for b in base.values())
+    assert ranked
+    top_loss, top_edge = ranked[0]
+    assert top_edge.mode == "ferry"

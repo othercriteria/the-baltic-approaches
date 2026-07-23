@@ -90,6 +90,25 @@ def cmd_edges(atlas, args):
     return 0
 
 
+def cmd_critical(atlas, args):
+    ranked, base = atlas.critical()
+    print("named flows (baseline t/d):")
+    for fid, b in base.items():
+        print(f"  {fid}: {b:.0f}")
+    print(f"\n{'edge':<28}{'flow loss t/d':>14}  cap_source  verify")
+    for loss, e in ranked[: args.top]:
+        v = "V" if e.verify else ""
+        print(f"{e.id:<28}{loss:>14.0f}  {e.cap_source:<10}  {v}")
+    unsourced = [
+        e for _, e in ranked[: args.top] if not e.cap_source.startswith("SOURCED")
+    ]
+    print(
+        f"\nresearch priority: {len(unsourced)}/{min(args.top, len(ranked))} "
+        f"top edges still GUESS/DEFAULT"
+    )
+    return 0
+
+
 def cmd_check(atlas, args):
     issues, stats = atlas.check()
     for k, v in stats.items():
@@ -127,13 +146,20 @@ def main(argv=None):
     pe.add_argument("--crossing", default="")
     pe.add_argument("--mode", default="")
 
+    pc = sub.add_parser("critical", help="rank edges by knockout loss over story flows")
+    pc.add_argument("--top", type=int, default=20)
+
     sub.add_parser("check", help="dataset lint + guess-rate report")
 
     args = p.parse_args(argv)
     atlas = Atlas.load()
-    return {"path": cmd_path, "flow": cmd_flow, "edges": cmd_edges, "check": cmd_check}[
-        args.cmd
-    ](atlas, args)
+    return {
+        "path": cmd_path,
+        "flow": cmd_flow,
+        "edges": cmd_edges,
+        "check": cmd_check,
+        "critical": cmd_critical,
+    }[args.cmd](atlas, args)
 
 
 if __name__ == "__main__":

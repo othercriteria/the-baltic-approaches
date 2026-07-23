@@ -4,6 +4,36 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-23 — the escalation counter-brief (scratch probe; no mechanics; NOT canon)
+
+DK asked whether LATE escalation (the day-13 temptation the
+envelope measures) would be operationally effective for red.
+Probe (scratch/nbc-counterbrief.py, per the conceit's
+escape-clause analysis — the canonical instrument still never
+simulates NBC as fires): a maximally red-favorable day-13 strike
+(60% of blue line+withheld destroyed, blue air halved, red pays
+NOTHING, blue never retaliates) buys, by day 28: **+16 km across
+both axes at current advance mechanics; +30 km even granting a
+shattered-defense band jump to 15 km/d; ZERO additional axes
+(held 2.00 in every variant); and red spends 87-93% of
+post-strike days PAUSED for supply** — the band jump raises the
+pause fraction (faster advance = longer LOC = more starvation).
+With the minimal self-tax the sources demand (contamination +
+infrastructure loss on red's own LOC: red_loc_penalty 0.55→0.80;
+the directives want the locks and ports INTACT), the free-strike
+gain halves. Blue's ABSOLUTE loss is enormous (CV 45.9 → 18.6).
+**Finding: at the moment of maximum temptation, red's binding
+constraint is its own throughput — WMD converts blue combat
+power into rubble but does not move red's railhead.** The
+forbidden shortcut does not fix the bottleneck; it burns the
+plant. Caveats: toy CVs; the CAL-C ladder is bracketed (band-4
+and band-15 runs), not implemented; blue retaliation unmodeled
+(its inclusion only worsens red's case); the one unexplored
+branch is a post-window nuclear-enabled Zealand descent
+(different question — the package is thinned and the garrison
+intact in the canonical corridor). Feeds DK's pending envelope
+ruling and red's week-3 staff-argument scene.
+
 ## 2026-07-22 — v17/v18: the researched red + the conceit envelope (session 3845eb93)
 
 **v17 — red architecture recast** (scenario only, no mechanics; 80

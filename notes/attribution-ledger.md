@@ -131,6 +131,15 @@ entity index generatable instead of reconstructable.
   options, scratch-tier). Record: size-and-shape.md §10. Shelf
   batch 8 deposited same message-pair (VAL-77 + CIA chemical item
   both queue-kills).
+- 2026-07-23 — Draft Zero delivered and read (session fa9b03ec;
+  DK read-response same day): 20 chapters, 29,936 words — the 30k
+  attractor reproduced cross-model (DK: same attractor produced
+  WB's initial Opus 4.5 draft). DK ratified sizing up from 30k via
+  the four expansion engines and contributed the orthogonality
+  observation (the engine lands orthogonal to textbook ALB but
+  would recover the textbook if red presented per the textbook).
+  Distillation: planning/draft-zero-findings.md; specimen stays
+  non-canonical in scratch/draft-zero/.
 
 ## Entity index
 

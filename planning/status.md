@@ -17,18 +17,27 @@ operational-level slot is EMPTY — gap analysis),
 reference/first-clash.md (Macksey purchased + deposited by DK
 2026-07-23 — the apparatus model: ~40-50% narrative-external
 carriage proven; and the negative case: told-lessons are inert).
-**The 55k sizing brief is filed: planning/size-and-shape.md** (three shape options
-forced, lean = 3-part/20-chapter with pre-war exercise overture;
-register lean seminar-overt-conditional; unsettle #2 proposed
-answered-in-planning, test in outline). Next major phase: Phase-1
-outlining — but the sizing brief needs its fresh-context
-COUNTER-BRIEF first (process rules). Campaign 3 closed v16-v20;
-the instrument's standing claim is the META-claim (findings log).
-Open decisions for Phase 1: protagonist nationality + narrative
-voice (settle via character sketches — test 1st-person-present vs
-close-third, goal-read-notes §8), the part-structure ruling
-(size-and-shape §4), the critique profile of the drafting model
-(required before any prose).*
+**The 55k sizing
+brief is filed and COUNTER-BRIEFED** (planning/size-and-shape.md
++ size-counterbrief-structure.md + size-counterbrief-red.md — two
+incumbent concessions on the record). **DRAFT ZERO EXISTS**
+(same day, DK-authorized reconnaissance: scratch/draft-zero/, 20
+chs, 29,936 words, non-canonical) and its distilled findings are
+THE Phase-1 input: **planning/draft-zero-findings.md** — the
+cross-model 30k attractor and DK's ratified expansion engines
+(dialogue conversion, failure injection, selective 65k restores,
+B-plot thickening); specimen verdicts (A′ confirmed, R3
+confirmed-take-the-amendment, two mentor visits, meta-as-closing-
+beat, close-third PROVEN necessary, register dispute dissolved in
+practice); DK's orthogonality observation (the payload is the
+METHOD; doctrine is its contingent output — the mature form of
+the premise). Campaign 3 closed v16-v20; the instrument's
+standing claim is the META-claim (findings log). Phase 1 now runs
+FROM the specimen: rebuild the allocation from actuals; matrix
+test = re-render draft chs. 5/13 (nationality × voice); design
+the failure-injection set; outline under the method-not-doctrine
+framing; instrument-roster pass over the specimen → the critique
+profile.*
 
 ## The broad outline as it stands (DK: "broad outline is set")
 
@@ -240,15 +249,19 @@ should attack before drafting:
 
 ## Immediate next steps (in rough order)
 
-1. Fresh-context counter-brief on planning/size-and-shape.md (the
-   sizing brief is one voice; process rules demand the
-   counter-brief before the part-structure ruling — assign a
-   persona disposed against the pre-war-overture shape).
-2. Phase 1 planning proper: outline, parts structure (ruling teed
-   up in size-and-shape.md §4), the ledgers (CLAUDE.md lists them;
-   the wargame ledger bridge exists — wargame/ledger.py). The
-   genre-craft base is now in: goal-structure-map,
-   goal-read-notes, phoenix-transposition, goal-likes.
+1. ~~Fresh-context counter-brief on size-and-shape.md~~ DONE
+   2026-07-23 (both briefs filed; concessions recorded; DK
+   rulings: B-plot mechanism (c) rejected; openness to A′/B/R3/
+   second visit; Draft Zero authorized and delivered same day).
+2. Phase 1 planning proper, NOW FROM THE SPECIMEN
+   (planning/draft-zero-findings.md §6 is the program): allocation
+   sheet from actuals; matrix re-renders of draft chs. 5/13
+   (settles nationality × voice + starts the critique profile);
+   failure-injection design (= unsettle #2's second cycle);
+   outline under the method-not-doctrine framing; ledgers
+   (CLAUDE.md lists them; wargame/ledger.py is the bridge).
+   Genre-craft base: goal-structure-map, goal-read-notes,
+   phoenix-transposition, goal-likes, first-clash.
 3. The coupled character/setting decision: ~~year x commander
    nationality x succession direction~~ (provisionally set
    2026-07-22: 1983, Danish incoming, GE→DA) x **protagonist

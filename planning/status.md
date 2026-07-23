@@ -1,25 +1,31 @@
 # Project status — successor entry point
 
 *Written 2026-07-21 (session 1a9aba32); revised in place through
-2026-07-23 by session 3845eb93 at its wrap. Read this first;
-everything cites its source doc. The lineage log is in
-notes/attribution-ledger.md — log your session start there before
-working (CLAUDE.md, Provenance). Successor's first acts:
-`make raw-archive SESSION=3845eb93-eb3f-4bec-80f3-a45b03ae5b04`,
-then `make archive SKIP=<your-uuid>`. **First working task: The
-Goal structure-map distillation** (now in holdings —
-goldratt-the-goal-30th-anniversary.pdf: chapter rhythm, Jonah
-dialogue mechanics, metrics-engine staging, A/B-plot balance, the
-register decision CLAUDE.md demands) — it is the direct input to
-Phase-1 outlining, which is the next major phase. Campaign 3
-closed v16-v20; the instrument is calibrated to its research base
-and its standing claim is the META-claim (findings log). Open
-decisions for Phase 1: protagonist nationality (last coupled
-axis — settle via character sketches), the critique profile of
-the drafting model (required before any prose), unsettle #2's
-iteration-engine test (the daily air conference + estimate-vs-
-outcome log + the pre-war exercise are the candidates; The Goal
-structure map will say whether they carry the form).*
+2026-07-23 by session fa9b03ec. Read this first; everything cites
+its source doc. The lineage log is in notes/attribution-ledger.md —
+log your session start there before working (CLAUDE.md,
+Provenance). Successor's first acts: `make raw-archive
+SESSION=fa9b03ec-2784-4a1e-936f-ce2348848e8d` (if not already
+present), then `make archive SKIP=<your-uuid>`. **The Goal
+structure-map distillation is DONE (2026-07-23, session
+fa9b03ec)** — reference/goal-structure-map.md (3-part Opus map +
+synthesis), notes/goal-read-notes.md (the session's own full read:
+the reader-ahead mechanism, prose-floor finding, sizing math),
+reference/phoenix-transposition.md (the transposition case study),
+reference/goal-likes.md (the genre; iteration engines; the
+operational-level slot is EMPTY — gap analysis). **The 55k sizing
+brief is filed: planning/size-and-shape.md** (three shape options
+forced, lean = 3-part/20-chapter with pre-war exercise overture;
+register lean seminar-overt-conditional; unsettle #2 proposed
+answered-in-planning, test in outline). Next major phase: Phase-1
+outlining — but the sizing brief needs its fresh-context
+COUNTER-BRIEF first (process rules). Campaign 3 closed v16-v20;
+the instrument's standing claim is the META-claim (findings log).
+Open decisions for Phase 1: protagonist nationality + narrative
+voice (settle via character sketches — test 1st-person-present vs
+close-third, goal-read-notes §8), the part-structure ruling
+(size-and-shape §4), the critique profile of the drafting model
+(required before any prose).*
 
 ## The broad outline as it stands (DK: "broad outline is set")
 
@@ -213,18 +219,39 @@ should attack before drafting:
    itself needs rethinking — that's an Andon Cord conversation, not
    a drafting problem. This is the unexamined assumption I'd
    examine first.
+   **PROPOSED ANSWER 2026-07-23 (session fa9b03ec, distillation
+   campaign):** the genre survey mapped the design space of
+   iteration engines (reference/goal-likes.md §2 — seven engines;
+   the tactical didactic-fictions all lean on a repeatable
+   set-piece we don't have), and The Goal's own engine decomposed
+   cleanly (structure-map synthesis: failure-as-curriculum every
+   ~3 chapters, measured weekly results). The honest transposition:
+   operational-phase cadence (each red echelon re-poses the tempo
+   question, 48-72h grain) + the daily air conference + the
+   estimate-vs-outcome log + the pre-war exercise as sanctioned
+   rehearsal — planning/size-and-shape.md §7 has the composition
+   and the test criterion (~2 learn-and-revise cycles per concept
+   station, checked in the Phase-1 outline). Status:
+   answered-in-planning, NOT discharged — the outline is the test;
+   the Andon clause stands.
 
 ## Immediate next steps (in rough order)
 
-1. Phase 1 planning proper: outline, parts structure, the ledgers
-   (CLAUDE.md lists them; the wargame ledger bridge exists —
-   wargame/ledger.py).
-2. The coupled character/setting decision: ~~year x commander
+1. Fresh-context counter-brief on planning/size-and-shape.md (the
+   sizing brief is one voice; process rules demand the
+   counter-brief before the part-structure ruling — assign a
+   persona disposed against the pre-war-overture shape).
+2. Phase 1 planning proper: outline, parts structure (ruling teed
+   up in size-and-shape.md §4), the ledgers (CLAUDE.md lists them;
+   the wargame ledger bridge exists — wargame/ledger.py). The
+   genre-craft base is now in: goal-structure-map,
+   goal-read-notes, phoenix-transposition, goal-likes.
+3. The coupled character/setting decision: ~~year x commander
    nationality x succession direction~~ (provisionally set
    2026-07-22: 1983, Danish incoming, GE→DA) x **protagonist
    nationality** (still open, pure voice) — settle the last axis
    via character sketches.
-3. Calibration research pass (blocking model work, not writing):
+4. Calibration research pass (blocking model work, not writing):
    ~~FM 101-10-1 consumption extraction~~ (done 2026-07-21 →
    reference/consumption-factors.md, CAL-1..4; Vol-1 TOE strengths
    verified 2026-07-22), ~~ORALFORE advance-rate bench~~ (done
@@ -255,9 +282,9 @@ should attack before drafting:
    Danish road/rail/Little Belt capacity (CAL-3 tonnage anchor),
    Danish call-up mechanics at hour grain.
    **The v15 re-baseline is no longer research-blocked.**
-4. The fresh critique profile of the drafting model (CLAUDE.md
+5. The fresh critique profile of the drafting model (CLAUDE.md
    process rules) — before any prose is drafted.
-5. ~~Unsettle-review #1 above, early and cheap.~~ Done 2026-07-21;
+6. ~~Unsettle-review #1 above, early and cheap.~~ Done 2026-07-21;
    awaiting DK ruling (see the unsettling's entry above).
 
 ## Standing DK reminders (loose ends outside the repo)

@@ -118,21 +118,23 @@ CIA reading room).
 - `pdf/cia-soviet-chemical-weapons-threat-rdp88b00745.pdf` (26 pp,
   image scan) — the flagged chemical-posture.md fetch item
   (CIA-RDP88B00745R000100140027-5), HELD.
-- `txt/wc-fala-77-maritime-front-recon-plan-amphib.txt` — FALA-77
-  (28.06.77) Maritime Front RECONNAISSANCE PLAN for the amphibious
-  assault operation, D-4 through D-7: Danish isles/Zealand +
-  southern Norway targets — direct zealand-landing.md material.
+- FALA-77 (28.06.77) Maritime Front RECONNAISSANCE PLAN for the
+  amphibious assault, D-4..D-7 — KEPT for distillation into
+  zealand-landing.md (red's collection plan = a mirror of red's
+  fears); raw txt to be dropped once the distillation (with
+  Wilson Center provenance cited) is integrated.
 - `pdf/wc-1980-wp-view-nato-oob-western-tvd.pdf` — WP exercise
   appendix 17: NATO order of battle in the Western TVD as of
   20 Jan 1980 — RED'S PICTURE OF BLUE (the G-2-mirror bench:
   what red's planners believed we had).
 - `pdf/wc-1980-assault-landing-formations-composition.pdf` —
   composition of the assault landing formations (16 Jan 1980).
-- `txt/wc-1980-polish-2nd-fleet-oob.txt` — 2nd Fleet (Polish Navy)
-  OOB as of 20 Jan 1980 (text splat; translator ship-type caveats).
-- `txt/wc-1980-wp-maritime-air-defense.txt` — WP air-defense in the
-  maritime sector (13th GDR AD Div, SAM brigades/regiments by
-  garrison; text splat).
+- ~~2nd Fleet (Polish Navy) OOB, 20 Jan 1980~~ and ~~WP maritime-
+  sector air defense (13th GDR AD Div SAM order)~~ — text splats
+  DROPPED at triage 2026-07-23 (DK: provenance/metadata unease;
+  moderate value; re-fetchable from the Wilson Center military-
+  exercises collection if the air war or naval OOB ever needs
+  them). One-line content preserved here.
 
 ## Local archive tier (use in place, never redistribute)
 
@@ -143,6 +145,46 @@ scans of public-domain gov docs — surveyed 2026-07-20, curated map in
 procedure, the Aggressor exercise-enemy series, period map-symbol
 plates. Cite by path; when a clean public copy is needed, fetch the
 same document via the queue below instead.
+
+## Fetch queue — Draft-Zero-informed additions (2026-07-23)
+
+Draft Zero (scratch/draft-zero/, findings in
+planning/draft-zero-findings.md) stress-tested the research base by
+building a whole specimen on it. What held: staff procedure, NBC
+benches, red architecture (as far as Lautsch-pending allows),
+climate frame. What the draft exposed as thin, in priority order:
+
+1. **German civil evacuation planning c. 1983** — the B-plot
+   friction spine now runs on it (Ausweichbewegungen, Kreis-level
+   assembly/column planning, the civil-military road-sharing
+   regime). Sources to hunt: BMI Zivilschutz publications, the
+   period Weißbuch zur zivilen Verteidigung, Gesamtverteidigung
+   literature, the 1982 US-FRG Wartime Host Nation Support
+   agreement (open summaries). Fetch-tier.
+2. **Danish mobilization mechanics at hour grain** — standing gap,
+   now load-bearing (the 90-hour chapter is the book's hike).
+   Bogason paperback scans may partially cover (wishlist stands);
+   DIIS vols partially mined; Danish-language hunt owed.
+3. **Counter-battery / weapon-locating capability c. 1983** — the
+   draft's countdown device (reading red's expenditure from
+   counted fires) needs a feasibility bench: AN/TPQ-36/37
+   fielding dates, British Cymbeline, German ABRA, artillery
+   intelligence doctrine of the period. Fetch-tier.
+4. **WP reporting culture / norm-compliance fiction** — the
+   two-clock symmetry (red's inflated self-reporting) is currently
+   authorial inference; wants sourcing. Candidates: CIA studies on
+   Soviet exercise/reporting practices (reading room), defector
+   literature (Suvorov, period caution), the held Glantz cluster
+   re-read with this question.
+5. **Danish road/rail/Little Belt capacity** (CAL-3 anchor) —
+   standing item, promoted: the constraint station stands on it.
+6. **Wilson Center military-exercises collection sweep** (DK
+   browser) — batch 8 was clearly sampled from a larger set (the
+   1980 exercise appendices imply a full document family);
+   a systematic pass for Baltic/Maritime Front items would map
+   what else exists.
+- Revision-pass flag, no acquisition: European route designations
+  1983 (E45 vs pre-1985 numbering) — verify before canon prose.
 
 ## Fetch queue (free/PD; URLs to be hunted)
 

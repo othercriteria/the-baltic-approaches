@@ -347,3 +347,37 @@ All five are sketch/table-tier and fold into the agreed next step
 ladder depth (8 thin vs ~5 deep + folds); per-station register;
 B-plot mechanism (a/b/c); the second mentor visit; R3 vs the
 standing cut (vs R2 mediated-voice floor).
+
+## 10. Post-counter-brief rulings and the Draft Zero decision (2026-07-23)
+
+**DK, in-session, after reading both briefs:** no full rulings yet,
+but — **general openness to A′, B, R3, and the second mentor
+visit**; and one hard ruling: **the calls-and-letters B-plot
+(§ B-plot option c) is REJECTED** — the mechanism will be (a)
+friction or (b) displaced carrier, or a blend. DK notes the
+combinatorics stay open deliberately.
+
+**The next-move call was delegated to the session, and the session
+chose DRAFT ZERO**: a ~55k stream-of-consciousness reconnaissance
+draft NOW, on a vibes-based pick of the open options, instead of
+(or rather: as the fastest producer of) the sketch/table artifacts.
+DK's argument, adopted: for an agent the draft is cheap, and the
+design being this unsettled REDUCES lock-in risk — a draft written
+while six options are live reads as one sample from the design
+space, not as the plan. The session's addenda to that argument:
+(a) the counter-briefs' five artifacts mostly fall out of a draft
+for free (the draft contains an opening, red beats, a de-facto
+allocation sheet measured rather than estimated, and the
+meta-station either writes or doesn't); (b) the draft corpus is
+what the drafting-model critique profile needs anyway (process
+rules); (c) the §2 fixed-cost line items stop being numerology the
+moment they are measured against drafted chapters.
+
+**Anchoring controls:** Draft Zero lives in scratch/draft-zero/
+(non-canonical by location and by declaration); its vibes-picks are
+declared in its 00-choices.md; findings are logged to its
+99-findings.md as drafting proceeds and distilled to planning/
+afterward; the nationality×voice matrix test runs AFTER the draft
+by re-rendering a drafted chapter in the unchosen variants (better
+test material than invented scenes). Nothing in Draft Zero is
+canon; every open ruling above remains open.

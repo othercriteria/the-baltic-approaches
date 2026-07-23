@@ -123,6 +123,14 @@ entity index generatable instead of reconstructable.
   message: DK "aligned with your choice so far" on the 3-part lean
   (provisional, counter-brief still owed); First Clash purchased
   and deposited to holdings same day.
+- 2026-07-23 — post-counter-brief rulings (DK, in-session to
+  fa9b03ec): calls-and-letters B-plot REJECTED (friction or
+  displaced-carrier instead); openness recorded to A', B, R3, and
+  a second mentor visit; next-move call delegated to the session,
+  which chose Draft Zero (~55k reconnaissance draft, vibes-picked
+  options, scratch-tier). Record: size-and-shape.md §10. Shelf
+  batch 8 deposited same message-pair (VAL-77 + CIA chemical item
+  both queue-kills).
 
 ## Entity index
 

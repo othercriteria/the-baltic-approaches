@@ -90,15 +90,14 @@ Findings (each flagged with its transmission path):
   border.** [Lautsch, *Kriegsschauplatz Deutschland*, as quoted in a
   Bundeswehrforum thread citing pp. 121, 124
   (https://bundeswehrforum.de/forum/index.php?topic=50905.35),
-  fetched 2026-07-22 — **forum-transmitted, TO-VERIFY against the
-  book itself; purchase candidate**]
+  fetched 2026-07-22 — **forum-transmitted; UPGRADED/PARTIALLY CORRECTED by Addendum 2 (ZZB p. 8/13): three armies +2 days toward Jutland CONFIRMED; the air army NOT confirmed**]
 - **The covering phase**: on the assumption NATO attacks first, **two
   divisions — the 8. MSD and the Soviet 94. Gds MSD — hold the
   Schleswig-Holstein border sector for about two days (to X+2)**
   while the Coastal Front completes its approach march from Poland
   and deploys through Mecklenburg; the 8. MSD then reverts to 5th
   Army second echelon (Nienburg direction). [same forum-transmitted
-  Lautsch cite — TO-VERIFY, but consistent with everything else held]
+  Lautsch cite — **CORRECTED IN SHAPE by Addendum 2: the covering grouping is the Soviet 94. GMSD (ZZB p. 8 fn 18), NOT 8. MSD, which fights in the attack corridor**]
 - **Plan revisions**: 1983 (offensive as above) → **1985: defensive
   prioritization** — hold a Dassow-Lenzen line, objective the
   restoration of the status quo ante at the inner-German border,
@@ -106,10 +105,13 @@ Findings (each flagged with its transmission path):
   defensive** inside GDR territory, fortified positions, no border
   crossing. [German Wikipedia 5. Armee article + aixpaix interview +
   sehepunkte review of Wenzke (ed.), all fetched 2026-07-22]
-  **A November-1986 setting sits on the 1985 plan of record** — the
-  defense-first, counterattack-second shape, not the 1983 romp. This
-  is now a setting-year-coupled fact, same class as the Zealand
-  criterion (planning/setting-time.md criterion 6).
+  ~~A November-1986 setting sits on the 1985 plan of record~~
+  **STALE — the setting was pinned November 1983 (ruling
+  2026-07-22): the 1983 OFFENSIVE plan is red's plan of record.**
+  See Addendum 2 for the reconciliation and Lautsch's own framing
+  of the 1983 plan's warning presupposition. (Setting-year-coupled
+  fact, same class as the Zealand criterion —
+  planning/setting-time.md criterion 6/7.)
 - **Polish Front building blocks** (wiki-grade): 1. Armia from the
   Pomeranian MD (Bydgoszcz, readiness A, 91,000 wartime), 2. Armia
   from the Silesian MD (Wrocław, B, 89,500), 4. Armia from the Warsaw
@@ -299,3 +301,115 @@ direction at dated moments — blue's IC naming the right armies but
 missing the phase structure (above), red counting phantom
 divisions and carriers while missing the gap. The two-clock
 symmetry has a two-mirror symmetry to match.
+
+## Addendum 2 (2026-07-23, session eb2fcb4e): the Lautsch substitute corpus lands
+
+DK found the ZMSBw/BMVg **Zeitzeugenbericht** (Lautsch, "Kämpfen
+können, um nicht kämpfen zu müssen — Operatives Denken … am
+Beispiel der Operativen Planungen des Militärbezirks V," Gespräche
+am Ehrenmal, 1 July 2021, 22 pp — fetched to the shelf) and a hunt
+assembled the open substitute corpus: **Clausewitz-Jahrbuch 2021**
+(Jeschonnek/Lautsch, ~pp. 150-190, free PDF, ~15 figures),
+**Pałka 2022** (Polish landing ops, Kwartalnik Historyczny Eng. 6,
+free), **Roskilde 2016** (Coastal Front 1970 map paper, free), the
+sehepunkte reviews (14/2014 nr. 9 Ploetz; 14/2014 nr. 2), and the
+aixpaix 2017 interview (already cited). Full mining report in this
+session's transcript. Consequences for the claims above:
+
+**Upgraded to quote+page grade (Zeitzeugenbericht = ZZB):**
+- Küstenfront: **"1. Polnische Küstenfront mit drei Armeen"
+  follows the 5. Armee "nach zwei Tagen … tiefengestaffelt," to
+  attack toward Jutland AND along the North Sea coastal strip**
+  (ZZB p. 8; the 1. Polnische Armee's EAs marked "x+2" near
+  Szczecin on the p. 15 map; "nach zwei Tagen sollte die 1. Armee
+  der polnischen Front folgen und nach Jütland angreifen," p. 13).
+  **Lautsch's own caveat kept attached**: this is his personal
+  assessment of the Polish front's role — Polish war plans opened
+  for research only January 2021 (ZZB p. 8). The "one air army"
+  element is NOT in the ZZB — stays forum-grade.
+- The covering phase, CORRECTED IN SHAPE: the **Soviet 94.
+  Garde-MSD** was withheld from the 5. Armee's attack and
+  "einer besonderen Gruppierung zugeordnet … die Deckung der
+  polnischen Verbände zur Einführung in die Jütländische
+  Operation sicherzustellen" (ZZB p. 8 fn 18; drawn at Dassow
+  toward Lübeck on the p. 15 map; present in the army's DEFENSE
+  OOB box, absent from its ATTACK box, p. 16). **The old
+  "8. MSD + 94. GMSD hold the border sector then 8. MSD reverts
+  to second echelon" formulation is NOT supported** — the 8. MSD
+  is a main attack-corridor division throughout. Our v17 wargame
+  red architecture (Polish front behind a ~2-day GDR/Soviet
+  screen) survives in substance with the screen now correctly
+  centered on the 94. GMSD grouping + the 5. Armee's own fight.
+- 5. Armee wartime OOB confirmed and enriched (ZZB p. 8 + the
+  p. 9 org chart with garrisons): 8. MSD, 9. PD active; 19./20.
+  MSD from AZ-19/-20 **within 48 hours**; Soviet 94. GMSD
+  (Schwerin) + 138./221. s. PR; 5. RBr (Demen). **CORRECTION:
+  the 1. MSD belongs to the "Besondere Gruppierung Berlin," is
+  MB V-subordinated in PEACE ONLY, and is NOT a wartime 5th-Army
+  field division** (ZZB p. 8 + p. 9 legend).
+- Plan sequence with causes (ZZB pp. 16-19): 1983 offensive
+  (objective "Raum Niedersachsen bis über die Weser in 5 bis 7
+  Tagen"; NL border on the p. 15 map's Tag-5-7 phase line; tempo
+  norms nächste Aufgabe 100-150 km/3 days, weitere +150 km/3-4
+  days, pp. 11-12) → **1985 forward defense, explicitly NOT
+  Gorbachev** (planning began before he took office; causes:
+  Afghanistan, Poland/Solidarność, US sanctions, ALB — Ogarkov
+  on ALB's danger — and Honecker's demand to defend at the
+  border; objective the status quo ante, pp. 17-18) → 1988
+  strictly defensive (INF, the May-1987 WP doctrine, the UN
+  cuts; Sylla's three-division positional belt, p. 19 map).
+- Warning assumption: **"Vorwarnzeit von 30 Tagen oder mehr"**
+  (ZZB p. 13) — and regiment commanders were briefed ONLY on the
+  defensive operation; the attack briefing was deferred to
+  mobilization on the strength of that assumed warning (pp.
+  14-15; scene-grade).
+- Blue-side gold from red's own estimate (ZZB p. 9 + fns 19-20):
+  6. PGD rated the strongest opposing division (>370 Leopard,
+  ~220 Marder/M113); the 41./61. ID as SH mobilization divisions
+  raised from Heimatschutz-Regimenter 61/71/81 under TerrKdo SH;
+  enemy total in the army's lane 7 divisions + 2 brigades, up to
+  +2 US / +1 UK divisions.
+- Staff-culture texture bank for the red room (ZZB pp. 5, 12-15,
+  20-21): three Germans cleared for the full plan; army documents
+  in Russian, division in German; >150 hand-drawn maps + ~3,000
+  sheets, four copies, GKdoS; the Entschlusskarte genre; no
+  lateral consultation between armies ("sogar Konsultationen zu
+  Sachfragen … untersagt"); Soviet-primed enemy picture assumed
+  at 100% strength ("dem Gegner Aggressionsabsichten …
+  unterstellt" — Lautsch's own retrospective); nuclear targeting
+  "von der Sowjetarmee vorgegeben"; the originals "heute noch
+  vermutlich in Moskau."
+
+**Still NOT sourced better than before (do not upgrade):** the
+day-1 50-60 km figure and the "up to 32 nuclear strikes" salvo
+(aixpaix interview only — absent from the ZZB); Himmelpfort
+(wiki-grade); the pre-1983 "5. Armeekorps" designation — the ZZB
+never uses it and dates the army's independent operational role
+to ~1980 with the 1983 change being MISSION (coastal-defense
+sector → concentrated attack lane south of Hamburg, ZZB pp. 6-7);
+treat the corps→army redesignation as UNSUPPORTED until Wenzke.
+Also corrected: the English "Blueprints for Battle" volume has NO
+Lautsch chapter (its GDR chapter is Diedrich; the earlier
+De-Gruyter-abstract cite belongs to Bange/Lemke pp. 265-286,
+which stays paywalled).
+
+**Setting-year reconciliation (fixing the stale paragraph
+above):** the provisional setting is **November 1983** (ruling
+2026-07-22), so **the 1983 offensive plan IS red's plan of
+record** — with Lautsch's own framing attached: the offensive
+option presupposed reliable warning of NATO attack preparation
+("präventive Offensivhandlungen für möglich," ZZB p. 16), which
+is exactly the calculus our red-room beats and the NBC conceit's
+red rationale already dramatize. The 1985/1988 shapes are
+post-setting and matter only as the direction history was moving.
+
+**Acquisition consequence:** the Lautsch BOOK drops from
+"top/blocking" to "wanted, not blocking" — the conceptual spine,
+plan sequence, covering architecture, OOB, and figure set are now
+open-sourced at citable grade. What only the book (or Bange/
+Lemke) still carries: the full continuous narrative, book-
+resolution maps, and fine-grained inventories. **Wenzke (ed.),
+Die Streitkräfte der DDR und Polens in der Operationsplanung des
+Warschauer Paktes, RISES** — it reproduces primary documents
+(incl. Directive 1/85) and carries the Moszumański/Szafran Polish
+chapters this file already names as wanted.

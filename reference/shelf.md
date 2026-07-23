@@ -123,6 +123,29 @@ Not found free anywhere (recorded so nobody re-hunts): FM 101-10-1
 manuals of the 1980s (Bundesarchiv physical holdings only — a
 genuine dead end for the open web).
 
+## Held — batch 10 (the Lautsch substitute corpus, 2026-07-23, session eb2fcb4e)
+
+DK found the BMVg Zeitzeugenbericht while probing the Lautsch
+purchase; the hunt assembled the rest. Mining report in the
+session transcript; record updates in oob-verification.md
+Addendum 2. All freely downloaded from official/institutional
+hosts.
+
+| Document | Why it's on the shelf |
+|---|---|
+| Lautsch, *"Kämpfen können, um nicht kämpfen zu müssen"* — Zeitzeugenbericht, Operative Planungen des Militärbezirks V (BMVg Gespräche am Ehrenmal, July 2021; 22 pp, 10 figures) | **The 5th-Army planner's own account at quote+page grade**: Küstenfront +2-day passage, the 94. GMSD covering grouping, full OOB org-chart w/ garrisons, the 1983/85/88 sequence with causes, 30+-day warning assumption, staff-culture texture (three cleared Germans, Russian-language army documents, the Entschlusskarte genre). Maps are AUTHOR RECONSTRUCTIONS (originals destroyed/in Moscow) — flagged per figure [bmvg.de] |
+| Jeschonnek/Lautsch, Clausewitz-Jahrbuch 2021, ch. IV (~pp. 150-190, ~15 figures) | The condensed book: plan sequence, X+2 Polish 1st Army passage, Deckungsabschnitt, 5. Armee OOB under Gehmert [static.clausewitz-gesellschaft.de] |
+| Pałka, "Planning for a Landing Operation of the Polish People's Army on the Danish Isles" (Kwartalnik Historyczny CXXIX/2022 Eng. 6, pp. 95-126) | The Polish side of the Küstenfront mission — landing ops evolution incl. the mid-80s narrowing to Bornholm (pairs with zealand-landing.md) [rcin.org.pl] |
+| Nielsen et al., "An operational map of the Polish Coastal Front 1970" (Geoforum Perspektiv 15(27), 2016) | Reconstructed Coastal Front geography/objectives against Denmark + N Germany [rucforsk.ruc.dk] |
+
+Known-paywalled/not-free (recorded so nobody re-hunts): the
+Lautsch book itself (ZMSBw, €29.80, no free PDF); Bange/Lemke ch.
+pp. 265-286 (De Gruyter restricted); Wenzke (ed.) ZMSBw volume
+(purchase — RISEN on the acquisition list: reproduces Directive
+1/85 + the Moszumański/Szafran Polish chapters);
+Clausewitz-Jahrbuch 2020 direct PDF (403 on URL guesses — DK
+browser item; the Jahrbücher index page links it).
+
 ## Held — batch 8 (DK browser fetches, 2026-07-23; DISTILLED 2026-07-23)
 
 DK pulled these opportunistically (text splat where Wilson Center

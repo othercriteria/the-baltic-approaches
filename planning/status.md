@@ -397,6 +397,15 @@ should attack before drafting:
   (4-1-78 first) + NIE 11/17-85 + two CIA chemical items
   (shelf.md queue, URLs in chemical-posture.md); Wilson Center
   pair (ex. VAL-77, Maritime Front decision).
-- Purchases pending: Lautsch (top — the red architecture's
-  page-cites are forum-transmitted until it lands), Wenzke (ed.),
-  Bracken 1983; the IS Reader / Mazurek library tier.
+- Purchases pending, RE-RANKED 2026-07-23 (session eb2fcb4e, on
+  the Lautsch substitute corpus — oob-verification.md Addendum 2,
+  shelf batch 10): **Lautsch book DEMOTED to wanted-not-blocking**
+  (the Zeitzeugenbericht + Clausewitz-Jahrbuch 2021 + Pałka +
+  Roskilde now carry the spine at quote+page grade; the book still
+  holds the full narrative + book-resolution maps); **Wenzke (ed.)
+  RISES to top purchase** (reproduces Directive 1/85 + the
+  Moszumański/Szafran Polish chapters — the Polish-echelon
+  question this file names as open); Bracken 1983; the IS Reader /
+  Mazurek library tier. DK pessimism on Lautsch PDF availability
+  confirmed by the hunt (no free copy exists; Bange/Lemke
+  paywalled).

@@ -145,16 +145,55 @@ outranks them, which is this file's whole program.
   SM-70s still partly fitted in 1983 (B — general-regime, not
   segment-specific).
 
-## 6. Verification queue (what round 2 chases)
+## 6. Round 2 (same day): the B– items closed, north Jutland corrected
+
+- **Storstrøm single rail track: grade A** (Banedanmark: "ét
+  jernbanespor"; config unchanged from 1937). Bad Kleinen–Schwerin
+  CORRECTED to double (on the 1973-75 rebuilt main line).
+  Neumünster–Heide CONFIRMED single ("eingleisige Nebenbahn",
+  never doubled). Sydbanen and Vestbanen double (1924-25 /
+  1899-1900). **Rendsburg High Bridge two-track in 1983** (its
+  single-track episode is 1993-2014 — a modern-value trap
+  avoided).
+- **North Jutland: the motorway ENDS at Vejle in Nov 1983.**
+  Aalborg (1969-72) and Randers (1971) bypasses + one fragment
+  south of Aarhus (1977/82) are the only motorway north of it;
+  Svenstrup–Randers 1992, Vejle N gap until 1990, Aarhus–Randers
+  1994. The 1982 Schlüter construction freeze corroborates.
+  Domestic numbering: the spine is **hovedvej A10** (A-numbers
+  until ~1985); Vejle–Fredericia = **A18** (no motorway);
+  **Kolding–Fredericia motorway since 1970** (Taulov corridor,
+  A1/E66, opened with the new Little Belt bridge). F106
+  Schwerin–Wismar confirmed.
+- **Shelf mining for the military Belt-crossing number: NOT
+  FOUND on the shelf** (verdict stands: DK-browser/print tier).
+  What the shelf DOES hold (diis-kk-bind3 pp. 556, 568-570;
+  slks-dkka-baggrundsnotat §5.1, p. 60; cia-1989 App A):
+  **East German military intelligence studied precisely this
+  bottleneck question** — the Copenhagen residency mined
+  Vejdirektoratet and DSB ferry-division material to find
+  Denmark's "transportmæssige flaskehalse," and read Jutland
+  motorway expansion as NATO reinforcement-transfer planning;
+  **Danish civil defense assumed wartime BISECTION at the Great
+  Belt** (separate regional command west of it); the Great Belt
+  ferries were the "usual route" under standing surveillance;
+  and the Zealand-raised Jutland Brigade was earmarked to
+  reinforce LANDJUT (CIA 1989). Design note: red's G-2 owning
+  blue's crossing arithmetic is primary-sourced — usable
+  in-book.
+
+## 7. Verification queue (round 3+)
 
 1. Danish military/DSB beredskab ferry-capacity planning (the
-   CAL-3 anchor proper) — print sources, DK browser tier.
-2. Storstrøm single-rail-track (B–) and Bad Kleinen–Schwerin
-   track status (B–).
-3. Neumünster–Heide single/double in 1983.
-4. Hard cites for rail capacity norms (FM 55-20; HDv logistics).
-5. North-Jutland (Aalborg–Vejle) motorway extents 1983.
-6. F106 designation (Schwerin–Wismar) — assumed, unverified.
+   CAL-3 anchor proper) — print/archive tier; DK browser
+   candidate: Vejdirektoratet "Det store H — en motorvejshistorie"
+   (vejhistorie.dk) to upgrade the motorway tables to official.
+2. Hard cites for rail line-density norms (FM 55-20; HDv
+   logistics manuals) — purchase/archive tier.
+3. OCR debt flagged by the shelf pass: cia-1984-nordic-forces,
+   nie-11-14-79/81/85, ni-iim-83-10002 have NO text layer.
+4. Eider secondary crossings + Kiel Canal small-ferry inventory
+   if a scene needs them.
 
 ## Sources (best URLs from the four agents)
 

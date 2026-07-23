@@ -315,11 +315,10 @@ a = "aalborg"
 b = "aarhus"
 mode = "road"
 class = "trunk"
-route = "E3"
+route = "E3/A10"
 km = 112
 cap_source = "DEFAULT"
-verify = true
-notes = "Motorway sections partial in 1983 — class as trunk pending verification"
+notes = "Ordinary hovedvej A10 in 1983 except the Aalborg (1969-72) and Randers (1971) bypasses; Svenstrup-Randers motorway only 1992 [transport-1983 §4]"
 
 [[edge]]
 id = "e3-aarhus-vejle"
@@ -327,10 +326,10 @@ a = "aarhus"
 b = "vejle"
 mode = "road"
 class = "trunk"
-route = "E3"
+route = "E3/A10"
 km = 73
 cap_source = "DEFAULT"
-verify = true
+notes = "Hovedvej A10 in 1983 with one motorway fragment south of Aarhus (1977/82); the Vejle N gap holds until 1990 — the motorway ENDS at Vejle [transport-1983 §4]"
 
 [[edge]]
 id = "e3-vejle-kolding"
@@ -349,19 +348,21 @@ a = "vejle"
 b = "fredericia"
 mode = "road"
 class = "federal"
+route = "A18"
 km = 27
 cap_source = "DEFAULT"
-verify = true
+notes = "Hovedvej A18, no motorway in 1983 [transport-1983 §4]"
 
 [[edge]]
 id = "rd-kolding-fredericia"
 a = "kolding"
 b = "fredericia"
 mode = "road"
-class = "federal"
+class = "motorway"
+route = "A1/E66"
 km = 22
 cap_source = "DEFAULT"
-verify = true
+notes = "Motorway since 1970 (Taulov corridor, opened with the new Little Belt bridge) [transport-1983 §4]"
 
 [[edge]]
 id = "e3-kolding-haderslev"
@@ -861,8 +862,7 @@ via = "Storstrømsbroen (1937, road+rail)"
 crossing = "storstrom"
 cap_tpd = 4000
 cap_source = "DERIVED:single-track"
-verify = true
-notes = "Single rail track on the 1937 bridge (grade B- — re-verify if load-bearing) [transport-1983 §3,§6]"
+notes = "Single rail track CONFIRMED grade A (Banedanmark: ét jernbanespor, 1937 config unchanged) [transport-1983 §3]"
 
 [[edge]]
 id = "rail-nykobing-rodby"
@@ -931,6 +931,7 @@ km = 20
 via = "Rendsburg high bridge + loop (1913)"
 crossing = "kiel_canal"
 cap_source = "DEFAULT"
+notes = "Two tracks over the high bridge in 1983 (single-tracked only 1993-2014) [transport-1983 §3]"
 
 [[edge]]
 id = "rail-schleswig-flensburg"
@@ -966,9 +967,9 @@ b = "heide"
 mode = "rail"
 class = "rail"
 km = 45
-cap_source = "DEFAULT"
-verify = true
-notes = "Marschbahn eastern feeder; single-track status in 1983 still unpinned — round-2 queue [transport-1983 §6]"
+cap_tpd = 10000
+cap_source = "DERIVED:FM-trainload+single-track"
+notes = "Eingleisige Nebenbahn CONFIRMED (single, never doubled, diesel) [transport-1983 §3]"
 
 [[edge]]
 id = "rail-heide-husum"
@@ -1047,7 +1048,7 @@ mode = "road"
 class = "federal"
 route = "F106"
 km = 32
-verify = true
+notes = "F106 designation confirmed for the GDR period [transport-1983 §5]"
 cap_source = "DEFAULT"
 
 [[edge]]
@@ -1068,6 +1069,7 @@ mode = "rail"
 class = "rail"
 km = 17
 cap_source = "DEFAULT"
+notes = "Double track (on the 1973-75 rebuilt Bad Kleinen-Rostock main line), diesel 1983 [transport-1983 §3]"
 
 [[edge]]
 id = "igb-rail-bad_kleinen-lubeck"

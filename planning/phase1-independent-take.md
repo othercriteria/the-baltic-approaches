@@ -245,3 +245,95 @@ convergences (which now count as independent replication only where
 §0's disclosure allows), divergences (each one a live question for
 DK, not a defect in either document), and the resulting next-step
 proposal.
+
+## 5. Reconciliation against the specimen (same session, after commit c49d79b)
+
+*Read after §§1–3 were committed: draft-zero-findings.md,
+scratch/draft-zero/00-choices.md, 99-findings.md, per-chapter word
+counts. Not yet read: the 20 chapters themselves.*
+
+### 5.1 The one genuine independent convergence, flagged for DK
+
+**Protagonist nationality.** The specimen's pick (Vossen, German)
+was a DECLARED COIN-FLIP (00-choices.md: "no pick is a ruling"),
+and neither status.md nor draft-zero-findings.md disclosed it —
+§1.8 was written blind to it. Both derivations, from the same base,
+landed on the German cell; and §1.8 now supplies the argument the
+vibes-pick never had (doctrine-as-patrimony; the cross-boundary
+persuasion axis; the B-plot mechanism being structurally German;
+the hazard best policed from inside). This is the closest thing to
+independent replication this exercise could produce. It does NOT
+close the ruling — the matrix re-render still tests the cells — but
+the German × close-third cell now enters the test with a filed
+brief instead of a coin-flip.
+
+Convergences on contaminated axes (A′, R3, two visits, meta-beat,
+close-third, per-station register, friction-dominant B-plot, red
+beats ahead of interleaves) count only as reasoning audits per §0 —
+for what it is worth, each verdict does follow from the base
+without the specimen; none required specimen evidence to derive.
+
+### 5.2 Where the specimen beats my take (concessions, adopted)
+
+1. **Ladder labels: 5 + closing beat, conceded.** My sixth station
+   (separate exploit/subordinate) was bookkeeping: the real claim
+   underneath it — the daily air conference is the iteration
+   engine's main bed and must get ≥2 full on-page cycles — survives
+   as an allocation REQUIREMENT under the specimen's S5, not as a
+   station label. (The specimen's "sequencing not splitting" /
+   fourth-currency staging resolved apportionment better than my
+   planned adversarial-conference staging anyway.)
+2. **G-2-turn placement: the break forces the derivation.** I put
+   the architecture insight before the envelope break (break as
+   confirmation); the specimen puts it after (break as forcing
+   crisis) — which is the more Goldratt shape, and my ordering
+   would worsen the specimen's one confirmed design failure (the
+   competence ramp resolving too early). Conceded.
+3. **My sheet omitted the locked NBC scene.** A straight defect in
+   §2 — the one earned scene is canon (nbc-conceit.md) and my 20
+   rows never seat it. The specimen fused it with S2's derivation
+   (the locked-door seminar, ~day 5–6). Adopted; my sheet's sums
+   were accordingly ~2.5k optimistic.
+4. **Word budgets: the §2 floors are the §4a sin, re-committed.**
+   The specimen MEASURED the stride: natural chapter 1,200–1,800;
+   ~1 cycle/station per 30k; the missing mass is dialogue-scene,
+   not chapter count. My 2.2–3.4k floors were estimates; the §2
+   sheet's value shrinks to its SHAPE checks (station coverage ×
+   day grain × valve rhythm × jeopardy-per-chapter — which the
+   specimen plan and mine agree on almost row for row) and its
+   word column is superseded by the rebuild-from-actuals program.
+5. **Red room: three officers, not my two** — beat 3 runs through
+   the Soviet theater voice (Kuragin's folder), which two-officer
+   staging cannot do. Conceded.
+6. **Unplanned discoveries, assessed on merits and endorsed:** the
+   change-of-command device as didactic engine (Hvidt staging S1
+   diegetically — my sheet used the device only as jeopardy; the
+   specimen's use strictly dominates); the confession wall (my
+   ch. 10 "estimate-vs-outcome log" staged publicly, physically,
+   politically — strictly dominates my version; canon candidate);
+   the two-clock symmetry (Güstrow mirroring Rendsburg — the
+   reasoning-not-reconnaissance rule made structural).
+
+### 5.3 What my take adds that the specimen record lacks
+
+- The §1.8 nationality brief (above) — the argued case for the
+  cell the specimen flipped a coin on.
+- The §2 sheet's cross-checks as an audit frame for the rebuild:
+  day-grain mapped to the researched red echelonment, jeopardy
+  source named per chapter, the §7 cycle-count columns.
+- The explicit test ladder (§3) with its demotion paths, including
+  the S4/S5 register fallback chain into the Andon clause.
+
+### 5.4 Verdict and next step
+
+The specimen's choices survive independent derivation everywhere I
+could test them, with the amendments above — this is ratification
+by convergence, not by convenience, which is what DK's opening
+constraint was designed to make possible. Next step (delegated to
+the session, chosen): **execute draft-zero-findings §6.1+§6.3 as
+one artifact** — rebuild the allocation sheet from specimen
+actuals (20 rows × measured words × named expansion engine × target
+words, summing 52–56k) with the failure-injection set designed
+into it (the injections are expansion units; they must be seated,
+not appended), informed by a per-chapter expansion audit of the
+specimen. Then §6.2, the matrix re-renders of chs. 5/13.

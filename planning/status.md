@@ -16,9 +16,29 @@ from specimen actuals: 21 rows, 19a "The Pocket" NEW, 29,936 →
 51.4k planned + named reserve queue to 55.8k; the failure arc
 reconciled to one graded ramp F0–F7 with the political-ledger
 thread; §7 two-cycle test passes; four DK design questions in its
-§5). Matrix re-renders of chs. 5/13 (nationality × voice, six
-files) in scratch/matrix-test/ awaiting BLIND fresh-context
-judging — do not judge in-context. **The Goal
+§5). **Matrix test JUDGED (2026-07-23, session eb2fcb4e):** six
+blind fresh-context Opus judges over a sanitized corpus — the
+Danish cells swept (Borda 20/20 vs 13/7; the specimen's German
+close-third LAST in 5 of 6 rankings); synthesis + confound
+analysis + ruling options in **planning/matrix-judging.md**
+(session recommends Danish, against the independent take's §1.8;
+close-third past stands with three imported first-person
+techniques). **Draft zero close-read done** (same session, DK-
+directed): notes/draft-zero-close-read.md — epigram metronome
+20/20, climax inversion (ch. 19 shortest+frictionless), Vossen's
+empty personal error ledger, both cognitive pivots off-page,
+rhyme-density hazard. **Critique profile FIRST PASS DONE**
+(notes/critique-profile.md, executing findings §6.5 + process
+rule 5): four fresh Opus roster instruments over the full
+specimen; headline new catches — the specimen opens the war at
+the WRONG BORDER (Danish end; its own deep targets contradict
+it), the Great Belt bridge didn't exist in 1983 (ferry-only —
+the better story), Reichsbahn/E45/Little-Belt infrastructure
+errors, Witzel + deputy commander absent from all 20 chapters;
+plus the model profile (double delivery;
+map-vocabulary-without-map-logic; hardware competence boundary)
+and the instrument-calibration rule (fresh auditors re-open
+shelf-settled questions — pair with a shelf-informed verifier). **The Goal
 structure-map distillation is DONE (2026-07-23, session
 fa9b03ec)** — reference/goal-structure-map.md (3-part Opus map +
 synthesis), notes/goal-read-notes.md (the session's own full read:
@@ -270,22 +290,32 @@ should attack before drafting:
    ~~allocation sheet from actuals~~ DONE 2026-07-23 (session
    3340b8fd → planning/allocation-sheet.md, failure-injection
    design SEATED in it as the F0–F7 ramp = unsettle #2's second
-   cycle); ~~matrix re-renders drafted~~ (six files in
-   scratch/matrix-test/, protocol in its README) — NEXT: blind
-   fresh-context judging of the matrix + DK rulings on
-   allocation-sheet §5's four design questions; then the outline
+   cycle); ~~matrix re-renders drafted~~; ~~blind judging~~ DONE
+   2026-07-23 (session eb2fcb4e → planning/matrix-judging.md) —
+   NEXT: DK rulings (nationality×voice per matrix-judging §4;
+   allocation-sheet §5's four design questions); then the outline
    under the method-not-doctrine framing (the sheet is its
-   quantitative skeleton; run the reader-ahead audit table per
-   station); ledgers (CLAUDE.md lists them; wargame/ledger.py is
-   the bridge). Genre-craft base: goal-structure-map,
+   quantitative skeleton; the critique profile's §4 craft rules
+   and the reader-ahead audit table run per station; the outline
+   now also carries an axis-and-front-trace map per Part —
+   critique-profile §2.7); ledgers (CLAUDE.md lists them;
+   wargame/ledger.py is the bridge) — the map ledger is PROMOTED
+   to drafting-time input by the wrong-border finding. Session
+   eb2fcb4e's path recommendation: FRESH DRAFT ONE from the
+   outline, not edits on the specimen (register conversion is
+   systemic; nationality may flip; edits inherit the specimen's
+   DNA at its seams). Genre-craft base: goal-structure-map,
    goal-read-notes, phoenix-transposition, goal-likes, first-clash.
 3. The coupled character/setting decision: ~~year x commander
    nationality x succession direction~~ (provisionally set
    2026-07-22: 1983, Danish incoming, GE→DA) x **protagonist
-   nationality** (still open — but now TEED UP: the independent
-   take's §1.8 argues German at full weight, blind-replicated the
-   specimen's coin-flip, and notes voice+red are ONE ruling; the
-   matrix renders await blind judging; DK rules after).
+   nationality** (still open — FULLY TEED UP for DK: §1.8's
+   argued German brief vs the six-judge blind sweep for Danish;
+   options + confound analysis in planning/matrix-judging.md §3–4;
+   the judging session recommends Danish with a symmetric re-test
+   as fallback. Voice: close-third past effectively settled —
+   structural necessity + judge trust — with imported techniques
+   as outline requirements).
 4. Calibration research pass (blocking model work, not writing):
    ~~FM 101-10-1 consumption extraction~~ (done 2026-07-21 →
    reference/consumption-factors.md, CAL-1..4; Vol-1 TOE strengths
@@ -317,8 +347,10 @@ should attack before drafting:
    Danish road/rail/Little Belt capacity (CAL-3 tonnage anchor),
    Danish call-up mechanics at hour grain.
    **The v15 re-baseline is no longer research-blocked.**
-5. The fresh critique profile of the drafting model (CLAUDE.md
-   process rules) — before any prose is drafted.
+5. ~~The fresh critique profile of the drafting model~~ FIRST
+   PASS DONE 2026-07-23 (session eb2fcb4e →
+   notes/critique-profile.md; deepen at revision time with
+   shelf-paired verifiers per its §3).
 6. ~~Unsettle-review #1 above, early and cheap.~~ Done 2026-07-21;
    awaiting DK ruling (see the unsettling's entry above).
 

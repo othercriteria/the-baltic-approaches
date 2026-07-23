@@ -1,12 +1,22 @@
 # Project status — successor entry point
 
 *Written 2026-07-21 (session 1a9aba32); revised in place through
-2026-07-23 by session 3340b8fd. Read this first; everything cites
-its source doc. The lineage log is in notes/attribution-ledger.md —
-log your session start there before working (CLAUDE.md,
-Provenance). Successor's first acts: `make raw-archive
-SESSION=3340b8fd-23b9-49f2-8ee4-1069ce6ff3ed` (if not already
-present), then `make archive SKIP=<your-uuid>`.
+2026-07-23 by sessions 3340b8fd and eb2fcb4e. Read this first;
+everything cites its source doc. The lineage log is in
+notes/attribution-ledger.md — log your session start there before
+working (CLAUDE.md, Provenance). Successor's first acts: `make
+raw-archive SESSION=eb2fcb4e-0b2b-42a6-9e30-7f84631b7c51` (if not
+already present), then `make archive SKIP=<your-uuid>`.
+**NEXT SESSION'S CAMPAIGN (DK direction at eb2fcb4e's wrap): THE
+OUTLINE for the first NON-THROWAWAY draft.** Its inputs are all
+in place: the allocation sheet (quantitative skeleton, all §5
+rulings in), matrix-judging §5's Danish-protagonist ripple list,
+critique-profile §4's craft rules (enforced per station), the
+reader-ahead audit table (independent-take §3.4), per-Part
+front-trace maps drawn FROM THE ATLAS (`python3 -m atlas path/
+flow/critical`; transport-1983.md §8 is the story cash-out), and
+the red-room texture bank (oob-verification.md Addendum 2). Q3 of
+allocation-sheet §5 (F7's antagonist) is decided IN the outline.*
 **PHASE 1 IS RUNNING (2026-07-23, session 3340b8fd):**
 planning/phase1-independent-take.md (the pre-specimen independent
 derivation DK asked for + reconciliation: the specimen ratified by

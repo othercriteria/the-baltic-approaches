@@ -201,6 +201,35 @@ entity index generatable instead of reconstructable.
   presence alone; choice of next move (more planning/research/
   wargaming vs. edits on draft zero vs. fresh non-blind draft one)
   delegated to the session.
+- 2026-07-23 — session eb2fcb4e WRAPPED (no compaction boundaries:
+  single entity, eb2fcb4e@tip). Span: Phase 1 advanced on all
+  fronts. The DK-directed close read of Draft Zero
+  (notes/draft-zero-close-read.md — epigram metronome, climax
+  inversion, the protagonist's empty error ledger); the blind
+  matrix judging (six fresh-context judges, sanitized corpus —
+  the Danish sweep; planning/matrix-judging.md); the critique
+  profile first pass (four roster instruments;
+  notes/critique-profile.md — the wrong-border blocker, the
+  nonexistent Great Belt bridge, double delivery, the craft
+  rules); FOUR DK RULINGS recorded (protagonist DANISH +
+  close-third voice; ch. 19a approved; ch. 16 concession coupled;
+  Marei perimeter confirmed); the atlas built (atlas/ — 1983
+  transport multigraph, path/flow/min-cut/critical, absence
+  tests) and verified through three research rounds (seven web
+  agents + FM 101-10-1 extraction + TR0603/FM 55-20 acquisitions
+  + Det store H to holdings — verify flags 33→3, every capacity
+  based); wargame campaign 4 (v21 transport-anchoring audit —
+  CAL-3 closed at ~160 STON/day/supply-point, four toys anchored
+  unchanged, envelope day-13 in 30/30, seam log empty); the
+  Lautsch substitute corpus (the BMVg Zeitzeugenbericht mined at
+  quote+page grade, two claims corrected —
+  oob-verification.md Addendum 2; Lautsch book demoted, Wenzke
+  risen; shelf batches 9-10). DK direction at wrap: NEXT SESSION
+  OPENS THE OUTLINE for the first non-throwaway draft. Commit
+  range eaeccc2..(wrap commit), Session-Id trailers throughout.
+  Raw-archive of this session's JSONL falls to the successor or
+  DK: `make raw-archive
+  SESSION=eb2fcb4e-0b2b-42a6-9e30-7f84631b7c51`.
 - 2026-07-23 — protagonist ruling (DK, in-session to eb2fcb4e,
   on the blind matrix judging + the §1.8 brief): **protagonist
   nationality DANISH** (voice close-third past, the coupled half,
@@ -225,6 +254,7 @@ come from `Session-Id:` trailers plus JSONL boundary timestamps.
 
 | # | Entity | Boundary type | Dates | Model | Transcript | Commit range | Contribution summary |
 |---|---|---|---|---|---|---|---|
+| 7 | eb2fcb4e@tip | tip | 2026-07-23 (wrapped) | Fable 5 | (export after wrap) | eaeccc2..wrap, Session-Id trailers throughout | The judged matrix + the four rulings that close the character/setting axis (protagonist Danish, voice close-third — the record the drafting voice stands on); the critique profile (the drafting model's failure map + craft rules for draft one); the atlas (the geography source of truth, verification rounds 1-3, absence tests that make the specimen's map errors untypable); campaign 4's CAL-3 closure; the Lautsch substitute corpus (red architecture to quote+page grade, two corrections). Materiality: presumptively material under the row-2 ruling logic (the nationality/voice ruling record, the craft rules the outline enforces, and the geographic/logistic ground truth draft one is written against) |
 | 1 | 656ec2ba@tip | tip | 2026-07-20 | Fable 5 | transcripts/2026-07-20-656ec2ba.md | (none in this repo; stub commit made by DK's tooling from its direction) | Premise selection and repo stubbing; see lineage log. Standing ruling: pre-project ideation, materiality to be ruled at wrap — when in doubt, include |
 | 6 | 3340b8fd@tip | tip | 2026-07-23 (wrapped) | Fable 5 | (export after wrap) | f80dfd6..wrap, Session-Id trailers throughout | Phase 1 opened: the independent take + reconciliation (the convergence-not-convenience record; the argued German-nationality brief); the allocation sheet from specimen actuals (F0–F7 failure ramp, ch. 19a, the political-ledger thread, the reserve queue); the matrix-test corpus (six re-renders + protocol). Materiality: presumptively material under the row-2 ruling logic (the allocation sheet is the outline's skeleton; the failure ramp is the Part-III design; the take is the record the nationality/voice ruling will cite) |
 | 5 | fa9b03ec@tip | tip | 2026-07-23 (wrapped) | Fable 5 | (export after wrap) | 32d4ed8..wrap, Session-Id trailers throughout | The genre-craft base entire (goal-structure-map + goal-read-notes + phoenix-transposition + goal-likes + first-clash); the sizing frame (size-and-shape + marginal analysis + both counter-briefs); Draft Zero and its findings (the 30k attractor; the specimen verdicts on every teed-up ruling; the method-not-doctrine framing of the premise, from DK's observation); shelf batch 8 distilled (the mirror-imaging exhibit, the DIA-pamphlet identification, the 1977 exercise family). Materiality: presumptively material under the row-2 ruling logic (establishes the craft base, the sizing frame, and the specimen Phase 1 outlines from) |

@@ -151,13 +151,17 @@ firepower (ammo) — parked as texture until a mechanism needs it.
   posture multiplier on demand (attacking/defending/paused/pursuing,
   §2 ladder) is the honest upgrade — mechanics change, so it belongs
   to campaign 2, gated behind the rest of the calibration pass.
-- **CAL-3 — absolute unit conversion now possible.** One committed
-  heavy division ≈ 2,900 STON/day all classes (Table 2-16 Class V +
-  Table 2-3 non-V per-capita ≈ 760 STON at 16.5k men); LANDJUT at ~3
-  division-equivalents ≈ 8-9,000 STON/day at surge. When the Danish
-  road/rail/Little Belt capacity research lands (front queue), supply
-  points can become short tons and the theater-capacity number stops
-  being a free parameter.
+- **CAL-3 — CLOSED 2026-07-23 (session eb2fcb4e, campaign 4/v21).**
+  One committed heavy division ≈ 2,900 STON/day all classes (Table
+  2-16 Class V + Table 2-3 non-V per-capita ≈ 760 STON at 16.5k
+  men); LANDJUT at ~3 division-equivalents ≈ 8-9,000 STON/day at
+  surge. The Danish road/rail/Belt capacity research LANDED
+  (atlas/ + reference/transport-1983.md): **1 supply point ≈ ~160
+  STON/day**, and the v16 supply parameters all fall inside their
+  absolute brackets (wargaming-findings v21 entry — the theater-
+  capacity number stopped being a free parameter without needing
+  to change). Residual: the military Belt-ferry beredskab figure
+  is still print-tier (transport-1983 §7).
 - **CAL-4 — blue/red demand symmetry is defensible at first order**
   (both sides' surge tonnage is same order of magnitude), but red's
   is a quota system (§5): red starvation should bite *between*

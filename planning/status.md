@@ -355,6 +355,17 @@ should attack before drafting:
    Danish road/rail/Little Belt capacity (CAL-3 tonnage anchor),
    Danish call-up mechanics at hour grain.
    **The v15 re-baseline is no longer research-blocked.**
+   ~~Danish road/rail/Little Belt capacity (CAL-3 tonnage
+   anchor)~~ CLOSED 2026-07-23 (session eb2fcb4e): **atlas/** +
+   two verification rounds + FM 101-10-1 Vol 2 extraction →
+   reference/transport-1983.md; **campaign 4 (v21, same day) ran
+   the transport-anchoring audit** — CAL-3 closed at ~160
+   STON/day per supply point, all four transport-coupled v16
+   parameters inside their absolute brackets UNCHANGED, envelope
+   act-break confirmed day 13 in 30/30 seeds, META-claim stands
+   (wargaming-findings v21). Story cash-out for the outline in
+   transport-1983.md §8. Residual print-tier: the military
+   Belt-ferry beredskab figure; RUSSWO table (unchanged).
 5. ~~The fresh critique profile of the drafting model~~ FIRST
    PASS DONE 2026-07-23 (session eb2fcb4e →
    notes/critique-profile.md; deepen at revision time with

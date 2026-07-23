@@ -4,6 +4,56 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-23 — v21: the transport-anchoring audit — CAMPAIGN 4, opened and closed (session eb2fcb4e)
+
+**Design (per DK direction): bring the instrument in line with
+the transport network (atlas/, verification rounds 1-2 + FM
+101-10-1 extraction) and the draft-zero findings, with NO new
+mechanics.** Executed as an audit, not a retune:
+toy-landjut-v21.toml = v16 verbatim with the audit ledger in its
+header; v16 remains canonical.
+
+**Finding 1 — CAL-3 is CLOSED: the supply point has an absolute
+value, ~160 STON/day,** and every transport-coupled parameter
+falls INSIDE its absolute-unit bracket at v16's existing values:
+blue_supply_points 42 ≈ 6.7k STON/day delivered against ~8.7k
+surge demand (and the blue NETWORK is provably not the binder —
+atlas flows 45-98k COMMZ-grade; blue's binder is the 9-10-day
+artillery stock, exactly as v16 behaves); red_supply_points 82 ≈
+13k STON/day inside the sector's [10k, 30k] deliverable bracket
+(single-track Herrnburg rail + F105/Schlutup road, combat-zone
+graded); red_loc_penalty 0.55 reproduced independently by the FM
+line-haul cycle arithmetic (144 km/shift → 2 trips at Rendsburg
+depth, 1 at Flensburg depth); zg_move_days 3 reproduced by the
+lane-metre arithmetic of a 2-bde Great Belt crossing + the atlas
+convoy march. **Four toys entered the audit; four came out
+anchored; zero changed.** The instrument's supply geometry was
+already honest — what changed is that it now cites its units.
+
+**Finding 2 — the standing claims survive the audit unchanged.**
+Envelope act-break: red exits day **13 in 30/30 seeds** (blue
+never) — the v18/v20 claim now confirmed under transport-anchored
+parameters. Deep-vs-close at a FEBA-standing proxy: close 15 /
+tie 15 / deep 0 across 30 seeds — consistent with the v17
+dissolution; the META-claim stands untouched.
+
+**Finding 3 — what the atlas adds that the instrument does NOT
+model, logged as scenario-fact for the outline, not as mechanics
+debt:** (a) the Nov-1983 Danish motorway GAP Christiansfeld-
+Skovby — the Jyske march's soft spot is real and datable; (b)
+the single-track border rail (Vamdrup-Padborg) — blue's rail
+feed south is thinner than its road feed; (c) red's sector entry
+is TWO crossings (Schlutup road + Herrnburg single-track rail)
+until breach engineering widens it — the two-crossing constraint
+is the physical referent of red's pulsed logistics; (d) Danish
+civil-defense planning assumed wartime BISECTION at the Great
+Belt (shelf, primary-sourced) — the Zealand-release decision the
+model prices as zg_* was a real standing assumption, and East
+German intelligence demonstrably studied the crossing arithmetic
+(diis-kk-bind3 pp. 568-570). Seam log (atlas/README.md) stays
+empty: no discrepancy between instrument and atlas survived the
+audit.
+
 ## 2026-07-23 — v19/v20: the CAL-C threshold + November weather states (session 3845eb93)
 
 **v19 (scenario calibration):** advance_ratio 3.0 → **1.3** — the

@@ -1,0 +1,1001 @@
+# toy-landjut-v21 — the TRANSPORT-ANCHORING AUDIT (campaign 4, v21)
+# Session eb2fcb4e, 2026-07-23. Copy of toy-landjut-v16 (canonical)
+# with ZERO mechanics changes and ZERO parameter changes: the
+# campaign audited the transport-coupled parameters against the
+# atlas (atlas/data/theater-1983.toml, verification rounds 1-2)
+# and FM 101-10-1 Vol 2 Ch 3 (reference/transport-1983.md), and
+# every audited value fell INSIDE its absolute-unit bracket:
+#
+#   CAL-3 CONVERSION (closed this campaign): 1 supply point ~=
+#   ~160 STON/day. Basis: blue demand ~8.7k STON/day surge (3
+#   div-eq x 2,900 STON/day, consumption-factors CAL-3) against
+#   blue_supply_points 42 at the v16 mean fill ~0.9 and mean
+#   posture demand multiplier 0.77 over ~55 starting CV.
+#
+#   blue_supply_points 42 (~6.7k STON/day delivered): the blue
+#   NETWORK is not the binder (atlas nato-north flow 98k COMMZ-
+#   grade; jyske-march 45k) — blue's binder is STOCKS (9-10 days
+#   artillery, cia-1984-nordic) and NATO resupply, as v16 already
+#   behaves. ANCHORED, unchanged.
+#
+#   red_supply_points 82 (~13k STON/day): atlas red-tonnage into
+#   the Lubeck sector = single-track Herrnburg rail (10k t/d) +
+#   F105/Schlutup road (20k COMMZ) ~= 30k COMMZ-grade, ~15-17k
+#   combat-zone-graded (FM 3-7 zone columns), before breach
+#   crossings and coastal sealift. 13k sits inside [10k, 30k],
+#   at the combat-graded end. ANCHORED, unchanged.
+#
+#   red_loc_penalty 0.55: FM line-haul cycle 144 km/shift, 2
+#   trips/day -> 1 at depth: Lubeck railhead->Rendsburg ~95 km
+#   (2 trips), ->Flensburg ~140+ km (1 trip) => flow ~0.5-0.6 of
+#   nominal at full theater depth. ANCHORED, unchanged.
+#
+#   zg_move_days 3: 2-bde package ~4-5k vehicles ~22-28k lane-m
+#   over Great Belt ferries at ~20k lane-m/day military share
+#   (atlas gb-road-ferry basis) ~1.2-1.5 d crossing + march
+#   Fredericia->Rendsburg 5.7 h convoy (atlas path) + assembly
+#   => 2-3 days. ANCHORED at the conservative end, unchanged.
+#
+# Audit consequence: v16 remains canonical; v21 exists as the
+# audit RECORD. Findings: notes/wargaming-findings.md v21 entry.
+
+# TOY SCENARIO, v16 RE-BASELINE — LANDJUT-shaped, PARTLY RESEARCHED.
+#
+# The v15-gate re-baseline (notes/wargaming-findings.md): posture
+# demand ON with supply re-tuned; warning DECLARED and sweepable;
+# uncovered axes move at ORALFORE bands behind a delaying screen.
+# toy-landjut.toml is FROZEN as the campaign-1/2 baseline; this file
+# is the canonical scenario from v16 on. Strengths/CVs remain toy —
+# do NOT let them leak toward canon. Researched anchors are cited
+# inline; everything uncited is still placeholder.
+#
+# Red architecture (v17 recast, 2026-07-22): the researched shape —
+# a thin GDR/Soviet lead pair (8. MSD + 94. GdMSD patterns), the
+# POLISH 1st Army as the real weight arriving day 2-5 (X+2 entry
+# through Mecklenburg), 2nd Army lead from day 8, a late Soviet
+# element per the CIA Nov 1984 conditional. Total red mainland CV
+# ~218 (v16 shape was ~224 — mass comparable, TIMING reshaped:
+# the FOFA target is now early and fat). One-army Jutland weight =
+# the 1961->mid-80s invariant. The amphib package below (7LD/6AD/
+# NIB/15MD) is period-CORRECT for the 1983 pin — the 1977 Polish
+# plan of record's structure (zealand-landing.md).
+
+[meta]
+name = "Toy LANDJUT opening, v17 (re-baseline + red recast), ~day 1-21"
+year = 1983 # provisionally PINNED 2026-07-22 (planning/setting-time.md)
+season = "november"
+seed = 1986 # weather draws only, NOT the year; CLI --seed overrides
+
+[params]
+alpha = 0.055          # red daily fire effect on blue (per CV) — placeholder scale,
+                       # but tuned so realized daily loss fractions land in the
+                       # HERO band (division engagement norm ~1.0%/day, terrain/
+                       # weather cells 1.6-3.6%/day, bn ceiling ~3.5% — Figs 47-48)
+beta = 0.075           # blue on red (defender's advantage folded in) — placeholder
+blue_tolerance = 0.03  # daily loss fraction blue will stand and absorb — HERO-
+                       # anchored: above the 1%/day division norm, below the
+                       # 3.5%/day short-of-catastrophe ceiling
+w_max_kmd = 12.0       # max withdrawal, km/day — consistent with the
+                       # ORALFORE II-A band (a withdrawing-but-fighting
+                       # defender concedes ~10-23 km/day; CAL-E,
+                       # reference/advance-rates.md)
+march_kmd = 25.0       # follow-up cap on withdrawal pursuit only (never
+                       # binds at w_max 12); the COLLAPSE rate moved to
+                       # uncovered_kmd/screen_kmd below (v16)
+advance_ratio = 1.3    # v19 (CAL-C): the ORALFORE force-ratio THRESHOLD
+                       # (~1.1-1.3 for any sustained advance) replaces
+                       # the contested 3:1 gate. The resistance ladder's
+                       # rungs now all exist and are cited: determined
+                       # opposition = pressure_kmd 4 (above threshold),
+                       # delaying/withdrawal follow-up <= w_max 12,
+                       # screened 15, uncovered/admin 50. Rate is set by
+                       # the defense's state, ratio only gates — the
+                       # ORALFORE structure (advance-rates.md §1, CAL-C)
+pressure_kmd = 4.0     # advance against determined opposition — KEEP,
+                       # now CITED (CAL-B): ORALFORE intense 2.80 /
+                       # moderate 10.10 km/day normalized; XII Corps
+                       # actuals vs prepared defense 1.3-3.2; Belgorod-
+                       # Kharkov floor 0.5 (soviet-operational-art.md)
+
+# v16: the uncovered-axis rates (CAL-A repaired). An axis with NO
+# organized defense concedes at the ORALFORE negligible/admin band;
+# a live delaying screen (role="screen" units below) holds red one
+# band down and is consumed doing it (ORALFORE could not quantify
+# obstacle/screen effects — screen_attrit_frac is a DECLARED free
+# parameter, not calibrated; reference/advance-rates.md §5-6).
+uncovered_kmd = 50.0      # negligible-resistance/admin band 45-60
+screen_kmd = 15.0         # screened band (I-B/II-A) 10-23
+screen_attrit_frac = 0.2  # screen life ~5 screening days — toy
+
+# v16: warning DECLARED (the 90-hour-clock finding; findings log
+# 2026-07-22). W = days of ACTED-UPON warning before day 1.
+# Researched anchors: JDiv relocation ~90h (Bogason Ch 6/Helms
+# 1975 — the mob-tagged units below); FE preparation-time band
+# bimodal ~1 week fast / 11-14 days deliberate (diis-findings.md
+# §1; the old 48h-8d cite is under re-source, zealand-landing.md);
+# IC: ~2 weeks for five-front generation vs 24-72h division
+# readiness (nie-threat-estimates.md); UKMF 5-15 days BY SEA with
+# no pre-positioning and an "earmarked but could be deployed
+# elsewhere" caveat (landjut-front.md). W=4 (the fast-attack band,
+# a red that traded generation for surprise) is the canonical
+# opening; the sweep perturbs it.
+warning_baseline_days = 4  # the warning these tables were written for
+warning_days = 4           # this run's warning (sweep/CLI perturbs)
+
+# v18: the NBC conceit's envelope threshold (planning/nbc-conceit.md
+# §5-6; MEASUREMENT ONLY — never a mechanic). Red measures itself
+# against its own conventional-track norm (plan_kmd on each axis);
+# the gap between the 1967 directive's two timelines is ~3-4 days
+# (SH by day 7-8 with WMD vs 10-11 without — php-maritime-front.md),
+# so a red >= 6 days behind even the SLOW track has lost the
+# limited-aims rationale the conceit rides on. 6.0 is DECLARED
+# (anchored on, not derived from, the dual-timeline gap).
+nbc_red_lag_exit = 6.0
+
+# Air model (November: short days suppress the totals; see
+# planning/setting-time.md). All values placeholder scale.
+# v3: sortie generation is a STOCK — points come from airframes,
+# sorties cost airframes, deep costs more than close.
+blue_aircraft = 90.0             # theater airframes available to BALTAP air
+sorties_per_aircraft = 0.08      # air points per airframe per clear day
+loss_per_close_point = 0.20      # airframes lost per close point-day
+loss_per_deep_point = 0.45       # deep flies into the echelon's air defense
+deep_fraction = 0.0              # share sent deep (CLI --deep overrides)
+
+# Red air against blue mobilization (the documented Baltic threat
+# axis: Danish roads, bridges, ports) — same late-and-weaker logic
+red_deep_points = 3.0
+red_deep_attrition_per_point = 0.010
+red_deep_delay_per_point = 0.12
+red_delay_cap_dpd = 0.5
+close_support_cv_per_point = 1.2 # CV added to today's engagement per point
+deep_attrition_per_point = 0.012 # march-column loss fraction per point-day
+deep_delay_per_point = 0.15      # arrival delay added per point-day...
+deep_delay_cap_dpd = 0.6         # ...capped: interdiction cannot STOP the
+                                 # echelon, only make it late and weaker
+close_sat_cv = 9.0               # close support saturates (diminishing
+                                 # returns) — placeholder ceiling
+
+# Weather gate on air — v20: the three-state November model built
+# on the 1961-90 normals (reference/november-climate.md): VISUAL /
+# IMC / STORM with storm persistence, plus the daylight taper
+# (9h26m -> 7h47m across the month). State frequencies carry the
+# documented SHAPE (8-10 fog days, 13-14 heavy-overcast days, ~1
+# multi-day storm climatologically ordinary — 24-25 Nov 1981
+# precedent); **the visual-day fraction 0.35 is the flagged
+# ASSUMPTION** pending the RUSSWO-type ceiling/visibility table
+# (climate note, open item 1). Weather is theater-wide and
+# SYMMETRIC (gates red's air too — the symmetry clause). Legacy
+# params kept below for the frozen baseline's reproduction.
+wx_model = "states"
+wx_p_visual = 0.35             # ASSUMPTION (note: "well under half")
+wx_p_storm = 0.06              # ~1-2 storm entries per month
+wx_storm_persist = 2           # 1981 precedent: two-day event
+wx_visual = 1.0
+wx_imc = 0.35                  # degraded, not grounded (loft/radar/low-level)
+wx_storm = 0.05
+wx_daylight_taper_per_day = 0.006  # computed: (1 - 7h47m/9h26m)/29
+wx_standdown_prob = 0.25   # legacy (unused under wx_model="states")
+wx_standdown_factor = 0.15
+wx_min = 0.5
+wx_max = 1.0
+
+# Counterattack window (the tempo payload) — all placeholder scale
+ca_enabled = true
+ca_proj_mult = 2.5    # risk acceptance multiplier over defense tolerance
+ca_at_ratio = 1.1     # red/blue MASSED CV ratio below which red is "spent"
+ca_window_days = 2    # follow-on echelon must be at least this far out
+ca_exploit = 1.6      # cohesion premium the spent echelon pays
+ca_blue_cost = 1.25   # attacker's price blue pays
+ca_kmd = 6.0          # ground retaken per counterattack day
+
+# Command-decision layer (v4)
+ca_min_reserve_cv = 8.0    # can't counterattack without a massed reserve
+ca_recognition_days = 1    # G-3 lag: window must stand open this long
+                           # before command acts (0 = the book's ideal;
+                           # the protagonist's growth is this number)
+emergency_commit_cv = 8.0  # line CV at which the reserve commits defensively
+red_reinforces_success = true # arriving echelons go to the leading axis
+
+# v5: red whole-echelon commitment discipline (the v4 finding —
+# piecemeal commitment is suicide — given to red as doctrine)
+red_commit_min_cv = 20.0   # mass before committing...
+red_commit_max_wait = 2    # ...but never wait longer than this
+
+# v5: counterattack culmination (supply, fatigue)
+ca_culminate_days = 3
+
+# v5: supply throughput as the constraint. Blue on short interior
+# lines (flat theater capacity); red pays per km gained — LOC
+# stretch cuts its axis throughput toward zero at full depth.
+# All values placeholder scale; FM 101-10-1 (on the shelf) is the
+# calibration bench for real consumption planning factors.
+supply_floor = 0.45        # output floor when completely starved
+# v16 RE-TUNE (scratch/v16-retune.py, 2026-07-22): the pre-v15
+# points (blue 55 / red 110 / buildup 25) were placeholder-tuned
+# against FLAT demand. Under the posture ladder the mean realized
+# demand multipliers are b 0.770 / r ~0.75-0.81; supply scaled by
+# those factors restores comparable mean fills (flat: b 0.918 /
+# r 0.871; re-tuned posture: b 0.907 / r 0.904). Red's residual
+# +0.03 is the pause hysteresis self-regulating (a starved red
+# pauses, raising its own fill) — declared, not chased.
+blue_supply_points = 42.0
+blue_demand_per_cv = 1.0
+red_supply_points = 82.0
+red_demand_per_cv = 1.0
+red_loc_penalty = 0.55     # fill lost per fraction of theater depth gained
+
+# v5: sea state closes the WP landing window on a drawn day
+# (November climatology PLACEHOLDER); beach-watch units release then
+amphib_close_min = 10
+amphib_close_max = 17
+
+# v6: red operational pauses (the pulsed offensive — a starved red
+# builds supply forward instead of grinding at the floor)
+red_pause_fill = 0.55    # flow fill below which red pauses
+red_resume_fill = 1.0    # (flow+stockpile)/demand needed to resume
+red_pause_buildup = 19.0 # supply points built forward per pause day (re-tuned with red_supply_points)
+pause_intensity = 0.25   # contact intensity while paused
+
+# v6: what blue's deep fires attack (CLI --deep-target overrides)
+deep_target = "echelon"     # "echelon" (delay arrivals) | "throughput"
+deep_supply_per_point = 6.0 # red flow cut per deep point-day (throughput mode)
+
+# v6: pursuit — counterattacks into a supply-starved red bite deeper
+ca_pursuit_fill = 0.5
+ca_pursuit_mult = 2.0
+
+# v7: the air command layer (reference/air-apportionment.md). The
+# deep/close split is COMBALTAP's, decided daily at Karup; the corps
+# holds a request and argues. "direct" reproduces v6 (deep_fraction
+# as a free knob) for baselines and sweeps; switch to "advocacy" to
+# make the split theater-owned.
+apportionment_mode = "direct"
+theater_deep_fraction = 0.2  # the theater's prior (close-minded start) — toy
+corps_request_deep = 1.0     # the G-3's standing ask (CLI --deep overrides)
+advocacy_rate = 0.3          # fraction of the gap granted per daily conference
+advocacy_lag_days = 1        # days before the corps' argument first moves
+# Maritime-strike claim (Op Hurricane pattern): while the amphib
+# window is open, this share of deep-capable sorties flies against
+# the invasion fleet, not the land battle. Sea state releases it.
+naval_claim_frac = 0.0       # off by default; experiments turn it on
+
+# v8: the decision grades decomposed — each echelon owns decisions
+# and a quality number (reference/air-apportionment.md; hostile
+# review attack 3). Theater: advocacy_rate above. Corps: air
+# sub-allocation from a stale threat picture + the corps reserve.
+# Division: div_recognition_days (the old ca_recognition_days).
+corps_air_alloc = "threat"     # "equal" reproduces the pre-v8 split
+corps_alloc_lag_days = 1       # the corps map is this many days old
+corps_dispatch_cv = 10.0       # line CV that starts the corps clock
+corps_recognition_days = 1     # corps sees a collapsing axis this late
+corps_reserve_move_days = 2    # cross-corps road march, days
+div_recognition_days = 1       # division CA/reserve lag (was ca_recognition_days)
+
+# v9: LANDZEALAND as the theater's other customer (not a simulated
+# front — the rival claim at Karup, which is how Rendsburg sees it).
+# red_amphib: "none" | "threat" (pin-in-being, costs red nothing)
+# | "commit" (landing on red_commit_day; air surges to the straits,
+# then the landing resolves and a spent threat pins nobody).
+red_amphib = "threat"
+red_commit_day = 0             # used only when red_amphib = "commit"
+zealand_battle_claim = 0.8     # deep-capable share flying straits/beach tasks
+                               # during the landing battle — toy
+zealand_battle_days = 4        # toy
+zealand_landing_fails = true   # PLACEHOLDER verdict: NATO sea denial holds
+                               # (Pałka distillation + DIIS vol 3 owed)
+zealand_caution = 0.0          # advocacy discount while the straits are
+                               # threatened; 0 keeps the v8 baseline —
+                               # experiments turn the coupling on
+
+# v9: CAL-1 parameter split (reference/consumption-factors.md).
+# Consumption face FM-anchored (inactive ≈ 0.41 of defense-day-1);
+# combat face stays a doctrine parameter at the old value. The
+# legacy pause_intensity remains as fallback for both.
+pause_consumption_frac = 0.41
+pause_combat_frac = 0.25
+
+# v10: the landing package as real units (DK ruling, option C of
+# reference/zealand-landing.md). Staged units eat red theater
+# supply at the FM inactive rate; convertibles releasable to the
+# mainland; commit spends the package. Blue's credibility follows
+# the staged picture through the documented FE ratchet.
+amphib_staged_intensity = 0.41   # FM 101-10-1 inactive situation
+amphib_release_convertibles_day = 0  # 0 = hold the feint fat
+amphib_release_march_days = 3    # coast -> leading axis, toy
+zeal_c_up = 0.5                  # blue believes new threats fast...
+zeal_c_down = 0.05               # ...and reassurance almost never
+                                 # (the FE merchant-hull ratchet)
+pin_release_c = 0.25             # beach watch frees below this
+
+# v11: COMBALTAP's insurance decision — the Zealand garrison as
+# releasable blue units, and the landing outcome conditional on
+# what blue actually kept (reference/zealand-landing.md: the full
+# garrison defeats the package at 1:1.3; a stripped one invites
+# it). An opportunist red punishes a release.
+zg_release_mode = "never"      # "never" (historical) | "day" | "threshold"
+zg_release_day = 0             # for mode="day"
+zg_release_c = 0.2             # for mode="threshold": release when c below...
+zg_release_recognition_days = 2  # ...for this many days
+zg_move_days = 3               # Belt crossing + march to the front, toy
+zg_release_count = 0           # v12: release strongest N, keep the rest
+                               # (0 = release everything)
+
+# v13: red may expand the airborne pool mid-campaign by diverting
+# air-capable units off the mainland march tables (observable —
+# blue's credibility ratchets up; the required kept garrison moves)
+red_air_reinforce_day = 0      # 0 = never
+red_air_reinforce_count = 0    # 0 = all air-capable still in reserve
+
+# v14: division-grade engineer decisions. Defaults OFF (trigger 0 =
+# no demolition policy; obstacle "none") so pre-v14 baselines
+# reproduce; experiments and future baselines turn them on.
+div_demo_trigger_km = 0.0      # order the blow when red this close — 0=never
+div_demo_lag_days = 1          # order-to-execution (the division's quality)
+demo_strand_km = 3.0           # blown this late strands the rearguard...
+demo_strand_frac = 0.08        # ...costing this fraction of line CV
+demo_crossing_days = 2         # red's bridging operation at a blown line
+demo_crossing_loss_mult = 1.5  # attrition multiplier while crossing
+div_obstacle_pos = "none"      # "none" | "forward" | "hold"
+obstacle_width_km = 8.0
+obstacle_ready_day = 4         # engineer effort takes days
+obstacle_adv_factor = 0.5      # advance through a ready belt
+obstacle_red_mult = 1.25       # attacker bleeds in the belt
+obstacle_blue_mult = 0.85      # defender fights from prepared positions
+zg_success_ratio = 1.5         # landing succeeds if package CV at commit
+                               # exceeds this x kept-garrison CV — toy,
+                               # anchored loosely on the researched 1:1.3
+                               # failing correlation
+red_opportunist_lag = 2        # observe the ferries, then strike
+
+[[axes]]
+name = "coastal-luebeck"
+length_km = 95  # Travemünde approaches -> Kiel Canal, roughly
+hold_km = 55    # political stand line short of the Canal approaches — toy
+bridge_km = 62  # v14: crossing behind the hold line (canal approach) — toy
+plan_kmd = 10.0 # v18: red's conventional-track norm (1967 directive:
+                # SH + north FRG by day 10-11 without WMD -> ~10 km/d
+                # on this axis; php-maritime-front.md)
+note = "Baltic coast axis; amphib threat on the flank NOT modeled yet"
+
+[[axes]]
+name = "inland-bad-segeberg"
+length_km = 110
+hold_km = 65    # toy forward-defense line
+bridge_km = 72  # v14: crossing behind the hold line — toy
+plan_kmd = 10.0 # v18: as above
+note = "Inland axis toward Rendsburg / the Canal crossings"
+
+# --- Red covering echelon (v17 recast — reference/
+# oob-verification.md + php-maritime-front.md): the SH axis opens
+# with a THIN two-division GDR/Soviet lead (the 8. MSD Schwerin +
+# Soviet 94. GdMSD pair — Lautsch's covering divisions, rolled
+# forward as the offensive's lead wave), NOT a massed first
+# echelon. The front's weight is the Polish army behind it.
+# Division names are researched PATTERNS (wiki-grade,
+# oob-verification.md); strengths/CVs stay toy. kind scale as
+# before: armor 10, mech 8, arty 6.
+
+[[units]]
+name = "R-8MSD MSR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+division = "8MSD"
+
+[[units]]
+name = "R-8MSD MSR II"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+division = "8MSD"
+
+[[units]]
+name = "R-8MSD PR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "armor"
+cv = 10
+division = "8MSD"
+
+[[units]]
+name = "R-8MSD AR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "arty"
+cv = 6
+division = "8MSD"
+
+[[units]]
+name = "R-94G MSR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "mech"
+cv = 8
+division = "94GMSD"
+
+[[units]]
+name = "R-94G MSR II"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "mech"
+cv = 8
+division = "94GMSD"
+
+[[units]]
+name = "R-94G TR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "armor"
+cv = 10
+division = "94GMSD"
+
+[[units]]
+name = "R-94G AR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "arty"
+cv = 6
+division = "94GMSD"
+
+# --- The Polish 1st Army (Pomeranian MD) — the axis's REAL weight,
+# already on approach march at H-hour (X+2 entry through
+# Mecklenburg): the researched architecture puts the front's
+# striking echelon on the road EARLY, so the FOFA target is now
+# fatter and closer than the old day-5-7 wave — interdiction has
+# a bigger target and less time. Division patterns from the 1st
+# Army's set (8./12. DZ, 16./20. DPanc); the one-army Jutland
+# weight is the 1961->mid-80s invariant (php-maritime-front.md).
+
+[[units]]
+name = "R-P1A 8DZ MRR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 2
+division = "P1A-8DZ"
+
+[[units]]
+name = "R-P1A 8DZ MRR II"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 2
+division = "P1A-8DZ"
+
+[[units]]
+name = "R-P1A 8DZ MRR III"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 3
+division = "P1A-8DZ"
+
+[[units]]
+name = "R-P1A 8DZ TR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "armor"
+cv = 10
+arrival_day = 3
+division = "P1A-8DZ"
+
+[[units]]
+name = "R-P1A 8DZ AR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "arty"
+cv = 6
+arrival_day = 4
+division = "P1A-8DZ"
+
+[[units]]
+name = "R-P1A 20DPanc TR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "armor"
+cv = 10
+arrival_day = 3
+division = "P1A-20DPanc"
+
+[[units]]
+name = "R-P1A 20DPanc TR II"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "armor"
+cv = 10
+arrival_day = 3
+division = "P1A-20DPanc"
+
+[[units]]
+name = "R-P1A 20DPanc MRR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "mech"
+cv = 8
+arrival_day = 4
+division = "P1A-20DPanc"
+
+[[units]]
+name = "R-P1A 20DPanc AR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "arty"
+cv = 6
+arrival_day = 4
+division = "P1A-20DPanc"
+
+[[units]]
+name = "R-P1A ArtBde I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "arty"
+cv = 6
+arrival_day = 4
+division = "P1A"
+
+[[units]]
+name = "R-P1A ArtBde II"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "arty"
+cv = 6
+arrival_day = 5
+division = "P1A"
+
+# --- Blue mobilization inflow (Danish mobilization + FRG reserve
+# flow; the covering-force period ends when these arrive). Red
+# interdiction of blue mobilization NOT modeled yet. --------------
+
+[[units]]
+name = "B-6PG PzGrenBtl III (mob)"
+mob = true
+side = "blue"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 3
+
+[[units]]
+name = "B-HSK InfBtl I (mob)"
+mob = true
+side = "blue"
+axis = "coastal-luebeck"
+kind = "inf"
+cv = 7
+arrival_day = 5
+
+[[units]]
+name = "B-DK MotInfBtl I (mob)"
+mob = true
+side = "blue"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 7
+
+[[units]]
+name = "B-JDiv InfBtl III (mob)"
+mob = true
+side = "blue"
+axis = "inland-bad-segeberg"
+kind = "inf"
+cv = 7
+arrival_day = 4
+
+[[units]]
+name = "B-JDiv PzBtl II (mob)"
+mob = true
+side = "blue"
+axis = "inland-bad-segeberg"
+kind = "armor"
+cv = 10
+arrival_day = 6
+
+[[units]]
+name = "B-HSK InfBtl II (mob)"
+mob = true
+side = "blue"
+axis = "inland-bad-segeberg"
+kind = "inf"
+cv = 7
+arrival_day = 8
+
+# --- UKMF: UK 1st Infantry Brigade, LANDJUT's committed external
+# reinforcement (Davies; Wikipedia BALTAP). Arrival day toy. -----
+
+[[units]]
+name = "B-UKMF InfBtl I"
+mob = true
+side = "blue"
+axis = "coastal-luebeck"
+kind = "inf"
+cv = 7
+arrival_day = 9
+
+[[units]]
+name = "B-UKMF InfBtl II"
+mob = true
+side = "blue"
+axis = "coastal-luebeck"
+kind = "inf"
+cv = 7
+arrival_day = 10
+
+[[units]]
+name = "B-UKMF ArmdRecceSqn"
+mob = true
+side = "blue"
+axis = "coastal-luebeck"
+kind = "armor"
+cv = 8
+arrival_day = 10
+
+# --- Follow-on (v17): 2nd Army (Silesian MD) lead elements from
+# day 8 — the estimates' "two, probably three Polish armies"
+# (NI IIM 83) — and a LATE Soviet element carried per the CIA Nov
+# 1984 conditional ("if Polish forces run into difficulty, the
+# Soviets would most probably provide assistance from the Baltic
+# ... Military District"). air_capable tags ride the Polish wave
+# (the Saltnicken inference was a POLISH division — v13).
+
+[[units]]
+name = "R-P2A 4DZ TR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "armor"
+cv = 10
+arrival_day = 8
+division = "P2A-4DZ"
+
+[[units]]
+name = "R-P2A 4DZ MRR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 9
+air_capable = true
+division = "P2A-4DZ"
+
+[[units]]
+name = "R-P2A 4DZ MRR II"
+side = "red"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+arrival_day = 9
+air_capable = true
+division = "P2A-4DZ"
+
+[[units]]
+name = "R-P2A 4DZ AR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "arty"
+cv = 6
+arrival_day = 10
+division = "P2A-4DZ"
+
+[[units]]
+name = "R-P2A 11DPanc TR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "armor"
+cv = 10
+arrival_day = 9
+division = "P2A-11DPanc"
+
+[[units]]
+name = "R-P2A 11DPanc MRR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "mech"
+cv = 8
+arrival_day = 10
+division = "P2A-11DPanc"
+
+[[units]]
+name = "R-SOV BMD TR I"
+side = "red"
+axis = "coastal-luebeck"
+kind = "armor"
+cv = 10
+arrival_day = 12
+division = "SOV-BMD"
+
+[[units]]
+name = "R-SOV BMD MRR I"
+side = "red"
+axis = "inland-bad-segeberg"
+kind = "mech"
+cv = 8
+arrival_day = 13
+division = "SOV-BMD"
+
+# --- Blue: LANDJUT-ish covering force, battalion atoms ------------
+
+[[units]]
+name = "B-6PG PzBtl I"
+side = "blue"
+axis = "coastal-luebeck"
+kind = "armor"
+cv = 10
+role = "reserve" # withheld tactical reserve (v4)
+
+[[units]]
+name = "B-6PG PzGrenBtl I"
+side = "blue"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+
+[[units]]
+name = "B-6PG PzGrenBtl II"
+side = "blue"
+axis = "coastal-luebeck"
+kind = "mech"
+cv = 8
+
+[[units]]
+name = "B-6PG ArtBtl I"
+side = "blue"
+axis = "coastal-luebeck"
+kind = "arty"
+cv = 6
+
+[[units]]
+name = "B-JDiv PzBtl I"
+mob = true
+side = "blue"
+axis = "inland-bad-segeberg"
+kind = "armor"
+cv = 10
+role = "reserve" # withheld tactical reserve (v4)
+
+[[units]]
+name = "B-JDiv InfBtl I"
+mob = true
+side = "blue"
+axis = "inland-bad-segeberg"
+kind = "inf"
+cv = 7
+
+[[units]]
+name = "B-JDiv InfBtl II"
+mob = true
+side = "blue"
+axis = "inland-bad-segeberg"
+kind = "inf"
+cv = 7
+
+[[units]]
+name = "B-JDiv ArtBtl I"
+mob = true
+side = "blue"
+axis = "inland-bad-segeberg"
+kind = "arty"
+cv = 6
+
+# --- Corps reserve (v8): held at Rendsburg's disposal, no axis
+# until dispatched; arrives as divisional withheld reserve after a
+# road march. LANDJUT's corps troops are documented THIN (Young);
+# two battalions is toy-generous — exercises the mechanism, do not
+# let the density leak toward canon. ------------------------------
+
+[[units]]
+name = "B-Corps PzJgBtl (corps res)"
+side = "blue"
+kind = "armor"
+cv = 8
+role = "corps-reserve"
+division = "Corps"
+
+[[units]]
+name = "B-Corps PzGrenBtl (corps res)"
+side = "blue"
+kind = "mech"
+cv = 8
+role = "corps-reserve"
+division = "Corps"
+
+# --- The Zealand garrison (v11): blue's insurance as real units.
+# Proportion echoes the researched picture (Zealand held ~3 Danish
+# brigades + territorials, roughly the field army's other half —
+# reference/zealand-landing.md); CVs toy. role=zealand-garrison:
+# holds the island unless COMBALTAP releases it to the mainland. --
+
+[[units]]
+name = "B-ZG PzBtl I"
+side = "blue"
+kind = "armor"
+cv = 10
+role = "zealand-garrison"
+division = "ZG"
+
+[[units]]
+name = "B-ZG MechBtl I"
+side = "blue"
+kind = "mech"
+cv = 8
+role = "zealand-garrison"
+division = "ZG"
+
+[[units]]
+name = "B-ZG MechBtl II"
+side = "blue"
+kind = "mech"
+cv = 8
+role = "zealand-garrison"
+division = "ZG"
+
+[[units]]
+name = "B-ZG InfBtl I"
+side = "blue"
+kind = "inf"
+cv = 7
+role = "zealand-garrison"
+division = "ZG"
+
+[[units]]
+name = "B-ZG InfBtl II"
+side = "blue"
+kind = "inf"
+cv = 7
+role = "zealand-garrison"
+division = "ZG"
+
+[[units]]
+name = "B-ZG ArtBtl I"
+side = "blue"
+kind = "arty"
+cv = 6
+role = "zealand-garrison"
+division = "ZG"
+
+# --- The landing package (v10): red's amphib force as real units,
+# no axis — staged for the Zealand threat. Structure echoes the
+# researched package (reference/zealand-landing.md §1: brigade-
+# strength "divisions" — landing regiments, airborne, naval
+# infantry, plus the mechanized follow-on that moved on merchant
+# hulls); CVs toy. Specialists (role=amphib) have near-zero
+# alternative employment; the mech follow-on (amphib-convertible)
+# is the releasable part. ------------------------------------------
+
+[[units]]
+name = "R-AMPH LandRegt I"
+side = "red"
+kind = "mech"
+cv = 5
+role = "amphib"
+division = "7LD"
+
+[[units]]
+name = "R-AMPH LandRegt II"
+side = "red"
+kind = "mech"
+cv = 5
+role = "amphib"
+division = "7LD"
+
+[[units]]
+name = "R-AMPH LandRegt III"
+side = "red"
+kind = "mech"
+cv = 5
+role = "amphib"
+division = "7LD"
+
+# v12: the airborne echelon is its own threat component — its
+# delivery does not close with the sea (the FE worry that outlived
+# the fleet threat: "paratroops, helicopters, fast bombers")
+[[units]]
+name = "R-AMPH AbnRegt I"
+side = "red"
+kind = "inf"
+cv = 4
+role = "amphib-air"
+division = "6AD"
+
+[[units]]
+name = "R-AMPH AbnRegt II"
+side = "red"
+kind = "inf"
+cv = 4
+role = "amphib-air"
+division = "6AD"
+
+[[units]]
+name = "R-AMPH NavInfBde"
+side = "red"
+kind = "mech"
+cv = 4
+role = "amphib"
+division = "NIB"
+
+[[units]]
+name = "R-AMPH MechRegt I (follow-on)"
+side = "red"
+kind = "armor"
+cv = 10
+role = "amphib-convertible"
+division = "15MD"
+
+[[units]]
+name = "R-AMPH MechRegt II (follow-on)"
+side = "red"
+kind = "mech"
+cv = 8
+role = "amphib-convertible"
+division = "15MD"
+
+[[units]]
+name = "R-AMPH MechRegt III (follow-on)"
+side = "red"
+kind = "mech"
+cv = 8
+role = "amphib-convertible"
+division = "15MD"
+
+# --- Amphib pin (LANDZEALAND's shadow on the mainland fight): these
+# units watch the beaches while the WP landing window (Palka: 7th
+# Landing Div + 6th Air-Landing Div against the isles) stays open;
+# November sea state closes it ~day 13 (climatology PLACEHOLDER,
+# planning/setting-time.md). Encoded as arrival_day pending a
+# dynamic sea-state mechanism. -----------------------------------
+
+[[units]]
+name = "B-DK CoastGrp I (beach watch)"
+side = "blue"
+axis = "coastal-luebeck"
+kind = "inf"
+cv = 7
+arrival_day = 99 # governed by sea state (role), not the march table
+role = "beach-watch"
+
+[[units]]
+name = "B-DK CoastGrp II (beach watch)"
+side = "blue"
+axis = "inland-bad-segeberg"
+kind = "inf"
+cv = 7
+arrival_day = 99
+role = "beach-watch"
+
+
+# --- v16: the delaying screen — territorial Jäger elements (the
+# Dragoner-documented pattern: HSchRgt 71 "Dithmarschen" and 81
+# "Angeln", GerEinh cadre formations, ~3 Jäger battalions each;
+# reference/landjut-front.md). One toy battalion per axis: when an
+# axis has no organized defense, the screen holds red at the
+# ORALFORE screened band and is consumed doing it. Simplification,
+# declared: screens are present regardless of W (the worst-case
+# residue is border-guard/Jäger cadre, not nothing). CVs toy. ----
+
+[[units]]
+name = "B-Terr JgBtl 71 (screen)"
+side = "blue"
+axis = "coastal-luebeck"
+kind = "inf"
+cv = 4
+role = "screen"
+
+[[units]]
+name = "B-Terr JgBtl 81 (screen)"
+side = "blue"
+axis = "inland-bad-segeberg"
+kind = "inf"
+cv = 4
+role = "screen"
+
+# v15 (CAL-2): posture-dependent demand — consumption scales with
+# yesterday's engagement intensity on the FM 101-10-1 ladder
+# (reference/consumption-factors.md §2; defense out-draws attack).
+# v16: ON — this IS the re-baseline. Supply points above were
+# re-tuned to comparable mean fills (scratch/v16-retune.py).
+demand_posture = true

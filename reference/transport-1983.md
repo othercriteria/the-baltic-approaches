@@ -195,6 +195,46 @@ outranks them, which is this file's whole program.
 4. Eider secondary crossings + Kiel Canal small-ferry inventory
    if a scene needs them.
 
+## 8. Cash-out for the outline (story-facing, non-mechanical)
+
+What the two rounds + the v21 audit hand the Phase-1 outline:
+
+1. **The ninety-hours arithmetic gets real furniture.** The Jyske
+   Division's march runs overland down a corridor whose motorway
+   ENDS at Vejle, threads the Christiansfeld–Skovby hovedvej gap
+   (closed 1984 — one year too late), and whose rail feed goes
+   single-track south of Vamdrup. The specimen's Little-Belt-
+   chokepoint framing is dead; the real texture is a march-table
+   problem on A10/E3 with two datable soft spots. (Lammers'
+   "depots are not the division" scene inherits these specifics.)
+2. **The Zealand brigades cross by FERRY.** Chs. 15–16's release
+   is a Great Belt ferry operation (~1 h crossing, 6-vessel road
+   fleet + 4-track IC rail ferries, 2–3 days for the package) —
+   and Danish civil defense ASSUMED wartime bisection at the
+   Belt, with a separate command west of it (primary-sourced).
+   The release decision the wargame prices as zg_* was a real
+   standing question. DSB's ferry division as quiet wartime
+   machinery is a period-true texture layer.
+3. **Red's neck is two crossings wide.** Until breach engineering
+   widens it, everything red moves into the Lübeck sector rides
+   one road GÜST (Schlutup) and one single-track rail line
+   (Herrnburg) — the physical referent of the 200-km-column
+   finding and of red's pulsed logistics. And **East German
+   intelligence demonstrably studied blue's crossing arithmetic**
+   (Vejdirektoratet + DSB ferry-division material, hunting
+   "transportmæssige flaskehalse") — the two-confession-walls
+   symmetry has a primary-sourced intelligence mirror: red's G-2
+   owns blue's atlas, and vice versa is the book's question.
+4. **Period signage discipline for prose:** E3/A10 (never E45),
+   E4 (never E47), E66 (never E20), F-numbers east of the wire,
+   A7/A1/A23 safe as-is. Rødby crossing is an HOUR. The
+   Brunsbüttel high bridge is NEWS in November 1983.
+5. **The G-4's rail scene has a hard fact:** the whole theater is
+   diesel; the Rendsburg High Bridge carries two tracks over the
+   canal on a 1913 loop; the Marschbahn crosses the Eider on a
+   single-track swing bridge at Friedrichstadt — the valve
+   complex's rail half.
+
 ## Sources (best URLs from the four agents)
 
 - https://trap.lex.dk/Storebæltsforbindelsen

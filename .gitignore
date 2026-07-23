@@ -8,7 +8,6 @@ result-*
 # Research shelf: fetched documents (re-fetchable via scripts/fetch-shelf.py;
 # reference/shelf.md is the manifest of record)
 reference/pdf/
-reference/txt/
 
 # Python
 __pycache__/

@@ -122,11 +122,12 @@ CIA reading room).
   of an OCTOBER 1983 DoD original — the maximalist public voice,
   character-knowable in its 1983 form; renamed from the misleading
   cia-* CREST string.
-- FALA-77 (28.06.77) Maritime Front RECONNAISSANCE PLAN for the
-  amphibious assault, D-4..D-7 — KEPT for distillation into
-  zealand-landing.md (red's collection plan = a mirror of red's
-  fears); raw txt to be dropped once the distillation (with
-  Wilson Center provenance cited) is integrated.
+- `pdf/wc-fala-77-maritime-front-recon-plan-amphib.pdf` — FALA-77
+  (28.06.77) Maritime Front RECONNAISSANCE PLAN for the amphibious
+  assault, D-4..D-7 (red's collection plan = a mirror of red's
+  fears). Proper Wilson Center PDF deposited by DK 2026-07-23,
+  replacing the metadata-less txt splat (dropped); distillation →
+  zealand-landing.md.
 - `pdf/wc-1980-wp-view-nato-oob-western-tvd.pdf` — WP exercise
   appendix 17: NATO order of battle in the Western TVD as of
   20 Jan 1980 — RED'S PICTURE OF BLUE (the G-2-mirror bench:

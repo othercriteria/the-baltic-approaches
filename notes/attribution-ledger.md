@@ -115,6 +115,14 @@ entity index generatable instead of reconstructable.
   distillation (Opus subagents), then repo read-through, personal
   read of The Goal, Phoenix Project + Goal-likes survey, toward
   sizing the work at ~55k words.
+- 2026-07-23 — word-count ruling (DK, in-session to fa9b03ec,
+  after the distillation campaign + sizing brief): the 50-60k
+  target is NARRATIVE-ONLY — apparatus (cast/OOB tables,
+  bibliography, wargame-output annex) does not count. Recorded in
+  planning/size-and-shape.md §0 and CLAUDE.md (Length). Same
+  message: DK "aligned with your choice so far" on the 3-part lean
+  (provisional, counter-brief still owed); First Clash purchased
+  and deposited to holdings same day.
 
 ## Entity index
 

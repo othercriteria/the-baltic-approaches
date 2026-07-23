@@ -31,6 +31,10 @@ scratch/     # Ephemera - safe to delete anytime
 Target 50–60k words — the deliberate increment over White Buffalo's ~31k.
 The premise was chosen because its natural size is this target; if drafting
 reveals otherwise, that is an Andon Cord conversation, not a silent drift.
+The count is **narrative-only** (DK ruling 2026-07-23): apparatus — cast/OOB
+tables, maps, bibliography, wargame-output annex — does not count against
+the target, and carries reference/record only, never the didactic payload
+(planning/size-and-shape.md §0).
 
 ## Ledgers (build in Phase 1, not as retrofit)
 

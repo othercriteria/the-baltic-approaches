@@ -9,6 +9,28 @@ not a verdict: the part-structure choice is a Phase-1 ruling, and
 this brief should get a fresh-context counter-brief before canon
 (process rules). Everything here is provisional until Phase 1.*
 
+## 0. Rulings recorded (DK, 2026-07-23, in-session to fa9b03ec)
+
+- **The word count is NARRATIVE-ONLY.** The 50–60k target counts
+  the story; apparatus does not ding us. DK's named examples:
+  Macksey's cast table → our OOB table; a bibliography; wargame
+  output (the canonical run if one exists — toy-landjut-v16 is
+  canonical — or an explicitly-non-canonical run otherwise).
+  Planned apparatus, to be designed in Phase 1 with First Clash
+  as the convention model (reference/first-clash.md when the
+  distillation lands): cast/staff table, OOB annex (the
+  year-parameterized ledger's output), maps, bibliography (from
+  shelf.md), a wargame annex, and plausibly the declared-
+  deviations register as an author's note. **Boundary rule
+  (proposed): apparatus carries reference and record, never
+  derivation** — the didactic-honesty criterion (payload earned
+  in-scene) is not relaxed by the annex; the annex exists so the
+  narrative stops paying for orientation and restatement.
+- **The lean is ALIGNED (provisional):** DK, same message —
+  "aligned with your choice so far" — read as provisional
+  endorsement of option A (3-part / ~20-chapter / pre-war
+  overture), not a canon ruling; the counter-brief is still owed.
+
 ## 1. The arithmetic that frames everything
 
 The Goal is ~100–110k words: 40 chapters, ~14 concept stations,
@@ -113,6 +135,93 @@ path if Part I fails in sketch, and C's interleaves available as
 insurance against underrun. This matches the premise's original
 claim — the didactic form carries length honestly; 20 chapters
 each with a load-bearing payload is the honest 55k.
+
+## 4a. The 45k and 65k variants — what the sizing costs us, marginally
+
+*(Commissioned by DK 2026-07-23: price the increments around 55k,
+don't just describe the point.)*
+
+**The cost model.** Split the budget into fixed and variable. The
+roughly length-invariant fixtures: ensemble establishment for a
+binational staff (~8–10k across the early chapters), a B-plot with
+enough autonomy to clear the Phoenix/Paige failure bar (~7–8k),
+the NBC scene (~2.5k), and the window/climax sequence (~5k) —
+call it **~23–25k fixed**. What remains buys concept stations at
+**~3.5–4.5k per station all-in** (derivation scene + operational
+consequence + its share of valve rhythm, at the §3 floors). At 55k
+that is ~30k variable ≈ the 8-station ladder with ~2 iteration
+cycles each — which is why 55k is the planning point.
+
+**45k (−10k): the marginal cost is structural, and it compounds.**
+Variable drops to ~20–22k ≈ 5–6 stations. The −10k must come out
+of one of three places, all load-bearing:
+1. *Stations.* Cutting to 6 means losing two of: the G-2 turn
+   (the enemy's constraint — the most original payload in the
+   book), the meta-station (the META-claim epistemology — the
+   instrument's actual deliverable), or the exploit/subordinate
+   pair (the ToC core). There is no station whose loss is cheap.
+2. *The laboratory.* Part I dies; the shape forcibly demotes to
+   option B (cold open, exercise as flashback), the iteration
+   engine loses its sanctioned-rehearsal leg, and the
+   commander-who-missed-the-exercise device loses its on-page
+   referent.
+3. *Staging room.* Keeping 8 stations at ~2.7k all-in means
+   derivations without consequences — payload narrated, not
+   earned. That is PowerPoint-in-prose by construction, and the
+   reader-ahead mechanism (goal-read-notes §2) is the first
+   casualty: legibility costs words.
+The annex CANNOT rescue this (§0 boundary rule: apparatus carries
+reference, not derivation). Note also 45k ≈ 1.45× White Buffalo —
+half the deliberate craft increment the premise was chosen to
+deliver. **Verdict: 45k is not a trimmed version of this book; it
+is a different, lesser book** (a war procedural with didactic
+seasoning — The Goal's Part II without its plant-before or its
+method-after). It should not be held as the overrun fallback;
+overrun pressure is answered by cutting §5-tier features, not by
+re-targeting.
+
+**65k (+10k): the marginal purchase is optional delivery of things
+already ruled desirable; the marginal cost is discipline.**
+Best uses of the increment, in descending value:
+1. *The interleaves* (~3–4 chapters, ~9k): division-commander and
+   Karup-conference minor-POV chapters — full delivery of the
+   bake-off ruling's design directive ("visibility above and
+   below without their interiority" becomes visibility WITH
+   carefully-rationed interiority), spending the two declined
+   outlines as the pre-built sourcebooks they are. Highest value
+   because it buys an existing DK directive with existing assets.
+2. *A ninth station + a third iteration cycle*: the
+   MOPP/protective-posture tempo tax (nbc-conceit residual (a)
+   already wants it on-screen) or the Danish-LOC/CAL-3 logistics
+   station; and the air-question whipsaw honestly deserves a
+   third cycle (its four-swing history IS the meta-claim).
+3. *B-plot autonomy*: a genuinely independent domestic arc at
+   WB-interiority standard rather than a rhymed accompaniment.
+Costs: the padding/cramming risk swaps sides (The Goal's own
+late-book generalization bloat is the cautionary shape); the
+undershoot exposure grows with unit count (24–26 units each
+quietly 15% thin = ~9k missing — a "65k" plan lands at 56k unless
+the per-unit floors are policed hard); and drafting/critique cost
+scales superlinearly with units. One external datum cuts the other
+way: 65k narrative + apparatus reads at trade-military-fiction
+norm (80–120k books), so 65k is the more genre-normal object —
+but the increment discipline (WB 31k → deliberate next step) was
+the stated reason for 50–60k, and 65k leaks past it.
+
+**The asymmetry, stated.** Going down 10k costs structure — the
+stations, the laboratory, and the staging room that make the form
+work; the cost curve is convex below ~50k. Going up 10k buys
+optional delivery of already-ruled directives at a manageable
+discipline cost; the curve is roughly linear above, until bloat.
+**Therefore: plan at 55k; let 60–65k be the permitted overflow
+direction iff Phase-1 outlining shows the interleaves earning
+their words scene by scene; treat 45k as out of scope absent an
+Andon conversation** (if outlining reveals the story wanting to be
+45k, that is the CLAUDE.md natural-size clause firing, not a
+trim). The narrative-only ruling (§0) additionally hands every
+variant ~2–4k of relief — orientation and restatement move to
+apparatus — which should be spent on staging, not pocketed as
+extra stations.
 
 ## 5. What is deliberately cut at this length (named, per process)
 

@@ -57,6 +57,23 @@ criteria; headline consequences:
   knowledge (Gordievsky-era revelation) — characters cannot
   perceive it; usable as dramatic irony only.
 
+## A resonance for the record (DK observation, 2026-07-23)
+
+November 1983 is roughly when *The Goal* was being WRITTEN
+(published November 1984): the story runs contemporaneous with the
+composition of its own source text. Beyond the charm, there is a
+real historical rhyme underneath — The Goal and AirLand Battle are
+sibling artifacts of the same early-80s American moment, both
+institutional answers to being out-tempo'd (the factory by Toyota's
+flow discipline, the Army by Soviet echelonment), both landing
+1982-84. The throughput ideas our G-3 gropes toward are genuinely
+"in the air" in 1983 — which the doctrine-returns-home thread
+already exploits from the military side. Discipline note: this
+resonance is for US, never on-page. No character can have read The
+Goal (it doesn't exist yet), and no scene may wink at the
+coincidence (CLAUDE.md restraint). It is permitted to shape theme;
+it is forbidden to surface.
+
 ## The year criteria (retained for the Phase-1 re-test)
 
 Criteria, in rough priority order:

@@ -242,6 +242,17 @@ entity index generatable instead of reconstructable.
   allowed). Records: planning/matrix-judging.md §5,
   planning/allocation-sheet.md §5, status.md ripple.
 
+- 2026-07-23 — session 52662a0d (Fable 5) — live. Successor to
+  eb2fcb4e; entered via planning/status.md. First acts:
+  `make raw-archive SESSION=eb2fcb4e-...` (raw + md export
+  landed), `make archive SKIP=52662a0d-...`, this line. Campaign
+  per DK direction at predecessor's wrap: THE OUTLINE for the
+  first non-throwaway draft, from the assembled inputs
+  (allocation sheet, matrix-judging §5 ripple, critique-profile
+  §4 craft rules, reader-ahead audit table, atlas front-trace
+  maps, red-room texture bank); allocation-sheet §5 Q3 (F7's
+  antagonist) to be decided in the outline.
+
 ## Entity index
 
 One row per entity: `<session-id>@<boundary-n>` or `<session-id>@tip`.

@@ -192,6 +192,16 @@ entity index generatable instead of reconstructable.
   DK: `make raw-archive
   SESSION=3340b8fd-23b9-49f2-8ee4-1069ce6ff3ed`.
 
+- 2026-07-23 — session eb2fcb4e (Fable 5) — live. Successor to
+  3340b8fd; entered via planning/status.md. First acts: `make
+  archive` (predecessor's raw-archive + md export landed in the
+  same pass), this line. Opening direction per DK: start with a
+  close read of Draft Zero (predecessor deliberately stayed out of
+  it), then survey the repo; nothing in the specimen is canon by
+  presence alone; choice of next move (more planning/research/
+  wargaming vs. edits on draft zero vs. fresh non-blind draft one)
+  delegated to the session.
+
 ## Entity index
 
 One row per entity: `<session-id>@<boundary-n>` or `<session-id>@tip`.

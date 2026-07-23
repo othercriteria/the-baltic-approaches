@@ -1,16 +1,25 @@
 # Project status — successor entry point
 
 *Written 2026-07-21 (session 1a9aba32); revised in place through
-2026-07-22 by session 71ede904 at its wrap. Read this first;
+2026-07-23 by session 3845eb93 at its wrap. Read this first;
 everything cites its source doc. The lineage log is in
 notes/attribution-ledger.md — log your session start there before
 working (CLAUDE.md, Provenance). Successor's first acts:
-`make raw-archive SESSION=71ede904-8327-4534-a71e-c4922ebbd729`,
-then `make archive SKIP=<your-uuid>`. ~~First instrument task: the
-v15 re-baseline~~ **RUN 2026-07-22 (v16, session 3845eb93)** — the
-gate is discharged; see the findings log's v16 entry for the
-verdict (flagship claim retired; weak deep-preference; the screen
-finding).*
+`make raw-archive SESSION=3845eb93-eb3f-4bec-80f3-a45b03ae5b04`,
+then `make archive SKIP=<your-uuid>`. **First working task: The
+Goal structure-map distillation** (now in holdings —
+goldratt-the-goal-30th-anniversary.pdf: chapter rhythm, Jonah
+dialogue mechanics, metrics-engine staging, A/B-plot balance, the
+register decision CLAUDE.md demands) — it is the direct input to
+Phase-1 outlining, which is the next major phase. Campaign 3
+closed v16-v20; the instrument is calibrated to its research base
+and its standing claim is the META-claim (findings log). Open
+decisions for Phase 1: protagonist nationality (last coupled
+axis — settle via character sketches), the critique profile of
+the drafting model (required before any prose), unsettle #2's
+iteration-engine test (the daily air conference + estimate-vs-
+outcome log + the pre-war exercise are the candidates; The Goal
+structure map will say whether they carry the form).*
 
 ## The broad outline as it stands (DK: "broad outline is set")
 
@@ -261,8 +270,20 @@ should attack before drafting:
   submodule init. gh added to flake.nix for future GitHub API
   work.
 - ~~Main repo has unpushed commits~~ pushed 2026-07-22.
-- After this session ends: `make raw-archive
-  SESSION=1a9aba32-d86d-41c9-9fe6-f89d300b45c0` (a session cannot
-  archive its own live JSONL; the successor or DK does it).
-- Dupuy NP&W scan into holdings when convenient (QJM advance rates
-  still the missing calibration piece).
+- ~~Raw-archive 1a9aba32~~ done 2026-07-23; next owed:
+  `make raw-archive SESSION=3845eb93-eb3f-4bec-80f3-a45b03ae5b04`
+  (successor or DK).
+- Dupuy NP&W scan into holdings when convenient (now the in-period
+  UPDATE to the held ORALFORE bench, not the missing piece).
+- Bogason paperback on arrival: the scan wishlist is in
+  landjut-front.md (Ch 15 reinforcement table, MC 70 tables, org
+  charts, minefield map, HURRICANE figures).
+- DK browser tier, standing: the RUSSWO/AWS ceiling-visibility
+  table (the one number the weather model wants — its visual-day
+  fraction is a flagged ASSUMPTION until then); NIE siblings
+  (4-1-78 first) + NIE 11/17-85 + two CIA chemical items
+  (shelf.md queue, URLs in chemical-posture.md); Wilson Center
+  pair (ex. VAL-77, Maritime Front decision).
+- Purchases pending: Lautsch (top — the red architecture's
+  page-cites are forum-transmitted until it lands), Wenzke (ed.),
+  Bracken 1983; the IS Reader / Mazurek library tier.

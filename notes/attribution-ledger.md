@@ -87,6 +87,26 @@ entity index generatable instead of reconstructable.
   the v18 red-side envelope exit is canon-compatible — the
   envelope re-anchored as act-structure instrument, not validity
   gate; conceit HOLDS. Record in planning/nbc-conceit.md §5.
+- 2026-07-23 — session 3845eb93 WRAPPED (no compaction boundaries:
+  single entity, 3845eb93@tip). Span: the research gap-fill
+  campaign (advance-rate bench, TOE strengths, Dragoner cross-check,
+  red/blue OOB verification, November climatology — five closures);
+  distillation debt paid via subagents (PHP facsimiles read in
+  PL/RU, DIIS vol 3 in Danish, NIE series OCR'd+mined, Glantz
+  cluster, nuclear-release + chemical-posture benches); setting
+  provisionally pinned November 1983 (DK ruling) + full ripple;
+  NBC conceit mapped, locked, chemical leg amended and
+  primary-sourced (DK ruling x2); three DK browser fetches shelved
+  and mined (CIA June-1984 chemical reassessment, SNIE 11/17-2-84/L,
+  Nordic Forces supplemental pass); wargame campaign 3, v16-v20
+  (re-baseline gate discharged, flagship claim retired → META-claim;
+  researched red architecture; NBC instruments + the envelope
+  act-break; escalation counter-brief probe; CAL-C threshold;
+  November weather states) with the Andon pull answered (DK ruling);
+  The Goal deposited to holdings. Commit range dc6ce12..(wrap
+  commit), Session-Id trailers throughout. Raw-archive of this
+  session's JSONL falls to the successor or DK: `make raw-archive
+  SESSION=3845eb93-eb3f-4bec-80f3-a45b03ae5b04`.
 
 ## Entity index
 
@@ -101,6 +121,7 @@ come from `Session-Id:` trailers plus JSONL boundary timestamps.
 | # | Entity | Boundary type | Dates | Model | Transcript | Commit range | Contribution summary |
 |---|---|---|---|---|---|---|---|
 | 1 | 656ec2ba@tip | tip | 2026-07-20 | Fable 5 | transcripts/2026-07-20-656ec2ba.md | (none in this repo; stub commit made by DK's tooling from its direction) | Premise selection and repo stubbing; see lineage log. Standing ruling: pre-project ideation, materiality to be ruled at wrap — when in doubt, include |
+| 4 | 3845eb93@tip | tip | 2026-07-22 .. 07-23 (wrapped) | Fable 5 | (export after wrap) | dc6ce12..wrap, Session-Id trailers throughout | Campaign 3 entire (v16-v20: the re-baseline verdict, the researched red, the NBC instruments, the meta-claim, the envelope act-break); the 1983 pin brief + ripple; the NBC conceit design and its benches; eleven reference files created or materially extended (advance-rates, november-climate, oob-verification, php-maritime-front, diis-findings, nie-threat-estimates, soviet-operational-art, nuclear-release, chemical-posture + landjut-front/consumption-factors closures); The Goal deposit. Materiality: presumptively material under the row-2 ruling logic (pins the setting year provisionally, locks the NBC conceit, and establishes the calibrated instrument + research base Phase 1 stands on) |
 | 3 | 71ede904@tip | tip | 2026-07-21 .. 07-22 (wrapped) | Fable 5 | transcripts/2026-07-21-71ede904.md | e916093..wrap, Session-Id trailers throughout | Campaign 2 entire (v7-v15 + calibration + the v15 suspension gate); the echelon bake-off machinery and record (hostile review commissioned, two challenger outlines, rulings filed); shelf batches 4-7 (16→56) incl. the CIA pair and Bogason distillations; air-apportionment + Zealand-landing reference notes; both repos to GitHub. Materiality: presumptively material under the row-2 ruling logic (establishes campaign-2 findings, the echelon record, and the research base future sessions operate within) |
 | 2 | 1a9aba32@tip | tip | 2026-07-20 .. 07-21 (wrapped) | Fable 5 | transcripts/2026-07-20-1a9aba32.md | 55ba88f..wrap, Session-Id trailers throughout | Step-0 entire: env; attribution process + holdings/guardrails; shelf (17 docs); bulk survey; wargame campaign 1 (v0-v6, findings log is the span's core record); LANDJUT/echelon/command-device planning; status.md handoff incl. two self-filed unsettles. Ruled material (DK, 2026-07-20): establishes the parameters future agents operate within — include in the review round |
 

@@ -684,3 +684,59 @@ then silence") now has furniture:
   degradation figures in §2 ever become load-bearing for the book
   (rather than instrument texture), source them at the primary-report
   level.
+
+## 7. Addendum (2026-07-23): the DIA public pamphlet — the maximalist voice, held
+
+**DIA, *Soviet Chemical Weapons Threat*, DST-1620F-051-85 (1985;
+26 pp; local file reference/pdf/dia-soviet-chemical-weapons-threat-
+dst-1620f-051-85.pdf — the CIA-RDP88B00745R000100140027-5 string is only
+CREST's archival ID of CIA's file copy, "COMIREX FILE COPY"; the
+originator is DIA/DST, preface signed Lt. Gen. James A. Williams,
+Director).** This was §1's flagged fetch-queue item; DK browser
+fetch 2026-07-23; distilled same day (Opus subagent, visual read of
+the image scan).
+
+**What it is:** an UNCLASSIFIED public threat pamphlet in the
+Soviet-Military-Power genre — and, decisively for us, an "updated
+version of a document issued as a Department of Defense publication
+in **October 1983**" (preface, p. iii). So the maximalist
+integrated-chemical-threat picture was not merely an internal Army
+belief (FM 100-2-1) or a footnote dissent (the held SNIE): it was
+**institutionally mainstream and publicly promulgated, in
+period-exact form, one month before our setting.**
+
+**Headline claims (page anchors in the distillation record):**
+"formidable capability"; recent use claims (Afghanistan, SE Asia,
+mycotoxins/"yellow rain"); near-universal delivery compatibility;
+storage capacity growing since the late 1960s; **"chemical weapons
+are collocated with conventional weapons in forward areas facing
+NATO" (p. 1)**; closing line: any force fighting the Soviets "will
+run a substantial risk" of chemical use. This is the direct
+opposite of the held SOVA June-1984 reassessment — the
+state-of-the-art-and-wrong belief of §1, in an authoritative public
+artifact.
+
+**The buried concession:** even this maximalist product carries the
+release gate — targets are struck "once the approval to use
+chemical weapons has been given by the highest Soviet authority"
+(p. 5), consistent with the held Politburo/VGK finding — buried in
+the Targets section while the collocation language rides the
+headline. For the book's one earned lampshade this is gold: the
+document blue's staff would cite for the integrated threat
+CONTAINS, in its own text, the gate that red's bookkeeping actually
+ran on. Also useful: the Soviet protective-suit heat-burden norms
+table (p. 19: ≥30°C → 15-20 min; 50% work-pace loss after 6h) —
+the red-side mirror of §2's MOPP tax; both armies pay the same
+degradation.
+
+**Period line (split verdict):** the 1985 edition as an object is
+post-setting (OURS): the 1985 storage-chart endpoint, the
+"11 nations" proliferation count, and the Iraq-Iran use line must
+not appear in 1983 mouths. The doctrinal content — integrated
+threat, forward collocation, agent/delivery/target picture,
+"substantial risk" register — is character-knowable via the
+October 1983 DoD original, and is the strongest provenance yet for
+what a November-1983 G-2 briefs in good faith. Shelf tag: doctrinal
+content ≤1983 = character-knowable; 1985-specific figures = OURS.
+Complements, does not duplicate, the classified 1984 pair: this is
+the public maximalist voice; those are the classified corrective.

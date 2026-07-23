@@ -115,9 +115,13 @@ CIA reading room).
   exercise concept) — the standing Wilson Center queue item, HELD.
   Gives the 1977 state between SOYUZ-75 and SOYUZ-83
   (php-maritime-front.md open item).
-- `pdf/cia-soviet-chemical-weapons-threat-rdp88b00745.pdf` (26 pp,
-  image scan) — the flagged chemical-posture.md fetch item
-  (CIA-RDP88B00745R000100140027-5), HELD.
+- `pdf/dia-soviet-chemical-weapons-threat-dst-1620f-051-85.pdf`
+  (26 pp, image scan) — the flagged chemical-posture.md fetch item,
+  HELD and DISTILLED 2026-07-23 (chemical-posture.md §7):
+  identified as the DIA public pamphlet DST-1620F-051-85, 1985 ed.
+  of an OCTOBER 1983 DoD original — the maximalist public voice,
+  character-knowable in its 1983 form; renamed from the misleading
+  cia-* CREST string.
 - FALA-77 (28.06.77) Maritime Front RECONNAISSANCE PLAN for the
   amphibious assault, D-4..D-7 — KEPT for distillation into
   zealand-landing.md (red's collection plan = a mirror of red's

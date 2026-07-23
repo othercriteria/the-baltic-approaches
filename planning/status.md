@@ -1,12 +1,24 @@
 # Project status — successor entry point
 
 *Written 2026-07-21 (session 1a9aba32); revised in place through
-2026-07-23 by session fa9b03ec. Read this first; everything cites
+2026-07-23 by session 3340b8fd. Read this first; everything cites
 its source doc. The lineage log is in notes/attribution-ledger.md —
 log your session start there before working (CLAUDE.md,
 Provenance). Successor's first acts: `make raw-archive
-SESSION=fa9b03ec-2784-4a1e-936f-ce2348848e8d` (if not already
-present), then `make archive SKIP=<your-uuid>`. **The Goal
+SESSION=3340b8fd-23b9-49f2-8ee4-1069ce6ff3ed` (if not already
+present), then `make archive SKIP=<your-uuid>`.
+**PHASE 1 IS RUNNING (2026-07-23, session 3340b8fd):**
+planning/phase1-independent-take.md (the pre-specimen independent
+derivation DK asked for + reconciliation: the specimen ratified by
+CONVERGENCE, incl. the genuinely-blind nationality replication —
+German, argued §1.8) and **planning/allocation-sheet.md** (rebuilt
+from specimen actuals: 21 rows, 19a "The Pocket" NEW, 29,936 →
+51.4k planned + named reserve queue to 55.8k; the failure arc
+reconciled to one graded ramp F0–F7 with the political-ledger
+thread; §7 two-cycle test passes; four DK design questions in its
+§5). Matrix re-renders of chs. 5/13 (nationality × voice, six
+files) in scratch/matrix-test/ awaiting BLIND fresh-context
+judging — do not judge in-context. **The Goal
 structure-map distillation is DONE (2026-07-23, session
 fa9b03ec)** — reference/goal-structure-map.md (3-part Opus map +
 synthesis), notes/goal-read-notes.md (the session's own full read:
@@ -254,19 +266,26 @@ should attack before drafting:
    rulings: B-plot mechanism (c) rejected; openness to A′/B/R3/
    second visit; Draft Zero authorized and delivered same day).
 2. Phase 1 planning proper, NOW FROM THE SPECIMEN
-   (planning/draft-zero-findings.md §6 is the program): allocation
-   sheet from actuals; matrix re-renders of draft chs. 5/13
-   (settles nationality × voice + starts the critique profile);
-   failure-injection design (= unsettle #2's second cycle);
-   outline under the method-not-doctrine framing; ledgers
-   (CLAUDE.md lists them; wargame/ledger.py is the bridge).
-   Genre-craft base: goal-structure-map, goal-read-notes,
-   phoenix-transposition, goal-likes, first-clash.
+   (planning/draft-zero-findings.md §6 is the program):
+   ~~allocation sheet from actuals~~ DONE 2026-07-23 (session
+   3340b8fd → planning/allocation-sheet.md, failure-injection
+   design SEATED in it as the F0–F7 ramp = unsettle #2's second
+   cycle); ~~matrix re-renders drafted~~ (six files in
+   scratch/matrix-test/, protocol in its README) — NEXT: blind
+   fresh-context judging of the matrix + DK rulings on
+   allocation-sheet §5's four design questions; then the outline
+   under the method-not-doctrine framing (the sheet is its
+   quantitative skeleton; run the reader-ahead audit table per
+   station); ledgers (CLAUDE.md lists them; wargame/ledger.py is
+   the bridge). Genre-craft base: goal-structure-map,
+   goal-read-notes, phoenix-transposition, goal-likes, first-clash.
 3. The coupled character/setting decision: ~~year x commander
    nationality x succession direction~~ (provisionally set
    2026-07-22: 1983, Danish incoming, GE→DA) x **protagonist
-   nationality** (still open, pure voice) — settle the last axis
-   via character sketches.
+   nationality** (still open — but now TEED UP: the independent
+   take's §1.8 argues German at full weight, blind-replicated the
+   specimen's coin-flip, and notes voice+red are ONE ruling; the
+   matrix renders await blind judging; DK rules after).
 4. Calibration research pass (blocking model work, not writing):
    ~~FM 101-10-1 consumption extraction~~ (done 2026-07-21 →
    reference/consumption-factors.md, CAL-1..4; Vol-1 TOE strengths
@@ -313,9 +332,9 @@ should attack before drafting:
   submodule init. gh added to flake.nix for future GitHub API
   work.
 - ~~Main repo has unpushed commits~~ pushed 2026-07-22.
-- ~~Raw-archive 1a9aba32~~ done 2026-07-23; next owed:
-  `make raw-archive SESSION=3845eb93-eb3f-4bec-80f3-a45b03ae5b04`
-  (successor or DK).
+- ~~Raw-archive 1a9aba32, 3845eb93, fa9b03ec~~ all done by
+  2026-07-23; next owed: `make raw-archive
+  SESSION=3340b8fd-23b9-49f2-8ee4-1069ce6ff3ed` (successor or DK).
 - Dupuy NP&W scan into holdings when convenient (now the in-period
   UPDATE to the held ORALFORE bench, not the missing piece).
 - Bogason paperback on arrival: the scan wishlist is in

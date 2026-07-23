@@ -7,16 +7,34 @@ notes/attribution-ledger.md — log your session start there before
 working (CLAUDE.md, Provenance). Successor's first acts: `make
 raw-archive SESSION=eb2fcb4e-0b2b-42a6-9e30-7f84631b7c51` (if not
 already present), then `make archive SKIP=<your-uuid>`.
-**NEXT SESSION'S CAMPAIGN (DK direction at eb2fcb4e's wrap): THE
-OUTLINE for the first NON-THROWAWAY draft.** Its inputs are all
-in place: the allocation sheet (quantitative skeleton, all §5
-rulings in), matrix-judging §5's Danish-protagonist ripple list,
-critique-profile §4's craft rules (enforced per station), the
-reader-ahead audit table (independent-take §3.4), per-Part
-front-trace maps drawn FROM THE ATLAS (`python3 -m atlas path/
-flow/critical`; transport-1983.md §8 is the story cash-out), and
-the red-room texture bank (oob-verification.md Addendum 2). Q3 of
-allocation-sheet §5 (F7's antagonist) is decided IN the outline.*
+**THE OUTLINE EXISTS (2026-07-23, session 52662a0d):
+planning/outline.md** — the drafting contract for draft one,
+awaiting DK ratification. Built from all the named inputs (the
+allocation sheet as skeleton; four-agent Opus beat inventories
+of the full specimen; matrix-judging §5 ripple; critique-profile
+§4 rules enforced per row; atlas-drawn front-trace maps). What
+it contains: the FRONT REBASE (war corrected to open at the
+Lübeck/IGB end — the specimen's terrain furniture survives, the
+direction inverts; Schlei–Danevirke narrows, Sehestedt salient,
+the pocket's Friedrichsberg breakout); 21 rows at scene grain
+with F0–F7 seated and charged to named signatures (three to
+Holt's own); the reader-ahead audit table RULED (all stations
+pass; middle-third break repaired by chs. 13/14 conversions);
+unsettle #2 DISCHARGED at outline grain (§7 cycle test). Its
+delegated decisions, argued in §1, DK to ratify: **Q3/F7
+antagonist = Oberst Bjelke, COMBALTAP assessments** (the
+theater's own mid-war endorsement of the wall turned
+self-defense); **Kreis carrier = Roloff** (plans officer owns
+the geometry his hands draft); **Holt = deputy who inherited
+the G-3 chair** (rank flag closed; no anointed protagonist);
+three plants ruled unpaid; clock normalized (M-day 6 Nov /
+first contact 8 Nov = day 1). **ARITHMETIC FLAG owed to DK:
+the allocation sheet's row targets sum to 49.25k, NOT its
+stated 51.4k** — outline §5 proposes the honest correction
+(+0.25k to rows 9/12/15/19/19a → 50.5k; true reserve ceiling
+~54.2k). NEXT: DK reads outline.md, rules on §1 + the
+arithmetic; then DRAFT ONE, fresh from the outline, chapter
+map-pass ([TRACE] flags) before each chapter's prose.*
 **PHASE 1 IS RUNNING (2026-07-23, session 3340b8fd):**
 planning/phase1-independent-take.md (the pre-specimen independent
 derivation DK asked for + reconciliation: the specimen ratified by

@@ -304,7 +304,13 @@ should attack before drafting:
    now also carries an axis-and-front-trace map per Part —
    critique-profile §2.7); ledgers (CLAUDE.md lists them;
    wargame/ledger.py is the bridge) — the map ledger is PROMOTED
-   to drafting-time input by the wrong-border finding. Session
+   to drafting-time input by the wrong-border finding, and its
+   first concrete instrument EXISTS: **atlas/** (same day, DK-
+   directed — the 1983 transport multigraph, path/flow/min-cut
+   queries, absence tests that make the specimen's geography
+   errors untypable; `make atlas`; deliberately WET vs wargame/,
+   seam contract in atlas/README.md; every capacity GUESS-tier
+   until the CAL-3 research lands). Session
    eb2fcb4e's path recommendation: FRESH DRAFT ONE from the
    outline, not edits on the specimen (register conversion is
    systemic; nationality may flip; edits inherit the specimen's

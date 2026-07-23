@@ -101,6 +101,39 @@ this network, URLs work from a browser; both public domain):**
 | FM 71-1 (1988) + FM 71-3 (1988) | Post-provisional-setting editions — OUR reference; period 1977/1980 HTF editions are not public. PD; scans carry moot period distribution covers |
 | FM 55-30 *Army Motor Transport Operations*, 1969 | Nearest public edition (1980 exists only on paper) — convoy-procedure texture |
 
+## Held — batch 8 (DK browser fetches, 2026-07-23; DISTILLATION QUEUED, not yet mined)
+
+DK pulled these opportunistically (text splat where Wilson Center
+tables mangled too badly — metadata lost on those, noted). Per DK:
+queued for later so Phase-1 work isn't distracted; distill when the
+outline pulls them. All public-archive (Wilson Center digital
+archive translations of Polish-declassified WP exercise documents;
+CIA reading room).
+
+- `pdf/wc-val-77-exercise-explanatory-note-1977.pdf` — **ex. VAL-77
+  explanatory note** (June 1977, Maritime Front operational-tactical
+  exercise concept) — the standing Wilson Center queue item, HELD.
+  Gives the 1977 state between SOYUZ-75 and SOYUZ-83
+  (php-maritime-front.md open item).
+- `pdf/cia-soviet-chemical-weapons-threat-rdp88b00745.pdf` (26 pp,
+  image scan) — the flagged chemical-posture.md fetch item
+  (CIA-RDP88B00745R000100140027-5), HELD.
+- `txt/wc-fala-77-maritime-front-recon-plan-amphib.txt` — FALA-77
+  (28.06.77) Maritime Front RECONNAISSANCE PLAN for the amphibious
+  assault operation, D-4 through D-7: Danish isles/Zealand +
+  southern Norway targets — direct zealand-landing.md material.
+- `pdf/wc-1980-wp-view-nato-oob-western-tvd.pdf` — WP exercise
+  appendix 17: NATO order of battle in the Western TVD as of
+  20 Jan 1980 — RED'S PICTURE OF BLUE (the G-2-mirror bench:
+  what red's planners believed we had).
+- `pdf/wc-1980-assault-landing-formations-composition.pdf` —
+  composition of the assault landing formations (16 Jan 1980).
+- `txt/wc-1980-polish-2nd-fleet-oob.txt` — 2nd Fleet (Polish Navy)
+  OOB as of 20 Jan 1980 (text splat; translator ship-type caveats).
+- `txt/wc-1980-wp-maritime-air-defense.txt` — WP air-defense in the
+  maritime sector (13th GDR AD Div, SAM brigades/regiments by
+  garrison; text splat).
+
 ## Local archive tier (use in place, never redistribute)
 
 `/bulk/dlk/military` (DK's local archive) holds unclear-provenance

@@ -101,7 +101,7 @@ this network, URLs work from a browser; both public domain):**
 | FM 71-1 (1988) + FM 71-3 (1988) | Post-provisional-setting editions — OUR reference; period 1977/1980 HTF editions are not public. PD; scans carry moot period distribution covers |
 | FM 55-30 *Army Motor Transport Operations*, 1969 | Nearest public edition (1980 exists only on paper) — convoy-procedure texture |
 
-## Held — batch 8 (DK browser fetches, 2026-07-23; DISTILLATION QUEUED, not yet mined)
+## Held — batch 8 (DK browser fetches, 2026-07-23; DISTILLED 2026-07-23)
 
 DK pulled these opportunistically (text splat where Wilson Center
 tables mangled too badly — metadata lost on those, noted). Per DK:
@@ -113,8 +113,8 @@ CIA reading room).
 - `pdf/wc-val-77-exercise-explanatory-note-1977.pdf` — **ex. VAL-77
   explanatory note** (June 1977, Maritime Front operational-tactical
   exercise concept) — the standing Wilson Center queue item, HELD.
-  Gives the 1977 state between SOYUZ-75 and SOYUZ-83
-  (php-maritime-front.md open item).
+  DISTILLED → zealand-landing.md addendum (the 1977 exercise
+  family; conventional-landing branch tension flagged).
 - `pdf/dia-soviet-chemical-weapons-threat-dst-1620f-051-85.pdf`
   (26 pp, image scan) — the flagged chemical-posture.md fetch item,
   HELD and DISTILLED 2026-07-23 (chemical-posture.md §7):

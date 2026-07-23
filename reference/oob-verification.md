@@ -263,3 +263,39 @@ holdings before the ledger marks these CONFIRMED.
 timings; covering-force page-cites (await Lautsch purchase); blue
 strength reconciliation; anything in the two discrepancy flags
 (PzArtBtl 177, HSchBrig 51 artillery).
+
+## Addendum (2026-07-23): red's picture of blue, dated — the mirror-imaging exhibit
+
+**WP Exercise Appendix Nº 17, "NATO Order of Battle in the Western
+TVD (as of 20 January 1980)"** (Wilson Center/IPN-BU, Jan-1980
+exercise set; reference/pdf/wc-1980-wp-view-nato-oob-western-tvd.pdf;
+Opus distillation this date; the ground picture cross-read from the
+same family's VAL-77 §V–VI). This is the datable, quotable instance
+of the G-2-mirror theme the CIA-1989 note above only asserts:
+
+- **Division inflation:** red's Jutland corps ("OAK") = 6th mpd +
+  a **phantom "13th Panzer Division"** + Jutland mpd + two Danish
+  brigades + a British brigade — ~3 divisions where the real
+  covering force was two (with the 90-hour relocation gap).
+- **The thinness missed:** nothing in red's picture registers the
+  covering-force gap that Lautsch's plan and the 90-hour clock
+  both show — red over-counted blue exactly where blue was
+  weakest (symmetric with blue's IC missing red's two-phase
+  covering-force architecture, nie-threat-estimates.md).
+- **Self-mirroring:** a US carrier and two UK assault-helicopter
+  carriers credited to the Baltic (none operated there); a marine
+  regiment ("2nd dmp") imagined defending Zealand — red projecting
+  its own naval-infantry OOB onto a defender that had none; FRG
+  submarine count worst-cased (20 of a 44 total).
+- **Accurate where it watched hardest:** blue's nuclear delivery
+  (Nike-Hercules, I-HAWK, RakArtBtl 650 by name) — consistent
+  with red's release-fixation elsewhere in the corpus.
+- **Not an error:** folding I NL and I GE Corps into the front
+  zone is the two-axis doctrine (Jutland + Netherlands axes,
+  VAL-77), not mirror-imaging — keep the distinction.
+
+For the book: both G-2s now stand documented wrong in the cautious
+direction at dated moments — blue's IC naming the right armies but
+missing the phase structure (above), red counting phantom
+divisions and carriers while missing the gap. The two-clock
+symmetry has a two-mirror symmetry to match.

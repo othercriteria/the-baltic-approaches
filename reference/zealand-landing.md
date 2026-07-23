@@ -344,3 +344,65 @@ branch the enemy himself had rejected.
 - Mazurek, *Desant na Danię: Mit czy realny plan inwazji?* (2014)
   — Polish; library/purchase list.
 - Bogason already on the purchase list (holdings candidate).
+
+## Addendum (2026-07-23): the 1977 exercise family + 1980 lift appendix (shelf batch 8, distilled)
+
+Three Wilson Center/CWIHP items (IPN-BU originals, Russian, tr.
+Gary Goldberg; proper PDFs in reference/pdf/, wc-* prefix; Opus
+distillation this date) — two coherent snapshots, not four
+documents: the **June–July 1977 Maritime Front family (VAL-77
+explanatory note, doc ID 114599 + FALA-77 reconnaissance plan,
+approved 28.06.77)** and the **January 1980 exercise set
+(assault-landing formations, doc ID 114550 + NATO-OOB appendix
+17 → see oob-verification.md addendum)**.
+
+**VAL-77 (the between-SOYUZ-75-and-83 gap, filled):** Marshal
+Kulikov controlling; Maritime Front = 14 divisions / 2,965 tanks /
+76 launchers; main axis Wittenburg–Neumünster–Flensburg–[Aalborg],
+Jutland by day 10–11; **amphibious op D4–D6, Straits islands by
+day 6–7** (Fyn taken in a day; Zealand bridgehead 10–15 km);
+second landing southern Norway (Tønsberg–Farsund) day 16–17;
+front norm ~30 km/day; correlation cast at parity in divisions
+with red armor edge 1:1.3 (Jutland sector red-favorable 1:2.8 in
+tanks). **Nuclear handling is three-stage and the landing sits in
+Stage 2 — conventional**: the exercise rehearses taking the
+bridgehead and all of Fyn "using only conventional means," with
+NATO cast as the nuclear initiator in Stage 3 (front allocation
+278 weapons/8.7 MT + OBF 157, supplied only on D-day eve).
+**Flagged tension with the 1977 plan-of-record above** (15 nuclear
+weapons underwriting the beaches at G−5.5h): VAL-77 documents red
+testing the un-nuked landing branch its own staff privately judged
+doubtful — exercise scenario vs plan, not a contradiction, but it
+shows the conventional branch being seriously rehearsed in 1977.
+
+**FALA-77 (red's collection plan = an inventory of red's fears):**
+main reconnaissance effort "concentrated on Zealand"; priority
+targets = the fort belt (Stevns, Mosede, Dragør, [Kongelunds]),
+**Fakse and Køge Bays** (confirming those as the only beaches in
+the planning corpus), Copenhagen, 1st/2nd Zealand Brigades, blue
+nuclear delivery (Nike-Hercules, I-HAWK, "the 650th battalion" =
+RakArtBtl 650) and **"new nuclear minefields"** in the bays;
+phases pre-op → D–D2 (crossing/bridgehead) → D3–D7, each
+repeating the nuclear-reconnaissance sub-task; means = OSNAZ
+regiments, the 6th Radio Recon Center's 48-post HF DF baseline
+(Braniewo–Ustka–Dziwnów), GRU agent tasking, Il-28R/MiG-21R air
+recon, ELINT ships. **Mirror-imaging from the collection side:**
+red collects hardest against the threats red itself would pose
+(nuclear beach-prep, naval infantry — it imagines a marine
+regiment defending Zealand). **Bornholm is absent as a target in
+1977** — staging/rear, not objective — cleanly dating the other
+end of the documented 1986 migration to Poland's residual
+Bornholm task.
+
+**Jan-1980 lift appendix:** three naval assault formations,
+Soviet-dominated lift (Proj-1171/775 LSTs, Aist LCACs, Ro-Ro and
+ferry augmentation baked in — confirming the merchant-lift
+constraint), fire-support destroyer brigades, hospital ship —
+**concentrating at Wismar and Hohwacht Bay (Kiel Bay)** by
+24–25 Jan. Nuance flag: forward western-Baltic exercise staging
+already in Jan 1980, earlier than this file's "embarkation moved
+to the GDR coast post-1983" datum — exercise staging preceded
+mobilization-embarkation practice, or the 1983 datum understates
+the forward concept's age. Numeric cells in both 1980 appendices
+suffered table-splat degradation — re-check counts against source
+cells before citing.

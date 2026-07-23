@@ -373,7 +373,7 @@ class = "trunk"
 route = "E3"
 km = 31
 cap_source = "DEFAULT"
-notes = "Motorway Kolding-Christiansfeld only in Nov 1983; the Christiansfeld-Skovby GAP (closed 1984) puts through traffic on the old hovedvej here [transport-1983 §4] — period texture: the corridor's soft spot"
+notes = "Motorway Kolding-Christiansfeld only in Nov 1983; the Christiansfeld-Skovby GAP puts through traffic on the old hovedvej — closed 1984, OFFICIAL grade (Det store H p.74: Prins Henrik opened the last Sonderjylland piece) [transport-1983 §4/§6]"
 
 [[edge]]
 id = "e3-haderslev-aabenraa"
@@ -407,7 +407,7 @@ route = "E3"
 km = 12
 crossing = "dk_de_border"
 cap_source = "DEFAULT"
-notes = "Froslev/Ellund motorway border crossing; continuous with A7 since 1978 [transport-1983 §4]"
+notes = "Froslev/Ellund motorway border crossing; Danish side opened 1978 (Queen Margrethe + Bundespraesident Scheel — Det store H, official), continuous with A7 [transport-1983 §4/§6]"
 
 # ---------------------------------------------------------------- Little Belt + Funen
 
@@ -443,9 +443,10 @@ a = "middelfart"
 b = "odense"
 mode = "road"
 class = "trunk"
+route = "A1/E66"
 km = 43
 cap_source = "DEFAULT"
-verify = true
+notes = "Part-motorway (1970 Norre Aaby section) in Nov 1983; the Fyn motorway COMPLETED only 1985 (Det store H p.74, official) [transport-1983 §6]"
 
 [[edge]]
 id = "rd-odense-nyborg"
@@ -453,9 +454,10 @@ a = "odense"
 b = "nyborg"
 mode = "road"
 class = "trunk"
+route = "A1/E66"
 km = 34
 cap_source = "DEFAULT"
-verify = true
+notes = "Hovedvej A1 in Nov 1983; Fyn motorway completed 1985 (Det store H, official) [transport-1983 §6]"
 
 # ---------------------------------------------------------------- Great Belt (FERRY ONLY in 1983)
 
@@ -771,8 +773,8 @@ mode = "rail"
 class = "rail"
 km = 92
 via = "via Lunderskov; SINGLE TRACK south of Vamdrup in 1983"
-cap_tpd = 10000
-cap_source = "DERIVED:FM-trainload+single-track"
+cap_tpd = 7500
+cap_source = "DERIVED:TR0603-density"
 notes = "1983 layout: double Fredericia-Vamdrup, single Vamdrup-Padborg (~65 km; doublings 1996/2014). Diesel. The border rail feed is single-track — modern descriptions anachronistic [transport-1983 §3]"
 
 [[edge]]
@@ -871,8 +873,8 @@ b = "rodby"
 mode = "rail"
 class = "rail"
 km = 31
-cap_tpd = 10000
-cap_source = "DERIVED:FM-trainload+single-track"
+cap_tpd = 7500
+cap_source = "DERIVED:TR0603-density"
 notes = "Single track (1963, Vogelfluglinie boat trains); diesel [transport-1983 §3]"
 
 [[edge]]
@@ -899,8 +901,8 @@ class = "rail"
 km = 85
 via = "Fehmarnsundbrücke (1963, 1 track + 2 road lanes)"
 crossing = "fehmarn_sound"
-cap_tpd = 10000
-cap_source = "DERIVED:FM-trainload+single-track"
+cap_tpd = 7500
+cap_source = "DERIVED:TR0603-density"
 notes = "Predominantly single track Lübeck-Puttgarden; diesel [transport-1983 §3]"
 
 [[edge]]
@@ -967,8 +969,8 @@ b = "heide"
 mode = "rail"
 class = "rail"
 km = 45
-cap_tpd = 10000
-cap_source = "DERIVED:FM-trainload+single-track"
+cap_tpd = 7500
+cap_source = "DERIVED:TR0603-density"
 notes = "Eingleisige Nebenbahn CONFIRMED (single, never doubled, diesel) [transport-1983 §3]"
 
 [[edge]]
@@ -980,8 +982,8 @@ class = "rail"
 km = 40
 crossing = "eider"
 via = "single-track swing bridge over the Eider at Friedrichstadt"
-cap_tpd = 10000
-cap_source = "DERIVED:FM-trainload+single-track"
+cap_tpd = 7500
+cap_source = "DERIVED:TR0603-density"
 notes = "Marschbahn single-track section at the Eider crossing confirmed; diesel [transport-1983 §3]"
 
 # ---------------------------------------------------------------- red side + IGB crossings (SE of Lübeck — the correct threat geometry)
@@ -1080,8 +1082,8 @@ class = "rail"
 km = 65
 crossing = "igb"
 via = "Herrnburg border crossing"
-cap_tpd = 10000
-cap_source = "DERIVED:FM-trainload+single-track"
+cap_tpd = 7500
+cap_source = "DERIVED:TR0603-density"
 notes = "SINGLE track (2nd track removed as Soviet reparations), never electrified; interzonal Hamburg-Rostock pair + freight, ~40 min controls at Herrnburg. The Lübeck sector's only rail crossing [transport-1983 §5]"
 
 # ---------------------------------------------------------------- absences: what must NOT exist in Nov 1983

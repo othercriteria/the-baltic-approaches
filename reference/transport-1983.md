@@ -182,18 +182,45 @@ outranks them, which is this file's whole program.
   blue's crossing arithmetic is primary-sourced — usable
   in-book.
 
-## 7. Verification queue (round 3+)
+## 7. Round 3 (same day): the density doctrine and the official chronology land
 
-1. Danish military/DSB beredskab ferry-capacity planning (the
-   CAL-3 anchor proper) — print/archive tier; DK browser
-   candidate: Vejdirektoratet "Det store H — en motorvejshistorie"
-   (vejhistorie.dk) to upgrade the motorway tables to official.
-2. Hard cites for rail line-density norms (FM 55-20; HDv
-   logistics manuals) — purchase/archive tier.
-3. OCR debt flagged by the shelf pass: cia-1984-nordic-forces,
+- **~~Rail line-density hard cites~~ CLOSED**: TR0603 *Rail
+  Operations Planning* (1970, from DK's /bulk archive) carries
+  the doctrine itself — §2.13 rule of thumb **TD 10 single / 30
+  double** (trains/day each way), the passing-track formula
+  (24·S·(NT+1)/(2·LD); worked example TD 17), NTL × TD = net
+  division tonnage. **FM 55-20 (1974)** fetched from bits.de
+  ("Railway Line Capacity Planning" section confirmed) + FM 55-15
+  (1968/C3-1973) + FM 55-10 (1969) — shelf batch 9. Atlas rail
+  defaults re-anchored: double 15,000 t/d (TD 30 × 500 STON),
+  single-track edges 7,500 (formula-supported TD ~15 for short
+  well-found divisions; doctrine floor would be 5,000).
+- **~~"Det store H"~~ ACQUIRED (DK download, deposited to
+  HOLDINGS — © Vejdirektoratet w/ named photographers, not
+  redistributable)**: the official chronology confirms at
+  Road-Directorate grade: border motorway 1978 (opened by the
+  Queen with Bundespräsident Scheel attending — prose-grade
+  period detail), Skovby–Christiansfeld gap closed 1984 by Prins
+  Henrik ("the last piece of the Sønderjylland motorway"),
+  Vejlefjordbroen 1980, Lillebæltsbro 1970 (Frederik IX), **Fyn
+  motorway completed only 1985** (resolves both Funen verify
+  flags: part-motorway west, hovedvej A1 east in Nov 1983), Farø
+  1985, Aarhus–Randers 1994. Atlas notes upgraded to official
+  grade.
+- Not found free anywhere (do not re-hunt): FM 101-10-1 1976/77
+  edition; 1980s Bundeswehr HDv logistics manuals (Bundesarchiv
+  physical only).
+
+## 8. Verification queue (round 4+)
+
+1. Danish military/DSB beredskab ferry-capacity planning —
+   print/archive tier only; the last transport number wanted.
+2. OCR debt flagged by the shelf pass: cia-1984-nordic-forces,
    nie-11-14-79/81/85, ni-iim-83-10002 have NO text layer.
-4. Eider secondary crossings + Kiel Canal small-ferry inventory
+3. Eider secondary crossings + Kiel Canal small-ferry inventory
    if a scene needs them.
+4. Remaining verify flags (3): rd-kiel-lubeck, rd-rendsburg-
+   neumunster, b200-flensburg-husum road-class minutiae.
 
 ## 8. Cash-out for the outline (story-facing, non-mechanical)
 

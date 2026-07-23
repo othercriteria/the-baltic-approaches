@@ -52,7 +52,11 @@ model prices as zg_* was a real standing assumption, and East
 German intelligence demonstrably studied the crossing arithmetic
 (diis-kk-bind3 pp. 568-570). Seam log (atlas/README.md) stays
 empty: no discrepancy between instrument and atlas survived the
-audit.
+audit. *(Same-day amendment: TR0603's train-density doctrine
+landed after the audit and lowered the Herrnburg rail edge 10k →
+7.5k t/d; red's bracket becomes [7.5k+road ≈ 27.5k COMMZ-grade],
+red_supply 82 ≈ 13k still comfortably inside. Audit verdict
+unchanged.)*
 
 ## 2026-07-23 — v19/v20: the CAL-C threshold + November weather states (session 3845eb93)
 

@@ -101,6 +101,28 @@ this network, URLs work from a browser; both public domain):**
 | FM 71-1 (1988) + FM 71-3 (1988) | Post-provisional-setting editions — OUR reference; period 1977/1980 HTF editions are not public. PD; scans carry moot period distribution covers |
 | FM 55-30 *Army Motor Transport Operations*, 1969 | Nearest public edition (1980 exists only on paper) — convoy-procedure texture |
 
+## Held — batch 9 (transport/logistics bench, 2026-07-23, session eb2fcb4e)
+
+The atlas verification campaign's acquisitions: the rail
+line-capacity doctrine the FM 101-10-1 extraction showed missing
+from the 1987 bench. All US-government public domain. TR/FM-4
+items copied from DK's /bulk/dlk/military archive; FM 55-series
+fetched from bits.de (NRANEU archive).
+
+| Document | Why it's on the shelf |
+|---|---|
+| TR0603 *Rail Operations Planning* subcourse, Ed. 3 (1970; 170 pp) | **THE train-density doctrine**: §2.13 rule of thumb (TD 10 single / 30 double track), the passing-track formula (worked example TD 17), NTL/NDT computation — the atlas's rail capacities cite this |
+| TR0640 *Rail Operations, Theater* subcourse, Ed. 7 (1976; 86 pp) | Theater rail organization companion to TR0603 |
+| FM 55-20 *Army Rail Transport Units and Operations*, 1974 (2.7 MB) | The parent FM: "Railway Line Capacity Planning" section — the hard cite behind TR0603's subcourse math [bits.de FM55-20(74)] |
+| FM 55-15 *Transportation Reference Data*, 1968 + C3 1973 (12 MB) | Movement planning factors: march tables, route capacity, rail data — the period predecessor of the 1987 Vol 2 Ch 3 bench [bits.de] |
+| FM 55-10 *Army Transportation Movements Management*, 1969 | Theater movement-control doctrine (the corps' movement-authority scenes) [bits.de/CARL] |
+| FM 4-01.41 *Army Rail Operations*, 2003 (233 pp) | Modern successor for cross-check only — NOT period vocabulary |
+
+Not found free anywhere (recorded so nobody re-hunts): FM 101-10-1
+1976/77 edition (physical dealers only); Bundeswehr HDv logistics
+manuals of the 1980s (Bundesarchiv physical holdings only — a
+genuine dead end for the open web).
+
 ## Held — batch 8 (DK browser fetches, 2026-07-23; DISTILLED 2026-07-23)
 
 DK pulled these opportunistically (text splat where Wilson Center
@@ -282,6 +304,7 @@ repo so the only road for such files is the holdings repo.
 | Kim/Behr/Spafford, *The Phoenix Project* | PDF deposited 2026-07-20 (DK-directed) as a style example for Goldratt pastiche — the other famous Goal transposition. Flagged in the holdings catalog to pair with a purchased copy per the Dupuy standard |
 | Goldratt & Cox, *The Goal* (30th Anniversary ed., 362 pp) | PDF deposited 2026-07-23 (DK-owned) — **THE structure model**: mentor dialogues, the metrics engine, the didactic register the premise transposes. On the purchase list since Step 0; now held ahead of Phase-1 outlining, exactly when the parts-structure work needs it |
 | Bogason, *NATO and the Baltic Approaches 1949-1989* (De Gruyter 2023) | print copy PURCHASED 2026-07-22; low-quality web scrape deposited same day as placeholder (tables garbled — DK offers page scans on arrival). The remaining authority for the air-apportionment and command-architecture inferences (reference/air-apportionment.md) |
+| Dam/Hansen, *"Det store H" — en motorvejshistorie i billeder* (Vejdirektoratet 1994, 79 pp) | PDF deposited 2026-07-23 (DK download, vejhistorie.dk) — the OFFICIAL Danish motorway chronology; upgrades the atlas's load-bearing dates to Road-Directorate grade (border motorway 1978 w/ Bundespräsident Scheel; Skovby–Christiansfeld gap closed 1984; Vejlefjordbroen 1980; Fyn completed 1985; Farø 1985). © Vejdirektoratet with named photographers → not redistributable; held private per the holdings rule |
 | Macksey, *First Clash* (CF training-pub ed. B-GL-309-006/FT-001, 228 pp image scan) | PDF deposited 2026-07-23 (DK purchase same day) — the nearest structural cousin (goal-likes.md gap analysis): commissioned fiction-as-doctrine on Cold-War Central-Front terrain, chapter-end lesson apparatus, cast/OOB tables. Study targets: the apparatus conventions (narrative-external doctrine carriage — now sizing-relevant under the narrative-only word-count ruling) and the told-vs-discovered lesson gap |
 
 ## Purchase list (copyrighted; DK's call)

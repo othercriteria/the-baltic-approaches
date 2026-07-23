@@ -31,16 +31,18 @@ SPEEDS = {
 # 18,000, narrow-roadway −25%. Combat-zone column is ~4-8x lower —
 # wartime degradation is scenario logic, not the edge's physical
 # capacity. Rail: FM net trainload 500 STON (para 3-26, p. 3-41,
-# "conservative") × ~40 trains/day double track (density is NOT in
-# the FM — grade-C rule of thumb; single-track edges carry ~20
-# trains/day as explicit cap_tpd). See reference/transport-1983.md
-# §3-4 and the round-1 provenance there.
+# "conservative") × TR0603 train density (Rail Operations
+# Planning, 1970, on the shelf — §2.13 rule of thumb: TD 30/day
+# double, 10/day single; the passing-track formula supports ~15
+# for short well-found single divisions, hence per-edge cap_tpd
+# 7,500 on single-track lines). See reference/transport-1983.md
+# §3-4 and the round-1/2 provenance there.
 CAP_DEFAULTS_TPD = {
     "motorway": 36_000,
     "trunk": 27_000,
     "federal": 20_000,
     "secondary": 10_000,
-    "rail": 20_000,
+    "rail": 15_000,
 }
 
 

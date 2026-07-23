@@ -200,6 +200,7 @@ repo so the only road for such files is the holdings repo.
 |---|---|
 | Dupuy, *Numbers, Predictions and War* | print copy acquired 2026-07-20; PDF to be produced from the printed text or sourced. Still wanted for QJM structure (advance rates, OLI/CEV); attrition empirics now covered publicly by the HERO handbook |
 | Kim/Behr/Spafford, *The Phoenix Project* | PDF deposited 2026-07-20 (DK-directed) as a style example for Goldratt pastiche — the other famous Goal transposition. Flagged in the holdings catalog to pair with a purchased copy per the Dupuy standard |
+| Goldratt & Cox, *The Goal* (30th Anniversary ed., 362 pp) | PDF deposited 2026-07-23 (DK-owned) — **THE structure model**: mentor dialogues, the metrics engine, the didactic register the premise transposes. On the purchase list since Step 0; now held ahead of Phase-1 outlining, exactly when the parts-structure work needs it |
 | Bogason, *NATO and the Baltic Approaches 1949-1989* (De Gruyter 2023) | print copy PURCHASED 2026-07-22; low-quality web scrape deposited same day as placeholder (tables garbled — DK offers page scans on arrival). The remaining authority for the air-apportionment and command-architecture inferences (reference/air-apportionment.md) |
 
 ## Purchase list (copyrighted; DK's call)
@@ -214,8 +215,8 @@ repo so the only road for such files is the holdings repo.
   Operationsplanung des Warschauer Paktes* (ZMSBw 2010) — the
   Moszumański chapter carries the Polish Coastal Front task detail
   (which armies, which echelon, what timings)
-- Goldratt, *The Goal* (structure model — mentor dialogues, metrics
-  engine)
+- ~~Goldratt, *The Goal*~~ → HELD 2026-07-23 (DK-owned, deposited
+  to holdings — see Holdings table)
 - Bracken, *The Command and Control of Nuclear Forces* (Yale 1983)
   — period-exact release-procedure bench for the NBC conceit's one
   earned scene (planning/nbc-conceit.md); free/PD alternatives to

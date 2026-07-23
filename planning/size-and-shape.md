@@ -286,3 +286,64 @@ holdings same day; distillation → reference/first-clash.md);
 The Defense of Hill 781 (McDonough 1988); Red Army (Peters 1989 —
 red-side tonal reference); Duffer's Drift is public-domain (Army
 PDF, no purchase needed). All genre-shelf, not calibration-tier.
+
+## 9. Counter-briefs filed (2026-07-23, same session — rulings pending)
+
+Two fresh-context counter-briefs are on file per process rules;
+this brief's content above is left as-attacked (amendments only by
+ruling):
+
+- **planning/size-counterbrief-structure.md** (hostile development
+  editor). Concedes: the 55k point, the apparatus boundary rule,
+  the G-2 turn, the embodied early stations, valve rhythm. Attacks:
+  Part I's Goldratt-precedent claim (**conceded by the incumbent:
+  false analogy — The Goal has no pre-crisis chapters; its ch. 1
+  IS the crisis**); the §4a arithmetic (back-solved, double-counts
+  ensemble establishment in a way that presumes Part I, omits
+  connective tissue, and **contradicts §7's two-cycle test — also
+  conceded: 8 stations × 2 honest cycles ≈ 40–48k > the ~30k
+  variable**); the meta-station (romanticism unless writable as a
+  scene); the global register conditional (proposes per-station
+  register rulings instead); the B-plot budget (no delivery
+  mechanism designed — three alternatives forced); the
+  single-mentor-visit cut (proposes a second visit at the envelope
+  break, paid by folding stations). Offers A′ (compressed 2-ch/~5k
+  overture) as the new lean between A and B.
+- **planning/size-counterbrief-red.md** (adversarial
+  reader-advocate). Prosecutes the zero-red-interiority cut with
+  the First Clash evidence; shows red is already written as the
+  book's second Goal character (plan_lag = red's efficiency
+  reports; the sincere anti-model/Smyth slot is vacant at 55k);
+  argues the locked week-3 red scene has no floor as a cold open.
+  Steelmans the defense (G-2-mediated red IS the thesis; clause-2
+  confusion; The Goal's own single-vantage discipline). Offers the
+  reconciliation: **R3 "three beats of one room" (~4.5–5k net)
+  under the reasoning-not-reconnaissance rule** (red's room shows
+  red's reasoning, never ground truth — red's own instruments
+  mislead red, doubling the metrics engine), placed after blue's
+  commitments; red beats to outrank the §4a interleaves in the
+  overflow queue.
+
+**Artifacts demanded across both (the pre-ruling batch):**
+1. First-chapter bake-off: ch. 1 drafted twice (~1.2k each — A/A′
+   exercise opening vs B cold open), judged by blind truncated
+   readers.
+2. Red beat-2 written twice (interior-under-the-rule vs
+   G-2-mediated), blind-tested on "what did red believe / do you
+   know anything blue doesn't?"
+3. The reader-ahead audit table (per station: staged evidence,
+   required inference, where the reader could get ahead, fallback
+   staging) — converts the register conditional into per-station
+   rulings.
+4. The 20-row allocation sheet (chapter × station × cycles × floor
+   × jeopardy source × B-plot share, summed) — the §3/§4a/§7
+   consistency check the incumbent failed to run.
+5. The meta-station writability test: its derivation scene as a
+   one-page sketch a blind reader can paraphrase, or it demotes to
+   a closing beat.
+
+All five are sketch/table-tier and fold into the agreed next step
+(the character-sketch matrix + outline). DK rules on: A vs A′ vs B;
+ladder depth (8 thin vs ~5 deep + folds); per-station register;
+B-plot mechanism (a/b/c); the second mentor visit; R3 vs the
+standing cut (vs R2 mediated-voice floor).

@@ -770,8 +770,8 @@ mode = "rail"
 class = "rail"
 km = 92
 via = "via Lunderskov; SINGLE TRACK south of Vamdrup in 1983"
-cap_tpd = 8000
-cap_source = "DERIVED:single-track"
+cap_tpd = 10000
+cap_source = "DERIVED:FM-trainload+single-track"
 notes = "1983 layout: double Fredericia-Vamdrup, single Vamdrup-Padborg (~65 km; doublings 1996/2014). Diesel. The border rail feed is single-track — modern descriptions anachronistic [transport-1983 §3]"
 
 [[edge]]
@@ -871,8 +871,8 @@ b = "rodby"
 mode = "rail"
 class = "rail"
 km = 31
-cap_tpd = 6000
-cap_source = "DERIVED:single-track"
+cap_tpd = 10000
+cap_source = "DERIVED:FM-trainload+single-track"
 notes = "Single track (1963, Vogelfluglinie boat trains); diesel [transport-1983 §3]"
 
 [[edge]]
@@ -899,8 +899,8 @@ class = "rail"
 km = 85
 via = "Fehmarnsundbrücke (1963, 1 track + 2 road lanes)"
 crossing = "fehmarn_sound"
-cap_tpd = 6000
-cap_source = "DERIVED:single-track"
+cap_tpd = 10000
+cap_source = "DERIVED:FM-trainload+single-track"
 notes = "Predominantly single track Lübeck-Puttgarden; diesel [transport-1983 §3]"
 
 [[edge]]
@@ -979,8 +979,8 @@ class = "rail"
 km = 40
 crossing = "eider"
 via = "single-track swing bridge over the Eider at Friedrichstadt"
-cap_tpd = 6000
-cap_source = "DERIVED:single-track"
+cap_tpd = 10000
+cap_source = "DERIVED:FM-trainload+single-track"
 notes = "Marschbahn single-track section at the Eider crossing confirmed; diesel [transport-1983 §3]"
 
 # ---------------------------------------------------------------- red side + IGB crossings (SE of Lübeck — the correct threat geometry)
@@ -1078,8 +1078,8 @@ class = "rail"
 km = 65
 crossing = "igb"
 via = "Herrnburg border crossing"
-cap_tpd = 6000
-cap_source = "DERIVED:single-track"
+cap_tpd = 10000
+cap_source = "DERIVED:FM-trainload+single-track"
 notes = "SINGLE track (2nd track removed as Soviet reparations), never electrified; interzonal Hamburg-Rostock pair + freight, ~40 min controls at Herrnburg. The Lübeck sector's only rail crossing [transport-1983 §5]"
 
 # ---------------------------------------------------------------- absences: what must NOT exist in Nov 1983

@@ -71,11 +71,37 @@ from 1986; DB Schleswig-Holstein 1995+; DR Mecklenburg 1985–87).
   Hamburg–Rostock pair + freight, ~40 min border controls at
   Herrnburg; Bad Kleinen–Rostock double (re-doubled 1973-75),
   diesel until 1986-87. Bad Kleinen–Schwerin status B–.
-- **Capacity rules of thumb (grade C — chase FM 55-20 / HDv for
-  hard cites)**: good single track ≈ 30 trains/day, good double
-  ≈ 60-68; military train ≈ 500-1,000 men or (WWI-vintage figure)
-  ~100 t supplies — the dataset uses ~400-500 t net/military
-  train as the Cold-War-era working figure, stated per-edge.
+- **Capacity rules of thumb, now FM-anchored where the FM
+  speaks** (FM 101-10-1 Vol 2 Ch 3, 1987, on the shelf — extracted
+  2026-07-23 w/ page cites): net trainload **500 STON**
+  (para 3-26, p. 3-41, labeled conservative); heavy-equipment
+  trains "seldom exceed 65 cars or 1,200 tons" (para 3-30);
+  foreign-railway fallback 40 cars/400 t/1,000 troops (para
+  3-31); net load/car 20 t US / 10 t foreign equipment. **The FM
+  tabulates NO trains-per-day line density** (explicitly a local
+  input) — single ≈ 20-30 / double ≈ 40-60 trains/day stays a
+  grade-C rule of thumb. Dataset uses 500 STON × ~40 (double,
+  class default 20k t/d) and × ~20 (single, per-edge 10k t/d).
+
+## 3a. FM 101-10-1 highway/water factors (shelf extraction, same day)
+
+Vol 2 **Table 3-7 (p. 3-7), "Highway Tonnage Capabilities"** —
+daily tonnage forward, STON/day, by surface and zone: concrete
+60,000 optimum / **36,000 COMMZ** / 8,400 combat zone;
+bituminous 45,000 / **27,000** / 7,300; bituminous-treated
+30,000 / 18,000 / 5,800; gravel 10,150 / 6,090 / 3,400.
+Reductions: narrow (<7.2 m) −25%; rolling −10-25%; hills-with-
+curves −30-60%; mountainous −60-80%; weather −20-90%. The atlas
+class defaults are the COMMZ column (combat-zone degradation is
+scenario logic, not edge capacity). Truck-company lift factors
+and the 90-mile line-haul/2-trips-day factors extracted (Table
+3-4, p. 3-4). Port/beach: NO flat tons/day default exists — the
+FM computes min(reception, discharge, clearance); lighterage
+craft capacities tabulated (LCU ~150-184 LT). **No inter-modal
+conversion factor exists in the FM** — do not invent one.
+Caveat: general planning defaults "only in the absence of
+specific data on the local situation" (p. 3-2) — local research
+outranks them, which is this file's whole program.
 
 ## 4. Roads (agent 2)
 

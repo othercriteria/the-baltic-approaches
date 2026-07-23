@@ -24,14 +24,23 @@ SPEEDS = {
     "convoy": {"motorway": 40, "trunk": 30, "federal": 25, "secondary": 20, "rail": 40},
 }
 
-# Default one-way capacities, tonnes/day, by road class or rail.
-# Order-of-magnitude GUESSES; ferries always carry explicit caps.
+# Default one-way capacities, tonnes/day (≈ STON), by road class
+# or rail. Road classes anchored to FM 101-10-1 Vol 2 Table 3-7
+# (manual p. 3-7), "Daily Tonnage Forward", COMMZ supply-traffic
+# column: concrete 36,000 / bituminous 27,000 / bituminous-treated
+# 18,000, narrow-roadway −25%. Combat-zone column is ~4-8x lower —
+# wartime degradation is scenario logic, not the edge's physical
+# capacity. Rail: FM net trainload 500 STON (para 3-26, p. 3-41,
+# "conservative") × ~40 trains/day double track (density is NOT in
+# the FM — grade-C rule of thumb; single-track edges carry ~20
+# trains/day as explicit cap_tpd). See reference/transport-1983.md
+# §3-4 and the round-1 provenance there.
 CAP_DEFAULTS_TPD = {
-    "motorway": 30_000,
-    "trunk": 15_000,
-    "federal": 10_000,
-    "secondary": 4_000,
-    "rail": 12_000,
+    "motorway": 36_000,
+    "trunk": 27_000,
+    "federal": 20_000,
+    "secondary": 10_000,
+    "rail": 20_000,
 }
 
 

@@ -1,0 +1,1105 @@
+# Theater transport network, November 1983.
+# SEEDED FROM MODEL MEMORY — see atlas/README.md "Data discipline":
+# km values are road-atlas-from-memory tier; every capacity GUESS or
+# DEFAULT; verify=true wherever the fact itself needs checking.
+# Route designations use 1983 signage: E3 (not E45), A7, B-roads.
+# Regions: JY Jutland, FY Funen, SJ Zealand, LF Lolland-Falster,
+# SH Schleswig-Holstein, HH Hamburg, ME Mecklenburg (red side).
+
+[meta]
+name = "theater-1983"
+asof = "1983-11"
+
+# ---------------------------------------------------------------- nodes
+
+[[node]]
+id = "aalborg"
+name = "Aalborg"
+region = "JY"
+lat = 57.05
+lon = 9.92
+
+[[node]]
+id = "aarhus"
+name = "Aarhus"
+region = "JY"
+lat = 56.16
+lon = 10.20
+
+[[node]]
+id = "vejle"
+name = "Vejle"
+region = "JY"
+lat = 55.71
+lon = 9.54
+
+[[node]]
+id = "fredericia"
+name = "Fredericia"
+region = "JY"
+lat = 55.57
+lon = 9.75
+notes = "Jutland rail hub; Holt family home (provisional canon)"
+
+[[node]]
+id = "kolding"
+name = "Kolding"
+region = "JY"
+lat = 55.49
+lon = 9.47
+
+[[node]]
+id = "haderslev"
+name = "Haderslev"
+region = "JY"
+lat = 55.25
+lon = 9.49
+
+[[node]]
+id = "aabenraa"
+name = "Aabenraa"
+region = "JY"
+lat = 55.04
+lon = 9.42
+
+[[node]]
+id = "padborg"
+name = "Padborg"
+region = "JY"
+lat = 54.83
+lon = 9.36
+notes = "DK/DE border crossing (road + rail)"
+
+[[node]]
+id = "middelfart"
+name = "Middelfart"
+region = "FY"
+lat = 55.51
+lon = 9.73
+
+[[node]]
+id = "odense"
+name = "Odense"
+region = "FY"
+lat = 55.40
+lon = 10.39
+
+[[node]]
+id = "nyborg"
+name = "Nyborg"
+region = "FY"
+lat = 55.31
+lon = 10.79
+notes = "Great Belt west ferry ports (Nyborg/Knudshoved)"
+
+[[node]]
+id = "korsor"
+name = "Korsør"
+region = "SJ"
+lat = 55.33
+lon = 11.14
+notes = "Great Belt east ferry ports (Korsør/Halsskov); Aakjær family (specimen)"
+
+[[node]]
+id = "slagelse"
+name = "Slagelse"
+region = "SJ"
+lat = 55.40
+lon = 11.35
+
+[[node]]
+id = "ringsted"
+name = "Ringsted"
+region = "SJ"
+lat = 55.44
+lon = 11.79
+
+[[node]]
+id = "koebenhavn"
+name = "København"
+region = "SJ"
+lat = 55.68
+lon = 12.57
+
+[[node]]
+id = "naestved"
+name = "Næstved"
+region = "SJ"
+lat = 55.23
+lon = 11.76
+
+[[node]]
+id = "vordingborg"
+name = "Vordingborg"
+region = "SJ"
+lat = 55.01
+lon = 11.91
+
+[[node]]
+id = "nykobing_f"
+name = "Nykøbing Falster"
+region = "LF"
+lat = 54.77
+lon = 11.87
+
+[[node]]
+id = "rodby"
+name = "Rødbyhavn"
+region = "LF"
+lat = 54.66
+lon = 11.35
+
+[[node]]
+id = "flensburg"
+name = "Flensburg"
+region = "SH"
+lat = 54.79
+lon = 9.43
+
+[[node]]
+id = "schleswig"
+name = "Schleswig"
+region = "SH"
+lat = 54.52
+lon = 9.57
+notes = "Danewerk neck; guidance-line trace (specimen)"
+
+[[node]]
+id = "rendsburg"
+name = "Rendsburg"
+region = "SH"
+lat = 54.30
+lon = 9.66
+notes = "LANDJUT HQ. On the Kiel Canal: road tunnel (1961), rail high bridge + loop (1913)"
+
+[[node]]
+id = "neumunster"
+name = "Neumünster"
+region = "SH"
+lat = 54.07
+lon = 9.99
+notes = "6. PzGrenDiv HQ garrison"
+
+[[node]]
+id = "kiel"
+name = "Kiel"
+region = "SH"
+lat = 54.32
+lon = 10.14
+notes = "Canal east mouth (Holtenau locks)"
+
+[[node]]
+id = "eckernforde"
+name = "Eckernförde"
+region = "SH"
+lat = 54.47
+lon = 9.84
+notes = "Rahn's retirement (specimen)"
+
+[[node]]
+id = "husum"
+name = "Husum"
+region = "SH"
+lat = 54.48
+lon = 9.05
+
+[[node]]
+id = "friedrichstadt"
+name = "Friedrichstadt"
+region = "SH"
+lat = 54.38
+lon = 9.09
+notes = "Eider/Treene junction; the specimen's valve complex"
+
+[[node]]
+id = "heide"
+name = "Heide"
+region = "SH"
+lat = 54.20
+lon = 9.09
+
+[[node]]
+id = "itzehoe"
+name = "Itzehoe"
+region = "SH"
+lat = 53.93
+lon = 9.52
+
+[[node]]
+id = "lubeck"
+name = "Lübeck"
+region = "SH"
+lat = 53.87
+lon = 10.69
+
+[[node]]
+id = "oldenburg_h"
+name = "Oldenburg in Holstein"
+region = "SH"
+lat = 54.29
+lon = 10.90
+
+[[node]]
+id = "puttgarden"
+name = "Puttgarden (Fehmarn)"
+region = "SH"
+lat = 54.50
+lon = 11.22
+
+[[node]]
+id = "ratzeburg"
+name = "Ratzeburg"
+region = "SH"
+lat = 53.70
+lon = 10.76
+notes = "West of the IGB"
+
+[[node]]
+id = "hamburg"
+name = "Hamburg"
+region = "HH"
+lat = 53.55
+lon = 10.00
+notes = "Southern edge of scope"
+
+[[node]]
+id = "wismar"
+name = "Wismar"
+region = "ME"
+lat = 53.89
+lon = 11.45
+
+[[node]]
+id = "rostock"
+name = "Rostock"
+region = "ME"
+lat = 54.09
+lon = 12.10
+notes = "Red port + rail hub; the surge-rate axis (specimen ch. 2)"
+
+[[node]]
+id = "bad_kleinen"
+name = "Bad Kleinen"
+region = "ME"
+lat = 53.80
+lon = 11.47
+notes = "Rail junction; specimen deep-target"
+
+[[node]]
+id = "schwerin"
+name = "Schwerin"
+region = "ME"
+lat = 53.63
+lon = 11.41
+
+[[node]]
+id = "gadebusch"
+name = "Gadebusch"
+region = "ME"
+lat = 53.70
+lon = 11.12
+
+[[node]]
+id = "selmsdorf"
+name = "Selmsdorf"
+region = "ME"
+lat = 53.88
+lon = 10.87
+notes = "IGB checkpoint on the B105 coastal axis"
+
+# ---------------------------------------------------------------- road: Jutland E3 corridor
+
+[[edge]]
+id = "e3-aalborg-aarhus"
+a = "aalborg"
+b = "aarhus"
+mode = "road"
+class = "trunk"
+route = "E3"
+km = 112
+cap_source = "DEFAULT"
+verify = true
+notes = "Motorway sections partial in 1983 — class as trunk pending verification"
+
+[[edge]]
+id = "e3-aarhus-vejle"
+a = "aarhus"
+b = "vejle"
+mode = "road"
+class = "trunk"
+route = "E3"
+km = 73
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "e3-vejle-kolding"
+a = "vejle"
+b = "kolding"
+mode = "road"
+class = "motorway"
+route = "E3"
+km = 30
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "rd-vejle-fredericia"
+a = "vejle"
+b = "fredericia"
+mode = "road"
+class = "federal"
+km = 27
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "rd-kolding-fredericia"
+a = "kolding"
+b = "fredericia"
+mode = "road"
+class = "federal"
+km = 22
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "e3-kolding-haderslev"
+a = "kolding"
+b = "haderslev"
+mode = "road"
+class = "trunk"
+route = "E3"
+km = 31
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "e3-haderslev-aabenraa"
+a = "haderslev"
+b = "aabenraa"
+mode = "road"
+class = "trunk"
+route = "E3"
+km = 30
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "e3-aabenraa-padborg"
+a = "aabenraa"
+b = "padborg"
+mode = "road"
+class = "trunk"
+route = "E3"
+km = 26
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "e3-padborg-flensburg"
+a = "padborg"
+b = "flensburg"
+mode = "road"
+class = "trunk"
+route = "E3"
+km = 12
+crossing = "dk_de_border"
+cap_source = "DEFAULT"
+verify = true
+
+# ---------------------------------------------------------------- Little Belt + Funen
+
+[[edge]]
+id = "lb-new-bridge"
+a = "fredericia"
+b = "middelfart"
+mode = "road"
+class = "motorway"
+route = "E66"
+km = 8
+via = "Ny Lillebæltsbro (1970)"
+crossing = "little_belt"
+cap_source = "DEFAULT"
+verify = true
+notes = "1983 E-route designation over the new bridge TO VERIFY (E66?)"
+
+[[edge]]
+id = "lb-old-bridge-road"
+a = "fredericia"
+b = "middelfart"
+mode = "road"
+class = "federal"
+km = 7
+via = "old Lillebæltsbro (1935, road+rail)"
+crossing = "little_belt"
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rd-middelfart-odense"
+a = "middelfart"
+b = "odense"
+mode = "road"
+class = "trunk"
+km = 43
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "rd-odense-nyborg"
+a = "odense"
+b = "nyborg"
+mode = "road"
+class = "trunk"
+km = 34
+cap_source = "DEFAULT"
+verify = true
+
+# ---------------------------------------------------------------- Great Belt (FERRY ONLY in 1983)
+
+[[edge]]
+id = "gb-road-ferry"
+a = "nyborg"
+b = "korsor"
+mode = "ferry"
+class = "ferry"
+km = 19
+hours = 1.0
+fixed_hours = 0.8
+via = "Halsskov–Knudshoved road ferry (DSB)"
+crossing = "great_belt"
+cap_tpd = 6000
+cap_source = "GUESS"
+verify = true
+notes = "Loading overhead and daily lift are the CAL-3 research target"
+
+[[edge]]
+id = "gb-rail-ferry"
+a = "nyborg"
+b = "korsor"
+mode = "ferry"
+class = "ferry"
+km = 25
+hours = 1.2
+fixed_hours = 1.0
+via = "DSB rail ferry Korsør–Nyborg"
+crossing = "great_belt"
+cap_tpd = 8000
+cap_source = "GUESS"
+verify = true
+
+# ---------------------------------------------------------------- Zealand + the southern island chain
+
+[[edge]]
+id = "rd-korsor-slagelse"
+a = "korsor"
+b = "slagelse"
+mode = "road"
+class = "trunk"
+km = 15
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rd-slagelse-ringsted"
+a = "slagelse"
+b = "ringsted"
+mode = "road"
+class = "trunk"
+km = 28
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rd-ringsted-koebenhavn"
+a = "ringsted"
+b = "koebenhavn"
+mode = "road"
+class = "motorway"
+km = 60
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rd-ringsted-naestved"
+a = "ringsted"
+b = "naestved"
+mode = "road"
+class = "federal"
+km = 26
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rd-naestved-vordingborg"
+a = "naestved"
+b = "vordingborg"
+mode = "road"
+class = "trunk"
+km = 28
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "storstrom-road"
+a = "vordingborg"
+b = "nykobing_f"
+mode = "road"
+class = "federal"
+km = 41
+via = "Storstrømsbroen (1937, road+rail); Farø link NOT open until 1985"
+crossing = "storstrom"
+cap_source = "GUESS"
+cap_tpd = 6000
+verify = true
+notes = "Narrow 1937 deck shared with rail — capacity well below federal default"
+
+[[edge]]
+id = "rd-nykobing-rodby"
+a = "nykobing_f"
+b = "rodby"
+mode = "road"
+class = "trunk"
+km = 31
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "vogelflug-road-ferry"
+a = "rodby"
+b = "puttgarden"
+mode = "ferry"
+class = "ferry"
+km = 19
+hours = 1.0
+fixed_hours = 0.7
+via = "Vogelfluglinie ferry (1963)"
+crossing = "fehmarn_belt"
+cap_tpd = 5000
+cap_source = "GUESS"
+verify = true
+
+# ---------------------------------------------------------------- eastern Holstein
+
+[[edge]]
+id = "rd-puttgarden-oldenburg"
+a = "puttgarden"
+b = "oldenburg_h"
+mode = "road"
+class = "trunk"
+route = "B207/E4"
+km = 29
+via = "Fehmarnsundbrücke (1963)"
+crossing = "fehmarn_sound"
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "rd-oldenburg-lubeck"
+a = "oldenburg_h"
+b = "lubeck"
+mode = "road"
+class = "trunk"
+route = "B207/E4"
+km = 61
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "rd-kiel-lubeck"
+a = "kiel"
+b = "lubeck"
+mode = "road"
+class = "trunk"
+route = "B76/B207"
+km = 78
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "a1-lubeck-hamburg"
+a = "lubeck"
+b = "hamburg"
+mode = "road"
+class = "motorway"
+route = "A1"
+km = 65
+cap_source = "DEFAULT"
+
+# ---------------------------------------------------------------- Schleswig operating area
+
+[[edge]]
+id = "a7-flensburg-schleswig"
+a = "flensburg"
+b = "schleswig"
+mode = "road"
+class = "motorway"
+route = "A7/E3"
+km = 33
+cap_source = "DEFAULT"
+verify = true
+notes = "A7 completion date to the border TO VERIFY (assumed complete by 1983)"
+
+[[edge]]
+id = "a7-schleswig-rendsburg"
+a = "schleswig"
+b = "rendsburg"
+mode = "road"
+class = "motorway"
+route = "A7/E3"
+km = 27
+via = "Rader Hochbrücke (1972)"
+crossing = "kiel_canal"
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rd-rendsburg-neumunster"
+a = "rendsburg"
+b = "neumunster"
+mode = "road"
+class = "federal"
+km = 33
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "a7-neumunster-hamburg"
+a = "neumunster"
+b = "hamburg"
+mode = "road"
+class = "motorway"
+route = "A7"
+km = 72
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rd-neumunster-kiel"
+a = "neumunster"
+b = "kiel"
+mode = "road"
+class = "trunk"
+km = 32
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "b76-kiel-eckernforde"
+a = "kiel"
+b = "eckernforde"
+mode = "road"
+class = "federal"
+route = "B76"
+km = 27
+via = "Holtenau high bridge (1972)"
+crossing = "kiel_canal"
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "b76-eckernforde-schleswig"
+a = "eckernforde"
+b = "schleswig"
+mode = "road"
+class = "federal"
+route = "B76"
+km = 24
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "b201-schleswig-husum"
+a = "schleswig"
+b = "husum"
+mode = "road"
+class = "federal"
+route = "B201"
+km = 34
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "b5-husum-friedrichstadt"
+a = "husum"
+b = "friedrichstadt"
+mode = "road"
+class = "federal"
+route = "B5"
+km = 16
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "b5-friedrichstadt-heide"
+a = "friedrichstadt"
+b = "heide"
+mode = "road"
+class = "federal"
+route = "B5"
+km = 27
+crossing = "eider"
+via = "Eider crossing at Friedrichstadt"
+cap_source = "DEFAULT"
+verify = true
+notes = "The specimen's valve complex; exact 1983 bridge/barrage layout TO VERIFY"
+
+[[edge]]
+id = "b5-heide-itzehoe"
+a = "heide"
+b = "itzehoe"
+mode = "road"
+class = "federal"
+route = "B5"
+km = 34
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rd-itzehoe-hamburg"
+a = "itzehoe"
+b = "hamburg"
+mode = "road"
+class = "trunk"
+route = "A23/B5"
+km = 55
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "b200-flensburg-husum"
+a = "flensburg"
+b = "husum"
+mode = "road"
+class = "federal"
+route = "B200/B5"
+km = 42
+cap_source = "DEFAULT"
+verify = true
+
+# ---------------------------------------------------------------- rail
+
+[[edge]]
+id = "rail-fredericia-padborg"
+a = "fredericia"
+b = "padborg"
+mode = "rail"
+class = "rail"
+km = 92
+via = "via Lunderskov"
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "rail-padborg-flensburg"
+a = "padborg"
+b = "flensburg"
+mode = "rail"
+class = "rail"
+km = 16
+crossing = "dk_de_border"
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rail-lb-old-bridge"
+a = "fredericia"
+b = "middelfart"
+mode = "rail"
+class = "rail"
+km = 7
+via = "old Lillebæltsbro (1935, road+rail)"
+crossing = "little_belt"
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rail-middelfart-odense"
+a = "middelfart"
+b = "odense"
+mode = "rail"
+class = "rail"
+km = 44
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rail-odense-nyborg"
+a = "odense"
+b = "nyborg"
+mode = "rail"
+class = "rail"
+km = 29
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rail-korsor-ringsted"
+a = "korsor"
+b = "ringsted"
+mode = "rail"
+class = "rail"
+km = 45
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rail-ringsted-koebenhavn"
+a = "ringsted"
+b = "koebenhavn"
+mode = "rail"
+class = "rail"
+km = 64
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rail-ringsted-naestved"
+a = "ringsted"
+b = "naestved"
+mode = "rail"
+class = "rail"
+km = 25
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rail-naestved-vordingborg"
+a = "naestved"
+b = "vordingborg"
+mode = "rail"
+class = "rail"
+km = 27
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "storstrom-rail"
+a = "vordingborg"
+b = "nykobing_f"
+mode = "rail"
+class = "rail"
+km = 41
+via = "Storstrømsbroen (1937, road+rail)"
+crossing = "storstrom"
+cap_tpd = 5000
+cap_source = "GUESS"
+verify = true
+
+[[edge]]
+id = "rail-nykobing-rodby"
+a = "nykobing_f"
+b = "rodby"
+mode = "rail"
+class = "rail"
+km = 31
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "vogelflug-rail-ferry"
+a = "rodby"
+b = "puttgarden"
+mode = "ferry"
+class = "ferry"
+km = 19
+hours = 1.0
+fixed_hours = 1.0
+via = "Vogelfluglinie rail ferry (1963)"
+crossing = "fehmarn_belt"
+cap_tpd = 4000
+cap_source = "GUESS"
+verify = true
+
+[[edge]]
+id = "rail-puttgarden-lubeck"
+a = "puttgarden"
+b = "lubeck"
+mode = "rail"
+class = "rail"
+km = 85
+via = "Fehmarnsundbrücke (1963)"
+crossing = "fehmarn_sound"
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "rail-hamburg-neumunster"
+a = "hamburg"
+b = "neumunster"
+mode = "rail"
+class = "rail"
+km = 70
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rail-neumunster-rendsburg"
+a = "neumunster"
+b = "rendsburg"
+mode = "rail"
+class = "rail"
+km = 31
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rail-rendsburg-schleswig"
+a = "rendsburg"
+b = "schleswig"
+mode = "rail"
+class = "rail"
+km = 20
+via = "Rendsburg high bridge + loop (1913)"
+crossing = "kiel_canal"
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rail-schleswig-flensburg"
+a = "schleswig"
+b = "flensburg"
+mode = "rail"
+class = "rail"
+km = 30
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rail-neumunster-kiel"
+a = "neumunster"
+b = "kiel"
+mode = "rail"
+class = "rail"
+km = 30
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rail-hamburg-lubeck"
+a = "hamburg"
+b = "lubeck"
+mode = "rail"
+class = "rail"
+km = 63
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rail-neumunster-heide"
+a = "neumunster"
+b = "heide"
+mode = "rail"
+class = "rail"
+km = 45
+cap_source = "DEFAULT"
+verify = true
+notes = "Single track assumed — capacity below default TO VERIFY"
+
+[[edge]]
+id = "rail-heide-husum"
+a = "heide"
+b = "husum"
+mode = "rail"
+class = "rail"
+km = 40
+crossing = "eider"
+via = "Eider rail crossing near Friedrichstadt"
+cap_source = "DEFAULT"
+verify = true
+
+# ---------------------------------------------------------------- red side + IGB crossings (SE of Lübeck — the correct threat geometry)
+
+[[edge]]
+id = "b105-rostock-wismar"
+a = "rostock"
+b = "wismar"
+mode = "road"
+class = "federal"
+route = "B105"
+km = 57
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "b105-wismar-selmsdorf"
+a = "wismar"
+b = "selmsdorf"
+mode = "road"
+class = "federal"
+route = "B105"
+km = 48
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "igb-selmsdorf-lubeck"
+a = "selmsdorf"
+b = "lubeck"
+mode = "road"
+class = "federal"
+route = "B105"
+km = 12
+crossing = "igb"
+cap_source = "DEFAULT"
+notes = "Coastal-axis IGB crossing; peacetime checkpoint Selmsdorf/Schlutup"
+
+[[edge]]
+id = "rd-schwerin-gadebusch"
+a = "schwerin"
+b = "gadebusch"
+mode = "road"
+class = "federal"
+route = "B104"
+km = 24
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "igb-gadebusch-ratzeburg"
+a = "gadebusch"
+b = "ratzeburg"
+mode = "road"
+class = "federal"
+km = 26
+crossing = "igb"
+cap_source = "DEFAULT"
+verify = true
+notes = "Interior IGB axis; exact 1983 crossing status TO VERIFY (many interior crossings closed)"
+
+[[edge]]
+id = "rd-ratzeburg-lubeck"
+a = "ratzeburg"
+b = "lubeck"
+mode = "road"
+class = "federal"
+route = "B207"
+km = 24
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rd-schwerin-wismar"
+a = "schwerin"
+b = "wismar"
+mode = "road"
+class = "federal"
+route = "B106"
+km = 32
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rail-rostock-bad_kleinen"
+a = "rostock"
+b = "bad_kleinen"
+mode = "rail"
+class = "rail"
+km = 55
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "rail-schwerin-bad_kleinen"
+a = "schwerin"
+b = "bad_kleinen"
+mode = "rail"
+class = "rail"
+km = 17
+cap_source = "DEFAULT"
+
+[[edge]]
+id = "igb-rail-bad_kleinen-lubeck"
+a = "bad_kleinen"
+b = "lubeck"
+mode = "rail"
+class = "rail"
+km = 65
+crossing = "igb"
+via = "Herrnburg border crossing"
+cap_source = "DEFAULT"
+verify = true
+
+# ---------------------------------------------------------------- absences: what must NOT exist in Nov 1983
+
+[[absence]]
+name = "Great Belt fixed link"
+would_connect = ["nyborg", "korsor"]
+note = "No bridge/tunnel until 1997 (rail) / 1998 (road). Ferry only. The specimen invented this bridge (critique-profile 2.6)."
+
+[[absence]]
+name = "Fehmarn Belt fixed link"
+would_connect = ["rodby", "puttgarden"]
+note = "Ferry only in period (and for decades after)."
+
+[[absence]]
+name = "Farø bridges"
+would_connect = ["vordingborg", "nykobing_f"]
+allowed = ["storstrom-road", "storstrom-rail"]
+note = "Farø motorway link opened 1985. In Nov 1983 the Storstrøm crossing (1937) is the ONLY fixed link south from Zealand — a real chokepoint; the two allowed edges model it, and no additional parallel fixed link may be added."

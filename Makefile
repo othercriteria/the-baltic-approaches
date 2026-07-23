@@ -22,7 +22,7 @@ FOUNDING_ID = 656ec2ba-b295-4e5d-8712-5e270300dcde
 FOUNDING_DIR = $(HOME)/.claude/projects/-home-dlk-workspace
 OWN_DIR = $(HOME)/.claude/projects/-home-dlk-workspace-the-mission-1986
 
-.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo
+.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas
 
 # One-time per clone: install the pre-commit guard (blocks document
 # binaries and flattened holdings/ paths from the public repo)
@@ -36,6 +36,11 @@ test:
 
 demo:
 	@python3 -m wargame wargame/scenarios/toy-landjut.toml --days 14
+
+# Transport atlas: dataset lint + its tests (atlas/README.md)
+atlas:
+	@python3 -m atlas check
+	@python3 -m pytest tests/test_atlas.py -q
 
 # Fetch the research shelf (reference/pdf/, gitignored; manifest of
 # record is reference/shelf.md)

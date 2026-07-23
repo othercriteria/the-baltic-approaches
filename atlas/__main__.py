@@ -104,7 +104,7 @@ def cmd_critical(atlas, args):
     ]
     print(
         f"\nresearch priority: {len(unsourced)}/{min(args.top, len(ranked))} "
-        f"top edges still GUESS/DEFAULT"
+        f"top edges not yet SOURCED"
     )
     return 0
 

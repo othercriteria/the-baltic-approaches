@@ -341,7 +341,7 @@ class = "motorway"
 route = "E3"
 km = 30
 cap_source = "DEFAULT"
-verify = true
+notes = "Motorway confirmed (Vejlefjordbroen 1980; Sonderjyske Motorvej table) [transport-1983 §4]"
 
 [[edge]]
 id = "rd-vejle-fredericia"
@@ -372,7 +372,7 @@ class = "trunk"
 route = "E3"
 km = 31
 cap_source = "DEFAULT"
-verify = true
+notes = "Motorway Kolding-Christiansfeld only in Nov 1983; the Christiansfeld-Skovby GAP (closed 1984) puts through traffic on the old hovedvej here [transport-1983 §4] — period texture: the corridor's soft spot"
 
 [[edge]]
 id = "e3-haderslev-aabenraa"
@@ -383,30 +383,30 @@ class = "trunk"
 route = "E3"
 km = 30
 cap_source = "DEFAULT"
-verify = true
+notes = "Southern end of the 1983 motorway gap (Skovby); old hovedvej segment [transport-1983 §4]"
 
 [[edge]]
 id = "e3-aabenraa-padborg"
 a = "aabenraa"
 b = "padborg"
 mode = "road"
-class = "trunk"
+class = "motorway"
 route = "E3"
 km = 26
 cap_source = "DEFAULT"
-verify = true
+notes = "Motorway: Rise-Hjarup-Froslev 1978, Skovby-Rise-Hjarup 1981 [transport-1983 §4]"
 
 [[edge]]
 id = "e3-padborg-flensburg"
 a = "padborg"
 b = "flensburg"
 mode = "road"
-class = "trunk"
+class = "motorway"
 route = "E3"
 km = 12
 crossing = "dk_de_border"
 cap_source = "DEFAULT"
-verify = true
+notes = "Froslev/Ellund motorway border crossing; continuous with A7 since 1978 [transport-1983 §4]"
 
 # ---------------------------------------------------------------- Little Belt + Funen
 
@@ -421,8 +421,7 @@ km = 8
 via = "Ny Lillebæltsbro (1970)"
 crossing = "little_belt"
 cap_source = "DEFAULT"
-verify = true
-notes = "1983 E-route designation over the new bridge TO VERIFY (E66?)"
+notes = "E66 CONFIRMED for 1983 (E20 only from the 1992 Danish renumbering) [transport-1983 §1]"
 
 [[edge]]
 id = "lb-old-bridge-road"
@@ -433,7 +432,9 @@ class = "federal"
 km = 7
 via = "old Lillebæltsbro (1935, road+rail)"
 crossing = "little_belt"
-cap_source = "DEFAULT"
+cap_tpd = 3000
+cap_source = "DERIVED:5.6m-carriageway"
+notes = "Narrow 5.6 m road deck shared with pedestrians [transport-1983 §2]"
 
 [[edge]]
 id = "rd-middelfart-odense"
@@ -468,10 +469,9 @@ hours = 1.0
 fixed_hours = 0.8
 via = "Halsskov–Knudshoved road ferry (DSB)"
 crossing = "great_belt"
-cap_tpd = 6000
-cap_source = "GUESS"
-verify = true
-notes = "Loading overhead and daily lift are the CAL-3 research target"
+cap_tpd = 12000
+cap_source = "DERIVED:lane-metres"
+notes = "Crossing ~55-60 min confirmed; 6-ferry peak fleet, vessels 200-390 cars (~1000-1950 lane-m); documented 7,007 car-units/day on 4 ferries (Easter 1985) ~= 35k lane-m/day, fleet max ~50k. cap = 50k lane-m/day x ~0.25 t/lane-m sustained military mixed loading. Military beredskab figure still unfound — CAL-3 queue [transport-1983 §2]"
 
 [[edge]]
 id = "gb-rail-ferry"
@@ -484,9 +484,9 @@ hours = 1.2
 fixed_hours = 1.0
 via = "DSB rail ferry Korsør–Nyborg"
 crossing = "great_belt"
-cap_tpd = 8000
-cap_source = "GUESS"
-verify = true
+cap_tpd = 10000
+cap_source = "DERIVED:track-metres"
+notes = "~1 h crossing; 1980-81 IC ferries (Dronning Ingrid, Prins Joachim, Kronprins Frederik): 4 tracks, ~494 m track, +~200 cars. cap = 3 vessels x ~8 crossings x ~600 t net military [transport-1983 §2]"
 
 # ---------------------------------------------------------------- Zealand + the southern island chain
 
@@ -544,10 +544,9 @@ class = "federal"
 km = 41
 via = "Storstrømsbroen (1937, road+rail); Farø link NOT open until 1985"
 crossing = "storstrom"
-cap_source = "GUESS"
-cap_tpd = 6000
-verify = true
-notes = "Narrow 1937 deck shared with rail — capacity well below federal default"
+cap_source = "DERIVED:5.6m-carriageway"
+cap_tpd = 4000
+notes = "5.6 m carriageway CONFIRMED — the documented bottleneck; sole fixed Zealand exit southward (Faro only 1985) [transport-1983 §2]"
 
 [[edge]]
 id = "rd-nykobing-rodby"
@@ -569,9 +568,9 @@ hours = 1.0
 fixed_hours = 0.7
 via = "Vogelfluglinie ferry (1963)"
 crossing = "fehmarn_belt"
-cap_tpd = 5000
-cap_source = "GUESS"
-verify = true
+cap_tpd = 6000
+cap_source = "DERIVED:cadence"
+notes = "60-min crossing in 1983 (45 min is post-1997); half-hourly cadence; 1983 fleet ~6 vessels, ~156-car class (Karl Carstens only from 1986) [transport-1983 §1-2]"
 
 # ---------------------------------------------------------------- eastern Holstein
 
@@ -586,7 +585,7 @@ km = 29
 via = "Fehmarnsundbrücke (1963)"
 crossing = "fehmarn_sound"
 cap_source = "DEFAULT"
-verify = true
+notes = "Bridge 1963 confirmed; E4 designation confirmed for 1983 (E47 is post-renumbering) [transport-1983 §4]"
 
 [[edge]]
 id = "rd-oldenburg-lubeck"
@@ -597,7 +596,6 @@ class = "trunk"
 route = "B207/E4"
 km = 61
 cap_source = "DEFAULT"
-verify = true
 
 [[edge]]
 id = "rd-kiel-lubeck"
@@ -631,8 +629,7 @@ class = "motorway"
 route = "A7/E3"
 km = 33
 cap_source = "DEFAULT"
-verify = true
-notes = "A7 completion date to the border TO VERIFY (assumed complete by 1983)"
+notes = "A7 continuous to the border since 1978 (last gap Schuby-Tarp) [transport-1983 §4]"
 
 [[edge]]
 id = "a7-schleswig-rendsburg"
@@ -683,10 +680,10 @@ mode = "road"
 class = "federal"
 route = "B76"
 km = 27
-via = "Holtenau high bridge (1972)"
+via = "Levensauer Hochbrücke (1894 road+rail; new road bridge completing 1980-83)"
 crossing = "kiel_canal"
 cap_source = "DEFAULT"
-verify = true
+notes = "CORRECTED from seed: B76 crosses at LEVENSAU, not Holtenau (Holtenau = B503: Olympiabrücke 1972 + 1911 Prinz-Heinrich-Brücke, both standing 1983) [transport-1983 §4]"
 
 [[edge]]
 id = "b76-eckernforde-schleswig"
@@ -727,10 +724,9 @@ class = "federal"
 route = "B5"
 km = 27
 crossing = "eider"
-via = "Eider crossing at Friedrichstadt"
+via = "B5 movable bridge at Friedrichstadt"
 cap_source = "DEFAULT"
-verify = true
-notes = "The specimen's valve complex; exact 1983 bridge/barrage layout TO VERIFY"
+notes = "The specimen's valve complex. Confirmed in service 1983; also NOTE the Eidersperrwerk (1973) carries a public road at the river mouth — a second, minor west-coast crossing not yet edged [transport-1983 §4]"
 
 [[edge]]
 id = "b5-heide-itzehoe"
@@ -751,7 +747,7 @@ class = "trunk"
 route = "A23/B5"
 km = 55
 cap_source = "DEFAULT"
-verify = true
+notes = "A23 open to Itzehoe (1975/81); Halstenbek stretch still surface B5 until 1986; nothing past Itzehoe until 1990 [transport-1983 §4]"
 
 [[edge]]
 id = "b200-flensburg-husum"
@@ -773,9 +769,10 @@ b = "padborg"
 mode = "rail"
 class = "rail"
 km = 92
-via = "via Lunderskov"
-cap_source = "DEFAULT"
-verify = true
+via = "via Lunderskov; SINGLE TRACK south of Vamdrup in 1983"
+cap_tpd = 8000
+cap_source = "DERIVED:single-track"
+notes = "1983 layout: double Fredericia-Vamdrup, single Vamdrup-Padborg (~65 km; doublings 1996/2014). Diesel. The border rail feed is single-track — modern descriptions anachronistic [transport-1983 §3]"
 
 [[edge]]
 id = "rail-padborg-flensburg"
@@ -786,6 +783,7 @@ class = "rail"
 km = 16
 crossing = "dk_de_border"
 cap_source = "DEFAULT"
+notes = "Double track, diesel (electrified only 1996) [transport-1983 §3]"
 
 [[edge]]
 id = "rail-lb-old-bridge"
@@ -861,9 +859,10 @@ class = "rail"
 km = 41
 via = "Storstrømsbroen (1937, road+rail)"
 crossing = "storstrom"
-cap_tpd = 5000
-cap_source = "GUESS"
+cap_tpd = 4000
+cap_source = "DERIVED:single-track"
 verify = true
+notes = "Single rail track on the 1937 bridge (grade B- — re-verify if load-bearing) [transport-1983 §3,§6]"
 
 [[edge]]
 id = "rail-nykobing-rodby"
@@ -872,7 +871,9 @@ b = "rodby"
 mode = "rail"
 class = "rail"
 km = 31
-cap_source = "DEFAULT"
+cap_tpd = 6000
+cap_source = "DERIVED:single-track"
+notes = "Single track (1963, Vogelfluglinie boat trains); diesel [transport-1983 §3]"
 
 [[edge]]
 id = "vogelflug-rail-ferry"
@@ -886,8 +887,8 @@ fixed_hours = 1.0
 via = "Vogelfluglinie rail ferry (1963)"
 crossing = "fehmarn_belt"
 cap_tpd = 4000
-cap_source = "GUESS"
-verify = true
+cap_source = "DERIVED:wagons"
+notes = "~14 rail wagons/crossing class; carried the Hamburg-Kobenhavn through trains [transport-1983 §2]"
 
 [[edge]]
 id = "rail-puttgarden-lubeck"
@@ -896,10 +897,11 @@ b = "lubeck"
 mode = "rail"
 class = "rail"
 km = 85
-via = "Fehmarnsundbrücke (1963)"
+via = "Fehmarnsundbrücke (1963, 1 track + 2 road lanes)"
 crossing = "fehmarn_sound"
-cap_source = "DEFAULT"
-verify = true
+cap_tpd = 6000
+cap_source = "DERIVED:single-track"
+notes = "Predominantly single track Lübeck-Puttgarden; diesel [transport-1983 §3]"
 
 [[edge]]
 id = "rail-hamburg-neumunster"
@@ -966,7 +968,7 @@ class = "rail"
 km = 45
 cap_source = "DEFAULT"
 verify = true
-notes = "Single track assumed — capacity below default TO VERIFY"
+notes = "Marschbahn eastern feeder; single-track status in 1983 still unpinned — round-2 queue [transport-1983 §6]"
 
 [[edge]]
 id = "rail-heide-husum"
@@ -976,9 +978,10 @@ mode = "rail"
 class = "rail"
 km = 40
 crossing = "eider"
-via = "Eider rail crossing near Friedrichstadt"
-cap_source = "DEFAULT"
-verify = true
+via = "single-track swing bridge over the Eider at Friedrichstadt"
+cap_tpd = 6000
+cap_source = "DERIVED:single-track"
+notes = "Marschbahn single-track section at the Eider crossing confirmed; diesel [transport-1983 §3]"
 
 # ---------------------------------------------------------------- red side + IGB crossings (SE of Lübeck — the correct threat geometry)
 
@@ -988,7 +991,7 @@ a = "rostock"
 b = "wismar"
 mode = "road"
 class = "federal"
-route = "B105"
+route = "F105"
 km = 57
 cap_source = "DEFAULT"
 
@@ -998,8 +1001,9 @@ a = "wismar"
 b = "selmsdorf"
 mode = "road"
 class = "federal"
-route = "B105"
+route = "F105"
 km = 48
+notes = "GDR F-numbering in 1983 (B-numbers post-1990); ordinary two-lane Fernverkehrsstrasse; no motorway toward Lübeck existed (A20 post-2000) [transport-1983 §5]"
 cap_source = "DEFAULT"
 
 [[edge]]
@@ -1008,11 +1012,11 @@ a = "selmsdorf"
 b = "lubeck"
 mode = "road"
 class = "federal"
-route = "B105"
+route = "F105/B104"
 km = 12
 crossing = "igb"
 cap_source = "DEFAULT"
-notes = "Coastal-axis IGB crossing; peacetime checkpoint Selmsdorf/Schlutup"
+notes = "GÜST Lübeck-Schlutup/Selmsdorf — the northernmost IGB crossing, OPEN 1983 (reopened 1960): Scandinavia transit + local border traffic. One of only TWO legal crossings in the Lübeck sector [transport-1983 §5]"
 
 [[edge]]
 id = "rd-schwerin-gadebusch"
@@ -1020,21 +1024,10 @@ a = "schwerin"
 b = "gadebusch"
 mode = "road"
 class = "federal"
-route = "B104"
+route = "F104"
 km = 24
 cap_source = "DEFAULT"
-
-[[edge]]
-id = "igb-gadebusch-ratzeburg"
-a = "gadebusch"
-b = "ratzeburg"
-mode = "road"
-class = "federal"
-km = 26
-crossing = "igb"
-cap_source = "DEFAULT"
-verify = true
-notes = "Interior IGB axis; exact 1983 crossing status TO VERIFY (many interior crossings closed)"
+notes = "Dead-ends toward the border in 1983 — see the gadebusch-ratzeburg ABSENCE"
 
 [[edge]]
 id = "rd-ratzeburg-lubeck"
@@ -1052,8 +1045,9 @@ a = "schwerin"
 b = "wismar"
 mode = "road"
 class = "federal"
-route = "B106"
+route = "F106"
 km = 32
+verify = true
 cap_source = "DEFAULT"
 
 [[edge]]
@@ -1064,6 +1058,7 @@ mode = "rail"
 class = "rail"
 km = 55
 cap_source = "DEFAULT"
+notes = "Double track (re-doubled 1973-75), diesel in 1983 (DR electrification 1985-87) [transport-1983 §3]"
 
 [[edge]]
 id = "rail-schwerin-bad_kleinen"
@@ -1083,8 +1078,9 @@ class = "rail"
 km = 65
 crossing = "igb"
 via = "Herrnburg border crossing"
-cap_source = "DEFAULT"
-verify = true
+cap_tpd = 6000
+cap_source = "DERIVED:single-track"
+notes = "SINGLE track (2nd track removed as Soviet reparations), never electrified; interzonal Hamburg-Rostock pair + freight, ~40 min controls at Herrnburg. The Lübeck sector's only rail crossing [transport-1983 §5]"
 
 # ---------------------------------------------------------------- absences: what must NOT exist in Nov 1983
 
@@ -1097,6 +1093,11 @@ note = "No bridge/tunnel until 1997 (rail) / 1998 (road). Ferry only. The specim
 name = "Fehmarn Belt fixed link"
 would_connect = ["rodby", "puttgarden"]
 note = "Ferry only in period (and for decades after)."
+
+[[absence]]
+name = "Gadebusch-Ratzeburg border axis"
+would_connect = ["gadebusch", "ratzeburg"]
+note = "The F104/B208 axis was SEALED and PHYSICALLY INTERRUPTED at the IGB in 1983 — roadbeds do not meet; fence, control strip, and the Ratzeburg lake chain between; reconnected only 12 Nov 1989. Wartime use requires breach engineering (model as a scenario what-if, not an edge) [transport-1983 §5]."
 
 [[absence]]
 name = "Farø bridges"

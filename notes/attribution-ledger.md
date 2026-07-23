@@ -140,6 +140,27 @@ entity index generatable instead of reconstructable.
   would recover the textbook if red presented per the textbook).
   Distillation: planning/draft-zero-findings.md; specimen stays
   non-canonical in scratch/draft-zero/.
+- 2026-07-23 — session fa9b03ec WRAPPED (no compaction boundaries:
+  single entity, fa9b03ec@tip). Span: the genre-craft distillation
+  campaign (The Goal 3-part structure map + this session's own
+  complete read; Phoenix transposition study; goal-likes survey —
+  the operational-Goldratt slot found EMPTY; First Clash apparatus
+  model + negative case, deposited by DK and distilled same day);
+  the 55k sizing brief + narrative-only word-count ruling + 45k/65k
+  marginal analysis; the counter-brief panel (structural + red-
+  interiority; two incumbent concessions recorded); DRAFT ZERO
+  (20 chs, 29,936 words, scratch-tier) with findings distilled to
+  planning/draft-zero-findings.md — the cross-model 30k attractor,
+  DK's four ratified expansion engines, DK's orthogonality
+  observation (payload = method, doctrine = contingent output);
+  shelf batch 8 (VAL-77 + FALA-77 + 1980 appendices + the DIA
+  pamphlet misfiled as CIA — all distilled and integrated; two
+  low-value splats dropped at DK's provenance concern); the
+  Draft-Zero-informed acquisition reassessment. Commit range
+  32d4ed8..(wrap commit), Session-Id trailers throughout.
+  Raw-archive of this session's JSONL falls to the successor or
+  DK: `make raw-archive
+  SESSION=fa9b03ec-2784-4a1e-936f-ce2348848e8d`.
 
 ## Entity index
 
@@ -154,6 +175,7 @@ come from `Session-Id:` trailers plus JSONL boundary timestamps.
 | # | Entity | Boundary type | Dates | Model | Transcript | Commit range | Contribution summary |
 |---|---|---|---|---|---|---|---|
 | 1 | 656ec2ba@tip | tip | 2026-07-20 | Fable 5 | transcripts/2026-07-20-656ec2ba.md | (none in this repo; stub commit made by DK's tooling from its direction) | Premise selection and repo stubbing; see lineage log. Standing ruling: pre-project ideation, materiality to be ruled at wrap — when in doubt, include |
+| 5 | fa9b03ec@tip | tip | 2026-07-23 (wrapped) | Fable 5 | (export after wrap) | 32d4ed8..wrap, Session-Id trailers throughout | The genre-craft base entire (goal-structure-map + goal-read-notes + phoenix-transposition + goal-likes + first-clash); the sizing frame (size-and-shape + marginal analysis + both counter-briefs); Draft Zero and its findings (the 30k attractor; the specimen verdicts on every teed-up ruling; the method-not-doctrine framing of the premise, from DK's observation); shelf batch 8 distilled (the mirror-imaging exhibit, the DIA-pamphlet identification, the 1977 exercise family). Materiality: presumptively material under the row-2 ruling logic (establishes the craft base, the sizing frame, and the specimen Phase 1 outlines from) |
 | 4 | 3845eb93@tip | tip | 2026-07-22 .. 07-23 (wrapped) | Fable 5 | (export after wrap) | dc6ce12..wrap, Session-Id trailers throughout | Campaign 3 entire (v16-v20: the re-baseline verdict, the researched red, the NBC instruments, the meta-claim, the envelope act-break); the 1983 pin brief + ripple; the NBC conceit design and its benches; eleven reference files created or materially extended (advance-rates, november-climate, oob-verification, php-maritime-front, diis-findings, nie-threat-estimates, soviet-operational-art, nuclear-release, chemical-posture + landjut-front/consumption-factors closures); The Goal deposit. Materiality: presumptively material under the row-2 ruling logic (pins the setting year provisionally, locks the NBC conceit, and establishes the calibrated instrument + research base Phase 1 stands on) |
 | 3 | 71ede904@tip | tip | 2026-07-21 .. 07-22 (wrapped) | Fable 5 | transcripts/2026-07-21-71ede904.md | e916093..wrap, Session-Id trailers throughout | Campaign 2 entire (v7-v15 + calibration + the v15 suspension gate); the echelon bake-off machinery and record (hostile review commissioned, two challenger outlines, rulings filed); shelf batches 4-7 (16→56) incl. the CIA pair and Bogason distillations; air-apportionment + Zealand-landing reference notes; both repos to GitHub. Materiality: presumptively material under the row-2 ruling logic (establishes campaign-2 findings, the echelon record, and the research base future sessions operate within) |
 | 2 | 1a9aba32@tip | tip | 2026-07-20 .. 07-21 (wrapped) | Fable 5 | transcripts/2026-07-20-1a9aba32.md | 55ba88f..wrap, Session-Id trailers throughout | Step-0 entire: env; attribution process + holdings/guardrails; shelf (17 docs); bulk survey; wargame campaign 1 (v0-v6, findings log is the span's core record); LANDJUT/echelon/command-device planning; status.md handoff incl. two self-filed unsettles. Ruled material (DK, 2026-07-20): establishes the parameters future agents operate within — include in the review round |

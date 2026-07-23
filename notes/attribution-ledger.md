@@ -108,6 +108,14 @@ entity index generatable instead of reconstructable.
   session's JSONL falls to the successor or DK: `make raw-archive
   SESSION=3845eb93-eb3f-4bec-80f3-a45b03ae5b04`.
 
+- 2026-07-23 — session fa9b03ec (Fable 5) — live. Successor to
+  3845eb93; entered via planning/status.md. First acts: `make archive`
+  run (predecessor's raw-archive confirmed done in the same pass),
+  this line. Opening task per DK: The Goal structure-map
+  distillation (Opus subagents), then repo read-through, personal
+  read of The Goal, Phoenix Project + Goal-likes survey, toward
+  sizing the work at ~55k words.
+
 ## Entity index
 
 One row per entity: `<session-id>@<boundary-n>` or `<session-id>@tip`.

@@ -161,8 +161,8 @@ Andon conversation status.md promises fires then.
 
 ## 8. Purchase-queue additions from the survey (DK tier)
 
-First Clash (Macksey 1985 — the nearest structural cousin;
-commissioned fiction-as-doctrine, chapter-end lesson apparatus);
+~~First Clash~~ (ACQUIRED 2026-07-23 — DK purchase, deposited to
+holdings same day; distillation → reference/first-clash.md);
 The Defense of Hill 781 (McDonough 1988); Red Army (Peters 1989 —
 red-side tonal reference); Duffer's Drift is public-domain (Army
 PDF, no purchase needed). All genre-shelf, not calibration-tier.

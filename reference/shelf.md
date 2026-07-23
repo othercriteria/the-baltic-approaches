@@ -202,6 +202,7 @@ repo so the only road for such files is the holdings repo.
 | Kim/Behr/Spafford, *The Phoenix Project* | PDF deposited 2026-07-20 (DK-directed) as a style example for Goldratt pastiche — the other famous Goal transposition. Flagged in the holdings catalog to pair with a purchased copy per the Dupuy standard |
 | Goldratt & Cox, *The Goal* (30th Anniversary ed., 362 pp) | PDF deposited 2026-07-23 (DK-owned) — **THE structure model**: mentor dialogues, the metrics engine, the didactic register the premise transposes. On the purchase list since Step 0; now held ahead of Phase-1 outlining, exactly when the parts-structure work needs it |
 | Bogason, *NATO and the Baltic Approaches 1949-1989* (De Gruyter 2023) | print copy PURCHASED 2026-07-22; low-quality web scrape deposited same day as placeholder (tables garbled — DK offers page scans on arrival). The remaining authority for the air-apportionment and command-architecture inferences (reference/air-apportionment.md) |
+| Macksey, *First Clash* (CF training-pub ed. B-GL-309-006/FT-001, 228 pp image scan) | PDF deposited 2026-07-23 (DK purchase same day) — the nearest structural cousin (goal-likes.md gap analysis): commissioned fiction-as-doctrine on Cold-War Central-Front terrain, chapter-end lesson apparatus, cast/OOB tables. Study targets: the apparatus conventions (narrative-external doctrine carriage — now sizing-relevant under the narrative-only word-count ruling) and the told-vs-discovered lesson gap |
 
 ## Purchase list (copyrighted; DK's call)
 

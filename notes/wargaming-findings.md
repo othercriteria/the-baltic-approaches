@@ -4,6 +4,59 @@ Running log, newest at top within each session block. The instrument's
 version of imagegen/findings.md from white-buffalo: what the builds
 and runs taught, what they broke, what research they forced.
 
+## 2026-07-23 — v19/v20: the CAL-C threshold + November weather states (session 3845eb93)
+
+**v19 (scenario calibration):** advance_ratio 3.0 → **1.3** — the
+ORALFORE force-ratio THRESHOLD replaces the contested 3:1 gate.
+With v16's bands this completes the CAL-C structure: ratio only
+gates (~1.3); the rate is set by the defense's state (determined
+4 / withdrawal-follow ≤12 / screened 15 / uncovered 50, all
+cited). **v20 (mechanics, default-off; 87 tests green):**
+wx_model="states" — VISUAL/IMC/STORM with storm persistence (the
+24-25 Nov 1981 two-day precedent) and the daylight taper
+(9h26m→7h47m ≈ 0.6%/day), built on the 1961-90 normals
+(november-climate.md); **the visual-day fraction 0.35 is the
+flagged ASSUMPTION pending the RUSSWO table**; weather stays
+theater-wide and symmetric. Legacy model reproduced exactly when
+unset.
+
+**Finding 1 — the air-policy ranking is irreducibly
+calibration-hostage; four defensible calibration states, four
+answers.** The whipsaw, in one table (all-deep-strictly-better
+across the sweep): flat demand (campaigns 1-2) **99-100%** →
+v16 re-tuned posture demand **62%** → v17 researched red timing
+**38%** → v19/v20 honest threshold + weather **66%** (mean CV
+deep 71.7 / split 70.4 / close 65.3; toy point still
+close-tilted 65.6 vs 65.1, now within noise). Mechanism of the
+latest swing: the 1.3 threshold lets red advance more readily →
+deeper LOC stretch → the supply-starvation channel deep fires
+feed on returns. **The standing claim ledger entry is now the
+meta-claim itself: no air-policy ranking at this altitude
+survives contact with the next calibration layer — the argument
+is the deliverable.** (CA-needs-deep is the one robust
+structural survivor: 84-89% across every state.)
+
+**Finding 2 — the W curve is non-monotone again, with an
+interior optimum.** v19/v20 toy point (advocacy): W=4 → 62.7 CV,
+W=2 → 87.5, **W=1 → 93.3**, W=0 → 76.3 (all hold 2.00). Against
+a 1.3-threshold red, standing forward from hour one is the WORST
+row (~25-30 CV worse than arriving a day or two late behind the
+screen), but zero warning overshoots (the screen days at band
+15/50 concede too much, FEBA 142). The v0 founding dilemma in
+its sharpest form yet: the militarily-optimal arrival is
+politically forbidden in BOTH directions — Vorneverteidigung
+forbids the W=1-2 sweet spot, and no government can choose W=0.
+Same standing caveats (screen parameters declared; toy CVs).
+
+**Finding 3 — the envelope is STABLE under recalibration:**
+red-exit day 13-14 in 30/30 runs across every policy and W value
+in the v19/v20 state (lag ~+14d at day 21). Its new role per
+DK's Andon ruling (2026-07-23, planning/nbc-conceit.md §5) is
+act-structure: the day the third act starts living under audible
+escalation pressure — and that day barely moves under any
+calibration we can throw at it. A robust act break, found by an
+instrument.
+
 ## 2026-07-23 — the escalation counter-brief (scratch probe; no mechanics; NOT canon)
 
 DK asked whether LATE escalation (the day-13 temptation the

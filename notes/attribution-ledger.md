@@ -79,6 +79,14 @@ entity index generatable instead of reconstructable.
   session's seven-criteria brief; ripple applied same day (period
   line ≤1983, GE→DA October-1983 change of command, incoming
   COMLANDJUT Danish). Record in planning/setting-time.md.
+- 2026-07-22 — NBC-conceit ruling (DK directive, in-session to
+  3845eb93): no NBC use in-book; design locked same day, chemical
+  leg amended per DK + 1967 facsimile re-read. Record in
+  planning/nbc-conceit.md.
+- 2026-07-23 — envelope Andon ruling (DK, in-session to 3845eb93):
+  the v18 red-side envelope exit is canon-compatible — the
+  envelope re-anchored as act-structure instrument, not validity
+  gate; conceit HOLDS. Record in planning/nbc-conceit.md §5.
 
 ## Entity index
 

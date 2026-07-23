@@ -41,12 +41,15 @@ w_max_kmd = 12.0       # max withdrawal, km/day — consistent with the
 march_kmd = 25.0       # follow-up cap on withdrawal pursuit only (never
                        # binds at w_max 12); the COLLAPSE rate moved to
                        # uncovered_kmd/screen_kmd below (v16)
-advance_ratio = 3.0    # ratio gate for pressure advance. CAL-C: ORALFORE
-                       # says the real threshold is ~1.1-1.3 and the rate
-                       # is set by resistance intensity, not ratio — the
-                       # full ladder mechanic is queued (v17+); the gate
-                       # stays at 3.0 for baseline continuity, DECLARED
-                       # not calibrated
+advance_ratio = 1.3    # v19 (CAL-C): the ORALFORE force-ratio THRESHOLD
+                       # (~1.1-1.3 for any sustained advance) replaces
+                       # the contested 3:1 gate. The resistance ladder's
+                       # rungs now all exist and are cited: determined
+                       # opposition = pressure_kmd 4 (above threshold),
+                       # delaying/withdrawal follow-up <= w_max 12,
+                       # screened 15, uncovered/admin 50. Rate is set by
+                       # the defense's state, ratio only gates — the
+                       # ORALFORE structure (advance-rates.md §1, CAL-C)
 pressure_kmd = 4.0     # advance against determined opposition — KEEP,
                        # now CITED (CAL-B): ORALFORE intense 2.80 /
                        # moderate 10.10 km/day normalized; XII Corps
@@ -112,9 +115,26 @@ deep_delay_cap_dpd = 0.6         # ...capped: interdiction cannot STOP the
 close_sat_cv = 9.0               # close support saturates (diminishing
                                  # returns) — placeholder ceiling
 
-# Weather gate on air (November Baltic PLACEHOLDER pending real
-# climatology; planning/setting-time.md). Seeded: meta.seed.
-wx_standdown_prob = 0.25   # fraction of days essentially stood down
+# Weather gate on air — v20: the three-state November model built
+# on the 1961-90 normals (reference/november-climate.md): VISUAL /
+# IMC / STORM with storm persistence, plus the daylight taper
+# (9h26m -> 7h47m across the month). State frequencies carry the
+# documented SHAPE (8-10 fog days, 13-14 heavy-overcast days, ~1
+# multi-day storm climatologically ordinary — 24-25 Nov 1981
+# precedent); **the visual-day fraction 0.35 is the flagged
+# ASSUMPTION** pending the RUSSWO-type ceiling/visibility table
+# (climate note, open item 1). Weather is theater-wide and
+# SYMMETRIC (gates red's air too — the symmetry clause). Legacy
+# params kept below for the frozen baseline's reproduction.
+wx_model = "states"
+wx_p_visual = 0.35             # ASSUMPTION (note: "well under half")
+wx_p_storm = 0.06              # ~1-2 storm entries per month
+wx_storm_persist = 2           # 1981 precedent: two-day event
+wx_visual = 1.0
+wx_imc = 0.35                  # degraded, not grounded (loft/radar/low-level)
+wx_storm = 0.05
+wx_daylight_taper_per_day = 0.006  # computed: (1 - 7h47m/9h26m)/29
+wx_standdown_prob = 0.25   # legacy (unused under wx_model="states")
 wx_standdown_factor = 0.15
 wx_min = 0.5
 wx_max = 1.0

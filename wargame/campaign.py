@@ -365,7 +365,7 @@ class Campaign:
         self._corps_standing = dict.fromkeys(state, 0)
         self._in_transit = []  # (arrive_day, axis_name, battalion)
         for day in range(1, days + 1):
-            wx = self._weather(rng)  # theater-wide, one draw per day
+            wx = self._weather(rng, day)  # theater-wide, one draw per day
             # v10: the amphib package moves (releases arrive, commit
             # spends), then blue's graded credibility updates, then
             # the theater's insurance follows the credibility.
@@ -1245,11 +1245,45 @@ class Campaign:
             return bridge - st.feba_km
         return adv
 
-    def _weather(self, rng):
-        """Daily air-weather factor. November-Baltic PLACEHOLDER
-        (stand-down probability + degraded range) pending real
-        climatology; see planning/setting-time.md."""
+    def _weather(self, rng, day=1):
+        """Daily air-weather factor.
+
+        wx_model="states" (v20): the November three-state model from
+        reference/november-climate.md — VISUAL / IMC / STORM with
+        storm persistence, times a daylight taper (9h26m -> 7h47m
+        across the month, ~0.6%/day of sortie capacity). State
+        frequencies are the documented normals' SHAPE; the
+        visual-day fraction itself is a flagged ASSUMPTION pending
+        the RUSSWO-type ceiling/visibility table (open item 1
+        there). Weather is theater-wide and symmetric — it gates
+        blue's air and red's alike (the symmetry clause).
+
+        Default (wx_model unset): the legacy v2 placeholder
+        (stand-down probability + uniform band), reproduced exactly.
+        """
         p = self.params
+        if p.get("wx_model") == "states":
+            left = getattr(self, "_wx_left", 0)
+            if left > 0:
+                self._wx_left = left - 1
+            else:
+                r = rng.random()
+                if r < p.get("wx_p_storm", 0.0):
+                    self._wx_state = "storm"
+                    self._wx_left = int(p.get("wx_storm_persist", 2)) - 1
+                elif r < p.get("wx_p_storm", 0.0) + p.get("wx_p_visual", 0.35):
+                    self._wx_state = "visual"
+                    self._wx_left = 0
+                else:
+                    self._wx_state = "imc"
+                    self._wx_left = 0
+            base = {
+                "visual": p.get("wx_visual", 1.0),
+                "imc": p.get("wx_imc", 0.35),
+                "storm": p.get("wx_storm", 0.05),
+            }[self._wx_state]
+            taper = max(1.0 - p.get("wx_daylight_taper_per_day", 0.0) * (day - 1), 0.0)
+            return base * taper
         prob = p.get("wx_standdown_prob", 0.0)
         if prob <= 0:
             return 1.0
@@ -1402,9 +1436,7 @@ class Campaign:
                 pause=pause,
                 deep_frac=round(getattr(self, "deep_frac_today", 0.0), 3),
                 plan_lag=(
-                    round(day - st.feba_km / st.plan_kmd, 1)
-                    if st.plan_kmd
-                    else 0.0
+                    round(day - st.feba_km / st.plan_kmd, 1) if st.plan_kmd else 0.0
                 ),
                 air_naval=round(naval, 1),
                 zeal_c=round(getattr(self, "zeal_c", 0.0), 2),

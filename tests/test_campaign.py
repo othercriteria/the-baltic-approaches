@@ -1356,3 +1356,40 @@ def test_envelope_inside_when_disabled_and_no_fall():
     camp, state, _ = run(days=6)
     env = camp.conceit_envelope(state)
     assert env["inside"]  # toy-landjut has no plan_kmd/threshold; no fall by day 6
+
+
+# -- v20: November weather states ------------------------------------
+
+
+def test_wx_legacy_reproduced_when_model_unset():
+    a, _, _ = run(deep=0.5, wx=True)
+    b, _, _ = run(deep=0.5, wx=True)
+    assert [e.wx for e in a.logs] == [e.wx for e in b.logs]
+
+
+def test_wx_states_all_visual_and_taper():
+    data, axes, _ = load_scenario(SCEN)
+    p = data["params"]
+    p.update(
+        wx_model="states", wx_p_storm=0.0, wx_p_visual=1.0, wx_visual=1.0,
+        wx_daylight_taper_per_day=0.006, ca_enabled=False,
+    )
+    camp = Campaign(axes=axes, params=p, seed=7)
+    camp.run(10)
+    by_day = {}
+    for e in camp.logs:
+        by_day[e.day] = e.wx
+    assert by_day[1] == 1.0
+    assert by_day[10] == round(1.0 - 0.006 * 9, 2)
+
+
+def test_wx_storm_persists():
+    data, axes, _ = load_scenario(SCEN)
+    p = data["params"]
+    p.update(
+        wx_model="states", wx_p_storm=1.0, wx_storm=0.05,
+        wx_storm_persist=3, wx_daylight_taper_per_day=0.0, ca_enabled=False,
+    )
+    camp = Campaign(axes=axes, params=p, seed=7)
+    camp.run(6)
+    assert all(e.wx == 0.05 for e in camp.logs)  # permanent storm chain

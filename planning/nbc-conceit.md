@@ -205,6 +205,23 @@ escalations. If a re-scoped scenario STILL exits the envelope,
 that is an Andon Cord conversation with DK, not a drafting
 decision.
 
+**ANDON PULLED AND ANSWERED (2026-07-22/23).** v18 measured the
+envelope and the canonical corridor exits on RED's side day
+~12-13 in every run (blue never exits) — findings log, v18 entry.
+The counter-brief probe then showed the exit is pressure without
+product: a maximally generous day-13 strike buys red +16-30 km,
+zero axes, ~90% post-strike pause days — red's own staff can
+brief that the door opens onto nothing (findings log,
+2026-07-23). **DK ruling (2026-07-23): the conceit HOLDS; the
+envelope is hereby re-anchored as an ACT-STRUCTURE instrument,
+not a validity gate** — the red-exit day marks where the book's
+third act begins living under audible escalation pressure (the
+door holds; the knocking gets louder), and red's week-3
+staff-argument scene (the strikes requested, the refusal or
+silence returned) is red's half of the one earned scene. The
+escape clause above remains for genuinely new corridor shapes,
+but the day-13 red exit is now canon-compatible, not a breach.
+
 ## 6. Consequences
 
 - **Instrument:** NBC is never simulated as fires. Two cheap

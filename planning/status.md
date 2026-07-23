@@ -69,12 +69,21 @@ finding).*
   G-3's air question. v18 (same day): NBC conceit instruments in
   (plan_lag norm-shortfall + conceit_envelope) — and the
   canonical corridor exits the envelope on RED's side day ~12-13
-  in 30/30 runs (blue never exits): the third week runs outside
-  red's declared patience envelope. FLAGGED FOR DK RULING (the
-  nbc-conceit §5 Andon-Cord clause): validity failure to
-  re-scope, or the act-three ambient-dread structure working as
-  designed?** Still queued: CAL-C advance ladder, weather states
-  (RUSSWO-gated), Jonah/critique-profile items. The two staged
+  in 30/30 runs (blue never exits). ~~FLAGGED FOR DK RULING~~ →
+  **RULED 2026-07-23 (Andon answered): the conceit HOLDS; the
+  envelope is an act-structure instrument** (the counter-brief
+  probe showed the exit is pressure without product: a maximally
+  generous day-13 strike buys +16-30 km, zero axes, ~90%
+  post-strike pause days). v19 (CAL-C threshold 1.3) + v20
+  (November weather states, visual fraction = flagged ASSUMPTION)
+  same day: the air-policy ranking whipsaws a fourth time
+  (99-100% → 62% → 38% → 66%) — the standing claim is now the
+  META-claim: no ranking at this altitude survives the next
+  calibration layer; the argument is the deliverable. The W curve
+  has an interior optimum (W=1-2 best, forbidden from both
+  directions). Envelope act-break STABLE (day 13-14) under all
+  recalibration.** Still queued: RUSSWO table (DK browser),
+  Jonah/critique-profile items, Phase-1 proper. The two staged
   questions are now four: what is the goal / what does the enemy
   think it is / what does the enemy think WE think it is / and
   whose consumption model is the argument standing on.

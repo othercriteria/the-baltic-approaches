@@ -201,6 +201,17 @@ entity index generatable instead of reconstructable.
   presence alone; choice of next move (more planning/research/
   wargaming vs. edits on draft zero vs. fresh non-blind draft one)
   delegated to the session.
+- 2026-07-23 — protagonist ruling (DK, in-session to eb2fcb4e,
+  on the blind matrix judging + the §1.8 brief): **protagonist
+  nationality DANISH** (voice close-third past, the coupled half,
+  stands as briefed). Same message, three allocation-sheet §5
+  rulings: **ch. 19a "The Pocket" APPROVED**; **ch. 16 political
+  ledger COUPLED** (the capitals extract a real price; the
+  counterstroke one formation thinner, feeding F5); **Marei-calls
+  perimeter CONFIRMED** (in-person and remembered scenes outside
+  the ruling; live call/letter scenes stay banned; narrated calls
+  allowed). Records: planning/matrix-judging.md §5,
+  planning/allocation-sheet.md §5, status.md ripple.
 
 ## Entity index
 

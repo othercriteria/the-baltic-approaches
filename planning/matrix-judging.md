@@ -179,3 +179,33 @@ but bounded: the friction variant survives with the family behind
 the Little Belt (mobilization traffic, the Belt bridge, ferry
 queues are the Danish family's war), and the German Kreis
 geometry stays in the book through the ensemble that owns it.
+
+## 5. RULED (DK, in-session, 2026-07-23)
+
+**Option (a): protagonist DANISH; close-third past stands.**
+Provisional working identity per the matrix's minimal-diff cell:
+Oberstløjtnant Niels Holt, family in Fredericia behind the Little
+Belt (name and family details are outline decisions, not yet
+canon). Ripple owed to the outline, not to be lost:
+
+- B-plot redesign per the option's stated cost: the German Kreis
+  geometry (the hold order pricing a home street, Column 217, the
+  ch. 16 overlay, 19a's school) moves to a named ensemble carrier
+  — the natural owner is Roloff or Lammers (a German staff
+  officer whose family IS in the annex), preserving the specimen's
+  E45-personalized discovery at one remove while Holt's stake
+  stays on the ledger's buy side.
+- The Rahn relationship redrawn as the judged cells render it:
+  the allied student, the Führungsakademie year, the
+  occupation-memory charge carried in the unsaid (the DA-third
+  cell's free-indirect restraint is the register model).
+- The critique-profile hardware note gains force: the Great Belt
+  FERRY (no bridge in 1983) is now on the protagonist's own
+  national board — the Zealand brigades' crossing in chs. 15–16
+  becomes Danish-machinery drama the corps' Danish G-3 reads
+  fluently.
+- Note for the deviations/verification pass: with COMLANDJUT
+  Danish (Hvidt) AND the G-3 Danish, check the 50/50 staff
+  balance convention (counterposing rule gave the CoS as German
+  Witzel — who must now actually appear; see critique-profile §3
+  on his absence).

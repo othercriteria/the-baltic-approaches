@@ -86,8 +86,12 @@ profile.*
   Oberstleutnant-equivalent, one year in post; arc = discovering
   the G-3's questions need the G-2's and G-4's answers. Corps =
   composite binational staff, working language English, 95-110 km
-  from the war. Open: nationality (pure voice decision), exact
-  post. Same doc.
+  from the war. **Nationality RULED DANISH 2026-07-23** (DK, on
+  the blind matrix judging — planning/matrix-judging.md §5;
+  working identity Niels Holt, provisional). Still open: exact
+  post/rank grade (critique-profile §3 flags Oberstleutnant may
+  be light for the principal corps G-3 — verify or make him the
+  deputy who inherits the chair).
 - **Command device (lean):** October change of command — new
   commander of the other nation, three weeks in post, missed the
   autumn exercise. Deviations register opened
@@ -306,16 +310,14 @@ should attack before drafting:
    systemic; nationality may flip; edits inherit the specimen's
    DNA at its seams). Genre-craft base: goal-structure-map,
    goal-read-notes, phoenix-transposition, goal-likes, first-clash.
-3. The coupled character/setting decision: ~~year x commander
-   nationality x succession direction~~ (provisionally set
-   2026-07-22: 1983, Danish incoming, GE→DA) x **protagonist
-   nationality** (still open — FULLY TEED UP for DK: §1.8's
-   argued German brief vs the six-judge blind sweep for Danish;
-   options + confound analysis in planning/matrix-judging.md §3–4;
-   the judging session recommends Danish with a symmetric re-test
-   as fallback. Voice: close-third past effectively settled —
-   structural necessity + judge trust — with imported techniques
-   as outline requirements).
+3. ~~The coupled character/setting decision~~ **FULLY RESOLVED
+   2026-07-23 (DK ruling, in-session to eb2fcb4e): protagonist
+   DANISH; voice close-third past.** Ripple + B-plot redesign
+   notes in planning/matrix-judging.md §5 (working identity
+   Oberstløjtnant Niels Holt, provisional; German Kreis geometry
+   moves to an ensemble carrier; Witzel must appear). Same ruling
+   batch: 19a APPROVED, ch. 16 concession COUPLED, Marei
+   perimeter CONFIRMED (allocation-sheet §5).
 4. Calibration research pass (blocking model work, not writing):
    ~~FM 101-10-1 consumption extraction~~ (done 2026-07-21 →
    reference/consumption-factors.md, CAL-1..4; Vol-1 TOE strengths

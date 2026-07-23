@@ -133,6 +133,14 @@ Ceiling check: full queue = ~55.8k. Nothing above 56k is planned.
 
 ## 5. Design questions surfaced for DK (not drafting decisions)
 
+*RULED 2026-07-23 (DK, in-session to eb2fcb4e): Q1 APPROVED
+(19a stays); Q2 COUPLED version (the extracted concession is
+real; counterstroke one formation thinner, feeding F5); Q3 still
+deferred to outline per the sheet; Q4 perimeter CONFIRMED
+(in-person/remembered scenes outside the calls ruling). Same
+message: protagonist DANISH — 19a's and ch. 5/7/16's personal-
+geometry beats re-anchor per matrix-judging.md §5.*
+
 1. **The pocket chapter (19a/F6)**: it sends organized combat into
    the evacuated Kreis — the B-plot geometry at real stakes. Does
    this stay inside victory-scoping (the corps' own reach, no

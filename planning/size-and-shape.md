@@ -30,6 +30,17 @@ this brief should get a fresh-context counter-brief before canon
   "aligned with your choice so far" — read as provisional
   endorsement of option A (3-part / ~20-chapter / pre-war
   overture), not a canon ruling; the counter-brief is still owed.
+- **Evidence for the boundary rule (same day):** the First Clash
+  distillation (reference/first-clash.md) measured the model:
+  ~40–50% of that book's page count is narrative-external
+  apparatus and it works — facts-carriage (tables, timestamped
+  maps, facsimile staff forms, the Cast) is proven safe and
+  authority-enhancing; teaching-carriage (the chapter-end
+  "Lessons Learned" leaves) is proven inert. Adopted diagnostic:
+  anywhere a draft wants a lessons box, the preceding scene
+  under-delivered. Bonus finding: the apparatus doubled as the
+  book's continuity system — our ledgers (OOB, timeline,
+  geography) can BE the annexes.
 
 ## 1. The arithmetic that frames everything
 

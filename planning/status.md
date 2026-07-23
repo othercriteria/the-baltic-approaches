@@ -13,8 +13,11 @@ synthesis), notes/goal-read-notes.md (the session's own full read:
 the reader-ahead mechanism, prose-floor finding, sizing math),
 reference/phoenix-transposition.md (the transposition case study),
 reference/goal-likes.md (the genre; iteration engines; the
-operational-level slot is EMPTY — gap analysis). **The 55k sizing
-brief is filed: planning/size-and-shape.md** (three shape options
+operational-level slot is EMPTY — gap analysis),
+reference/first-clash.md (Macksey purchased + deposited by DK
+2026-07-23 — the apparatus model: ~40-50% narrative-external
+carriage proven; and the negative case: told-lessons are inert).
+**The 55k sizing brief is filed: planning/size-and-shape.md** (three shape options
 forced, lean = 3-part/20-chapter with pre-war exercise overture;
 register lean seminar-overt-conditional; unsettle #2 proposed
 answered-in-planning, test in outline). Next major phase: Phase-1

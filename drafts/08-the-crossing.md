@@ -21,11 +21,26 @@ second battalion of a brigade, self-propelled guns under
 netting, bridging sections at walking pace, fuel trucks —
 each vehicle paying its toll of eleven to thirteen seconds of
 bridge and running north into the gray. Northbound, on the
-verge, waiting: a recovered tank on a transporter, two
-ambulances, empty civil buses going back for tomorrow's
-columns. And between the serials, on the bridge itself,
+verge, waiting their windows: a recovered tank on a
+transporter, two ambulances, empty civil buses going back for
+tomorrow's columns. Down at the control point the movement
+lieutenant worked his signal lamp and his clipboard in a
+rhythm that had visibly long since stopped being conscious —
+serial called, serial crossing, serial gone, pencil stroke —
+and Hvidt watched the whole circulation the way a doctor
+watches a vein, without comment, for the better part of an
+hour, and Holt stood beside him and got wet and understood
+nothing until the nothing itself began to shout.
+
+Because between the serials, on the bridge, there was
 nothing. Gaps. Eleven seconds of plank, then four hundred
-meters of wet air, then eleven more seconds of plank.
+meters of wet air, then eleven more seconds of plank. The
+serials arrived at the interval their march tables
+prescribed, and the march tables had been computed against
+readiness schedules, and the readiness schedules against the
+depot clock, and none of those documents had ever been asked
+what the bridge could drink. The convoy discipline was
+perfect. Every gap was somebody's compliance.
 
 "Tell me what I am looking at," Hvidt said.
 
@@ -62,10 +77,28 @@ clock — who serves the crossing?"
 
 "Nobody, Herr General."
 
-"Nobody. That is the obscenity of it, and it took me a week
-to see, and I commanded a brigade over this river in an
-exercise in 1974." He turned up his collar. "Come. We are
-going to go and be unreasonable."
+"Nobody. Every stage has an owner and the chain has none.
+The plan wrote the division's arrival as a sum — mobilize,
+issue, march, cross, occupy — as if the stages were fields
+in a form. They are not a sum. They are a chain, and the
+chain moves at the pace of its narrowest link, and the
+narrowest link is that bridge, and the bridge has no
+colonel." He said it without heat, which had already become
+the thing the staff found most alarming about him. "I have
+been asking this headquarters for a week who owns each
+number. I have been asking one number short. Somebody must
+own the chain itself — the whole argument, mobilization to
+battle position — and be judged on nothing else. Not the
+depots' pride. Not the march tables' elegance. Vehicles
+north per day, and the emptiness of that bridge his
+personal enemy. That is a new job, Herr Oberstløjtnant. It
+did not exist this morning."
+
+"And it is mine by close of business," Holt said.
+
+"It is yours now. The paper can follow us home." He turned
+up his collar. "Come. We are going to go and be
+unreasonable."
 
 ---
 
@@ -150,9 +183,26 @@ It survived being said plainly.
 
 The number responded on the fifteenth. Passage through the
 complex rose forty percent day over day; the staging queues
-at Schwabstedt halved; the Danish division's closing state,
-which had crawled for six days, moved — for the first time
-since the clock started, faster than the revised projection.
+at Schwabstedt halved; the rail bridge at Sorgbrück, which
+had been passing ammunition trains and nothing else, began
+passing tracked vehicles on flatcars in the intervals
+between them, because Lammers had sat down with the loading
+tables himself and found the intervals, and the Danish
+division's closing state, which had crawled for six days,
+moved — for the first time since the clock started, faster
+than the revised projection.
+
+None of it was new capacity. That was the part Holt kept
+turning over. No new bridge had been built, no road
+improved, no hour added to the day. The corps had simply
+stopped spending the crossing's seconds on the private
+green boards of six subordinate schedules, and the seconds,
+gathered up, were worth a day of a division. The abstraction
+had grown hands. He had read the theory of it at the
+Führungsakademie in somebody's lecture on the Schwerpunkt
+and nodded like everyone else; nobody had told him it would
+feel like finding money in the street.
+
 Roloff plotted scheduled against actual on the wall in two
 inks, and for one day the actual crossed to the good side of
 the scheduled, and half the night shift found an excuse to

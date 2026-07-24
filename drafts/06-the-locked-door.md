@@ -53,17 +53,38 @@ faster timetable. The quick variant exists in his doctrine —
 we have read it for twenty years: the strikes come with the
 first echelon, the war is over before mobilization matters.
 He declined it. That is a decision with a date on it,
-gentlemen, taken above him, before the eighth. Point two: his
-fires are careful in a pattern. The canal locks are untouched
-on the fifth day. The port machinery at Kiel and Flensburg —
+gentlemen, taken above him, before the eighth."
+
+"Or a decision he has not yet needed," Lammers said. "You
+are reading a choice. It could be a sequence. The quick
+variant held in reserve for the day the slow one
+disappoints."
+
+"It could. Hold the objection; my second point bears on it.
+His fires are careful in a pattern. The canal locks are
+untouched on the fifth day — a man who takes the stairs when
+he owns the lift is telling you something about the
+building. The port machinery at Kiel and Flensburg:
 untouched, while the rail approaches to both are cratered.
 Bridges: dropped at the approach spans, where engineers
 repair in days, not at the piers, where they repair in
 months. Add it up. That is not mercy; it is a shop kept
 ready for a new owner. He is fighting for working
 infrastructure, and the weapons in Kjeldsen's question
-poison the shop. The restraint is not a policy he holds. It
-is a consequence of what his operation is for."
+poison the shop for a generation. Now, Dieter, your
+sequence: a man holding the quick variant in reserve for
+disappointment does not invest five days of careful gunnery
+in a shop he is prepared to burn. The care is capital. Men
+abandon policies. They are very slow to abandon capital."
+
+"Unless the disappointment is large enough," Lammers said.
+
+"Unless it is large enough," Aakjær agreed, without
+discomfort. "I am describing his ledger, not his soul. The
+readings are consistent through the fifth day. I will report
+the morning they stop being consistent, and that morning,
+Herr General, will be worth more than everything else I
+produce this month."
 
 "Then the answer to my Tuesday question," Kjeldsen said, "is
 bookkeeping."
@@ -107,6 +128,24 @@ defense. We would be spending belief, ours and the
 capitals', at the exact hour we needed it most. The folder's
 usefulness is that it exists and is shut. We are defending
 three governments from their own decision tree."
+
+"A practical question," Kjeldsen said, "from the trade that
+would be asked to deliver any of it. Does the hour we are
+spending change anything at my desk? Because the corps'
+fire-support requests transit the same teleprinters as
+everything else, and if some staff officer at any rung of
+that ladder starts reading our conventional bids for
+special-weapons shadows — pre-planned fires near the
+folder's old target boxes, that sort of thing — then the
+shadow-reading itself becomes traffic, and traffic is
+behavior, and the other side reads behavior. I have seen an
+alert measure invented out of three coincidences before.
+By us, about them. In 1979 exercise season."
+
+"The question is why the door gets locked," Hvidt said.
+"The answer is no. Nothing changes at any desk. That is the
+entire instruction, and its whole value is in being
+boring."
 
 "Both trees agree, then," Hvidt said. "Two conclusions." He
 held up one finger. "His restraint is rented, and the rent

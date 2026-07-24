@@ -66,7 +66,24 @@ rule: the human diagnoses; the deficits are arithmetic, not
 diagnosis); (2) the thickening campaign — row-by-row against
 outline §5's scene lists + the four-agent beat inventories
 (session 52662a0d's transcript), reserve queue live; (3) the
-instrument-roster pass over DRAFT ONE (not the specimen).*
+instrument-roster pass over DRAFT ONE (not the specimen).
+UPDATE 2026-07-25 (52662a0d post-compaction): granular-review
+protocol running — DK reads frozen `draft-one` tag, findings →
+notes/dk-read-log.md (7 batches processed through ch. 6; new
+standing rules: scene staging place/hour/third-party;
+speech-splitting with room-beats; no narrator foreclosure of
+postwar contact; period-vocabulary Ngram checks; no accidental
+clairvoyance in round durations). Full-manuscript re-read done
+in-context, then the length campaign resumed with rule
+extrapolation folded in: stubborn tier CLOSED (18=2,412 ✓,
+19=2,246, 19a=2,373) and the big mid-book residuals worked
+(12=2,958, 9=3,026, 8=2,627, 11=2,234). Narrative total
+**48.1k** (−4.7% of 50.5k plan). Remaining deficits, largest
+first: 15 (−371), 17 (−334), 13 (−329), 10 (−297), 7 (−277),
+16 (−253), 14 (−263), 6 (−174), small residue chs. 1–5.
+19/19a renumbering: DEFERRED to assembly (DK asked; ruling in
+read-log — frozen-tag citations must stay stable during the
+read). Tic scrub still AFTER length, expansion diffs first.*
 **PHASE 1 IS RUNNING (2026-07-23, session 3340b8fd):**
 planning/phase1-independent-take.md (the pre-specimen independent
 derivation DK asked for + reconciliation: the specimen ratified by

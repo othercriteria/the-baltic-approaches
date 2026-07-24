@@ -480,7 +480,16 @@ Bjelke/Kuragin roughening, CENTAG plant (synthesis §5); (3)
 line pass over the polish list; (4) next blind panel reads the
 PDF (not markdown corpus — glob-order lesson), front matter in
 scope. Successor owes: raw-archive for 3340b8fd (standing) and
-for this session at its end.
+for this session at its end. SUCCESSOR METHOD NOTE (this
+entity's strongest process finding): the full-manuscript
+re-read performed immediately after the last compaction was
+the highest-leverage act of the arc — every cross-chapter
+expansion site, callback payoff (Rylski's diesel line, the
+missing-third, the plywood sentence), and consistency catch
+descended from having the whole text fresh in one context.
+Do the re-read FIRST, before deep work; budget ~60k tokens
+for it; it converts the summary-seeded state into a working
+one.
 
 **2026-07-25 rulings + state (session 52662a0d):** blind-panel
 round 1 complete (notes/blind-reads/); DK ruled: voice/tic

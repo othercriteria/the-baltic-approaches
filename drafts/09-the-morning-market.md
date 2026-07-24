@@ -245,6 +245,27 @@ between two doctrines, morning by morning, at a market?"
 also at the market, and they bid every morning, and they
 have never once failed to make their price."
 
+Hvidt took that without a flicker, and then did the thing
+Holt was learning to watch for: he bought the criticism
+whole and asked for the invoice. "Your counter-battery
+requirement. Not the wish — the requirement. What does one
+hour of suppressed enemy artillery buy you, in your own
+figures, on your own frontage?"
+
+"One hour of suppression on his division artillery groups,"
+Loheide said, without consulting anything, because he had
+plainly costed it lying awake, "and my belts trade at the
+manual's rate instead of his. My infantry loss rate drops
+by two-thirds for the hour and for perhaps two hours after,
+while he re-registers. In the currency your staff has
+taught this corps: an hour of his guns' silence is worth
+three hours of my men's lives. I have never been able to
+buy it at that price, Herr General. The market does not
+list it."
+
+"It will list it," Hvidt said. "Whether it fills the order
+is the campaign's question, but by God it will list it."
+
 They drove back west into a low red evening, twenty
 kilometers of it in silence, past a crossroads where
 military police were passing a civil column eastward —

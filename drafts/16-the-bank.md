@@ -28,8 +28,9 @@ currency, patiently, like a catechism: the corps is not
 declining combat; it is scheduling it. And to Holt, at
 the end of one such evening, signing the day's last
 reply: "The wall prices everything except what the
-commander pays for keeping it. There is no instrument
-for that column. There is only the date."
+commander pays for keeping it. No instrument carries
+that column. It carries a date, and I intend to keep
+the date."
 
 The date held. The capitals did not.
 

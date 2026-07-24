@@ -158,6 +158,21 @@ tag text. This file is append-only in practice.*
   narrator could not; (b) the tell-license is scarce — spend it
   at decision points like this one, not habitually]
 
+- 2026-07-26, batch 9 (ch. 7): "orders with names in both
+  columns... built out loud" — good section, but the referent is
+  underspecified (Roloff's sheets? the Friedrichstadt captain's
+  log? the general idea?); if the open-endedness is not
+  intentional, make definite with a little hand-holding.
+  [MECHANICAL — applied: the referent was the captain's log
+  (nearest, concrete, and the discipline's true origin); recast
+  so the log is named, the columns are glossed (soldiers' hours
+  against families' days), and "an owner of each column in the
+  room" now explains the scene's cast — which also strengthens
+  ch. 8's callback to the practice. Standing note: when a
+  coinage refers back to an earlier artifact, name the artifact
+  at the coinage's first reuse — the reader's index is smaller
+  than the author's]
+
 - 2026-07-25, process (numbering): DK asked whether to rectify
   19/19a numbering now or at assembly. Recommended and adopted:
   assembly time — the frozen-tag feedback protocol and all record

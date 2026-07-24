@@ -90,7 +90,7 @@ building. The port machinery at Kiel and Flensburg:
 untouched, while the rail approaches to both are cratered.
 Bridges: dropped at the approach spans, where engineers
 repair in days, not at the piers, where they repair in
-months. Add it up. That is not mercy; it is a shop kept
+months. Add it up: a shop kept
 ready for a new owner. He is fighting for working
 infrastructure, and the weapons in Kjeldsen's question
 poison the shop for a generation. Now, Dieter, your

@@ -277,10 +277,9 @@ serial's call-forward in the terminal hall where the
 kiosk still sold pastries to a wartime schedule, told
 the movement lieutenant, who logged it because the
 headquarters' disease was spreading, that his men had
-cheered the embarkation order like a relief column,
-"and I have not told them they are the relief column,
-because we will all learn it soon enough at the other
-end."
+cheered the embarkation order, and that he had not yet
+told them why they were wanted on the far shore. "Time
+enough," he said. "Let them have the boat ride."
 
 Fresh formations, unbled, frustration intact,
 purchased entirely by someone else's sorties. Sequencing

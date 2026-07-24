@@ -173,8 +173,9 @@ Silence, of the examined kind.
 his — no. Withdrawn, Herr General. Sorties are his
 expenditure, not his product."
 
-"Tonnage delivered," Lammers said. "An army is its
-supply. His operation exists to produce a sustained line
+"Tonnage delivered," Lammers said. "Fuel, feed,
+shells, bridging. His operation exists to produce a
+sustained line
 of supply into Jutland." The old man's finger did not
 move. "Which requires — " Lammers heard himself, and
 stopped, and finished the sentence in a different tone,

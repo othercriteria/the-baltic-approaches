@@ -224,8 +224,13 @@ Aakjær preferred all his exchanges to end.
 ---
 
 The route order for the seventh day was built at the map desk
-at 1700, out loud, because Holt had decided that orders with
-names in both columns would be built out loud from now on.
+at 1700, out loud. The practice had an author Holt could
+have named: the Danish captain's log hung three feet from
+the desk, under its file card, and this order was of the
+log's kind, a spending in both columns, soldiers' hours
+against families' days. Orders of the log's kind, he had
+decided that morning at the pinboard, would be built out
+loud from now on, with an owner of each column in the room.
 
 "Yellow-3 closed to civil traffic from 0500," he said.
 "Twelve hours, all Eider crossings military-precedence. The

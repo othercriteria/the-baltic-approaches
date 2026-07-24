@@ -62,6 +62,30 @@ At 0915 there were two wars on one telephone exchange:
 the one at the narrows, arriving as voices, and the one
 with the capitals, arriving as questions.
 
+The voices, for the record the diary could not keep: the
+western brigade's operations officer, twice in twenty
+minutes, the second time with the composure that is worse
+than shouting — "penetration now battalion strength, my
+counterattack force is committed, I am reporting, not
+requesting, there is nothing left to request" — and under
+his voice the sound of a command post displacing. The
+Danish division's chief of staff, asking in accented
+English for fires and getting the day's terrible sentence
+back from the fire-support desk: in queue. Karup's morning
+voice asking, against the noise, whether the corps
+confirmed yesterday's civil clearance figures for the
+Schleswig district, because a minister's office had asked,
+because the wire services were ahead of the reporting
+chain again. And Vestergaard himself, once, on the command
+net, not asking for anything: "Corps, this is the division
+commander. My line is bending in two places and I am
+using my engineers as infantry as of this hour. I state
+it so that whatever the corps decides today, it decides
+knowing that. No request. Out." — a man spending his
+division with the meter running and declining, on
+principle, to make the corps' arithmetic easier by
+understating his own.
+
 "In order," Hvidt said. He had taken his place at the
 plexiglass at 0820 and he did not leave it for six hours,
 and he fought both wars without raising his voice, and
@@ -116,10 +140,27 @@ whose commander banked in Kolding, and the wall did not
 permit the coincidence to be filed as anything but what
 it was.
 
-At 1225 Hvidt committed the reserve — not all of it; two
-battalion groups and the last fresh armor, under Loheide,
-whose division's shoulder held the pivot and who had been
-schooling the corps in close defense for a fortnight. The
+At 1225 Hvidt committed the reserve — not all of it. That
+was its own argument, thirty seconds of it, at the
+plexiglass: Holt had the release drafted for all three
+battalion groups, because the break was real and the
+arithmetic of breaks says late is worse than small.
+Hvidt struck one group off with the flat of his pencil.
+"Two and the armor. The third stands."
+
+"Herr General, if the seal fails, the third group is not
+enough to matter."
+
+"If the seal fails, nothing I hold matters, and if it
+holds, the corps that finishes today owning one fresh
+battalion group is a different corps from the one that
+finishes owning none. The difference is not tactical. It
+is what the corps can intend tomorrow. Two and the
+armor." 
+
+They went under Loheide, whose division's shoulder held
+the pivot and who had been schooling the corps in close
+defense for a fortnight. The
 counterattack he conducted between 1300 and 1500 was not
 elegant. It was a door slammed by a tired man, and it
 held: the penetration pinched at its waist, the eastern

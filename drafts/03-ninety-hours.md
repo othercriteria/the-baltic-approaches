@@ -81,6 +81,23 @@ reconnaissance squadron."
 a christening. It is a fine annex for the war where nothing
 else moves."
 
+"Then give me the honest number. Where is the division on
+Thursday morning?"
+
+"On Thursday morning the division is a set of possibilities
+distributed along four hundred kilometers of road," Lammers
+said, "and the shape of the distribution is decided by perhaps
+six places — the bridge pair at the Belt, the ferry berths,
+Vamdrup where the rail goes to single track, and the crossings
+where their routes meet everything else that is moving. The
+plan adds up stages: mobilize, issue, march, occupy — as if
+each stage owned its own week. They are not stages. They are a
+chain, and a chain is not the sum of its links. Any one of
+those six places can hold the whole division hostage for a
+morning, and the boards will stay green while it happens,
+because a queue is not a casualty and we have no board for
+queues."
+
 Holt looked at the green boards, which were still true, and
 began for the first time to hear what they were true about.
 
@@ -150,14 +167,32 @@ through the wire at four places between the Trave and
 Ratzeburg, moving northwest with their lights on. The
 artillery arrived on the covering positions by name, which
 answered, in the worst way, the question of how well the enemy
-had done his surveying. At 0417 the operations room's
-chinagraph went red for the first time, a captain drawing the
-first enemy boundary of the war in a steady hand, and the
-covering battalions of the 6th Panzergrenadier began doing at
-last the thing they had described so often, trading ground on
-the Holstein roads against an enemy who was less punctual than
-the exercises and more punctual than anyone had truly
-believed.
+had done his surveying.
+
+One report from that hour stayed with Holt for the rest of the
+war, and it was not about the enemy. It came by landline from
+the Territorial battalion east of Bad Oldesloe, relayed
+verbatim by a duty officer too pressed to summarize:
+Heimatschutz company at the Reinfeld crossing engaged since
+0405, two of six demolition charges fired, requests guidance
+whether to hold the crossing or fire the remaining charges and
+withdraw, notes that its orders come from Territorial Command
+but the crossing is in the corps' plan, asks — the duty
+officer read it flatly, the way one reads another man's
+handwriting — asks which of you we are dying for, respectfully,
+sirs, decide. The screen was not the corps' to command. The
+screen was schoolteachers and farm-equipment dealers of forty
+in positions dug that week, and the plan had assigned them the
+first thirty hours of the war on the assumption that the
+question in that message would never be put in writing.
+
+At 0417 the operations room's chinagraph went red for the
+first time, a captain drawing the first enemy boundary of the
+war in a steady hand, and the covering battalions of the 6th
+Panzergrenadier began doing at last the thing they had
+described so often, trading ground on the Holstein roads
+against an enemy who was less punctual than the exercises and
+more punctual than anyone had truly believed.
 
 Holt stood at the boards through the morning's fourth coffee
 and saw the discrepancy before he could name it, which he
@@ -185,3 +220,20 @@ headquarters has been reading its own promises as receipts."
 He stood, and on the way out looked once, without heat, at the
 green boards. "I have no further use for the plan's opinion of
 itself."
+
+The order took one day to change the wall. The first report
+rewritten under it was the Danish division's closing state,
+and Roloff, who rewrote it, brought it to Holt before posting,
+not for approval — it needed none — but the way a man shows a
+colleague something he has found in the ground. JYSKE DIVISION
+CLOSING SOUTH OF EIDER: SCHEDULED H+90. ACTUAL: NOT YET
+ACHIEVED AT H+69. ELEMENTS CLOSED: RECCE SQN, ADV PARTIES, 2
+OF 9 MANEUVER BATTALIONS. ESTIMATE FOR CLOSURE: SEE MOVEMENT
+CONTROL, WHO DECLINE TO GIVE ONE IN WRITING.
+
+"Movement Control declined?"
+
+"Movement Control said any figure they gave me would be a
+guess, Herr Oberstløjtnant, and the new order requires them to
+say so." Roloff pinned it level. "It is the first report on
+this wall that reads like the war."

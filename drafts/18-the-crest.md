@@ -27,6 +27,22 @@ battle map, which said the corps was being beaten, and
 the burn curve, which said the beating was the enemy
 spending his last argument.
 
+The narrows reported like a man breathing through a
+wound. Loheide's holding fight was the plan working,
+and the plan working sounded like this, at 0845, from
+the division's operations officer: "Line bent to the
+second position on the left, holding on the right.
+We are trading the belts as designed. I am required by
+my commander to report the design's price at current
+rates so the corps hears it hourly: we are burning a
+company's fighting strength every ninety minutes. The
+division can sustain the design through tomorrow
+morning. It would prefer not to learn what comes after
+tomorrow morning." The wall posted the rate. The wall
+had promised to post the rate, and the room had
+stopped being able to look away from it, which was the
+promise's whole function.
+
 Vestergaard came up on the command net at 0930, his
 assault twenty kilometers behind his voice.
 
@@ -39,7 +55,20 @@ his reserves are in the fight; my axes are clear. I can
 be through the crossing sites by dark. The classical
 answer is now, and I am obliged to argue it."
 
-"Argued and heard," Hvidt said. "Hold."
+"Argued and heard, and one question back," Hvidt said.
+"If you go at noon, what does your assault meet at the
+Danevirke crossing?"
+
+"His committed echelon, Herr General. Engaged
+frontally, flank open to me."
+
+"Engaged, and fed. His guns still own their dumps at
+noon. At 0500 tomorrow they own the residue of the
+worst day of firing in their army's history. You would
+attack his strength descending; I intend to attack the
+floor it lands on. Hold. And Vestergaard — the hides.
+If his air finds you this afternoon, all of this is
+theology. Make me right about the camouflage."
 
 The capitals arrived an hour behind the division, as
 usual. The assault was on every wire service by 0800 —
@@ -159,6 +188,23 @@ own cover sheet. "A staff that files its doubts," he
 said, closing the folder, "may be forgiven them.
 Twenty hundred is the last light check. I have put the
 chaplains on the movement schedule; they asked."
+
+The afternoon and evening ran on the movement tables.
+The assault brigades came out of the hides after dark
+in serials the crossing discipline called forward at
+the bridges' own pace — the valve's grammar, third
+conjugation — and passed through Loheide's exhausted
+line at the marrying points his staff had marked with
+hooded lamps, fresh battalions threading between spent
+ones in the dark with the passage-of-lines protocol
+the two divisions had rehearsed once, in October, in
+the exercise whose Endstand had started everything. At
+2330 the last serial reported through. At 0100 the
+counter-battery count for the enemy's preparation
+crossed the model's committed-past-recovery line, and
+Roloff drew the vertical on the graph and dated it,
+and the operations room got quieter by the specific
+increment of a thing becoming irreversible.
 
 At dusk Hvidt walked the operations room once, alone,
 and stopped at the wall, and took the duty clerk's

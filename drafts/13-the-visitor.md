@@ -9,15 +9,33 @@ ones with a traffic discipline the intercept troop could
 hear even when the cloud blinded everything else. His
 artillery kept up a professional unpleasantness against
 the Danevirke line — and, for the first time, against
-Rendsburg itself: harassing fire at the town's approaches,
-at hours chosen to cost sleep, which cost sleep. The
-headquarters moved its rest areas into the casemate
-cellars, taped its windows, and discovered what every
-headquarters discovers under its first shells, that the
-war until then had been happening to other addresses. In
-the operations room a joiner spent a morning fitting
+Rendsburg itself.
+
+The first rounds arrived at 0210 on the thirteenth day,
+at the town's western approaches, and the pattern
+declared itself within two nights: never the
+headquarters compound, whose location the enemy
+certainly held; the road junctions, the rail yard
+throat, the canal bridge approaches, and always at
+hours chosen to cost sleep, which cost sleep. Aakjær
+graded the fire in one line at the morning brief:
+harassment by a gunner under rationing, each round
+placed where a tired staff would feel it and none
+wasted on concrete. The headquarters moved its rest
+areas into the casemate cellars and taped its windows,
+and discovered what every headquarters discovers under
+its first shells, that the war until then had been
+happening to other addresses. The staff's own two-times
+discipline noted the change without being ordered to:
+the duty log for the fourteenth carries, between an
+intercept summary and a strength return, the entry
+0347 HARASSING FIRE, RAIL YARD, NO CASUALTIES THIS
+HEADQUARTERS, and then, in the same hand, the shift's
+routine business, which was the entry's real content.
+In the operations room a joiner spent a morning fitting
 blast film while the staff briefed around him, and his
-hammer kept its own two-times log against the teleprinters.
+hammer kept its own two-times log against the
+teleprinters.
 
 "He is reorganizing, resupplying, and deciding," Aakjær
 told the morning conference on the fourteenth. "The first
@@ -96,8 +114,18 @@ pointedly not foremost — and watched an old man work
 along the sheets in silence: the two-times boards, the
 movement log photostat with its caption card, the
 rationing order with the protests pinned beneath, the
-air program's projected against observed, and longest,
-at the end, the two calendars, OURS and HIS.
+air program's projected against observed. At the
+bridge-or-seniority messages he stopped and read both
+twice, and made the only sound of his forty minutes, a
+short exhalation that in a younger man would have been
+a laugh. At the F1 entries, the deep program's
+projected column against the front's NO MEASURABLE
+CHANGE, he stood longest of all before the last sheets,
+and touched nothing, and moved on without comment,
+and the staff understood that the wall had just been
+read by the first visitor who knew the price of every
+item on it. Longest, at the end, he stood before the
+two calendars, OURS and HIS.
 
 "Who audits the enemy's column?" he said at last.
 

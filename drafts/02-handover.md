@@ -59,7 +59,9 @@ its author, and heard himself not knowing.
 If he is dead or posted, appoint a new one. I read your
 exercise assessment on the aircraft; it was well written, and
 it is a transcript, and a transcript is a photograph of a
-dance. I am not interested in how the corps danced in October.
+dance: every foot correctly placed, and the weight already
+somewhere else. I am not interested in how the corps danced
+in October.
 I am interested in what must be true for this plan to work in
 any month, and who is watching each of those things, by name."
 He closed the annex and stood. "Thank you, Herr Oberstløjtnant."
@@ -303,5 +305,5 @@ The clock on it had started. Nobody owned it yet. In the
 operations room the day shift was coming on early, one by one,
 called by nothing anyone had sent, hanging their coats on the
 hooks with the particular quietness of men arriving at a
-sickbed, and the morning's first returns were already coming up
-the teleprinter—
+sickbed, and the morning's first returns were already coming
+up the teleprinter.

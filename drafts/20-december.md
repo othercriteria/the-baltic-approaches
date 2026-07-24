@@ -181,6 +181,63 @@ went to Karup, to Kolsås, to the archives, carrying it.
 
 ---
 
+In the same December, four hundred and ten kilometers
+southeast, the other report was being written.
+
+Kuragin had moved out of the visitors' corner. The
+office he now occupied at the Front's headquarters was
+temporary in a way that offices sometimes are when
+their occupant's authority is not, and the report
+forming on his desk, in his own unhurried hand, was
+addressed north, and its subject was the Jutland
+operation entire: origins, conduct, culmination,
+lessons. He had summoned the chief of staff to supply
+figures, and Rylski supplied them — exact, sourced,
+against his own reconciliations — because they were
+true, and because supplying them was his function, and
+because a chief of staff who has kept honest books does
+not stop keeping them merely on learning what they are
+now for.
+
+What they were for revealed itself in the questions.
+The Comrade General-mayor did not ask what had failed;
+his report, visibly, already knew. He asked for dates.
+The date of the first reconciliation showing the Front
+behind its plan. The date it was forwarded to theater —
+"unaltered, I believe, at the commander's own
+insistence; a scruple that does him credit; the date,
+please." The date of the signed sentence about feeding
+the future at the expense of the present. Each answer
+went into the report as a stone goes into a wall, and
+Rylski, dictating his own filing dates, watched the
+architecture assemble: a Front that had known, in
+writing, week by week — commanded by a man who had
+been informed by his own staff and had pressed on. The
+reconciliation had been built to make the operation
+honest. In this office it proved the operation
+warned. The cleaner the columns, the better the
+exhibit; and Rylski's columns had no crossings-out at
+all.
+
+"Your records are a model, Stefan Andreyevich," Kuragin
+said at the end, with entire sincerity, gathering the
+pages. "I have said so in the report. Whatever is
+eventually concluded, no one will conclude that this
+staff did not know its situation. That is a rare thing
+to have in one's file. Guard it."
+
+The commander's own copy of the journal, with its
+formula about the full range of options considered,
+had gone north in the first week of the cease-fire,
+and Zawadzki had followed it in the second, summoned
+to report in person, and the Front had received, in
+his absence, an acting commander. Rylski returned to
+his map room and his winter line and did not write any
+of this down, there being, for the first time in his
+professional life, no column for it.
+
+---
+
 The corps stood down the way a fever leaves. The
 evacuation ran in reverse, Column 217's successors
 carrying the same hundred and eighteen persons back

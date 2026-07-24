@@ -102,30 +102,39 @@ ARMOR 1:4.2. ALL SYSTEMS 1:3.1. OWN LOSSES WITHIN PLANNING
 RATE.
 
 The ratios had a pedigree, and Holt knew it, because the
-pedigree lived in his own filing. Unit claims, collected by
-brigades, consolidated at division, reduced by a factor a
-committee had fixed in 1979 after a study of exercise
-umpiring — the study had compared claims against umpire
-assessments across four autumns and derived a correction, and
-the correction had been promulgated, and from that year
-forward every exchange ratio in the corps' reporting carried
-the committee's arithmetic inside it the way bread carries
-yeast. Then it was carried to one decimal place. The decimal
-place was the shine. Nothing with a decimal place looks like a
-guess, and the whole line was a guess wearing an instrument's
-clothing — but on the ninth of November there were no umpires.
-The claims were coming from companies in contact, at night, in
-rain, reporting hits on an enemy who kept coming through his
-own dead, and the 1979 factor had been derived from exercises
-in which nobody had ever kept coming, because at ENDEX
-everyone went home. Nobody in the reporting chain was lying.
-Every man in it was rounding toward hope, and the chain was
-long, and the roundings compounded, and what arrived at the
-top wore a decimal place.
+pedigree lived in his own filing: unit claims, consolidated
+at division, reduced by a standard correction, carried to
+one decimal place. The decimal place was the shine. Nothing
+with a decimal place looks like a guess.
 
 At the morning conference Hvidt repeated the number the way a
-man tests coins on stone. "One to four point two. If it is
-true, what does Thursday look like?"
+man tests coins on stone. "One to four point two. Where does
+the figure come from? Not the claims. The correction under
+them."
+
+"A committee, Herr General," Holt said. "1979. Four autumns
+of exercise claims compared against umpire assessments; the
+factor was derived and promulgated; it has sat inside every
+exchange ratio we have reported since."
+
+"So the correction that makes this number honest was
+calibrated against umpires."
+
+"Yes, Herr General."
+
+"And this morning's umpires are where?"
+
+There were no umpires. The claims were coming from companies
+in contact, at night, in rain, reporting hits on an enemy
+who kept coming through his own dead — and the 1979 study
+had measured exercises, where nobody ever kept coming,
+because at ENDEX everyone went home. Nobody in the chain was
+lying. The chain was long, and each link rounded toward
+hope, and what arrived at the top wore a decimal place.
+Hvidt let Holt's silence stand as the answer and moved to
+the next question.
+
+"If it is true, what does Thursday look like?"
 
 "If it is true, Herr General," Aakjær said, "his first-echelon
 regiments are at half strength by Thursday and we will see it:

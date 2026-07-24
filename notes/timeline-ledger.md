@@ -115,6 +115,14 @@ Kolding credit now spends one day after it was lent — arguably
 sharper); "a week's hoarded shells"; "Ærlighed" vs
 "Oprigtighed."
 
+**FLAGS DISCHARGED 2026-07-24 (DK ratified all four as they
+stand).** BANKED FOR REVISIT (DK): ch. 20's Danish motto —
+**"Frimodighed før trøst"** as the alternative to "Ærlighed"
+(frimodighed = the Danish Bible's word for parrhesia/bold
+speech; churchly undertone that rhymes with the Advent
+calendar and the chaplains on the movement schedule). Revisit
+at final assembly alongside the 19/19a renumbering.
+
 ## Addendum (same day, funded-adds pass)
 
 Ch. 20's homecoming journey corrected: "a rail ferry and two

@@ -261,9 +261,11 @@ road his shells travel, and his tubes outnumber mine four
 to one and are not being struck. My belt is a masterpiece.
 My division is being destroyed by the part of his army
 that is already early. I am told the air is buying me a
-week, somewhere east of Lübeck. Herr General, with respect:
-the fish is being sold to the future, and the present is
-starving."
+week, somewhere east of Lübeck. My liaison officers tell
+me your staff calls the allocation a fish market. Good;
+I will use the house vocabulary. Herr General, with
+respect: the fish is being sold to the future, and the
+present is starving."
 
 "You have a request," Hvidt said. "Make it."
 

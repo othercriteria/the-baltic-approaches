@@ -208,6 +208,22 @@ patience. What he said, leaving, was: "The
 tradecraft stands. Tell the ferries to be punctual,"
 and was gone before anyone could examine his face.
 
+In the beech wood the same seventy-two hours were being
+subtracted from the other ledger. The coastal rail's
+delivery figures came to Rylski nightly, and nightly
+they came smaller; he plotted the dump state against
+the plan for the great effort on the one document in
+the Front that carried both curves, and watched the gap
+refuse to close. The reconciliation had gone north a
+week ago. Nothing had come back down: no reprimand, no
+relief, no amendment to the mission, which a chief of
+staff was entitled to read as vindication, and Rylski
+read as a queue. "Feed the dumps," Zawadzki said, each
+evening. Each evening Rylski fed them what the rail had
+let through, and entered the shortfall in his own hand,
+and did not need to be told that somewhere across the
+water the shortfall was being kept twice.
+
 Lammers ran the westward movement personally, which he did
 not need to do and did not explain. The explanation was
 in the October minute: the requisition's two lost days

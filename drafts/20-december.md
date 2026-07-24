@@ -251,14 +251,22 @@ chinagraph bird-name remained the only thing about
 Roloff's street that would ever appear in an archive.
 
 Holt went home to Fredericia on the nineteenth of
-December, for thirty hours, on a rail ferry and two
-trains that ran nearly to time. The town had counted
+December, for thirty hours, on two trains that ran
+nearly to time. The town had counted
 its transporters going the other way by then; the ring
 road was quiet; the children had a new census underway,
 of returning units, current total contested. He mended
 nothing, carried furniture back down to the parlor from
 nobody-remembered-why upstairs, ate at regular hours,
-and said very little, and was permitted to. At the door,
+and said very little, and was permitted to. He slept
+twelve hours the first night, and nobody woke him, the
+household having evidently cut orders on the subject.
+His mother had gone home in the first week of December;
+the blackout curtains, re-hemmed to her standard,
+stayed. On the second morning the children took him out
+to the garden and showed him where the tin was buried,
+and made him swear the year again, two thousand, and
+he swore it, standing in his socks in the frost. At the door,
 leaving, Merete put one finger on his chest, on the map
 pocket, and delivered the war's shortest after-action
 assessment.

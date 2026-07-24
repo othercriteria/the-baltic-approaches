@@ -114,3 +114,15 @@ promise"; now exact and worse); the bank-duration recasts (the
 Kolding credit now spends one day after it was lent — arguably
 sharper); "a week's hoarded shells"; "Ærlighed" vs
 "Oprigtighed."
+
+## Addendum (same day, funded-adds pass)
+
+Ch. 20's homecoming journey corrected: "a rail ferry and two
+trains" → "two trains" (Rendsburg–Fredericia rail is all-land
+via Padborg/Lunderskov — atlas; the Little Belt rail bridge
+dates to 1935; no ferry on any sane routing). Merete-letter
+quote (ch. 7) dates: mother "with us since Sunday" = 5–6 Nov ✓;
+tank count 41 by the letter's writing (~day 2–3), 214 by 26 Nov
+(ch. 16) ✓ trajectory. Rylski middle beat (ch. 15): "the
+reconciliation had gone north a week ago" ✓ (went night 17/18
+Nov; beat sits ~24–25 Nov).

@@ -244,6 +244,12 @@ ACHIEVED AT H+92. ELEMENTS CLOSED: RECCE SQN, ADV PARTIES, 2
 OF 9 MANEUVER BATTALIONS. ESTIMATE FOR CLOSURE: SEE MOVEMENT
 CONTROL, WHO DECLINE TO GIVE ONE IN WRITING.
 
+Beneath the estimate line the division had added one of its
+own, over its commander's name — Generalmajor Vestergaard,
+to the corps staff still only a signature block: CONCUR.
+THE DIVISION PROMISES NOTHING THE ROADS HAVE NOT. IT WILL
+ARRIVE AS A DIVISION.
+
 "Movement Control declined?"
 
 "Movement Control said any figure they gave me would be a

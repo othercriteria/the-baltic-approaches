@@ -84,18 +84,24 @@ There was a letter, though, in the inside pocket of his
 field jacket, arrived on the fourth day by the ordinary
 post, which was still running and would keep running
 all war with a persistence nobody had planned and
-everybody came to depend on. It was one page. It
-reported the household's order of battle in Merete's
-firm school-mistress hand: provisions laid in per the
-pamphlet plus her own amendments; the neighbor's boy
-conscripted and the neighbor being managed; the
-children's school running half days so the building
-could billet depot staff, an arrangement the children
-regarded as the war's finest achievement. It asked
-nothing and concluded with instructions rather than
-sentiment, which was her form of sentiment: eat at
-hours, write nothing you cannot write, come home when
-it is finished. He had read it eleven times and
+everybody came to depend on. It was one page, the
+household's order of battle in Merete's firm
+school-mistress hand, and he had it by heart:
+
+"Provisions are laid in per the pamphlet, plus what the
+pamphlet forgot — candles, aspirin, and the coffee your
+mother likes, because she is with us since Sunday and
+has opinions about my blackout curtains. The Sørensen
+boy is called up; his mother is being managed. School
+is half days now, the building billets depot staff, and
+the children rate this the war's finest achievement;
+the tank count stands at forty-one and is disputed. We
+are fine, which I would also write if we were not, so
+learn nothing from it. Eat at hours. Write nothing you
+cannot write. Come home when it is finished."
+
+It asked nothing, and gave its sentiment as
+instructions, which was her form of it. He had read it eleven times and
 answered it once, in kind, one page, and this was the
 whole wartime correspondence of the Holt family, and
 it was sufficient, and he understood from the district

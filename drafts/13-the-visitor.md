@@ -100,12 +100,24 @@ wire: I will come Thursday. I require nothing but the
 wall your operations officer has been not-describing to
 me for two weeks, and forty minutes, and no briefing. R.
 
-He arrived in a gray civilian suit wet at the shoulders,
-eighty-two years old, carrying a briefcase that proved to
-contain one folded map, 1:250,000, Baltic Approaches,
-1961 printing, privately annotated, and he stood in front
-of the wall for most of his forty minutes and read it the
-way other men read a will.
+He came by his own arrangement, declining the staff
+car — a neighbor drove him, a retired harbor pilot
+with blackout slits taped over the headlamps — and
+the sentry at the outer gate, nineteen and thorough,
+kept the two old men standing in the sleet while he
+telephoned, because the pass Hvidt had signed said
+nothing about a harbor pilot. Rahn approved of the
+delay aloud, to the guard commander who came at a
+run: "Your man reads the pass and not the suit.
+Promote him slowly, so that he lasts."
+
+He arrived in the operations room in a gray civilian
+suit wet at the shoulders, eighty-two years old,
+carrying a briefcase that proved to contain one
+folded map, 1:250,000, Baltic Approaches, 1961
+printing, privately annotated, and he stood in front
+of the wall for most of his forty minutes and read it
+the way other men read a will.
 
 Hvidt had overruled the staff's instinct to prepare a
 briefing. "No theater. Give him the instruments and the
@@ -115,8 +127,14 @@ along the sheets in silence: the two-times boards, the
 movement log photostat with its caption card, the
 rationing order with the protests pinned beneath, the
 air program's projected against observed. At the
+two-times boards he asked his single question of the
+tour, of Roloff, without turning: whether the
+scheduled column's entries were ever revised after
+the fact, to close the gaps. "No, Herr General. The
+gaps are the document." The nod he gave it was the
+nod of one craftsman accepting another's gauge. At the
 bridge-or-seniority messages he stopped and read both
-twice, and made the only sound of his forty minutes, a
+twice, and made the tour's one unwilled sound, a
 short exhalation that in a younger man would have been
 a laugh. At the F1 entries, the deep program's
 projected column against the front's NO MEASURABLE

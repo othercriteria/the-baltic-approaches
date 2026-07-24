@@ -89,7 +89,15 @@ The geometry was simple and merciless. The Jutland Division's
 last third was still coming south — down the west-coast route,
 B5 and the Marschbahn, the roads the air war had left mostly
 alone — and crossing the Eider at Friedrichstadt and the
-Nordfeld ferry to enter the corps' rear. The evacuation
+Nordfeld ferry to enter the corps' rear. The Friedrichstadt
+complex was not much to look at: a road bridge; a rail
+swing-bridge a kilometer west carrying the Marschbahn's
+single track, which opened for nothing now but had been built
+to open, and whose operator slept in the signal cabin; a
+heavy ferry at Nordfeld rated for anything up to a bridge
+section. Between them they were the west door to everything
+north of the Eider, and the war kept discovering new things
+that had to fit through a door. The evacuation
 columns of the pre-cleared districts were going north and
 west over the same crossings, because the receiving districts
 were in Nordfriesland and there was no third direction to
@@ -169,17 +177,65 @@ Aakjær preferred all his exchanges to end.
 
 ---
 
-The route order for the seventh day went out at 1750 over
-Holt's signature. Yellow-3 closed to civil traffic from
-0500; all Eider crossings military-precedence for twelve
-hours; the last two battalions of the First Jutland Brigade
-and the corps bridging reserve to cross before noon. On page
-two, in consequence, Columns 231 and 232 — another school,
-another hundred-odd persons, another district's arithmetic —
-would stand an extra day in a collection area eleven
-kilometers closer to the guns than anyone wished, because
-the corps had decided, twice before noon and once at 1750,
-what it was for.
+The route order for the seventh day was built at the map desk
+at 1700, out loud, because Holt had decided that orders with
+names in both columns would be built out loud from now on.
+
+"Yellow-3 closed to civil traffic from 0500," he said.
+"Twelve hours, all Eider crossings military-precedence. The
+last two battalions of First Jutland and the corps bridging
+reserve cross before noon. Costs."
+
+"Military side, clean," said the movement-control major,
+Lammers' man. "Both battalions closed by 1140 at current
+passage rates, bridging reserve by 1300."
+
+"Civil side." Holt looked at the Territorial liaison, an
+elderly Oberstleutnant of reserves who had been a district
+administrator in his other life and had never once, in six
+days, softened a figure.
+
+"Columns 231 and 232 stand down for a full day, Herr
+Oberstløjtnant. They are marshaled tonight at their
+collection point — a school, naturally; it is always a
+school — eleven kilometers from ground your own summaries
+describe as active. A hundred and six persons, those two.
+The district will feed them, that is not the difficulty.
+The difficulty I am required to state is arithmetical: each
+time the military takes a twelve-hour block, the deferred
+columns compound into the next day's table, and the next
+day's table is already full. We are two such decisions from
+a backlog that cannot clear before the roads themselves
+become — " he chose the word with administrative care — 
+"contested."
+
+"Alternatives."
+
+"None that are better. One that is different: split the
+block, six and six, pass the columns at midday between the
+battalions. It costs the bridging reserve three hours."
+
+"The bridging reserve is the corps' insurance for the
+crossings themselves," the movement major said. "Three
+hours of it is not mine to spend."
+
+"No," Holt said. "It is mine." He looked at the map, at the
+small blue school-symbol eleven kilometers from the small
+red boxes, and did the sum he was paid for, and it came out
+the way it had come out twice before noon. "The block
+stands. Twelve hours. Columns 231 and 232 defer. Write the
+deferral on the order itself, with the persons figure —
+not in an annex. If this headquarters is going to spend a
+day of a hundred and six lives' patience, the signature
+page will say so where the signature can see it."
+
+The order went out at 1750 over Holt's signature, the
+deferral on page one, and on the sheet by the door the
+elderly Oberstleutnant logged it without being asked, in
+the Danish captain's format, because the format was
+spreading through the headquarters on its own legs: CIVIL
+DELAY ACCEPTED, 1 DAY, 106 PERSONS. MILITARY GAIN, 2 BNS +
+BRIDGE RESERVE, 7 HRS.
 
 He dated the order with both times, scheduled and actual.
 They were, for once, identical. He signed, and went back to

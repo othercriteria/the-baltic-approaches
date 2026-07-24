@@ -89,9 +89,18 @@ better knowledge, because men play their fears, not their
 cards. Second, practically: intact things. Your G-2 reads
 his careful fires; I heard that too. What a man refuses to
 break, he has promised to somebody. Promises have dates.
-Find the date." The voice performed its dry diminuendo.
-"Two questions instead of one. Inflation reaches
-Eckernförde. Good night, Herr Oberstløjtnant."
+Find the date."
+
+"The canal locks," Holt said. "The port machinery. We read
+them a week ago as a shop kept for a new owner."
+
+"Then you read the promise and stopped one clause short.
+A shop kept for a new owner — by when? No man keeps a shop
+indefinitely at his own expense. That is as far as I will
+carry you. By when, Holt. Ask your wall." The voice
+performed its dry diminuendo. "Two
+questions instead of one. Inflation reaches Eckernförde.
+Good night, Herr Oberstløjtnant."
 
 ---
 
@@ -105,7 +114,15 @@ traffic analysis toward him. "Niels. On the fourth day of
 the war his lead divisions' rate of advance fell below any
 figure in their norm tables, and their behavior did not
 change. No fury. No reinforcement of failure. No shift of
-axis. I filed it as discipline — deliberate as a tide
+axis. Listen to what that rules out. An army commanded by
+its situation — by the fight in front of it — reacts when
+the fight goes badly: it reinforces, it shifts, it rages.
+His does not react to the fight. It proceeds. On the
+eleventh his engineers rebuilt the same crossing three
+times under our harassing fire, at the same site, on the
+same axis, when a two-kilometer displacement would have
+cost them less — because the site was the plan's site.
+I filed all of it as discipline — deliberate as a tide
 table, I wrote, and was pleased with the sentence. Suppose
 it is not discipline. Suppose he reads his advance the way
 we have learned to read our crossing — against a written
@@ -125,11 +142,9 @@ Under the second, estimates: the corps knew where the
 fighting was, and where it had been, and the arithmetic
 between. Under the third, nothing. "The third column is the
 war," Aakjær said. "I withdraw a week of skepticism about
-your graph paper. Go to bed, Georg— " he caught it, the
-wrong name, some Danish association misfiring at three in
-the morning, and corrected without embarrassment: "Go to
-bed, Niels. One of us should be wrong about something by
-morning, and I intend it to be me."
+your graph paper. Go to bed, Niels. One of us should be
+wrong about something by morning, and I intend it to be
+me."
 
 Holt went, and passing the wall felt it quietly double in
 size. The nine sheets measured the corps. The clean sheet

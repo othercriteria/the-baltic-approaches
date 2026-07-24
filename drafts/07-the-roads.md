@@ -79,6 +79,28 @@ He had not telephoned since Sunday's four minutes. The
 restriction schedule was his own staff's work. He had
 initialed it.
 
+There was a letter, though, in the inside pocket of his
+field jacket, arrived on the fourth day by the ordinary
+post, which was still running and would keep running
+all war with a persistence nobody had planned and
+everybody came to depend on. It was one page. It
+reported the household's order of battle in Merete's
+firm school-mistress hand: provisions laid in per the
+pamphlet plus her own amendments; the neighbor's boy
+conscripted and the neighbor being managed; the
+children's school running half days so the building
+could billet depot staff, an arrangement the children
+regarded as the war's finest achievement. It asked
+nothing and concluded with instructions rather than
+sentiment, which was her form of sentiment: eat at
+hours, write nothing you cannot write, come home when
+it is finished. He had read it eleven times and
+answered it once, in kind, one page, and this was the
+whole wartime correspondence of the Holt family, and
+it was sufficient, and he understood from the district
+returns that crossed his desk at 0415 every morning
+how large a thing sufficiency was.
+
 ---
 
 By midday the sixth day's actual crisis had a location: the

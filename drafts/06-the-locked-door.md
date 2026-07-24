@@ -184,6 +184,21 @@ will conduct himself so as to make it come true. It is the
 most useful hour I have spent in this war, and we will not
 spend it again."
 
+Witzel closed the hour the way he closed everything.
+The notebook went into the safe with the folder, and
+the safe's log took both entries in his hand, and then
+he read out, from the notebook's last page, the single
+administrative consequence the hour had produced: the
+quarterly custodian inspection of the folder, due in
+December, would be conducted on schedule, by the same
+two officers, with the same signatures, exactly as if
+the war were not happening. "Continuity of custody,"
+he said, "is the entire visible difference between a
+weapon held and a weapon contemplated, and it is
+visible to our own side, which is the side whose
+nerve concerns me." Nobody had thought of it. It was
+already done.
+
 He locked the office door behind them, which was theater,
 and effective.
 

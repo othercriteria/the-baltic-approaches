@@ -288,6 +288,23 @@ Oberstløjtnant, has he."
 
 ---
 
+The corps returned to the market on the eighteenth a
+changed customer. The day's bid, built by Kjeldsen and
+signed by Holt, asked for close support against the
+artillery groupings, weather permitting, and carried —
+at Holt's insistence, over nobody's objection — a
+paragraph the market had never before received from any
+customer: an assessment of the corps' own previous bid
+against its observed results, the three-fifths flown,
+the six-to-ten-hour lag, the front's null reading, each
+figure sourced. The tired Danish voice at Karup read
+the paragraph twice, the liaison reported, and then
+said, to the whole conference, that henceforth bids
+carrying their own audit trail would be heard first,
+"since the stall prefers customers who count their
+change." It cost the corps a morning's pride and
+bought it a standing it never afterward lost.
+
 That night Roloff added a third sheet to the wall without
 being told: the air program, scheduled against actual,
 projected effect against observed. The projected column

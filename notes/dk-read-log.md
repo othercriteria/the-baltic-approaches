@@ -95,6 +95,33 @@ tag text. This file is append-only in practice.*
   One-clause payoff added to ch. 19 making the wholesale
   delivery and its unmeasurability legible]
 
+- 2026-07-24, batch 5 (chs. 4–5):
+  1. Ch. 19 counter-battery payoff clause: approved as written;
+     trim later if thick. [CLOSED]
+  2. "a chief of staff he would never meet" — CUT (conflicts
+     with the in-universe research conceit; postwar meetings of
+     opposing staff are commonplace in the genre's histories).
+     [APPLIED — also note: the conceit is now load-bearing
+     enough to deserve a line in the outline's voice notes at
+     next touch: narrator may not foreclose postwar contact
+     between survivors]
+  3. "scheduled event" — Ngram-flagged (mid-oughts peak);
+     replaced with "an item on his march table" (period staff
+     vocabulary, same content, stronger concreteness). [APPLIED]
+  4. "That is not brutality [...] It is arithmetic" — tic
+     (negation-definition). [APPLIED — recast: the battalions'
+     view conceded with standing ("they have the right"), the
+     arithmetic claim made from "this table" without the
+     negation frame]
+  5. Ch. 5 scene 2 staging — where/when/who? [APPLIED — staged:
+     operations room at 0530 handover, the room at its worst
+     hour, Aakjær up the gallery stairs reading as he walks,
+     the clip set down on the map rail; duty officer as
+     witness. Standing note for revision passes: every
+     dialogue scene carries place, hour, and third-party
+     presence — DK's "such considerations point to ways to add
+     specificity, weight, interest"]
+
 ## Sequence agreed
 
 1. Length to floors (Parts I/II now; tic budgets held in-pass).

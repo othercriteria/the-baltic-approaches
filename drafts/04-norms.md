@@ -280,7 +280,7 @@ Holt logged the tasking in the operations journal at 0640 the
 next morning, with the two times, tasked and due, and the
 room went on around him — the teleprinters, the shift brief,
 the coastal axis update coming in — and four hundred and ten
-kilometers away by road a chief of staff he would never meet
-logged his own morning's arithmetic, and between the two
-headquarters, both green, both ahead of schedule by their own
-lights, the actual war went on keeping its own books.
+kilometers away by road a chief of staff logged his own
+morning's arithmetic, and between the two headquarters, both
+green, both ahead of schedule by their own lights, the actual
+war went on keeping its own books.

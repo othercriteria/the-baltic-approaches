@@ -21,7 +21,7 @@ two-times rule had already begun to teach — and by 0400 the
 enemy was across the Trave in two places.
 
 Not because the demolitions failed. Because he treated the
-river as a scheduled event. The corps-level bridging that the
+river as an item on his march table. The corps-level bridging that the
 intelligence annex had faithfully listed — quantities filed,
 capabilities noted, nobody imagining them concentrated — came
 forward within ninety minutes of the lead regiments reaching
@@ -33,13 +33,25 @@ with their weapons held over their heads, into machine-gun
 fire, taking losses that the observers reported with
 disbelief and revising upward, and continuing.
 
-Aakjær read the night summaries at 0530 and put them down.
+Holt had been in the operations room all night with the
+demolition logs, and at 0530 the room was at its worst hour:
+the night shift red-eyed at the handover, the floor littered
+with teleprinter tails nobody had filed, the new enemy
+boundary west of the Trave still shiny on the plexiglass
+where a captain had drawn it at 0409. Aakjær came up the
+gallery stairs with the night summaries in a clip, reading
+as he walked, which he did on mornings when the summaries
+deserved it. He stood at the north end of the map, beside
+Holt, and finished the last page, and set the clip down on
+the map table's rail with a deliberateness that made the
+duty officer look up.
 
 "He is paying men to save hours," he said. "Every other army
-haggles. This one has a price list, and the price list says an
-hour is worth more than a company. That is not brutality,
-whatever the battalions think this morning. It is arithmetic
-we have not seen the rest of."
+haggles. This one has a price list, and the price list says
+an hour is worth more than a company. The battalions on the
+Trave this morning are calling it brutality, and from where
+they stood all night they have the right. From this table it
+is arithmetic we have not seen the rest of."
 
 "The rest of it being what?" Holt said. "The annex prices his
 crossing capability. It was in the estimate. He is performing

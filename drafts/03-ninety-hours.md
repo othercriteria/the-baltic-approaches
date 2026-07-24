@@ -38,6 +38,19 @@ curve climbed all day, green, and the boards around it were
 green, and the green was true. That was the trap of it. Every
 number on the wall was true.
 
+By evening the stories behind the numbers were arriving too,
+in the margins of the returns, because the depot officers were
+proud and the pride leaked into official prose. At Aarhus a
+reservist had arrived by taxi from his own wedding reception,
+in the suit. At Fredericia the depot had run out of the
+forms for men reporting without call-up papers and had
+improvised a ledger from a school exercise book, and the
+sergeant responsible wanted it on record that the improvised
+ledger balanced. The whole intake was like that: a country
+reporting for work early. It deserved a better measurement
+than it was getting, which was heads through gates, as if the
+war were a turnstile.
+
 "What doesn't the curve show?" Holt asked him, at some point
 in the afternoon.
 

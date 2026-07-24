@@ -30,13 +30,26 @@ survey markers with patrols and paperwork, and posted
 the cost of each adjusted meter against its negotiating
 value, which was the wall's last unprecedented column.
 Hvidt refused two proffered adjustments as not worth a
-squad's morning, took one worth a battalion's, and at
-2350 on the sixth stood in the operations room while a
-German captain — the same captain; the war had been
-short enough that it was still the same captain — drew
-the cease-fire line onto the plexiglass in a blue
-chinagraph no one had ever used before, because no
-convention existed for it.
+squad's morning, took one worth a battalion's — a
+survey-marker ridge that covered the Sehestedt
+crossing's demolition sites, argued to him by Roloff
+in four sentences of pure geometry and approved in
+one — and declined, on the last afternoon, the war's
+strangest request: a proposal, relayed through Karup
+with visible embarrassment, that the corps' final
+situation report be timed and worded to support the
+communiqué already drafted in two capitals. "The
+report will be filed at 2400 and it will say where
+the corps is standing," he told the relay. "Where the
+corps is standing was purchased at rates this
+headquarters published daily. If the communiqué
+requires different facts, the communiqué is free to
+purchase its own." At 2350 on the sixth he stood in
+the operations room while a German captain — the same
+captain; the war had been short enough that it was
+still the same captain — drew the cease-fire line onto
+the plexiglass in a blue chinagraph no one had ever
+used before, because no convention existed for it.
 
 ---
 
@@ -112,10 +125,27 @@ the exact one our assessment names as the whole
 subject."
 
 They fought it for two hours, courteously, sentence by
-sentence, and Hvidt let his G-3 fight it alone — he sat
-at the end of the table signing the day's file and did
-not once look up — until Bjelke, unbeaten, appealed to
-the commander directly: surely the General agreed the
+sentence. Bjelke's method was concession — he yielded
+every point that could be yielded gracefully, and each
+yielding narrowed the ground toward the one he had
+come for. Yes, the fourteen hours should appear; the
+supplement was the appropriate — very well, the body,
+if the corps felt strongly, as a footnoted range. Yes,
+the F-series was admirable discipline; its NUMBERING,
+though, its air of indictment — might the entries not
+be styled "assessment revisions," which is after all
+what they were? "They were failures," Holt said. "The
+word is load-bearing. Revise it out and the annex
+teaches that the system self-corrected, smoothly, as
+systems do. Nothing self-corrected, Herr Oberst. Men
+corrected it, late, at posted rates, over their own
+initials, and the next staff to read this must
+believe such correction will cost them what it cost
+us, or they will not budget for it." And Hvidt let
+his G-3 fight it alone — he sat at the end of the
+table signing the day's file and did not once look
+up — until Bjelke, unbeaten, appealed to the
+commander directly: surely the General agreed the
 alliance was better served by a record of competence
 than a catalogue of luck.
 

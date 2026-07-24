@@ -138,12 +138,15 @@ there, NH in the block, the third such signature of
 his war, and this one he felt go down through the
 paper.
 
-At 1300, in the small conference room, Hvidt heard the
-day laid out — the curve, the counts, Vestergaard's
-argument, the capitals' pressure, Roloff's sensitivity,
-the casualty meter running at the narrows, all of it —
-and then did what he had done at every hinge of the war:
-he made the staff say it for the record.
+At 1300, in the small conference room, with the
+principal staff around the map table and the two
+division commanders' voices on the conference loop,
+Hvidt heard the day laid out — the curve, the counts,
+Vestergaard's argument, the capitals' pressure,
+Roloff's sensitivity, the casualty meter running at
+the narrows, all of it — and then did what he had
+done at every hinge of the war: he made the staff say
+it for the record.
 
 "I am about to let this corps be beaten all day, on
 purpose, in front of three governments, so that at five
@@ -178,6 +181,28 @@ assault echelon and its supply. Not a kilometer
 further. This corps is not marching to Lübeck. It is
 closing a door."
 
+Kjeldsen had the last technical word, because the
+hour was being bought partly in his currency and he
+declined to let the arithmetic pass unstated. "For
+the diary, Herr General. Civil twilight begins at
+0742. H-hour 0500 is a dark attack: the guns own it,
+and the two all-weather squadrons the theater has
+lent us fly the first serials against his gun
+groupings by radar, in the dark, which is the work
+those crews train for and the first weather of the
+war that permits it. The day wings come with the
+gray. If the assault runs to its tables, the lead
+brigades stand at the Danevirke crossing as the
+light arrives, and the second wave arrives with it —
+the seam between the dark work and the day work
+crosses the battlefield at about 0745, and the plan
+has put the door's hinge directly under the seam.
+One more line for the diary, at my desk's insistence.
+The front that blinded the maximum program on the
+thirteenth went through last night. The air behind
+it is the clearest of the war. We are attacking in
+the weather that beat us, from the other side of it."
+
 Witzel read the order back at 1400, both times, every
 annex, in the toneless liturgy that was his form of
 prayer, and appended — unprompted, initialed — the
@@ -189,17 +214,65 @@ said, closing the folder, "may be forgiven them.
 Twenty hundred is the last light check. I have put the
 chaplains on the movement schedule; they asked."
 
+Holt kept the promise about the meter through the
+afternoon, on the half hour, aloud. At 1430 the
+narrows' figure was a hundred and ten an hour. At
+1500 it was ninety, and a captain at the fire-support
+desk said "slackening," with hope in it, and Aakjær,
+passing behind him, corrected the hope without
+slowing: "Banking. He is topping off the assault
+scale. Read it as confirmation — he is proving our
+model at his own expense." At 1530 it was ninety
+again, and Holt read it to the room, and the room
+went on working, and he understood mid-sentence what
+the readings were actually for. The wall already
+carried the number; reading it aloud informed nobody.
+It was the half minute the staff owed. The line was
+paying by the hour for the corps' patience, and the
+operations room could at least stand still every
+thirty minutes and hear the price in its own voice.
+
 The afternoon and evening ran on the movement tables.
 The assault brigades came out of the hides after dark
 in serials the crossing discipline called forward at
 the bridges' own pace — the valve's grammar, third
-conjugation — and passed through Loheide's exhausted
-line at the marrying points his staff had marked with
-hooded lamps, fresh battalions threading between spent
-ones in the dark with the passage-of-lines protocol
-the two divisions had rehearsed once, in October, in
-the exercise whose Endstand had started everything. At
-2330 the last serial reported through. At 0100 the
+conjugation — and the operations room tracked them as
+it now tracked everything, by the two times, on a
+sheet Roloff had ruled that morning with the night's
+passage already divided into its hundred and forty
+serials, and with slack cut into the tables at his
+own initiative, because tables without slack are
+promises of the kind the wall had spent a war
+disproving.
+
+The passage of lines itself ran at the marrying
+points Loheide's staff had marked with hooded lamps:
+fresh battalions threading between spent ones in the
+dark, guides from the line companies walking the lead
+vehicles through their own wire by touch, the
+protocol the two divisions had rehearsed exactly
+once, in October, in the exercise whose Endstand had
+started everything. The reports came back all evening
+in the flat grammar of things going to tables —
+serial through, serial through — and once, at 2107,
+in the other grammar. A Zealand battalion missed its
+window at the second marrying point: its guide
+company had been shelled off its lamps by the night's
+harassing program, three men down, and the battalion
+stood nose to tail on the approach for eleven
+minutes, in range of everything, lit by its own
+engine heat, while the movement net rebuilt the
+sequence around it. The system absorbed the blow. The
+following serials shuffled once; the window was
+re-cut; the battalion passed at 2130 with its eleven
+minutes logged against Roloff's slack. And Loheide's
+men, it came back up the net afterward, had stood up
+out of their positions in the dark as the fresh
+battalions ground through, not cheering — the
+protocol forbade noise — only standing, and watching,
+the way men watch money arrive.
+
+At 2330 the last serial reported through. At 0100 the
 counter-battery count for the enemy's preparation
 crossed the model's committed-past-recovery line, and
 Roloff drew the vertical on the graph and dated it,

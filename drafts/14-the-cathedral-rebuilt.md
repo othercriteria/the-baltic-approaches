@@ -29,15 +29,31 @@ rail totals, read against the order-of-battle dates."
 
 Roloff read them out flatly, week by week: tonnage
 westbound, formations first heard, formations first in
-contact. Somewhere in the second week the room began to
-hear it before anyone said it — Holt felt the arrival a
-half-beat before the words, the now-familiar heat of
-comprehension running just behind the evidence — because
-the rail flow did not pulse. It ran continuous. The
-formations did not appear in blocks. They appeared in
-file, at intervals set by — Lammers got there first, out
-loud, in the tone of a man reading a competitor's
-invoice:
+contact. Aakjær stopped him twice to lay a prisoner
+summary against a date. The first pairing was
+unremarkable. The second was the hinge, though nobody
+knew it for another minute: a motor-rifle sergeant
+captured on the twelfth, insisting under routine
+questioning that his division had been on the road
+since the war's first morning; the interrogator's
+marginal note graded the claim an exaggeration, since
+the division had entered contact only on the eleventh;
+and Aakjær, rereading the margin now with the rail
+dates beside it, said, "Suppose the sergeant is not
+exaggerating," and laid the two papers side by side on
+the table, and turned them to face the room.
+
+The room did its own arithmetic on the two documents.
+A division nine days on the road that arrives on the
+eleventh is a division that traveled at convoy pace
+the whole way, from far back, in line behind others.
+Holt felt the answer arrive a half-beat before the
+words, the now-familiar heat of comprehension running
+just behind the evidence, because the rail flow did
+not pulse. It ran continuous. The formations did not
+appear in blocks. They appeared in file, at intervals
+set by — Lammers got there first, out loud, in the
+tone of a man reading a competitor's invoice:
 
 "By road capacity. Those intervals are march-table
 intervals. That is not an army forming in waves. That is
@@ -162,18 +178,33 @@ Roloff's hand, headed with the only title the staff ever
 used for it: THE DAY. It was empty of dates. Filling it
 was now the corps' entire business.
 
-The staff work filled the next seventy hours. The air
-requests were rewritten — tonnage targets, dumps and
-coast-road convoys, priced in days-added-to-his-
-preparation; close support refused except where the line
-was load-bearing. The corps' own hoarding resumed,
-harder: shells, bridging, and sleep — the three tired
-battalion groups pulled into hides and rested by written
-order, with both times on it, because sleep had entered
-the corps' books as ammunition. And the engineer effort
-turned to the crossing sites on the Schlei and the
-narrows' shoulders — not to hold them; to use them, when
-the day came, in the other direction.
+The staff work filled the next seventy hours, and the
+seventy hours had a taste that nobody on the staff had
+met before, and that Holt, cataloguing it at the time
+in his notebook, could describe only by what it
+replaced. The war's first weeks had run on response:
+the enemy acted, the corps priced the act, the corps
+answered. The staff work of the seventy hours ran on
+intent. Every product on every desk existed to serve
+one computed morning that had not happened yet, and
+the change showed up in small places first: the
+duty officers' questions changed tense; the
+fire-support cell began refusing requests with the
+phrase "held against the day," which no order had
+issued to them; a queue formed at Roloff's desk each
+evening of officers wanting their section's estimates
+checked against the countdown before committing them.
+The air requests were rewritten — tonnage targets,
+dumps and coast-road convoys, priced in
+days-added-to-his-preparation; close support refused
+except where the line was load-bearing. The corps' own
+hoarding resumed, harder: shells, bridging, and sleep —
+the three tired battalion groups pulled into hides and
+rested by written order, with both times on it, because
+sleep had entered the corps' books as ammunition. And
+the engineer effort turned to the crossing sites on the
+Schlei and the narrows' shoulders — not to hold them;
+to use them, when the day came, in the other direction.
 
 Aakjær found Holt at the wall late that night, in front
 of the empty sheet.

@@ -122,6 +122,18 @@ tag text. This file is append-only in practice.*
      presence — DK's "such considerations point to ways to add
      specificity, weight, interest"]
 
+- 2026-07-24, batch 6 (ch. 5): "came down from the telephone
+  with his face in good order" — entrance praised; following
+  paragraph clumsy (actions embedded inside a monologue).
+  [APPLIED — restructured into three speeches with real beats
+  between: the fire-support desk's audible breath gives the
+  no-sneering rebuke an actual target; the turn to Holt gets
+  its own paragraph and a gear change (rebuke to tasking);
+  stage directions no longer live inside quote runs. Standing
+  note: this is the E1 rule at paragraph grain — when a speech
+  needs "he let that stand" or "he turned," the speech wants
+  splitting and the room wants a move]
+
 ## Sequence agreed
 
 1. Length to floors (Parts I/II now; tic budgets held in-pass).

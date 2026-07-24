@@ -123,26 +123,35 @@ good order.
 "Copenhagen and Bonn require the line held forward of Bad
 Segeberg until the civil movement of the eastern districts is
 substantially complete. Substantially is a word being defined
-at this moment by men looking at different maps. The
+at this moment, by men looking at different maps. The
 military-necessity clause is not available to us today. That
 is an order I have accepted, and it is therefore my order."
-He let that stand exactly long enough. "I have told them what
-the holding costs. They have heard the number and taken the
-decision anyway, which is their right and their function, and
-I will not have this staff sneer at it. A government that will
-not spend soldiers to move civilians has forgotten what the
-soldiers are for. Now." He turned to Holt. "They asked me what
-it costs and I gave them a soldier's answer — companies, per
-twelve hours, forward of that line. It was the truth and it
-was not the whole truth, because I do not know the whole
-truth, because this headquarters can count what the holding
-spends and cannot count what the holding buys. Cost it. Both
-sides of it. Today."
+
+Somebody at the fire-support desk let out a breath through
+his teeth. It was not loud. The room was quiet enough to
+make it a statement, and Hvidt found its author without
+appearing to look.
+
+"I have told the capitals what the holding costs. They have
+heard the number and taken the decision anyway, which is
+their right and their function, and this staff will not
+sneer at it. A government that will not spend soldiers to
+move civilians has forgotten what the soldiers are for."
+
+The breath's author studied his desk. Hvidt turned to Holt,
+and his voice changed gear, rebuke to tasking.
+
+"They asked me what it costs and I gave them a soldier's
+answer: companies, per twelve hours, forward of that line.
+It was the truth and it was not the whole truth, because I
+do not know the whole truth. This headquarters can count
+what the holding spends. It cannot count what the holding
+buys. Cost it. Both sides of it. Today."
 
 "Herr General, the reporting system doesn't—"
 
-"I know it doesn't," Hvidt said. "That is the deficiency I am
-naming. Cost it," and he left the room.
+"I know it doesn't. That is the deficiency I am naming.
+Cost it." And he went back up to the telephone.
 
 ---
 

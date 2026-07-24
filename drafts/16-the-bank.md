@@ -10,8 +10,7 @@ logged under the wall's newest metric column, TERRAIN
 VOLUNTARILY RELINQUISHED, in a format that made the
 voluntariness a matter of record. Fires refused except
 where the ground was load-bearing. Activity indices
-falling day over day, because activity was expenditure
-and the corps was saving. The standard reports carried
+falling day over day. The standard reports carried
 all of it upward in the standard formats, and the
 standard formats had no column for on purpose, and by
 the seventeenth day the signals coming back down the chain
@@ -219,9 +218,8 @@ mid-transmission. And beneath the intercept, boxed,
 initialed: HE IS SPENDING FROM THE HOARD. THE DAY IS
 BOUGHT. — AA.
 
-Holt stood before the two sheets: the enemy's guns
-falling silent on their fixed schedule, the corps'
-own bank closed and counted. He took out the
+Holt stood before the two sheets: the enemy's hoard,
+the corps' bank, both counted. He took out the
 notebook, and under the folded message slip's outline
 he wrote the day's last entry and boxed it:
 

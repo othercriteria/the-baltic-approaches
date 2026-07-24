@@ -192,8 +192,8 @@ forming on his desk, in his own unhurried hand, was
 addressed north, and its subject was the Jutland
 operation entire: origins, conduct, culmination,
 lessons. He had summoned the chief of staff to supply
-figures, and Rylski supplied them, exact, sourced,
-against his own reconciliations, because they were
+figures, and Rylski supplied them, exact and sourced,
+checked against his own reconciliations, because they were
 true, and because supplying them was his function, and
 because a chief of staff who has kept honest books does
 not stop keeping them merely on learning what they are

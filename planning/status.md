@@ -541,7 +541,21 @@ mid-sentence and mangles ffi/ffl ligatures — a reviewer fed
 extracted text gets real noise the markdown doesn't have;
 a reviewer fed rendered pages doesn't. Worth pinning the
 next panel's ingestion mode explicitly (rendered pages, or
-extraction after a header-stripping pass).
+extraction after a header-stripping pass). LATER SAME DAY: the
+synthesis-§4 queue is CLOSED — all four funded adds landed
+(Merete letter quoted; Vestergaard seeded ch. 3; Rylski middle
+beat ch. 15; homecoming +2 beats ch. 20), all three paired
+cuts landed (2–3 overlap: narration no longer pre-states
+Aakjær's indicators or Roloff's turnstile point; 14–16
+countdown re-derivation compressed; 9/15 market mechanics
+stated once + in Kjeldsen's mouth), the eight-item polish list
+applied, and DK batch 11 ruled/applied (Loheide borrows the
+fish via the liaison channel, marked — new standing rule:
+coinage crossing an organizational boundary is shown, not
+assumed). Narrative 48,815 (−1,935). REMAINING for successors:
+DK design questions (synthesis §5 + byline), next blind panel
+(PDF, front matter in scope), HDv 100/100 arrival sweep,
+timeline-ledger DK-flag items, raw-archive at session end.
 
 ## Standing DK reminders (loose ends outside the repo)
 

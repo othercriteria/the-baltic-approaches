@@ -230,7 +230,7 @@ He turned off at the intelligence cell without saying good
 night, which was his way, and Holt went on to the operations
 room and stood a while in front of the taped sheets.
 
-The good had a name now, or half of one. Time. But not
+The good had a name now, or half of one. Time — but not
 time in the abstract, not the calendar's time: the distance
 between two schedules, his failing and ours holding, a
 specific, purchasable, spendable thing. The ragged right

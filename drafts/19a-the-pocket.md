@@ -189,8 +189,8 @@ district's two bridges went down on their charges at
 0545 and 0602, each with its movement-control log
 closed out to the minute; the crater plan the elderly
 Oberstleutnant of reserves had maintained since the
-evacuation against, he later noted, no requirement
-anyone had issued him, cost the breakout's second
+evacuation — against, he noted later, no requirement
+anyone had issued him — cost the breakout's second
 regiment its wheeled echelon before noon, and
 carried both times on every charge, because by the
 war's fourth week the old administrator knew no

@@ -99,7 +99,7 @@ axis into our own obstacle."
 
 "And the other column," Zawadzki said, taking off the
 glasses. "The one the folder does not print. This
-operation was approved, I sat in the room, on the
+operation was approved — I sat in the room — on the
 argument that it would be over before it became the
 other kind of war. That argument is the operation.
 The folder does not complete it; the folder confesses

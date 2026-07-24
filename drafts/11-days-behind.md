@@ -48,8 +48,8 @@ late. That is the reconciliation. I recommend it be
 forwarded to theater staff as written."
 
 Zawadzki did not look at the annex. He looked at Rylski,
-for a long moment, with the expression of a man choosing,
-visibly, almost ceremonially choosing, which of two things
+for a long moment, with the expression of a man choosing —
+visibly, almost ceremonially choosing — which of two things
 in front of him to believe.
 
 "Your conclusion is a resignation letter dressed as an

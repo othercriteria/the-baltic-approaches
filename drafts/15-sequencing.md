@@ -7,10 +7,7 @@ They were building the next week's air strategy at the map
 desk: Holt, Kjeldsen, the grease pencil, Aakjær's
 architecture of the enemy pinned above them, Lammers'
 mirror-ledger open. The problem was the eternal one,
-the market's three customers: the land battle's tonnage
-bid, the navy's bid against the invasion fleet, and the
-standing insurance of Zealand, the beach-watch that
-pinned brigades to an empty horizon. Three claims, one
+the market's three customers, three claims and one
 fish, and Kjeldsen had spent an hour restating each claim
 in his own trade's units, sorties per day, days of
 effort, the way he always restated things before he
@@ -309,17 +306,13 @@ And the countdown performed.
 Roloff posted the counter-battery counts each evening
 beside THE DAY: eleven hundred rounds on the
 twenty-third. Nine hundred on the twenty-fourth. Six
-hundred forty on the twenty-fifth. The enemy's guns
-going frugal on their fixed schedule, banking against
-their one great morning, each day's silence sliding
-the pencil line down toward the cross-hatched region
-where Lammers' dump-accumulation model and Aakjær's
-weather table intersected — the region with the dates
-in it. The quieter he got, the closer he was, and the
-wall said so at a glance, and visiting liaison
-officers stood in front of the two sheets, OURS and
-HIS, and understood the campaign in thirty seconds
-without a word of briefing.
+hundred forty on the twenty-fifth. Each day's silence
+slid the pencil line down toward the cross-hatched
+region where Lammers' model and Aakjær's weather
+table intersected — the region with the dates in it —
+and visiting liaison officers stood in front of the
+two sheets, OURS and HIS, and understood the campaign
+in thirty seconds without a word of briefing.
 
 Aakjær appeared at Holt's shoulder on the evening of
 the twenty-fifth, reading the counts.

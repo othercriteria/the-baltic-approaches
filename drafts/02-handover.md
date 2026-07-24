@@ -235,11 +235,7 @@ December and half a million people had marched in Bonn in the
 last week of October; Roloff's wife's sister had taken the
 train from Schleswig to march with them, which Roloff reported
 to nobody, and which the security section noted and filed
-without comment, because it was that kind of autumn. In the
-Baltic the enemy's autumn maneuvers had been extended twice.
-The amphibious rehearsals off Rügen had ended, and the shipping
-had not dispersed to its home ports; the railway traffic east
-of Rostock had thickened week over week since August; and on
+without comment, because it was that kind of autumn. And on
 the second of November Aakjær stood up at the morning briefing
 with the indicator board and said, in the tone of a man
 declining to raise his voice on purpose, that the exercise

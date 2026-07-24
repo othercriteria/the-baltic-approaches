@@ -47,9 +47,7 @@ forms for men reporting without call-up papers and had
 improvised a ledger from a school exercise book, and the
 sergeant responsible wanted it on record that the improvised
 ledger balanced. The whole intake was like that: a country
-reporting for work early. It deserved a better measurement
-than it was getting, which was heads through gates, as if the
-war were a turnstile.
+reporting for work early.
 
 "What doesn't the curve show?" Holt asked him, at some point
 in the afternoon.

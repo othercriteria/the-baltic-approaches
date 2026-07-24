@@ -40,8 +40,10 @@ Recorded so the successor does not over-scrub:
   ironic teachers) — untreated, arguably a feature (student and
   master); flag for DK rather than fix.
 
-## Polish list (em-dash waves' least-sure lines, reviewed and
-queued — none urgent, all for the eventual full line pass)
+## Polish list — APPLIED 2026-07-24 (session @3, same pass as
+the synthesis-§4 cuts; all eight landed, dash budgets rechecked
+9–13 after restorations; ch. 16 pronoun ambiguity in the
+compressed two-sheets line caught and fixed in-pass)
 
 - ch. 06: "Time. But not time in the abstract" — the cut dash was
   the chapter's most earned; consider restoring (budget 10→11).

@@ -77,8 +77,8 @@ asked it without preamble.
 The pause had lasted exactly as long as it needed to. What
 stood in it, unsaid and both men aware of it, was a
 Danish officer in a Danish general's office vouching for a
-German general born in 1901, a man who had been a
-staff officer on the other end of this sea when Hvidt's
+German general born in 1901, a staff officer on the
+other end of this sea when Hvidt's
 country learned what occupation was, and Holt's family
 had learned it too, in Fredericia, where his mother could
 still, at seventy, go silent at the sound of a certain

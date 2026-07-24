@@ -23,7 +23,7 @@ company an hour.
 The fish was never big enough. The theater commander divided
 it every morning by an arithmetic the corps could not see,
 and what arrived, hours later, weather permitting, was what
-arrived. Hvidt's question, who owns this number, went up
+arrived. Hvidt's question — who owns this number? — went up
 the line and came back with a schedule of reinforcing
 squadrons, which was an answer to a different question. The
 corps did not own the number. The corps was a customer, and
@@ -196,8 +196,8 @@ Part three: the front did not notice.
 The pressure on the covering positions did not slacken on
 the sixteenth. It did not slacken on the seventeenth. The
 enemy's lead formations attacked with undiminished weight,
-on their same deliberate heartbeat, fed, the prisoner
-interrogations would establish it weeks later, from dumps
+on their same deliberate heartbeat, fed (the prisoner
+interrogations would establish it weeks later) from dumps
 and columns already west of everything the program had
 struck. The delay the strikes bought was real and it was
 delay to formations the corps would not meet for a week.

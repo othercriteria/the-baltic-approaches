@@ -26,7 +26,7 @@ happens to be true."
 Generał dywizji Stefan Rylski, ten years younger, chief of
 staff, read reports from the bottom, which was where he had
 been raised. He laid the morning's summary on the table like a
-man laying down cards he had already counted.
+man laying down cards already counted.
 
 "The head of the snake is punctual, Comrade General. The lead
 regiments of the Fifth Army stand this morning east of Bad

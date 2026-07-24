@@ -96,8 +96,8 @@ the whole tragedy of the man, and Rylski filed the
 signed sentence with the reconciliation and the two
 documents went north together, one proving the Front
 five days late and the other proving it knew the price
-of its remedy, and between them they were the most
-honest paperwork produced by either side that week.
+of its remedy, and between them they said more truth
+than either alliance's official picture of the week.
 
 From the visitors' corner, pleasantly, to the ceiling,
 Kuragin closed his folder. "A very complete
@@ -177,7 +177,7 @@ the plan restores the plan, and the staff had been
 missing the plan for eleven days the way one misses a
 language.
 
-It was the strangest mood of the war, and nobody named it
+It was a strange mood, and nobody named it
 that morning. The corps had been fighting a wrong-shaped
 enemy for eleven days: too few divisions, too careful, too
 deliberate, a war that matched no rehearsal. Now the

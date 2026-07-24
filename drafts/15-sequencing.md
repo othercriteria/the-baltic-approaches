@@ -97,8 +97,8 @@ here, Herr Oberstløjtnant. The corps deciding what it
 is for, twice before noon. I have told the staff: that
 card is the theater's whole doctrine in eleven words."
 It was accurate, it was generous, it was quotable, and
-it was — Holt could not have said why the observation
-arrived with the click of a logged estimate — the
+it was — Holt could not have said why he filed the
+observation rather than merely enjoying it — the
 sentence of a man who had already imagined it in a
 report.
 
@@ -207,16 +207,36 @@ patience — and what he said, leaving, was: "The
 tradecraft stands. Tell the ferries to be punctual,"
 and was gone before anyone could examine his face.
 
-Lammers ran the westward movement like a man dealt
-aces he had earned, and ran it personally, which he did
+Lammers ran the westward movement personally, which he did
 not need to do and did not explain. The explanation was
 in the October minute: the requisition's two lost days
 were his price made flesh, and he attended the
 consequence the way an engineer attends a bridge built
 over his own objection — determined that if it failed,
-it would fail with him standing on it. It did not fail.
-It ran two hours behind an honest schedule and he
-recovered one of them at the berths.
+it would fail with him standing on it.
+
+The enemy found the run on the second night, as
+Lammers had priced he would: naval strike aircraft
+out of Mecklenburg, at low level, against ferries
+that could neither maneuver nor be spared. The
+fighter screen and the island batteries broke the
+raid apart; one aircraft got through, and its bombs
+straddled a loaded ferry in the Halsskov approach —
+sprung plates, a fire in the vehicle lanes fought
+out at sea, eleven casualties, the berth fouled for
+two hours while she was warped clear. The two hours
+were the raid's whole take, and it had cost the
+regiment that flew it a fifth of its strength
+against an air defense that had spent three weeks
+learning the geometry of its own straits. There was
+no third night's raid. What remained of the enemy's
+naval air was wanted, by then, over the dumps it
+was supposed to be guarding, and the morning-state
+numbers posted the exchange without comment.
+
+The lift did not fail. It ran two hours behind an
+honest schedule and Lammers recovered one of them
+at the berths.
 
 The dividend crossed the Great Belt beginning on the
 twenty-fourth, and it crossed by ferry, because there

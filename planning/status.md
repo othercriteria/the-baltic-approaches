@@ -450,6 +450,26 @@ should attack before drafting:
 6. ~~Unsettle-review #1 above, early and cheap.~~ Done 2026-07-21;
    awaiting DK ruling (see the unsettling's entry above).
 
+**2026-07-25 rulings + state (session 52662a0d):** blind-panel
+round 1 complete (notes/blind-reads/); DK ruled: voice/tic
+campaign GO (surgical tranche done — superlatives/heat-click/
+"like a man"; em-dash bulk pass next); "one tide" recast to
+night/dark (chs. 16, 19 — Baltic tideless, almanac ledger);
+Belt lift attacked materially (ch. 15 second-night raid,
+concordance row 9 closed); front matter first pass accepted
+(byline decision open, three options in apparatus/
+front-matter.md); 19/19a chronology confirmed as-is; HQ
+displacement leaning B (one move, ch. 13/14 seam —
+planning/hq-displacement-brief.md), pending the HDv 100/100
+question below. REPO-PUBLIC AUDIT (same session): tracked
+files, raw transcript archives, and all 208 commits of history
+scanned for key/token/credential patterns — clean; .gitmodules
+relative URL keeps the private submodule unexposed; .envrc is
+"use flake" only; residual risk is holdings TEXT quoted into
+future transcripts (guard covers files only — keep the
+distill-don't-copy discipline). Assessment: GOOD TO PUBLISH;
+the switch is DK's to flip.
+
 ## Standing DK reminders (loose ends outside the repo)
 
 - ~~Create the private GitHub remote and push the holdings repo~~
@@ -474,6 +494,20 @@ should attack before drafting:
   (4-1-78 first) + NIE 11/17-85 + two CIA chemical items
   (shelf.md queue, URLs in chemical-posture.md); Wilson Center
   pair (ex. VAL-77, Maritime Front decision).
+- HDv 100/100 "Führung im Gefecht" (1973 — the edition governing
+  Nov 1983), for the HQ-displacement work (hq-displacement-brief):
+  three routes, cheapest first: (1) FREE NOW — CGSC/CARL digital
+  library + DTIC hold 1980s US student monographs comparing HDv
+  100/100 with FM 100-5 (e.g. cgsc.contentdm.oclc.org item
+  p4013coll2/id/1664), quoting the German doctrine at length —
+  fetch-shelf tier, likely sufficient for CP/displacement
+  triangulation with held FM 71-100/100-5 + Bogason; (2) the
+  Bundesarchiv holds the original (indexed via Deutsche Digitale
+  Bibliothek / Archivportal-D, Führungsakademie provenance) —
+  reproduction request, slow but certain; (3) German antiquarian
+  market (ZVAB/Booklooker/eBay.de) for a physical copy — sporadic
+  listings, VS-NfD long lapsed. DK browser/purchase tier: (3);
+  session tier: (1).
 - Purchases pending, RE-RANKED 2026-07-23 (session eb2fcb4e, on
   the Lautsch substitute corpus — oob-verification.md Addendum 2,
   shelf batch 10): **Lautsch book DEMOTED to wanted-not-blocking**

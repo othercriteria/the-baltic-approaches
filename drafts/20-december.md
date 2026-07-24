@@ -34,8 +34,8 @@ squad's morning, took one worth a battalion's — a
 survey-marker ridge that covered the Sehestedt
 crossing's demolition sites, argued to him by Roloff
 in four sentences of pure geometry and approved in
-one — and declined, on the last afternoon, the war's
-strangest request: a proposal, relayed through Karup
+one — and declined, on the last afternoon, a request
+no format had anticipated: a proposal, relayed through Karup
 with visible embarrassment, that the corps' final
 situation report be timed and worded to support the
 communiqué already drafted in two capitals. "The

@@ -25,7 +25,7 @@ the theater would ever be able to say. For two hours
 there was nothing left for the staff to decide. The machine the wall had built ran, and
 the staff listened to it run, and Lammers stood at the
 expenditure board with his hands behind his back and
-delivered the campaign's shortest situation report:
+delivered the situation entire, in one word:
 "Punctual."
 
 In the operations room the first hour of an attack the
@@ -37,20 +37,19 @@ approach, the fire-support net carrying nothing but
 the guns' own punctuation, and the staff standing at
 a map that would not change for forty more minutes,
 learning the specific helplessness of authors at a
-premiere. Kjeldsen broke it once, at 0538, professional
-and quiet at the air desk: "First wave airborne.
-Ceiling eight hundred and lifting. He is going to have
-the light he was promised." It was the only sentence
-anyone offered the room until 0512, when the
-intercept troop offered the second: the enemy's
-artillery nets were up all along the arc, calling
-stations that did not answer. Whether the stations
-were dead, displacing, or silent by doctrine, the
-summary declined to guess, and Aakjær initialed the
+premiere. The intercept troop offered the room its
+first sentence at 0512: the enemy's artillery nets
+were up all along the arc, calling stations that did
+not answer. Whether the stations were dead,
+displacing, or silent by doctrine, the summary
+declined to guess, and Aakjær initialed the
 declining — OBSERVED: CALLS UNANSWERED. CLAIMED:
-NOTHING — and it went on the wall beside Kjeldsen's
-ceiling, the morning's first observable, and the map
-still had not moved.
+NOTHING — and it went on the wall, the morning's
+first observable. Kjeldsen offered the second at
+0538, professional and quiet at the air desk: "First
+wave airborne. Ceiling eight hundred and lifting. He
+is going to have the light he was promised." Nothing
+else was said in the room until the map moved.
 
 The air came in phases as the light came up, the market's
 fish sequenced days deep: the first wave onto the gun
@@ -214,7 +213,7 @@ is streaming back east along the canal — I am watching
 the recovery vehicles' lights from this position. The
 road to the canal is open, Herr General. My lead brigade
 has fuel and light and the crossing sites behind the
-bridgehead are one tide from ours. Request release of
+bridgehead are one night's work from ours. Request release of
 phase line SPERBER."
 
 "Request denied."

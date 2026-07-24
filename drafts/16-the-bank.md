@@ -70,12 +70,12 @@ may inform the political level that a brigade is a
 fifth of my counterstroke and the answer is no, and
 that the corps declines to lose the war photogenically.
 The floor. Not less than battalion — I heard the
-phrase. Then a battalion it is, reinforced, one tide,
+phrase. Then a battalion it is, reinforced, one night,
 and I choose the sector, and the sector will be the one
 place on this coast where a battalion can buy something
 real while it performs."
 
-Battalion, reinforced, one tide, against the coastal
+Battalion, reinforced, one night, against the coastal
 sector where the enemy's economy was thinnest — a real
 raid with a real, small, nameable military product,
 timed for the morning wire services. "I will spend a
@@ -117,7 +117,7 @@ peninsula striking back. Militarily it bought a
 demolished radar site and a dozen prisoners. Its true
 price appeared nowhere the cameras could film: one
 reinforced battalion's worth of freshness — march
-hours, tide windows, ammunition, sleep — subtracted
+hours, dark hours, ammunition, sleep — subtracted
 from the force being banked for the twenty-eighth,
 and Vestergaard's counterstroke order of battle,
 recomputed that night, carried one assault element at

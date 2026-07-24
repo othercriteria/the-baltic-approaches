@@ -70,8 +70,8 @@ Holt looked at the gaps. "A valve," he said, finally. "It is
 not a route element. It is the valve on everything north.
 The ninety-hour clock, the resupply, the evacuation — every
 promise the corps has made reduces to seconds of plank on
-three crossings, and we are — " he heard it arrive, late,
-with the same heat as the Esbjerg question — "we are running
+three crossings, and we are — " he heard it arrive late,
+as the Esbjerg answer had — "we are running
 the valve on the spacing tables. The gaps are the war, Herr
 General. We are looking at the corps' whole future going
 across in the gaps."

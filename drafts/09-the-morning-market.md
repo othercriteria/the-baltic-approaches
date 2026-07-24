@@ -37,7 +37,7 @@ operations cell, by Holt and Kjeldsen and a pot of coffee
 that Kjeldsen, at some point after two, began referring to as
 the third author.
 
-It was the best staff work of the war so far, and it was
+It was proud, careful staff work, and it was
 built with its eyes open. That mattered afterward, when the
 accounting came; it mattered that no one had been lazy.
 

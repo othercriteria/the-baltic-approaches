@@ -18,7 +18,7 @@ Sassnitz and Rostock and the border crossings; the radio
 order of battle, net by net, with its dates of first
 hearing; the road-serial counts from the air photographs,
 the ones the weather had permitted. He dealt them out in
-rows, like a man laying patience.
+rows, as if laying patience.
 
 "The doctrine's picture, which is my picture of record:
 first operational echelon, then a second operational
@@ -48,7 +48,7 @@ A division nine days on the road that arrives on the
 eleventh is a division that traveled at convoy pace
 the whole way, from far back, in line behind others.
 Holt felt the answer arrive a half-beat before the
-words, the now-familiar heat of comprehension running
+words, running
 just behind the evidence, because the rail flow did
 not pulse. It ran continuous. The formations did not
 appear in blocks. They appeared in file, at intervals
@@ -93,8 +93,7 @@ shells — and Herr General, a man saving up is a man
 visible. Dumps grow. Dumps are photographed. Dumps burn."
 
 "And they tick," Holt said. The piece arrived in his
-hands with the same click he had felt on the embankment
-at Friedrichstadt, whole, machined, waiting. "If he must
+hands whole, machined, waiting. "If he must
 bank an assault scale before the sea's dates, then
 between now and his morning, his daily violence must
 fall. He is on rations too — his guns' silence is his

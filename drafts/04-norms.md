@@ -46,7 +46,29 @@ is in Copenhagen and it is called mobilization, and this
 morning we are ahead of it."
 
 "This morning we are ahead of the part of it we can see,"
-Rylski said.
+Rylski said. He turned the summary to its second page. "And I
+will tell the Comrade General what we cannot see, because it
+is my function. The Front's advance figure is a sum. It is
+assembled from army figures, which are assembled from division
+figures, which are assembled by officers whose entire
+professional formation instructs them that the norm is
+achievable, because the norm is always achievable, because a
+norm that was not achievable would be a criticism of the plan.
+At each level of the sum, the day's kilometers are counted
+from the morning's forwardmost patrol, and the patrol is not
+the division any more than the division is the army. I do not
+say the figure is false. I say it is built the way a wall is
+plastered — each layer smooths the one beneath. Somewhere
+under the plaster is the actual wall, and I estimate we will
+first touch it at the fuel state, because fuel is the one
+return that cannot flatter. A tank that reports its position
+optimistically still burns diesel from where it actually is."
+
+"You are describing every army that has ever marched," said
+Zawadzki. "Including the one across the water, Stefan.
+Including theirs."
+
+"Yes, Comrade General. That is the one comfort in it."
 
 In the corner allotted to visitors, General-mayor Kuragin, the
 theater's representative, sat with his own program folded in
@@ -79,15 +101,27 @@ DELAY SOUTH OF PLANNED TEMPO. DEMOLITION BELT ALFA EXECUTED
 ARMOR 1:4.2. ALL SYSTEMS 1:3.1. OWN LOSSES WITHIN PLANNING
 RATE.
 
-The ratios had a pedigree. Unit claims, collected by brigades,
-reduced by a factor a committee had fixed in 1979 after a
-study of exercise umpiring, and carried to one decimal place.
-The decimal place was the shine. Nothing with a decimal place
-looks like a guess, and the whole line was a guess wearing an
-instrument's clothing — but on the ninth of November there
-were no umpires, and the claims were coming from companies in
-contact reporting hits on an enemy who kept coming, at night,
-through his own dead.
+The ratios had a pedigree, and Holt knew it, because the
+pedigree lived in his own filing. Unit claims, collected by
+brigades, consolidated at division, reduced by a factor a
+committee had fixed in 1979 after a study of exercise
+umpiring — the study had compared claims against umpire
+assessments across four autumns and derived a correction, and
+the correction had been promulgated, and from that year
+forward every exchange ratio in the corps' reporting carried
+the committee's arithmetic inside it the way bread carries
+yeast. Then it was carried to one decimal place. The decimal
+place was the shine. Nothing with a decimal place looks like a
+guess, and the whole line was a guess wearing an instrument's
+clothing — but on the ninth of November there were no umpires.
+The claims were coming from companies in contact, at night, in
+rain, reporting hits on an enemy who kept coming through his
+own dead, and the 1979 factor had been derived from exercises
+in which nobody had ever kept coming, because at ENDEX
+everyone went home. Nobody in the reporting chain was lying.
+Every man in it was rounding toward hope, and the chain was
+long, and the roundings compounded, and what arrived at the
+top wore a decimal place.
 
 At the morning conference Hvidt repeated the number the way a
 man tests coins on stone. "One to four point two. If it is
@@ -128,6 +162,18 @@ enemy in front of us is not yet the enemy the plan was written
 against, and the difference decides the campaign. Where is the
 mass, and when does it arrive, and what does it do to every
 number on this wall when it does?"
+
+"And your instrument for choosing?" Hvidt asked.
+
+"Radio order of battle, Herr General. If the ratio is real,
+his surviving nets consolidate — that has a sound, and my
+intercept troop at Stadum knows it. If the mass is coming, the
+new army brings new nets, new disciplines, a different rhythm
+of traffic on the Rostock lines — that also has a sound. Two
+days of listening should separate them, if the weather lets
+the direction-finding baseline work, and if he makes the
+mistake of speaking. He has been very good, so far, about not
+speaking."
 
 "Choose by Thursday," Hvidt said. "I would prefer to know
 which enemy owns the mass before I spend mine against the

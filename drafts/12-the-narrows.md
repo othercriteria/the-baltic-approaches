@@ -7,16 +7,33 @@ entitled to describe the day the corps nearly died.
 It began with the weather winning. Of the forty deep
 sorties built into the maximum program for the thirteenth,
 six flew before noon. The ceiling came down to two hundred
-meters at dawn and sat on the peninsula like a lid, and
-the second echelon the program had been built to strike
-moved up beneath the cloud, dry, unphotographed, on the
-approach routes the corps had memorized and could not
-reach. Kjeldsen stood at the air desk through the morning
-with the silent decency not to say what he had said about
-the season when it could still have changed something, and
-at 0715 he said the only thing left to say, which was:
-"Rebid at this evening's market. Close support, everything
-they will give us, under the cloud." 
+meters at dawn and sat on the peninsula, and the second
+echelon the program had been built to strike moved up
+beneath the cloud, dry, unphotographed, on the approach
+routes the corps had memorized and could not reach.
+
+Kjeldsen had the meteorological watch's 0500 report in
+his hand when Holt came into the operations room, and
+handed it over in silence. He had argued against the
+season and been overruled by the consensus; the consensus
+had included Holt; and the front that was now delivering
+the two-hundred-meter ceiling had been on the watch's
+charts for two days, moving at the speed such fronts
+move in November, which is to say at the speed of the
+whole argument's collapse. He stood at the air desk
+through the morning with the decency to leave all of
+that unsaid, and at 0715 he said the only useful
+sentence available: "Rebid at this evening's market.
+Close support, everything they will give us, under the
+cloud."
+
+"And the program's sorties already loaded?"
+
+"Being re-armed for low work now, on my authority, since
+0430. I decided the market would agree with me faster
+than it could meet." It was the morning's one piece of
+good staff work that cost nothing, and it saved the
+afternoon. 
 
 The blow fell at 0805, and it fell on the Schlei shoulder.
 
@@ -129,16 +146,57 @@ fires west, and signed, and the release went out at 1040,
 and it was wrong.
 
 It was wrong by ninety minutes, which is how long it took
-the eastern shoulder — the Schlei side, the main effort,
-fixed until then by nothing but its own patience — to come
-on, into a defense whose massed fires were committed at
-the other end of the narrows and could not re-lay by
-batteries in less than an hour. The eastern brigade's
-line broke at 1210. The report that said so had a
-battalion's name in it, and the battalion was the one
-whose commander banked in Kolding, and the wall did not
-permit the coincidence to be filed as anything but what
-it was.
+the eastern shoulder to come on. The Schlei side was the
+main effort; it had been fixed until then by nothing but
+its own patience; and it came on into a defense whose
+massed fires were committed at the other end of the
+narrows and could not re-lay by batteries in less than an
+hour.
+
+Holt spent part of the ninety minutes at the
+counter-battery board, because the board was where the
+error would show first if it was going to show, and he
+has left an account of the interval in the operations
+journal that consists entirely of times and grid
+squares and is therefore exact: the eastern sector's
+acoustic plots thickening from 1105; the request from
+the Danish division's artillery regiment at 1131 for
+priority of fires, deferred by the standing release;
+the second request at 1152, upgraded to urgent, deferred
+again because the release order said west and orders
+mean what they say. At 1158 he began drafting the
+amendment. Drafting takes minutes. The enemy's
+preparation on the eastern shoulder began at 1204, and
+the eastern brigade's line broke at 1210, and the
+amendment went out at 1213, re-laying by batteries into
+a fight already decided at the company level.
+
+The report that said so had a battalion's name in it.
+The battalion was the one whose commander banked in
+Kolding, and the wall did not permit the coincidence to
+be filed as anything but what it was.
+
+The eastern fight between 1210 and 1225 belonged to
+Vestergaard, and the corps saw it only as the corps
+sees anything, through handsets and grease pencil. What
+it saw: a division commander whose line had broken in
+his second full battle refusing to describe it as
+broken, on the grounds that a break is a hole with
+nothing behind it and he had something behind it. His
+engineers were already fighting as infantry by his
+morning report; at 1216 his divisional reconnaissance
+squadron went in dismounted to hold a farm complex at
+the penetration's tip; at 1221 he was heard on his own
+net, level as a tide table, ordering his reserve
+battalion commander to counterattack "at your best
+speed and no faster; arrive as a battalion." The corps
+staff, listening, learned something about the Jutland
+Division that its closing-state percentages had never
+carried, and Aakjær put a word to it at the plexiglass,
+quietly, for the record he kept in his head: "He is
+spending it well. Note that the corps has never once
+priced the difference between spending and spending
+well. It is the largest number on no board we own."
 
 At 1225 Hvidt committed the reserve — not all of it. That
 was its own argument, thirty seconds of it, at the

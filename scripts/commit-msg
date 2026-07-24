@@ -1,0 +1,33 @@
+#!/bin/sh
+# commit-msg hook: stamp measured word counts into every commit
+# that touches drafts/. Counts the STAGED content (git show :file),
+# not the working tree, so the trailer is ground truth for the
+# commit it rides on. Motivated by session 52662a0d, which three
+# times asserted predicted counts in commit messages; in a project
+# whose subject is scheduled-vs-actual, the actual gets measured
+# by the machine. Install: make hooks.
+
+msgfile="$1"
+
+# skip merges, and skip if already stamped (amend/rebase)
+grep -q "^Wordcount:" "$msgfile" && exit 0
+
+staged=$(git diff --cached --name-only --diff-filter=ACMR -- 'drafts/*.md')
+[ -z "$staged" ] && exit 0
+
+total=0
+for f in $(git ls-files -- 'drafts/*.md'); do
+    n=$(git show :"$f" 2>/dev/null | wc -w)
+    total=$((total + n))
+done
+
+{
+    echo ""
+    echo "Wordcount: $total narrative (staged state)"
+    for f in $staged; do
+        n=$(git show :"$f" 2>/dev/null | wc -w)
+        echo "Chapter-wc: ${f#drafts/} $n"
+    done
+} >> "$msgfile"
+
+exit 0

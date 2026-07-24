@@ -71,7 +71,16 @@ clean:
 # binaries and flattened holdings/ paths from the public repo)
 hooks:
 	@ln -sf ../../scripts/pre-commit .git/hooks/pre-commit
+	@ln -sf ../../scripts/commit-msg .git/hooks/commit-msg
 	@echo "Installed .git/hooks/pre-commit -> scripts/pre-commit"
+	@echo "Installed .git/hooks/commit-msg -> scripts/commit-msg (wordcount stamp)"
+
+# Measured bookkeeping — never hand-state these numbers
+counts:
+	@python3 scripts/counts.py
+
+tics:
+	@sh scripts/tics.sh
 
 # Wargame instrument
 test:

@@ -63,6 +63,27 @@ profession and I have never seen it fail."
 "Everything eats," said Zawadzki. "Armies are a way of
 choosing who eats first."
 
+"Then the choice, stated as I must state it for the
+movement order. The second echelon's commitment
+requires the crossings at Sehestedt for seventy-two
+hours at capacity. The daily flow that currently feeds
+the engaged armies uses the same crossings. For three
+days the Front will be feeding its future at the
+expense of its present, and the present is in contact.
+I request the Comrade General's signature on that
+sentence, in those words, because the armies will feel
+it by the second day and I want the record to show the
+Front chose it rather than suffered it."
+
+Zawadzki signed it in those words. He was a believer;
+he had never once been an evader; the distinction was
+the whole tragedy of the man, and Rylski filed the
+signed sentence with the reconciliation and the two
+documents went north together, one proving the Front
+five days late and the other proving it knew the price
+of its remedy, and between them they were the most
+honest paperwork produced by either side that week.
+
 From the visitors' corner, pleasantly, to the ceiling,
 Kuragin closed his folder. "A very complete
 reconciliation," he said. "I will send my own note
@@ -186,13 +207,24 @@ are different deployments. They point at different
 places. And we have built tomorrow's maximum air effort
 as if we knew which one we are watching."
 
-Holt stood with it. The air program was built; the
-market's allocation was won; changing the read now cost a
-day of the theater's weight, and the indicators graded
-the same either way for at least another forty-eight
-hours. He did the sum the way he had learned to do sums,
-and it came out where operational sums usually come out:
-with the schedule.
+Holt stood with it, and gave the objection its full
+hearing, and the hearing is worth recording because
+every step of it was sound. The air program was built;
+the market's allocation was won; changing the read now
+cost a day of the theater's weight at the exact moment
+the weight mattered most. The indicators graded the
+same either way for at least another forty-eight
+hours; Aakjær himself had said the discrimination
+could not yet be made. A maximum deep effort against
+the approach routes served both readings partially:
+if the mass came to widen, the routes were its
+deployment; if it came to finish, the routes were its
+supply. Partial service to both hypotheses, at the
+price of full service to neither; a hedged program;
+defensible in any court the war could convene. He did
+the sum with every discipline the wall had taught him,
+and it came out where operational sums usually come
+out: with the schedule.
 
 "File the alternate read," he said. "On the wall, dated,
 yours. If the indicators split, we re-bid the market that

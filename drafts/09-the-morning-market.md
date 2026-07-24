@@ -13,7 +13,7 @@ bunker under a heath. Three customers came to the stall every
 morning and bid for the same fish. Air defense of the region
 wanted sorties for the standing patrols and the airfields'
 own survival. The maritime war wanted them for the invasion
-fleet that had assembled off Rügen and refused to disperse —
+fleet that had assembled off Rügen and refused to disperse:
 Aakjær's quiet Baltic, no longer quiet, a shelf of amphibious
 shipping and escorts that pinned half the Danish army to its
 beaches by existing. And the land battle wanted them for the
@@ -23,7 +23,7 @@ company an hour.
 The fish was never big enough. The theater commander divided
 it every morning by an arithmetic the corps could not see,
 and what arrived, hours later, weather permitting, was what
-arrived. Hvidt's question — who owns this number — went up
+arrived. Hvidt's question, who owns this number, went up
 the line and came back with a schedule of reinforcing
 squadrons, which was an answer to a different question. The
 corps did not own the number. The corps was a customer, and
@@ -43,9 +43,9 @@ accounting came; it mattered that no one had been lazy.
 
 The reasoning stood up like carpentry. The corps' front was
 being ground by artillery that outnumbered its own tubes
-four to one — Loheide's brief had said so in figures. The
-enemy's second echelon — the mass Aakjær could not find in
-contact — was assessed marshaling east of Lübeck, moving on
+four to one. Loheide's brief had said so in figures. The
+enemy's second echelon, the mass Aakjær could not find in
+contact, was assessed marshaling east of Lübeck, moving on
 the rail lines the corps had memorized: Bad Kleinen,
 Herrnburg, the coastal line, arteries with names and
 timetables. Strike the movement before it deployed, said the
@@ -58,9 +58,9 @@ depth instead of a day at the front.
 o'clock. "I want them written, because I am about to bid my
 whole trade's credibility on them. One: the mass exists and
 is where the assessment puts it. Two: the weather gives us
-the strike windows — November, gentlemen, I price that
+the strike windows. November, gentlemen, I price that
 myself at even money and no better. Three: the deep targets
-outbid the close ones — that a rail cut east of Bad Kleinen
+outbid the close ones, that a rail cut east of Bad Kleinen
 buys the corps more than the same load on the guns that are
 milling the Sixth's infantry tonight. The first is the
 G-2's. The second is God's. The third —" he tapped the
@@ -69,7 +69,7 @@ it, in any war I have read about. It is the doctrine's
 promise, not a measurement."
 
 "Then we bid it as what it is," Holt said. "Assessed, not
-known. And we ask for the program as a program — the whole
+known. And we ask for the program as a program: the whole
 weight for twenty-four hours, or nothing. Half measures
 spend the same sorties and cut no line."
 
@@ -77,13 +77,13 @@ The bid went to the market at 0710, and for once the corps
 listened to the whole conference, Holt on the second
 handset, Kjeldsen at the air desk with the program open.
 
-The market had its liturgy. The weather brief first — a
+The market had its liturgy. The weather brief first: a
 front coming through by afternoon, windows before it. Then
 the customers, in the standing order. Air defense bid its
 minimum, in the voice of a man protecting the stall itself:
 patrols, and eight aircraft held for the fields. The
 maritime desk bid against the fleet off Rügen, and bid
-well — the shipping was assessed loading, the strike window
+well: the shipping was assessed loading, the strike window
 before the front was the best in five days, and hulls,
 said the maritime voice, do not repair the way rail
 embankments repair. Then the corps' liaison laid in the
@@ -91,8 +91,8 @@ deep program, entire: the rail triangle east of Bad
 Kleinen, the Herrnburg line bridge, the march routes, the
 whole weight for twenty-four hours or nothing.
 
-The theater commander — a tired Danish voice the corps
-knew only as a signature block — let the stall go quiet
+The theater commander, a tired Danish voice the corps
+knew only as a signature block, let the stall go quiet
 for a moment.
 
 "Two questions to the corps. Your program buys delay on
@@ -128,7 +128,7 @@ operations cell felt what winning the market felt like.
 The program went out to the wings by 0900, and the
 cell spent the rest of the morning with the
 particular lightness of a staff whose biggest
-argument has just been accepted somewhere else — the
+argument has just been accepted somewhere else. The
 duty officers found reasons to mention the allocation
 to the brigades' liaison desks, and the brigades'
 liaison desks, whose divisions would spend the same
@@ -158,7 +158,7 @@ declared state had been optimistic, and the optimism
 compounded down the morning's program like interest.
 Kjeldsen read the second signal, walked to the wall,
 and pinned the October exercise's sortie summary
-beside the day's sheet — the two hundred and twelve
+beside the day's sheet: the two hundred and twelve
 flown, the two-thirds scored effective, the third
 bought at full price and never audited. "In October I
 told the commander I did not know what the missing
@@ -179,12 +179,12 @@ line; a march serial caught in open column on the
 Gadebusch road and gutted. The prints came up from
 Karup by courier at midday, still smelling of
 fixer, and the interpretation cell's annotations
-were models of the trade — CUT CONFIRMED, BOTH
+were models of the trade: CUT CONFIRMED, BOTH
 TRACKS, CRATERING THROUGH BALLAST; REPAIR TRAINS
-OBSERVED 0715 — and the staff passed them around
-the map table with the quiet of men being proven
+OBSERVED 0715. The staff passed them around the
+map table with the quiet of men being proven
 right. The photographs were unambiguous.
-Delay was imposed — real delay, measurable, the enemy's
+Delay was imposed: real delay, measurable, the enemy's
 engineers filmed working through the night. On the
 projected-versus-observed sheet the projected column filled
 with modest, defensible entries. A man whose theory has
@@ -196,8 +196,8 @@ Part three: the front did not notice.
 The pressure on the covering positions did not slacken on
 the sixteenth. It did not slacken on the seventeenth. The
 enemy's lead formations attacked with undiminished weight,
-on their same deliberate heartbeat, fed — the prisoner
-interrogations would establish it weeks later — from dumps
+on their same deliberate heartbeat, fed, the prisoner
+interrogations would establish it weeks later, from dumps
 and columns already west of everything the program had
 struck. The delay the strikes bought was real and it was
 delay to formations the corps would not meet for a week.
@@ -209,9 +209,9 @@ them.
 
 The Sixth's daily loss returns for the sixteenth and
 seventeenth arrived in the new format, both times, no
-comment. Panzergrenadierbataillon 172 — the northern
+comment. Panzergrenadierbataillon 172, the northern
 brigade's second battalion, the one that had held the
-Segeberg road shoulder since the eleventh — came off the
+Segeberg road shoulder since the eleventh, came off the
 line on the seventeenth at forty percent, its companies
 commanded by lieutenants, and went into the woods behind
 Nortorf to receive replacements who arrived in trickles
@@ -238,10 +238,10 @@ out loud.
 They had it at Loheide's forward command post instead, in a
 farm complex in the Aukrug woods, where Hvidt took Holt on
 the eighteenth and where nobody offered anybody coffee.
-The command post occupied the farm's brick byre — map
+The command post occupied the farm's brick byre: map
 boards wired to the stanchions, cable runs stapled up
-the whitewash — and the family's furniture stood
-stacked under tarpaulins in the yard with a Feldjäger
+the whitewash. The family's furniture stood stacked
+under tarpaulins in the yard with a Feldjäger
 posted on it, because the division had been nine days
 fighting on its soldiers' home ground, and the guarded
 furniture was the first thing Hvidt looked at on
@@ -253,7 +253,7 @@ not reproach. He briefed, and the brief was the reproach.
 
 "My obstacle belt works as designed. Better than designed.
 The enemy is held close, he masses to breach, his columns
-bunch behind each belt — a gunner's dream, gentlemen, the
+bunch behind each belt: a gunner's dream, gentlemen, the
 manual's own picture. And my guns cannot service the dream,
 because his counter-preparation arrives first, every time,
 because the belt that holds him close also shortens the
@@ -281,7 +281,7 @@ the exchange rate runs, and it runs in men, and they are
 my men."
 
 "And if I told you," Hvidt said, "that the corps does not
-yet know how to decide it — that we allocate by argument
+yet know how to decide it: that we allocate by argument
 between two doctrines, morning by morning, at a market?"
 
 "Then I would say, Herr General, that the enemy's guns are
@@ -310,17 +310,17 @@ list it."
 is the campaign's question, but by God it will list it."
 
 The promised dinner was eaten standing, from the
-staff's own kettle — boiled potatoes, tinned sausage,
-a mustard somebody's wife had put up in peacetime —
-and Loheide talked about the beet harvest until the
+staff's own kettle: boiled potatoes, tinned sausage,
+a mustard somebody's wife had put up in peacetime.
+Loheide talked about the beet harvest until the
 cars came round, because he had already said what he
 had sent for them to hear.
 
 They drove back west into a low red evening, twenty
 kilometers of it in silence, past a crossroads where
-military police were passing a civil column eastward —
+military police were passing a civil column eastward:
 thirty vehicles, mattresses on the roofs, a child's
-bicycle strapped over a boot lid — and Hvidt watched it
+bicycle strapped over a boot lid. Hvidt watched it
 out the window and then said: "Both correct. That is the
 sentence I am keeping. When two correct arithmetics
 collide, Herr Oberstløjtnant, the collision is never about
@@ -341,8 +341,8 @@ Oberstløjtnant, has he."
 The corps returned to the market on the eighteenth a
 changed customer. The day's bid, built by Kjeldsen and
 signed by Holt, asked for close support against the
-artillery groupings, weather permitting, and carried —
-at Holt's insistence, over nobody's objection — a
+artillery groupings, weather permitting, and carried,
+at Holt's insistence, over nobody's objection, a
 paragraph the market had never before received from any
 customer: an assessment of the corps' own previous bid
 against its observed results, the three-fifths flown,
@@ -363,8 +363,8 @@ war's.
 
 Holt stood in front of it a long time after the night
 shift settled, with his notebook unopened in his hand.
-Every number the corps trusted, it now kept honestly — two
-times, two inks, the whole apparatus of the wall — and
+Every number the corps trusted, it now kept honestly: two
+times, two inks, the whole apparatus of the wall. And
 every number on the wall was a number about the corps.
 The numbers that had governed the last three days were
 numbers about the enemy: where his mass was, what his guns

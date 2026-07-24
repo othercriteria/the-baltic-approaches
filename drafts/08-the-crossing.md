@@ -20,25 +20,25 @@ that only later: fifty minutes west behind a fuel convoy
 the cars could not pass, the commander's pennant taking
 its place in the queue like any other vehicle, because
 the escort had been forbidden to clear a lane. Hvidt
-spent the fifty minutes reading the verges — a
+spent the fifty minutes reading the verges: a
 broken-down transporter with its crew asleep on the
 load, a civil bus full of children pulled over to let
-the guns go by — and said nothing, and let the road do
+the guns go by. He said nothing, and let the road do
 the briefing.
 
 The fact, from the embankment at Friedrichstadt, looked like
-this. Southbound: the tail of the Danish division — the
+this. Southbound: the tail of the Danish division, the
 second battalion of a brigade, self-propelled guns under
-netting, bridging sections at walking pace, fuel trucks —
+netting, bridging sections at walking pace, fuel trucks,
 each vehicle paying its toll of eleven to thirteen seconds of
 bridge and running north into the gray. Northbound, on the
 verge, waiting their windows: a recovered tank on a
 transporter, two ambulances, empty civil buses going back for
 tomorrow's columns. Down at the control point the movement
 lieutenant worked his signal lamp and his clipboard in a
-rhythm that had visibly long since stopped being conscious —
-serial called, serial crossing, serial gone, pencil stroke —
-and Hvidt watched the whole circulation the way a doctor
+rhythm that had visibly long since stopped being conscious:
+serial called, serial crossing, serial gone, pencil stroke.
+Hvidt watched the whole circulation the way a doctor
 watches a vein, without comment, for the better part of an
 hour, and Holt stood beside him and got wet and understood
 nothing until the nothing itself began to shout.
@@ -57,18 +57,18 @@ perfect. Every gap was somebody's compliance.
 
 "A route element operating at capacity, Herr General." It was
 the annex's sentence, and it died in the drizzle as he said
-it. The lieutenant down at the control point — the signal
-lamp, the clipboard, the log that was already famous in one
-headquarters — called a serial forward; the serial came up
-the approach at the interval its march table prescribed,
-crossed, and was gone, and the bridge stood empty again,
-holding its four hundred meters of air.
+it. The lieutenant down at the control point, with the
+signal lamp, the clipboard, the log that was already famous
+in one headquarters, called a serial forward; the serial
+came up the approach at the interval its march table
+prescribed, crossed, and was gone, and the bridge stood
+empty again, holding its four hundred meters of air.
 
 "Look at the gaps and try again."
 
 Holt looked at the gaps. "A valve," he said, finally. "It is
 not a route element. It is the valve on everything north.
-The ninety-hour clock, the resupply, the evacuation — every
+The ninety-hour clock, the resupply, the evacuation: every
 promise the corps has made reduces to seconds of plank on
 three crossings, and we are — " he heard it arrive late,
 as the Esbjerg answer had — "we are running
@@ -89,8 +89,8 @@ clock — who serves the crossing?"
 "Nobody, Herr General."
 
 "Nobody. Every stage has an owner and the chain has none.
-The plan wrote the division's arrival as a sum — mobilize,
-issue, march, cross, occupy — as if the stages were fields
+The plan wrote the division's arrival as a sum: mobilize,
+issue, march, cross, occupy, as if the stages were fields
 in a form. They are not a sum. They are a chain, and the
 chain moves at the pace of its narrowest link, and the
 narrowest link is that bridge, and the bridge has no
@@ -98,8 +98,8 @@ colonel." He said it without heat, which had already become
 the thing the staff found most alarming about him. "I have
 been asking this headquarters for a week who owns each
 number. I have been asking one number short. Somebody must
-own the chain itself — the whole argument, mobilization to
-battle position — and be judged on nothing else. Not the
+own the chain itself, the whole argument from mobilization
+to battle position, and be judged on nothing else. Not the
 depots' pride. Not the march tables' elegance. Vehicles
 north per day, and the emptiness of that bridge his
 personal enemy. That is a new job, Herr Oberstløjtnant. It
@@ -120,10 +120,10 @@ arrive from three capitals as sealed weather, and the
 rationing of Yellow-3 arrive from his own pen the same way,
 and he had begun keeping a private discipline: any order that
 would spend other men's hours got built in a room with the
-men who owned the objections. It cost time — an argued
+men who owned the objections. It cost time: an argued
 order is slower than a signed one, and he logged the
 cost honestly, forty minutes on the first order, above
-two hours on the second — and he logged it as a
+two hours on the second. He logged it as a
 purchase, because by the third draft the objections
 the arguing had surfaced were each order's best
 paragraphs.
@@ -204,10 +204,10 @@ captain the drafting of half of it.
 
 The third order created nothing. It stopped things. Engineer
 effort came off two route improvements with their own green
-boards and went entire onto the crossing complex — approach
+boards and went entire onto the crossing complex: approach
 repair, redundant ferry sites, the umbrella, the decoy. The
-verb that governed the order was *nachgeordnet* —
-subordinated — and Witzel, countersigning the battle-rhythm
+verb that governed the order was *nachgeordnet*,
+subordinated, and Witzel, countersigning the battle-rhythm
 changes it forced, read the draft twice and made the single
 comment the staff would quote for weeks: "You are aware,
 Herr Oberstløjtnant, that you have just ordered two
@@ -234,11 +234,11 @@ at Schwabstedt halved; the rail bridge at Sorgbrück, which
 had been passing ammunition trains and nothing else, began
 passing tracked vehicles on flatcars in the intervals
 between them, because Lammers had sat down with the loading
-tables himself and found the intervals — the bridge's
+tables himself and found the intervals. The bridge's
 day, it emerged, was still governed by peacetime
 block-working rules nobody had rescinded, and the
 rescinding took one signature and returned four train
-paths a day — and the Danish
+paths a day. And the Danish
 division's closing state, which had crawled for six days,
 moved — for the first time since the clock started, faster
 than the revised projection.
@@ -249,9 +249,9 @@ the complex twice on the fifteenth, at height; that
 night the batteries that could reach the Eider spent
 an hour's ammunition on the dummy bridging at
 Süderstapel, methodically, in the rain, and the
-engineer captain — whose objection to the half
+engineer captain, whose objection to the half
 spacing stood in the second order, written and
-named — read the shelling report to the morning
+named, read the shelling report to the morning
 conference and permitted himself one sentence of
 theater: "The regiment's shells have arrived, Herr
 Oberstløjtnant, four kilometers south of the
@@ -291,7 +291,7 @@ have fired, in seven days, one hundred and eighty percent of
 the planning rate the stocks were sited against. The forward
 sites are drawing down; the theater reserve is a promise
 with a sea voyage in it. At current expenditure the curves
-cross in nine days. I can move the date by convoy — and the
+cross in nine days. I can move the date by convoy. And the
 convoys use the same roads and the same crossings as
 everything else this staff has just learned to worship."
 
@@ -311,7 +311,7 @@ Herr General, since the room is owning things tonight.
 Somewhere across the water a thin man with my job is
 watching his own curves cross. His bridging is his plank
 seconds; his fuel is his rounds. If our curves have a date
-nine days out, his have a date too — and I observe that
+nine days out, his have a date too. And I observe that
 this staff, which has learned in one week to see its own
 war as arithmetic, still reports his war as weather. It is
 not weather. It is a problem set, worked by tired men, on

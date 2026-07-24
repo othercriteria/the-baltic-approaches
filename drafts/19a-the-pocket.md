@@ -6,7 +6,7 @@ the staff did it beautifully.
 White flags at battalion level on the southern arc.
 Radio silence across the pocket's nets. The deserter
 colonel's testimony about the dumps, corroborating the
-wall's own curves — the instrument vindicated by a
+wall's own curves: the instrument vindicated by a
 witness, which no instrument can resist. Aakjær's
 assessment stood on the board in the morning light, CUT
 ARMY ASSESSED COMBAT-INEFFECTIVE, and the corps began,
@@ -21,7 +21,7 @@ wall said so.
 
 Roloff's re-pinned sheet from the twenty-fifth hung
 beside the assessment: the silence that had meant
-preparation. At the 0900 conference nobody raised it —
+preparation. At the 0900 conference nobody raised it.
 Roloff was off shift, sleeping his ordered six hours,
 and the sheet had no initials requesting attention,
 because Roloff did not editorialize, even by pin. Holt
@@ -30,9 +30,9 @@ he had seen it: two sheets side by side, silence read as
 collapse and silence read as intent, the wall holding up
 both readings the way it had held up Aakjær's alternate
 on the morning of the narrows. He weighed it for the
-length of one breath — a beaten army was not a preparing
+length of one breath: a beaten army was not a preparing
 army; the deserter's dumps were empty; the flags were
-white — and he initialed the readjustment, NH in the
+white. And he initialed the readjustment, NH in the
 block, endorsing the assessment over the sheet, and the
 order went out at 0940, and the corps' inner line
 thinned through the afternoon in good order, by the
@@ -47,9 +47,9 @@ The corps learned of it from the bottom, at once, in
 plain grammar. The hinge company's CONTACT, ARMOR,
 BATTALION PLUS came up the net at 0343 and stood on
 the log for four minutes as an isolated fact, and at
-0347 the night duty officer — a Danish captain of
+0347 the night duty officer, a Danish captain of
 artillery whom three weeks of the wall had taught to
-read a report against the map before filing it — laid
+read a report against the map before filing it, laid
 the grid reference on the overlay, saw a battalion
 and more of armor pointed at a company and a half of
 frontage with a thinned line behind it, and woke the
@@ -65,8 +65,8 @@ sweater he had slept in, and the first minute of his
 morning has its own entry in the operations journal,
 because the clerk logged what he saw: the G-3
 touched nothing, moved nothing, and stood in front
-of the two sheets — the assessment and the re-pinned
-silence — reading them in the changed light. Then he
+of the two sheets, the assessment and the re-pinned
+silence, reading them in the changed light. Then he
 went to work with the receiver in one hand and the
 readjustment order's distribution list in the other,
 because the order was twenty hours old and
@@ -135,16 +135,16 @@ discipline, and the forty minutes were the corps'
 whole working capital that morning.
 
 The corps fought its rear-area battle with what a corps
-has at 0400: not shells — the bank was spent and the
-program fired; not fresh reserves — the freshest were
+has at 0400: not shells, the bank was spent and the
+program fired; not fresh reserves, the freshest were
 eight hours into a rearward march by their own thinning
 order; but movement control, and demolitions, and
 Territorial companies, and the terrible competence of
 tired professionals. The valve's grammar ran a third
 time, in its third direction: the movement-control net
 turned the rearward marches around on their own
-tables — Loheide's regulars, who had been promised
-rest and received a map reference — while the engineer
+tables, Loheide's regulars who had been promised
+rest and received a map reference, while the engineer
 captain from the Eider orders fired the prepared
 charges on the two district bridges that fed the
 breach's flank, dropping them onto the axis he had
@@ -156,7 +156,7 @@ At Assembly Point 14 the replenishment point had
 twenty-two men, a guard platoon's worth of rifles, a
 lieutenant of supply troops, and seventeen trucks, and
 the battle reached it at 0510 as a sound the lieutenant
-first logged — the report survives — as OWN ARMOR,
+first logged, the report survives, as OWN ARMOR,
 QUERY. The query died with the first tank round into
 the plane trees. What followed, the after-action
 report rendered in movement-control grammar, because
@@ -175,8 +175,8 @@ mercilessness: DRIVER CASUALTIES THE DIFFERENCE); the
 guard platoon's stand along the schoolyard wall
 holding the enemy's dismounted infantry off the
 vehicle park for nineteen minutes, which was what the
-two packets cost to buy; and the classroom wing — the
-report's phrasing, exact — STRUCTURALLY COMPROMISED BY
+two packets cost to buy; and the classroom wing, the
+report's phrasing exact, STRUCTURALLY COMPROMISED BY
 DIRECT FIRE, EASTERN FACADE.
 
 The Territorial companies fought their second war of
@@ -189,8 +189,8 @@ district's two bridges went down on their charges at
 0545 and 0602, each with its movement-control log
 closed out to the minute; the crater plan the elderly
 Oberstleutnant of reserves had maintained since the
-evacuation — against, he later noted, no requirement
-anyone had issued him — cost the breakout's second
+evacuation against, he later noted, no requirement
+anyone had issued him, cost the breakout's second
 regiment its wheeled echelon before noon, and
 carried both times on every charge, because by the
 war's fourth week the old administrator knew no
@@ -215,7 +215,7 @@ YET ACHIEVED. The format had never before been used
 as an apology. The battalion was rolling south
 inside twelve minutes, and nobody who heard the
 exchange ever called it anything but correct. They did it at
-surge prices — tired men counterattacking at noon —
+surge prices, tired men counterattacking at noon,
 and they did it, and the after-action assessment's
 sentence about it, drafted by Holt and left unedited
 by everyone who reviewed it, reads: THE CORPS' LAST
@@ -232,9 +232,9 @@ Roloff went forward at noon with the movement-control
 party, because the routes through the district had to
 be re-opened and the routes were plans work. He was
 gone four hours. The party's report, filed at 1710,
-carried his flat inventory — bridges, craters, the
-school's serviceability as a facility: NIL, RECOVERABLE
-— and one line of oral supplement, delivered at the
+carried his flat inventory, bridges, craters, the
+school's serviceability as a facility: NIL, RECOVERABLE.
+And one line of oral supplement, delivered at the
 operations room door with his map case still on his
 shoulder, in the voice he used for column totals:
 
@@ -250,7 +250,7 @@ here.
 
 ---
 
-Vestergaard held the door itself shut throughout — the
+Vestergaard held the door itself shut throughout: the
 pocket had pressed the sealed waist from the south at
 0400 in coordination with the breakout, and the
 division commander, who had been denied SPERBER and
@@ -271,7 +271,7 @@ delivered to a room too busy to stop for it: "The
 wall carried both readings and I initialed one; the
 enemy initialed the other." Nobody looked up from
 the map. That was the mercy of the hour, and it was
-also the hour's ruling — the argument would have to
+also the hour's ruling: the argument would have to
 wait for the file, and the file would be exact. But
 the initials on the readjustment order were Holt's, and the two sets of
 initials went into the same file, and the file became

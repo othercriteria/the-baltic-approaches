@@ -4,9 +4,9 @@ The enemy's preparation began at 0340 on the
 twenty-seventh of November, and it began on time.
 
 The heaviest fires of the war came down on the narrows
-out of a black sleet — three weeks of hoarded shells
+out of a black sleet, three weeks of hoarded shells
 converting back into violence at the maximum rate the
-tubes could sustain — and in the operations room the duty
+tubes could sustain, and in the operations room the duty
 officer stood at Roloff's graph with the first
 sound-ranging counts and wrote in the margin, in a hand
 that did not quite manage flatness, the annotation the
@@ -18,10 +18,10 @@ and read it like a bank statement: his expenditure, his
 conversion, his hoard driving down the very slope Lammers
 had drawn for it, and every half hour the plot gained a
 point and the points walked toward the cross-hatched
-region. By 0600 the assault was in — the rebuilt divisions
+region. By 0600 the assault was in: the rebuilt divisions
 of the second army, bridging the Schlei arm under smoke,
-grinding into the Danevirke shoulders through the belts —
-and the line bent by design and bled by design, and the
+grinding into the Danevirke shoulders through the belts.
+And the line bent by design and bled by design, and the
 operations room ran two instruments side by side: the
 battle map, which said the corps was being beaten, and
 the burn curve, which said the beating was the enemy
@@ -71,9 +71,9 @@ If his air finds you this afternoon, all of this is
 theology. Make me right about the camouflage."
 
 The capitals arrived an hour behind the division, as
-usual. The assault was on every wire service by 0800 —
+usual. The assault was on every wire service by 0800:
 the narrows burning, the thousand-year wall, ground being
-lost on ministers' maps — and the morning's raid-bought
+lost on ministers' maps. And the morning's raid-bought
 confidence spent itself by noon, as Hvidt had priced: the
 signals relayed through Karup now pressed for the
 counterstroke early, while there is still a line forward
@@ -106,14 +106,14 @@ At 1130 Roloff put down the plotting pencil and said the
 thing his whole flat war had been building toward.
 
 "Herr Oberstløjtnant. The sensitivity, for the record,
-before the decision conference. The model's crest — 
+before the decision conference. The model's crest,
 committed past recovery near midnight, weakest through
-tomorrow afternoon — is computed on the enemy's dump
+tomorrow afternoon, is computed on the enemy's dump
 state, and the dump state is built on the captured
 returns and the intercepts, and those trace to his own
 audited figure. Three-fifths of plan. If his figure
-flatters him — if the dumps are thinner than his own
-books say — then the whole curve shifts left. The crest
+flatters him, if the dumps are thinner than his own
+books say, then the whole curve shifts left. The crest
 comes early and dies early. We would attack at 0500
 into a man already past his peak, with his stop lines
 manned and his economy already turned to the defense.
@@ -126,8 +126,8 @@ casualties an hour for every insuring hour, and if we
 insure by going now, we attack a man at his strongest.
 So it is ruled, and I rule it: the fire plan and the
 H-hour recommendation go to the conference computed on
-the crest as modeled — on his three-fifths, his
-auditable figure — and my initials go on the
+the crest as modeled, on his three-fifths, his
+auditable figure, and my initials go on the
 computation. Your sentence goes with it, pinned. I have
 weighed it against the dissent annex and I am
 overruling both with my eyes open, Roloff, because the
@@ -141,10 +141,10 @@ paper.
 At 1300, in the small conference room, with the
 principal staff around the map table and the two
 division commanders' voices on the conference loop,
-Hvidt heard the day laid out — the curve, the counts,
+Hvidt heard the day laid out: the curve, the counts,
 Vestergaard's argument, the capitals' pressure,
 Roloff's sensitivity, the casualty meter running at
-the narrows, all of it — and then did what he had
+the narrows, all of it. And then he did what he had
 done at every hinge of the war: he made the staff say
 it for the record.
 
@@ -205,7 +205,7 @@ the weather that beat us, from the other side of it."
 
 Witzel read the order back at 1400, both times, every
 annex, in the toneless liturgy that was his form of
-prayer, and appended — unprompted, initialed — the
+prayer, and appended, unprompted and initialed, the
 planning guidance's dissent annex, updated to include
 Roloff's sensitivity statement, so that the record
 went into the night carrying its own doubts on its
@@ -235,8 +235,8 @@ thirty minutes and hear the price in its own voice.
 The afternoon and evening ran on the movement tables.
 The assault brigades came out of the hides after dark
 in serials the crossing discipline called forward at
-the bridges' own pace — the valve's grammar, third
-conjugation — and the operations room tracked them as
+the bridges' own pace, in the valve's grammar, third
+conjugation, and the operations room tracked them as
 it now tracked everything, by the two times, on a
 sheet Roloff had ruled that morning with the night's
 passage already divided into its hundred and forty

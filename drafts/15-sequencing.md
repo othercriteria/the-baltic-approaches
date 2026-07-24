@@ -4,16 +4,16 @@ The discovery of the sixteenth night was Kjeldsen's, and
 he made it the way he made everything, by translation.
 
 They were building the next week's air strategy at the map
-desk — Holt, Kjeldsen, the grease pencil, Aakjær's
+desk: Holt, Kjeldsen, the grease pencil, Aakjær's
 architecture of the enemy pinned above them, Lammers'
-mirror-ledger open — and the problem was the eternal one,
+mirror-ledger open. The problem was the eternal one,
 the market's three customers: the land battle's tonnage
 bid, the navy's bid against the invasion fleet, and the
 standing insurance of Zealand, the beach-watch that
 pinned brigades to an empty horizon. Three claims, one
 fish, and Kjeldsen had spent an hour restating each claim
-in his own trade's units — sorties per day, days of
-effort — the way he always restated things before he
+in his own trade's units, sorties per day, days of
+effort, the way he always restated things before he
 would argue about them.
 
 The restating was not a mannerism. It was how Kjeldsen
@@ -21,7 +21,7 @@ audited. "The land battle's bid, in my units: forty
 sorties a day against tonnage, for a week. The navy's
 bid: thirty a day against the fleet, this week, while
 the photographs still show it concentrated. Zealand's
-bid is not sorties at all — it is the brigades
+bid is not sorties at all: it is the brigades
 themselves, held on the beaches by the fleet's
 existence, which makes it the most expensive bid at the
 market and the only one nobody argues, because it is
@@ -39,7 +39,7 @@ still.
 "Niels. Say the enemy's two accumulations again. The
 things he must bank before his morning."
 
-"Dumps behind the land front. And lift — the amphibious
+"Dumps behind the land front. And lift: the amphibious
 shipping, if the Zealand option is real, assembled and
 loaded in his Baltic ports."
 
@@ -69,7 +69,7 @@ a week early."
 
 Holt looked at the circle for a long moment. "And the
 currency for arguing it at the market is the one we
-already keep. Days. Days added to his preparation —
+already keep. Days. Days added to his preparation:
 every claimant's case converts into it. The navy's
 sunken lighter is days. The dropped crane is days. The
 released brigades are days with rifles."
@@ -90,8 +90,8 @@ glasses and a wall of his own.
 And a staff. The assessments cell sat along the side
 wall, and its chief came forward at the pause after the
 weather brief: Oberst Søren Bjelke, pressed, courteous,
-with the gift — Holt marked it inside three sentences —
-of the finished phrase. "The corps' wall precedes it,"
+with the gift of the finished phrase; Holt marked it
+inside three sentences. "The corps' wall precedes it,"
 he said, shaking hands. "We quote your caption card
 here, Herr Oberstløjtnant. The corps deciding what it
 is for, twice before noon. I have told the staff: that
@@ -103,10 +103,10 @@ sentence of a man who had already imagined it in a
 report.
 
 The bunker itself taught its own short course while
-they set up: the theater's war on one wall — the air
+they set up: the theater's war on one wall, the air
 picture, the sea picture, the convoy tracks in from
-the Atlantic like veins into a wrist — and the corps'
-war a colored wedge of it, one wedge among wedges,
+the Atlantic like veins into a wrist; the corps' war
+a colored wedge of it, one wedge among wedges,
 which was worth the flight to see once. Kjeldsen
 stood in front of the whole display for a moment and
 said quietly, in the voice of a man revising a
@@ -115,8 +115,8 @@ a fish market for three weeks. It is a fish market
 with one boat."
 
 The bid took forty minutes, and the currency did the
-arguing. Holt laid the sequence in — the one customer,
-the ordered service, the circle on the map — and then
+arguing. Holt laid the sequence in, the one customer,
+the ordered service, the circle on the map, and then
 watched the theater commander do the thing Hvidt had
 been doing for three weeks: convert every claim at the
 table into days-of-his-preparation, testing the rate of
@@ -126,8 +126,8 @@ exchange aloud.
 it for me."
 
 "Directly, none, Herr General," Holt said. "The lift is
-already assessed unexecutable in the remaining window —
-sinking it buys no days. What buys days is the quay it
+already assessed unexecutable in the remaining window.
+Sinking it buys no days. What buys days is the quay it
 is moored to. The ship is the address; the machinery is
 the target. Days: two to four per transshipment point,
 by the G-4's model, carried on the corps' wall with its
@@ -145,9 +145,9 @@ objection became support. Days, everyone could weigh.
 
 The allocation came back at 1130: theater strike weight
 committed for seventy-two hours against the embarkation
-complex — ports, assembled lift, coastal rail
-approaches — with land-battle close support cut to the
-load-bearing minimum, and appended to the allocation, in
+complex, ports, assembled lift, coastal rail
+approaches; land-battle close support cut to the
+load-bearing minimum; and appended to the allocation, in
 the assessment cell's drafting, a sentence Kjeldsen read
 twice on the flight home, for the pleasure of it:
 FOLLOW-ON APPORTIONMENT WILL BE PHASED AGAINST THE
@@ -188,7 +188,7 @@ as morning-state numbers and were posted, both times,
 uncommented. And the observables accumulating on the
 wall, dated, sourced: fires visible from Fehmarn
 through the second night. The lift's assembly
-anchorage dispersing — then reassembling smaller —
+anchorage dispersing, then reassembling smaller,
 then dispersing and not reassembling. Prisoner and
 signals traffic speaking of embarkation formations
 marching inland, as infantry. On the twentieth,
@@ -201,9 +201,9 @@ EXECUTABLE WITHIN REMAINING WEATHER WINDOW. RECOMMEND
 RELEASE OF EARMARKED FORCES TO FIELD ARMY TASKS.
 
 His initials on that sheet unpinned the beaches his
-own family waited behind — Korsør's harbor streets,
+own family waited behind: Korsør's harbor streets,
 the bathwater doctrine, the whole shelf of an island's
-patience — and what he said, leaving, was: "The
+patience. What he said, leaving, was: "The
 tradecraft stands. Tell the ferries to be punctual,"
 and was gone before anyone could examine his face.
 
@@ -212,7 +212,7 @@ not need to do and did not explain. The explanation was
 in the October minute: the requisition's two lost days
 were his price made flesh, and he attended the
 consequence the way an engineer attends a bridge built
-over his own objection — determined that if it failed,
+over his own objection, determined that if it failed,
 it would fail with him standing on it.
 
 The enemy found the run on the second night, as
@@ -221,7 +221,7 @@ out of Mecklenburg, at low level, against ferries
 that could neither maneuver nor be spared. The
 fighter screen and the island batteries broke the
 raid apart; one aircraft got through, and its bombs
-straddled a loaded ferry in the Halsskov approach —
+straddled a loaded ferry in the Halsskov approach:
 sprung plates, a fire in the vehicle lanes fought
 out at sea, eleven casualties, the berth fouled for
 two hours while she was warped clear. The two hours
@@ -245,7 +245,7 @@ a fleet. The six road ferries of the Halsskov–Knudshoved
 run in their gray wartime paint, and the rail ferries
 out of Korsør, loading by lane-meter to a movement
 table Lammers' staff had built with the State Railways'
-own inspectors — the requisition had come through on
+own inspectors. The requisition had come through on
 the ninth, two days late against the October minute,
 and the two days had cost what Lammers' price had said
 they would cost, and the wall carried the arithmetic
@@ -262,7 +262,7 @@ famous in October by counting.
 He worked the crossing's movement table himself, one
 evening, out of no operational necessity the war
 diary could have defended: the DSB berth cycles, the
-lane-meters, the weather margins — machinery he had
+lane-meters, the weather margins, machinery he had
 known from the passenger side his whole life,
 condensed now into columns. It was the first work in
 three weeks that felt like rest.
@@ -275,8 +275,8 @@ now formally cancelled, discharged all at once into
 motion. A Zealand battalion commander, waiting out his
 serial's call-forward in the terminal hall where the
 kiosk still sold pastries to a wartime schedule, told
-the movement lieutenant — who logged it, because the
-headquarters' disease was spreading — that his men had
+the movement lieutenant, who logged it because the
+headquarters' disease was spreading, that his men had
 cheered the embarkation order like a relief column,
 "and I have not told them they are the relief column,
 because we will all learn it soon enough at the other

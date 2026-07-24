@@ -7,7 +7,7 @@ taped glass.
 The corps' artillery fired the program Holt had signed:
 every banked shell with a task and a time, three weeks of
 refusals converting back into violence in forty minutes
-of scheduled fury — the counter-preparation on the gun
+of scheduled fury: the counter-preparation on the gun
 lines, the smoke on the Schlei arm, the belts of
 interdiction on the two roads out of the Sehestedt
 bridgehead. The batteries had taken to chalking the
@@ -19,8 +19,8 @@ counter-battery, entire: the hunted hour a muddy liaison
 officer had asked for on the war's second morning. It had
 never been for sale by the sortie or the shell. The corps
 delivered it now wholesale, at the one hour it could
-afford to, against guns already going poor — and whether
-the hunting or the poverty did the work, no instrument in
+afford to, against guns already going poor. Whether the
+hunting or the poverty did the work, no instrument in
 the theater would ever be able to say. For two hours
 there was nothing left for the staff to decide. The machine the wall had built ran, and
 the staff listened to it run, and Lammers stood at the
@@ -31,7 +31,7 @@ delivered the situation entire, in one word:
 In the operations room the first hour of an attack the
 staff could not yet see reported itself as sound and
 absence: the program's timings ticking off on the wall
-sheet, serial by serial, with nothing coming back —
+sheet, serial by serial, with nothing coming back:
 the forward nets holding radio silence through their
 approach, the fire-support net carrying nothing but
 the guns' own punctuation, and the staff standing at
@@ -43,8 +43,8 @@ were up all along the arc, calling stations that did
 not answer. Whether the stations were dead,
 displacing, or silent by doctrine, the summary
 declined to guess, and Aakjær initialed the
-declining — OBSERVED: CALLS UNANSWERED. CLAIMED:
-NOTHING — and it went on the wall, the morning's
+declining: OBSERVED: CALLS UNANSWERED. CLAIMED:
+NOTHING. It went on the wall, the morning's
 first observable. Kjeldsen offered the second at
 0538, professional and quiet at the air desk: "First
 wave airborne. Ceiling eight hundred and lifting. He
@@ -53,14 +53,14 @@ else was said in the room until the map moved.
 
 The air came in phases as the light came up, the market's
 fish sequenced days deep: the first wave onto the gun
-groupings caught displacing forward, the second onto the
-Schlei bridging — dropped behind the assault echelon like
-a latch — the third held on call. And the crossing
+groupings caught displacing forward; the second onto the
+Schlei bridging, dropped behind the assault echelon like
+a latch; the third held on call. And the crossing
 discipline of the Eider ran in reverse: bridging down at
 the sites the engineers had prepared as exits since the
 fifteenth day, the brigades passing through and deploying
-off the march, the valve's whole grammar — staging,
-call-forward, the bottle and the bridge — conjugated now
+off the march, the valve's whole grammar of staging,
+call-forward, the bottle and the bridge, conjugated now
 in the attacking direction.
 
 What the crest meant, from the inside, the intercept
@@ -70,7 +70,7 @@ the shoulders caved there was nothing in hand. His fuel
 and shells stood forward, his everything-else two hundred
 kilometers back, his roads cratered by his own
 preparation and latched by the second wave, and his
-orders — the intercept troop copied them going out —
+orders, which the intercept troop copied going out,
 arrived at formations that were no longer where the
 orders assumed, in the specific helplessness of a
 headquarters whose reporting had been generous to itself
@@ -87,9 +87,9 @@ The dumps had been thinner than his books said.
 Three-fifths, the auditable figure, had been generous
 by the margin of its own optimistic returns, and the
 crest had come and begun to pass in the last hours of
-the night — earlier than the computation, exactly as far
+the night, earlier than the computation, exactly as far
 inside the error band as Roloff's pinned sentence had
-warned it could be — and the westward battalions of
+warned it could be, and the westward battalions of
 Vestergaard's assault, thinned once already by a raid
 that had bought Tuesday's headlines, went in against an
 economy already turned to the defense: registered stop
@@ -100,22 +100,22 @@ than anyone's ledger showed.
 The fight for the first objective was the morning's
 tuition, itemized. The stop line ran behind a drainage
 cut the overlay had marked as an obstacle and the
-model had marked as unmanned — a peak-hour enemy would
-have had every gun forward, feeding the assault — and
-the thinner army, past its peak, had put its remnant
+model had marked as unmanned. A peak-hour enemy would
+have had every gun forward, feeding the assault. The
+thinner army, past its peak, had put its remnant
 economy exactly there, hull-down, frugal, firing by
 sections. The lead battalion lost its bridging plates
 to the first anti-tank fires and infiltrated the cut
-on foot; the follow-on battalion — the one the
-concession's raid had spent its freshness on — arrived
+on foot; the follow-on battalion, the one the
+concession's raid had spent its freshness on, arrived
 at the marrying point eleven minutes ragged, and the
 eleven minutes let the enemy's sections displace once
 more, intact, to the next cut. Nothing failed. The
 brigade's staff work was clean. It was simply a
 morning being paid for at a rate set three days
-earlier by other men's decisions — the raid's, the
-auditable figure's, Holt's — and the war ran the
-invoice with its usual indifference to whose initials
+earlier by other men's decisions: the raid's, the
+auditable figure's, Holt's. The war ran the invoice
+with its usual indifference to whose initials
 were on which line. The western pincer took its first
 objective ninety minutes late and its second at noon,
 and the door that was to have closed by midmorning
@@ -141,13 +141,13 @@ DANEVIRKE CREST, WESTERN FORCE AND NARROWS SHOULDER.
 SCHEDULED: 1030. ACTUAL: 1500. The five hours rode
 inside the victory's own report, because the format
 did not know how to leave them out, and nobody in
-the room would have wanted them left out, and that —
+the room would have wanted them left out, and that,
 Holt thought, watching Roloff carry the report to
 the master sheet and enter its fate beside its
-estimate — was the distance the headquarters had
+estimate, was the distance the headquarters had
 traveled since October: it had built itself a wall
 on which even this sentence had to tell the truth
-twice. By dusk the lead army was cut — its assault
+twice. By dusk the lead army was cut: its assault
 echelon on the wrong side of a sealed waist with
 four days' ammunition, the December sea at its
 back — and the corps stood on the restored neck,
@@ -165,9 +165,9 @@ what a bought hour looks like. The staff should contain
 one officer who has."
 
 The drive forward ran against the grain of the day's
-traffic — recovery vehicles, ambulances, empty
+traffic: recovery vehicles, ambulances, empty
 ammunition trucks coming back down the routes the
-assault had gone up — and it ran through the narrows
+assault had gone up. It ran through the narrows
 positions, which Holt had priced for three weeks and
 never seen. He saw them now at walking pace, through
 a windscreen: the belts cratered and re-cratered,
@@ -187,9 +187,9 @@ the road turned.
 
 The retaken crossing at the Danevirke stood in freezing
 sleet. The military police were bringing the prisoners
-back in company packets — gray-faced men moving with
+back in company packets: gray-faced men moving with
 the economy of the utterly spent, their NCOs still
-counting them, because NCOs count — and Holt stood at
+counting them, because NCOs count. Holt stood at
 the roadside and watched somebody's intake percentages
 walk past him in the flesh. A boy of perhaps nineteen
 went by carrying a wounded man's rifle as tenderly as
@@ -228,10 +228,10 @@ tonight and the pocket starves faster and fights
 sooner and smaller. The exploitation is not glory. It
 is economy."
 
-The operations room heard Karup break in then — the
+The operations room heard Karup break in then: the
 relay's flat voice, the capitals' evening appetite
 arriving in real time, kilometers on ministers' maps,
-the word momentum used twice — and heard Hvidt answer
+the word momentum used twice. It heard Hvidt answer
 the theater first, in the tone of a man asking a clerk
 to wait his turn: "I have a division commander in
 contact on the other net. The alliance's governments
@@ -266,9 +266,9 @@ The last signals of the night read like collapse. White
 flags at battalion level on the pocket's southern arc;
 radio silence spreading across its nets; a deserter
 colonel talking freely about empty dumps. Aakjær
-drafted the morning assessment before he slept — CUT
+drafted the morning assessment before he slept: CUT
 ARMY ASSESSED COMBAT-INEFFECTIVE; CAPITULATION BY
-FORMATIONS EXPECTED WITHIN 48 HRS — and it was
+FORMATIONS EXPECTED WITHIN 48 HRS. It was
 reasonable, and it was believed, and at 0200, on his
 way off shift, Roloff unpinned a sheet from the
 twenty-fifth — the intercept annotation from before the

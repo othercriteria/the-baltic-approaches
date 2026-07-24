@@ -50,8 +50,32 @@ the direction of the campaign.
 The fight over it ran forty minutes, on the secure
 line, and Hvidt fought it in front of his G-3 on
 principle, and lost the war for it and won the price.
-Brigade, the first relay had implied. Battalion, Hvidt
-extracted, reinforced, one tide, against the coastal
+
+"I will state the objection once, for the record you
+are required to keep," he said to the relaying voice.
+"You are asking a corps that has banked three weeks of
+violence against one computed morning to spend a piece
+of the bank on theater. The piece will be reported to
+me as small. Nothing is small. The bank is not a sum of
+shells, it is a sum of freshness, and freshness spent
+does not return by Thursday. Now tell me the
+requirement's floor, because I am going to negotiate
+you to it."
+
+"The requirement says scale at the corps' discretion,
+Herr General, but the political level's expectation—"
+
+"The political level's expectation was a brigade. You
+may inform the political level that a brigade is a
+fifth of my counterstroke and the answer is no, and
+that the corps declines to lose the war photogenically.
+The floor. Not less than battalion — I heard the
+phrase. Then a battalion it is, reinforced, one tide,
+and I choose the sector, and the sector will be the one
+place on this coast where a battalion can buy something
+real while it performs."
+
+Battalion, reinforced, one tide, against the coastal
 sector where the enemy's economy was thinnest — a real
 raid with a real, small, nameable military product,
 timed for the morning wire services. "I will spend a

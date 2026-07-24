@@ -318,6 +318,33 @@ entity index generatable instead of reconstructable.
   (notes/fault-line-drafts.md, adoption pending); 4 DECLINED
   (the discipline is the point; existing unfiled griefs are the
   answer).
+- 2026-07-24 — draft-two ruling (DK, in-session to 52662a0d@3):
+  **DRAFT TWO tagged** (`draft-two` = commit 7e7ceb5, 48,987
+  narrative) after the editor round (Opus copy pass + Fable line
+  pass, 44+6 findings applied, dispositions recorded in
+  notes/copyedit-r1.md and notes/line-edit-r1.md). DK: "second
+  (but not yet final) draft"; third draft to focus on meatier
+  issues (agenda at line-edit-r1.md foot + status.md wrap).
+- 2026-07-24 — session 52662a0d WRAPPED (final; three entities:
+  @1, @2, @3 — two compaction boundaries, both logged above).
+  Entity @3's span: the timeline ledger built and the manuscript
+  chronology reconciled (~25 fixes against the ratified clock);
+  the synthesis-§4 queue closed (four funded adds, three cuts,
+  eight polish items); DK batches 11–13 (fish-coinage crossing
+  rule; V1-rejection + staff-officer-privilege calibration;
+  stacked-figuration + the unwrapped-measurement rebuild of
+  tics.sh); design rulings 2b/5a/6a/7 landed + the fault-line
+  package (V3+V2+V5+V6 adopted); Q4 declined; byline ruled (a);
+  timeline DK-flags discharged, Frimodighed banked; the
+  Programmer-SF category review commissioned and filed; editor
+  round 1 adjudicated and applied; draft-two tagged. Commit
+  range 267b350..(this wrap commit), Session-Id trailers +
+  machine-stamped wordcounts throughout. **Raw-archive of this
+  session's JSONL falls to the successor or DK: `make
+  raw-archive SESSION=52662a0d-15b0-4e2c-8893-8cf5b0da01f1`.**
+  Successor enters via planning/status.md; first acts per
+  process: raw-archive above, `make archive SKIP=<own-uuid>`,
+  lineage-log line.
 
 ## Entity index
 
@@ -331,6 +358,7 @@ come from `Session-Id:` trailers plus JSONL boundary timestamps.
 
 | # | Entity | Boundary type | Dates | Model | Transcript | Commit range | Contribution summary |
 |---|---|---|---|---|---|---|---|
+| 10 | 52662a0d@3 | session wrap (final entity) | 2026-07-24 | Fable 5 | (export at raw-archive) | 267b350..wrap, Session-Id + Wordcount trailers | The draft-two arc, summary-seeded then full-read-grounded: the TIMELINE LEDGER (notes/timeline-ledger.md — the Phase-1 ledger; ~25 chronology fixes against outline §2's clock, incl. hour-42, the narrows=day-12 resolution, the ch. 15 week decompression, Kandor→Ærlighed, the Fredericia geometry); the blind-panel §4 queue CLOSED (Merete's letter quoted, Vestergaard seeded, Rylski middle beat, homecoming beats; three double-delivery cuts; eight polish items); design rulings landed (canal night on page, CENTAG threaded, Rahn's dated comfort, Bjelke roughened, fault-line V3+V2+V5+V6 with V1 rejected and V4 dropped, Q4 declined, byline (a)); DK batches 11–13 with two new standing rules (coinage-crossing shown; working-level-only fault line) + the unwrapped tic instrument; the Programmer-SF review (filed verbatim); editor round 1 (Opus copy + Fable line, 50 fixes applied, register rulings recorded); DRAFT TWO tagged at 48,987. Materiality: presumptively material under the row-2 logic (the chronology canon, the draft-two text state, and the two editorial-disposition records future passes build on) |
 | 9 | 52662a0d@2 | compaction (2nd, dated 07-26 in-entity; true 2026-07-24) | 2026-07-23 .. 07-24 (corrected for clock-drift) | Fable 5 | (export at session end) | 6f02c25..0b07c20+wrap, Session-Id trailers + machine-stamped Wordcount trailers from a0ac7d9 | The post-compaction arc, summary-seeded: full-manuscript re-read; length campaign to 48.6k (stubborn tier closed, floors-adjacent); DK batches 7–10 incl. two new standing rules (duration clairvoyance; name-the-artifact) and the PROCESS-RETROSPECTIVE tell (profile §5.3, DK diagnosis "at home in your transcripts"); blind panel round 1 (five reviews + synthesis; five mechanical catches; the 19a corpus-order artifact traced to locale glob, Makefile exonerated); almanac ledger + twilight/moon corrections (incl. the reviewer-confirmed-wrong-number lesson); front matter + AI disclosure drafted (byline open); repo flipped PUBLIC after full-history secrets audit; HQ displacement option B researched (shelf sweep, cp-doctrine.md) and landed (ch. 14); Belt raid landed; em-dash campaign closed via 20 guardrailed agents + one principled refusal (~450→~215); de-homogenization substantially done with do-not-over-scrub verdict; automation instituted (commit-msg wordcount stamp, make counts/tics). Materiality: presumptively material under the row-2 ruling logic (the campaign that made draft one reviewable; the panel record; two profile-grade tells; the public flip) |
 | 8 | 52662a0d@1 | compaction (1st, ~2026-07-25) | 2026-07-23 .. 07-25 | Fable 5 | (export after wrap) | 13f4d6f..wrap, Session-Id trailers throughout | The outline (the drafting contract: front rebase, 21 rows at scene grain, the three ratified design decisions — non-villain F7 antagonist Bjelke, Roloff as Kreis carrier, deputy-inherits-chair — reader-ahead table ruled, unsettle #2 discharged, the allocation summation error caught) and draft one entire (21 chapters, ~40.0k words, the first non-throwaway manuscript; F0–F7 charged to named signatures incl. the protagonist's; every chapter committed with expansion passes diffable; the −21% attractor gap measured and owed forward in status.md). SPAN EXTENDED at boundary correction: also the reading-build apparatus (make pdf), Part III thickening to 42.1k, draft-zero/draft-one tags, DK batches 1–6 processed (incl. the concordance and threat-picture ledgers, the read-log protocol). Materiality: presumptively material under the row-2 ruling logic (the outline is the manuscript's contract; the draft is the manuscript) |
 | 7 | eb2fcb4e@tip | tip | 2026-07-23 (wrapped) | Fable 5 | (export after wrap) | eaeccc2..wrap, Session-Id trailers throughout | The judged matrix + the four rulings that close the character/setting axis (protagonist Danish, voice close-third — the record the drafting voice stands on); the critique profile (the drafting model's failure map + craft rules for draft one); the atlas (the geography source of truth, verification rounds 1-3, absence tests that make the specimen's map errors untypable); campaign 4's CAL-3 closure; the Lautsch substitute corpus (red architecture to quote+page grade, two corrections). Materiality: presumptively material under the row-2 ruling logic (the nationality/voice ruling record, the craft rules the outline enforces, and the geographic/logistic ground truth draft one is written against) |

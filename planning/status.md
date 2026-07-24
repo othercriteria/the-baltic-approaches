@@ -557,6 +557,60 @@ DK design questions (synthesis §5 + byline), next blind panel
 (PDF, front matter in scope), HDv 100/100 arrival sweep,
 timeline-ledger DK-flag items, raw-archive at session end.
 
+**2026-07-24 SESSION 52662a0d FINAL WRAP — DRAFT TWO EXISTS.**
+Tag `draft-two` = 7e7ceb5 (DK's frozen reading copy; main moves
+freely), narrative 48,987 (−1,763 to the 50.75k floor-sum; plan
+50.5k; every count machine-stamped). FRESH-SESSION SUCCESSOR,
+FIRST ACTS: (1) `make raw-archive
+SESSION=52662a0d-15b0-4e2c-8893-8cf5b0da01f1`; (2) `make archive
+SKIP=<your-own-uuid>`; (3) lineage-log line in
+notes/attribution-ledger.md. Then, before deep work, THE METHOD
+NOTE STANDS: read the full draft first (~65k tokens; the PDF or
+drafts/ in order — if the PDF, note the extraction-noise caveat
+in the 07-24 entity-@3 block above). DONE this arc (details in
+the lineage log's final wrap entry): timeline ledger + ~25
+chronology fixes; synthesis-§4 queue closed; design rulings all
+landed or ruled (fault line V3+V2+V5+V6 in text; Q4 declined;
+byline (a) "Daniel Klein with Claude"); DK batches 11–13; the
+Programmer-SF review (notes/programmer-sf-review.md); editor
+round 1 applied with dispositions (notes/copyedit-r1.md,
+notes/line-edit-r1.md).
+
+**THE THIRD-DRAFT AGENDA ("meatier issues"), assembled:**
+1. The line editor's seven cross-chapter items
+   (line-edit-r1.md foot): the particular/specific+abstract-noun
+   formula (~8, ration to 2–3); anonymous-future-quotation
+   (keep one — currently ch. 8's); scope-stamps held at the two
+   object-attached uses; the open tic campaigns (superlatives
+   beyond the ruled keeps, negation-definitions in 15–16,
+   like-a-man at 4-with-keeps); archival-register ruling is MADE
+   (licensed in chs. 12/19a only) — enforce if drift recurs;
+   naming-scene + promotion-epigram twin constructions (one of
+   each could go plain); Danevirke direction (SHELF CHECK
+   before rewording — on the VERIFY queue).
+2. The convergent residual three instruments now name (hostile
+   panel "theodicy of process" / Programmer-SF review
+   "instrument panels" / DK's staff-officer-privilege note,
+   batch 12): interiority is strictly load-bearing, the HQ
+   vantage filters the war's social texture. Q4 was DECLINED —
+   this is NOT a mandate to add grief; it is the next blind
+   panel's calibration question.
+3. VERIFY queue: Danevirke invasion-direction (12.5); WP radio
+   silence (concordance row 10); RUSSWO sea-state table;
+   Belt-ferry beredskab.
+4. Next blind panel: PDF as source of truth, byline + front
+   matter in scope, ingestion mode pinned (rendered pages or
+   header-stripped extraction).
+5. At final assembly: 19/19a renumbering; Frimodighed-vs-
+   Ærlighed revisit (timeline-ledger flag block); byline
+   defensibility reassessment (DK's caveat, lineage log
+   07-24); word-count position vs the 50–60k target (currently
+   under plan — remaining adds should come from the panel/DK,
+   not padding).
+6. DK's larger-campaign note (lineage log, byline ruling): some
+   future campaign work will "undeniably cross that line" —
+   context for how hard to defend byline (a) here.
+
 ## Standing DK reminders (loose ends outside the repo)
 
 - ~~Create the private GitHub remote and push the holdings repo~~

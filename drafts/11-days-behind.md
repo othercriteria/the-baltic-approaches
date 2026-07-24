@@ -19,18 +19,18 @@ hand, because the thing it said could not be delegated to a
 draftsman. The method was the one he had described to
 the commander on the war's second morning: he had gone
 to the one return that cannot flatter and built the
-Front's actual positions backward out of its fuel —
+Front's actual positions backward out of its fuel,
 consumption against map distance, depot issue against
-march table — because a division may report its
-progress optimistically, but it draws its diesel from
-where it actually stands. Two columns. The left was the plan: the phase
+march table. A division may report its progress
+optimistically, but it draws its diesel from where it
+actually stands. Two columns. The left was the plan: the phase
 lines of the Jutland operation with their dates, the calm
 procession, Day Six standing on the neck of the peninsula.
 The right column was assembled entirely from the Front's
-own reporting — fuel states, bridging inventories, the
+own reporting: fuel states, bridging inventories, the
 engineers' repair returns, the daily kilometers as counted
 against the map rather than as summed through three
-echelons — and the right column said that on the evening of
+echelons. And the right column said that on the evening of
 Day Eleven the Front stood on the ground the plan had
 assigned to Day Six.
 
@@ -48,8 +48,8 @@ late. That is the reconciliation. I recommend it be
 forwarded to theater staff as written."
 
 Zawadzki did not look at the annex. He looked at Rylski,
-for a long moment, with the expression of a man choosing —
-visibly, almost ceremonially choosing — which of two things
+for a long moment, with the expression of a man choosing,
+visibly, almost ceremonially choosing, which of two things
 in front of him to believe.
 
 "Your conclusion is a resignation letter dressed as an
@@ -61,12 +61,12 @@ approval, in peacetime, by men who needed it to say what it
 says. The war is not failing the schedule. The schedule is
 meeting the war. What matters is not the five days. It is
 whether the enemy can spend the five days better than we
-can — and he is a mobilization system, gentlemen, his whole
+can. And he is a mobilization system, gentlemen, his whole
 force is a promise arriving by ferry and rail, and our
 lag is his gift only if his own columns run to time, and
 nothing in this world suggests to me that his columns run
 to time." He straightened. "The reconciliation goes
-forward unaltered — I do not send theater staff polished
+forward unaltered. I do not send theater staff polished
 paper; that habit is what your annex is about. With it
 goes my assessment: lag acknowledged; correction expected
 upon commitment of the second operational echelon; mass
@@ -158,7 +158,7 @@ Eleven days late, and here."
 "And the assessment of intent?"
 
 "Doctrinal, Herr General. The second operational echelon
-commits to widen the battle — a new axis or a broadened
+commits to widen the battle: a new axis or a broadened
 one, weight where we are thinnest. The indicators are
 consistent with it."
 
@@ -184,7 +184,7 @@ deliberate, a war that matched no rehearsal. Now the
 picture had corrected itself. Here was the doctrine's
 enemy, the one from twenty years of exercise scenarios,
 and the staff reorganized the defense's arithmetic around
-him with something close to relief — the rationing
+him with something close to relief: the rationing
 deepened, the engineer effort shifted to the depth
 positions, and the air request for the thirteenth was
 rebuilt into a maximum deep effort against the approach
@@ -236,10 +236,10 @@ back of the neck."
 "Real, army-scale, and marshaling. Yes. My question is
 not whether he is coming. It is what he is coming to do,
 and the board assumes the answer: the mass widens the
-battle — new axis, new weight, the map's war grown
+battle, new axis, new weight, the map's war grown
 larger. But a man five days late does not always send his
 mass to widen the battle. Sometimes he sends it to finish
-the argument with his own schedule — one echelon, one
+the argument with his own schedule: one echelon, one
 axis, everything on the timetable's single throw. Those
 are different deployments. They point at different
 places. And we have built tomorrow's maximum air effort

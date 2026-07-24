@@ -6,8 +6,8 @@ reporting chain, as decline.
 
 That was the mechanism, and the corps had chosen it with
 its eyes open. Ground given at the margins, by design,
-logged under the wall's newest metric column — TERRAIN
-VOLUNTARILY RELINQUISHED — in a format that made the
+logged under the wall's newest metric column, TERRAIN
+VOLUNTARILY RELINQUISHED, in a format that made the
 voluntariness a matter of record. Fires refused except
 where the ground was load-bearing. Activity indices
 falling day over day, because activity was expenditure
@@ -33,14 +33,14 @@ for that column. There is only the date."
 
 The date held. The capitals did not.
 
-What came, on the twenty-fourth, was not an order —
+What came, on the twenty-fourth, was not an order:
 orders can be argued with costs, and the capitals had
 learned what happened to their questions when Hvidt
 priced them. What came was a requirement, political
 grade, relayed with theater endorsement: the corps
 would conduct, within forty-eight hours, a visible
-offensive action on the coastal flank — scale at the
-corps' discretion but not less than battalion — to
+offensive action on the coastal flank, scale at the
+corps' discretion but not less than battalion, to
 answer a week of headlines about ground relinquished,
 demonstrate to the alliance's publics that the
 peninsula was being defended forward, and (the phrase
@@ -76,7 +76,7 @@ place on this coast where a battalion can buy something
 real while it performs."
 
 Battalion, reinforced, one night, against the coastal
-sector where the enemy's economy was thinnest — a real
+sector where the enemy's economy was thinnest: a real
 raid with a real, small, nameable military product,
 timed for the morning wire services. "I will spend a
 battalion on your confidence," he said, flatly, to the
@@ -105,11 +105,11 @@ they will at least receive an itemized bill." It was
 the longest speech anyone had heard him make, and it
 was delivered entirely to a signature file.
 
-The raid went in on the twenty-fifth at dawn, was
-competently conducted — the battalion commander, told
+The raid went in on the twenty-fifth at dawn and was
+competently conducted; the battalion commander, told
 the truth about his mission at his own insistence,
 briefed his companies on the military objective and
-let the rest alone — took its objectives, held them
+let the rest alone. It took its objectives, held them
 for the cameras' purposes, and came back across the
 line at dusk with light casualties, and the evening
 programs in three countries carried it as the
@@ -130,9 +130,9 @@ fresh force grew in the woods west of the canal:
 the two Belt brigades, the three rested battalion
 groups, the banked shells crossing fifteen hundred
 vehicles. Hvidt gave the command of it in one
-sentence at the evening conference — "The division
+sentence at the evening conference: "The division
 that has paid the most for our education will
-conduct the examination" — and Vestergaard, present
+conduct the examination." And Vestergaard, present
 by field telephone, answered in one: "The division
 accepts both clauses of that sentence, Herr General."
 
@@ -159,7 +159,7 @@ and brought the overlay for counter-signature at 0140.
 
 Holt read it through. The pen had not paused anywhere;
 he looked, and knew what he was looking for, and it was
-not there — no hesitation in the inking, no
+not there: no hesitation in the inking, no
 superfluous annotation, nothing done more carefully
 than the rest. The discipline was total, and what it
 was costing was a figure that existed in no column.
@@ -217,9 +217,9 @@ mid-transmission. And beneath the intercept, boxed,
 initialed: HE IS SPENDING FROM THE HOARD. THE DAY IS
 BOUGHT. — AA.
 
-Holt stood before the two sheets — the enemy's guns
+Holt stood before the two sheets: the enemy's guns
 falling silent on their fixed schedule, the corps'
-own bank closed and counted — and took out the
+own bank closed and counted. He took out the
 notebook, and under the folded message slip's outline
 he wrote the day's last entry and boxed it:
 

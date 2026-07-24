@@ -35,8 +35,8 @@ that night: the wall was plywood, and the plywood
 stayed at Rendsburg, and the wall arrived entire.
 
 Aakjær called the fifteenth morning's conference himself,
-which was backwards — the G-2 briefed at conferences; he
-did not convene them — and he came into the room carrying
+which was backwards: the G-2 briefed at conferences; he
+did not convene them. And he came into the room carrying
 his board's documents in an actual crate, and put the
 crate on the table, and said: "My estimate of the enemy
 has been wrong since the first day of the war. I believe I
@@ -56,9 +56,9 @@ rows, as if laying patience.
 
 "The doctrine's picture, which is my picture of record:
 first operational echelon, then a second operational
-echelon — discrete waves, formed in depth, committed in
+echelon: discrete waves, formed in depth, committed in
 sequence. Eleven days of my assessments assume it. Now
-watch the assumption meet its own documents. Roloff — the
+watch the assumption meet its own documents. Roloff, the
 rail totals, read against the order-of-battle dates."
 
 Roloff read them out flatly, week by week: tonnage
@@ -118,7 +118,7 @@ competitor's shop floor.
 front now eats through a two-hundred-kilometer straw,
 across a river line he demolished himself, through two
 crossings we have counted. Daily flow feeds daily battle;
-a front eating hand to mouth cannot attack — an attacking
+a front eating hand to mouth cannot attack. An attacking
 front eats at three times garrison scale, and three times
 garrison scale does not fit through that straw as a flow.
 So he cannot attack out of the flow. He must save up. He
@@ -130,7 +130,7 @@ visible. Dumps grow. Dumps are photographed. Dumps burn."
 hands whole, machined, waiting. "If he must
 bank an assault scale before the sea's dates, then
 between now and his morning, his daily violence must
-fall. He is on rations too — his guns' silence is his
+fall. He is on rations too: his guns' silence is his
 saving. The counter-battery counts become a countdown:
 the quieter he gets, the closer he is. Roloff, the
 counts go on the wall from this morning, daily, against
@@ -150,8 +150,8 @@ the hoard converts back to expenditure at a rate we can
 compute, and when it is spent he stands at the end of
 two hundred kilometers of bombed road with empty dumps,
 spent divisions, a closed sea, and a plan whose own
-arithmetic has finished it. That day — the day his last
-effort culminates — is the only day of this war on which
+arithmetic has finished it. That day, the day his last
+effort culminates, is the only day of this war on which
 that Front will be weaker than this corps. Not in tanks.
 In choices. One day. Perhaps thirty-six hours. The corps
 will now be built backward from it."
@@ -165,10 +165,10 @@ waved off and why what happened to it mattered.
 Kjeldsen put it first, at the table: "For the record,
 because someone in this room is paid to say it. The
 structure we have just built is an inference standing on
-an inference standing on a third. Empty depth — inferred
-from an absence. The dump arithmetic — inferred from
+an inference standing on a third. Empty depth: inferred
+from an absence. The dump arithmetic: inferred from
 consumption factors we hold for our own army, applied to
-his. The countdown — inferred from both. We have been
+his. The countdown: inferred from both. We have been
 wrong about his shape once this week, gentlemen; I
 bought the maximum program with the last consensus. What
 is different this time?"
@@ -177,22 +177,22 @@ And Roloff, separately, at the wall, when the sheet went
 up: "The counter-battery countdown reads one thing from
 two causes, Herr Oberstløjtnant. Quiet because saving.
 Quiet because moving. The count cannot tell them apart."
-— the visitor's question, in a plans officer's grammar,
-the sheet's own blind spot named by the man pinning it.
+The visitor's question, in a plans officer's grammar, the
+sheet's own blind spot named by the man pinning it.
 
 The room answered with process, because process was what
 the room had: the wall would falsify daily; the counts
 would be checked against sound-ranging and the flash
 reports; the assessment would stand re-examination at
-every indicator split — all of it true, all of it the
+every indicator split: all of it true, all of it the
 right answer, and all of it, Holt would think later,
 lighter than it sounded, because a discipline that
 promises to catch you when you fall is not the same as
 not building on an inference three stories up. Hvidt
-heard both objections out, ruled for the structure —
+heard both objections out, ruled for the structure,
 "the alternative to planning backward from his weakest
 day is planning forward into his strongest; I know which
-war I prefer to lose" — and then did the thing that made
+war I prefer to lose," and then did the thing that made
 the ruling survivable.
 
 "Witzel. The dissent goes in the record. Both versions,
@@ -227,11 +227,11 @@ phrase "held against the day," which no order had
 issued to them; a queue formed at Roloff's desk each
 evening of officers wanting their section's estimates
 checked against the countdown before committing them.
-The air requests were rewritten — tonnage targets,
+The air requests were rewritten: tonnage targets,
 dumps and coast-road convoys, priced in
 days-added-to-his-preparation; close support refused
 except where the line was load-bearing. The corps' own
-hoarding resumed, harder: shells, bridging, and sleep —
+hoarding resumed, harder: shells, bridging, and sleep;
 the three tired battalion groups pulled into hides and
 rested by written order, with both times on it, because
 sleep had entered the corps' books as ammunition. And

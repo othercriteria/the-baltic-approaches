@@ -18,8 +18,8 @@ PROGRAM DEGRADES EN ARTY RESUPPLY 30 PCT. OBSERVED: NO
 MEASURABLE CHANGE FWD OF LÜBECK.
 
 The night shift, which names everything, had begun calling
-it die Beichtwand — the confession wall — and the name
-stuck because it was exact. The staff had begun to consult
+it die Beichtwand, the confession wall, and the name stuck
+because it was exact. The staff had begun to consult
 it before committing new estimates, the way one consults a
 priest or a police record, and Aakjær, asked by a visiting
 staff officer from Karup what the display was for, gave the
@@ -52,7 +52,7 @@ it late. Report your difficulty; you do not call me with
 successes."
 
 "The wall measures us. Every sheet on it is a number about
-ourselves — our crossing, our convoys, our estimates and
+ourselves: our crossing, our convoys, our estimates and
 their fates. But the three decisions in front of the corps
 this week turn on numbers about him. Where his mass is.
 What his guns will do. What an hour costs him. For those we
@@ -115,19 +115,19 @@ the war his lead divisions' rate of advance fell below any
 figure in their norm tables, and their behavior did not
 change. No fury. No reinforcement of failure. No shift of
 axis. Listen to what that rules out. An army commanded by
-its situation — by the fight in front of it — reacts when
+its situation, by the fight in front of it, reacts when
 the fight goes badly: it reinforces, it shifts, it rages.
 His does not react to the fight. It proceeds. On the
 eleventh his engineers rebuilt the same crossing three
 times under our harassing fire, at the same site, on the
 same axis, when a two-kilometer displacement would have
-cost them less — because the site was the plan's site.
-I filed all of it as discipline — deliberate as a tide
+cost them less, because the site was the plan's site.
+I filed all of it as discipline: deliberate as a tide
 table, I wrote, and was pleased with the sentence. Suppose
 it is not discipline. Suppose he reads his advance the way
-we have learned to read our crossing — against a written
-line, his plan's line — and files, every evening, in some
-beech wood, a figure. Days behind. Days behind,
+we have learned to read our crossing: against a written
+line, his plan's line. Suppose he files, every evening,
+in some beech wood, a figure. Days behind. Days behind,
 accumulating." He looked up. "Then the question that
 decides the campaign is not where his mass is. It is: how
 many days behind is he, by his own count, and what number
@@ -136,7 +136,7 @@ more."
 
 He took a clean sheet and wrote three headings in his
 upright hand: HIS NORM. HIS ACTUAL. HIS PATIENCE. Under the
-first he could already enter figures — the norms were in
+first he could already enter figures: the norms were in
 the doctrine, captured documents, twenty years of study.
 Under the second, estimates: the corps knew where the
 fighting was, and where it had been, and the arithmetic
@@ -146,7 +146,7 @@ Under the third, nothing, and they stood looking at the
 nothing while Aakjær inventoried what might ever fill it.
 "Three sources, in descending order of worth. His
 documents, if the war captures the right safe; wars
-sometimes do. His behavior at the margin — the day his
+sometimes do. His behavior at the margin: the day his
 economy changes, the day the careful fires stop being
 careful, that is his patience speaking in the only
 language we share. And the third source is the one I
@@ -172,10 +172,10 @@ began the other ledger. His.
 ---
 
 The evening counts had come in while they talked. Lammers'
-nine-day ammunition date was now a seven-day date —
+nine-day ammunition date was now a seven-day date:
 expenditure had risen again against the deliberate assault
 on the Segeberg axis, and the convoys had lost eleven hours
-to a bombed marshalling yard at Neumünster — and at 0140 the
+to a bombed marshalling yard at Neumünster. At 0140 the
 G-4's night duty officer brought the revised curve to the
 operations room without being asked, because the wall had
 made bringing bad news early into a form of prestige.
@@ -184,7 +184,7 @@ The first true rationing order of the war went out at 0300
 over Holt's signature. The batteries would bank one-third
 of the daily scale against the commander's future intent.
 Fires would be refused where the ground was not
-load-bearing to the defense — and the order named, for the
+load-bearing to the defense, and the order named, for the
 first time in any corps document, which ground was which,
 in a schedule Roloff drafted from the overlay with his
 usual total flatness, pricing among other things two

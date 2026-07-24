@@ -6,8 +6,8 @@ Aakjær made the distinction at the morning conference on
 the fourth of December and the staff adopted it, because
 it was exact. The cut army capitulated by battalions
 across the first three days of the month. The relief
-attempt died in the December gales — the one schedule of
-the entire war that held to the day — and the front went
+attempt died in the December gales, the one schedule of
+the entire war that held to the day, and the front went
 quiet, then formal: the enemy digging a winter line east
 of the neck, the corps digging opposite, the artillery
 of both sides falling silent out of an economy that had
@@ -30,11 +30,11 @@ survey markers with patrols and paperwork, and posted
 the cost of each adjusted meter against its negotiating
 value, which was the wall's last unprecedented column.
 Hvidt refused two proffered adjustments as not worth a
-squad's morning, took one worth a battalion's — a
+squad's morning, took one worth a battalion's: a
 survey-marker ridge that covered the Sehestedt
 crossing's demolition sites, argued to him by Roloff
 in four sentences of pure geometry and approved in
-one — and declined, on the last afternoon, a request
+one. He declined, on the last afternoon, a request
 no format had anticipated: a proposal, relayed through Karup
 with visible embarrassment, that the corps' final
 situation report be timed and worded to support the
@@ -45,11 +45,11 @@ corps is standing was purchased at rates this
 headquarters published daily. If the communiqué
 requires different facts, the communiqué is free to
 purchase its own." At 2350 on the sixth he stood in
-the operations room while a German captain — the same
-captain; the war had been short enough that it was
-still the same captain — drew the cease-fire line onto
-the plexiglass in a blue chinagraph no one had ever
-used before, because no convention existed for it.
+the operations room while a German captain drew the
+cease-fire line onto the plexiglass in a blue chinagraph
+no one had ever used before, because no convention
+existed for it. It was the same captain; the war had
+been short enough that it was still the same captain.
 
 ---
 
@@ -84,9 +84,9 @@ wince at his own arithmetic. The crest had been real,
 and its hinges had turned on a folder in a beech wood
 that no instrument in the headquarters had known existed. The
 error ledger went into the assessment as an annex, by
-name and date and initial — F-series, the staff called
-the entries, failures, numbered — and three of the
-seven carried the initials NH.
+name and date and initial: F-series, the staff called
+the entries, failures, numbered. Three of the seven
+carried the initials NH.
 
 Bjelke arrived from Karup on the fourteenth with the
 theater's draft campaign report, to harmonize.
@@ -125,14 +125,14 @@ the exact one our assessment names as the whole
 subject."
 
 They fought it for two hours, courteously, sentence by
-sentence. Bjelke's method was concession — he yielded
+sentence. Bjelke's method was concession: he yielded
 every point that could be yielded gracefully, and each
 yielding narrowed the ground toward the one he had
 come for. Yes, the fourteen hours should appear; the
 supplement was the appropriate — very well, the body,
 if the corps felt strongly, as a footnoted range. Yes,
 the F-series was admirable discipline; its NUMBERING,
-though, its air of indictment — might the entries not
+though, its air of indictment: might the entries not
 be styled "assessment revisions," which is after all
 what they were? "They were failures," Holt said. "The
 word is load-bearing. Revise it out and the annex
@@ -142,9 +142,9 @@ corrected it, late, at posted rates, over their own
 initials, and the next staff to read this must
 believe such correction will cost them what it cost
 us, or they will not budget for it." And Hvidt let
-his G-3 fight it alone — he sat at the end of the
+his G-3 fight it alone; he sat at the end of the
 table signing the day's file and did not once look
-up — until Bjelke, unbeaten, appealed to the
+up until Bjelke, unbeaten, appealed to the
 commander directly: surely the General agreed the
 alliance was better served by a record of competence
 than a catalogue of luck.
@@ -192,8 +192,8 @@ forming on his desk, in his own unhurried hand, was
 addressed north, and its subject was the Jutland
 operation entire: origins, conduct, culmination,
 lessons. He had summoned the chief of staff to supply
-figures, and Rylski supplied them — exact, sourced,
-against his own reconciliations — because they were
+figures, and Rylski supplied them, exact, sourced,
+against his own reconciliations, because they were
 true, and because supplying them was his function, and
 because a chief of staff who has kept honest books does
 not stop keeping them merely on learning what they are
@@ -203,7 +203,7 @@ What they were for revealed itself in the questions.
 The Comrade General-mayor did not ask what had failed;
 his report, visibly, already knew. He asked for dates.
 The date of the first reconciliation showing the Front
-behind its plan. The date it was forwarded to theater —
+behind its plan. The date it was forwarded to theater:
 "unaltered, I believe, at the commander's own
 insistence; a scruple that does him credit; the date,
 please." The date of the signed sentence about feeding
@@ -283,9 +283,9 @@ the instruction that it was from the thin man, for the
 General, and that the General would understand.
 
 Rahn's sitting room was small and warm and held no
-memorabilia at all — bookshelves, a reading lamp, and
+memorabilia at all: bookshelves, a reading lamp, and
 one framed photograph of a woman in the fashion of
-1948 — and they spread the war across the carpet sheet
+1948. They spread the war across the carpet sheet
 by sheet and read it through, five hours, in order,
 the way it had actually been written. Rahn stopped
 longest at the early sheets: the ninety-hour clock,

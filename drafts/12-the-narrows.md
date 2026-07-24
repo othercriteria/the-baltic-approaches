@@ -38,9 +38,9 @@ afternoon.
 The blow fell at 0805, and it fell on the Schlei shoulder.
 
 Not the widened battle. Not the new axis. The mass came
-through the existing salient — through the canal crossing
+through the existing salient, through the canal crossing
 at Sehestedt the enemy had forced two days before, between
-Rendsburg and the sea — and it came north and west, at the
+Rendsburg and the sea, and it came north and west, at the
 neck, to finish the argument with its own schedule.
 Aakjær's alternate read, eleven days of war compressed
 into one boxed paragraph on the wall, sat there while the
@@ -51,8 +51,8 @@ Fresh regiments passed through the salient's tired ones at
 first light behind an artillery preparation of a weight
 the war had not yet shown. By 0800 the forward brigade
 line on the narrows was broken in one place and bending in
-two. The Danish division — closed at last, one hundred and
-eighty hours after a plan that had promised ninety — stood
+two. The Danish division, closed at last, one hundred and
+eighty hours after a plan that had promised ninety, stood
 its first full battle on its second morning, and bent.
 
 What Holt remembered afterward was not the map. It was
@@ -71,7 +71,7 @@ held against the commander's intent, the credit the
 battalion commander from Kolding had lent against a date.
 And the line itself: the guidance line, the second one,
 the trace the capitals had drawn ten days ago through
-Schleswig when the first line broke — political ground,
+Schleswig when the first line broke. Political ground,
 paid ground, ground with a communiqué already written
 about it.
 
@@ -98,7 +98,7 @@ net, not asking for anything: "Corps, this is the division
 commander. My line is bending in two places and I am
 using my engineers as infantry as of this hour. I state
 it so that whatever the corps decides today, it decides
-knowing that. No request. Out." — a man spending his
+knowing that. No request. Out." A man spending his
 division with the meter running and declining, on
 principle, to make the corps' arithmetic easier by
 understating his own. The operations room heard it
@@ -127,7 +127,7 @@ a man attends the spending of his own estate.
 
 And in the writing of it, Holt made the day's error.
 
-Roloff had the wall's sheet already in his hand — he had
+Roloff had the wall's sheet already in his hand. He had
 pulled it at 0830, unasked: the second-echelon sheet with
 Aakjær's boxed alternate and Holt's own disposition line
 beneath it. "Herr Oberstløjtnant. The alternate read. If
@@ -211,7 +211,7 @@ spending it well. Note that the corps has never once
 priced the difference between spending and spending
 well. It is the largest number on no board we own."
 
-At 1225 Hvidt committed the reserve — not all of it. That
+At 1225 Hvidt committed the reserve. Not all of it. That
 was its own argument, thirty seconds of it, at the
 plexiglass: Holt had the release drafted for all three
 battalion groups, because the break was real and the
@@ -251,13 +251,13 @@ dividend nine hours late, which the wall logged,
 both times, without comment; and at 1409 the divisional reconnaissance
 squadron's dismounts were relieved in place by
 infantry they had never met, and the squadron's
-report of its own relief — nineteen effective, all
-weapons accounted for — went onto the wall unedited,
+report of its own relief, nineteen effective, all
+weapons accounted for, went onto the wall unedited,
 because the wall did not edit. By 1500 it held: the
 penetration pinched at its waist, the eastern
 break sealed against the Schlei, the enemy's fresh
-regiments — who had spent their own artillery preparation
-on schedule and now stood past its end — grinding forward
+regiments, who had spent their own artillery preparation
+on schedule and now stood past its end, grinding forward
 into a defense that was ugly, improvised, and no longer
 breaking.
 
@@ -271,7 +271,7 @@ weather through rigging, and Witzel walked the room
 against its grain, agenda in hand, and made the machine
 do the boring things on time: shift change held to the
 minute, the reliefs fed, the logs current, a signature
-file moving through the storm at its appointed pace —
+file moving through the storm at its appointed pace:
 "because the corps that stops filing at noon," he said to
 a lieutenant who had asked, with honest disbelief,
 whether the routine traffic could wait, "has decided by
@@ -307,7 +307,7 @@ authority to choose between them, and I will own the
 choice."
 
 The authority came back in ninety minutes, hedged for
-the archives — military necessity, the determination of
+the archives: military necessity, the determination of
 which had so recently been reserved, was released to
 the man at the plexiglass in a sentence with three
 subordinate clauses, one for each capital. Witzel
@@ -315,8 +315,8 @@ read it to the map table once, at dictation speed,
 because a staff executing a sentence was entitled to
 hear it as written, and when he reached the clause
 reserving the governments' position on any further
-voluntary relinquishment — the lawyers reloading
-even as they yielded — Hvidt took the message form,
+voluntary relinquishment, the lawyers reloading
+even as they yielded, Hvidt took the message form,
 initialed it received, and said the only thing he
 ever said about the ninety minutes: "The corps has
 been lent its own judgment. Note the rate of
@@ -339,7 +339,7 @@ convoys the marshalling yards were not promising. The
 reserve: three battalion groups, none fresh. The 6th
 Panzergrenadier: fifty-five percent of its strength on
 the eighth of November. The Jutland Division: seventy
-percent and falling — a figure audited now by the wall's
+percent and falling, a figure audited now by the wall's
 own discipline, and therefore, for the first time in the
 war, believed. The enemy's opening blow: eleven
 kilometers and a wrecked lead division, bought at a

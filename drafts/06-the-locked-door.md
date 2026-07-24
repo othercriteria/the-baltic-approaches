@@ -9,6 +9,19 @@ morning of the war Roloff asked the question that had to come.
 still describes the line as it stood on the eighth. Under the
 two-times order, do I update it?"
 
+The question was correct, which was the trouble with it. The
+two-times order said every document carried its scheduled
+state and its actual state, and the folder's situation
+summary was now five days stale, and Roloff maintained the
+folder — it was signed for quarterly, custodian and witness,
+a small liturgy Holt had performed four times without once
+reading past the cover sheet — and Roloff did not maintain
+stale documents. He stood at the safe with the drawer open
+and the folder flat on his two hands, like a verger holding
+something whose weight was not the point, and waited for an
+answer with his usual total absence of opinion, and the
+absence, for once, was itself loud.
+
 Holt had known the folder was there for thirteen months, the
 way one knows the household insurance is in the bureau: a
 thing maintained, never read twice. Inside it was a message
@@ -41,6 +54,15 @@ the end of every branch. Then the door is locked and this
 headquarters returns to its war. I would rather the subject
 stood in this office for one hour than lived in the corridors
 for three weeks."
+
+It was held in the commander's office at 1800, after the
+evening conference, with the map of the Approaches and the
+bad coffee and no clerks — Witzel kept the record himself, in
+a notebook that would go into the safe with the folder, which
+told the three officers present what kind of hour it was
+going to be. Nobody sat until Hvidt did. Outside the window
+the town was blacked out and the canal, catching some last
+gray light, lay across the dark like a dropped ribbon.
 
 ---
 

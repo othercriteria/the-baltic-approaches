@@ -32,9 +32,31 @@ first contact 8 Nov = day 1). **ARITHMETIC FLAG owed to DK:
 the allocation sheet's row targets sum to 49.25k, NOT its
 stated 51.4k** — outline §5 proposes the honest correction
 (+0.25k to rows 9/12/15/19/19a → 50.5k; true reserve ceiling
-~54.2k). NEXT: DK reads outline.md, rules on §1 + the
-arithmetic; then DRAFT ONE, fresh from the outline, chapter
-map-pass ([TRACE] flags) before each chapter's prose.*
+~54.2k). RATIFIED same day (DK): §1 decisions (1)(2)(3) by
+name; draft one authorized; the arithmetic correction adopted
+under "according to plan" (flagged for DK to strike). **DRAFT
+ONE EXISTS (same session): drafts/01–20 + 19a, 21 chapters,
+~40.0k words, committed chapter by chapter.** The outline
+executed in full: front rebased (war opens at Lübeck/IGB, the
+Danevirke faces south), F0–F7 seated with named signatures
+(three of seven initialed NH — Holt's own), rulings enforced
+(Danish close-third; Witzel present chs. 2/6/8/12/14/16/18/20;
+ferries not bridges; epigram ration 6-of-21; prolepsis zero —
+two instances caught and cut in-session; red norm-bound;
+unpaid plants held). **THE GAP, measured and owed: 40.0k vs
+50.5k planned (−21%).** The 30k attractor operated ON the
+drafting session in real time despite countermeasures — every
+chapter's first pass landed 25–40% under its floor; one-two
+expansion passes per chapter (each committed separately,
+diffable) recovered Part I to −5..−15%, less for Part III as
+the session prioritized completing the skeleton. Thinnest
+rows vs. target: 19a, 18, 16, 14, 15. NEXT SESSION: (1) DK
+reads draft one and NAMES thinness specifically (process
+rule: the human diagnoses; the deficits are arithmetic, not
+diagnosis); (2) the thickening campaign — row-by-row against
+outline §5's scene lists + the four-agent beat inventories
+(session 52662a0d's transcript), reserve queue live; (3) the
+instrument-roster pass over DRAFT ONE (not the specimen).*
 **PHASE 1 IS RUNNING (2026-07-23, session 3340b8fd):**
 planning/phase1-independent-take.md (the pre-specimen independent
 derivation DK asked for + reconciliation: the specimen ratified by

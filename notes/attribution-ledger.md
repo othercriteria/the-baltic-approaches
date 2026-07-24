@@ -261,6 +261,22 @@ entity index generatable instead of reconstructable.
   correction (+0.25k to rows 9/12/15/19/19a → 50.5k planned;
   reserve ceiling ~54.2k); flagged in-session for DK to strike
   if misread.
+- 2026-07-23 — session 52662a0d WRAPPED (no compaction
+  boundaries: single entity, 52662a0d@tip). Span: THE OUTLINE
+  (planning/outline.md, ratified in-session — front rebase,
+  21 rows at scene grain, reader-ahead table ruled, unsettle
+  #2 discharged at outline grain, three delegated decisions
+  argued and ratified: Bjelke / Roloff-as-carrier /
+  deputy-inherits-chair; allocation-sheet summation error
+  caught, 49.25k vs claimed 51.4k) and DRAFT ONE ENTIRE
+  (drafts/, 21 chapters, ~40.0k words, per-chapter commits
+  with expansion passes diffable; −21% against the corrected
+  plan, the attractor documented operating on the drafting
+  session in real time — see status.md for the accounting and
+  the next campaign). Inputs distilled by four Opus
+  beat-inventory agents (full reports in this transcript).
+  Raw-archive falls to the successor or DK: `make raw-archive
+  SESSION=52662a0d-15b0-4e2c-8893-8cf5b0da01f1`.
 
 ## Entity index
 
@@ -274,6 +290,7 @@ come from `Session-Id:` trailers plus JSONL boundary timestamps.
 
 | # | Entity | Boundary type | Dates | Model | Transcript | Commit range | Contribution summary |
 |---|---|---|---|---|---|---|---|
+| 8 | 52662a0d@tip | tip | 2026-07-23 (wrapped) | Fable 5 | (export after wrap) | 13f4d6f..wrap, Session-Id trailers throughout | The outline (the drafting contract: front rebase, 21 rows at scene grain, the three ratified design decisions — non-villain F7 antagonist Bjelke, Roloff as Kreis carrier, deputy-inherits-chair — reader-ahead table ruled, unsettle #2 discharged, the allocation summation error caught) and draft one entire (21 chapters, ~40.0k words, the first non-throwaway manuscript; F0–F7 charged to named signatures incl. the protagonist's; every chapter committed with expansion passes diffable; the −21% attractor gap measured and owed forward in status.md). Materiality: presumptively material under the row-2 ruling logic (the outline is the manuscript's contract; the draft is the manuscript) |
 | 7 | eb2fcb4e@tip | tip | 2026-07-23 (wrapped) | Fable 5 | (export after wrap) | eaeccc2..wrap, Session-Id trailers throughout | The judged matrix + the four rulings that close the character/setting axis (protagonist Danish, voice close-third — the record the drafting voice stands on); the critique profile (the drafting model's failure map + craft rules for draft one); the atlas (the geography source of truth, verification rounds 1-3, absence tests that make the specimen's map errors untypable); campaign 4's CAL-3 closure; the Lautsch substitute corpus (red architecture to quote+page grade, two corrections). Materiality: presumptively material under the row-2 ruling logic (the nationality/voice ruling record, the craft rules the outline enforces, and the geographic/logistic ground truth draft one is written against) |
 | 1 | 656ec2ba@tip | tip | 2026-07-20 | Fable 5 | transcripts/2026-07-20-656ec2ba.md | (none in this repo; stub commit made by DK's tooling from its direction) | Premise selection and repo stubbing; see lineage log. Standing ruling: pre-project ideation, materiality to be ruled at wrap — when in doubt, include |
 | 6 | 3340b8fd@tip | tip | 2026-07-23 (wrapped) | Fable 5 | (export after wrap) | f80dfd6..wrap, Session-Id trailers throughout | Phase 1 opened: the independent take + reconciliation (the convergence-not-convenience record; the argued German-nationality brief); the allocation sheet from specimen actuals (F0–F7 failure ramp, ch. 19a, the political-ledger thread, the reserve queue); the matrix-test corpus (six re-renders + protocol). Materiality: presumptively material under the row-2 ruling logic (the allocation sheet is the outline's skeleton; the failure ramp is the Part-III design; the take is the record the nationality/voice ruling will cite) |

@@ -63,6 +63,28 @@ brigade replenishment point at Assembly Point 14 — the
 gymnasium's stores, the trucks under the plane trees —
 lay a thousand meters inside the breach by 0510.
 
+The first hour belonged to the hinge company, and the
+hinge company's war diary is eleven lines long. A
+company and a half of Loheide's regulars, dug in on a
+frontage written for a battalion, took the weight of
+two regiments in the dark and did the only thing the
+situation offered, which was to die slowly instead of
+quickly: positions held to grenade range, then folded
+back one hedgerow at a time, the anti-tank teams
+working the flanks of the armor by its own muzzle
+flashes. The company commander's radio log, preserved,
+runs from CONTACT, ARMOR, BATTALION PLUS at 0343 to a
+transmission at 0417 consisting of a map reference and
+the single word HOLDING, to silence. The silence was
+not the end of the company. It was the end of the
+radio. The company came out at first light, nineteen
+men and a lieutenant, through the gap its own
+stubbornness had bent into the breakout's shoulder,
+and the bend was the battle: it had cost the enemy's
+lead regiment forty minutes and its assembly
+discipline, and the forty minutes were the corps'
+whole working capital that morning.
+
 The corps fought its rear-area battle with what a corps
 has at 0400: not shells — the bank was spent and the
 program fired; not fresh reserves — the freshest were
@@ -129,6 +151,17 @@ transmitted a single sentence of comment, which
 entered the staff's permanent vocabulary: "The fence
 held. Recommend the corps never again build one
 around anything it believes to be dead."
+
+Aakjær had taken the assessment's failure on himself at
+the 1200 conference, mid-battle, in one sentence,
+before anyone else could sort the night into blame:
+"The wall carried both readings and I initialed one;
+the enemy initialed the other." But the initials on the
+readjustment order were Holt's, and the two sets of
+initials went into the same file, and the file became
+the F-series' sixth entry by evening, drafted by its
+own subjects, which the wall's doctrine required and no
+other doctrine on earth does.
 
 The price was posted on the twenty-third of the war's
 days, at 2200, in Roloff's hand, even as ever. The

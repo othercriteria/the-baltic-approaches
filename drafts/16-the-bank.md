@@ -62,8 +62,30 @@ counter is dearer than the market knows. The
 battalion comes from somewhere, gentlemen. It comes
 from the twenty-eighth."
 
+Witzel built the raid's paperwork himself, which was
+the measure of what he thought of it. "An operation
+conducted for an audience," he said, laying the
+annexes out for signature in his exact ranks, "requires
+its records kept better than an honest one, because
+the audience will one day include a historian. Item:
+the objective's military value, stated without
+adjectives. Item: the source of the requirement,
+serial numbers preserved — the corps did not conceive
+this; the file will show who did. Item: the cost,
+carried forward in the counterstroke's own accounting,
+cross-referenced, so that no future reader can
+tabulate the twenty-eighth without tripping over the
+twenty-fifth. If the capitals wish to purchase
+confidence from this headquarters, Herr Oberstløjtnant,
+they will at least receive an itemized bill." It was
+the longest speech anyone had heard him make, and it
+was delivered entirely to a signature file.
+
 The raid went in on the twenty-fifth at dawn, was
-competently conducted, took its objectives, held them
+competently conducted — the battalion commander, told
+the truth about his mission at his own insistence,
+briefed his companies on the military objective and
+let the rest alone — took its objectives, held them
 for the cameras' purposes, and came back across the
 line at dusk with light casualties, and the evening
 programs in three countries carried it as the
@@ -116,8 +138,23 @@ he looked, and knew what he was looking for, and it was
 not there — no hesitation in the inking, no
 superfluous annotation, nothing done more carefully
 than the rest. The discipline was total, and what it
-was costing was a figure that existed in no column, and
-he countersigned the overlay and the two men drank the
+was costing was a figure that existed in no column.
+
+"The hide at Assembly Point 14," Holt said. "The
+gymnasium's floor loading — the stores estimate
+assumes the modern annex, not the old hall?"
+
+"The modern annex, Herr Oberstløjtnant. The old hall's
+floor is 1911 timber over cellars. It is in the
+district file." A pause of exactly normal length.
+"I have also marked the ceiling heights. The corps
+had occasion to measure the building in October, for
+the evacuation planning. The file is unusually
+complete."
+
+That was the whole conversation the war permitted the
+two of them, and both men conducted it looking at the
+overlay, and Holt countersigned, and they drank the
 night shift's coffee for four minutes, standing, and
 spoke about berth cycles at Halsskov.
 

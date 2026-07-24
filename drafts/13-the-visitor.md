@@ -82,7 +82,7 @@ other end of this sea when Hvidt's
 country learned what occupation was, and Holt's family
 had learned it too, in Fredericia, where his mother could
 still, at seventy, go silent at the sound of a certain
-kind of boot-step in a stairwell; and the vouching being
+kind of boot-step in a stairwell. And the vouching being
 asked for was not professional, because the professional
 question was already answered by the call log's contents.
 
@@ -139,9 +139,9 @@ nod of one craftsman accepting another's gauge. At the
 bridge-or-seniority messages he stopped and read both
 twice, and made the tour's one unwilled sound, a
 short exhalation that in a younger man would have been
-a laugh. At the F1 entries, the deep program's
-projected column against the front's NO MEASURABLE
-CHANGE, he stood longest of all before the last sheets,
+a laugh. At the air program's sheets, the projected
+column against the front's NO MEASURABLE
+CHANGE, he stood a long time before the last sheets,
 and touched nothing, and moved on without comment,
 and the staff understood that the wall had just been
 read by the first visitor who knew the price of every
@@ -211,9 +211,9 @@ of December, the ports his careful gunnery had been
 keeping whole because without a working port the whole
 structure of his operation was a bridge to a bank that
 did not exist. His creditors were not at Rendsburg. They
-are all creditors, Rahn said, of every army that has
-ever marched on a promise — and the sea forecloses
-first.
+The sea and the season are creditors, Rahn said, of
+every army that has ever marched on a promise — and the
+sea forecloses first.
 
 "You have learned his constraint," he said, folding
 himself into the chair they had put out for him and not

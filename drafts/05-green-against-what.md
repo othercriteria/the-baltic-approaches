@@ -10,8 +10,8 @@ famous, culverts whose destruction turned firm verges into
 tank traps for exactly the week the engineers had promised.
 Forty of the forty-one fired, were confirmed, and were logged
 with both times, scheduled and actual, the pairs almost
-touching. The forty-first was the resurveyed charge Lammers
-had named at the October wash-up, and it failed for none of
+touching. The forty-first was the charge Lammers had named
+at the October wash-up, and it failed for none of
 the reasons anyone had priced: the firing party was dead.
 
 Men are entitled to their competence. The engineers had done
@@ -21,17 +21,17 @@ two-times rule had already begun to teach. And by 0400 the
 enemy was across the Trave in two places.
 
 Not because the demolitions failed. Because he treated the
-river as an item on his march table. The corps-level bridging that the
-intelligence annex had faithfully listed, quantities filed,
-capabilities noted, nobody imagining them concentrated, came
-forward within ninety minutes of the lead regiments reaching
-the bank, on one road, in one column whose discipline the
-forward observers described with something near awe. And ahead
+river as an item on his march table. The intelligence annex
+had faithfully listed the corps-level bridging, quantities
+filed, capabilities noted, nobody imagining them concentrated.
+It came forward within ninety minutes of the lead regiments
+reaching the bank, on one road, in one column whose discipline
+the forward observers described with something near awe. And ahead
 of the bridging, in the November dark, his infantry crossed in
 assault boats and rubber rafts and then by wading, in ranks,
 with their weapons held over their heads, into machine-gun
 fire, taking losses that the observers reported with
-disbelief and revising upward, and continuing.
+disbelief and then revised upward, and continuing.
 
 Holt had been in the operations room all night with the
 demolition logs, and at 0530 the room was at its worst hour:
@@ -163,9 +163,8 @@ declined to have heard it.
 ---
 
 They built the page that afternoon at the map desk, four of
-them around two sheets of graph paper taped end to end, and it
-went in Holt's memory afterward as the hinge of the war,
-though at the time it was only difficult.
+them around two sheets of graph paper taped end to end, and
+at the time it was only difficult.
 
 The left column was easy, and that discovery was itself the
 finding. Companies rendered ineffective per twelve hours
@@ -186,10 +185,9 @@ flat as always, and Holt watched the pen and understood that
 the figure was families, in file, on a road out of the
 districts east of Bad Segeberg, and that the reporting system
 had digested them into kilometers because kilometers fit the
-column. Roloff's own family had come out of the Schleswig
-district on the annex's third day, in a numbered column, in
-a neighbor's car; the corps had assigned them a report line
-and a collection point and a receiving district, and Roloff
+column. Roloff's own family stood on the annex's lists for
+the Schleswig district, assigned a report line and a
+collection point and a receiving district, and Roloff
 had drafted two of the three documents himself, and his pen
 did not pause, and Holt did not learn any of this from the
 pen. He knew it from the personnel file, the way a man knows

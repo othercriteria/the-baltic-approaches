@@ -18,8 +18,7 @@ PROGRAM DEGRADES EN ARTY RESUPPLY 30 PCT. OBSERVED: NO
 MEASURABLE CHANGE FWD OF LÜBECK.
 
 The night shift, which names everything, had begun calling
-it die Beichtwand, the confession wall, and the name stuck
-because it was exact. The staff had begun to consult
+it die Beichtwand, the confession wall, and the name stuck. The staff had begun to consult
 it before committing new estimates, the way one consults a
 priest or a police record, and Aakjær, asked by a visiting
 staff officer from Karup what the display was for, gave the
@@ -28,7 +27,7 @@ the only document in the headquarters that grows more
 honest as it grows longer. Everything else we produce grows
 more polished."
 
-The visiting officer wrote that down. That mattered later.
+The visiting officer wrote that down.
 
 ---
 
@@ -196,7 +195,7 @@ The evening counts had come in while they talked. Lammers'
 nine-day ammunition date was now a seven-day date:
 expenditure had risen again against the deliberate assault
 on the Segeberg axis, and the convoys had lost eleven hours
-to a bombed marshalling yard at Neumünster. At 0140 the
+to a bombed marshaling yard at Neumünster. At 0140 the
 G-4's night duty officer brought the revised curve to the
 operations room without being asked, because the wall had
 made bringing bad news early into a form of prestige.

@@ -145,7 +145,7 @@ time, in its third direction: the movement-control net
 turned the rearward marches around on their own
 tables, Loheide's regulars who had been promised
 rest and received a map reference, while the engineer
-captain from the Eider orders fired the prepared
+captain from the Eider fired the prepared
 charges on the two district bridges that fed the
 breach's flank, dropping them onto the axis he had
 spent three weeks keeping open, both times logged, the
@@ -196,8 +196,8 @@ district's two bridges went down on their charges at
 0545 and 0602, each with its movement-control log
 closed out to the minute; the crater plan the elderly
 Oberstleutnant of reserves had maintained since the
-evacuation — against, he noted later, no requirement
-anyone had issued him — cost the breakout's second
+evacuation — no requirement, he noted later, had ever
+been issued to him — cost the breakout's second
 regiment its wheeled echelon before noon, and
 carried both times on every charge, because by the
 war's fourth week the old administrator knew no
@@ -220,13 +220,11 @@ four-minute gap the log preserves: CONFIRMED.
 COUNTERMARCH. REST: SCHEDULED 292000. ACTUAL: NOT
 YET ACHIEVED. The format had never before been used
 as an apology. The battalion was rolling south
-inside twelve minutes. They did it at
-surge prices, tired men counterattacking at noon,
-and they did it, and the after-action assessment's
-sentence about it, drafted by Holt and left unedited
-by everyone who reviewed it, reads: THE CORPS' LAST
-RESERVE WAS ITS SOLDIERS' OBEDIENCE, AND IT WAS SPENT
-KNOWINGLY.
+inside twelve minutes. The after-action assessment's
+sentence about the day's countermarches, drafted by
+Holt and left unedited by everyone who reviewed it,
+reads: THE CORPS' LAST RESERVE WAS ITS SOLDIERS'
+OBEDIENCE, AND IT WAS SPENT KNOWINGLY.
 
 The breach was sealed at 1140 by the turned-around
 battalions and held through the afternoon against the
@@ -251,8 +249,7 @@ counts."
 Nobody laughed, and nobody answered, and he went to
 file his overlays. It was the only sentence about
 himself he was ever heard to say in that building, and
-the war diary has no column for it, and it is recorded
-here.
+it is recorded here.
 
 ---
 
@@ -280,10 +277,11 @@ the map. That was the mercy of the hour, and it was
 also the hour's ruling: the argument would have to
 wait for the file, and the file would be exact. But
 the initials on the readjustment order were Holt's, and the two sets of
-initials went into the same file, and the file became
-the F-series' sixth entry by evening, drafted by its
-own subjects, which the wall's doctrine required and no
-other doctrine on earth does.
+initials went into the same file, and the file became,
+by evening, the sixth entry in the wall's numbered
+failures, what the staff called the F-series, drafted
+by its own subjects, which the wall's doctrine
+required and no other doctrine on earth does.
 
 The price was posted on the twenty-third of the war's
 days, at 2200, in Roloff's hand, even as ever. The

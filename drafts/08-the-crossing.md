@@ -15,8 +15,8 @@ words, "Come and see something" — that he was being taken to
 be shown a fact he had been reporting for a week without
 seeing it.
 
-The drive was part of the showing, though he understood
-that only later: fifty minutes west behind a fuel convoy
+The drive was part of the showing, though that came clear
+only later: fifty minutes west behind a fuel convoy
 the cars could not pass, the commander's pennant taking
 its place in the queue like any other vehicle, because
 the escort had been forbidden to clear a lane. Hvidt
@@ -91,8 +91,9 @@ clock — who serves the crossing?"
 "Nobody. Every stage has an owner and the chain has none.
 The plan wrote the division's arrival as a sum: mobilize,
 issue, march, cross, occupy, as if the stages were fields
-in a form. They are not a sum. They are a chain, and the
-chain moves at the pace of its narrowest link, and the
+in a form. They are not a sum. The Oberst told this staff a
+week ago: a chain. And the chain moves at the pace of its
+narrowest link, and the
 narrowest link is that bridge, and the bridge has no
 colonel." He said it without heat, which had already become
 the thing the staff found most alarming about him. "I have
@@ -178,7 +179,7 @@ are proposing that a hit may cost us the crossing."
 spacing the bridge passes — Roloff?"
 
 "Two hundred and ninety vehicles per working hour. At half
-spacing, estimated four hundred ten. The difference across
+spacing, estimated four hundred and ten. The difference across
 one day is the closure of the division's tail a full day
 early."
 

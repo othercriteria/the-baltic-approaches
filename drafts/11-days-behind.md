@@ -21,9 +21,7 @@ the commander on the war's second morning: he had gone
 to the one return that cannot flatter and built the
 Front's actual positions backward out of its fuel,
 consumption against map distance, depot issue against
-march table. A division may report its progress
-optimistically, but it draws its diesel from where it
-actually stands. Two columns. The left was the plan: the phase
+march table. Two columns. The left was the plan: the phase
 lines of the Jutland operation with their dates, the calm
 procession, Day Six standing on the neck of the peninsula.
 The right column was assembled entirely from the Front's
@@ -42,7 +40,7 @@ bridging, which are themselves already pledged. I have
 audited our own summaries against our own subordinate
 returns. The summaries are not false at any single level.
 They are optimistic at every level, and the optimism
-compounds at the same rate as the lag, which is why the
+accrues at the same rate as the lag, which is why the
 Front's maps are beautiful and the Front is five days
 late. That is the reconciliation. I recommend it be
 forwarded to theater staff as written."
@@ -89,8 +87,7 @@ it by the second day and I want the record to show the
 Front chose it rather than suffered it."
 
 Zawadzki signed it in those words. He was a believer;
-he had never once been an evader; the distinction was
-the whole tragedy of the man, and Rylski filed the
+he had never once been an evader; and Rylski filed the
 signed sentence with the reconciliation and the two
 documents went north together, one proving the Front
 five days late and the other proving it knew the price
@@ -176,15 +173,11 @@ missing the plan for eleven days the way one misses a
 language.
 
 It was a strange mood, and nobody named it
-that morning. The corps had been fighting a wrong-shaped
-enemy for eleven days: too few divisions, too careful, too
-deliberate, a war that matched no rehearsal. Now the
-picture had corrected itself. Here was the doctrine's
-enemy, the one from twenty years of exercise scenarios,
-and the staff reorganized the defense's arithmetic around
-him with something close to relief: the rationing
-deepened, the engineer effort shifted to the depth
-positions, and the air request for the twelfth was
+that morning. The picture had corrected itself, and the
+defense's arithmetic reorganized around the corrected
+enemy: the rationing deepened, the engineer effort
+shifted to the depth positions, and the air request for
+the twelfth was
 rebuilt into a maximum deep effort against the approach
 routes, over Kjeldsen's stated misgivings about the
 season, because against that enemy the deep program's
@@ -197,8 +190,7 @@ consensus read it as arriving after the program had
 flown. "Even odds is a coin," he said at the signing,
 to a room that had already voted. "I am noting that we
 are betting the theater's day on it." The note went in
-the file. The consensus included Holt, and the file,
-later, did not permit him to forget it.
+the file. The consensus included Holt.
 
 The morning summary carried, low on its second page, a
 theater item nobody discussed: protective posture upgraded
@@ -244,8 +236,8 @@ places. And we have built tomorrow's maximum air effort
 as if we knew which one we are watching."
 
 Holt stood with it, and gave the objection its full
-hearing, and the hearing is worth recording because
-every step of it was sound. The air program was built;
+hearing, and every step of the hearing was sound. The
+air program was built;
 the market's allocation was won; changing the read now
 cost a day of the theater's weight at the exact moment
 the weight mattered most. The indicators graded the
@@ -279,5 +271,4 @@ PROGRAM STANDS. RE-EXAMINE AT INDICATOR SPLIT. — NH.
 
 The air request for the twelfth went out as built, at
 maximum weight, against the approach routes, and the
-transmission clattered down into the night like coins
-into a well.
+transmission clattered out into the night.

@@ -289,7 +289,7 @@ work."
 
 The alert measure the headquarters had rehearsed receiving for
 thirty years followed at 0955, and a German captain, the same
-one who had razored the exercise off the plexiglass sixteen
+one who had razored the exercise off the map sixteen
 days before, wrote the date-time group on the clean map in
 chinagraph, 060955Z NOV 83, in a hand that was steady until
 the last figure.

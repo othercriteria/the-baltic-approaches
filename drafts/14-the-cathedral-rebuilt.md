@@ -81,10 +81,8 @@ The room did its own arithmetic on the two documents.
 A division nine days on the road that arrives on the
 eleventh is a division that traveled at convoy pace
 the whole way, from far back, in line behind others.
-Holt felt the answer arrive a half-beat before the
-words, running
-just behind the evidence, because the rail flow did
-not pulse. It ran continuous. The formations did not
+Holt felt the answer arrive a half-beat before anyone
+said it: the rail flow did not pulse. It ran continuous. The formations did not
 appear in blocks. They appeared in file, at intervals
 set by — Lammers got there first, out loud, in the
 tone of a man reading a competitor's invoice:
@@ -112,7 +110,7 @@ deep means something else. Deep means his tonnage."
 
 The silence was of the working kind. Lammers walked to
 the enemy side of the map like a craftsman crossing a
-competitor's shop floor.
+rival's shop floor.
 
 "Then I can extend it, because supply is my language. His
 front now eats through a two-hundred-kilometer straw,
@@ -160,7 +158,7 @@ will now be built backward from it."
 
 The objection came before the guidance was signed, and it
 came twice, independently, which was why it could not be
-waved off and why what happened to it mattered.
+waved off.
 
 Kjeldsen put it first, at the table: "For the record,
 because someone in this room is paid to say it. The
@@ -185,8 +183,8 @@ the room had: the wall would falsify daily; the counts
 would be checked against sound-ranging and the flash
 reports; the assessment would stand re-examination at
 every indicator split: all of it true, all of it the
-right answer, and all of it, Holt would think later,
-lighter than it sounded, because a discipline that
+right answer, and all of it lighter than it sounded,
+because a discipline that
 promises to catch you when you fall is not the same as
 not building on an inference three stories up. Hvidt
 heard both objections out, ruled for the structure,
@@ -213,7 +211,7 @@ was now the corps' entire business.
 
 The staff work filled the next seventy hours, and the
 seventy hours had a taste that nobody on the staff had
-met before, and that Holt, cataloguing it at the time
+met before, and that Holt, cataloging it at the time
 in his notebook, could describe only by what it
 replaced. The war's first weeks had run on response:
 the enemy acted, the corps priced the act, the corps
@@ -232,7 +230,7 @@ dumps and coast-road convoys, priced in
 days-added-to-his-preparation; close support refused
 except where the line was load-bearing. The corps' own
 hoarding resumed, harder: shells, bridging, and sleep;
-the three tired battalion groups pulled into hides and
+the three battalion groups pulled into hides and
 rested by written order, with both times on it, because
 sleep had entered the corps' books as ammunition. And
 the engineer effort turned to the crossing sites on the

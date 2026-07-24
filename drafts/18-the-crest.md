@@ -9,8 +9,7 @@ converting back into violence at the maximum rate the
 tubes could sustain, and in the operations room the duty
 officer stood at Roloff's graph with the first
 sound-ranging counts and wrote in the margin, in a hand
-that did not quite manage flatness, the annotation the
-staff would quote for years: AS SCHEDULED (HIS).
+that did not quite manage flatness: AS SCHEDULED (HIS).
 
 The model had the preparation's opening curve to within
 its own drawn width. The corps stood inside a bombardment
@@ -102,8 +101,7 @@ whole discipline existed so that a staff officer saying
 not yet could know exactly what his patience cost, and
 that knowing was not the same as it costing less.
 
-At 1130 Roloff put down the plotting pencil and said the
-thing his whole flat war had been building toward.
+At 1130 Roloff put down the plotting pencil.
 
 "Herr Oberstløjtnant. The sensitivity, for the record,
 before the decision conference. The model's crest,

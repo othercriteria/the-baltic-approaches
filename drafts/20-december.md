@@ -84,8 +84,8 @@ wince at his own arithmetic. The crest had been real,
 and its hinges had turned on a folder in a beech wood
 that no instrument in the headquarters had known existed. The
 error ledger went into the assessment as an annex, by
-name and date and initial: F-series, the staff called
-the entries, failures, numbered. Three of the seven
+name and date and initial: the F-series, failures,
+numbered. Three of the seven
 carried the initials NH.
 
 Bjelke arrived from Karup on the fourteenth with the
@@ -147,7 +147,7 @@ table signing the day's file and did not once look
 up until Bjelke, unbeaten, appealed to the
 commander directly: surely the General agreed the
 alliance was better served by a record of competence
-than a catalogue of luck.
+than a catalog of luck.
 
 Hvidt signed one more page, capped his pen, and ruled.
 

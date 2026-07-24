@@ -29,7 +29,7 @@ skeleton, FROM COMLANDJUT TO COMBALTAP, with blanks. It was
 the first rung of a ladder that went up through Karup, and
 from Karup to the theater command at Kolsås, and from there
 out of military channels altogether, into committees whose
-names were themselves classified, wearing at every rung a
+names were themselves classified, carrying at every rung a
 footnote in which the Danish government reserved its position
 on the stationing question: a ladder built deliberately
 slow, by serious men, so that no one could run up it in an
@@ -59,7 +59,7 @@ It was held in the commander's office at 1800, after the
 evening conference, with the map of the Approaches and the
 bad coffee and no clerks: Witzel kept the record himself, in
 a notebook that would go into the safe with the folder, which
-told the three officers present what kind of hour it was
+told the officers present what kind of hour it was
 going to be. Nobody sat until Hvidt did. Outside the window
 the town was blacked out and the canal, catching some last
 gray light, lay across the dark like a dropped ribbon.
@@ -169,7 +169,7 @@ By us, about them. In 1979 exercise season."
 entire instruction, and its whole value is in being
 boring."
 
-"Both trees agree, then," Hvidt said. "Two conclusions." He
+"Both trees agree, then. Two conclusions." He
 held up one finger. "His restraint is rented, and the rent
 is his own timetable. Our whole work is to put him behind
 it — and gentlemen, note the paradox and then stop looking

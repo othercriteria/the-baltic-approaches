@@ -1,7 +1,7 @@
 # 7 — The Roads
 
 The evacuation returns came up from the Territorial Command at
-0415 every morning, nine and eleven pages of them, and on the
+0415 every morning, nine or eleven pages of them, and on the
 sixth morning of the war Holt read page four twice.
 
 The corps had ordered the pre-clearance of the battle zone
@@ -101,12 +101,11 @@ learn nothing from it. Eat at hours. Write nothing you
 cannot write. Come home when it is finished."
 
 It asked nothing, and gave its sentiment as
-instructions, which was her form of it. He had read it eleven times and
-answered it once, in kind, one page, and this was the
-whole wartime correspondence of the Holt family, and
-it was sufficient, and he understood from the district
-returns that crossed his desk at 0415 every morning
-how large a thing sufficiency was.
+instructions, which was her form of it. He had read it
+eleven times and answered it once, in kind, one page. It
+was sufficient, and he understood from the district
+returns that crossed his desk at 0415 every morning how
+large a thing sufficiency was.
 
 ---
 
@@ -213,7 +212,9 @@ million behind one bridge-less strait does not maneuver; it
 endures, and the pamphlet is honest about it in the way
 pamphlets are honest — by omission, gently. My trade is
 reading other men's omissions. It is a strange sensation to
-read your own country's." "I am not asking
+read your own country's."
+
+"I am not asking
 the corps for anything, Niels. There is nothing to ask for;
 that is the point of the shape we are in. Your family sits
 in the funnel and mine sits on the shelf, and the two of us
@@ -234,9 +235,9 @@ at 1700, out loud. The practice had an author Holt could
 have named: the Danish captain's log hung three feet from
 the desk, under its file card, and this order was of the
 log's kind, a spending in both columns, soldiers' hours
-against families' days. Orders of the log's kind, he had
-decided that morning at the pinboard, would be built out
-loud from now on, with an owner of each column in the room.
+against families' days, and he had decided that morning at
+the pinboard that such orders would be built with an owner
+of each column in the room.
 
 "Yellow-3 closed to civil traffic from 0500," he said.
 "Twelve hours, all Eider crossings military-precedence. The
@@ -305,7 +306,7 @@ The order went out at 1750 over Holt's signature, the
 deferral on page one, and on the sheet by the door the
 elderly Oberstleutnant logged it without being asked, in
 the Danish captain's format, because the format was
-spreading through the headquarters on its own legs: CIVIL
+spreading through the headquarters on its own authority: CIVIL
 DELAY ACCEPTED, 1 DAY, 106 PERSONS. MILITARY GAIN, 2 BNS +
 BRIDGE RESERVE, 7 HRS.
 

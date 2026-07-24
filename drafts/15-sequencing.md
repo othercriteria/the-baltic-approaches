@@ -13,8 +13,7 @@ in his own trade's units, sorties per day, days of
 effort, the way he always restated things before he
 would argue about them.
 
-The restating was not a mannerism. It was how Kjeldsen
-audited. "The land battle's bid, in my units: forty
+"The land battle's bid, in my units: forty
 sorties a day against tonnage, for a week. The navy's
 bid: thirty a day against the fleet, this week, while
 the photographs still show it concentrated. Zealand's
@@ -153,14 +152,12 @@ ENEMY'S PREPARATION TIMELINE AS ASSESSED BY COMLANDJUT.
 "The corps' wall," he said, handing it across, "has just
 been promoted to theater instrument."
 
-It was Bjelke's sentence. Holt filed the authorship
-without knowing yet what the filing was for.
+It was Bjelke's sentence. Holt filed the authorship.
 
 ---
 
 The seventy-two hours were somebody else's battle, and
-the corps kept its ledger honestly: not claims —
-observables.
+the corps kept its ledger honestly.
 
 Holt set the ledger's rule at the first evening brief:
 observables, not claims. The distinction earned its
@@ -271,7 +268,7 @@ Little Belt bridges, and the staging areas around
 Fredericia where the tank transporters marshaled on
 the ring road past the school fence where two children
 of Holt's close acquaintance had made themselves
-famous in October by counting.
+famous in the war's first week by counting.
 
 He worked the crossing's movement table himself, one
 evening, out of no operational necessity the war
@@ -285,7 +282,7 @@ The brigades themselves came ashore at Knudshoved in a
 mood the movement staff had not planned for and noted
 anyway: three weeks of staring at an empty gray horizon,
 of digging positions for an invasion that the wall had
-now formally cancelled, discharged all at once into
+now formally canceled, discharged all at once into
 motion. A Zealand battalion commander, waiting out his
 serial's call-forward in the terminal hall where the
 kiosk still sold pastries to a wartime schedule, told
@@ -306,7 +303,7 @@ And the countdown performed.
 Roloff posted the counter-battery counts each evening
 beside THE DAY: eleven hundred rounds on the
 twenty-third. Nine hundred on the twenty-fourth. Six
-hundred forty on the twenty-fifth. Each day's silence
+hundred and forty on the twenty-fifth. Each day's silence
 slid the pencil line down toward the cross-hatched
 region where Lammers' model and Aakjær's weather
 table intersected — the region with the dates in it —

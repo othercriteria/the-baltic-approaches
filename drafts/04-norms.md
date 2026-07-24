@@ -25,8 +25,8 @@ happens to be true."
 
 Generał dywizji Stefan Rylski, ten years younger, chief of
 staff, read reports from the bottom, which was where he had
-been raised. He laid the morning's summary on the table like a
-man laying down cards already counted.
+been raised. He laid the morning's summary on the table like
+cards already counted.
 
 "The head of the snake is punctual, Comrade General. The lead
 regiments of the Fifth Army stand this morning east of Bad
@@ -157,8 +157,8 @@ anything against it."
 
 "Half of one to four is still one to two," Holt said.
 
-"Yes, Herr Oberstløjtnant. That is why I said half right. The
-other half is the G-2's question."
+"Yes, Herr Oberstløjtnant. That is why the discount is only
+half the answer. The other half is the G-2's question."
 
 Aakjær took the room to the intelligence board. "Doctrine says
 this attack should be five to seven divisions on this

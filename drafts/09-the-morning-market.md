@@ -33,13 +33,12 @@ study the market.
 ---
 
 The great bid was built on the night of the fifteenth, in the
-operations cell, by Holt and Kjeldsen and a pot of coffee
-that Kjeldsen, at some point after two, began referring to as
-the third author.
+operations cell, by Holt and Kjeldsen; at some point after
+two, Kjeldsen began referring to the coffee as the third
+author.
 
 It was proud, careful staff work, and it was
-built with its eyes open. That mattered afterward, when the
-accounting came; it mattered that no one had been lazy.
+built with its eyes open.
 
 The reasoning stood up like carpentry. The corps' front was
 being ground by artillery that outnumbered its own tubes
@@ -143,8 +142,8 @@ know which course."
 
 ---
 
-The education arrived over the next two days, in three
-parts, like a bill presented in installments.
+The answer arrived over the next two days, in three
+parts.
 
 Part one: the sorties flew late, and the lateness
 arrived as amendments. Kjeldsen's desk took the first
@@ -222,8 +221,8 @@ neighbors, and the neighbors' returns showed what wider
 cost. The battalion had a number, and the number had
 appeared in the corps' reporting for nine days, and Holt
 had read it the way one reads a call sign. He read it
-differently now. That was the seventeenth's whole
-education, compressed: 172 was an address too. Against those returns, in the
+differently now. That was the seventeenth, compressed:
+172 was an address too. Against those returns, in the
 observed column of the air sheet, Roloff entered the
 front's own measurement of the deep program, which was: NO
 MEASURABLE CHANGE FWD OF LÜBECK. He entered it in the same
@@ -247,8 +246,7 @@ fighting on its soldiers' home ground, and the guarded
 furniture was the first thing Hvidt looked at on
 arriving and the last thing he looked at leaving.
 
-Loheide was sixty and square and had been fighting for nine
-days on ground where his soldiers' families lived. He did
+Loheide was sixty and square. He did
 not reproach. He briefed, and the brief was the reproach.
 
 "My obstacle belt works as designed. Better than designed.
@@ -362,15 +360,3 @@ being told: the air program, scheduled against actual,
 projected effect against observed. The projected column
 was doctrine's handwriting. The observed column was the
 war's.
-
-Holt stood in front of it a long time after the night
-shift settled, with his notebook unopened in his hand.
-Every number the corps trusted, it now kept honestly: two
-times, two inks, the whole apparatus of the wall. And
-every number on the wall was a number about the corps.
-The numbers that had governed the last three days were
-numbers about the enemy: where his mass was, what his guns
-would do, what an hour of his timetable cost him. Those
-the corps did not keep. It borrowed them from doctrine, at
-interest, and the interest was being paid at the front,
-daily, in men.

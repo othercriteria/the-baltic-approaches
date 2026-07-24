@@ -27,7 +27,7 @@ what my audit weighs, because he has watched me build
 it: the returns are graded by officers I graded a week
 ago as optimistic. Three-fifths is the auditable number.
 The true number is not better than the auditable
-number. It is the direction of the difference I cannot
+number. It is the size of the difference I cannot
 certify."
 
 "Then the plan's arithmetic will be conducted on the
@@ -213,12 +213,11 @@ bedtime, and past a corps'."
 
 Holt sat a moment with the dead handset. Through the
 wall the operations room ran at its night volume, the
-teleprinters, the low voices, the joiner's blast film
+teleprinters, the low voices, the taped glass
 ticking in the window frames when the harassing fire
 walked somewhere to the south. There was no one left
 to ask. The staff was the answer now.
 
 He went back in, and nobody looked up, because
 everybody was working, and that — he understood it at
-the door, completely, once and for the rest of his
-life — that was the blessing.
+the door, completely — that was the blessing.

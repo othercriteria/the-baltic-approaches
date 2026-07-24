@@ -28,8 +28,8 @@ declining combat; it is scheduling it. And to Holt, at
 the end of one such evening, signing the day's last
 reply: "The wall prices everything except what the
 commander pays for keeping it. No instrument carries
-that column. It carries a date, and I intend to keep
-the date."
+that column. The wall carries a date, and I intend to
+keep the date."
 
 The date held. The capitals did not.
 
@@ -49,7 +49,7 @@ the direction of the campaign.
 
 The fight over it ran forty minutes, on the secure
 line, and Hvidt fought it in front of his G-3 on
-principle, and lost the war for it and won the price.
+principle, and lost the argument and won the price.
 
 "I will state the objection once, for the record you
 are required to keep," he said to the relaying voice.
@@ -204,8 +204,7 @@ the boxed pages, and went back to the operations room
 through the taped corridors. The war had reached the
 point where a message slip could do the work of a
 sacrament; the fact belonged in no report, and he
-noted it anyway, in the interior ledger that had no
-sheets.
+noted it anyway.
 
 On the wall the counter-battery count for the
 twenty-sixth was posted: 410. The lowest of the war.

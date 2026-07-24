@@ -201,7 +201,7 @@ engineers were already fighting as infantry by his
 morning report; at 1216 his divisional reconnaissance
 squadron went in dismounted to hold a farm complex at
 the penetration's tip; at 1221 he was heard on his own
-net, level as a tide table, ordering his reserve
+net, level, ordering his reserve
 battalion commander to counterattack "at your best
 speed and no faster; arrive as a battalion." The corps
 staff, listening, learned something about the Jutland
@@ -268,8 +268,8 @@ headquarters.
 
 It was the day the staff learned what the chief of staff
 was for. The battle went through the operations room like
-weather through rigging, and Witzel walked the room
-against its grain, agenda in hand, and made the machine
+weather through rigging, and Witzel walked against it,
+agenda in hand, and made the machine
 do the boring things on time: shift change held to the
 minute, the reliefs fed, the logs current, a signature
 file moving through the storm at its appointed pace:
@@ -336,8 +336,8 @@ without commentary, which was the wall's whole doctrine.
 
 The banked shell reserve: spent to zero. Lammers'
 seven-day ammunition date: now a five-day date, assuming
-convoys the marshalling yards were not promising. The
-reserve: three battalion groups, none fresh. The 6th
+convoys the marshaling yards were not promising. The
+reserve: three battalion groups, one still fresh. The 6th
 Panzergrenadier: fifty-five percent of its strength on
 the eighth of November. The Jutland Division: seventy
 percent and falling, a figure audited now by the wall's

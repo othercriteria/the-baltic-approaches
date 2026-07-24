@@ -72,7 +72,7 @@ kilometers back, his roads cratered by his own
 preparation and latched by the second wave, and his
 orders, which the intercept troop copied going out,
 arrived at formations that were no longer where the
-orders assumed, in the specific helplessness of a
+orders assumed, in the helplessness of a
 headquarters whose reporting had been generous to itself
 for three weeks and was now being audited, all at once,
 by events. His battalions fought hard, as pieces. The
@@ -98,7 +98,7 @@ what remained precisely because there was less of it
 than anyone's ledger showed.
 
 The fight for the first objective was the morning's
-tuition, itemized. The stop line ran behind a drainage
+price, itemized. The stop line ran behind a drainage
 cut the overlay had marked as an obstacle and the
 model had marked as unmanned. A peak-hour enemy would
 have had every gun forward, feeding the assault. The
@@ -134,7 +134,7 @@ it, because the wall's first citizen could not be seen
 to look away, and because looking away had a price now
 that he could state to the decimal.
 
-The door closed at 1500, and its closing reached the
+The closing reached the
 operations room as four lines of the plain dialect,
 logged like everything else: LINK-UP EFFECTED,
 DANEVIRKE CREST, WESTERN FORCE AND NARROWS SHOULDER.

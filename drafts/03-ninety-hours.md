@@ -33,10 +33,10 @@ and seven percent: reservists arriving ahead of their
 telegrams, some before any telegram at all, men who had heard
 the Sunday broadcasts and decided not to wait for the state to
 find its own address book. Roloff pinned the intake curve to
-the board with the pride of a man pinning up his own, and the
+the board with the pride of a man pinning up his own work, and the
 curve climbed all day, green, and the boards around it were
-green, and the green was true. That was the trap of it. Every
-number on the wall was true.
+green, and the green was true. Every number on the wall was
+true.
 
 By evening the stories behind the numbers were arriving too,
 in the margins of the returns, because the depot officers were
@@ -180,8 +180,8 @@ artillery arrived on the covering positions by name, which
 answered, in the worst way, the question of how well the enemy
 had done his surveying.
 
-One report from that hour stayed with Holt for the rest of the
-war, and it was not about the enemy. It came by landline from
+One report from that hour stayed with Holt, and it was not
+about the enemy. It came by landline from
 the Territorial battalion east of Bad Oldesloe, relayed
 verbatim by a duty officer too pressed to summarize:
 Heimatschutz company at the Reinfeld crossing engaged since
@@ -192,8 +192,8 @@ but the crossing is in the corps' plan, asks — the duty
 officer read it flatly, the way one reads another man's
 handwriting — asks which of you we are dying for, respectfully,
 sirs, decide. The screen was not the corps' to command. The
-screen was schoolteachers and farm-equipment dealers of forty
-in positions dug that week, and the plan had assigned them the
+screen was schoolteachers and farm-equipment dealers, and the
+plan had assigned them the
 first thirty hours of the war on the assumption that the
 question in that message would never be put in writing.
 
@@ -205,10 +205,8 @@ described so often, trading ground on the Holstein roads
 against an enemy who was less punctual than the exercises and
 more punctual than anyone had truly believed.
 
-Holt stood at the boards through the second morning's fourth coffee
-and saw the discrepancy before he could name it, which he
-would later understand was the only way discrepancies of that
-kind ever arrive.
+Holt stood at the boards through the second morning's fourth
+coffee and saw the discrepancy before he could name it.
 
 The corps was under attack at hour sixty-six. The Danish
 division was forty percent closed. And the reporting grid
@@ -217,8 +215,8 @@ above plan, issue on schedule, routes open, crossings intact.
 The corps was not late by any measure the corps kept. It was
 only late in Schleswig.
 
-At the 0600 conference, hour sixty-nine, the second morning of
-the war, Hvidt listened to the overnight brief without a note
+At the 0600 conference, hour sixty-nine, Hvidt listened to
+the overnight brief without a note
 and then gave the staff its first standing order of the war.
 
 "From this morning, every report in this headquarters carries

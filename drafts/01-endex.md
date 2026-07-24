@@ -35,8 +35,8 @@ particular silence of forty headquarters simultaneously
 stopping. In the gallery the division liaison officers were
 packing their map boards. The one from Neumünster stacked his
 acetates squarely; the one from the Danish division rolled his.
-It said something about the two armies that Holt had decided,
-over a year of watching, was not worth saying aloud.
+It said something about the two armies that Holt had long
+since decided was not worth saying aloud.
 
 Holt had watched the same undressing at the end of every
 exercise for a year. It had never before struck him as a
@@ -107,7 +107,7 @@ against his punctuality."
 
 "Yes, Herr General."
 
-"And the air," Brauer said, not quite a question, to the air
+"And the air," Brauer said, not quite a question, to the
 liaison desk. Major Kjeldsen stood up with the sortie summary
 already open, because Kjeldsen translated everyone's questions
 into his own trade before answering them and had learned to

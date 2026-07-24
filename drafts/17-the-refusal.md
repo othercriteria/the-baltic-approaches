@@ -62,7 +62,18 @@ carry out of the war and into every silence of his
 later life: the commander did not posture, did not
 recoil, did not perform for the journal. He put on his
 reading glasses and considered it, page by page, as
-staff work, for eleven minutes, and then he asked his
+staff work, for eleven minutes, asking three questions
+into the annex as he went — whether the preparation
+states were current or nominal; whether the framework's
+meteorological section was the same annex as the
+Front's own or a different staff's; and, at the target
+list, one question with no operational content at all,
+which Kuragin answered anyway: "The population of the
+zone? Evacuated westward by the enemy, Comrade General,
+in the war's first week. His own documents confirm it.
+The zone is military." — "His documents," Zawadzki
+said, turning the page. "We are grateful to his
+documents." Then he took off the glasses and asked his
 chief of staff to audit it aloud, and Rylski did.
 
 "The framework's targets are the neck, the gun lines,
@@ -122,7 +133,18 @@ beautiful.
 
 ---
 
-On the night of the twenty-sixth, Holt telephoned
+On the night of the twenty-sixth the headquarters was
+as ready as paper could make it, which was the trouble.
+The orders were signed, the fire plan distributed, the
+counts posted; the machine had eaten every task the
+staff could feed it and stood idling, and the idling
+was unbearable in a specific way no exercise had ever
+reproduced, because at ENDEX everyone goes home and at
+0500 tomorrow twelve thousand men would execute Holt's
+arithmetic against an army. He checked the wall twice
+for work that was not there. He drank the night
+shift's coffee. And at 2240, in his small office with
+the door shut, he did the human thing, and telephoned
 Eckernförde, and Rahn refused him before he had spoken
 three words.
 

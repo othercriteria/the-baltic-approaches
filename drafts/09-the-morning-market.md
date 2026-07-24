@@ -73,15 +73,63 @@ known. And we ask for the program as a program — the whole
 weight for twenty-four hours, or nothing. Half measures
 spend the same sorties and cut no line."
 
-The bid went to the market at 0710 and won. The theater
-commander — a tired Danish voice the corps knew only as a
-signature block — heard the corps' liaison lay the program
-in, asked two questions, both good, and allocated the land
-battle's entire share plus a slice of the maritime reserve
-to the deep program for twenty-four hours. It was the
-largest single allocation of the war, and the corps had won
-it with carpentry, and for one morning the operations cell
-felt what winning the market felt like.
+The bid went to the market at 0710, and for once the corps
+listened to the whole conference, Holt on the second
+handset, Kjeldsen at the air desk with the program open.
+
+The market had its liturgy. The weather brief first — a
+front coming through by afternoon, windows before it. Then
+the customers, in the standing order. Air defense bid its
+minimum, in the voice of a man protecting the stall itself:
+patrols, and eight aircraft held for the fields. The
+maritime desk bid against the fleet off Rügen, and bid
+well — the shipping was assessed loading, the strike window
+before the front was the best in five days, and hulls,
+said the maritime voice, do not repair the way rail
+embankments repair. Then the corps' liaison laid in the
+deep program, entire: the rail triangle east of Bad
+Kleinen, the Herrnburg line bridge, the march routes, the
+whole weight for twenty-four hours or nothing.
+
+The theater commander — a tired Danish voice the corps
+knew only as a signature block — let the stall go quiet
+for a moment.
+
+"Two questions to the corps. Your program buys delay on
+the follow-on forces. Who has costed what the front pays
+for it in the same twenty-four hours — has your own
+division commander seen this bid?"
+
+"The bid is the corps commander's, Herr General," the
+liaison said, which was true, and was not an answer, and
+everyone on the net heard both things.
+
+"Second question. If the weather gives us six hours
+instead of twelve, which half of your program dies — the
+half that protects your front, or the half that protects
+your campaign?"
+
+Kjeldsen took that one himself, from Rendsburg: "The
+campaign half flies first, Herr General. The program is
+sequenced deepest-first, while the fuel margins allow the
+distance. If the window halves, the close half dies. That
+is the program's own logic, stated plainly."
+
+"At least it is stated," the tired voice said. "Allocated
+as bid. Land battle's share plus one squadron of the
+maritime reserve, twenty-four hours, deep program.
+Maritime, you have the front's leavings and my apology;
+the fleet is loading slowly and your window returns
+tomorrow. Next item."
+
+It was the largest single allocation of the war, and the
+corps had won it with carpentry, and for one morning the
+operations cell felt what winning the market felt like.
+Only Kjeldsen, hanging up his handset, looked as if he had
+bought something rather than won it. "Six months from now,"
+he said, to nobody in particular, "some staff college is
+going to teach this morning. I would give a month's pay to
+know which course."
 
 ---
 
@@ -126,9 +174,21 @@ them.
 
 The Sixth's daily loss returns for the sixteenth and
 seventeenth arrived in the new format, both times, no
-comment. The northern brigade's second battalion came off
-the line on the seventeenth at forty percent and did not
-come back for two days. Against those returns, in the
+comment. Panzergrenadierbataillon 172 — the northern
+brigade's second battalion, the one that had held the
+Segeberg road shoulder since the eleventh — came off the
+line on the seventeenth at forty percent, its companies
+commanded by lieutenants, and went into the woods behind
+Nortorf to receive replacements who arrived in trickles
+because the replacement system used the same roads as
+everything else. It did not come back for two days, and
+for those two days its sector was held wider by its
+neighbors, and the neighbors' returns showed what wider
+cost. The battalion had a number, and the number had
+appeared in the corps' reporting for nine days, and Holt
+had read it the way one reads a call sign. He read it
+differently now. That was the seventeenth's whole
+education, compressed: 172 was an address too. Against those returns, in the
 observed column of the air sheet, Roloff entered the
 front's own measurement of the deep program, which was: NO
 MEASURABLE CHANGE FWD OF LÜBECK. He entered it in the same

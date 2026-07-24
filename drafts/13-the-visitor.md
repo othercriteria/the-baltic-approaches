@@ -132,6 +132,15 @@ stopped, and finished the sentence in a different tone,
 the tone of a man converting his own answer: "which
 requires a port."
 
+"The Approaches closed," Aakjær said. "The straits. It is
+what the theater exists for; presumably it is what his
+theater exists for, with the sign reversed." He watched
+the finger not move. "No. That is his fleet's product,
+and I have made the answer Holt made in October, which
+the Herr General has plainly heard before, from Holt, in
+this building's mess, and I withdraw it on the same
+grounds."
+
 "A port," Roloff said. "Working. Before the winter closes
 the sea." It came out flat, like all his sentences, and
 it landed in the room like a dropped tool.
@@ -177,6 +186,21 @@ provably, by his own arithmetic — before his superiors
 take the pen away from him. What his superiors write
 next is written with a different pen, and this old man
 has seen that also, and will not stay to dinner."
+
+He took his coffee, in the end, cold, in two swallows,
+standing, and at the door he stopped as if remembering
+his hat, which he was holding.
+
+"One more thing, since your G-2 is honest. You read his
+pause as permission sought. Test the other reading
+before you spend against yours: what if his silence is
+concealment? A man may also go quiet because the next
+thing he does requires quiet. I do not say it is so. I
+say your wall has no sheet for the difference, and I
+leave the difficulty with you, where it belongs, because
+I am retired." Nobody answered, because there was no
+answer, which was visibly the condition he had wanted
+the room left in.
 
 He spent ten of his last twenty minutes alone with Hvidt
 behind a closed door, a conversation neither man ever

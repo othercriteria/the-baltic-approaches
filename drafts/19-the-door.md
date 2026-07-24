@@ -37,7 +37,16 @@ premiere. Kjeldsen broke it once, at 0538, professional
 and quiet at the air desk: "First wave airborne.
 Ceiling eight hundred and lifting. He is going to have
 the light he was promised." It was the only sentence
-anyone offered the room until the map moved.
+anyone offered the room until 0512, when the
+intercept troop offered the second: the enemy's
+artillery nets were up all along the arc, calling
+stations that did not answer. Whether the stations
+were dead, displacing, or silent by doctrine, the
+summary declined to guess, and Aakjær initialed the
+declining — OBSERVED: CALLS UNANSWERED. CLAIMED:
+NOTHING — and it went on the wall beside Kjeldsen's
+ceiling, the morning's first observable, and the map
+still had not moved.
 
 The air came in phases as the light came up, the market's
 fish sequenced days deep: the first wave onto the gun
@@ -122,12 +131,28 @@ it, because the wall's first citizen could not be seen
 to look away, and because looking away had a price now
 that he could state to the decimal.
 
-The door closed at 1500. By dusk the lead army was cut —
-its assault echelon on the wrong side of a sealed waist
-with four days' ammunition, the December sea at its
+The door closed at 1500, and its closing reached the
+operations room as four lines of the plain dialect,
+logged like everything else: LINK-UP EFFECTED,
+DANEVIRKE CREST, WESTERN FORCE AND NARROWS SHOULDER.
+SCHEDULED: 1030. ACTUAL: 1500. The five hours rode
+inside the victory's own report, because the format
+did not know how to leave them out, and nobody in
+the room would have wanted them left out, and that —
+Holt thought, watching Roloff carry the report to
+the master sheet and enter its fate beside its
+estimate — was the distance the headquarters had
+traveled since October: it had built itself a wall
+on which even this sentence had to tell the truth
+twice. By dusk the lead army was cut — its assault
+echelon on the wrong side of a sealed waist with
+four days' ammunition, the December sea at its
 back — and the corps stood on the restored neck,
-coast to coast, the blue trace whole for the first time
-since the eighth of November.
+coast to coast, the blue trace whole for the first
+time since the eighth of November. The room did not
+cheer. It had read the meter all day and knew to
+the hour what the trace had cost, and the quiet was
+the kind that holds receipts.
 
 ---
 
@@ -135,6 +160,27 @@ Hvidt sent Holt forward at 1600, in the flat order of a
 man who had thought about it in advance: "Go and see
 what a bought hour looks like. The staff should contain
 one officer who has."
+
+The drive forward ran against the grain of the day's
+traffic — recovery vehicles, ambulances, empty
+ammunition trucks coming back down the routes the
+assault had gone up — and it ran through the narrows
+positions, which Holt had priced for three weeks and
+never seen. He saw them now at walking pace, through
+a windscreen: the belts cratered and re-cratered,
+the hedgerows burned off their banks, a dug-in tank
+of Loheide's abandoned at the turret ring where the
+recovery section had judged it not worth the
+morning. At the second marrying point the spent
+battalions themselves sat in the lee of their
+vehicles in the sleet, eating, wearing the
+particular stillness he had been reading all war as
+a number between eighty and a hundred and forty.
+Nobody looked at the staff car. The men the meter
+had counted were asleep sitting up, or writing, or
+looking at the middle distance, and the car went
+past them slowly, and Holt made himself look until
+the road turned.
 
 The retaken crossing at the Danevirke stood in freezing
 sleet. The military police were bringing the prisoners

@@ -161,7 +161,29 @@ said. "Your own grading."
 
 "My own grading. I graded my mother-in-law's street
 possible-not-probable on the fourth of November and I stand
-by the tradecraft." The dryness held, just. "I am not asking
+by the tradecraft." The dryness held, just. "Do you know
+what the pamphlet tells them? I have read it; my wife read
+it to me over the telephone in September, as comedy. In the
+event of hostilities, remain in your homes. Fill the bath.
+The authorities will direct you. My mother-in-law filled
+the bath on the sixth. She reports the authorities have not
+yet directed her, and that the water is getting a skin on
+it, and that she is using it for the garden and refilling
+weekly, because she lived through one occupation with a
+garden and has her own doctrine on the subject of wasted
+water. That is Zealand's evacuation plan, Niels. A
+seventy-year-old woman rotating her bathwater eleven
+minutes from a named landing beach."
+
+"And if you had the drafting of it? The island plan."
+
+"That is the discourteous question, and the answer is: much
+the same pamphlet. It cannot be other. An island of two
+million behind one bridge-less strait does not maneuver; it
+endures, and the pamphlet is honest about it in the way
+pamphlets are honest — by omission, gently. My trade is
+reading other men's omissions. It is a strange sensation to
+read your own country's." "I am not asking
 the corps for anything, Niels. There is nothing to ask for;
 that is the point of the shape we are in. Your family sits
 in the funnel and mine sits on the shelf, and the two of us

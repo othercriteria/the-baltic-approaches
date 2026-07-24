@@ -17,6 +17,21 @@ expenditure board with his hands behind his back and
 delivered the campaign's shortest situation report:
 "Punctual."
 
+In the operations room the first hour of an attack the
+staff could not yet see reported itself as sound and
+absence: the program's timings ticking off on the wall
+sheet, serial by serial, with nothing coming back —
+the forward nets holding radio silence through their
+approach, the fire-support net carrying nothing but
+the guns' own punctuation, and the staff standing at
+a map that would not change for forty more minutes,
+learning the specific helplessness of authors at a
+premiere. Kjeldsen broke it once, at 0538, professional
+and quiet at the air desk: "First wave airborne.
+Ceiling eight hundred and lifting. He is going to have
+the light he was promised." It was the only sentence
+anyone offered the room until the map moved.
+
 The air came in phases as the light came up, the market's
 fish sequenced days deep: the first wave onto the gun
 groupings caught displacing forward, the second onto the
@@ -61,13 +76,34 @@ that had bought Tuesday's headlines, went in against an
 economy already turned to the defense: registered stop
 lines, guns gone frugal, a man past his peak husbanding
 what remained precisely because there was less of it
-than anyone's ledger showed. The western pincer took
-its first objective ninety minutes late and its second
-at noon, and the door that was to have closed by
-midmorning closed at 1500 — and every one of those
-insuring hours was paid at the narrows, where Loheide's
-worn regulars held the enemy's last assault on their
-backs at the meter's full documented rate.
+than anyone's ledger showed.
+
+The fight for the first objective was the morning's
+tuition, itemized. The stop line ran behind a drainage
+cut the overlay had marked as an obstacle and the
+model had marked as unmanned — a peak-hour enemy would
+have had every gun forward, feeding the assault — and
+the thinner army, past its peak, had put its remnant
+economy exactly there, hull-down, frugal, firing by
+sections. The lead battalion lost its bridging plates
+to the first anti-tank fires and infiltrated the cut
+on foot; the follow-on battalion — the one the
+concession's raid had spent its freshness on — arrived
+at the marrying point eleven minutes ragged, and the
+eleven minutes let the enemy's sections displace once
+more, intact, to the next cut. Nothing failed. The
+brigade's staff work was clean. It was simply a
+morning being paid for at a rate set three days
+earlier by other men's decisions — the raid's, the
+auditable figure's, Holt's — and the war ran the
+invoice with its usual indifference to whose initials
+were on which line. The western pincer took its first
+objective ninety minutes late and its second at noon,
+and the door that was to have closed by midmorning
+closed at 1500 — and every one of those insuring hours
+was paid at the narrows, where Loheide's worn regulars
+held the enemy's last assault on their backs at the
+meter's full documented rate.
 
 The wall did not permit hiding it. The morning's plot
 carried the model's crest in pencil and the morning's

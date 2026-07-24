@@ -13,9 +13,9 @@ The question was correct, which was the trouble with it. The
 two-times order said every document carried its scheduled
 state and its actual state, and the folder's situation
 summary was now five days stale, and Roloff maintained the
-folder — it was signed for quarterly, custodian and witness,
+folder. It was signed for quarterly, custodian and witness,
 a small liturgy Holt had performed four times without once
-reading past the cover sheet — and Roloff did not maintain
+reading past the cover sheet, and Roloff did not maintain
 stale documents. He stood at the safe with the drawer open
 and the folder flat on his two hands, like a verger holding
 something whose weight was not the point, and waited for an
@@ -31,7 +31,7 @@ from Karup to the theater command at Kolsås, and from there
 out of military channels altogether, into committees whose
 names were themselves classified, wearing at every rung a
 footnote in which the Danish government reserved its position
-on the stationing question — a ladder built deliberately
+on the stationing question: a ladder built deliberately
 slow, by serious men, so that no one could run up it in an
 afternoon.
 
@@ -42,8 +42,8 @@ Roloff filed it unchanged. But a question asked once in a
 room does not file. It stood in the corner of the plans cell
 all morning, and by evening it had walked down the corridor
 on its own legs, because Kjeldsen had asked its cousin on
-Tuesday — why is there no gas in this war, when every
-exercise scenario of ten years had it by D+3? — and two
+Tuesday: why is there no gas in this war, when every
+exercise scenario of ten years had it by D+3? Two
 questions of that family in one week meant the subject was
 loose in the headquarters. Hvidt heard of it, as he heard of
 everything, and did the thing nobody expected: he convened
@@ -57,7 +57,7 @@ by the week."
 
 It was held in the commander's office at 1800, after the
 evening conference, with the map of the Approaches and the
-bad coffee and no clerks — Witzel kept the record himself, in
+bad coffee and no clerks: Witzel kept the record himself, in
 a notebook that would go into the safe with the folder, which
 told the three officers present what kind of hour it was
 going to be. Nobody sat until Hvidt did. Outside the window
@@ -134,7 +134,7 @@ rungs, because the rungs were procedure and procedure was
 Witzel's mother tongue: request initiated only over the
 corps commander's signature; assessed at Karup; forwarded
 with theater endorsement to Kolsås; national authorities
-concurring — the footnote — and above all of it the alliance
+concurring, the footnote, and above all of it the alliance
 level, where release belonged to a man in another country
 answerable to sixteen governments. "The procedure is the
 policy," Witzel said. "It was built to be slow in exactly
@@ -143,7 +143,7 @@ one direction, like a lobster pot."
 "And the operational meaning," Holt said, "is that beginning
 the request is itself an act. It cannot be done quietly. The
 day this headquarters updates that folder's situation
-summary, the update is visible — in our own message traffic,
+summary, the update is visible: in our own message traffic,
 in the questions we would have to ask the brigades, in what
 the staff stops believing about its own conventional
 defense. We would be spending belief, ours and the
@@ -230,8 +230,8 @@ He turned off at the intelligence cell without saying good
 night, which was his way, and Holt went on to the operations
 room and stood a while in front of the taped sheets.
 
-The good had a name now, or half of one. Time — but not time
-in the abstract, not the calendar's time: the distance
+The good had a name now, or half of one. Time. But not
+time in the abstract, not the calendar's time: the distance
 between two schedules, his failing and ours holding, a
 specific, purchasable, spendable thing. The ragged right
 column was where its price would have to be discovered.

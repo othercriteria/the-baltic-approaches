@@ -15,7 +15,7 @@ division documents in German and Polish, and the phase lines
 lay across Holstein in the calm procession the norms
 prescribed: ten kilometers a day for the conventional variant,
 the covering zone pierced, the line of the Trave behind them on
-schedule — Day Two standing on the ground where the planning
+schedule, Day Two standing on the ground where the planning
 maps had drawn Day Two.
 
 "The Front reports according to plan," he said. "I have
@@ -31,7 +31,7 @@ man laying down cards already counted.
 "The head of the snake is punctual, Comrade General. The lead
 regiments of the Fifth Army stand this morning east of Bad
 Oldesloe, on the norm line. I am paid to report on the length
-of the snake. Their fuel is not on the line — the columns
+of the snake. Their fuel is not on the line: the columns
 stand behind a demolition the Germans fired at Reinfeld, which
 the engineers report they will have bridged in six hours, and
 which they have been six hours from bridging since midnight.
@@ -126,7 +126,7 @@ calibrated against umpires."
 
 There were no umpires. The claims were coming from companies
 in contact, at night, in rain, reporting hits on an enemy
-who kept coming through his own dead — and the 1979 study
+who kept coming through his own dead, and the 1979 study
 had measured exercises, where nobody ever kept coming,
 because at ENDEX everyone went home. Nobody in the chain was
 lying. The chain was long, and each link rounded toward
@@ -249,7 +249,7 @@ and answered as himself. "Counter-battery, Herr Oberstløjtnant.
 The trading is not the armor. The armor we stop; the
 panzerfaust range in this country is a hundred meters and every
 hedgerow is a company position. What kills the battalions is
-his artillery preparation, every time, before every crossing —
+his artillery preparation, every time, before every crossing:
 eleven minutes at Reinfeld, fourteen at the Trave. He masses
 his guns without apology, wheel to wheel, the way the manuals
 say he will, and our batteries answer four tubes at a time
@@ -278,8 +278,8 @@ that is the first thing I have learned in this war."
 
 Holt logged the tasking in the operations journal at 0640 the
 next morning, with the two times, tasked and due, and the
-room went on around him — the teleprinters, the shift brief,
-the coastal axis update coming in — and four hundred and ten
+room went on around him: the teleprinters, the shift brief,
+the coastal axis update coming in. And four hundred and ten
 kilometers away by road a chief of staff logged his own
 morning's arithmetic, and between the two headquarters, both
 green, both ahead of schedule by their own lights, the actual

@@ -7,7 +7,7 @@ ratified outline §8 + panel prescriptions.*
 
 | Tic | Count | Budget/target | Notes |
 |---|---|---|---|
-| Em-dashes | 30–44/ch in the worst six (09: 44, 19: 39, 19a: 34, 15: 34, 08: 34, 18: 30) | ≤10/ch (outline §8) | Worst chapters = expansion-pass chapters; §5.2 mechanism confirmed with numbers. The single largest mechanical workload |
+| Em-dashes | ~~30–44/ch worst six~~ CAMPAIGN CLOSED 2026-07-26: all 21 chapters now 9–13 (each count includes the heading's structural dash, so prose dashes ≈ 8–12/ch). Three waves, 20 agent passes + one principled refusal (ch. 01's agent invoked its escape clause: the opening chapter's five narration dashes are load-bearing and its dialogue protected — accepted; ch. 01 stands at 13). Manuscript total fell from ~450 to ~215 | ≤10/ch (outline §8) | Kept dashes are functional (interruptions, formats, strongest pivots). Agents' least-sure lines queued for the line pass (notably: ch. 06 "Time." close, ch. 17 Zawadzki comma-splice, ch. 20 "sourced against") |
 | "the way ..." similes | 5/ch peak (01, 04); 25+ total | ≤2/ch, keep the jewels | Editor: "by the fourth per chapter they stop registering" |
 | "like a man" | 5 (chs. 04, 14, 15, 18, 20) | ≤2 total | DK batch-1 named tic |
 | Superlative-of-the-war formula | 9 | keep 3 | Editor's list is in blind-reads/04; choose survivors deliberately (candidates to keep: "the war's first honest sentence," the Lammers "Punctual," one more) |

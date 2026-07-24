@@ -5,11 +5,12 @@ The evacuation returns came up from the Territorial Command at
 sixth morning of the war Holt read page four twice.
 
 The corps had ordered the pre-clearance of the battle zone
-north of the canal on the fourth day — the districts the staff
-knew the war was coming to, emptied while the emptying was
-still cheap — and the Territorial Command had translated the
-order into collection points and columns and receiving
-districts, and page four of the sixth morning's return
+north of the canal on the fourth day: the districts the
+staff knew the war was coming to, emptied while the
+emptying was still cheap. The Territorial Command had
+translated the order into collection points and columns
+and receiving districts, and page four of the sixth
+morning's return
 recorded, in the flat capitals of a teleprinter with a worn
 ribbon: SAMMELPUNKT 14 (SCHLESWIG-FRIEDRICHSBERG), KOLONNE
 217, ABMARSCH 130700, ROUTE GELB-3, ZIEL AUFNAHMEKREIS
@@ -108,11 +109,12 @@ Eider crossings, where Route Yellow-3 came down from the
 northern districts and met the war going the other way.
 
 The geometry was simple and merciless. The Jutland Division's
-last third was still coming south — down the west-coast route,
-B5 and the Marschbahn, the roads the air war had left mostly
-alone — and crossing the Eider at Friedrichstadt and the
-Nordfeld ferry to enter the corps' rear. The Friedrichstadt
-complex was not much to look at: a road bridge; a rail
+last third was still coming south, down the west-coast
+route, B5 and the Marschbahn, the roads the air war had
+left mostly alone, and crossing the Eider at Friedrichstadt
+and the Nordfeld ferry to enter the corps' rear. The
+Friedrichstadt complex was not much to look at: a road
+bridge; a rail
 swing-bridge a kilometer west carrying the Marschbahn's
 single track, which opened for nothing now but had been built
 to open, and whose operator slept in the signal cabin; a
@@ -135,8 +137,8 @@ the canal with one battery less than the plan supposed.
 Every solution was a trade. Hold the civil columns, and they
 backed up into districts the enemy's air visited by daylight;
 pass them, and the division burned march-table hours it did
-not own. The movement-control detachment at Friedrichstadt —
-a Danish captain and eleven men on a bridge in the rain —
+not own. The movement-control detachment at Friedrichstadt,
+a Danish captain and eleven men on a bridge in the rain,
 had been deciding the trade all night, column by column,
 with nothing above platoon experience to guide them, and the
 captain had done something no annex asked of him: he had
@@ -147,8 +149,8 @@ DELAY: 2/3 JYSKE ARTY GRP, 3 HRS; ENGR BRIDGE COLUMN, 5
 HRS.)
 
 Holt read it at the map desk and sat still for a moment,
-because it was the page. Not the whole page — one bridge's
-worth of it — but the thing itself: both columns, priced, by
+because it was the page. Not the whole page, one bridge's
+worth of it, but the thing itself: both columns, priced, by
 a man with a clipboard who had invented the currency
 conversion because the traffic would not wait for doctrine.
 Somebody at a crossing had done in one wet night what the

@@ -17,13 +17,13 @@ the reasons anyone had priced: the firing party was dead.
 Men are entitled to their competence. The engineers had done
 in war exactly what they had rehearsed in peace, at night,
 under fire, and the staff logged it with the small pride the
-two-times rule had already begun to teach — and by 0400 the
+two-times rule had already begun to teach. And by 0400 the
 enemy was across the Trave in two places.
 
 Not because the demolitions failed. Because he treated the
 river as an item on his march table. The corps-level bridging that the
-intelligence annex had faithfully listed — quantities filed,
-capabilities noted, nobody imagining them concentrated — came
+intelligence annex had faithfully listed, quantities filed,
+capabilities noted, nobody imagining them concentrated, came
 forward within ninety minutes of the lead regiments reaching
 the bank, on one road, in one column whose discipline the
 forward observers described with something near awe. And ahead
@@ -86,7 +86,7 @@ keep bees."
 ---
 
 The corps traded its second belt of ground that morning
-according to the plan's staircase — and at 0600 on the tenth
+according to the plan's staircase. And at 0600 on the tenth
 the staircase met politics.
 
 The next trade backward would have carried the covering force
@@ -165,7 +165,7 @@ finding. Companies rendered ineffective per twelve hours
 forward of the guidance line: the brigades reported it,
 brutally current. Tube ammunition per twelve hours: Lammers
 had it to the round. The two river-crossing sets, the
-engineer-hours, the fuel — all countable, all counted, the
+engineer-hours, the fuel: all countable, all counted, the
 whole apparatus of consumption standing ready to be added up,
 because consumption was what the forms had always known how to
 ask about.
@@ -202,7 +202,7 @@ column the page will teach us to die for the heath. Next."
 "Danish brigades closed south of the Eider," Lammers said,
 unoffended; the two of them struck each other's entries the
 way masons strike bad bricks, without ceremony. "Exact, and
-decaying — the number is true at the moment of counting and
+decaying: the number is true at the moment of counting and
 the crossings behind it are under air attack. I can give you
 closed battalions by the hour. And behind that entry, the
 next one, which is not yet due: the Zealand brigades, if the

@@ -12,7 +12,7 @@ There were in fact two races, nested one inside the other. The
 short race was German: the 6th Panzergrenadier Division, the
 household troops of the peninsula, garrisoned at Neumünster and
 Wentorf and along the Hamburg fringe, filling out with
-reservists who lived within bicycle distance of their depots —
+reservists who lived within bicycle distance of their depots:
 fifty-one hours, said the plan, from proclamation to a division
 standing in its forward positions in Holstein. The long race
 was Danish: five thousand regulars and fifteen thousand
@@ -29,7 +29,7 @@ The first returns were beautiful.
 
 By six on the Monday morning the Danish depots were reporting
 intake at a hundred and three, a hundred and five, a hundred
-and seven percent — reservists arriving ahead of their
+and seven percent: reservists arriving ahead of their
 telegrams, some before any telegram at all, men who had heard
 the Sunday broadcasts and decided not to wait for the state to
 find its own address book. Roloff pinned the intake curve to
@@ -124,7 +124,7 @@ dosed, directed, and deferred; the population would move by
 assigned routes at assigned hours, category by category, when
 and if directed. Holt had negotiated its route tables himself,
 in peacetime, with the Territorial Command and the
-Landespolizei — Yellow-3 and its sisters, the civil routes
+Landespolizei: Yellow-3 and its sisters, the civil routes
 argued east of the military ones so that a frightened province
 and a mobilizing corps would not meet on the same bridges.
 By the Tuesday morning there were cars on the B76 with
@@ -143,14 +143,14 @@ Merete had telephoned on the Sunday evening, before the
 restrictions came down on the civil exchanges, and the call
 was four minutes long and Holt had written none of it down and
 could have reproduced all of it. The transporters had begun
-coming through Fredericia on the Saturday — tank transporters,
+coming through Fredericia on the Saturday: tank transporters,
 she said, actual tanks, on the ring road, the children had
 counted eleven from the school fence and were famous in the
 neighborhood for it. The ferry queues at the harbor were
 civilian cars going east, to family on the islands. Should the
 children go to school in the morning? Should they go to her
-mother's? He had given her the annex's answer — school as
-normal, the tank full, the radio on — and she had taken it the
+mother's? He had given her the annex's answer: school as
+normal, the tank full, the radio on. She had taken it the
 way she took weather forecasts, as information offered in good
 faith by an institution that did not control the sky, and then
 she had asked the question the annex could not answer: "The
@@ -170,9 +170,9 @@ The enemy attacked at three fifty-one on the Tuesday morning,
 at hour sixty-six of a ninety-hour clock.
 
 The first reports came from the Territorial screen on the
-Trave — Kreis companies of reservists in positions they had
+Trave: Kreis companies of reservists in positions they had
 dug that week, men of forty with panzerfausts, none of them
-the corps' to command — and the reports came not as
+the corps' to command. And the reports came not as
 information but as contact: the bridge demolition at Schlutup
 ambushed by men already across the river; firing at the
 crossing sites either side of Lübeck; company columns of armor
@@ -219,8 +219,8 @@ above plan, issue on schedule, routes open, crossings intact.
 The corps was not late by any measure the corps kept. It was
 only late in Schleswig.
 
-At the 0600 conference — hour sixty-nine, the first morning of
-the war — Hvidt listened to the overnight brief without a note
+At the 0600 conference, hour sixty-nine, the first morning of
+the war, Hvidt listened to the overnight brief without a note
 and then gave the staff its first standing order of the war.
 
 "From this morning, every report in this headquarters carries

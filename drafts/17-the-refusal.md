@@ -16,7 +16,7 @@ second week of December. The Front can mount one
 full-scale effort, on the twenty-seventh, at the scale
 the dumps permit. It cannot mount a second. If the first
 does not succeed, the operation has no third week,
-Comrade General — not because of the enemy. Because of
+Comrade General. Not because of the enemy. Because of
 December."
 
 "Three-fifths," Zawadzki said. "Your own figure, Stefan,
@@ -41,7 +41,7 @@ timetable.
 
 The folder was slim, and its classification band was a
 color the Front's own documents did not use, and its
-contents were current — refreshed, evidently, by staffs
+contents were current: refreshed, evidently, by staffs
 at a distance, against exactly this evening. Preparation
 states. Delivery means, by system and yield. A target
 framework: the neck of the peninsula, the artillery
@@ -63,7 +63,7 @@ later life: the commander did not posture, did not
 recoil, did not perform for the journal. He put on his
 reading glasses and considered it, page by page, as
 staff work, for eleven minutes, asking three questions
-into the annex as he went — whether the preparation
+into the annex as he went: whether the preparation
 states were current or nominal; whether the framework's
 meteorological section was the same annex as the
 Front's own or a different staff's; and, at the target
@@ -79,11 +79,11 @@ chief of staff to audit it aloud, and Rylski did.
 "The framework's targets are the neck, the gun lines,
 and the reserves. Effects, taken at the annex's own
 assessments: the neck becomes rubble. Rubble at the
-neck, Comrade General — the obstacle belt we have spent
+neck, Comrade General: the obstacle belt we have spent
 eleven days reducing, improved by our own cratering, on
 the axis our own movement requires. The roads we must
 advance on, degraded for our own columns. The gun lines
-displace or die, granted. The reserves — the annex
+displace or die, granted. The reserves. The annex
 assesses the woods; the woods may be empty by the hour
 of delivery; reserves move. And the ports." He turned
 the page as if it might read differently on the second
@@ -99,7 +99,7 @@ axis into our own obstacle."
 
 "And the other column," Zawadzki said, taking off the
 glasses. "The one the folder does not print. This
-operation was approved — I sat in the room — on the
+operation was approved, I sat in the room, on the
 argument that it would be over before it became the
 other kind of war. That argument is the operation.
 The folder does not complete it; the folder confesses
@@ -138,7 +138,7 @@ did not ask what you would have done."
 
 "Keep it so. One of us must be able to say he was
 never asked." He looked at the phase lines a moment
-longer — the calm procession, Day Six standing on
+longer: the calm procession, Day Six standing on
 ground the war now assigned to nobody. "The
 twenty-seventh, then. Go and feed my dumps their
 arithmetic."
@@ -175,8 +175,8 @@ Eckernförde, and Rahn refused him before he had spoken
 three words.
 
 "I know why you are calling. You have a morning
-coming — the whole peninsula can feel it under its
-feet — and your orders are written, and your wall is
+coming. The whole peninsula can feel it under its
+feet. And your orders are written, and your wall is
 current, and there is nothing left for an operations
 officer to do tonight except be blessed. No. I will
 not bless it."

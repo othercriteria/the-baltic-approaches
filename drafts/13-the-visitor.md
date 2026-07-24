@@ -8,7 +8,7 @@ enemy's spent divisions passing back through the fresh
 ones with a traffic discipline the intercept troop could
 hear even when the cloud blinded everything else. His
 artillery kept up a professional unpleasantness against
-the Danevirke line — and, for the first time, against
+the Danevirke line, and, for the first time, against
 Rendsburg itself.
 
 The first rounds arrived at 0210 on the thirteenth day,
@@ -44,7 +44,7 @@ teleprinters.
 told the morning conference on the fourteenth. "The first
 two are visible. Bridging replaced at Sehestedt; the
 artillery groupings realigned; the rail traffic from
-Rostock heavy again — westbound loaded, eastbound empty,
+Rostock heavy again: westbound loaded, eastbound empty,
 the respiration of an army eating. The third is the one
 that matters and it is invisible by nature. A man six days
 behind, whose fresh force is now his engaged force, does
@@ -63,7 +63,7 @@ Hvidt sent for him.
 
 The disclosure had happened two nights before, at the end
 of the narrows day, in the commander's office, with the
-signals log open on the desk — the Eckernförde calls,
+signals log open on the desk: the Eckernförde calls,
 sustained at every audit, arriving finally at the question
 Hvidt had been storing since the first initialing. He
 asked it without preamble.
@@ -77,7 +77,7 @@ asked it without preamble.
 The pause had lasted exactly as long as it needed to. What
 stood in it, unsaid and both men aware of it, was a
 Danish officer in a Danish general's office vouching for a
-German general born in 1901 — a man who had been a
+German general born in 1901, a man who had been a
 staff officer on the other end of this sea when Hvidt's
 country learned what occupation was, and Holt's family
 had learned it too, in Fredericia, where his mother could
@@ -104,9 +104,9 @@ wall your operations officer has been not-describing to
 me for two weeks, and forty minutes, and no briefing. R.
 
 He came by his own arrangement, declining the staff
-car — a neighbor drove him, a retired harbor pilot
-with blackout slits taped over the headlamps — and
-the sentry at the outer gate, nineteen and thorough,
+car; a neighbor drove him, a retired harbor pilot
+with blackout slits taped over the headlamps. The
+sentry at the outer gate, nineteen and thorough,
 kept the two old men standing in the sleet while he
 telephoned, because the pass Hvidt had signed said
 nothing about a harbor pilot. Rahn approved of the
@@ -124,8 +124,8 @@ the way other men read a will.
 
 Hvidt had overruled the staff's instinct to prepare a
 briefing. "No theater. Give him the instruments and the
-room." So the staff stood in a loose half circle — Hvidt
-pointedly not foremost — and watched an old man work
+room." So the staff stood in a loose half circle, Hvidt
+pointedly not foremost, and watched an old man work
 along the sheets in silence: the two-times boards, the
 movement log photostat with its caption card, the
 rationing order with the protests pinned beneath, the
@@ -197,13 +197,13 @@ it landed in the room like a dropped tool.
 "Whose winter?" Rahn said. "Whose sea?"
 
 And there it was. Holt saw it arrive around the half
-circle at slightly different speeds — Aakjær first, then
+circle at slightly different speeds: Aakjær first, then
 Hvidt, a half-beat ahead of the rest, the reward of the
 met annex that had been pinned to the wall's corner for
 nine days with nobody reading it as an operational
 document. The enemy's wall was not a phase line. It was a
 sea-state table. Every norm, every echelon, every day
-behind — all of it stood or fell by a column of dates
+behind: all of it stood or fell by a column of dates
 after which the Baltic stops being a supply route and
 becomes weather: the amphibious window closing, the gales
 of December, the ports his careful gunnery had been

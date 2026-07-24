@@ -132,7 +132,7 @@ in the same year."
 the table. He had said he would only listen; nobody had
 believed him. "Item two."
 
-Item two was cleared roads — the assumption, nowhere stated
+Item two was cleared roads: the assumption, nowhere stated
 and everywhere load-bearing, that the routes north of the canal
 would carry military traffic at planning rates while the
 civilian population of the border districts stayed home. Item
@@ -140,8 +140,8 @@ three was the Territorial screen: companies of reservists,
 none of them the corps' to command, holding the covering
 positions by mobilization plus thirty hours. Item four was allied air from the first day, and item four
 grew an argument, because Witzel wanted it written as the plan
-wrote it — reinforcing squadrons at named airfields by named
-days — and Lammers wanted it written as he had seen it in
+wrote it, reinforcing squadrons at named airfields by named
+days, and Lammers wanted it written as he had seen it in
 three exercises running.
 
 "The squadrons arrive," Lammers said. "The plan's days are
@@ -173,9 +173,9 @@ The readiness measures began the same week, and they began
 cheap.
 
 That was Hvidt's word for it. Every measure on the quiet list
-was priced twice — once in readiness bought, once in political
-noise made — and the list was run strictly in order of the
-second price. Leave was recalled by telephone, individually,
+was priced twice: once in readiness bought, once in political
+noise made. The list was run strictly in order of the second
+price. Leave was recalled by telephone, individually,
 without a signal that anyone could file. The ammunition
 transfer to the forward sites went out as a routine exchange of
 stocks, under the cover of the winter maintenance program. The
@@ -292,9 +292,9 @@ to hear will be told what I actually prefer, once. Go to
 work."
 
 The alert measure the headquarters had rehearsed receiving for
-thirty years followed at 0955, and a German captain — the same
+thirty years followed at 0955, and a German captain, the same
 one who had razored the exercise off the plexiglass sixteen
-days before — wrote the date-time group on the clean map in
+days before, wrote the date-time group on the clean map in
 chinagraph, 060955Z NOV 83, in a hand that was steady until
 the last figure.
 

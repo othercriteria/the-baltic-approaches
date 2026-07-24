@@ -5,10 +5,25 @@ post began at 1900 and ran nineteen minutes over, which had
 never once happened in two years of exercises, and the
 overrun was the report.
 
+The draftsmen had been sent out at 1858, and that had
+never happened either. They waited in the
+communications bay with their inks capped, listening
+to the murmur through the plank door, and what they
+heard was a chief of staff reading numbers slowly,
+which any headquarters clerk can translate: the map
+was about to stop being beautiful.
+
 Rylski read the reconciliation standing, from a single
 annex he had built himself over three nights, in his own
 hand, because the thing it said could not be delegated to a
-draftsman. Two columns. The left was the plan: the phase
+draftsman. The method was the one he had described to
+the commander on the war's second morning: he had gone
+to the one return that cannot flatter and built the
+Front's actual positions backward out of its fuel —
+consumption against map distance, depot issue against
+march table — because a division may report its
+progress optimistically, but it draws its diesel from
+where it actually stands. Two columns. The left was the plan: the phase
 lines of the Jutland operation with their dates, the calm
 procession, Day Six standing on the neck of the peninsula.
 The right column was assembled entirely from the Front's
@@ -113,10 +128,17 @@ At Rendsburg the same night's discovery arrived as noise.
 
 It came in pieces across the morning conference: bridging
 tonnage moving west on the Rostock line at rates the rail
-analysts graded army-plus; two new radio nets east of
+analysts — two reservist railwaymen and a schoolmaster
+of mathematics, the war's least martial cell and by
+that week among its most consulted — graded army-plus;
+two new radio nets east of
 Lübeck with army-level formats and unfamiliar operators;
 three prisoner statements from three sectors agreeing on
-nothing except a phrase, the second wave; the road flow
+nothing except a phrase, the second wave — a lieutenant
+of engineers who used it bitterly, a supply sergeant
+who used it the way men use payday, and a tank driver
+who did not know what it contained, only that his
+officers kept promising it; the road flow
 through the border crossings thickening night over night.
 Aakjær assembled it on the board while the staff watched,
 and the assembling had the feel of a dark photograph
@@ -147,7 +169,13 @@ short.
 
 The staff looked at the confirmed nightmare, and the
 staff — Holt watched it happen, was part of it happening —
-relaxed.
+relaxed. The duty officer marking the board said it
+outright, unguarded, pencil still moving: "So there he
+is." Nobody corrected the relief in the sentence,
+because the relief was general. An enemy who matches
+the plan restores the plan, and the staff had been
+missing the plan for eleven days the way one misses a
+language.
 
 It was the strangest mood of the war, and nobody named it
 that morning. The corps had been fighting a wrong-shaped
@@ -162,7 +190,17 @@ positions, and the air request for the thirteenth was
 rebuilt into a maximum deep effort against the approach
 routes, over Kjeldsen's stated misgivings about the
 season, because against that enemy the deep program's
-logic came back to life entire.
+logic came back to life entire. Kjeldsen signed the
+rebuilt request with the misgivings attached in
+writing: the met watch gave the twenty-four hours no
+better than even odds of a workable ceiling, and the
+front on the charts was two days out and slow, and the
+consensus read it as arriving after the program had
+flown. "Even odds is a coin," he said at the signing,
+to a room that had already voted. "I am noting that we
+are betting the theater's day on it." The note went in
+the file. The consensus included Holt, and the file,
+later, did not permit him to forget it.
 
 The morning summary carried, low on its second page, a
 theater item nobody discussed: protective posture upgraded

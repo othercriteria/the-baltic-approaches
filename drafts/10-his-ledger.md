@@ -47,9 +47,9 @@ hedgerows holding its rim. The staff had rehearsed losing
 ground for twenty years. Nobody had rehearsed the sound of
 the duty officer reading the canal's name in a grid
 reference, the surgical scar become an axis, and the room
-had taken it the way the wall had taught it to take
-everything now, as two times and a trace — which was
-discipline, and looked like calm, and was not.
+had taken it as the wall had taught: two times and a
+trace — which was discipline, and looked like calm,
+and was not.
 
 ---
 

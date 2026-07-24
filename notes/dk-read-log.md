@@ -223,3 +223,21 @@ tag text. This file is append-only in practice.*
   topic for the next blind panel's brief.
 - Session exercised the V2–V6 deferral as V3+V2+V5+V6, V4
   dropped (rationale in fault-line-drafts.md adoption record).
+
+## Batch 13 (2026-07-24, ch. 11 stacked figuration)
+
+- **Ch. 11 "expression of a man choosing" + "resignation letter
+  dressed as an annex" on subsequent lines**: fixed by
+  flattening the narration to "He looked at Rylski, for a long
+  moment, and chose." — the dialogue performs the choice, so
+  the narrator's figure was double delivery AND a stack. (This
+  supersedes the earlier polish-list dash-restoration on the
+  same line.) Derived check now in tics.sh: figuration
+  adjacency (two simile markers within ~200 chars, unwrapped).
+- **Instrument finding**: drafts are hard-wrapped; all wrapped
+  phrase-greps undercounted. tics.sh rebuilt to measure
+  unwrapped; superlative regex fixed ("the rest of the war"
+  false-matched). The "the way" family remeasured and
+  hand-judged across all 21 chapters — mostly exonerated
+  (manner-uses/dialogue/jewels); two fixes (chs. 01, 10).
+  Ch. 13 doubled-"like" fixed same pass.

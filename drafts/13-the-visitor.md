@@ -192,8 +192,8 @@ this building's mess, and I withdraw it on the same
 grounds."
 
 "A port," Roloff said. "Working. Before the winter closes
-the sea." It came out flat, like all his sentences, and
-it landed in the room like a dropped tool.
+the sea." It came out flat, and it landed in the room
+like a dropped tool.
 
 "Whose winter?" Rahn said. "Whose sea?"
 

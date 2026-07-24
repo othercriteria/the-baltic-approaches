@@ -145,8 +145,7 @@ rates. The assessment is that it destroyed a regiment."
 "The ammunition expenditure —"
 
 "The ammunition was at Hohn because trucks carried it there,"
-Brauer said, without heat, the way a man states the day of the
-week. "The trucks were on roads. For those days the same roads
+Brauer said, without heat. "The trucks were on roads. For those days the same roads
 were carrying the Danish division south and, from D+5, the
 convoys inland from Esbjerg. The ships at Esbjerg began
 unloading on D+5 at noon. I would like to know what forty

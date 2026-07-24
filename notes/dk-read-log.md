@@ -80,6 +80,21 @@ tag text. This file is append-only in practice.*
      notes/wargame-concordance.md created, 11 rows, with this
      claim's ratio flagged TEXT-LED]
 
+- 2026-07-24, batch 4 (ch. 4, structural): is the liaison
+  officer RIGHT about counter-battery? Does the framing's
+  apparent immateriality relate to fires not being explicitly
+  modeled in the wargame? [ANSWERED + APPLIED — he is right by
+  period doctrine, and his claim is certified-never-audited by
+  design: the corps never buys the hour retail, pays it
+  wholesale at the door (ch. 19), and the payment is confounded
+  by red's own gun poverty. Directly related to the
+  no-explicit-fires modeling choice: all suppression-efficacy
+  claims are TEXT-LED — concordance row 12 opened with the
+  reversal analysis (suppression-cheap weakens F1;
+  suppression-ineffective collapses ch. 9's "both correct").
+  One-clause payoff added to ch. 19 making the wholesale
+  delivery and its unmeasurability legible]
+
 ## Sequence agreed
 
 1. Length to floors (Parts I/II now; tic budgets held in-pass).

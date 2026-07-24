@@ -10,8 +10,15 @@ refusals converting back into violence in forty minutes
 of scheduled fury — the counter-preparation on the gun
 lines, the smoke on the Schlei arm, the belts of
 interdiction on the two roads out of the Sehestedt
-bridgehead. For two hours there was nothing left for the
-staff to decide. The machine the wall had built ran, and
+bridgehead. The program's second serial was
+counter-battery, entire: the hunted hour a muddy liaison
+officer had asked for on the war's second morning. It had
+never been for sale by the sortie or the shell. The corps
+delivered it now wholesale, at the one hour it could
+afford to, against guns already going poor — and whether
+the hunting or the poverty did the work, no instrument in
+the theater would ever be able to say. For two hours
+there was nothing left for the staff to decide. The machine the wall had built ran, and
 the staff listened to it run, and Lammers stood at the
 expenditure board with his hands behind his back and
 delivered the campaign's shortest situation report:

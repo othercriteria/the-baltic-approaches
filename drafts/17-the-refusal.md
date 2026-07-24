@@ -32,10 +32,7 @@ certify."
 
 "Then the plan's arithmetic will be conducted on the
 auditable number," Zawadzki said, "because an army
-cannot march on a suspicion," and neither of them knew
-they had just decided a battle two hundred kilometers
-away, in a headquarters they would never see, where a
-burn-rate model waited for exactly that figure.
+cannot march on a suspicion."
 
 Kuragin had been eleven days in his corner, pleasant,
 silent, his program folded in his lap. Now he stood,
@@ -117,11 +114,11 @@ Yours is spent on the twenty-seventh, one way or the
 other. I hope the dumps are as full as the journal
 will say they were."
 
-He was heard by both men, and answered by neither, and
-the record of the exchange is the journal's formula and
-this reconstruction, which the war assembled later out
-of interrogation protocols, one memoir, and the gaps
-where a name had been removed.
+He was heard by both men, and answered by neither. The
+journal received its one sentence, the commander's
+formula, paid out like a coin. The draftsmen were
+readmitted at 2300, and the map resumed being
+beautiful.
 
 ---
 

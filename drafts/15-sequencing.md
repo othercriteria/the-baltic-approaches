@@ -85,6 +85,18 @@ arrived with the click of a logged estimate — the
 sentence of a man who had already imagined it in a
 report.
 
+The bunker itself taught its own short course while
+they set up: the theater's war on one wall — the air
+picture, the sea picture, the convoy tracks in from
+the Atlantic like veins into a wrist — and the corps'
+war a colored wedge of it, one wedge among wedges,
+which was worth the flight to see once. Kjeldsen
+stood in front of the whole display for a moment and
+said quietly, in the voice of a man revising a
+lifetime's grievance: "I have been calling this place
+a fish market for three weeks. It is a fish market
+with one boat."
+
 The bid took forty minutes, and the currency did the
 arguing. Holt laid the sequence in — the one customer,
 the ordered service, the circle on the map — and then
@@ -174,6 +186,21 @@ lane-meters, the weather margins — machinery he had
 known from the passenger side his whole life,
 condensed now into columns. It was the first work in
 three weeks that felt like rest.
+
+The brigades themselves came ashore at Knudshoved in a
+mood the movement staff had not planned for and noted
+anyway: three weeks of staring at an empty gray horizon,
+of digging positions for an invasion that the wall had
+now formally cancelled, discharged all at once into
+motion. A Zealand battalion commander, waiting out his
+serial's call-forward in the terminal hall where the
+kiosk still sold pastries to a wartime schedule, told
+the movement lieutenant — who logged it, because the
+headquarters' disease was spreading — that his men had
+cheered the embarkation order like a relief column,
+"and I have not told them they are the relief column,
+because we will all learn it soon enough at the other
+end."
 
 Fresh formations, unbled, frustration intact,
 purchased entirely by someone else's sorties. Sequencing

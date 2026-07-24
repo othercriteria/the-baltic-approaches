@@ -53,9 +53,28 @@ corps' own demonstrated capacity for offensive action, on
 the coastal flank, on Tuesday, on film.
 
 And Holt spent the morning being the instrument's
-advocate, saying not yet, and at 1130 Roloff put down the
-plotting pencil and said the thing his whole flat war had
-been building toward.
+advocate, which meant saying not yet, out loud, to a new
+audience every half hour. To the Danish division's chief
+of staff, at 1015: "The model has him irreversible near
+midnight. Attack now and we spend your brigades against
+his reserves; attack tomorrow and his reserves are
+smoke. Your commander argued it and was heard; the
+answer is the curve's, not mine." To Karup's relay, at
+1045, reading the pinned meter aloud as promised: "The
+corps is aware of the rate. The corps set the rate on
+purpose. Tell the ministers the line in front of
+Schleswig is doing arithmetic, not dying — I withdraw
+that, tell them it is doing both, and that the
+arithmetic is why." To himself, at the plexiglass,
+between calls, in no voice at all: the felt truth that
+every not-yet was being paid for at the narrows by men
+who had not attended the conference, and that the wall's
+whole discipline existed so that a staff officer saying
+not yet could know exactly what his patience cost, and
+that knowing was not the same as it costing less.
+
+At 1130 Roloff put down the plotting pencil and said the
+thing his whole flat war had been building toward.
 
 "Herr Oberstløjtnant. The sensitivity, for the record,
 before the decision conference. The model's crest — 

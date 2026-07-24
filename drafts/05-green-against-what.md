@@ -78,6 +78,15 @@ displacing and the infantry not, because the authority to be
 sensible had been filed in peacetime at the level where
 sensible and popular are the same word.
 
+At 0840 the brigade fighting east of Bad Segeberg reported,
+in the new format, both times: WITHDRAWAL THROUGH DELAY LINE
+DORA: SCHEDULED 0700. ACTUAL: NOT AUTHORIZED. HOLDING.
+PRESENT RATE OF LOSS: ONE COMPANY RENDERED INEFFECTIVE PER
+NINE HOURS. AWAIT INSTRUCTIONS. There were no instructions to
+send. Holt initialed the report into the file with the time
+of receipt, which the format required, and the format had
+never before felt like an accusation.
+
 Hvidt came down from the telephone at 1100 with his face in
 good order.
 
@@ -140,10 +149,48 @@ did not pause, and Holt did not learn any of this from the
 pen. He knew it from the personnel file, the way a man knows
 the water table under his own house.
 
-"Danish brigades closed south of the Eider," Lammers offered.
-"Exact, and decaying — the number is true at the moment of
-counting and the crossings behind it are under air attack. I
-can give you closed battalions by the hour."
+"Terrain," Lammers said. "Kilometers of Holstein still held.
+It is what the capitals are buying; it should be on their
+side of the page."
+
+"Struck," said Aakjær, before Holt could rule. "With respect
+to the capitals: terrain is not a good, it is a place where
+goods happen. Ten kilometers of Holstein that cover a
+crossing are worth a division; ten kilometers of heath are
+worth ten kilometers of heath. If we write terrain in that
+column the page will teach us to die for the heath. Next."
+
+"Danish brigades closed south of the Eider," Lammers said,
+unoffended; the two of them struck each other's entries the
+way masons strike bad bricks, without ceremony. "Exact, and
+decaying — the number is true at the moment of counting and
+the crossings behind it are under air attack. I can give you
+closed battalions by the hour. And behind that entry, the
+next one, which is not yet due: the Zealand brigades, if the
+capitals ever release them, delivered across the Belt by
+ferry — a number of battalions per day that depends entirely
+on a fleet we deferred requisitioning, gentlemen, in an
+October minute with my price attached. When that entry comes
+onto this page it will come with a queue in it."
+
+The western terminal of the Halsskov run was Knudshoved, and
+the staging port behind it was Fredericia, and Holt wrote
+BATTALIONS DELIVERED WEST ACROSS THE BELT, PER DAY in the buy
+column of a corps war ledger and understood, with a
+clarity that arrived like the click of a breech, what the
+right-hand column actually held. Not resources. The left
+column held resources. The right column held the things the
+resources were for, and every entry in it, followed far
+enough down, ended at something with an address: a crossing
+with a movement lieutenant on it, a district cleared of its
+families, a harbor town with a school by the ring road where
+two children he knew personally were famous for counting
+tanks. The corps spent numbers and bought addresses. Nobody
+had ever taught him the second column because the second
+column was not military; it was the country, itemized.
+
+He said none of this. He wrote the entries in the plain
+dialect, unit per unit time, as the page required.
 
 "And the third line," Aakjær said. He took the pen himself
 for it, which was not like him, and wrote in his upright

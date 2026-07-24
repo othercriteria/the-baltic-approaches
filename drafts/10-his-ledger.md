@@ -140,11 +140,30 @@ first he could already enter figures — the norms were in
 the doctrine, captured documents, twenty years of study.
 Under the second, estimates: the corps knew where the
 fighting was, and where it had been, and the arithmetic
-between. Under the third, nothing. "The third column is the
-war," Aakjær said. "I withdraw a week of skepticism about
-your graph paper. Go to bed, Niels. One of us should be
-wrong about something by morning, and I intend it to be
-me."
+between.
+
+Under the third, nothing, and they stood looking at the
+nothing while Aakjær inventoried what might ever fill it.
+"Three sources, in descending order of worth. His
+documents, if the war captures the right safe; wars
+sometimes do. His behavior at the margin — the day his
+economy changes, the day the careful fires stop being
+careful, that is his patience speaking in the only
+language we share. And the third source is the one I
+dislike, because it is the one we will actually use:
+his doctrine's own tolerances. Somewhere in the same
+manuals that gave him ten kilometers a day there is a
+figure for how far behind a schedule an operation may
+fall before the doctrine itself calls it failed. We
+hold those manuals. The figure will be in them. And
+reading his patience out of his textbooks assumes he
+is a textbook, which is the assumption this
+headquarters has been bleeding out of itself for
+eleven days." He capped the pen. "The third column is
+the war. I withdraw a week of skepticism about your
+graph paper. Go to bed, Niels. One of us should be
+wrong about something by morning, and I intend it to
+be me."
 
 Holt went, and passing the wall felt it quietly double in
 size. The nine sheets measured the corps. The clean sheet

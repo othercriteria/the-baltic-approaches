@@ -217,7 +217,26 @@ punctuality expensive, and the corps should not confuse the
 two when it reads our reports."
 
 The room was quiet. "Tell the Generalmajor the corps heard the
-sentence," Holt said. "In his words, not the format's."
+sentence," Holt said. "In his words, not the format's. Now the
+second question, which is mine, not the format's either. What
+does he need?"
+
+The liaison officer had plainly not been briefed for that one,
+and answered as himself. "Counter-battery, Herr Oberstløjtnant.
+The trading is not the armor. The armor we stop; the
+panzerfaust range in this country is a hundred meters and every
+hedgerow is a company position. What kills the battalions is
+his artillery preparation, every time, before every crossing —
+eleven minutes at Reinfeld, fourteen at the Trave. He masses
+his guns without apology, wheel to wheel, the way the manuals
+say he will, and our batteries answer four tubes at a time
+because the rest are moving or saving. Give the general one
+hour in which the enemy's guns are the ones being hunted, and
+his battalions will hold any line you draw for a day. That is
+not in my message. The general would not ask."
+
+"No," Holt said. "They never do. Thank you, Herr
+Oberstleutnant. Get something hot before you drive back."
 
 He carried it upstairs himself, unsmoothed, past the framed
 photograph of the 1978 exercise on the stair landing, and

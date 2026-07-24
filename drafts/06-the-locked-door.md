@@ -52,8 +52,8 @@ it.
 "One hour," he said. "Both trees, walked once, out loud, to
 the end of every branch. Then the door is locked and this
 headquarters returns to its war. I would rather the subject
-stood in this office for one hour than lived in the corridors
-for three weeks."
+stood in this office for one hour than lodged in the corridors
+by the week."
 
 It was held in the commander's office at 1800, after the
 evening conference, with the map of the Approaches and the

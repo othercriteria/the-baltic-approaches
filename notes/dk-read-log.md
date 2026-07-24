@@ -134,6 +134,22 @@ tag text. This file is append-only in practice.*
   needs "he let that stand" or "he turned," the speech wants
   splitting and the room wants a move]
 
+- 2026-07-25, batch 7 (ch. 6): "lived in the corridors for
+  three weeks" — overly prophetic about the conflict's length?
+  [MECHANICAL — applied: the war has just over three weeks left
+  when Hvidt says it, so the round figure reads as the author's
+  calendar in his mouth. Recast duration → rate: "lodged in the
+  corridors by the week." Standing note: prolepsis discipline
+  extends to characters' round time-figures that happen to match
+  the book's real calendar — sweep for accidental clairvoyance
+  in durations, not just outcomes]
+
+- 2026-07-25, process (numbering): DK asked whether to rectify
+  19/19a numbering now or at assembly. Recommended and adopted:
+  assembly time — the frozen-tag feedback protocol and all record
+  files cite the current scheme; renumber in one mechanical
+  commit with a mapping line once the draft-one read closes.
+
 ## Sequence agreed
 
 1. Length to floors (Parts I/II now; tic budgets held in-pass).

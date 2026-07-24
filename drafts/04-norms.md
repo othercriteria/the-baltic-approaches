@@ -168,9 +168,11 @@ not in contact, it is not in the covering zone, and every
 indicator I own says it exists — the rail surge did not load
 two divisions. So: either the ratio is flattering us, or the
 enemy in front of us is not yet the enemy the plan was written
-against, and the difference decides the campaign. Where is the
-mass, and when does it arrive, and what does it do to every
-number on this wall when it does?"
+against. Until I can say which, I cannot tell the corps what
+its reserve is for — spending it against the first enemy is
+prudence, and against the second it is suicide a week early.
+Where is the mass, and when does it arrive, and what does it
+do to every number on this wall when it does?"
 
 "And your instrument for choosing?" Hvidt asked.
 
@@ -180,9 +182,12 @@ intercept troop at Stadum knows it. If the mass is coming, the
 new army brings new nets, new disciplines, a different rhythm
 of traffic on the Rostock lines — that also has a sound. Two
 days of listening should separate them, if the weather lets
-the direction-finding baseline work, and if he makes the
-mistake of speaking. He has been very good, so far, about not
-speaking."
+the direction-finding baseline work. I do not promise he
+speaks. Assembly silence is his doctrine, not his lapse; we
+have taught it to each other for twenty years. What I promise
+is that silence kept by forty thousand men has a shape — it
+has edges, where the silent nets end and the talkative ones
+begin, and edges can be plotted."
 
 "Choose by Thursday," Hvidt said. "I would prefer to know
 which enemy owns the mass before I spend mine against the
@@ -195,7 +200,7 @@ as its enemy paragraph, the assessed attrition of the enemy
 first echelon at current exchange rates. He initialed it the
 way he had initialed a hundred estimates, NH in the block, and
 thought nothing of it, and the initials sat in the file from
-that morning on, patient, the way filed paper is patient.
+that morning on.
 
 ---
 
@@ -219,11 +224,20 @@ will wait."
 "The enemy does not maneuver against a blown bridge. He
 arrives, he masses his guns, he fires for eleven minutes, and
 he is across in assault boats while the rubble is still
-moving. Our battalions are trading one for one. Not vehicles —
-positions for hours. The general's message is one sentence: we
-are not delaying them, we are spending men to make their
-punctuality expensive, and the corps should not confuse the
-two when it reads our reports."
+moving. Now the arithmetic, which the general requires the
+corps to hear in exact units. The covering force is trading
+prepared positions for hours of the enemy's march table: one
+position, with the better part of its company, buys roughly
+one hour. The exercise in October assessed the same trade at
+one position for four hours. And the hours themselves — this
+is the part the general instructs me to say slowly — the
+hours do not appear to be hours he is losing. His rate of
+advance has not varied since the border. He budgeted for our
+belts; the hours we sell him were already in his plan. So the
+general's message is one sentence: we are not delaying them,
+we are spending men to make their punctuality expensive, and
+the corps should not confuse the two when it reads our
+reports."
 
 The room was quiet. "Tell the Generalmajor the corps heard the
 sentence," Holt said. "In his words, not the format's. Now the

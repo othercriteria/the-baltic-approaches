@@ -59,6 +59,27 @@ tag text. This file is append-only in practice.*
      tics; move assertions into the following dialogue, arrived
      at naturally. [MECHANICAL — applied]
 
+- 2026-07-24, batch 3 (ch. 4):
+  1. "the difference decides the campaign" — how intended to
+     land? [MECHANICAL — rewritten: the stakes grounded in the
+     concrete reserve consequence, no oracular self-caption]
+  2. "very good about not speaking" — was WP radio discipline
+     period-true? [VERIFY + MECHANICAL — shelf holds adjacent
+     evidence (maskirovka radio-deception, ZZB courier culture)
+     but no direct emission-control extraction; concordance
+     row 10 opened; line rewritten so silence is expected
+     doctrine with plottable edges, safe under either finding]
+  3. "patient, the way filed paper is patient" — tic. [CUT]
+  4. "trading one for one... positions for hours" — pivotal;
+     units unclear; ensure the general can observe it; ensure
+     concordance vs. the wargame. [MECHANICAL + STRUCTURAL —
+     exchange rewritten in exact units (one prepared position ≈
+     one hour of march table, vs. the exercise's assessed 1:4,
+     and the hours already priced into red's plan — observable
+     to Loheide via the unvaried advance rate);
+     notes/wargame-concordance.md created, 11 rows, with this
+     claim's ratio flagged TEXT-LED]
+
 ## Sequence agreed
 
 1. Length to floors (Parts I/II now; tic budgets held in-pass).

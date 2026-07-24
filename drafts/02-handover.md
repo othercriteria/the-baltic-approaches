@@ -136,10 +136,28 @@ would carry military traffic at planning rates while the
 civilian population of the border districts stayed home. Item
 three was the Territorial screen: companies of reservists,
 none of them the corps' to command, holding the covering
-positions by mobilization plus thirty hours. Item four was
-allied air from the first day. Item five was the weather. By
-midafternoon the page held nine items, and the page was not
-full, and Lammers said so.
+positions by mobilization plus thirty hours. Item four was allied air from the first day, and item four
+grew an argument, because Witzel wanted it written as the plan
+wrote it — reinforcing squadrons at named airfields by named
+days — and Lammers wanted it written as he had seen it in
+three exercises running.
+
+"The squadrons arrive," Lammers said. "The plan's days are
+even approximately kept. And from the first morning, the
+corps' requests go to Karup into a queue with the air defense
+of the region and the maritime war, and what comes out of the
+queue is not the plan's number. It is a fraction of it, at
+hours we do not choose. If the ledger is to be honest, the
+assumption is not allied air from day one. The assumption is a
+share of allied air, size unknown, timing not ours."
+
+"That is not an assumption, that is a grievance," Witzel said.
+
+"It is both," said Hvidt, "and it is item four. Write the
+Oberst's version. Grievances that are true belong on the page."
+
+Item five was the weather. By midafternoon the page held nine
+items, and the page was not full, and Lammers said so.
 
 "Leave the space," Hvidt said. "A full page would mean we had
 found the bottom of our own credulity. I have never met the
@@ -189,11 +207,20 @@ Oberstløjtnant — your pen. I want the price in the minute, in
 Oberst Lammers' figures. If this comes back to cost us, it
 will not be because the file was polite about it."
 
-Holt wrote the minute, and the deferral, and the price. It was
-the first paper of the war, though nobody called it that, and
-it went into the folder without ceremony, a small gray decision
-about ferries, correctly made, correctly priced, and quietly
-compounding from that day at rates the file could not print.
+Holt wrote the minute, and the deferral, and the price. He had
+crossed on the Halsskov run perhaps two hundred times in his
+life; he had stood in the bow queue at Knudshoved as a boy
+while his father counted the cars ahead and pronounced on
+whether they would make this sailing or the next, a science the
+whole country practiced and nobody had ever needed to name. He
+wrote the State Railways into a war minute in plain English and
+did not put any of that in it.
+
+It was the first paper of the war, though nobody called it
+that, and it went into the folder without ceremony, a small
+gray decision about ferries, correctly made, correctly priced,
+and quietly compounding from that day at rates the file could
+not print.
 
 ---
 
@@ -248,12 +275,26 @@ Sunday morning, the sixth of November, Aakjær came into the
 operations room without knocking, which he had never done,
 and handed Holt the signal.
 
-BALTAP WARNING ORDER. The alert measure the headquarters had
-rehearsed receiving for thirty years followed at 0955, and a
-German captain — the same one who had razored the exercise off
-the plexiglass sixteen days before — wrote the date-time group
-on the clean map in chinagraph, 060955Z NOV 83, in a hand
-that was steady until the last figure.
+BALTAP WARNING ORDER. Hvidt had the principal staff in the
+conference room by 0800, and what he gave them took four
+minutes. The quiet list was closed; the open list began; every
+deferred measure on it would be re-priced by 1200, the ferry
+minute first. Movement Control passed to a war footing at
+noon. The staff would sleep in shifts from tonight, "because
+the man who spends his sleep in the first week is borrowing at
+the worst rate the war will ever offer him." And the last
+thing, delivered exactly as if it were a fourth agenda item:
+"From this morning, candor before comfort is not a decoration.
+The first officer who tells me what he believes I would prefer
+to hear will be told what I actually prefer, once. Go to
+work."
+
+The alert measure the headquarters had rehearsed receiving for
+thirty years followed at 0955, and a German captain — the same
+one who had razored the exercise off the plexiglass sixteen
+days before — wrote the date-time group on the clean map in
+chinagraph, 060955Z NOV 83, in a hand that was steady until
+the last figure.
 
 Ninety hours, said the plan, from proclamation to a division
 standing in Schleswig.

@@ -184,3 +184,22 @@ tag text. This file is append-only in practice.*
 1. Length to floors (Parts I/II now; tic budgets held in-pass).
 2. Tic scrub (expansion diffs first).
 3. Chapter revision passes against DK's named findings.
+
+## Batch 11 (2026-07-24, mid-session question)
+
+- **Ch. 9, Loheide: "the fish is being sold to the future" — his
+  own coinage or the corps'?** DK: either defensible, but we
+  must have an opinion. RULING TAKEN (session, applied): via the
+  corps, and marked — unmarked, a forward commander independently
+  producing the staff's private metaphor is the panel's
+  homogenization finding in miniature; marked, it rides the
+  established coinage-propagation motif ("the format was
+  spreading on its own legs") and sharpens the scene's stated
+  mechanism (the brief IS the reproach — delivered in the corps'
+  own house vocabulary). Fix: two sentences added before the
+  line ("My liaison officers tell me your staff calls the
+  allocation a fish market. Good; I will use the house
+  vocabulary."). Standing rule derived: when a private coinage
+  crosses an organizational boundary, the crossing is shown,
+  not assumed — same family as the name-the-artifact rule
+  (batch 9), one level up.

@@ -126,6 +126,27 @@ waits. No pouring because the bottle is proud of being full."
 It went into the order's covering instruction verbatim,
 because it was better than the order.
 
+The authority was tested within eighteen hours, which
+everyone had privately expected, by a brigade commander of
+impeccable record who had run his approach marches to his
+own timetable through thirty years of exercises and saw no
+reason a colonel of movement troops should now own his
+arrival. The exchange reached the corps as a protest; the
+protest reached Holt with the movement colonel's
+endorsement attached, one sentence long: REQUEST DECISION.
+SERIALS CALLED BY THE BRIDGE OR BY SENIORITY. THERE IS NO
+THIRD SYSTEM. Holt wrote the decision under the
+endorsement and sent it back within the hour, and had it
+posted at the staging areas: the bridge. The brigade
+commander complied, being a professional, and sent one
+further message, addressed to the colonel with a copy to
+the corps, conceding the point in the manner of his kind:
+MY SERIALS AT YOUR CALL. NOTE THAT A BRIDGE HAS NEVER
+COMMANDED A BRIGADE. The colonel's reply closed the file:
+NOTE TAKEN. ALSO THAT A BRIGADE HAS NEVER BEEN A BRIDGE.
+The two messages went up on the wall side by side, and did
+more for the new system's authority than the order had.
+
 The second order attacked the empty seconds, and the second
 order drew blood. Staging moved forward, under camouflage
 the staff college would have wept over; the call-forward

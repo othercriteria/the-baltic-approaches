@@ -103,17 +103,62 @@ spent three weeks keeping open, both times logged, the
 scheduled column reading, with the war's whole economy
 in it: AS REQUIRED.
 
-At Assembly Point 14 the replenishment point's guard
-platoon and the brigade's returning empties fought a
-defense of the school that the after-action report
-rendered in movement-control grammar, because
-movement-control grammar was what the survivors had:
-the gymnasium stores fired to deny; the trucks
-crash-started and driven out under small-arms fire,
-eleven of seventeen recovered; the classroom wing —
-the report's phrasing, exact — STRUCTURALLY
-COMPROMISED BY DIRECT FIRE, EASTERN FACADE. The
-breach was sealed at 1140 by Loheide's turned-around
+At Assembly Point 14 the replenishment point had
+twenty-two men, a guard platoon's worth of rifles, a
+lieutenant of supply troops, and seventeen trucks, and
+the battle reached it at 0510 as a sound the lieutenant
+first logged — the report survives — as OWN ARMOR,
+QUERY. The query died with the first tank round into
+the plane trees. What followed, the after-action
+report rendered in movement-control grammar, because
+movement-control grammar was what the survivors had,
+and because the lieutenant wrote it himself, that
+evening, in the format he knew: the gymnasium stores
+fired to deny at 0522, per standing demolition
+instruction, initiated by the duty corporal on his own
+authority when the lieutenant was believed dead (the
+report's parenthesis: BELIEF PREMATURE, AUTHORITY
+CONFIRMED RETROACTIVE); the trucks crash-started and
+driven out west under small-arms fire in two packets,
+eleven of seventeen recovered, four burning, two
+abandoned intact (noted, with the format's own
+mercilessness: DRIVER CASUALTIES THE DIFFERENCE); the
+guard platoon's stand along the schoolyard wall
+holding the enemy's dismounted infantry off the
+vehicle park for nineteen minutes, which was what the
+two packets cost to buy; and the classroom wing — the
+report's phrasing, exact — STRUCTURALLY COMPROMISED BY
+DIRECT FIRE, EASTERN FACADE.
+
+The Territorial companies fought their second war of
+the month in the same district, and fought it better,
+because this time the question from the Reinfeld
+crossing had an answer: they were the corps' now, by
+an order Witzel had drafted in the war's second week
+when nobody was watching, and the answer showed. The
+district's two bridges went down on their charges at
+0545 and 0602, each with its movement-control log
+closed out to the minute; the crater plan the elderly
+Oberstleutnant of reserves had maintained since the
+evacuation — against, he later noted, no requirement
+anyone had issued him — cost the breakout's second
+regiment its wheeled echelon before noon.
+
+And Loheide's battalions turned around. It was the
+morning's ugliest arithmetic and the war diary carries
+it without comment: men eight hours into a rearward
+march toward promised rest, halted on the road by
+movement control, countermarched, and committed at
+midday into a meeting engagement against the remnant
+of an army with nothing left to lose. They did it at
+surge prices — tired men counterattacking at noon —
+and they did it, and the after-action assessment's
+sentence about it, drafted by Holt and left unedited
+by everyone who reviewed it, reads: THE CORPS' LAST
+RESERVE WAS ITS SOLDIERS' OBEDIENCE, AND IT WAS SPENT
+KNOWINGLY.
+
+The breach was sealed at 1140 by the turned-around
 battalions and held through the afternoon against the
 remnant's remnant, and the pocket's last organized
 force broke against its own escape route by dusk, and

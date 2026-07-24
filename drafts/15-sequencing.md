@@ -290,9 +290,10 @@ the twenty-fifth, reading the counts.
 
 "At present rates of quieting, his preparation
 completes between the twenty-sixth and the
-twenty-eighth. The moon is dark on the twenty-seventh.
-I have put it on the sheet; the sheet now says what
-the whole theater is thinking." He buttoned his coat
+twenty-eighth. The moon does not rise until near
+midnight all this week; his assembly hours are dark
+ones. I have put it on the sheet; the sheet now says
+what the whole theater is thinking." He buttoned his coat
 to go. "One observation on my way out, Hr.
 Oberstløjtnant, in a personal capacity. The commander's
 light is still burning. It burns late every night this

@@ -59,7 +59,7 @@ What his guns will do. What an hour costs him. For those we
 have no instruments. We borrow his numbers from doctrine —
 at interest."
 
-A silence with wind in it.
+A silence long enough to be a note taken.
 
 "Whose phrase is that. At interest."
 

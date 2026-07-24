@@ -188,9 +188,9 @@ And one measure did not go out at all.
 
 It sat fourth on Lammers' priority list: pre-requisition of the
 Great Belt ferry fleet — notice to the State Railways that on
-proclamation the six road ferries and the rail ferries of the
-Halsskov–Knudshoved run would pass to military movement
-control. Lammers had priced its absence without being asked:
+proclamation the six road ferries of the Halsskov–Knudshoved
+run and the rail ferries out of Korsør would pass to military
+movement control. Lammers had priced its absence without being asked:
 every hour of delay in the requisition after mobilization
 began was an hour added to the tail of the Zealand brigades'
 crossing, and the hours compounded, because the ferries' own

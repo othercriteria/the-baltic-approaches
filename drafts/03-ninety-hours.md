@@ -15,7 +15,7 @@ Wentorf and along the Hamburg fringe, filling out with
 reservists who lived within bicycle distance of their depots —
 fifty-one hours, said the plan, from proclamation to a division
 standing in its forward positions in Holstein. The long race
-was Danish: five thousand regulars and forty thousand
+was Danish: five thousand regulars and fifteen thousand
 reservists of the Jutland Division, mobilizing across a
 peninsula and two islands, marrying men to vehicles and
 vehicles to units, and moving the whole assembled argument

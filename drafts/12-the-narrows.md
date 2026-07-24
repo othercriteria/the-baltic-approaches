@@ -101,7 +101,11 @@ it so that whatever the corps decides today, it decides
 knowing that. No request. Out." — a man spending his
 division with the meter running and declining, on
 principle, to make the corps' arithmetic easier by
-understating his own.
+understating his own. The operations room heard it
+in the particular silence reserved for men making
+its sums harder on purpose, and Hvidt said "Log it
+verbatim," which was the only decoration he ever
+gave it.
 
 "In order," Hvidt said. He had taken his place at the
 plexiglass at 0820 and he did not leave it for six hours,
@@ -114,7 +118,12 @@ DEFENSE OF THE NARROWS — and the corps artillery opened
 with eleven days of savings, and for forty minutes the
 expenditure ran against Lammers' curves in real time,
 hour of shells against meter of ground, the exchange rate
-naked at last with no committee in between.
+naked at last with no committee in between. Lammers
+stood at his own board while the savings went out
+through the guns, watching eleven days of his
+signature convert, and said nothing, and stayed,
+which the room understood without anyone framing it:
+a man attends the spending of his own estate.
 
 And in the writing of it, Holt made the day's error.
 
@@ -171,10 +180,14 @@ the eastern brigade's line broke at 1210, and the
 amendment went out at 1213, re-laying by batteries into
 a fight already decided at the company level.
 
-The report that said so had a battalion's name in it.
-The battalion was the one whose commander banked in
-Kolding, and the wall did not permit the coincidence to
-be filed as anything but what it was.
+The report that said so had a battalion's name in it,
+and the new format carried the three times in one
+line — FIRES REQUESTED 1131, 1152. GRANTED 1213.
+POSITION LOST 1210 — and left the subtraction to the
+reader, as the format always had. The battalion was
+the one whose commander banked in Kolding, and the
+wall did not permit the coincidence to be filed as
+anything but what it was.
 
 The eastern fight between 1210 and 1225 belonged to
 Vestergaard, and the corps saw it only as the corps
@@ -220,8 +233,28 @@ They went under Loheide, whose division's shoulder held
 the pivot and who had been schooling the corps in close
 defense for a fortnight. The
 counterattack he conducted between 1300 and 1500 was not
-elegant. It was a door slammed by a tired man, and it
-held: the penetration pinched at its waist, the eastern
+elegant. It was a door slammed by a tired man, and the
+corps heard the slamming the way a corps hears
+everything, as call signs and grid squares arriving
+out of order. At 1319 the armor reported across its
+start line, nine minutes late, the nine minutes
+already re-cut into the fire plan by a fire-support
+desk that had spent the morning learning to re-cut
+under compulsion. At 1341 the farm complex at the
+penetration's tip changed hands; at 1350 it changed
+hands again; at 1354 the first of Kjeldsen's
+re-armed sorties came in under the cloud in pairs,
+at heights the peacetime regulations had existed to
+forbid, and worked the bunched columns behind the
+penetration by eye, the 0430 decision paying its
+dividend nine hours late, which the wall logged,
+both times, without comment; and at 1409 the divisional reconnaissance
+squadron's dismounts were relieved in place by
+infantry they had never met, and the squadron's
+report of its own relief — nineteen effective, all
+weapons accounted for — went onto the wall unedited,
+because the wall did not edit. By 1500 it held: the
+penetration pinched at its waist, the eastern
 break sealed against the Schlei, the enemy's fresh
 regiments — who had spent their own artillery preparation
 on schedule and now stood past its end — grinding forward
@@ -243,7 +276,11 @@ file moving through the storm at its appointed pace —
 a lieutenant who had asked, with honest disbelief,
 whether the routine traffic could wait, "has decided by
 one o'clock that it is dying, and I decline the decision
-on its behalf."
+on its behalf." It was Witzel, too, who lifted Karup's
+civil-clearance question off the operations desk at
+0937 and answered it himself, in the figures as
+filed, with the observation that the evening return
+would arrive at the evening hour, as returns did.
 
 The call itself Holt heard from the second handset, by
 Hvidt's standing order: two ears on every political
@@ -268,7 +305,17 @@ The authority came back in ninety minutes, hedged for
 the archives — military necessity, the determination of
 which had so recently been reserved, was released to
 the man at the plexiglass in a sentence with three
-subordinate clauses. The line came back that night to
+subordinate clauses, one for each capital. Witzel
+read it to the map table once, at dictation speed,
+because a staff executing a sentence was entitled to
+hear it as written, and when he reached the clause
+reserving the governments' position on any further
+voluntary relinquishment — the lawyers reloading
+even as they yielded — Hvidt took the message form,
+initialed it received, and said the only thing he
+ever said about the ninety minutes: "The corps has
+been lent its own judgment. Note the rate of
+interest. Execute." The line came back that night to
 the true crest: the canal's bank west of Sehestedt, the
 old wall of the Danevirke, the narrows between the
 Schlei's head and the Treene marshes — the thousand-year

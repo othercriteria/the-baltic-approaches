@@ -173,7 +173,7 @@ arguing. But the assessment went up entire, and under
 his signature block, in his own hand, in Danish, Hvidt
 added four words no regulation asked for:
 
-Kandor før trøst. Betalt fuldt ud.
+Ærlighed før trøst. Betalt fuldt ud.
 
 Candor before comfort. Paid in full. No one ever asked
 him about it, and he never explained it, and the file

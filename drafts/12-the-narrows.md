@@ -5,7 +5,7 @@ CANAL–SCHLEI POSITION, which is how the diary was
 entitled to describe the day the corps nearly died.
 
 It began with the weather winning. Of the forty deep
-sorties built into the maximum program for the thirteenth,
+sorties built into the maximum program for the twelfth,
 six flew before noon. The ceiling came down to two hundred
 meters at dawn and sat on the peninsula, and the second
 echelon the program had been built to strike moved up
@@ -51,9 +51,9 @@ Fresh regiments passed through the salient's tired ones at
 first light behind an artillery preparation of a weight
 the war had not yet shown. By 0800 the forward brigade
 line on the narrows was broken in one place and bending in
-two. The Danish division, closed at last, one hundred and
-eighty hours after a plan that had promised ninety, stood
-its first full battle on its second morning, and bent.
+two. The Danish division, closed at last on the tenth day
+of a plan that had promised ninety hours, stood its first
+full battle on its second morning, and bent.
 
 What Holt remembered afterward was not the map. It was
 the queue.
@@ -65,8 +65,8 @@ decision, and the currencies were the ones the wall had
 taught them all to see. The reserve: eleven battalions on
 paper on the first of the month, seven this morning, the
 difference already spent into the line by twos in the
-war's first fortnight. The bank: eleven days of the
-rationing order's shells, one-third of every daily scale,
+war's first fortnight. The bank: the rationing order's
+refused shells, one-third of every daily scale,
 held against the commander's intent, the credit the
 battalion commander from Kolding had lent against a date.
 And the line itself: the guidance line, the second one,
@@ -115,13 +115,14 @@ spent everything.
 The bank went first. At 1040 Holt wrote the release
 order in his own hand — MASSED FIRES, ALL AVAILABLE, IN
 DEFENSE OF THE NARROWS — and the corps artillery opened
-with eleven days of savings, and for forty minutes the
+with everything the rationing order had saved, and for
+forty minutes the
 expenditure ran against Lammers' curves in real time,
 hour of shells against meter of ground, the exchange rate
 naked at last with no committee in between. Lammers
 stood at his own board while the savings went out
-through the guns, watching eleven days of his
-signature convert, and said nothing, and stayed,
+through the guns, watching his own signature
+convert, and said nothing, and stayed,
 which the room understood without anyone framing it:
 a man attends the spending of his own estate.
 

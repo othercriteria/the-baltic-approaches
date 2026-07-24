@@ -110,8 +110,8 @@ it was, Holt understood later, the only welcome he got.
 
 ---
 
-The assumptions ledger was built on the first Sunday of
-November, at a table in the conference room, by three men and a
+The assumptions ledger was built on the last Sunday of
+October, at a table in the conference room, by three men and a
 pot of coffee that outlasted them.
 
 Hvidt had tasked it as one page: things the corps assumes it

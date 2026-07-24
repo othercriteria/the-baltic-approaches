@@ -4,7 +4,7 @@ The enemy's preparation began at 0340 on the
 twenty-seventh of November, and it began on time.
 
 The heaviest fires of the war came down on the narrows
-out of a black sleet, three weeks of hoarded shells
+out of a black sleet, a week's hoarded shells
 converting back into violence at the maximum rate the
 tubes could sustain, and in the operations room the duty
 officer stood at Roloff's graph with the first
@@ -79,7 +79,7 @@ signals relayed through Karup now pressed for the
 counterstroke early, while there is still a line forward
 of Schleswig to save, and cited, without irony, the
 corps' own demonstrated capacity for offensive action, on
-the coastal flank, on Tuesday, on film.
+the coastal flank, on Friday, on film.
 
 And Holt spent the morning being the instrument's
 advocate, which meant saying not yet, out loud, to a new

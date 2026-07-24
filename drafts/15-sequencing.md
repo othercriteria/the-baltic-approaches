@@ -1,6 +1,6 @@
 # 15 — Sequencing
 
-The discovery of the sixteenth night was Kjeldsen's, and
+The discovery of the fifteenth night was Kjeldsen's, and
 he made it the way he made everything, by translation.
 
 They were building the next week's air strategy at the map
@@ -79,7 +79,7 @@ deliver it in person."
 
 ---
 
-The corps went to Karup on the seventeenth by liaison
+The corps went to Karup on the twenty-third by liaison
 aircraft, which gave the theater's morning market, for
 the first time in the war, the land battle as a body in
 the room: Holt, with Kjeldsen at his shoulder, in a
@@ -191,9 +191,10 @@ through the second night. The lift's assembly
 anchorage dispersing, then reassembling smaller,
 then dispersing and not reassembling. Prisoner and
 signals traffic speaking of embarkation formations
-marching inland, as infantry. On the twentieth,
-Aakjær drafted the entry the whole theater had been
-funding, and initialed it, and stood at the wall
+marching inland, as infantry. Aakjær had drafted the
+entry the whole theater was funding on the evening of
+the twenty-third, on the weather table and the week's
+photography, and initialed it, and stood at the wall
 afterward a moment longer than the pinning required:
 
 23 NOV: AMPHIB THREAT VS ZEALAND ASSESSED NO LONGER

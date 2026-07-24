@@ -237,7 +237,7 @@ out loud.
 
 They had it at Loheide's forward command post instead, in a
 farm complex in the Aukrug woods, where Hvidt took Holt on
-the eighteenth and where nobody offered anybody coffee.
+the seventeenth and where nobody offered anybody coffee.
 The command post occupied the farm's brick byre: map
 boards wired to the stanchions, cable runs stapled up
 the whitewash. The family's furniture stood stacked

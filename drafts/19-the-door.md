@@ -91,7 +91,7 @@ the night, earlier than the computation, exactly as far
 inside the error band as Roloff's pinned sentence had
 warned it could be, and the westward battalions of
 Vestergaard's assault, thinned once already by a raid
-that had bought Tuesday's headlines, went in against an
+that had bought Friday's headlines, went in against an
 economy already turned to the defense: registered stop
 lines, guns gone frugal, a man past his peak husbanding
 what remained precisely because there was less of it

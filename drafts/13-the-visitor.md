@@ -99,7 +99,7 @@ sends him invitations to receptions. I decline to be the
 third institution that wastes him."
 
 The invitation went; the answer came back in a hand like
-wire: I will come Thursday. I require nothing but the
+wire: I will come Monday. I require nothing but the
 wall your operations officer has been not-describing to
 me for two weeks, and forty minutes, and no briefing. R.
 

@@ -49,7 +49,7 @@ what it had been built to do had a hole in the middle.
 
 ---
 
-His own family was two hundred kilometers northeast of the
+His own family was a hundred and fifty kilometers north of the
 hole, on the far side of two waters, in a town the war was
 using as a funnel.
 

@@ -31,11 +31,11 @@ own reporting: fuel states, bridging inventories, the
 engineers' repair returns, the daily kilometers as counted
 against the map rather than as summed through three
 echelons. And the right column said that on the evening of
-Day Eleven the Front stood on the ground the plan had
-assigned to Day Six.
+Day Ten the Front stood on the ground the plan had
+assigned to Day Five.
 
 "Five days, Comrade General. Two of them accrued in the
-first week. Three in the last four days. The lag is not
+first week. Three in the last three days. The lag is not
 constant; it compounds, because each day's shortfall is
 made up from the next day's fuel and the next day's
 bridging, which are themselves already pledged. I have
@@ -186,7 +186,7 @@ enemy, the one from twenty years of exercise scenarios,
 and the staff reorganized the defense's arithmetic around
 him with something close to relief: the rationing
 deepened, the engineer effort shifted to the depth
-positions, and the air request for the thirteenth was
+positions, and the air request for the twelfth was
 rebuilt into a maximum deep effort against the approach
 routes, over Kjeldsen's stated misgivings about the
 season, because against that enemy the deep program's
@@ -279,7 +279,7 @@ under it, because the wall's discipline required a
 disposition, Holt wrote his own line and initialed it:
 PROGRAM STANDS. RE-EXAMINE AT INDICATOR SPLIT. — NH.
 
-The air request for the thirteenth went out as built, at
+The air request for the twelfth went out as built, at
 maximum weight, against the approach routes, and the
 transmission clattered down into the night like coins
 into a well.

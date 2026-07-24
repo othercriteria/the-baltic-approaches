@@ -62,7 +62,7 @@ At 1500 the commander came down for the internal wash-up, which
 was held in the operations room so that the staff could brief
 against the boards it had fought on. Generalleutnant Brauer had
 commanded the corps for thirty-four months and would hand it
-over in eleven days; the moving crates were already in the
+over in four days; the moving crates were already in the
 corridor of the commander's villa, and everyone knew it, and no
 one said so. He sat in the front row of folding chairs with his
 hands on his knees while Roloff ran the map with a pointer and

@@ -167,7 +167,7 @@ was composite. He was two days learning what that word cost.
 ---
 
 The enemy attacked at three fifty-one on the Tuesday morning,
-at hour sixty-six of a ninety-hour clock.
+at hour forty-two of a ninety-hour clock.
 
 The first reports came from the Territorial screen on the
 Trave: Kreis companies of reservists in positions they had
@@ -207,7 +207,7 @@ described so often, trading ground on the Holstein roads
 against an enemy who was less punctual than the exercises and
 more punctual than anyone had truly believed.
 
-Holt stood at the boards through the morning's fourth coffee
+Holt stood at the boards through the second morning's fourth coffee
 and saw the discrepancy before he could name it, which he
 would later understand was the only way discrepancies of that
 kind ever arrive.
@@ -219,7 +219,7 @@ above plan, issue on schedule, routes open, crossings intact.
 The corps was not late by any measure the corps kept. It was
 only late in Schleswig.
 
-At the 0600 conference, hour sixty-nine, the first morning of
+At the 0600 conference, hour sixty-nine, the second morning of
 the war, Hvidt listened to the overnight brief without a note
 and then gave the staff its first standing order of the war.
 
@@ -240,7 +240,7 @@ and Roloff, who rewrote it, brought it to Holt before posting,
 not for approval — it needed none — but the way a man shows a
 colleague something he has found in the ground. JYSKE DIVISION
 CLOSING SOUTH OF EIDER: SCHEDULED H+90. ACTUAL: NOT YET
-ACHIEVED AT H+69. ELEMENTS CLOSED: RECCE SQN, ADV PARTIES, 2
+ACHIEVED AT H+92. ELEMENTS CLOSED: RECCE SQN, ADV PARTIES, 2
 OF 9 MANEUVER BATTALIONS. ESTIMATE FOR CLOSURE: SEE MOVEMENT
 CONTROL, WHO DECLINE TO GIVE ONE IN WRITING.
 

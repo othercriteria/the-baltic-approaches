@@ -511,6 +511,38 @@ future transcripts (guard covers files only — keep the
 distill-don't-copy discipline). Assessment: GOOD TO PUBLISH;
 the switch is DK's to flip.
 
+**2026-07-24 entity @3 (post-second-compaction; note: the two
+blocks above carry entity clock-drift — their true dates are
+07-23/24, correction logged in the lineage log):** full re-read
+DONE, off build/the-mission.pdf per DK. Products: (1) **the
+timeline ledger exists — notes/timeline-ledger.md** (the
+CLAUDE.md Phase-1 ledger; multi-axis canon table, clock rules,
+fix log). The read surfaced ~25 internal-chronology errors —
+war-day/date/weekday/H-clock drift of exactly the kind outline
+§2 was written to kill — all fixed against the ratified clock
+in one commit (attack = hour 42 not 66; narrows = day 12/19
+Nov; Rahn comes Monday not Thursday; ch. 15's air-campaign
+week decompressed to 22–26 Nov; raid headlines Friday; the
+false "eleven days of savings" durations recast; "Kandor" was
+not Danish → "Ærlighed før trøst"; Fredericia 154 km ~north
+per atlas, was "two hundred km northeast"). DK-flag items are
+listed at the ledger's foot (reversible judgment calls: the
+tenth-day recast of "one hundred and eighty hours"; "a week's
+hoarded shells"; Ærlighed vs Oprigtighed). (2) **Aakjær/Rahn
+adjacency VERIFIED against DK's ruling condition** during the
+read: background and role divide them more than "ironic
+teacher" joins them (working G-2 with living stakes and
+tradecraft idiom vs 1901-born retired examiner in pedagogy
+idiom) — no fix needed, matching DK's lean; logged in the
+lineage log. (3) **PDF-vs-markdown observation for DK's
+"conflicting observations":** reading the PDF via text
+extraction interleaves running headers/page numbers
+mid-sentence and mangles ffi/ffl ligatures — a reviewer fed
+extracted text gets real noise the markdown doesn't have;
+a reviewer fed rendered pages doesn't. Worth pinning the
+next panel's ingestion mode explicitly (rendered pages, or
+extraction after a header-stripping pass).
+
 ## Standing DK reminders (loose ends outside the repo)
 
 - ~~Create the private GitHub remote and push the holdings repo~~

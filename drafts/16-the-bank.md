@@ -14,7 +14,7 @@ falling day over day, because activity was expenditure
 and the corps was saving. The standard reports carried
 all of it upward in the standard formats, and the
 standard formats had no column for on purpose, and by
-the twentieth day the signals coming back down the chain
+the seventeenth day the signals coming back down the chain
 had acquired the tone of a bank writing to an account in
 trouble: requests for clarification. Then requests for
 intentions. Then, relayed through Karup with its
@@ -59,7 +59,7 @@ violence against one computed morning to spend a piece
 of the bank on theater. The piece will be reported to
 me as small. Nothing is small. The bank is not a sum of
 shells, it is a sum of freshness, and freshness spent
-does not return by Thursday. Now tell me the
+does not return by Monday. Now tell me the
 requirement's floor, because I am going to negotiate
 you to it."
 
@@ -140,7 +140,8 @@ accepts both clauses of that sentence, Herr General."
 ---
 
 The movement overlay for the counterstroke was drafted
-on the twentieth night, and Roloff drafted it, because
+on the night of the twenty-fourth, and Roloff drafted
+it, because
 drafting was plans work and Roloff was plans.
 
 The routes and assembly areas and report lines ran
@@ -186,7 +187,7 @@ spoke about berth cycles at Halsskov.
 ---
 
 Hvidt ordered Holt to the rest billet on the
-twenty-fifth, in writing, six hours, both times on the
+twenty-sixth, in writing, six hours, both times on the
 order. "The wall says sleep is ammunition. You wrote
 the wall. Comply with it."
 
@@ -208,7 +209,7 @@ noted it anyway, in the interior ledger that had no
 sheets.
 
 On the wall the counter-battery count for the
-twenty-fifth was posted: 410. The lowest of the war.
+twenty-sixth was posted: 410. The lowest of the war.
 Beside it Aakjær had pinned the evening's intercept
 annotation in his own hand: bridging and
 assault-crossing equipment moving forward by night

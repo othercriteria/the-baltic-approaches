@@ -126,3 +126,14 @@ tank count 41 by the letter's writing (~day 2–3), 214 by 26 Nov
 (ch. 16) ✓ trajectory. Rylski middle beat (ch. 15): "the
 reconciliation had gone north a week ago" ✓ (went night 17/18
 Nov; beat sits ~24–25 Nov).
+
+## Addendum 2 (design-ruling beats, same day)
+
+Canal forcing NOW ON PAGE (ch. 10): night 16/17 Nov, Sehestedt
+ferry site — 2214 swimming vehicles / 2222 bridgehead west bank /
+2231 slip demolition / bridged by 0400; "two days before" the
+19 Nov narrows ✓. CENTAG item #2: ch. 18, evening summary 27 Nov
+(refrain of ch. 11's sentence). Rahn's capitals-comfort: the
+10 Nov ~2400 call (already falsified by that morning's five
+hours — deliberate). Bjelke transmittal: same afternoon as the
+ch. 20 fight, 14 Dec.

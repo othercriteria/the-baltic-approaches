@@ -169,7 +169,10 @@ like Bjelke are not defeated, they are outlasted, and
 the paper war the historical sections had already
 begun would run for decades with his annex and the
 corps' assessment filed forever in the same folder,
-arguing. But the assessment went up entire, and under
+arguing. The transmittal north went out that same
+afternoon over Bjelke's signature, enclosures listed
+and complete, the error annex among them. Nobody had
+required the speed. But the assessment went up entire, and under
 his signature block, in his own hand, in Danish, Hvidt
 added four words no regulation asked for:
 

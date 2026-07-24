@@ -32,6 +32,27 @@ The visiting officer wrote that down. That mattered later.
 
 ---
 
+The canal itself had been forced the night before, at
+Sehestedt, and the operations room had heard it the way it
+now heard everything: formats first, then the spaces
+between them. 2214: SWIMMING VEHICLES, BATTALION SCALE,
+EAST BANK SMOKE. 2222, the same station: BRIDGEHEAD WEST
+BANK. Then nothing further from that call sign, which was
+itself a report. The ferry slip's demolition fired at
+2231, confirmed, both times logged; by 0400 the enemy had
+bridged beside the wreckage, wrecks being survey data; and
+by the morning conference the map carried a red lens on
+the north bank a thousand meters deep, with Loheide's
+hedgerows holding its rim. The staff had rehearsed losing
+ground for twenty years. Nobody had rehearsed the sound of
+the duty officer reading the canal's name in a grid
+reference, the surgical scar become an axis, and the room
+had taken it the way the wall had taught it to take
+everything now, as two times and a trace — which was
+discipline, and looked like calm, and was not.
+
+---
+
 Holt telephoned Eckernförde at 2130, on the cleared
 circuit, and the duty signals officer logged the call in
 the book with the time out and the time back, because the

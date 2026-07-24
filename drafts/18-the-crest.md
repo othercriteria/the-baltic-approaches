@@ -214,6 +214,13 @@ said, closing the folder, "may be forgiven them.
 Twenty hundred is the last light check. I have put the
 chaplains on the movement schedule; they asked."
 
+The evening summary carried, low on its second page, the
+theater item's return: protective posture in the Central
+Army Group sector retained, the employment reports still
+unadjudicated, assessment still pending. The room read
+it, and did not stop, and the war went on being the one
+in front of them.
+
 Holt kept the promise about the meter through the
 afternoon, on the half hour, aloud. At 1430 the
 narrows' figure was a hundred and ten an hour. At

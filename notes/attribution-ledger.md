@@ -306,6 +306,18 @@ entity index generatable instead of reconstructable.
   then follow the work; Aakjær/Rahn adjacency RULED no-fix
   needed provided incidental background/role divides them more
   than "ironic teacher" joins them (verify during the read).
+- 2026-07-24 — byline ruling (DK, in-session to 52662a0d@3):
+  **option (a), "Daniel Klein with Claude"** — chosen with the
+  stated caveat that its defensibility for this work is to be
+  reassessed at wrap, and the expectation that some work in the
+  larger writing campaign "will undeniably cross that line"
+  (i.e., require a stronger model-attribution form). Front
+  matter updated; the making-note stands unchanged under it.
+  Same message: synthesis-§5 rulings 5a/6a/7-Bjelke(deferred to
+  session)/2b landed in text; 3a delivered as a drafts package
+  (notes/fault-line-drafts.md, adoption pending); 4 DECLINED
+  (the discipline is the point; existing unfiled griefs are the
+  answer).
 
 ## Entity index
 

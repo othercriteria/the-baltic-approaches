@@ -289,7 +289,10 @@ measuring what it consumes, because consumption is countable,
 and production requires you to have decided what you are for.
 Armies are the outstanding case, but I had the disease
 described to me once by a man who made ball bearings. You have
-now met it in the field. I am not going to tell you the
+now met it in the field. And one comfort you did not ask for:
+the capitals will loosen. By the second week the man at the
+front owns the war and the telephones go quiet; it has always
+been so. I am not going to tell you the
 answer, Holt. I do not know your answer; it is your war, not
 mine. I will tell you the shape of the answer. It is one line
 of your empty column. Name the good — one good, not a list,
@@ -309,6 +312,8 @@ operations room went on at its night volume, teleprinters and
 low voices and somewhere a spoon in a mug: a war being
 administered. Holt took out his notebook, and under the day's
 two-times entries he wrote four words and boxed them, the way
-Roloff boxed a total.
+Roloff boxed a total. The comfort about the capitals he left
+unwritten; the morning's five hours were already on the page,
+and the two did not reconcile.
 
 *Name the good. One.*

@@ -4,11 +4,7 @@
 
 &nbsp;
 
-[BYLINE — open DK decision. Options on the table: (a) "Daniel
-Klein with Claude"; (b) "Claude, directed and edited by Daniel
-Klein"; (c) byline-free title page with the making-note carrying
-the whole attribution. The note below is drafted to work under
-any of the three.]
+**Daniel Klein with Claude**
 
 &nbsp;
 

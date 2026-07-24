@@ -13,7 +13,8 @@ ratified outline §8 + panel prescriptions.*
 | Superlative-of-the-war formula | 9 | keep 3 | Editor's list is in blind-reads/04; choose survivors deliberately (candidates to keep: "the war's first honest sentence," the Lammers "Punctual," one more) |
 | Heat/click comprehension | 6 (3 heat, 3 click) | 2 each max | Holt's only two ways of understanding things; vary or cut |
 | Negation-definitions ("not X. It is Y") | not recounted this pass | scrub per DK batch 5 | weight expansion diffs |
-| Walk-on epigrams | every walk-on | let 2–3 walk-ons be inarticulate | The de-homogenization campaign's core; not grep-able — per-scene judgment |
+| Walk-on epigrams | every walk-on | let 2–3 walk-ons be inarticulate | The de-homogenization campaign's core; not grep-able — per-scene judgment. One converted (ch. 15 Zealand CO) |
+| Process retrospective (NEW, DK 2026-07-26) | 4 found; 2 cut (chs. 8, 19a), 2 earned/watched (ch. 9 standing, ch. 12 afternoon) | zero unearned | Structural, not lexical — practice narrated with its own aggregate vindication; the model's work-summary register in narration. Full definition: critique-profile §5.3. Partial grep: "never again\|ever called\|never afterward\|each .* best" |
 
 Campaign order (approved shape: voice/tic first so future review
 rounds see past it):

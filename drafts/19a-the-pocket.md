@@ -213,8 +213,7 @@ four-minute gap the log preserves: CONFIRMED.
 COUNTERMARCH. REST: SCHEDULED 292000. ACTUAL: NOT
 YET ACHIEVED. The format had never before been used
 as an apology. The battalion was rolling south
-inside twelve minutes, and nobody who heard the
-exchange ever called it anything but correct. They did it at
+inside twelve minutes. They did it at
 surge prices, tired men counterattacking at noon,
 and they did it, and the after-action assessment's
 sentence about it, drafted by Holt and left unedited

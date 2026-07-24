@@ -219,3 +219,31 @@ its signature moves hardest. Consequence for revision: the tic
 scrub should weight the expansion diffs (identifiable per
 commit), and future expansion passes should carry the tic budget
 consciously in-pass, not rely on a later sweep alone.
+
+**5.3 The process retrospective (DK catch, 2026-07-26, on an
+expansion-pass sentence: "He logged it as a purchase, because by
+the third draft the objections the arguing had surfaced were each
+order's best paragraphs" — "concentrated Fable voice... quite at
+home in your transcripts").** A structural tell no lexical grep
+catches: narration that reports a practice TOGETHER WITH its own
+aggregate vindication. Markers: (a) a mental act rendered one
+notch too literally in the book's accounting idiom ("logged it as
+a purchase"); (b) a retrospective universal doing the vindicating
+("each order's best paragraphs," "nobody ever called it anything
+but," "never afterward lost"); (c) the payoff asserted by the
+narrator rather than cashed in scene — frequently pre-paying
+exactly what the following scenes dramatize (double delivery at
+sentence grain). Root cause: the model's work-summary register
+(commit messages, wrap reports) leaking into narration — the
+character becomes a workflow whose ROI the narrator files.
+Detection: partially greppable (retrospective universals: "never
+again," "ever called," "never afterward," "each ... best");
+otherwise a judgment lens — read any practice-description's final
+clause and ask whether it is a receipt the scenes have issued or
+an invoice the narrator is writing to himself. Relation to known
+diagnoses: the hostile blind review's "the style is an invoice"
+is this tell at macro scale; the profile's "double delivery" is
+its mechanism. Two instances cut on discovery (chs. 8, 19a); two
+earned instances left standing with watch flags (ch. 9 market
+standing — load-bearing for ch. 15; ch. 12 "saved the afternoon"
+— cashed at 1354).

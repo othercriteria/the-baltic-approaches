@@ -123,10 +123,7 @@ would spend other men's hours got built in a room with the
 men who owned the objections. It cost time: an argued
 order is slower than a signed one, and he logged the
 cost honestly, forty minutes on the first order, above
-two hours on the second. He logged it as a
-purchase, because by the third draft the objections
-the arguing had surfaced were each order's best
-paragraphs.
+two hours on the second. He paid it.
 
 The first order subordinated the chain to the link. The
 crossings at Friedrichstadt, the rail bridge at Sorgbrück,
@@ -292,8 +289,8 @@ the planning rate the stocks were sited against. The forward
 sites are drawing down; the theater reserve is a promise
 with a sea voyage in it. At current expenditure the curves
 cross in nine days. I can move the date by convoy. And the
-convoys use the same roads and the same crossings as
-everything else this staff has just learned to worship."
+convoys use the same roads and the same crossings the
+corps has just finished subordinating everything to."
 
 "So the constraint has moved," Hvidt said. "A week ago it
 was seconds of plank. We served the crossing, and the

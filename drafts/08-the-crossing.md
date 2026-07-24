@@ -15,6 +15,17 @@ words, "Come and see something" — that he was being taken to
 be shown a fact he had been reporting for a week without
 seeing it.
 
+The drive was part of the showing, though he understood
+that only later: fifty minutes west behind a fuel convoy
+the cars could not pass, the commander's pennant taking
+its place in the queue like any other vehicle, because
+the escort had been forbidden to clear a lane. Hvidt
+spent the fifty minutes reading the verges — a
+broken-down transporter with its crew asleep on the
+load, a civil bus full of children pulled over to let
+the guns go by — and said nothing, and let the road do
+the briefing.
+
 The fact, from the embankment at Friedrichstadt, looked like
 this. Southbound: the tail of the Danish division — the
 second battalion of a brigade, self-propelled guns under
@@ -109,7 +120,13 @@ arrive from three capitals as sealed weather, and the
 rationing of Yellow-3 arrive from his own pen the same way,
 and he had begun keeping a private discipline: any order that
 would spend other men's hours got built in a room with the
-men who owned the objections.
+men who owned the objections. It cost time — an argued
+order is slower than a signed one, and he logged the
+cost honestly, forty minutes on the first order, above
+two hours on the second — and he logged it as a
+purchase, because by the third draft the objections
+the arguing had surfaced were each order's best
+paragraphs.
 
 The first order subordinated the chain to the link. The
 crossings at Friedrichstadt, the rail bridge at Sorgbrück,
@@ -200,7 +217,16 @@ morning conference, in those words. If it is worth doing it
 is worth saying without cosmetics, and if it cannot survive
 being said plainly it is not worth doing."
 
-It survived being said plainly.
+It survived being said plainly. Holt said it at the
+morning conference in Witzel's words nearly verbatim,
+and the two lieutenant-colonels whose inspections he
+had ordered failed took it without expression. One of
+them, the route-improvement officer, stopped him in
+the corridor afterward to withdraw his objection for
+the record: he had seen the queues at Schwabstedt.
+The other filed his objection in writing, which the
+order's own doctrine invited, and the war never got
+around to adjudicating it.
 
 The number responded on the fifteenth. Passage through the
 complex rose forty percent day over day; the staging queues
@@ -208,10 +234,30 @@ at Schwabstedt halved; the rail bridge at Sorgbrück, which
 had been passing ammunition trains and nothing else, began
 passing tracked vehicles on flatcars in the intervals
 between them, because Lammers had sat down with the loading
-tables himself and found the intervals, and the Danish
+tables himself and found the intervals — the bridge's
+day, it emerged, was still governed by peacetime
+block-working rules nobody had rescinded, and the
+rescinding took one signature and returned four train
+paths a day — and the Danish
 division's closing state, which had crawled for six days,
 moved — for the first time since the clock started, faster
 than the revised projection.
+
+The enemy audited the change before the staff had
+finished believing it. Reconnaissance flights crossed
+the complex twice on the fifteenth, at height; that
+night the batteries that could reach the Eider spent
+an hour's ammunition on the dummy bridging at
+Süderstapel, methodically, in the rain, and the
+engineer captain — whose objection to the half
+spacing stood in the second order, written and
+named — read the shelling report to the morning
+conference and permitted himself one sentence of
+theater: "The regiment's shells have arrived, Herr
+Oberstløjtnant, four kilometers south of the
+address." Half the room laughed. The captain filed
+the report under the order that carried his
+objection, which was its own comment.
 
 None of it was new capacity. That was the part Holt kept
 turning over. No new bridge had been built, no road

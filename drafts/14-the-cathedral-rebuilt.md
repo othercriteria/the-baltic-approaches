@@ -1,0 +1,193 @@
+# 14 — The Cathedral, Rebuilt
+
+Aakjær called the fifteenth morning's conference himself,
+which was backwards — the G-2 briefed at conferences; he
+did not convene them — and he came into the room carrying
+his board's documents in an actual crate, and put the
+crate on the table, and said: "My estimate of the enemy
+has been wrong since the first day of the war. I believe I
+can now show the conference the shape of the error, and
+the shape is worth more than a correct estimate would have
+been. I do not intend to brief. I intend to do the audit
+here, on the table, because I have done it twice alone and
+I no longer trust what I cannot show."
+
+Out of the crate: the prisoner interrogation summaries,
+flagged; the rail-flow analysis for fourteen days,
+Sassnitz and Rostock and the border crossings; the radio
+order of battle, net by net, with its dates of first
+hearing; the road-serial counts from the air photographs,
+the ones the weather had permitted. He dealt them out in
+rows, like a man laying patience.
+
+"The doctrine's picture, which is my picture of record:
+first operational echelon, then a second operational
+echelon — discrete waves, formed in depth, committed in
+sequence. Eleven days of my assessments assume it. Now
+watch the assumption meet its own documents. Roloff — the
+rail totals, read against the order-of-battle dates."
+
+Roloff read them out flatly, week by week: tonnage
+westbound, formations first heard, formations first in
+contact. Somewhere in the second week the room began to
+hear it before anyone said it — Holt felt the arrival a
+half-beat before the words, the now-familiar heat of
+comprehension running just behind the evidence — because
+the rail flow did not pulse. It ran continuous. The
+formations did not appear in blocks. They appeared in
+file, at intervals set by — Lammers got there first, out
+loud, in the tone of a man reading a competitor's
+invoice:
+
+"By road capacity. Those intervals are march-table
+intervals. That is not an army forming in waves. That is
+an army arriving in a queue."
+
+"There were never echelons," Aakjær said. "There was a
+column. One continuous body, strung along the roads of
+Mecklenburg, two hundred kilometers of it, arriving as
+fast as two crossings and one rail line can pass it — and
+my 'second echelon,' the mass we blunted at the narrows,
+was not a wave held in depth and committed. It was the
+next army in the column, on his schedule, on the day the
+column delivered it. I mistook a traffic jam for a
+doctrine. And the consequence, which is the reason I am
+standing here instead of retiring quietly to bees—" he
+laid the last summary flat — "the consequence is what
+remains. Behind the army we blunted, the interrogations,
+the rail flow, and the nets agree. There is no third
+army in the column. What arrives now is not force. It
+is supply. The depth is empty, gentlemen. From today,
+deep means something else. Deep means his tonnage."
+
+The silence was of the working kind. Lammers walked to
+the enemy side of the map like a craftsman crossing a
+competitor's shop floor.
+
+"Then I can extend it, because supply is my language. His
+front now eats through a two-hundred-kilometer straw,
+across a river line he demolished himself, through two
+crossings we have counted. Daily flow feeds daily battle;
+a front eating hand to mouth cannot attack — an attacking
+front eats at three times garrison scale, and three times
+garrison scale does not fit through that straw as a flow.
+So he cannot attack out of the flow. He must save up. He
+must accumulate, forward, dump by dump, the way we banked
+shells — and Herr General, a man saving up is a man
+visible. Dumps grow. Dumps are photographed. Dumps burn."
+
+"And they tick," Holt said. The piece arrived in his
+hands with the same click he had felt on the embankment
+at Friedrichstadt, whole, machined, waiting. "If he must
+bank an assault scale before the sea's dates, then
+between now and his morning, his daily violence must
+fall. He is on rations too — his guns' silence is his
+saving. The counter-battery counts become a countdown:
+the quieter he gets, the closer he is. Roloff, the
+counts go on the wall from this morning, daily, against
+THE SEA'S SCHEDULE. His economy drive is our clock. He
+cannot hide it, because hiding it would cost him the
+very shells he is hoarding."
+
+Hvidt had stood through all of it with his arms folded,
+being the room's walls and not its voice. Now he came to
+the table.
+
+"Then draw me the day," he said. "He must attack before
+the sea forecloses; you have given me the window. He
+cannot attack until the dumps are filled; you have given
+me the rate. From the hour his preparation fires begin,
+the hoard converts back to expenditure at a rate we can
+compute, and when it is spent he stands at the end of
+two hundred kilometers of bombed road with empty dumps,
+spent divisions, a closed sea, and a plan whose own
+arithmetic has finished it. That day — the day his last
+effort culminates — is the only day of this war on which
+that Front will be weaker than this corps. Not in tanks.
+In choices. One day. Perhaps thirty-six hours. The corps
+will now be built backward from it."
+
+---
+
+The objection came before the guidance was signed, and it
+came twice, independently, which was why it could not be
+waved off and why what happened to it mattered.
+
+Kjeldsen put it first, at the table: "For the record,
+because someone in this room is paid to say it. The
+structure we have just built is an inference standing on
+an inference standing on a third. Empty depth — inferred
+from an absence. The dump arithmetic — inferred from
+consumption factors we hold for our own army, applied to
+his. The countdown — inferred from both. We have been
+wrong about his shape once this week, gentlemen; I
+bought the maximum program with the last consensus. What
+is different this time?"
+
+And Roloff, separately, at the wall, when the sheet went
+up: "The counter-battery countdown reads one thing from
+two causes, Herr Oberstløjtnant. Quiet because saving.
+Quiet because moving. The count cannot tell them apart."
+— the visitor's question, in a plans officer's grammar,
+the sheet's own blind spot named by the man pinning it.
+
+The room answered with process, because process was what
+the room had: the wall would falsify daily; the counts
+would be checked against sound-ranging and the flash
+reports; the assessment would stand re-examination at
+every indicator split — all of it true, all of it the
+right answer, and all of it, Holt would think later,
+lighter than it sounded, because a discipline that
+promises to catch you when you fall is not the same as
+not building on an inference three stories up. Hvidt
+heard both objections out, ruled for the structure —
+"the alternative to planning backward from his weakest
+day is planning forward into his strongest; I know which
+war I prefer to lose" — and then did the thing that made
+the ruling survivable.
+
+"Witzel. The dissent goes in the record. Both versions,
+named, dated, in the planning guidance's own annex — not
+buried, not smoothed. If this structure fails, the corps
+will know within a week exactly which brick went first,
+and the men who doubted the brick will be on file as
+having doubted it. That is not generosity, gentlemen. An
+objection on the record is a sensor. Paint over it and
+you are flying blind twice."
+
+The guidance was recorded in the war diary as
+COMMANDER'S PLANNING GUIDANCE, 22 NOV. On the wall,
+under THE SEA'S SCHEDULE, a new sheet went up in
+Roloff's hand, headed with the only title the staff ever
+used for it: THE DAY. It was empty of dates. Filling it
+was now the corps' entire business.
+
+The staff work filled the next seventy hours. The air
+requests were rewritten — tonnage targets, dumps and
+coast-road convoys, priced in days-added-to-his-
+preparation; close support refused except where the line
+was load-bearing. The corps' own hoarding resumed,
+harder: shells, bridging, and sleep — the three tired
+battalion groups pulled into hides and rested by written
+order, with both times on it, because sleep had entered
+the corps' books as ammunition. And the engineer effort
+turned to the crossing sites on the Schlei and the
+narrows' shoulders — not to hold them; to use them, when
+the day came, in the other direction.
+
+Aakjær found Holt at the wall late that night, in front
+of the empty sheet.
+
+"Three weeks ago the new commander asked what we were
+looking at that would look different if it were aimed at
+us. I have an answer at last. Everything. We keep his
+calendar, his tonnage, and his weather, and we are
+planning our week around the worst morning of his life.
+I observe for the record, Hr. Oberstløjtnant—" the
+Danish honorific, dry as a wafer, reserved for his most
+formal ironies — "that we have become the thin man
+across the water. I intend to be better at it than he
+was."
+
+He left. The sheet stayed empty, and governed the
+building.

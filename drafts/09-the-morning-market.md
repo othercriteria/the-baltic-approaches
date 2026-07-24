@@ -125,7 +125,17 @@ tomorrow. Next item."
 It was the largest single allocation of the war, and the
 corps had won it with carpentry, and for one morning the
 operations cell felt what winning the market felt like.
-Only Kjeldsen, hanging up his handset, looked as if he had
+The program went out to the wings by 0900, and the
+cell spent the rest of the morning with the
+particular lightness of a staff whose biggest
+argument has just been accepted somewhere else — the
+duty officers found reasons to mention the allocation
+to the brigades' liaison desks, and the brigades'
+liaison desks, whose divisions would spend the same
+twenty-four hours under unstruck guns, found reasons
+to say nothing back, and the difference between the
+two silences was in the room all day without anyone
+reading it. Only Kjeldsen, hanging up his handset, looked as if he had
 bought something rather than won it. "Six months from now,"
 he said, to nobody in particular, "some staff college is
 going to teach this morning. I would give a month's pay to
@@ -136,19 +146,44 @@ know which course."
 The education arrived over the next two days, in three
 parts, like a bill presented in installments.
 
-Part one: the sorties flew late. Deep targets wanted
-particular loads; the loads wanted turnaround; the
-turnaround happened on airfields the enemy had spent a week
-cratering, under a ceiling that came and went. Of the
-planned weight, roughly three-fifths flew, six to ten hours
-behind the fire plan's timings. Nobody failed. The
-arithmetic of a damaged air base simply asserted itself,
-line by line, the way Lammers' arithmetic always did.
+Part one: the sorties flew late, and the lateness
+arrived as amendments. Kjeldsen's desk took the first
+at 0642 — time on target slipped ninety minutes,
+weather at the tanker rendezvous — and logged it
+without expression, because a first amendment is
+weather. The second came at 0855 and was turnaround:
+the wing flying the rail triangle had planned against
+its airfield's declared repair state, and the
+declared state had been optimistic, and the optimism
+compounded down the morning's program like interest.
+Kjeldsen read the second signal, walked to the wall,
+and pinned the October exercise's sortie summary
+beside the day's sheet — the two hundred and twelve
+flown, the two-thirds scored effective, the third
+bought at full price and never audited. "In October I
+told the commander I did not know what the missing
+third costs," he said, to the air cell generally.
+"The war has begun answering by installments." Deep
+targets wanted particular loads; the loads wanted
+turnaround; the turnaround happened on airfields the
+enemy had spent a week cratering, under a ceiling
+that came and went. Of the planned weight, roughly
+three-fifths flew, six to ten hours behind the fire
+plan's timings. Nobody failed. The arithmetic of a
+damaged air base simply asserted itself, line by
+line, the way Lammers' arithmetic always did.
 
 Part two: the strikes that flew, worked. Rail cut in two
 places east of Bad Kleinen; a bridge down on the Herrnburg
 line; a march serial caught in open column on the
-Gadebusch road and gutted. The photographs were unambiguous.
+Gadebusch road and gutted. The prints came up from
+Karup by courier at midday, still smelling of
+fixer, and the interpretation cell's annotations
+were models of the trade — CUT CONFIRMED, BOTH
+TRACKS, CRATERING THROUGH BALLAST; REPAIR TRAINS
+OBSERVED 0715 — and the staff passed them around
+the map table with the quiet of men being proven
+right. The photographs were unambiguous.
 Delay was imposed — real delay, measurable, the enemy's
 engineers filmed working through the night. On the
 projected-versus-observed sheet the projected column filled
@@ -203,6 +238,14 @@ out loud.
 They had it at Loheide's forward command post instead, in a
 farm complex in the Aukrug woods, where Hvidt took Holt on
 the eighteenth and where nobody offered anybody coffee.
+The command post occupied the farm's brick byre — map
+boards wired to the stanchions, cable runs stapled up
+the whitewash — and the family's furniture stood
+stacked under tarpaulins in the yard with a Feldjäger
+posted on it, because the division had been nine days
+fighting on its soldiers' home ground, and the guarded
+furniture was the first thing Hvidt looked at on
+arriving and the last thing he looked at leaving.
 
 Loheide was sixty and square and had been fighting for nine
 days on ground where his soldiers' families lived. He did
@@ -265,6 +308,13 @@ list it."
 
 "It will list it," Hvidt said. "Whether it fills the order
 is the campaign's question, but by God it will list it."
+
+The promised dinner was eaten standing, from the
+staff's own kettle — boiled potatoes, tinned sausage,
+a mustard somebody's wife had put up in peacetime —
+and Loheide talked about the beet harvest until the
+cars came round, because he had already said what he
+had sent for them to hear.
 
 They drove back west into a low red evening, twenty
 kilometers of it in silence, past a crossroads where

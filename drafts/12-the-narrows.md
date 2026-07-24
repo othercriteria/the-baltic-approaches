@@ -281,6 +281,11 @@ civil-clearance question off the operations desk at
 0937 and answered it himself, in the figures as
 filed, with the observation that the evening return
 would arrive at the evening hour, as returns did.
+And at 1400, mid-battle, the daily test call to the
+alternate headquarters site in the woods at Hohn
+went out, was answered, and was logged, because it
+went out every day at 1400 and the worst day of the
+war was not an exemption.
 
 The call itself Holt heard from the second handset, by
 Hvidt's standing order: two ears on every political

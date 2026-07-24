@@ -14,7 +14,7 @@ of both sides falling silent out of an economy that had
 stopped being strategy and become simple poverty. In
 distant capitals, in rooms with different folders, the
 great question of the age was asked and answered
-quietly, and what arrived at Rendsburg was the answer's
+quietly, and what arrived at the corps was the answer's
 shadow: a cease-fire in place, theater-wide, effective
 062400 December, its coordinate columns running down the
 teleprinters for an hour like the war's own final
@@ -82,7 +82,7 @@ had erred by fourteen hours. The sea's schedule by four
 days. The tonnage estimates by margins that made Lammers
 wince at his own arithmetic. The crest had been real,
 and its hinges had turned on a folder in a beech wood
-that no instrument in Rendsburg had known existed. The
+that no instrument in the headquarters had known existed. The
 error ledger went into the assessment as an annex, by
 name and date and initial — F-series, the staff called
 the entries, failures, numbered — and three of the

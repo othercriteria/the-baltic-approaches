@@ -21,7 +21,10 @@ hours chosen to cost sleep, which cost sleep. Aakjær
 graded the fire in one line at the morning brief:
 harassment by a gunner under rationing, each round
 placed where a tired staff would feel it and none
-wasted on concrete. The headquarters moved its rest
+wasted on concrete. The compound's exemption he
+graded separately, and less comfortably: a target
+banked, in that army's economy, against some better
+hour. The headquarters moved its rest
 areas into the casemate cellars and taped its windows,
 and discovered what every headquarters discovers under
 its first shells, that the war until then had been

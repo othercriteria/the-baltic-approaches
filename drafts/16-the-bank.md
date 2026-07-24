@@ -189,7 +189,8 @@ twenty-fifth, in writing, six hours, both times on the
 order. "The wall says sleep is ammunition. You wrote
 the wall. Comply with it."
 
-The billet was a cot in the casemate annex. On the
+The billet was a cot in the rest hut behind the
+signals vans. On the
 blanket, when he woke at 1900, lay a message slip in
 the duty officer's hand: MRS HOLT TELEPHONED 1640.
 NO OPERATIONAL CONTENT. MESSAGE FOLLOWS: TRANSPORTERS

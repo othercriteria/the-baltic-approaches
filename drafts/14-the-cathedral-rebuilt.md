@@ -1,5 +1,39 @@
 # 14 — The Cathedral, Rebuilt
 
+The headquarters moved on the fourteenth night.
+
+The decision was Hvidt's, taken in four minutes on the
+evidence of the harassment log and Aakjær's grading of
+the exemption: the enemy held the address and was
+saving it, and the corps declined to remain on
+deposit. The site had existed since the first week,
+dispersed huts and cable runs under the trees at Hohn,
+wired, netted, its circuits tested every day at 1400
+by a signals cell nobody had once thanked. The move
+ran as the corps now ran everything, in echelon, by
+serials, with both times on every line of the table:
+the rear headquarters took the corps' traffic at 2200;
+the trunk came down; the road move ran in blackout
+convoy while the night's harassment fell, as it
+happened, on the empty rail yard; and the operations
+room was answering at Hohn by 0340. Five hours and
+forty minutes for the tear-down, the twelve
+kilometers, and the re-homing of every circuit the
+corps owned, during which the war was commanded from
+the rear headquarters' cellar and four radio nets,
+and did not notice.
+
+The wall went in a signals van, as a document: every
+sheet photographed twice before it left the cork,
+numbered, crated in its wall order, Roloff initialing
+the manifests. At Hohn the night shift re-pinned it
+on new plywood in its exact old geography, working
+from the photographs, so that the duty officer coming
+on at 0600 found every number where his hands knew it
+lived. The sentence from Eckernförde got its test
+that night: the wall was plywood, and the plywood
+stayed at Rendsburg, and the wall arrived entire.
+
 Aakjær called the fifteenth morning's conference himself,
 which was backwards — the G-2 briefed at conferences; he
 did not convene them — and he came into the room carrying

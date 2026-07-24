@@ -120,12 +120,28 @@ the ordered service, the circle on the map — and then
 watched the theater commander do the thing Hvidt had
 been doing for three weeks: convert every claim at the
 table into days-of-his-preparation, testing the rate of
-exchange aloud. A sunken landing ship: days, and how
-many, and by whose count. A struck rail junction: days.
-A reassured government: days, in released battalions.
-The maritime desk objected once, on hulls; the
-commander converted the hulls to days and the objection
-became support. Days, everyone could weigh.
+exchange aloud.
+
+"The navy's landing ship, sunk at its mooring. Convert
+it for me."
+
+"Directly, none, Herr General," Holt said. "The lift is
+already assessed unexecutable in the remaining window —
+sinking it buys no days. What buys days is the quay it
+is moored to. The ship is the address; the machinery is
+the target. Days: two to four per transshipment point,
+by the G-4's model, carried on the corps' wall with its
+assumptions showing."
+
+"And the reassured government? Convert that."
+
+"Released battalions, Herr General. The beach-watch
+unpinned — that one converts at brigade scale, and it
+is the only bid at this table that converts into men."
+
+The maritime desk objected once, on hulls and honor;
+the commander converted the hulls to days and the
+objection became support. Days, everyone could weigh.
 
 The allocation came back at 1130: theater strike weight
 committed for seventy-two hours against the embarkation

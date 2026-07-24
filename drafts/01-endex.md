@@ -33,9 +33,9 @@ rhythm of men who had wound cable in the rain before; somebody's
 loudspeaker, left live on the exercise net, transmitted the
 particular silence of forty headquarters simultaneously
 stopping. In the gallery the division liaison officers were
-packing their map boards — the one from Neumünster stacking his
-acetates squarely, the one from the Danish division rolling his,
-which said something about the two armies that Holt had decided,
+packing their map boards. The one from Neumünster stacked his
+acetates squarely; the one from the Danish division rolled his.
+It said something about the two armies that Holt had decided,
 over a year of watching, was not worth saying aloud.
 
 Holt had watched the same undressing at the end of every
@@ -254,9 +254,9 @@ little more of the remainder.
 
 "Herr Oberstløjtnant Holt," Rahn said, in English, without
 turning around. The courtesy of the language went in both
-directions — the old man declining to make the Dane work in
-German, the Dane declining to notice the declining — and neither
-of them had ever named it, in sixteen years. "They have hung the
+directions: the old man declining to make the Dane work in
+German, the Dane declining to notice the declining. Neither of
+them had ever named it, in sixteen years. "They have hung the
 1978 exercise beside the 1974. Both frames the same size. That
 is either modesty or a warning, and the mess officer will not
 know which."

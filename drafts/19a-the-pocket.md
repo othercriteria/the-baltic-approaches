@@ -191,7 +191,10 @@ closed out to the minute; the crater plan the elderly
 Oberstleutnant of reserves had maintained since the
 evacuation — against, he later noted, no requirement
 anyone had issued him — cost the breakout's second
-regiment its wheeled echelon before noon.
+regiment its wheeled echelon before noon, and
+carried both times on every charge, because by the
+war's fourth week the old administrator knew no
+other way to keep a document.
 
 And Loheide's battalions turned around. It was the
 morning's ugliest arithmetic and the war diary carries

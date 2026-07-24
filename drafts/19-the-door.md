@@ -10,7 +10,11 @@ refusals converting back into violence in forty minutes
 of scheduled fury — the counter-preparation on the gun
 lines, the smoke on the Schlei arm, the belts of
 interdiction on the two roads out of the Sehestedt
-bridgehead. The program's second serial was
+bridgehead. The batteries had taken to chalking the
+banked lots with the dates of the fires they had
+been refused for, and the refused dates went
+downrange all morning, one at a time, paid with
+interest. The program's second serial was
 counter-battery, entire: the hunted hour a muddy liaison
 officer had asked for on the war's second morning. It had
 never been for sale by the sortie or the shell. The corps

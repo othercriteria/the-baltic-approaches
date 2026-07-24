@@ -125,8 +125,25 @@ Yours is spent on the twenty-seventh, one way or the
 other. I hope the dumps are as full as the journal
 will say they were."
 
-He was heard by both men, and answered by neither. The
-journal received its one sentence, the commander's
+He was heard by both men, and answered by neither.
+
+For a moment afterward the two of them stood alone
+with the map. Zawadzki put his reading glasses away
+in their case, and the case in his breast pocket,
+with the deliberation of a man closing a different
+folder. "You audited it well, Stefan. Note that I
+did not ask what you would have done."
+
+"No, Comrade General."
+
+"Keep it so. One of us must be able to say he was
+never asked." He looked at the phase lines a moment
+longer — the calm procession, Day Six standing on
+ground the war now assigned to nobody. "The
+twenty-seventh, then. Go and feed my dumps their
+arithmetic."
+
+The journal received its one sentence, the commander's
 formula, paid out like a coin. The draftsmen were
 readmitted at 2300, and the map resumed being
 beautiful.
@@ -141,9 +158,18 @@ staff could feed it and stood idling, and the idling
 was unbearable in a specific way no exercise had ever
 reproduced, because at ENDEX everyone goes home and at
 0500 tomorrow twelve thousand men would execute Holt's
-arithmetic against an army. He checked the wall twice
-for work that was not there. He drank the night
-shift's coffee. And at 2240, in his small office with
+arithmetic against an army. The operations room had
+invented work to survive the evening: the duty
+officers were re-verifying call-sign lists that had
+been verified at noon; a signals corporal was
+relabeling cable runs that were correctly labeled;
+Roloff, off shift, sat at the plans desk conducting
+what he described, when asked, as a routine check of
+the overlay register, page one forward. Nobody
+ordered any of it stopped, because the alternative to
+the invented work was the wall clock. Holt checked
+the wall twice for work that was not there. He drank
+the night shift's coffee. And at 2240, in his small office with
 the door shut, he did the human thing, and telephoned
 Eckernförde, and Rahn refused him before he had spoken
 three words.

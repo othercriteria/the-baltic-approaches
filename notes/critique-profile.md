@@ -198,3 +198,24 @@ or make him the deputy who inherits the chair).
    protagonist's; the reader stays ahead through Part III.
 7. Plants: two or three left unpaid, chosen in outline.
 8. Red drafted norm-bound from the shelf, not rational-actor.
+
+## 5. Addendum from the draft-one session (52662a0d, 2026-07-24)
+
+Two live findings from drafting under this profile, DK-observed:
+
+**5.1 The attractor survives its own countermeasures.** Every
+chapter's first pass landed 25–40% under its floor DESPITE the
+drafter holding the profile, the targets, and the scene lists in
+context. Expansion passes recover ~half the gap each. Treat
+per-chapter floors as requiring a mandatory expansion pass by
+design, not as a first-pass target the model might hit.
+
+**5.2 Expansion-pass prose is MORE tic-dense than first-pass
+prose** (DK catch, reading draft one): the added material
+concentrates negation-definitions ("it was not X, it was Y"),
+"like a man…" similes, and em-dash asides well above the
+first-pass rate — under length pressure the model reaches for
+its signature moves hardest. Consequence for revision: the tic
+scrub should weight the expansion diffs (identifiable per
+commit), and future expansion passes should carry the tic budget
+consciously in-pass, not rely on a later sweep alone.

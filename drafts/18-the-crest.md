@@ -185,7 +185,7 @@ Kjeldsen had the last technical word, because the
 hour was being bought partly in his currency and he
 declined to let the arithmetic pass unstated. "For
 the diary, Herr General. Civil twilight begins at
-0742. H-hour 0500 is a dark attack: the guns own it,
+0733. H-hour 0500 is a dark attack: the guns own it,
 and the two all-weather squadrons the theater has
 lent us fly the first serials against his gun
 groupings by radar, in the dark, which is the work
@@ -195,7 +195,7 @@ gray. If the assault runs to its tables, the lead
 brigades stand at the Danevirke crossing as the
 light arrives, and the second wave arrives with it —
 the seam between the dark work and the day work
-crosses the battlefield at about 0745, and the plan
+crosses the battlefield at about 0740, and the plan
 has put the door's hinge directly under the seam.
 One more line for the diary, at my desk's insistence.
 The front that blinded the maximum program on the

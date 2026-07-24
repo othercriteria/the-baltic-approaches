@@ -29,6 +29,8 @@ TITLE = The Mission
 OUTPUT_DIR = build
 DRAFT_DIR = drafts
 SOURCES = $(sort $(wildcard $(DRAFT_DIR)/*.md))
+# Front matter: apparatus, not narrative — in the PDF, never in wordcount
+FRONT_MATTER = $(wildcard apparatus/front-matter.md)
 DRAFT_STAMP = Draft one · $(shell date +%Y-%m-%d) · $(shell git rev-parse --short HEAD)
 
 PANDOC_OPTS = --from=markdown --standalone
@@ -49,7 +51,7 @@ $(OUTPUT_DIR):
 
 # Reading PDF: drafts/ in filename order (01..19, 19a, 20)
 pdf: $(OUTPUT_DIR)
-	@pandoc $(SOURCES) $(PDF_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-mission.pdf
+	@pandoc $(FRONT_MATTER) $(SOURCES) $(PDF_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-mission.pdf
 	@pdfinfo $(OUTPUT_DIR)/the-mission.pdf 2>/dev/null | grep Pages || true
 	@echo "Created $(OUTPUT_DIR)/the-mission.pdf"
 

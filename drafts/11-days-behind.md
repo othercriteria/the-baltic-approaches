@@ -72,17 +72,19 @@ everywhere."
 Nothing more was ever heard of the note. The war did not
 pause to explain which of its letters mattered.
 
-Rylski's annex, in the file, looked like Roloff's wall made
-tidy — the same discipline, the same two columns, ruled and
-squared, reconciled to the day. It was tidier than the
-wall at Rendsburg would ever be, and the tidiness was the
-flaw, though no one in either headquarters would ever hold
-both documents in his hands: the wall's entries were
-ragged because they were checked against events by men
-free to say so, and the annex's columns were clean because
-even Rylski's honesty drew its figures from returns whose
-every author had rounded toward hope. One wall confessed.
-The other wall balanced.
+Rylski's annex went into the courier bag that night, ruled
+and squared, its two columns reconciled to the day, without
+one crossing-out, because a Front's chief of staff does not
+send theater staff a document with crossings-out. He had
+built it alone. The regulation forbidding lateral
+consultation between the armies had its uses after all: no
+army commander had seen the annex to soften it. He was the
+only man in the Front entitled to assemble its whole
+arithmetic, and he had assembled it, and it balanced, and
+he sat for a moment after the bag closed with the
+unaccountable sensation of having balanced it out of
+figures that had each, individually, been reported by an
+officer who wanted to live.
 
 ---
 
@@ -100,6 +102,27 @@ and the assembling had the feel of a dark photograph
 coming up in a developing bath: the mass, at last, the
 five-to-seven-division enemy the plan had been written
 against, marshaling east of the Trave.
+
+"Grade it for me," Hvidt said, when the board was
+assembled.
+
+"Army-scale, marshaling, seventy-two hours from commitment
+at the earliest," Aakjær said. "The rail tonnage alone
+rules out anything smaller. As of this morning the enemy
+in front of us is the enemy the plan was written against.
+Eleven days late, and here."
+
+"And the assessment of intent?"
+
+"Doctrinal, Herr General. The second operational echelon
+commits to widen the battle — a new axis or a broadened
+one, weight where we are thinnest. The indicators are
+consistent with it."
+
+"Consistent with," Hvidt repeated, in the tone he kept for
+prepositions doing heavy work, and let it go, because the
+board was thick with real tonnage and the morning was
+short.
 
 The staff looked at the confirmed nightmare, and the
 staff — Holt watched it happen, was part of it happening —

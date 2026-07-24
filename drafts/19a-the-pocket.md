@@ -43,6 +43,55 @@ through the seam at Friedrichsberg.
 
 ---
 
+The corps learned of it from the bottom, at once, in
+plain grammar. The hinge company's CONTACT, ARMOR,
+BATTALION PLUS came up the net at 0343 and stood on
+the log for four minutes as an isolated fact, and at
+0347 the night duty officer — a Danish captain of
+artillery whom three weeks of the wall had taught to
+read a report against the map before filing it — laid
+the grid reference on the overlay, saw a battalion
+and more of armor pointed at a company and a half of
+frontage with a thinned line behind it, and woke the
+headquarters over his own authority: duty field
+officer, chief of staff, and the G-3's billet
+directly, in that order, ahead of the standing
+sequence. Asked in the morning's record to justify
+the departure, he did, in one line: THE STANDING
+SEQUENCE WAS WRITTEN FOR A WAR ASSESSED AS OVER.
+
+Holt was at the plexiglass by 0356, jacket over the
+sweater he had slept in, and the first minute of his
+morning has its own entry in the operations journal,
+because the clerk logged what he saw: the G-3
+touched nothing, moved nothing, and stood in front
+of the two sheets — the assessment and the re-pinned
+silence — reading them in the changed light. Then he
+went to work with the receiver in one hand and the
+readjustment order's distribution list in the other,
+because the order was twenty hours old and
+executing, and everything it had sent away had to be
+called home through the same machinery that had sent
+it. Warning orders to the rearward marches at 0401:
+halt in place, await tasking. The Territorial
+district net brought up at 0404. Loheide's
+headquarters on the line at 0406, the fact already
+in its teeth. And at 0409 Vestergaard's first
+report from the waist, pressure across the whole
+southern arc, battalion scale and building, timed —
+nobody on the net needed it said — to the breakout's
+own clock.
+
+Hvidt came in at 0412, listened for ninety seconds
+with his hands flat on the map rail, and issued the
+morning's architecture in three sentences. "The
+breakout gets no reserve, because I have none to
+give it. It gets the ground's owners — movement
+control, the demolition belts, the district
+companies — fighting on their own paper. Turn the
+marches around, and tell Vestergaard the fence
+holds whether or not anything behind it does."
+
 It was not a counterattack, in the doctrine's grammar.
 It was an army that declined to be a closed account: the
 cut force's freshest remnant — two regiments' worth of
@@ -150,7 +199,19 @@ it without comment: men eight hours into a rearward
 march toward promised rest, halted on the road by
 movement control, countermarched, and committed at
 midday into a meeting engagement against the remnant
-of an army with nothing left to lose. They did it at
+of an army with nothing left to lose. The turning
+itself survives in the movement net's log as one
+exchange, 0454, flat at both ends. The lead
+battalion, an hour on the verge with its men asleep
+against the wheels: CONFIRM COUNTERMARCH. MY
+SOLDIERS WERE PROMISED REST IN WRITING, WITH BOTH
+TIMES ON IT. And movement control, after a
+four-minute gap the log preserves: CONFIRMED.
+COUNTERMARCH. REST: SCHEDULED 292000. ACTUAL: NOT
+YET ACHIEVED. The format had never before been used
+as an apology. The battalion was rolling south
+inside twelve minutes, and nobody who heard the
+exchange ever called it anything but correct. They did it at
 surge prices — tired men counterattacking at noon —
 and they did it, and the after-action assessment's
 sentence about it, drafted by Holt and left unedited
@@ -197,12 +258,19 @@ entered the staff's permanent vocabulary: "The fence
 held. Recommend the corps never again build one
 around anything it believes to be dead."
 
-Aakjær had taken the assessment's failure on himself at
-the 1200 conference, mid-battle, in one sentence,
-before anyone else could sort the night into blame:
-"The wall carried both readings and I initialed one;
-the enemy initialed the other." But the initials on the
-readjustment order were Holt's, and the two sets of
+The 1200 conference met standing, in an operations
+room where the teleprinters had not slackened since
+0343, and it ran eleven minutes, and the map was
+corrected twice while it ran. Aakjær took the
+assessment's failure on himself before anyone else
+could sort the night into blame, in one sentence,
+delivered to a room too busy to stop for it: "The
+wall carried both readings and I initialed one; the
+enemy initialed the other." Nobody looked up from
+the map. That was the mercy of the hour, and it was
+also the hour's ruling — the argument would have to
+wait for the file, and the file would be exact. But
+the initials on the readjustment order were Holt's, and the two sets of
 initials went into the same file, and the file became
 the F-series' sixth entry by evening, drafted by its
 own subjects, which the wall's doctrine required and no

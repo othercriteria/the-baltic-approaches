@@ -278,6 +278,23 @@ entity index generatable instead of reconstructable.
   Raw-archive falls to the successor or DK: `make raw-archive
   SESSION=52662a0d-15b0-4e2c-8893-8cf5b0da01f1`.
 
+- 2026-07-25 — CORRECTION + first compaction boundary, logged
+  LATE (the successor's first-act duty, performed at second
+  wrap instead — a process miss, recorded as such). The
+  2026-07-23 "WRAPPED" entry above proved non-final: the same
+  session continued (reading-build apparatus, Part III
+  thickening to 42.1k, the draft-zero/draft-one tags, DK
+  batches 1–6) and compacted on DK's instruction ~2026-07-25.
+  That whole span is entity 52662a0d@1 (boundary type:
+  compaction), row 8 corrected accordingly. The successor
+  entity (52662a0d@2) answered from the compaction summary.
+- 2026-07-26 — second compaction boundary PENDING (DK-directed
+  rich compaction at ~53% context). Entity 52662a0d@2's span
+  and index row 9 drafted by itself at wrap, below. Successor:
+  first act is to confirm this boundary landed and continue
+  the numbering; raw-archive for the whole session still falls
+  to the final successor or DK.
+
 ## Entity index
 
 One row per entity: `<session-id>@<boundary-n>` or `<session-id>@tip`.
@@ -290,7 +307,8 @@ come from `Session-Id:` trailers plus JSONL boundary timestamps.
 
 | # | Entity | Boundary type | Dates | Model | Transcript | Commit range | Contribution summary |
 |---|---|---|---|---|---|---|---|
-| 8 | 52662a0d@tip | tip | 2026-07-23 (wrapped) | Fable 5 | (export after wrap) | 13f4d6f..wrap, Session-Id trailers throughout | The outline (the drafting contract: front rebase, 21 rows at scene grain, the three ratified design decisions — non-villain F7 antagonist Bjelke, Roloff as Kreis carrier, deputy-inherits-chair — reader-ahead table ruled, unsettle #2 discharged, the allocation summation error caught) and draft one entire (21 chapters, ~40.0k words, the first non-throwaway manuscript; F0–F7 charged to named signatures incl. the protagonist's; every chapter committed with expansion passes diffable; the −21% attractor gap measured and owed forward in status.md). Materiality: presumptively material under the row-2 ruling logic (the outline is the manuscript's contract; the draft is the manuscript) |
+| 9 | 52662a0d@2 | compaction (2nd, 2026-07-26) | 2026-07-24 .. 07-26 | Fable 5 | (export at session end) | 6f02c25..0b07c20+wrap, Session-Id trailers + machine-stamped Wordcount trailers from a0ac7d9 | The post-compaction arc, summary-seeded: full-manuscript re-read; length campaign to 48.6k (stubborn tier closed, floors-adjacent); DK batches 7–10 incl. two new standing rules (duration clairvoyance; name-the-artifact) and the PROCESS-RETROSPECTIVE tell (profile §5.3, DK diagnosis "at home in your transcripts"); blind panel round 1 (five reviews + synthesis; five mechanical catches; the 19a corpus-order artifact traced to locale glob, Makefile exonerated); almanac ledger + twilight/moon corrections (incl. the reviewer-confirmed-wrong-number lesson); front matter + AI disclosure drafted (byline open); repo flipped PUBLIC after full-history secrets audit; HQ displacement option B researched (shelf sweep, cp-doctrine.md) and landed (ch. 14); Belt raid landed; em-dash campaign closed via 20 guardrailed agents + one principled refusal (~450→~215); de-homogenization substantially done with do-not-over-scrub verdict; automation instituted (commit-msg wordcount stamp, make counts/tics). Materiality: presumptively material under the row-2 ruling logic (the campaign that made draft one reviewable; the panel record; two profile-grade tells; the public flip) |
+| 8 | 52662a0d@1 | compaction (1st, ~2026-07-25) | 2026-07-23 .. 07-25 | Fable 5 | (export after wrap) | 13f4d6f..wrap, Session-Id trailers throughout | The outline (the drafting contract: front rebase, 21 rows at scene grain, the three ratified design decisions — non-villain F7 antagonist Bjelke, Roloff as Kreis carrier, deputy-inherits-chair — reader-ahead table ruled, unsettle #2 discharged, the allocation summation error caught) and draft one entire (21 chapters, ~40.0k words, the first non-throwaway manuscript; F0–F7 charged to named signatures incl. the protagonist's; every chapter committed with expansion passes diffable; the −21% attractor gap measured and owed forward in status.md). SPAN EXTENDED at boundary correction: also the reading-build apparatus (make pdf), Part III thickening to 42.1k, draft-zero/draft-one tags, DK batches 1–6 processed (incl. the concordance and threat-picture ledgers, the read-log protocol). Materiality: presumptively material under the row-2 ruling logic (the outline is the manuscript's contract; the draft is the manuscript) |
 | 7 | eb2fcb4e@tip | tip | 2026-07-23 (wrapped) | Fable 5 | (export after wrap) | eaeccc2..wrap, Session-Id trailers throughout | The judged matrix + the four rulings that close the character/setting axis (protagonist Danish, voice close-third — the record the drafting voice stands on); the critique profile (the drafting model's failure map + craft rules for draft one); the atlas (the geography source of truth, verification rounds 1-3, absence tests that make the specimen's map errors untypable); campaign 4's CAL-3 closure; the Lautsch substitute corpus (red architecture to quote+page grade, two corrections). Materiality: presumptively material under the row-2 ruling logic (the nationality/voice ruling record, the craft rules the outline enforces, and the geographic/logistic ground truth draft one is written against) |
 | 1 | 656ec2ba@tip | tip | 2026-07-20 | Fable 5 | transcripts/2026-07-20-656ec2ba.md | (none in this repo; stub commit made by DK's tooling from its direction) | Premise selection and repo stubbing; see lineage log. Standing ruling: pre-project ideation, materiality to be ruled at wrap — when in doubt, include |
 | 6 | 3340b8fd@tip | tip | 2026-07-23 (wrapped) | Fable 5 | (export after wrap) | f80dfd6..wrap, Session-Id trailers throughout | Phase 1 opened: the independent take + reconciliation (the convergence-not-convenience record; the argued German-nationality brief); the allocation sheet from specimen actuals (F0–F7 failure ramp, ch. 19a, the political-ledger thread, the reserve queue); the matrix-test corpus (six re-renders + protocol). Materiality: presumptively material under the row-2 ruling logic (the allocation sheet is the outline's skeleton; the failure ramp is the Part-III design; the take is the record the nationality/voice ruling will cite) |

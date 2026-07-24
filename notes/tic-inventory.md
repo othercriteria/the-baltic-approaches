@@ -16,6 +16,50 @@ ratified outline §8 + panel prescriptions.*
 | Walk-on epigrams | every walk-on | let 2–3 walk-ons be inarticulate | The de-homogenization campaign's core; not grep-able — per-scene judgment. One converted (ch. 15 Zealand CO) |
 | Process retrospective (NEW, DK 2026-07-26) | 4 found; 2 cut (chs. 8, 19a), 2 earned/watched (ch. 9 standing, ch. 12 afternoon) | zero unearned | Structural, not lexical — practice narrated with its own aggregate vindication; the model's work-summary register in narration. Full definition: critique-profile §5.3. Partial grep: "never again\|ever called\|never afterward\|each .* best" |
 
+## De-homogenization status (deep-context verdict, 2026-07-26)
+
+Recorded so the successor does not over-scrub:
+- **Lammers**: two fixes done ("an army is its supply" → the
+  engineer's list, ch. 13; "learned to worship" → subordination
+  language, ch. 8). His remaining speeches read blunt/concrete on
+  review — differentiation from Kjeldsen substantially achieved.
+- **Kjeldsen**: already well-differentiated (the
+  restate-in-my-units habit IS his voice); no fixes needed. His
+  "fish market with one boat" and the October-callback stay.
+- **Hvidt**: worst Rahn-register instance fixed (ch. 16 "only the
+  date" → intending-register). Ch. 14's "I know which war I
+  prefer to lose" RULED KEEP — decision-framed, not oracular.
+  Chs. 17–18 lines reviewed in context: his register.
+- **Walk-ons**: quota effectively satisfied — one converted (ch.
+  15 Zealand CO → "Let them have the boat ride"); the remaining
+  epigram walk-ons (Kolding banker, bridge/brigade pair, movement
+  colonel's bottle) are DK-endorsed keeps; ch. 19a supply
+  lieutenant and hinge company were format-bound (inarticulate)
+  by design from the start.
+- Remaining voice risk per the panel: Aakjær/Rahn adjacency (both
+  ironic teachers) — untreated, arguably a feature (student and
+  master); flag for DK rather than fix.
+
+## Polish list (em-dash waves' least-sure lines, reviewed and
+queued — none urgent, all for the eventual full line pass)
+
+- ch. 06: "Time. But not time in the abstract" — the cut dash was
+  the chapter's most earned; consider restoring (budget 10→11).
+- ch. 09: "Hvidt's question, who owns this number, went up" —
+  flattened; italic or restructure.
+- ch. 09: "fed, the prisoner interrogations would establish it
+  weeks later, from dumps" — comma-aside in comma-heavy sentence.
+- ch. 11: "choosing, visibly, almost ceremonially choosing" —
+  ceremonial pause softened.
+- ch. 13: "born in 1901, a man who had been" appositive; and the
+  arrival sentence break (sentry beat) — rhythm checks.
+- ch. 17: Zawadzki "operation was approved, I sat in the room, on
+  the argument" — light splice at the folder scene's heart.
+- ch. 20: "supplied them, exact, sourced, against his own
+  reconciliations" — "sourced against" misreading risk.
+- ch. 19a: "evacuation against, he later noted, no requirement"
+  — tangle from crater-plan conversion.
+
 Campaign order (approved shape: voice/tic first so future review
 rounds see past it):
 1. Em-dash pass, worst chapters first (09, 19, 19a, 15, 08, 18) —

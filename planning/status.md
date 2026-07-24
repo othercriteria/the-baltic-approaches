@@ -450,6 +450,38 @@ should attack before drafting:
 6. ~~Unsettle-review #1 above, early and cheap.~~ Done 2026-07-21;
    awaiting DK ruling (see the unsettling's entry above).
 
+**2026-07-26 WRAP (session 52662a0d, second compaction pending;
+measured state, machine-stamped):** narrative 48,600 (−2,150 to
+plan; hook `scripts/commit-msg` now stamps every drafts commit).
+DONE this arc: blind panel round 1 + synthesis + five mechanical
+catches; almanac ledger (notes/almanac-1983.md — twilight/moon
+corrected in text); front matter drafted (BYLINE DECISION OPEN,
+three options in apparatus/front-matter.md); repo PUBLIC
+(verified; holdings 404s anonymously); HQ displacement option B
+LANDED (ch. 14 opening + plants/ripple; concordance row 13;
+reference/cp-doctrine.md fetched tier — HDv 100/100 still DK
+browser/purchase tier); Belt raid landed (ch. 15, row 9 closed);
+tide idiom recast; em-dash campaign CLOSED (all chapters 9–13,
+~450→~215; ch. 01 principled exemption at 13); negation census
+clean (3 thesis keepers); de-homogenization SUBSTANTIALLY DONE —
+verdict + polish list in notes/tic-inventory.md (do not
+over-scrub; Aakjær/Rahn adjacency flagged to DK, not fixed); NEW
+TELL profiled: process retrospective (critique-profile §5.3 — the
+model's work-summary register in narration; 2 cut, 2 watched).
+DK read-log through batch 10; finding rate drying (system working
+as intended). NEXT: (1) funded adds against remaining −2,150 —
+Merete letter quoted (ch. 7), homecoming +2 beats (ch. 20),
+Rylski middle beat (11↔17), Vestergaard seed (ch. 3); paired
+CUTS: 14–16 re-derivation ~1/3, 2–3 overlap ~1/4, 9/15 market
+duplication (blind-reads/00-synthesis §4); (2) open DK design
+questions: canal night, fault-line corridor scene,
+emotional-ledger (one uncashable loss?), Rahn early wrongness,
+Bjelke/Kuragin roughening, CENTAG plant (synthesis §5); (3)
+line pass over the polish list; (4) next blind panel reads the
+PDF (not markdown corpus — glob-order lesson), front matter in
+scope. Successor owes: raw-archive for 3340b8fd (standing) and
+for this session at its end.
+
 **2026-07-25 rulings + state (session 52662a0d):** blind-panel
 round 1 complete (notes/blind-reads/); DK ruled: voice/tic
 campaign GO (surgical tranche done — superlatives/heat-click/

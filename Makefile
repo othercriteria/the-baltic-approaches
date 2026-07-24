@@ -22,7 +22,48 @@ FOUNDING_ID = 656ec2ba-b295-4e5d-8712-5e270300dcde
 FOUNDING_DIR = $(HOME)/.claude/projects/-home-dlk-workspace
 OWN_DIR = $(HOME)/.claude/projects/-home-dlk-workspace-the-mission-1986
 
-.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas
+# --- Manuscript build (reading apparatus; the production assembly
+# --- arrives later, WB assemble.py-style, when there is art/apparatus
+# --- to inject)
+TITLE = The Mission
+OUTPUT_DIR = build
+DRAFT_DIR = drafts
+SOURCES = $(sort $(wildcard $(DRAFT_DIR)/*.md))
+DRAFT_STAMP = Draft one · $(shell date +%Y-%m-%d) · $(shell git rev-parse --short HEAD)
+
+PANDOC_OPTS = --from=markdown --standalone
+PDF_OPTS = $(PANDOC_OPTS) --pdf-engine=xelatex \
+           --top-level-division=chapter \
+           -V documentclass=book -V classoption=oneside \
+           -V geometry:paperwidth=5.5in -V geometry:paperheight=8.5in \
+           -V geometry:margin=0.75in -V fontsize=11pt \
+           -V mainfont="TeX Gyre Pagella"
+METADATA = --metadata title="$(TITLE)" \
+           --metadata author="Daniel Klein" \
+           --metadata date="$(DRAFT_STAMP)"
+
+.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas pdf manuscript wordcount clean
+
+$(OUTPUT_DIR):
+	@mkdir -p $(OUTPUT_DIR)
+
+# Reading PDF: drafts/ in filename order (01..19, 19a, 20)
+pdf: $(OUTPUT_DIR)
+	@pandoc $(SOURCES) $(PDF_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-mission.pdf
+	@pdfinfo $(OUTPUT_DIR)/the-mission.pdf 2>/dev/null | grep Pages || true
+	@echo "Created $(OUTPUT_DIR)/the-mission.pdf"
+
+manuscript: $(OUTPUT_DIR)
+	@pandoc $(SOURCES) $(PANDOC_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-mission.md
+	@echo "Created $(OUTPUT_DIR)/the-mission.md"
+
+# Narrative-only count (DK ruling 2026-07-23: apparatus excluded)
+wordcount:
+	@wc -w $(SOURCES)
+	@wc -w $(SOURCES) | tail -1 | awk '{printf "Narrative total: %s words (plan 50.5k, ceiling 54.2k)\n", $$1}'
+
+clean:
+	@rm -rf $(OUTPUT_DIR)
 
 # One-time per clone: install the pre-commit guard (blocks document
 # binaries and flattened holdings/ paths from the public repo)

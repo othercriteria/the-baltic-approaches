@@ -16,6 +16,23 @@ in his own trade's units — sorties per day, days of
 effort — the way he always restated things before he
 would argue about them.
 
+The restating was not a mannerism. It was how Kjeldsen
+audited. "The land battle's bid, in my units: forty
+sorties a day against tonnage, for a week. The navy's
+bid: thirty a day against the fleet, this week, while
+the photographs still show it concentrated. Zealand's
+bid is not sorties at all — it is the brigades
+themselves, held on the beaches by the fleet's
+existence, which makes it the most expensive bid at the
+market and the only one nobody argues, because it is
+paid in a currency the market never sees." He worked
+the grease pencil through the arithmetic a third time.
+"Three customers. The market divides by thirds and
+everyone starves politely. There is something wrong
+with the shape of it, Niels, and I have been an airman
+too long to see what, so tell me again what the enemy
+must accumulate, slowly, as if I were a general."
+
 At three in the morning he stopped restating and sat
 still.
 
@@ -132,6 +149,22 @@ The seventy-two hours were somebody else's battle, and
 the corps kept its ledger honestly: not claims —
 observables.
 
+Holt set the ledger's rule at the first evening brief:
+observables, not claims. The distinction earned its
+keep within a day. A squadron's post-strike report
+claimed the Warnemünde transshipment cranes destroyed;
+the ops cell logged CLAIMED, and the next clear-weather
+photography showed two cranes down and one working,
+and the sheet was amended without embarrassment
+because CLAIMED had never pretended to be more. "We
+spent three weeks learning it about ourselves," Holt
+told the cell's night officer, who had asked why the
+theater's own assessments were not good enough to
+post. "A claim is a hope with a format. Post what was
+seen, by whom, in what light. If the war has taught
+this staff one clerical habit worth exporting, it is
+the difference between those two documents."
+
 Squadron strikes through breaking weather; the navy's
 fast boats and mines into the approaches by night;
 losses over the Bight and the Belts that arrived only
@@ -157,6 +190,17 @@ the bathwater doctrine, the whole shelf of an island's
 patience — and what he said, leaving, was: "The
 tradecraft stands. Tell the ferries to be punctual,"
 and was gone before anyone could examine his face.
+
+Lammers ran the westward movement like a man dealt
+aces he had earned, and ran it personally, which he did
+not need to do and did not explain. The explanation was
+in the October minute: the requisition's two lost days
+were his price made flesh, and he attended the
+consequence the way an engineer attends a bridge built
+over his own objection — determined that if it failed,
+it would fail with him standing on it. It did not fail.
+It ran two hours behind an honest schedule and he
+recovered one of them at the berths.
 
 The dividend crossed the Great Belt beginning on the
 twenty-fourth, and it crossed by ferry, because there

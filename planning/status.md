@@ -50,7 +50,17 @@ chapter's first pass landed 25–40% under its floor; one-two
 expansion passes per chapter (each committed separately,
 diffable) recovered Part I to −5..−15%, less for Part III as
 the session prioritized completing the skeleton. Thinnest
-rows vs. target: 19a, 18, 16, 14, 15. NEXT SESSION: (1) DK
+rows vs. target: 19a, 18, 16, 14, 15. UPDATE 2026-07-24 (same
+session): reading-build apparatus added (`make pdf` →
+build/the-mission.pdf, 5.5×8.5in reading grade — deliberately
+NOT the WB production bar, per DK; `make wordcount`); Part III
+thickened on DK direction ahead of his read — all seven rows
+expanded (staged concession fight, the school defense in the
+supply lieutenant's own format, ch. 19's tuition itemized,
+Bjelke's concession-method in the audit fight); narrative total
+now **42.1k** (−17% of plan; Part III −17%, was −31%). DK is
+reading; he reports the ~40k draft "promising, although
+challenges that weren't there at ~30k." NEXT: (1) DK
 reads draft one and NAMES thinness specifically (process
 rule: the human diagnoses; the deficits are arithmetic, not
 diagnosis); (2) the thickening campaign — row-by-row against

@@ -53,6 +53,24 @@ says what an hour is worth, Niels. He has the page. That is
 the rest of the arithmetic, and I would trade the whole annex
 for one look at it."
 
+"Or there is no page," Holt said, "and the crossings are
+simply his doctrine performing itself. The manuals say
+opposed river crossings are conducted with violence and
+accepted losses. He wrote the manuals. Perhaps we are reading
+bookkeeping into obedience."
+
+"Perhaps." Aakjær gathered the summaries. "But obedience is
+cheap everywhere, and last night it was only expensive in two
+places. He waded the Trave in ranks at the crossings that
+feed the Segeberg road, and at the three other sites where
+his doctrine also entitled him to be violent, he sat down and
+waited for bridging. A man obeying a manual is loud
+everywhere. A man reading a page is loud exactly where the
+page says loud pays." He was at the door before the last
+sentence, which arrived over his shoulder. "Find me a corps
+that spends like that by reflex, Niels, and I will retire and
+keep bees."
+
 ---
 
 The corps traded its second belt of ground that morning

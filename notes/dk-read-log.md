@@ -144,6 +144,20 @@ tag text. This file is append-only in practice.*
   the book's real calendar — sweep for accidental clairvoyance
   in durations, not just outcomes]
 
+- 2026-07-26, batch 8 (ch. 6): "Questions of Kjeldsen's kind get
+  Aakjær's answer, once, and then silence" — good; one of the
+  places the book can spell things out, lending 'tell' its
+  honest support against the show-don't-tell default. DK wavered
+  on breaking up the containing paragraph, came down weakly on
+  leaving it as-is; noted the risk that Hvidt is speechifying
+  there, but "the structure is conveying that honestly rather
+  than fabricating it around his words." [CALIBRATION — CLOSED,
+  no change. Two rules worth keeping: (a) the locked-door hour's
+  set-speech register is licensed BECAUSE the scene is convened
+  as a formal hour — structure may honestly carry oratory the
+  narrator could not; (b) the tell-license is scarce — spend it
+  at decision points like this one, not habitually]
+
 - 2026-07-25, process (numbering): DK asked whether to rectify
   19/19a numbering now or at assembly. Recommended and adopted:
   assembly time — the frozen-tag feedback protocol and all record

@@ -18,10 +18,13 @@ the row-expansion raw material; the specimen stays non-canonical.
 Draft one is a FRESH DRAFT from this outline, not an edit of the
 specimen (eb2fcb4e's path recommendation, adopted).*
 
-**Status: DRAFT — becomes the drafting contract when DK ratifies.
-The decisions in §1 are this session's, delegated by DK
-(allocation-sheet §5 Q3 explicitly; the rest by the campaign
-brief); each is argued, none is silent.**
+**Status: RATIFIED (DK, in-session, 2026-07-23) — §1 decisions
+(1)(2)(3) ratified by name; draft one authorized "according to
+plan." The §5 arithmetic correction is adopted under that
+authorization (flagged; DK may strike): rows 9, 12, 15, 19, 19a
+draft at +0.25k over their printed targets → 50.5k planned,
+reserve ceiling ~54.2k. This file is now the drafting
+contract.**
 
 ## 1. Decisions made in this outline (delegated; argued here)
 

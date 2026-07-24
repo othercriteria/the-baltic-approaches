@@ -252,6 +252,15 @@ entity index generatable instead of reconstructable.
   §4 craft rules, reader-ahead audit table, atlas front-trace
   maps, red-room texture bank); allocation-sheet §5 Q3 (F7's
   antagonist) to be decided in the outline.
+- 2026-07-23 — outline ratification (DK, in-session to 52662a0d):
+  **outline.md §1 decisions (1)(2)(3) RATIFIED** — F7 antagonist
+  Bjelke/COMBALTAP assessments; Kreis carrier Roloff; Holt the
+  deputy who inherited the G-3 chair — and DRAFT ONE authorized
+  ("grind out the fresh draft according to plan"). The session
+  reads "according to plan" as covering outline §5's arithmetic
+  correction (+0.25k to rows 9/12/15/19/19a → 50.5k planned;
+  reserve ceiling ~54.2k); flagged in-session for DK to strike
+  if misread.
 
 ## Entity index
 

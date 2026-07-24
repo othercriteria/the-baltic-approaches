@@ -225,6 +225,18 @@ The other filed his objection in writing, which the
 order's own doctrine invited, and the war never got
 around to adjudicating it.
 
+Something else came out of that corridor, and did not
+go further. The second officer, collecting his failed
+inspection, was heard to say that it had taken a Danish
+commander three weeks to find a use for German engineers
+that Germans had not already priced. Witzel had the door
+open before the sentence ended. "Herr Oberstleutnant.
+The commander's nationality is a fact of the alliance.
+Your sentence is a fact of your file. One of the two is
+going to outlast this war." He said it in German, which
+he otherwise declined to speak on duty, and closed the
+door.
+
 The number responded on the fifteenth. Passage through the
 complex rose forty percent day over day; the staging queues
 at Schwabstedt halved; the rail bridge at Sorgbrück, which

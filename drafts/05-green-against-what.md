@@ -153,6 +153,13 @@ buys. Cost it. Both sides of it. Today."
 "I know it doesn't. That is the deficiency I am naming.
 Cost it." And he went back up to the telephone.
 
+At the fire-support desk the queue of deferred fires
+resumed. "Zu Befehl," said the desk's officer, to the door
+the commander had gone through — German, in an
+English-language headquarters, the smallest insubordination
+on issue, and the only one offered all day, and the room
+declined to have heard it.
+
 ---
 
 They built the page that afternoon at the map desk, four of

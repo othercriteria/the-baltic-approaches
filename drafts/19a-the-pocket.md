@@ -184,7 +184,14 @@ the month in the same district, and fought it better,
 because this time the question from the Reinfeld
 crossing had an answer: they were the corps' now, by
 an order Witzel had drafted in the war's second week
-when nobody was watching, and the answer showed. The
+when nobody was watching, and the answer showed. What
+the order had not changed, one of the district
+companies' after-action supplements stated anyway, in
+the space for remarks: THE COMPANY NOTES THAT IT WAS
+ASKED IN THE WAR'S FIRST HOURS FOR WHOM IT WAS DYING.
+IT RECORDS THAT IN NOVEMBER'S FOURTH WEEK THE QUESTION
+NO LONGER AROSE. NOT BECAUSE IT WAS ANSWERED. BECAUSE
+BY NOW THE DEAD ARE FROM EVERYWHERE. The
 district's two bridges went down on their charges at
 0545 and 0602, each with its movement-control log
 closed out to the minute; the crater plan the elderly

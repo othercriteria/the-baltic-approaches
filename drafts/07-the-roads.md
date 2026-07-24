@@ -266,6 +266,17 @@ a backlog that cannot clear before the roads themselves
 become — " he chose the word with administrative care — 
 "contested."
 
+"And I am required to say one thing not arithmetical, Herr
+Oberstløjtnant." The old administrator said it to the map,
+in the voice he kept for figures. "The columns that stand
+down tomorrow are German columns, deferred so that Danish
+battalions may pass. That is militarily correct and I have
+endorsed it. But it will be remembered in the district in
+exactly those words, and the district's memory of such
+words is longer than this plan. Somebody at this table
+should have to hear that once, before the order signs it
+into the files as routing."
+
 "Alternatives."
 
 "None that are better. One that is different: split the
@@ -284,7 +295,11 @@ stands. Twelve hours. Columns 231 and 232 defer. Write the
 deferral on the order itself, with the persons figure —
 not in an annex. If this headquarters is going to spend a
 day of a hundred and six lives' patience, the signature
-page will say so where the signature can see it."
+page will say so where the signature can see it. And the
+district's sentence goes in the minute too, Herr
+Oberstleutnant. In your words. If the corps is going to
+spend that kind of memory, it will not pretend it spent
+something smaller."
 
 The order went out at 1750 over Holt's signature, the
 deferral on page one, and on the sheet by the door the

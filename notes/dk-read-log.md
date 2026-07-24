@@ -203,3 +203,23 @@ tag text. This file is append-only in practice.*
   crosses an organizational boundary, the crossing is shown,
   not assumed — same family as the name-the-artifact rule
   (batch 9), one level up.
+
+## Batch 12 (2026-07-24, fault-line adoption)
+
+- **V1 REJECTED**: over the line for this book's register ("it
+  would work if this were a Phoenix Project adaptation, maybe")
+  — the command-level confrontation imports a different genre's
+  temperature. Standing calibration: the fault line speaks at
+  working level, in the book's own idioms (formats, files,
+  corridors), never as an operations-room scene.
+- **DK observation worth keeping**: the text's pervasive
+  professionalism/good nature is "maybe the not-unproblematic
+  privilege of the staff officer focus" — the HQ vantage
+  structurally filters out most of the war's social friction.
+  The adopted beats (V5/V3/V2/V6) are partial payment on that
+  debt, not its discharge; the residual is a known optics
+  artifact, kin to the panel's O'Connor charge and the
+  Programmer-SF reviewer's "instrument panels" line. Candidate
+  topic for the next blind panel's brief.
+- Session exercised the V2–V6 deferral as V3+V2+V5+V6, V4
+  dropped (rationale in fault-line-drafts.md adoption record).

@@ -1,5 +1,24 @@
 # The Danish–German fault line — drafts package (Q3a)
 
+**ADOPTION RECORD (2026-07-24, DK ruling + session choice):**
+V1 REJECTED by DK ("a bit over the line — it would work if this
+were a Phoenix Project adaptation, maybe"). DK authorized any
+combination of V2–V6, possibly all, noting the counterweight:
+"how much professionalism, good nature, and competence there is
+in the rest of the text (which is maybe the not-unproblematic
+privilege of the staff officer focus)." Session adopted
+**V3 + V2 + V5 + V6**, dropped V4 (double-serves the licence
+with V2; duplicates V5's German-language device; keeps
+Loheide's shop clean). Adoption modifications: V5's flagged
+epigram cut ("the room declined to have heard it" close); V2's
+speaker aligned to ch. 8's existing second lieutenant-colonel
+(the written-objection filer — the route-improvement officer's
+gracious withdrawal preserved), corridor-epigram close cut;
+V6's "OCTOBER" corrected to "THE WAR'S FIRST HOURS" +
+"NOVEMBER'S FOURTH WEEK" (timeline ledger). Shape as landed:
+beats on days 3, 6, 7, then silence as the corps earns its
+cohesion, then the day-23 closing supplement.
+
 *DK ruled 2026-07-24: draft broadly; the package is deliberately
 overkill; adopt a subset. Nothing here is landed. Each variant
 gives host, anchor, exact insertion text, cost, and risk. My

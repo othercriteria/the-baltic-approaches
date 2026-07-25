@@ -59,7 +59,10 @@ and WIN the south-facing battle it was built for until this
 and the corps holds the crest, so the corrected irony is both
 watertight and earned.
 
-**Reword: DK ruling pending** (options filed in the session
-record; the choice of replacement irony is a judgment call on
-canonical text, not a mechanical patch). Until ruled, the clause
-stands flagged.
+**Reword RULED 2026-07-25 (DK, in-session to e3137278): option
+(A) applied** — "out of the south, and never once been held by
+it... the war was finally asking it to prove." Line-edit item
+12.5 is thereby discharged; the clause now claims only what the
+record supports (assaults from the south; stormed 934/974/1848,
+abandoned 1864 — never held) and the closing beat is paid off by
+the narrows holding in chs. 13–19.

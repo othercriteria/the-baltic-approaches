@@ -619,7 +619,16 @@ notes/line-edit-r1.md).
    defensibility reassessment (DK's caveat, lineage log
    07-24); word-count position vs the 50–60k target (currently
    under plan — remaining adds should come from the panel/DK,
-   not padding).
+   not padding); **chapter-header style** (DK anti-friction
+   observation 2026-07-25: chs. 8/10/13/14 open on days
+   7/10/13/14 — the near-alignment reads as a plan
+   half-followed; DTG/W+n paratext REJECTED as LARP-y vs the
+   literary register; leading option: title-dominant headers
+   with the numeral demoted to TOC/running heads — decide
+   together with 19/19a, which it also softens; no text
+   changes now); **reader-facing maps + apparatus scope**
+   (planning/reader-ledger.md — the "book's own two columns"
+   question, DK 2026-07-25).
 6. DK's larger-campaign note (lineage log, byline ruling): some
    future campaign work will "undeniably cross that line" —
    context for how hard to defend byline (a) here.
@@ -658,11 +667,22 @@ notes/line-edit-r1.md).
 - ~~Raw-archive 1a9aba32, 3845eb93, fa9b03ec~~ all done by
   2026-07-23; next owed: `make raw-archive
   SESSION=3340b8fd-23b9-49f2-8ee4-1069ce6ff3ed` (successor or DK).
-- Dupuy NP&W scan into holdings when convenient (now the in-period
-  UPDATE to the held ORALFORE bench, not the missing piece).
-- Bogason paperback on arrival: the scan wishlist is in
-  landjut-front.md (Ch 15 reinforcement table, MC 70 tables, org
-  charts, minefield map, HURRICANE figures).
+- **Bogason + Dupuy NP&W ARRIVED 2026-07-25** (DK, in hand; quick
+  figure-reads/spot-checks offered, NOT extensive scanning).
+  Priority asks, highest value first, each a minutes-grade look:
+  1. Bogason BALTAP org chart(s): confirm the ch. 6 release-
+     request ladder (COMLANDJUT → COMBALTAP → Kolsås) and the
+     COMLANDJUT DA/GE rotation practice — the October
+     change-of-command premise rests on it (canonical text).
+  2. Bogason Ch 15 reinforcement table: the UKMF strength figure
+     (scrape shows 29,000/15,000/10,000 — one glance settles it).
+  3. Bogason minefield map Fig 18.4: strait-barrier architecture
+     vs. ch. 1 "minefields close straits" + ch. 15 raid geometry.
+  4. Dupuy NP&W: one advance-rate-vs-resistance table read
+     against reference/advance-rates.md CAL-A brackets.
+  5. Bogason HURRICANE Figs 18.6–18.7 (air C2 vs. ch. 9's market
+     liturgy) — only if the mood strikes.
+  Full scan wishlist stands in landjut-front.md for a later day.
 - ~~The RUSSWO/AWS ceiling-visibility table~~ DISCHARGED
   2026-07-25 (AD-A118450 — november-climate.md §1; only the
   optional parent Schleswig RUSSWO standalone remains, wanted for

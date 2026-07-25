@@ -213,8 +213,9 @@ outranks them, which is this file's whole program.
 
 ## 8. Verification queue (round 4+)
 
-1. Danish military/DSB beredskab ferry-capacity planning —
-   print/archive tier only; the last transport number wanted.
+1. ~~Danish military/DSB beredskab ferry-capacity planning~~ WORKED
+   TO OPEN-SOURCE FLOOR 2026-07-25 — mechanism sourced, figure still
+   print/archive tier; see §9 for findings + DK pursuit list.
 2. OCR debt flagged by the shelf pass: cia-1984-nordic-forces,
    nie-11-14-79/81/85, ni-iim-83-10002 have NO text layer.
 3. Eider secondary crossings + Kiel Canal small-ferry inventory
@@ -279,3 +280,56 @@ What the two rounds + the v21 audit hand the Phase-1 outline:
 - https://de.wikipedia.org/wiki/Chronik_der_Streckenelektrifizierung_der_Deutschen_Reichsbahn_im_Gebiet_der_DDR
 - https://dewiki.de/Lexikon/Bundesstraße_208
 - https://de.wikipedia.org/wiki/Innerdeutsche_Grenze
+
+## 9. Belt-ferry beredskab hunt (2026-07-25, Opus verify pass)
+
+Queue item §8.1 worked to its open-source floor. **The discrete
+military capacity figure (battalions/day, lane-m under military
+control) remains UNFOUND — confirmed negative at open tier.** But
+the requisition mechanism itself is now sourced and quotable:
+
+- **DSB "Beredskabsinstruks," in force from Aug 1976** (classified
+  Til Tjenestebrug; replaced station instructions of Dec 1962 /
+  1 Sep 1970): governs DSB conduct at "forøgelse af fredsstyrken"
+  (mobilization) — "materiel, færger, tog, perroner og andet skal
+  prioriteres med forrang for indkaldt personel til forsvarets
+  enheder" (ferries NAMED among assets prioritized for mobilization
+  movement); point 2.6 covers denial/destruction. Source: Jensen &
+  Hansen, "Kold krig på skinner — DSB og dansk infrastruktur i en
+  østtysk optik," Jernbanehistorie 2019 (free PDF:
+  https://tidsskrift.dk/jernbanehistorie/article/download/119240/167048/247380),
+  citing the instruction's own p. 1-1. Wider legal umbrella:
+  kongelig forholdsordre 6 Mar 1952; wartime fuldmagtslov
+  requisition provisions.
+- **Work-of-record identified:** Riis-Knudsen, "Totalforsvar på
+  skinner — DSB's rolle i totalforsvaret af Danmark under den
+  kolde krig" (SDU speciale 2013; article version at
+  https://tidsskrift.dk/jernbanehistorie/article/view/26887) —
+  the highest-probability holder of an actual capacity/timeline
+  figure in print.
+- **One quantified lift equivalence, WP-SIDE ONLY:** exercise
+  Val-74 assumed four Danish ferries move an armored division to
+  Holland (DIIS vol. 2 p. 604; ferry harbors as targets p. 619).
+  Enemy planning arithmetic, not the Halsskov run — coarse
+  triangulation only (~4 ferries ≈ 1 armd div).
+- Ferries/harbors were registered nøglepunkter (FE key-point
+  section); rail guarded by Jernbanehjemmeværnet. The
+  ferries-as-minelayers legend: investigated, NOT documentable
+  (Hillingsø/Nørby/Wismann consulted by the article's authors).
+- Scale comparandum, red side: GDR prepared 400–448 trains + 7
+  highways; ~60 trains per division (Hillingsø in Hedegaard 2008
+  p. 88).
+- Direction note: reachable sources foreground Jutland→south and
+  Esbjerg→east flows; the manuscript's Zealand→Jutland lift is
+  separately corroborated (CIA-1989 Jutland Brigade earmark, on
+  shelf) and the Beredskabsinstruks mechanism is
+  direction-agnostic — ch. 2's requisition premise stands.
+
+**DK pursuit list (print/archive):** (1) Riis-Knudsen full text
+(SDU repository); (2) the Beredskabsinstruks 1976 itself —
+Rigsarkivet DSB fonds and/or Danmarks Jernbanemuseum; (3) DIIS
+vol. 2 direct page-pull (pp. 604, 619) + vol. 3 pp. 556–558,
+564–565; (4) RA FE-arkiv "V. Diverse sager (afklassificerede)"
+kasse 7–11; (5) Landsdelskommando ØST/VEST staff studies via
+Rigsarkivet (physical) — the natural home of a Danish Belt lift
+timeline.

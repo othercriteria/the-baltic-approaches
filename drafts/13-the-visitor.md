@@ -210,10 +210,10 @@ becomes weather: the amphibious window closing, the gales
 of December, the ports his careful gunnery had been
 keeping whole because without a working port the whole
 structure of his operation was a bridge to a bank that
-did not exist. His creditors were not at Rendsburg. They
-The sea and the season are creditors, Rahn said, of
+did not exist. His creditors were not at Rendsburg.
+"The sea and the season are creditors," Rahn said, "of
 every army that has ever marched on a promise — and the
-sea forecloses first.
+sea forecloses first."
 
 "You have learned his constraint," he said, folding
 himself into the chair they had put out for him and not

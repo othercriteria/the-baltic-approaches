@@ -88,9 +88,11 @@ untouched on the fifth day — a man who takes the stairs when
 he owns the lift is telling you something about the
 building. The port machinery at Kiel and Flensburg:
 untouched, while the rail approaches to both are cratered.
-Bridges: dropped at the approach spans, where engineers
-repair in days, not at the piers, where they repair in
-months. Add it up: a shop kept
+The pump stations on the fuel line, the ones his guns can
+already reach: untouched, and his maps have carried them
+for twenty years. Bridges: dropped at the approach spans,
+where engineers repair in days, not at the piers, where
+they repair in months. Add it up: a shop kept
 ready for a new owner. He is fighting for working
 infrastructure, and the weapons in Kjeldsen's question
 poison the shop for a generation. Now, Dieter, your

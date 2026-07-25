@@ -115,7 +115,8 @@ shop floor.
 "Then I can extend it, because supply is my language. His
 front now eats through a two-hundred-kilometer straw,
 across a river line he demolished himself, through two
-crossings we have counted. Daily flow feeds daily battle;
+crossings we have counted. Ours eats off the buried fuel
+line he has been too careful to cut. Daily flow feeds daily battle;
 a front eating hand to mouth cannot attack. An attacking
 front eats at three times garrison scale, and three times
 garrison scale does not fit through that straw as a flow.

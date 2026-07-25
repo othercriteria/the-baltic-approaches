@@ -238,3 +238,67 @@ build 2, in priority order:
    roads/rail need hand-bent GUESS-tier polylines to read as a
    drawn map? This is a human-diagnoses call; build 2 scope
    depends on it.
+
+---
+
+## Build 2 work order (DK plate review, 2026-07-25)
+
+**Register ruling (answers build 1's open question):** the
+water-crossing howlers force shape; straight segments remain
+acceptable for land-only edges. **Mechanism (DK's): SHAPE
+NODES** — add real, named intermediate places (stations,
+junctions that actually lie on the route) as path vertices that
+render WITHOUT labels or town dots. Honest by construction:
+every vertex is a fact; no fine polylines needed. Renderer
+gains an unlabeled `shape` node class; atlas conventions apply
+(GUESS-tier notes).
+
+### Plate I fixes (all from DK's review)
+
+1. **Schleswig–Esbjerg rail crosses the North Sea.** Also wrong
+   topology: the west-coast rail is the Marschbahn,
+   Itzehoe–Heide–Husum–Niebüll–(Ribe)–Esbjerg. Reroute along
+   real stations (Niebüll, Ribe as shape nodes; Husum/Heide
+   already labeled).
+2. **Lübeck–Puttgarden rail crosses the Baltic.** Route the
+   Vogelfluglinie honestly: Lübeck–(Neustadt in
+   Holstein)–Oldenburg in Holstein–(Burg auf Fehmarn)–
+   Puttgarden, with the Fehmarnsund crossing (1963 bridge —
+   real, permitted).
+3. **Kiel–Lübeck road crosses the Großer Plöner See.** Route
+   B76 via Plön and Eutin as shape nodes (Eutin is a ch. 4
+   place — labeling it is permitted if it doesn't crowd).
+4. **Rail classes:** legend entries for double vs single track;
+   ELIMINATE the unasserted third class to the extent possible —
+   research each drawn line's 1983 track count (grade sources;
+   where genuinely unfindable, assert single and note the
+   choice in the TOML). Every drawn rail line ends up double or
+   single, legended.
+5. **Canal gets a legend entry** (waterway symbol).
+6. **Labels inside the neat-line.** København, Nykøbing
+   Falster, Esbjerg, North Sea (and any others) currently
+   escape the bounding box — clip/pad, and check whether the
+   escape is costing plate size (the frame should use the full
+   live area).
+7. **Missing edges east of Lübeck:** add Lübeck–Ratzeburg
+   (real road/rail, GUESS-tier) so the IGB corner isn't empty
+   and the two real gaps read against actual infrastructure.
+8. **Country labels:** DENMARK; and the two Germanys
+   "appropriately" — builder picks the period Anglophone map
+   convention (e.g., FEDERAL REPUBLIC OF GERMANY / GERMAN
+   DEMOCRATIC REPUBLIC, abbreviated if needed), faint like
+   region labels, and reports the choice.
+9. **Danish frontier trimmed to the coastline** (no protrusion
+   into the North Sea).
+10. **København stays unmarked** (DK: liked — now a ruling).
+
+### Plate II fixes
+
+Port all of the above conventions, plus the standing build-1
+items: (a) **the water is still the blocker** — Kiel Canal and
+the Schlei drawn as real water (canal as firm waterway
+Brunsbüttel→Kiel through Rendsburg/Sehestedt; the Schlei as the
+long fjord Baltic→Schleswig; Eider likewise), more vertices,
+GUESS-tier disclosed; (b) Plate I label whitelist enforced per
+§3 (the Plate II-only features off Plate I); (c) F4
+(Friedrichstadt inset) judged on the new proof and reported.

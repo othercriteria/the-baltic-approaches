@@ -281,7 +281,7 @@ initials went into the same file, and the file became,
 by evening, the sixth entry in the wall's numbered
 failures, what the staff called the F-series, drafted
 by its own subjects, which the wall's doctrine
-required and no other doctrine on earth does.
+required.
 
 The price was posted on the twenty-third of the war's
 days, at 2200, in Roloff's hand, even as ever. The

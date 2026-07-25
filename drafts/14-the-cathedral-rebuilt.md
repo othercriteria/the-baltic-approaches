@@ -30,9 +30,7 @@ the manifests. At Hohn the night shift re-pinned it
 on new plywood in its exact old geography, working
 from the photographs, so that the duty officer coming
 on at 0600 found every number where his hands knew it
-lived. The sentence from Eckernförde got its test
-that night: the wall was plywood, and the plywood
-stayed at Rendsburg, and the wall arrived entire.
+lived.
 
 Aakjær called the fifteenth morning's conference himself,
 which was backwards: the G-2 briefed at conferences; he

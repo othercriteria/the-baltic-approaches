@@ -197,8 +197,7 @@ expenditure had risen again against the deliberate assault
 on the Segeberg axis, and the convoys had lost eleven hours
 to a bombed marshaling yard at Neumünster. At 0140 the
 G-4's night duty officer brought the revised curve to the
-operations room without being asked, because the wall had
-made bringing bad news early into a form of prestige.
+operations room without being asked.
 
 The first true rationing order of the war went out at 0300
 over Holt's signature. The batteries would bank one-third

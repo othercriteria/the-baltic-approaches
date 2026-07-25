@@ -474,3 +474,37 @@ warning approached **zero** despite a large, detectable buildup:
   material actually describe LANDJUT's opposing axis, or a different
   echelonment culture) is not attempted here and is the natural next
   question for whoever picks this up.
+
+## Emission control / assembly-phase radio silence (2026-07-25 verify pass, Opus agent — concordance row 10)
+
+The direct emission-control extraction this file previously lacked
+(the maskirovka material above is radio DECEPTION, not discipline):
+
+- **FM 100-2-1, The Soviet Army: Operations and Tactics (HQDA, 16
+  Jul 1984), ch. 3 "Command and Control," p. 3-4** — radio is the
+  principal means "especially when in contact with the enemy";
+  "wire is used extensively in the defense and in the preparatory
+  phase of offensive actions"; "operator discipline is strict,
+  operating procedure is of a high order, and security precautions
+  are to be observed minutely."
+  (https://irp.fas.org/doddir/army/fm100-2-1.pdf)
+- Net: pre-contact/assembling/second-echelon formations run on
+  wire and messenger with radio held down; nets open at contact.
+  Assembly emission control is documented standing practice —
+  doctrine, not lapse. Caveat for citation honesty: the manual
+  frames it as wire-preference + radio-when-in-contact, not a
+  verbatim "radio silence during assembly" clause; the
+  H-hour/preparation-fires trigger is a corollary (stronger anchor
+  would be ch. 5 "The Offensive," not yet extracted; likewise
+  FM 100-2-2 on march security).
+- **NATO mirror (the G-2's "edges can be plotted"):** traffic
+  analysis works on encrypted traffic; DF locates emitters; "a
+  lack of communication can indicate... completion of a finalized
+  plan" (NSA Callimahos, Introduction to Traffic Analysis,
+  declassified;
+  https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/cryptologic-spectrum/intro_traffic_analysis.pdf).
+  Imposed silence is itself an OPSEC-recognized indicator (JP 3-54
+  App. C: "instituting radio silence when close to the time of
+  starting an operation... may catch adversaries' attention";
+  https://irp.fas.org/doddir/dod/jp3-54/3-54c_ac.htm). Ch. 4's
+  silence-with-edges + DF-baseline passage is textbook tradecraft.

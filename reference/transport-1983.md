@@ -366,12 +366,18 @@ Bogason presumably carries the print-grade treatment — DK reading.
 2. The real gap is an absence: the corps' ambient fuel picture
    is all trucks. One clause could acknowledge the line without
    briefing it.
-3. Best single candidate placement: **ch. 6, Aakjær's
-   careful-fires inventory of intact things** — the pump
-   stations of the fuel line belong on that list either way he
-   is read (a red wanting a working peninsula spares them; a red
-   strangling blue air hits them first), and the inventory is
-   already the scene's engine. Candidate only — DK to rule; no
-   text touched.
+3. ~~Candidate placement~~ **RULED AND APPLIED 2026-07-25 (DK):
+   plant-and-payoff pair.** Ch. 6, Aakjær's careful-fires
+   inventory: "The pump stations on the fuel line, the ones his
+   guns can already reach: untouched, and his maps have carried
+   them for twenty years" (in-reach claim only — the northern
+   stations are out of range on day 5 and would make "untouched"
+   trivial). Ch. 14, Lammers' straw speech: "Ours eats off the
+   buried fuel line he has been too careful to cut" — the ch. 6
+   plant cashed as blue's quiet supply asymmetry. Canon
+   consequence: red spared NEPS in-reach pump stations
+   (consistent with the shop-kept-whole reading and red's own
+   fuel appetite); blue fuel is never scarce on page, so no
+   ripple.
 4. Wargame: bulk POL lives inside the CAL-3 supply abstraction;
    no recalibration implied.

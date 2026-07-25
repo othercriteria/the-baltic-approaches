@@ -345,6 +345,14 @@ entity index generatable instead of reconstructable.
   Successor enters via planning/status.md; first acts per
   process: raw-archive above, `make archive SKIP=<own-uuid>`,
   lineage-log line.
+- 2026-07-25 — session e3137278 (Fable 5) opened as fresh
+  successor. First acts done: raw-archive 52662a0d (owed above)
+  + archive sweep (also caught 8c194a08, a812a0a1, c9f5ff51 —
+  DK-side sessions, ruling on their materiality is DK's), this
+  line. Opening direction per DK: register external ChatGPT
+  reader conversations on the draft-two text (first: a thematic
+  reading, share link 6a651bce…, full text supplied in-chat),
+  then read the text with them in mind and respond.
 
 ## Entity index
 

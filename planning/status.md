@@ -610,6 +610,17 @@ notes/line-edit-r1.md).
 6. DK's larger-campaign note (lineage log, byline ruling): some
    future campaign work will "undeniably cross that line" —
    context for how hard to defend byline (a) here.
+7. **External reads register opened (2026-07-25, session
+   e3137278): notes/external-reads/.** First entry: a ChatGPT
+   thematic reading of the draft-two text, registered verbatim
+   with fidelity audit + calibration notes (advocate lens, zero
+   negative findings — a brief, not a verdict). Signals fed to
+   items 1/2/5: front-matter-read-as-argument raises byline
+   stakes; the title word "mission" verified to live almost
+   entirely on the enemy side (ratify or adjust at assembly);
+   religious-register motif now reader-visible (census at tic
+   time). DK announced TWO conversations; slot 02 reserved,
+   ingestion/prompt provenance still owed by DK for the record.
 
 ## Standing DK reminders (loose ends outside the repo)
 

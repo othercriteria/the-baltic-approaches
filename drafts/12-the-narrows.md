@@ -326,10 +326,11 @@ the true crest: the canal's bank west of Sehestedt, the
 old wall of the Danevirke, the narrows between the
 Schlei's head and the Treene marshes — the thousand-year
 earthwork across the neck of the peninsula, dug against
-invasions that had come, every one of them, from the
-other direction, and standing its watch now facing
-south, which the guidebooks had always said was the way
-it faced and the war had finally confirmed.
+invasions that had come, every one of them, out of the
+south, and never once been held by it, standing its
+watch now facing south, which the guidebooks had always
+said was the way it faced and the war was finally asking
+it to prove.
 
 The price was posted at 2200, in Roloff's even hand,
 without commentary, which was the wall's whole doctrine.

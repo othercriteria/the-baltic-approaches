@@ -108,9 +108,9 @@ army in the column. What arrives now is not force. It
 is supply. The depth is empty, gentlemen. From today,
 deep means something else. Deep means his tonnage."
 
-The silence was of the working kind. Lammers walked to
-the enemy side of the map like a craftsman crossing a
-rival's shop floor.
+Nobody spoke for a moment. Lammers walked to the enemy
+side of the map like a craftsman crossing a rival's
+shop floor.
 
 "Then I can extend it, because supply is my language. His
 front now eats through a two-hundred-kilometer straw,

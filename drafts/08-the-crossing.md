@@ -293,7 +293,7 @@ conference before he took it away from them.
 "Enjoyed?" he asked, when the movement brief ended. "Good.
 Now. What does the corps run out of next, and when?"
 
-Silence, of the productive kind. Then Lammers opened the
+No one answered at once. Then Lammers opened the
 folder he had, of course, brought.
 
 "Artillery ammunition, Herr General. The corps' batteries

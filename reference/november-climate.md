@@ -82,22 +82,34 @@ work is the exception:
   defect to be remedied. [OTA, *New Technology for NATO:
   Implementing Follow-On Forces Attack*, June 1987,
   https://www.princeton.edu/~ota/disk2/1987/8718/8718.PDF]
-- **What is still missing — the one number the sortie model wants**:
-  a joint **ceiling/visibility percent-frequency table** for a
-  Schleswig-Holstein airfield (e.g., % of November hours below
-  1,500 ft / 3 mi). The genre exists: USAFETAC RUSSWO / Surface
-  Observation Climatic Summaries (10-year hourly summaries with
-  "ceiling versus visibility" tables) are on DTIC for many
-  stations, but no Jagel/Hohn/Eggebek/Leck/Karup edition surfaced
-  in DTIC's (spotty, rate-limited) full-text index today. TO-FIND
-  — see Open items. **Until then, flyable-day fractions in the
-  instrument must be labeled assumption, not fact.**
-- *Labeled inference (ours, not a source's)*: with ~8-10 fog
-  mornings, 13-14 overcast days, 69-72% mean cloud and under 2 h
-  of sun a day, a pre-precision air force gets **visual attack
-  weather in November as the exception — plausibly well under half
-  the days, concentrated in cold clear snaps** — but the exact
-  fraction awaits the RUSSWO-type table above.
+- ~~**What is still missing — the one number the sortie model
+  wants**~~ **FOUND 2026-07-25 (Opus verify pass) — GATE
+  DISCHARGED. PRIMARY, period-correct:** *AWS Climatic Briefs:
+  Europe* (USAFETAC, Jul 1981), DTIC **AD-A118450**, free scan at
+  https://archive.org/details/DTIC_ADA118450. CAV FREQ (%) panels
+  = % of hourly obs with ceiling and/or visibility BELOW the
+  stated floor; flyable = 100 − printed. Two in-theater stations:
+  **Karup** (WMO 06060, leaf 0016; sources: Karup N-Summary Jan
+  1953–Nov 1971 + DATSAV 1966–76 — POR read off the sheet image,
+  verified this session) and **Hohn** (WMO 10038, near Rendsburg,
+  leaves 0047–48; sources: **"Schleswig RUSSWO, POR Jan 1964–Dec
+  1973"** + DATSAV — literally RUSSWO-derived, pre-1983 POR, no
+  climate-drift caveat). **November, ALL HRS, flyable %
+  (Karup/Hohn):** ≥3000 ft & 3 NM: 48/~46 · ≥1500 & 3: 59/55 ·
+  ≥1000 & 2: 68/65 · ≥500 & 1.5: 78/78 · ≥300 & 1: 87/88. Karup
+  leaf-0016 rungs (52/41/32 below) verified against the page
+  image this session. Diurnal signal weak (midday only ~3–8
+  points better — advective stratus, not radiation fog).
+  **Recommended instrument brackets:** visual-CAS minimum
+  (~1000 ft/3 sm): **63% ± 5 of hours**; conservative roll-in
+  minimum (3000 ft/3 NM): **47% ± 4**. Caveats: hours not days
+  (days-with-a-window higher, fully-flyable days lower); "and/or"
+  semantics; the doc's 2/3 NM floors vs 3 sm interpolated.
+- *The prior labeled inference* ("visual attack weather well
+  under half the days") is hereby graded: **right at the high
+  minimum (47%), too pessimistic at the low-level minimum
+  (63%)** — the instrument's assumption flag can come off, with
+  the threshold choice now the stated variable.
 
 ## 2. Daylight
 
@@ -266,13 +278,14 @@ dark, and the whole month loses another 1 h 39 m end to end.
 
 ## 6. Open items
 
-1. **Joint ceiling/visibility frequency table for a SH airfield**
-   (the sortie-model gate): USAFETAC RUSSWO or Surface Observation
-   Climatic Summary for Jagel/Hohn/Eggebek/Leck, or AWS Climatic
-   Brief for Denmark (Karup). DTIC hosts the genre
-   (apps.dtic.mil; index is spotty and rate-limits); NTIS and
-   AFCCC/14th Weather Squadron archives are the fallback. DK
-   browser fetch may succeed where the CLI was blocked.
+1. ~~Joint ceiling/visibility frequency table for a SH airfield~~
+   **DISCHARGED 2026-07-25** — AD-A118450 (§1 above; Karup +
+   Hohn/Schleswig-RUSSWO panels, numbers banked). Optional deeper
+   pursuit only: the parent **Schleswig RUSSWO (POR Jan 1964–Dec
+   1973)** as a standalone, for the full joint
+   ceiling-versus-visibility cross-tabulation (the AWS brief
+   gives marginal and/or thresholds); existence confirmed by
+   AD-A118450's source line, no free copy surfaced — DTIC/NTIS.
 2. **Darss Sill November mean/exceedance Hs** (1991- record;
    Hereon/BSH data holdings) — turns the wind-day proxy into a
    real sea-state distribution.

@@ -595,9 +595,22 @@ notes/line-edit-r1.md).
    vantage filters the war's social texture. Q4 was DECLINED —
    this is NOT a mandate to add grief; it is the next blind
    panel's calibration question.
-3. VERIFY queue: Danevirke invasion-direction (12.5); WP radio
-   silence (concordance row 10); RUSSWO sea-state table;
-   Belt-ferry beredskab.
+3. ~~VERIFY queue~~ **WORKED 2026-07-25 (session e3137278, four
+   parallel Opus agents):** (a) Danevirke 12.5 — clause WRONG
+   (every assault came from the south, the direction it faces;
+   reference/danevirke.md), REWORD PENDING DK (options in the
+   session record); (b) WP radio silence — row 10 CLOSED
+   CONSISTENT, primary-sourced (FM 100-2-1 p. 3-4;
+   soviet-operational-art.md §emission-control); (c) the
+   RUSSWO/ceiling-visibility gate — DISCHARGED with primary data
+   (AD-A118450, Karup + Hohn/Schleswig-RUSSWO; flyable Nov
+   brackets 63%±5 at CAS minimum / 47%±4 conservative;
+   november-climate.md §1, spot-verified against the page
+   image); (d) Belt-ferry beredskab — figure confirmed unfound
+   at open tier, but the MECHANISM sourced (DSB
+   Beredskabsinstruks Aug 1976, ferries named for mobilization
+   priority; transport-1983.md §9 + DK pursuit list, Riis-
+   Knudsen 2013 the sharpest lead).
 4. Next blind panel: PDF as source of truth, byline + front
    matter in scope, ingestion mode pinned (rendered pages or
    header-stripped extraction).
@@ -650,9 +663,15 @@ notes/line-edit-r1.md).
 - Bogason paperback on arrival: the scan wishlist is in
   landjut-front.md (Ch 15 reinforcement table, MC 70 tables, org
   charts, minefield map, HURRICANE figures).
-- DK browser tier, standing: the RUSSWO/AWS ceiling-visibility
-  table (the one number the weather model wants — its visual-day
-  fraction is a flagged ASSUMPTION until then); NIE siblings
+- ~~The RUSSWO/AWS ceiling-visibility table~~ DISCHARGED
+  2026-07-25 (AD-A118450 — november-climate.md §1; only the
+  optional parent Schleswig RUSSWO standalone remains, wanted for
+  the joint cross-tab, not blocking). NEW print/archive pursuits
+  from the beredskab hunt (transport-1983.md §9): Riis-Knudsen
+  "Totalforsvar på skinner" (SDU 2013) and the DSB
+  Beredskabsinstruks 1976 itself (Rigsarkivet DSB fonds /
+  Jernbanemuseum).
+- DK browser tier, standing: NIE siblings
   (4-1-78 first) + NIE 11/17-85 + two CIA chemical items
   (shelf.md queue, URLs in chemical-posture.md); Wilson Center
   pair (ex. VAL-77, Maritime Front decision).

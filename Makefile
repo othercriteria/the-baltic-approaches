@@ -33,24 +33,48 @@ SOURCES = $(sort $(wildcard $(DRAFT_DIR)/*.md))
 FRONT_MATTER = $(wildcard apparatus/front-matter.md)
 DRAFT_STAMP = Draft one · $(shell date +%Y-%m-%d) · $(shell git rev-parse --short HEAD)
 
+# Body face — the SINGLE source of truth for the book's face. Both the
+# PDF build (mainfont) and the map plates (`make maps`, label face)
+# read it here, so changing this one value re-letters the maps to match
+# (map-spec.md §5).
+BODYFACE = TeX Gyre Pagella
+
 PANDOC_OPTS = --from=markdown --standalone
 PDF_OPTS = $(PANDOC_OPTS) --pdf-engine=xelatex \
            --top-level-division=chapter \
            -V documentclass=book -V classoption=oneside \
            -V geometry:paperwidth=5.5in -V geometry:paperheight=8.5in \
            -V geometry:margin=0.75in -V fontsize=11pt \
-           -V mainfont="TeX Gyre Pagella"
+           -V mainfont="$(BODYFACE)" \
+           --include-in-header=apparatus/latex-header.tex
+
+# Map plates (apparatus). data + PD base -> SVG (atlas render) -> vector
+# PDF (scripts/svg2pdf.py, headless Chromium). Regenerated into
+# build/maps/ and injected by apparatus/front-matter.md.
+MAP_DIR = build/maps
+PLATES = approaches neck
 METADATA = --metadata title="$(TITLE)" \
            --metadata author="Daniel Klein" \
            --metadata date="$(DRAFT_STAMP)"
 
-.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas pdf manuscript wordcount clean
+.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas maps pdf manuscript wordcount clean
 
 $(OUTPUT_DIR):
 	@mkdir -p $(OUTPUT_DIR)
 
-# Reading PDF: drafts/ in filename order (01..19, 19a, 20)
-pdf: $(OUTPUT_DIR)
+# Map plates: data -> SVG -> vector PDF. Regenerable from a clean
+# checkout (needs headless Chromium for SVG->PDF; see scripts/svg2pdf.py).
+maps: $(OUTPUT_DIR)
+	@mkdir -p $(MAP_DIR)
+	@for p in $(PLATES); do \
+		python3 -m atlas render $$p --face "$(BODYFACE)" --out $(MAP_DIR)/plate-$$p.svg; \
+		python3 scripts/svg2pdf.py $(MAP_DIR)/plate-$$p.svg $(MAP_DIR)/plate-$$p.pdf; \
+	done
+	@echo "Plates in $(MAP_DIR)/ (plate-approaches.pdf, plate-neck.pdf)"
+
+# Reading PDF: drafts/ in filename order (01..19, 19a, 20). Depends on
+# maps so the front-matter plates are always present and current.
+pdf: $(OUTPUT_DIR) maps
 	@pandoc $(FRONT_MATTER) $(SOURCES) $(PDF_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-mission.pdf
 	@pdfinfo $(OUTPUT_DIR)/the-mission.pdf 2>/dev/null | grep Pages || true
 	@echo "Created $(OUTPUT_DIR)/the-mission.pdf"

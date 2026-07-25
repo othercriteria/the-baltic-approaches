@@ -1,0 +1,68 @@
+{
+  "_provenance": "Hand-digitized generalized polylines, session e3137278 (2026-07-25). These water/earthwork features are absent from Natural Earth 10m at plate grain (NE 10m rivers return ZERO features inside the neck bbox: no Kiel Canal, Schlei, Eider, Treene). Per map-spec.md the sanctioned fallback is hand-digitizing at generalized 1:500k grain from PD sources / known geography, marked GUESS, disclosed. Endpoints are anchored to atlas node coordinates where a node exists (Rendsburg, Schleswig, Friedrichstadt, Lubeck...). NO copyrighted or scanned map was traced; these are coarse ~1:500k traces from public geographic knowledge. TIER: GUESS throughout. The Danevirke trace follows reference/danevirke.md (Schlei head WSW to the Treene marshes, ~19 km, facing south).",
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"layer": "canal", "name": "Kiel Canal", "tier": "GUESS"},
+      "geometry": {"type": "LineString", "coordinates": [
+        [9.14, 53.89], [9.22, 53.97], [9.34, 54.06], [9.46, 54.14],
+        [9.57, 54.24], [9.63, 54.29], [9.70, 54.32], [9.80, 54.36],
+        [9.90, 54.39], [10.02, 54.38], [10.12, 54.37]
+      ]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"layer": "firth", "name": "the Schlei", "tier": "GUESS"},
+      "geometry": {"type": "LineString", "coordinates": [
+        [10.04, 54.67], [9.98, 54.68], [9.93, 54.66], [9.86, 54.62],
+        [9.80, 54.57], [9.735, 54.525], [9.66, 54.525], [9.57, 54.515]
+      ]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"layer": "river", "name": "the Eider", "tier": "GUESS"},
+      "geometry": {"type": "LineString", "coordinates": [
+        [8.84, 54.27], [8.94, 54.31], [9.02, 54.35], [9.09, 54.38],
+        [9.20, 54.36], [9.33, 54.33], [9.47, 54.31], [9.58, 54.30]
+      ]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"layer": "river", "name": "the Treene", "tier": "GUESS"},
+      "geometry": {"type": "LineString", "coordinates": [
+        [9.24, 54.58], [9.19, 54.52], [9.14, 54.46], [9.10, 54.41], [9.09, 54.38]
+      ]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"layer": "river", "name": "the Sorge", "tier": "GUESS"},
+      "geometry": {"type": "LineString", "coordinates": [
+        [9.28, 54.40], [9.32, 54.36], [9.35, 54.32], [9.36, 54.28]
+      ]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"layer": "river", "name": "the Trave", "tier": "GUESS"},
+      "geometry": {"type": "LineString", "coordinates": [
+        [10.58, 53.78], [10.64, 53.83], [10.69, 53.87], [10.78, 53.92],
+        [10.85, 53.95], [10.88, 53.97]
+      ]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"layer": "danevirke", "name": "the Danevirke", "tier": "GUESS", "faces": "south"},
+      "geometry": {"type": "LineString", "coordinates": [
+        [9.565, 54.490], [9.50, 54.487], [9.42, 54.485], [9.34, 54.487], [9.285, 54.490]
+      ]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"layer": "marsh", "name": "Treene-Eider marshes", "tier": "GUESS"},
+      "geometry": {"type": "Polygon", "coordinates": [[
+        [8.90, 54.31], [9.14, 54.30], [9.24, 54.40], [9.20, 54.50],
+        [9.06, 54.52], [8.92, 54.44], [8.86, 54.36], [8.90, 54.31]
+      ]]}
+    }
+  ]
+}

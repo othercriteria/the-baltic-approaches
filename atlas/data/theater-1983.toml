@@ -765,17 +765,23 @@ verify = true
 
 # ---------------------------------------------------------------- rail
 
+# Split at Vamdrup (map-plate additions, session e3137278): the
+# double->single track change falls at Vamdrup and the plate must
+# draw it, which needs Vamdrup as an intermediate node. km 26+66=92
+# preserves the original total; the single-track segment keeps the
+# chokepoint cap. `tracks` is an additive render-only hint ignored by
+# graph.py's loader. See the "map-plate additions" block below.
 [[edge]]
-id = "rail-fredericia-padborg"
+id = "rail-fredericia-vamdrup"
 a = "fredericia"
-b = "padborg"
+b = "vamdrup"
 mode = "rail"
 class = "rail"
-km = 92
-via = "via Lunderskov; SINGLE TRACK south of Vamdrup in 1983"
-cap_tpd = 7500
-cap_source = "DERIVED:TR0603-density"
-notes = "1983 layout: double Fredericia-Vamdrup, single Vamdrup-Padborg (~65 km; doublings 1996/2014). Diesel. The border rail feed is single-track — modern descriptions anachronistic [transport-1983 §3]"
+km = 26
+tracks = "double"
+via = "via Lunderskov; DOUBLE TRACK Fredericia-Vamdrup in 1983"
+cap_source = "DEFAULT"
+notes = "Double track, diesel [transport-1983 §3]. Split from the former rail-fredericia-padborg for the Vamdrup track-change render."
 
 [[edge]]
 id = "rail-padborg-flensburg"
@@ -930,6 +936,7 @@ b = "schleswig"
 mode = "rail"
 class = "rail"
 km = 20
+tracks = "double"
 via = "Rendsburg high bridge + loop (1913)"
 crossing = "kiel_canal"
 cap_source = "DEFAULT"
@@ -1140,3 +1147,229 @@ id = "nato-north"
 sources = ["hamburg"]
 sinks = ["rendsburg", "flensburg"]
 note = "Reinforcement/supply flow from the south"
+
+# ================================================================
+# map-plate additions (session e3137278, 2026-07-25)
+# ----------------------------------------------------------------
+# Nodes and edges the two front-matter map plates need but the
+# routing dataset did not carry. ALL positions GUESS-tier (road-
+# atlas-from-memory); every added edge verify=true and GUESS/DEFAULT
+# capacity — these are cartographic spurs and crossing ferries, not
+# researched capacities. They must not be trusted for flow numbers
+# without the same graduation path as any other GUESS. Rationale:
+# the plates render their network layer from THIS file only, so a
+# feature the spec requires (the Sehestedt/Nordfeld/Missunde ferry
+# crossings, the Sorge bridge, Hohn, Esbjerg/Marschbahn, the Vamdrup
+# track change) must exist here as data or it cannot be drawn.
+# `_s` nodes are unlabeled far-bank ferry landings (render carries
+# no label for them). See planning/map-spec.md §2.
+
+[[node]]
+id = "vamdrup"
+name = "Vamdrup"
+region = "JY"
+lat = 55.43
+lon = 9.37
+notes = "Rail junction (Lunderskov); the double->single track change. GUESS position."
+
+[[node]]
+id = "esbjerg"
+name = "Esbjerg"
+region = "JY"
+lat = 55.47
+lon = 8.45
+notes = "West-Jutland port; north end of the Marschbahn west-coast rail. GUESS position; coarse western-net stub."
+
+[[node]]
+id = "sehestedt"
+name = "Sehestedt"
+region = "SH"
+lat = 54.393
+lon = 9.86
+notes = "Kiel Canal ferry site (north bank). GUESS position."
+
+[[node]]
+id = "sehestedt_s"
+name = "Sehestedt (S bank)"
+region = "SH"
+lat = 54.383
+lon = 9.862
+notes = "Unlabeled south-bank canal-ferry landing. GUESS position."
+
+[[node]]
+id = "nordfeld"
+name = "Nordfeld"
+region = "SH"
+lat = 54.335
+lon = 9.245
+notes = "Heavy Eider ferry site (north bank), NW of Friedrichstadt. GUESS position."
+
+[[node]]
+id = "nordfeld_s"
+name = "Nordfeld (S bank)"
+region = "SH"
+lat = 54.325
+lon = 9.25
+notes = "Unlabeled south-bank Eider-ferry landing. GUESS position."
+
+[[node]]
+id = "missunde"
+name = "Missunde"
+region = "SH"
+lat = 54.525
+lon = 9.735
+notes = "The Schlei narrows / ferry. GUESS position."
+
+[[node]]
+id = "missunde_s"
+name = "Missunde (S bank)"
+region = "SH"
+lat = 54.515
+lon = 9.74
+notes = "Unlabeled south-bank Schlei-ferry landing. GUESS position."
+
+[[node]]
+id = "sorgbruck"
+name = "Sorgbrück"
+region = "SH"
+lat = 54.36
+lon = 9.33
+notes = "Sorge rail bridge locality on the Rendsburg-Husum line. GUESS position."
+
+[[node]]
+id = "hohn"
+name = "Hohn"
+region = "SH"
+lat = 54.31
+lon = 9.50
+notes = "West of Rendsburg. GUESS position."
+
+# -- edges ------------------------------------------------------
+
+[[edge]]
+id = "rail-vamdrup-padborg"
+a = "vamdrup"
+b = "padborg"
+mode = "rail"
+class = "rail"
+km = 66
+via = "SINGLE TRACK Vamdrup-Padborg in 1983 (doublings 1996/2014)"
+cap_tpd = 7500
+cap_source = "DERIVED:TR0603-density"
+verify = true
+notes = "Single-track border rail feed; the chokepoint segment. Split from rail-fredericia-padborg [transport-1983 §3]."
+
+[[edge]]
+id = "rail-esbjerg-husum"
+a = "esbjerg"
+b = "husum"
+mode = "rail"
+class = "rail"
+km = 110
+via = "Marschbahn west coast (Bramming-Tondern-Niebull-Husum), single track"
+cap_source = "DEFAULT"
+verify = true
+notes = "Coarse western-net stub for the plate's Marschbahn label. GUESS routing/distance."
+
+[[edge]]
+id = "canal-ferry-sehestedt"
+a = "sehestedt"
+b = "sehestedt_s"
+mode = "ferry"
+class = "ferry"
+km = 0.4
+hours = 0.1
+fixed_hours = 0.1
+crossing = "kiel_canal"
+cap_tpd = 1000
+cap_source = "GUESS"
+verify = true
+notes = "The Sehestedt reaction ferry across the Kiel Canal. GUESS capacity."
+
+[[edge]]
+id = "eider-ferry-nordfeld"
+a = "nordfeld"
+b = "nordfeld_s"
+mode = "ferry"
+class = "ferry"
+km = 0.3
+hours = 0.1
+fixed_hours = 0.1
+crossing = "eider"
+cap_tpd = 800
+cap_source = "GUESS"
+verify = true
+notes = "The Nordfeld heavy Eider ferry. GUESS capacity."
+
+[[edge]]
+id = "schlei-ferry-missunde"
+a = "missunde"
+b = "missunde_s"
+mode = "ferry"
+class = "ferry"
+km = 0.3
+hours = 0.1
+fixed_hours = 0.1
+crossing = "schlei"
+cap_tpd = 600
+cap_source = "GUESS"
+verify = true
+notes = "The Missunde ferry across the Schlei narrows. GUESS capacity."
+
+[[edge]]
+id = "rd-sehestedt-rendsburg"
+a = "sehestedt"
+b = "rendsburg"
+mode = "road"
+class = "secondary"
+route = "B203"
+km = 12
+cap_source = "DEFAULT"
+verify = true
+notes = "North-bank canal road to the ferry landing. GUESS routing."
+
+[[edge]]
+id = "rd-nordfeld-friedrichstadt"
+a = "nordfeld"
+b = "friedrichstadt"
+mode = "road"
+class = "secondary"
+km = 9
+cap_source = "DEFAULT"
+verify = true
+notes = "Local road to the Nordfeld ferry. GUESS routing."
+
+[[edge]]
+id = "rd-missunde-schleswig"
+a = "missunde"
+b = "schleswig"
+mode = "road"
+class = "secondary"
+km = 9
+cap_source = "DEFAULT"
+verify = true
+notes = "Local road to the Missunde ferry. GUESS routing."
+
+[[edge]]
+id = "rd-rendsburg-hohn"
+a = "rendsburg"
+b = "hohn"
+mode = "road"
+class = "federal"
+km = 14
+cap_source = "DEFAULT"
+verify = true
+notes = "Rendsburg-Hohn road. GUESS routing."
+
+[[edge]]
+id = "rail-rendsburg-sorgbruck"
+a = "rendsburg"
+b = "sorgbruck"
+mode = "rail"
+class = "rail"
+km = 13
+crossing = "sorge"
+via = "Rendsburg-Husum line; Sorge bridge at Sorgbruck"
+cap_source = "DEFAULT"
+verify = true
+notes = "Rail stub carrying the Sorge crossing at Sorgbruck. GUESS routing."

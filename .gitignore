@@ -13,3 +13,8 @@ reference/pdf/
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# Map base: world Natural Earth downloads (26M, CC0 but re-fetchable via
+# atlas/data/base/extract.py). Only the clipped *.json extracts beside
+# them are committed. See atlas/data/base/README.md.
+atlas/data/base/src/

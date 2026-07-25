@@ -199,3 +199,42 @@ have the vocabulary for these.
 - Expected iteration: label collisions and line weights WILL
   need a hand pass; T3 must list every known defect honestly
   rather than polishing the report.
+
+---
+
+## Build 1 review (session e3137278, same day)
+
+Builder's T3 report accepted; tree reviewed, tests re-run green
+(21 render/atlas + 12 atlas-lint), wordcount unchanged (48,986),
+plates eyeballed at trim. **Deviation ACCEPTED:** data edits
+beyond add-nodes (the labeled `map-plate additions` block — 10
+nodes, the Vamdrup edge split preserving the chokepoint cap, 9
+GUESS-tier supporting edges, render-only `tracks` hint). The
+split was the only honest way to draw double→single falling at
+Vamdrup; all pre-existing atlas tests pass; connectivity clean.
+
+**Session verdict: pipeline REAL, plates DRAFT.** Fix list for
+build 2, in priority order:
+1. **Plate II's water is the blocker.** The Kiel Canal and the
+   Schlei must read as drawn water — the canal as the firm
+   double waterway Brunsbüttel→Kiel through Rendsburg/Sehestedt,
+   the Schlei as the long fjord biting in from the Baltic to
+   Schleswig. Until then the plate cannot do its ch. 12 job
+   (west shoulder = canal west of Sehestedt; east = the Schlei).
+   The Eider likewise. Better hand-digitization (more vertices,
+   GUESS-tier disclosed) or NE 10m rivers where they exist.
+2. **Plate I label whitelist.** Enforce §3's per-plate label
+   lists in the renderer: Sehestedt/Sorgbrück/Nordfeld/Missunde/
+   Hohn/Friedrichsberg are Plate II features and must not
+   render on Plate I (they caused the neck pile-up). Fix the
+   Middelfart/Kolding collision; area-label collision pass
+   (LITTLE BELT vs Haderslev, BALTIC vs Nykøbing F.).
+3. F4 (Friedrichstadt inset) deferred again — cannot be judged
+   until item 1 lands.
+4. OPEN REGISTER QUESTION FOR DK: the network renders as
+   straight schematic segments between node coordinates (the
+   atlas has no polylines; OSM is ODbL). Is route-diagram
+   honesty acceptable for the final plates, or do the major
+   roads/rail need hand-bent GUESS-tier polylines to read as a
+   drawn map? This is a human-diagnoses call; build 2 scope
+   depends on it.

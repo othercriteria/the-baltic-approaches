@@ -6,6 +6,8 @@ import argparse
 import sys
 
 from .graph import Atlas
+from .render import add_subparser as add_render_subparser
+from .render import cmd_render
 
 
 def fmt_edge(e, profile, frm=None):
@@ -151,7 +153,11 @@ def main(argv=None):
 
     sub.add_parser("check", help="dataset lint + guess-rate report")
 
+    add_render_subparser(sub)
+
     args = p.parse_args(argv)
+    if args.cmd == "render":
+        return cmd_render(args)
     atlas = Atlas.load()
     return {
         "path": cmd_path,

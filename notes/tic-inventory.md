@@ -15,6 +15,8 @@ ratified outline §8 + panel prescriptions.*
 | Negation-definitions ("not X. It is Y") | not recounted this pass | scrub per DK batch 5 | weight expansion diffs |
 | Walk-on epigrams | every walk-on | let 2–3 walk-ons be inarticulate | The de-homogenization campaign's core; not grep-able — per-scene judgment. One converted (ch. 15 Zealand CO) |
 | Process retrospective (NEW, DK 2026-07-26) | 4 found; 2 cut (chs. 8, 19a), 2 earned/watched (ch. 9 standing, ch. 12 afternoon) | zero unearned | Structural, not lexical — practice narrated with its own aggregate vindication; the model's work-summary register in narration. Full definition: critique-profile §5.3. Partial grep: "never again\|ever called\|never afterward\|each .* best" |
+| Silence-classification template ("Silence, of the X kind") | 3 (chs. 08 productive, 13 examined, 14 working) | keep 1 | NEW 2026-07-25, caught by external read 02 §5 (the slot-formula charge). Grep: "of the .* kind" filtered to silence/quiet. DK to pick the survivor; 13's "examined kind" sits inside the Rahn set-piece and is the strongest candidate |
+| Retrieval-tag family (character-spec repetition: Roloff even/level hand ×3, "without heat" ×3, pauses-of-normal-length, leaves-before-answer) | phrase-level counts modest (3+3); family-level not yet censused | family census at line pass | NEW 2026-07-25, external read 02 §6 ("conspicuous retrieval cues"). Phrase counts alone understate — the charge is the aggregate of ALL tags per character at PDF scale. Census the family per character before ruling |
 
 ## De-homogenization status (deep-context verdict, 2026-07-26)
 

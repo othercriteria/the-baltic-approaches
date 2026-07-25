@@ -610,17 +610,27 @@ notes/line-edit-r1.md).
 6. DK's larger-campaign note (lineage log, byline ruling): some
    future campaign work will "undeniably cross that line" —
    context for how hard to defend byline (a) here.
-7. **External reads register opened (2026-07-25, session
-   e3137278): notes/external-reads/.** First entry: a ChatGPT
-   thematic reading of the draft-two text, registered verbatim
-   with fidelity audit + calibration notes (advocate lens, zero
-   negative findings — a brief, not a verdict). Signals fed to
-   items 1/2/5: front-matter-read-as-argument raises byline
-   stakes; the title word "mission" verified to live almost
-   entirely on the enemy side (ratify or adjust at assembly);
-   religious-register motif now reader-visible (census at tic
-   time). DK announced TWO conversations; slot 02 reserved,
-   ingestion/prompt provenance still owed by DK for the record.
+7. **External reads register (2026-07-25, session e3137278):
+   notes/external-reads/, BOTH conversations registered.**
+   01 = blind thematic reading (incognito, lost; PDF-only;
+   advocate lens; DK's design: probe whether the pod-shop frame
+   could be spotted unprompted — it was NOT). 02 = five-turn
+   cross-examination (share 6a651bce…; PDF-only): the AI-tells
+   critique is the counter-brief, and it CONVERGES with the
+   in-house instruments (double delivery; homogenized aphorism;
+   theodicy-of-process now named by a FOURTH instrument) plus
+   new catches: ch. 13 stitching artifact (FIXED same session),
+   silence-classification template ×3 (tic-inventory row, keep
+   1, DK to pick), retrieval-tag family census owed, low-
+   narrative-entropy charge upgrading the uncashable-loss design
+   question, closing-button density as a named next-panel
+   calibration question. Signals to items 1/2/5: front-matter-
+   as-argument + externally-confirmable disclosure strengthen
+   byline (a); "mission" lives on the enemy side (ratify at
+   assembly); pod-shop subtext confirmed deniable-in-text /
+   recoverable-under-prompt — keep the referent unnamed.
+   Panel-design lesson: at least one reviewer reads the RENDERED
+   page (the artifact was invisible to in-repo reads).
 
 ## Standing DK reminders (loose ends outside the repo)
 

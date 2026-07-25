@@ -353,6 +353,24 @@ entity index generatable instead of reconstructable.
   reader conversations on the draft-two text (first: a thematic
   reading, share link 6a651bce…, full text supplied in-chat),
   then read the text with them in mind and respond.
+- 2026-07-25 — materiality ruling, sessions 8c194a08 / a812a0a1
+  / c9f5ff51: **NOT MATERIAL** (DK's description in-session to
+  e3137278: empty attempts to probe `/model` access; verified
+  this session against the archives — two 5-line JSONLs holding
+  only the /model local-command record, one 455-byte /clear
+  export; zero model turns). Archives retained; no index rows.
+- 2026-07-25 — session e3137278 continued: BOTH external reads
+  registered (notes/external-reads/01, 02; 01's provenance
+  corrected in place — incognito/lost/PDF-only, the share link
+  belongs to 02). Read 02 §9's stitching artifact in ch. 13
+  verified and fixed (dangling "They" cut, Rahn's creditors
+  line set as quoted speech) — an external PDF reader caught a
+  seam this session's own full read had gone past; lesson
+  logged for panel design (one reviewer must read rendered
+  pages). Two tic-inventory rows added (silence-classification
+  template ×3, keep-1 pending DK; retrieval-tag family census
+  owed). Status.md agenda item 7 rewritten with the combined
+  findings.
 
 ## Entity index
 

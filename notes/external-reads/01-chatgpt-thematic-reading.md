@@ -1,30 +1,35 @@
 # External read 01 — ChatGPT thematic reading ("My reading")
 
-## Provenance
+## Provenance (corrected 2026-07-25 later same session, per DK)
 
 - **Registered:** 2026-07-25, session e3137278 (DK-directed; DK
-  supplied the text in-chat and the share link).
-- **Reader:** ChatGPT (model/version unstated).
-- **Share link:** https://chatgpt.com/share/6a651bce-2010-83ea-bd20-b12c8aa09aae
-  (JS-rendered; not capturable by this session's tooling — the
-  browser extension was not connected. The verbatim text below is
-  DK's paste, taken as authoritative.)
-- **Ingestion: UNKNOWN — DK to record.** What was the reader given
-  (the PDF build? the public repo? the draft-two tag? which
-  chapters/front matter?) and what was the prompt? The reading
-  quotes front-matter apparatus (attribution ledger, session
-  lineage, "retained error books"), so it saw more than drafts/.
-  Per the standing panel lesson, ingestion mode matters and should
-  be pinned on the record.
-- **Text state read:** consistent with draft-two (7e7ceb5,
-  48,987 narrative) — every checked quote matches that state.
-- **Instrument class:** NOT a blind read, NOT an assigned-persona
-  critique. A voluntary thematic explication by an outside model,
-  advocate-lens, zero negative findings. Per process rules it is
-  a brief, not a verdict; its counter-brief is the next blind
-  panel.
-- DK announced **two** conversations to register; this is the
-  first. Slot 02 is reserved for the second when supplied.
+  supplied the text in-chat).
+- **Reader:** ChatGPT (model/version unstated), **incognito
+  conversation, now lost** — no share link exists. (The share
+  link 6a651bce… originally noted here belongs to external read
+  02, DK's other conversation.)
+- **Prompt:** to the effect of "What is this text really about?"
+  (DK's recollection; verbatim lost with the conversation.)
+- **Ingestion:** the current PDF (build/the-mission.pdf,
+  draft-two state) **and nothing else** — per DK. Explains the
+  front-matter quotes.
+- **Design purpose (DK, on the record):** a blind probe of
+  whether the pod-shop / collective-decision-making frame behind
+  the project could be spotted WITHOUT being nudged into it.
+  **Result: not spotted.** The reading recovered institutional
+  conscience, solvency-not-rightness, and (via front matter) the
+  human–machine collaboration theme, but no finance-industry
+  frame beyond the text's own accounting language. Compare read
+  02's fifth turn, where DK asks the pod-shop question directly
+  and the reader affirms it: the subtext is deniable in the text,
+  recoverable under prompting — see 02's collation.
+- **Text state read:** draft-two (7e7ceb5, 48,987 narrative) —
+  every checked quote matches that state.
+- **Instrument class:** NOT a blind-panel read, NOT an
+  assigned-persona critique. A voluntary thematic explication by
+  an outside model, advocate-lens, zero negative findings. Per
+  process rules it is a brief, not a verdict; its counter-brief
+  arrived the same day as external read 02.
 
 ## Verbatim text (as supplied by DK)
 

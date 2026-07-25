@@ -574,5 +574,8 @@ already claims between wall and making-note).
 
 This register publishes DK's pod-shop framing (including the
 "Claude Shop" reference) in a public repo. Registered on DK's
-explicit direction, both conversations named; flagged once here
-for the record.
+explicit direction; DK confirms (2026-07-25) the framing was
+already public via his own Twitter posts, so no new disclosure —
+though the path itself (ChatGPT conversation → memory → ChatGPT
+conversation → transcript registered in a public repo) is noted
+as a provenance curiosity of the same species the book is about.

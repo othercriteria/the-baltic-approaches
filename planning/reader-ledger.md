@@ -51,6 +51,22 @@ so the question survives until the instruments can answer it.*
    on-theme (the book is about schedules) but risks the LARP line
    DK drew at chapter DTGs. Same assembly conversation.
 
+## ROUND 1 ANSWERS (2026-07-25, single fresh-Fable reviewer —
+notes/reader-ledger-review-r1.md; DK commissioned)
+
+The instrument returned page-located answers: **map YES** (first
+want ch. 3, hardest chs. 7/12 where the lack degraded the
+central-error reading, fades after ch. 13 → one early front map,
+not per-Part); **cast list NO**; **calendar marginal NO**.
+Verdict: good deal ("goods I expect to keep for years"; "never
+once padded"). Overpay list: ch. 6 middle, ch. 10 Rahn call,
+wall self-praise ×2, Aakjær curtain-line #5. Underserved:
+Rylski +1 chapter, Merete +1 page, one page inside a civil
+column. The maxim-monotone/exit-line-schedule finding converges
+with read 02 and the line editor — three instruments. These are
+R1 data points, not rulings; the next blind panel re-asks the
+same questions at full chorus.
+
 ## How to price it without anticipating it
 
 Give the next blind panel explicit ledger questions instead of

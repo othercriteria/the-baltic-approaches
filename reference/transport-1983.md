@@ -333,3 +333,45 @@ vol. 2 direct page-pull (pp. 604, 619) + vol. 3 pp. 556–558,
 kasse 7–11; (5) Landsdelskommando ØST/VEST staff studies via
 Rigsarkivet (physical) — the natural home of a Danish Belt lift
 timeline.
+
+## 10. NEPS — the fuel line under the whole scenario (2026-07-25, DK-prompted via Bogason)
+
+Web/museum tier (koldkrig-online.dk "NEPS-linjen"; Kystmuseet
+Bangsbo Fort; nato.int NPS topic page; OSW commentary 682).
+Bogason presumably carries the print-grade treatment — DK reading.
+
+- **North European Pipeline System (NEPS):** ~650 km military
+  POL pipeline, Frederikshavn (main depot; offshore tanker import
+  facility ~7 km off the coast) south down Jutland to the Kiel
+  Canal area — the NATO topic literature gives the southern
+  terminus as **Hohn** (the Transall base; also our alternate-HQ
+  woods and the AWS climate station — convergence noted, not
+  engineered). Built 1952–70 under NATO infrastructure, ~15 pump
+  stations, carrying **jet fuel, diesel, and gasoline to the
+  Jutland and North German air bases and barracks**.
+- **Period-perfect detail: the 1982–84 expansion** — branch line
+  to the Fredericia refinery and enlarged import at Esbjerg
+  harbor — is under construction or just complete in November
+  1983. (Fredericia and Esbjerg are both already load-bearing
+  addresses in the text.)
+- NATO Main Air Bases fed: Karup, Skrydstrup, Aalborg;
+  redeployment bases Tirstrup, Vandel, Værløse.
+
+**Scenario relevance (assessed in-session):**
+1. No contradiction on the page: ch. 2's eleven hundred
+   requisitioned civilian tankers read correctly as the
+   DISTRIBUTION lift (pipeline heads → formations), which
+   pipelines require rather than replace; the road-competition
+   claims (ch. 8) are ammunition-led, which NEPS does not carry.
+2. The real gap is an absence: the corps' ambient fuel picture
+   is all trucks. One clause could acknowledge the line without
+   briefing it.
+3. Best single candidate placement: **ch. 6, Aakjær's
+   careful-fires inventory of intact things** — the pump
+   stations of the fuel line belong on that list either way he
+   is read (a red wanting a working peninsula spares them; a red
+   strangling blue air hits them first), and the inventory is
+   already the scene's engine. Candidate only — DK to rule; no
+   text touched.
+4. Wargame: bulk POL lives inside the CAL-3 supply abstraction;
+   no recalibration implied.

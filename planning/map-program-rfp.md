@@ -12,6 +12,24 @@ planning/atlas, and search the web. Each required to COMMIT to
 one philosophy. Proposals verbatim below (§A–§D); synthesis
 first.*
 
+## RATIFIED (DK, 2026-07-25, in-session to e3137278)
+
+The convergent program (§Synthesis items 1–5) is RATIFIED. Fork
+rulings: **F1 = A/C/D** — draw the IGB and its real crossings
+(DK: "Per-war border is territory, not map, so to speak, as
+common knowledge"). **F2 = D** — no chokepoint emphasis; the
+network drawn honestly, discoverable not briefed. **F3 = no
+reprint. F4 = decide at trim proof. F5 = A/C** — full Approaches
+including Zealand/København (DK: "Zealand, etc., shouldn't be
+let to feel like abstractions, while the construction of the
+book works (not unproblematically) to make the Fulda Gap, etc.,
+an abstraction"). **F6 AMENDED** — the ruling is agreement
+between map and text face, NOT a pin to Pagella specifically
+(the book's face is not finally pinned); implement as a
+parameter that follows the build. **F7 = one quiet Rendsburg
+mark.** Implementation spec: planning/map-spec.md; Opus build
+agent commissioned same session.
+
 ## Synthesis
 
 ### The convergence (all four, independently)

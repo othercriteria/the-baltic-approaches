@@ -626,9 +626,15 @@ notes/line-edit-r1.md).
    literary register; leading option: title-dominant headers
    with the numeral demoted to TOC/running heads — decide
    together with 19/19a, which it also softens; no text
-   changes now); **reader-facing maps + apparatus scope**
-   (planning/reader-ledger.md — the "book's own two columns"
-   question, DK 2026-07-25).
+   changes now); **reader-facing maps: PROGRAM RATIFIED
+   2026-07-25** — four-proposal RFP + DK fork rulings in
+   planning/map-program-rfp.md; builder's contract in
+   planning/map-spec.md (two clean plates, front matter,
+   atlas-rendered, one ink, no war marks); Opus build agent
+   commissioned in-session — expect `atlas render` + `make
+   maps` + trim proofs on the tree for review. Apparatus scope
+   beyond maps: planning/reader-ledger.md (cast list ruled
+   unneeded by R1; calendar marginal-no).
 6. DK's larger-campaign note (lineage log, byline ruling): some
    future campaign work will "undeniably cross that line" —
    context for how hard to defend byline (a) here.

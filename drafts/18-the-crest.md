@@ -240,15 +240,13 @@ thirty minutes and hear the price in its own voice.
 The afternoon and evening ran on the movement tables.
 The assault brigades came out of the hides after dark
 in serials the crossing discipline called forward at
-the bridges' own pace, in the valve's grammar, third
-conjugation, and the operations room tracked them as
+the bridges' own pace, in the valve's grammar, and
+the operations room tracked them as
 it now tracked everything, by the two times, on a
 sheet Roloff had ruled that morning with the night's
 passage already divided into its hundred and forty
 serials, and with slack cut into the tables at his
-own initiative, because tables without slack are
-promises of the kind the wall had spent a war
-disproving.
+own initiative.
 
 The passage of lines itself ran at the marrying
 points Loheide's staff had marked with hooded lamps:
@@ -274,15 +272,13 @@ minutes logged against Roloff's slack. And Loheide's
 men, it came back up the net afterward, had stood up
 out of their positions in the dark as the fresh
 battalions ground through, not cheering — the
-protocol forbade noise — only standing, and watching,
-the way men watch money arrive.
+protocol forbade noise — only standing, and watching.
 
 At 2330 the last serial reported through. At 0100 the
 counter-battery count for the enemy's preparation
 crossed the model's committed-past-recovery line, and
 Roloff drew the vertical on the graph and dated it,
-and the operations room got quieter by the specific
-increment of a thing becoming irreversible.
+and the operations room got quieter.
 
 At dusk Hvidt walked the operations room once, alone,
 and stopped at the wall, and took the duty clerk's

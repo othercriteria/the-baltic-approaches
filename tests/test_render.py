@@ -13,13 +13,22 @@ Two guards, both "by construction":
 """
 
 import re
+from pathlib import Path
 
 import pytest
+import tomllib
 
 from atlas import Atlas
-from atlas.render import PLATES, render_plate
+from atlas.render import LABEL_AUDIT, LABEL_WHITELIST, PLATES, render_plate
 
 PLATE_NAMES = list(PLATES)
+
+_RAW = tomllib.loads(
+    (
+        Path(__file__).resolve().parent.parent / "atlas" / "data" / "theater-1983.toml"
+    ).read_text()
+)
+SHAPE_NAMES = [n["name"] for n in _RAW["node"] if n.get("kind") == "shape"]
 
 
 @pytest.fixture(scope="module")
@@ -234,3 +243,50 @@ def test_rendsburg_has_the_only_hq_mark(rendered):
 def test_label_face_is_a_parameter():
     svg, _ = render_plate("neck", face="Sentinel Test Face")
     assert "Sentinel Test Face" in svg
+
+
+# ---------------------------------------------------------------- build 2 invariants
+
+
+def test_shape_nodes_are_never_labelled(rendered):
+    """A `kind="shape"` node renders as an unlabelled path vertex (spec
+    build-2 work order). Its name must appear nowhere in either plate's
+    text."""
+    assert SHAPE_NAMES, "expected shape nodes in the atlas"
+    for name in PLATE_NAMES:
+        text = _texts(rendered[name][0])
+        for sn in SHAPE_NAMES:
+            assert sn not in text, f"{name}: shape node {sn!r} was labelled"
+
+
+def test_plate1_excludes_plate2_only_towns(rendered):
+    """The Plate II-only neck features must not letter on Plate I (build
+    2 fix 2 / the theater pile-up). Names that are in the neck whitelist
+    but NOT the approaches whitelist must be absent from Plate I text."""
+    atlas = Atlas.load()
+    plate2_only = LABEL_WHITELIST["neck"] - LABEL_WHITELIST["approaches"]
+    text = _texts(rendered["approaches"][0])
+    for nid in plate2_only:
+        disp = atlas.nodes[nid].name.split(" (")[0]
+        assert disp not in text, (
+            f"approaches: {disp!r} (Plate II-only) leaked onto Plate I"
+        )
+
+
+def test_labels_stay_inside_the_neatline(rendered):
+    """No town/water/region/country label escapes the neat-line (build 2
+    fix 6). Checked against the render's own placement audit."""
+    for name in PLATE_NAMES:
+        rendered[name]  # ensure rendered + audit populated
+        audit = LABEL_AUDIT[name]
+        fx0, fy0, fx1, fy1 = audit["frame"]
+        tol = 1.0
+        for bx0, by0, bx1, by1 in audit["boxes"]:
+            assert (
+                bx0 >= fx0 - tol
+                and bx1 <= fx1 + tol
+                and by0 >= fy0 - tol
+                and by1 <= fy1 + tol
+            ), (
+                f"{name}: label box {(bx0, by0, bx1, by1)} escapes frame {audit['frame']}"
+            )

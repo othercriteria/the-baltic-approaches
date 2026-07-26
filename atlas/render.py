@@ -66,6 +66,72 @@ FS_SCALE = 6.0
 SUPPRESS_NODES = {"bad_kleinen", "gadebusch", "selmsdorf"}
 # Unlabeled far-bank ferry landings.
 NO_LABEL = {"sehestedt_s", "nordfeld_s", "missunde_s"}
+# København is drawn (labelled) but carries NO town dot (DK ruling,
+# build 2 fix 10: "København stays unmarked").
+NO_DOT = {"koebenhavn"}
+
+# Per-plate label whitelist (build 2 fix 2 / Plate II item b): a node
+# is labelled AND dotted only if its id is in that plate's whitelist.
+# Everything else in frame — non-required towns, the Plate II-only
+# neck features (Sehestedt/Missunde/Nordfeld/Sorgbrück/Hohn) on Plate
+# I, the `_s` ferry landings, and every `kind="shape"` vertex — draws
+# as neither dot nor label (it still exists for edge routing). This is
+# what stops the theater plate's neck pile-up. The sets are the §3
+# required-town lists, by node id.
+LABEL_WHITELIST = {
+    "approaches": {
+        "aalborg",
+        "aarhus",
+        "vejle",
+        "fredericia",
+        "kolding",
+        "vamdrup",
+        "haderslev",
+        "aabenraa",
+        "padborg",
+        "esbjerg",
+        "flensburg",
+        "schleswig",
+        "rendsburg",
+        "neumunster",
+        "kiel",
+        "eckernforde",
+        "husum",
+        "friedrichstadt",
+        "heide",
+        "itzehoe",
+        "hamburg",
+        "lubeck",
+        "oldenburg_h",
+        "puttgarden",
+        "middelfart",
+        "odense",
+        "nyborg",
+        "korsor",
+        "slagelse",
+        "koebenhavn",
+        "vordingborg",
+        "nykobing_f",
+        "rodby",
+        "ratzeburg",
+        "schwerin",
+        "wismar",
+        "rostock",
+    },
+    "neck": {
+        "rendsburg",
+        "sehestedt",
+        "schleswig",
+        "missunde",
+        "eckernforde",
+        "husum",
+        "friedrichstadt",
+        "nordfeld",
+        "sorgbruck",
+        "hohn",
+        "neumunster",
+    },
+}
 
 # ---- per-plate configuration -------------------------------------
 # extent = (lon_min, lat_min, lon_max, lat_max) of the drawn neat-line.
@@ -74,27 +140,42 @@ NO_LABEL = {"sehestedt_s", "nordfeld_s", "missunde_s"}
 PLATES = {
     "approaches": {
         "title": "THE APPROACHES",
-        "extent": (8.05, 53.45, 12.70, 57.25),
+        # Extent nudged east a hair vs build 1 (12.70->12.80) so
+        # København has room to letter INSIDE the neat-line; edge labels
+        # are kept in frame by the label clamp (build 2 fix 6).
+        "extent": (8.00, 53.44, 12.80, 57.28),
         "target_w": 288.0,  # 4.0in live width, portrait
         "landscape": False,
         "waters": [
-            ("North Sea", 8.35, 54.95),
-            ("Baltic", 11.6, 54.75),
-            ("Little Belt", 9.83, 55.20),
-            ("Great Belt", 10.98, 55.62),
-            ("Fehmarn Belt", 11.30, 54.42),
-            ("Kiel Canal", 9.30, 54.14),
-            ("the Schlei", 9.98, 54.62),
-            ("the Eider", 8.70, 54.30),
-            ("the Trave", 10.83, 53.905),
+            ("North Sea", 8.30, 55.45),
+            ("Baltic", 11.85, 55.00),
+            ("Little Belt", 9.85, 55.18),
+            ("Great Belt", 10.98, 55.64),
+            ("Fehmarn Belt", 11.30, 54.40),
+            ("Kiel Canal", 9.24, 54.05),
+            ("the Schlei", 10.02, 54.66),
+            ("the Eider", 8.62, 54.26),
+            ("the Trave", 10.82, 53.90),
         ],
         "regions": [
-            ("JUTLAND", 9.30, 56.10),
-            ("FUNEN", 10.45, 55.25),
-            ("ZEALAND", 11.75, 55.35),
-            ("LOLLAND-FALSTER", 11.45, 54.72),
-            ("SCHLESWIG-HOLSTEIN", 9.55, 54.00),
-            ("MECKLENBURG", 11.75, 53.72),
+            ("JUTLAND", 9.10, 56.30),
+            ("FUNEN", 10.45, 55.20),
+            ("ZEALAND", 11.98, 55.44),
+            ("LOLLAND-FALSTER", 11.42, 54.70),
+            ("SCHLESWIG-HOLSTEIN", 9.72, 53.92),
+            ("MECKLENBURG", 12.10, 53.88),
+        ],
+        # Country labels (build 2 fix 8): faint, tracked, even lighter
+        # than the region subdivisions, placed in the emptiest land
+        # zones and clamped inside the neat-line. The two Germanys carry
+        # the compact period Anglophone convention (Times/Nat-Geo 1983
+        # sheets: WEST GERMANY / EAST GERMANY) — the full formal names
+        # run ~150pt wide and smear across a 4in plate (work order
+        # permits abbreviation).
+        "countries": [
+            ("DENMARK", 9.00, 56.92),
+            ("WEST GERMANY", 9.52, 53.62),
+            ("EAST GERMANY", 11.66, 53.62),
         ],
         "scale_km": 50,
     },
@@ -119,6 +200,14 @@ PLATES = {
         "scale_km": 10,
     },
 }
+
+
+# Label placement audit, populated by render_plate for the tests: per
+# plate, the neat-line frame and the bounding boxes of every placed
+# town / water / region / country label. The invariant (build 2 fix 6):
+# every one of these boxes lies inside the frame.
+LABEL_AUDIT = {}
+_AREA_ACC = None
 
 
 # ================================================================ geometry
@@ -194,6 +283,31 @@ def offset_line(pts, off):
         L = math.hypot(dx, dy) or 1.0
         nx, ny = -dy / L, dx / L
         out.append((pts[i][0] + nx * off, pts[i][1] + ny * off))
+    return out
+
+
+def offset_var(pts, halfs, sign):
+    """Like offset_line but with a per-vertex offset (points), signed.
+    Used to build tapering water ribbons (wide fjord mouth, narrow head)."""
+    if len(pts) < 2:
+        return pts
+    out = []
+    n = len(pts)
+    for i in range(n):
+        if i == 0:
+            ax, ay = pts[0]
+            bx, by = pts[1]
+        elif i == n - 1:
+            ax, ay = pts[i - 1]
+            bx, by = pts[i]
+        else:
+            ax, ay = pts[i - 1]
+            bx, by = pts[i + 1]
+        dx, dy = bx - ax, by - ay
+        L = math.hypot(dx, dy) or 1.0
+        nx, ny = -dy / L, dx / L
+        h = halfs[i] * sign
+        out.append((pts[i][0] + nx * h, pts[i][1] + ny * h))
     return out
 
 
@@ -318,17 +432,25 @@ class Labeller:
         self.boxes = []
         self.proj = proj
         self.collisions = 0
+        # the neat-line frame; every placed label box is kept inside it
+        # (build 2 fix 6: no label escapes the bounding box).
+        self.frame = (proj.pad, proj.pad, proj.cw - proj.pad, proj.ch - proj.pad)
 
     def _box_free(self, box):
         x0, y0, x1, y1 = box
         for bx in self.boxes:
-            if not (x1 < bx[0] or x0 > bx[2] or y1 < bx[3] or y0 > bx[1]):
-                # note: boxes stored as (x0,y1_top,x1,y0_bot)? keep simple below
-                pass
-        for bx in self.boxes:
             if not (x1 < bx[0] or x0 > bx[2] or y1 < bx[1] or y0 > bx[3]):
                 return False
         return True
+
+    def _in_frame(self, box, m=1.5):
+        fx0, fy0, fx1, fy1 = self.frame
+        return (
+            box[0] >= fx0 + m
+            and box[2] <= fx1 - m
+            and box[1] >= fy0 + m
+            and box[3] <= fy1 - m
+        )
 
     def place(
         self, svg, x, y, text, size, italic=False, force=True, pad=3.0, tracking=0.0
@@ -346,17 +468,49 @@ class Labeller:
             else:
                 bx0, bx1 = tx - w / 2, tx + w / 2
             box = (bx0, ty - h, bx1, ty)
-            if self._box_free(box):
+            if self._in_frame(box) and self._box_free(box):
                 chosen = (tx, ty, anchor, box)
                 break
         if chosen is None:
             if not force:
                 self.collisions += 1
                 return False
-            ox, oy, anchor = self.OFFSETS[0]
-            tx, ty = x + ox * pad, y + h * 0.32
-            bx0, bx1 = tx, tx + w
-            box = (bx0, ty - h, bx1, ty)
+            # fallback: point the label inward from the node and clamp the
+            # box fully inside the frame (accept a possible overlap — logged
+            # as a collision — but NEVER an out-of-frame escape).
+            fx0, fy0, fx1, fy1 = self.frame
+            anchor = "start" if x < (fx0 + fx1) / 2 else "end"
+            ty = y + h * 0.32
+            if anchor == "start":
+                tx = x + pad
+                bx0, bx1 = tx, tx + w
+            else:
+                tx = x - pad
+                bx0, bx1 = tx - w, tx
+            # clamp horizontally
+            if bx0 < fx0 + 1.5:
+                dx = (fx0 + 1.5) - bx0
+                tx += dx
+                bx0 += dx
+                bx1 += dx
+            if bx1 > fx1 - 1.5:
+                dx = bx1 - (fx1 - 1.5)
+                tx -= dx
+                bx0 -= dx
+                bx1 -= dx
+            # clamp vertically
+            top, bot = ty - h, ty
+            if top < fy0 + 1.5:
+                dy = (fy0 + 1.5) - top
+                ty += dy
+                top += dy
+                bot += dy
+            if bot > fy1 - 1.5:
+                dy = bot - (fy1 - 1.5)
+                ty -= dy
+                top -= dy
+                bot -= dy
+            box = (bx0, top, bx1, bot)
             chosen = (tx, ty, anchor, box)
             self.collisions += 1
         tx, ty, anchor, box = chosen
@@ -373,10 +527,28 @@ class Labeller:
 
 
 def render_plate(name, face=DEFAULT_FACE):
+    global _AREA_ACC
+    _AREA_ACC = []
     cfg = PLATES[name]
     atlas = Atlas.load()
     raw = _raw_toml()
     tracks = {e["id"]: e.get("tracks") for e in raw.get("edge", [])}
+    # shape nodes: real, named intermediate places that render as
+    # unlabelled, undotted path vertices (spec build-2 work order). Their
+    # `kind="shape"` classification lives in the atlas TOML; graph.py
+    # ignores it, the renderer reads it from the raw table.
+    shape = {n["id"] for n in raw.get("node", []) if n.get("kind") == "shape"}
+    whitelist = LABEL_WHITELIST[name]
+
+    def labelled(nid):
+        """A node is labelled iff it is in this plate's whitelist and is
+        not a shape vertex, a far-bank landing, or a suppressed red node."""
+        return (
+            nid in whitelist
+            and nid not in shape
+            and nid not in NO_LABEL
+            and nid not in SUPPRESS_NODES
+        )
 
     pad = 34.0
     proj = Projection(cfg["extent"], cfg["target_w"], pad)
@@ -428,31 +600,37 @@ def render_plate(name, face=DEFAULT_FACE):
                 project_line(f["geometry"]["coordinates"]), stroke=INK, width=W_COAST
             )
 
-    # --- rivers / firths / canal (hand-digitized base) ------------
-    svg.add("<!-- hand water -->")
+    # --- rivers / firths (hand-digitized base) --------------------
+    # Drawn as FILLED water ribbons (tint fill + fine bank lines) so the
+    # Schlei reads as a fjord and the Eider as a river, not as thin
+    # lines (build 2 Plate II acceptance blocker). Widths come from each
+    # feature's GUESS-tier `half_km`, converted to points at this
+    # plate's scale — so they are thin on the theater plate and legible
+    # water bodies on the neck plate.
+    svg.add("<!-- hand water (ribbons) -->")
     for f in hand["features"]:
         layer = f["properties"]["layer"]
         if layer in ("river", "firth"):
             coords = f["geometry"]["coordinates"]
             if not _touches_extent(coords, proj):
                 continue
-            w = W_FIRTH if layer == "firth" else W_RIVER
-            svg.poly(project_line(coords), stroke=INK, width=w)
+            _water_ribbon(svg, project_line(coords), _halfs_pt(f, proj, coords))
     # NE rivers (e.g. the Elbe) as thin lines
     for f in base["features"]:
         if f["properties"]["layer"] == "rivers":
             svg.poly(
                 project_line(f["geometry"]["coordinates"]), stroke=INK, width=W_RIVER
             )
-    # the Kiel Canal: firm double line, heaviest water feature
+    # the Kiel Canal: firm engineered waterway — a filled ribbon with two
+    # parallel bank lines, the heaviest water feature (spec §4).
     for f in hand["features"]:
         if f["properties"]["layer"] == "canal":
             coords = f["geometry"]["coordinates"]
             if not _touches_extent(coords, proj):
                 continue
-            pts = project_line(coords)
-            svg.poly(offset_line(pts, CANAL_GAP / 2), stroke=INK, width=W_CANAL)
-            svg.poly(offset_line(pts, -CANAL_GAP / 2), stroke=INK, width=W_CANAL)
+            _water_ribbon(
+                svg, project_line(coords), _halfs_pt(f, proj, coords), bank=W_CANAL
+            )
 
     # --- frontiers (real national only) ---------------------------
     svg.add("<!-- frontiers -->")
@@ -486,55 +664,65 @@ def render_plate(name, face=DEFAULT_FACE):
             _hachure(svg, project_line(f["geometry"]["coordinates"]))
 
     # --- nodes + HQ mark ------------------------------------------
+    # A node gets a dot only if it is labelled on this plate (so shape
+    # vertices, ferry landings, and non-whitelisted towns carry no dot);
+    # Rendsburg gets the HQ square; København is labelled but unmarked.
     svg.add("<!-- nodes -->")
     for nid, n in atlas.nodes.items():
-        if nid in SUPPRESS_NODES or nid in NO_LABEL:
-            continue
         if not proj.inside(n.lon, n.lat):
             continue
-        x, y = proj.xy(n.lon, n.lat)
         if nid == "rendsburg":
+            x, y = proj.xy(n.lon, n.lat)
             s = HQ_SQUARE
             svg.rect(x - s / 2, y - s / 2, s, s, stroke=INK, width=0.7, fill=LAND)
-        else:
+        elif labelled(nid) and nid not in NO_DOT:
+            x, y = proj.xy(n.lon, n.lat)
             svg.dot(x, y)
 
     svg.add("</g>")  # end neat-line clip
 
     # --- labels ----------------------------------------------------
+    # countries first (faintest; the ground beneath the subdivisions)
+    svg.add("<!-- labels: countries (faintest) -->")
+    for txt, lon, lat in cfg.get("countries", []):
+        if not proj.inside(lon, lat, 0.1):
+            continue
+        x, y = proj.xy(lon, lat)
+        _clamp_text(svg, proj, x, y, txt, FS_REGION, tracking=1.8, opacity=0.24)
+
     svg.add("<!-- labels: regions (faint) -->")
     for txt, lon, lat in cfg["regions"]:
         if not proj.inside(lon, lat, 0.1):
             continue
         x, y = proj.xy(lon, lat)
-        svg.text(x, y, txt, FS_REGION, anchor="middle", tracking=1.4, opacity=0.32)
+        _clamp_text(svg, proj, x, y, txt, FS_REGION, tracking=1.4, opacity=0.32)
 
     svg.add("<!-- labels: waters (small caps) -->")
     for txt, lon, lat in cfg["waters"]:
         if not proj.inside(lon, lat, 0.1):
             continue
         x, y = proj.xy(lon, lat)
-        svg.text(
+        _clamp_text(
+            svg,
+            proj,
             x,
             y,
             txt.upper(),
             FS_WATER * 0.9,
-            anchor="middle",
             italic=True,
             tracking=0.8,
             opacity=0.85,
         )
 
-    svg.add("<!-- labels: towns (roman, greedy) -->")
+    svg.add("<!-- labels: towns (roman, greedy, whitelist only) -->")
     # reserve title / furniture zones so labels avoid them
     _reserve_furniture(lab, proj, cfg)
+    town_start = len(lab.boxes)
     ordered = sorted(
         (
             n
             for nid, n in atlas.nodes.items()
-            if nid not in SUPPRESS_NODES
-            and nid not in NO_LABEL
-            and proj.inside(n.lon, n.lat)
+            if labelled(nid) and proj.inside(n.lon, n.lat)
         ),
         key=lambda n: n.lat,
         reverse=True,
@@ -542,6 +730,12 @@ def render_plate(name, face=DEFAULT_FACE):
     for n in ordered:
         x, y = proj.xy(n.lon, n.lat)
         lab.place(svg, x, y, _display_name(n.name), FS_TOWN)
+
+    # record the placed label boxes for the in-frame invariant test
+    LABEL_AUDIT[name] = {
+        "frame": lab.frame,
+        "boxes": list(lab.boxes[town_start:]) + list(_AREA_ACC),
+    }
 
     # --- furniture -------------------------------------------------
     svg.add("<!-- furniture -->")
@@ -551,6 +745,58 @@ def render_plate(name, face=DEFAULT_FACE):
 
 
 # ---------------------------------------------------------------- sub-draws
+
+
+def _km_to_pt(proj, km):
+    return km * (proj.deg_lat_pt / 111.2)
+
+
+def _halfs_pt(feature, proj, coords):
+    """Per-vertex half-widths in points for a water feature, from its
+    GUESS-tier `half_km` (a scalar or a per-vertex list), with a floor so
+    nothing vanishes at theater scale."""
+    hk = feature["properties"].get("half_km", 0.25)
+    floor = 0.9  # pt, each side
+    if isinstance(hk, list):
+        vals = hk + [hk[-1]] * (len(coords) - len(hk))
+        return [max(floor, _km_to_pt(proj, v)) for v in vals[: len(coords)]]
+    return [max(floor, _km_to_pt(proj, hk))] * len(coords)
+
+
+def _water_ribbon(svg, pts, halfs, bank=W_COAST):
+    """A filled water ribbon: tint fill bounded by two fine bank lines.
+    This is what makes a hand-digitized centreline read as WATER (a fjord
+    or a canal) rather than as a stroked line."""
+    if len(pts) < 2:
+        return
+    left = offset_var(pts, halfs, +1)
+    right = offset_var(pts, halfs, -1)
+    svg.poly(left + right[::-1], stroke="none", fill=WATER_TINT)
+    svg.poly(left, stroke=INK, width=bank)
+    svg.poly(right, stroke=INK, width=bank)
+
+
+def _clamp_text(svg, proj, x, y, text, size, italic=False, tracking=0.0, opacity=None):
+    """Draw a middle-anchored area label (water/region/country), shifting
+    it so its box stays inside the neat-line (build 2 fix 6)."""
+    w = len(text) * size * 0.52 + len(text) * tracking
+    h = size * 0.9
+    fx0, fy0 = proj.pad, proj.pad
+    fx1, fy1 = proj.cw - proj.pad, proj.ch - proj.pad
+    x = min(max(x, fx0 + 1.5 + w / 2), fx1 - 1.5 - w / 2)
+    y = min(max(y, fy0 + 1.5 + h), fy1 - 1.5)
+    if _AREA_ACC is not None:
+        _AREA_ACC.append((x - w / 2, y - h, x + w / 2, y))
+    svg.text(
+        x,
+        y,
+        text,
+        size,
+        anchor="middle",
+        italic=italic,
+        tracking=tracking,
+        opacity=opacity,
+    )
 
 
 def _road_w(cls):
@@ -634,8 +880,10 @@ def _draw_frontiers(svg, proj, name):
     with its two real gaps). Hand-digitized generalized traces —
     GUESS-tier, disclosed in the base README. Real national frontiers
     only; no other boundary is ever drawn."""
-    # Danish frontier: west coast to Flensburg Fjord, ~lat 54.83
-    dk = [(8.60, 54.91), (8.85, 54.90), (9.05, 54.89), (9.25, 54.85), (9.43, 54.83)]
+    # Danish frontier: from the Wadden coast east to Flensburg Fjord,
+    # ~lat 54.83. Western end trimmed to the coastline (build 2 fix 9:
+    # no dashed protrusion into the North Sea; it started at 8.60 before).
+    dk = [(8.84, 54.905), (9.05, 54.89), (9.25, 54.85), (9.43, 54.83)]
     if _touches_extent(dk, proj):
         svg.poly(
             [proj.xy(lo, la) for lo, la in dk],
@@ -712,9 +960,10 @@ def _reserve_furniture(lab, proj, cfg):
     # title band (top), legend box (a corner), scale bar (bottom) —
     # keep town labels out of them.
     lab.reserve((proj.pad, 0, proj.cw - proj.pad, proj.pad))  # title
-    lab.reserve(
-        (proj.pad, proj.ch - proj.pad, proj.pad + 96, proj.ch - proj.pad + 22)
-    )  # scale
+    # scale bar zone (bottom-left, inside the neat-line)
+    lab.reserve((proj.pad, proj.ch - proj.pad - 22, proj.pad + 110, proj.ch - proj.pad))
+    # N-tick zone (top-left, inside)
+    lab.reserve((proj.pad, proj.pad, proj.pad + 24, proj.pad + 30))
     lab.reserve(_legend_box(proj, cfg))
 
 
@@ -723,7 +972,7 @@ def _legend_box(proj, cfg):
     neck uses bottom-left (stacked above the scale bar) because its
     top-right corner is owned by the Schlei/Eckernforde-Bay water and
     label."""
-    w, h = 92, 46
+    w, h = 104, 66
     if cfg.get("legend_corner") == "bl":
         x = proj.pad + 4
         y = proj.ch - proj.pad - h - 17  # above the scale bar
@@ -782,9 +1031,13 @@ def _legend(svg, proj, cfg):
     box = _legend_box(proj, cfg)
     x0, y0, x1, y1 = box
     svg.rect(x0, y0, x1 - x0, y1 - y0, stroke=INK, width=0.4, fill="#ffffff")
+    # Every drawn line class is legended, including the rail double/single
+    # distinction (build 2 fix 4) and the canal waterway symbol (fix 5).
     rows = [
         ("motorway", "road", W_MOTORWAY, None),
-        ("rail", "rail", None, None),
+        ("rail (double)", "rail2", None, None),
+        ("rail (single)", "rail1", None, None),
+        ("canal", "canal", None, None),
         ("ferry", "ferry", 0.6, "3.2,2.4"),
         ("frontier", "road", W_FRONTIER, "4,2.5"),
         ("HQ", "hq", None, None),
@@ -793,14 +1046,39 @@ def _legend(svg, proj, cfg):
     ty = y0 + 10
     for label, kind, w, dash in rows:
         sx = lx
-        if kind == "rail":
-            svg.line(sx, ty - 2, sx + 16, ty - 2, stroke=INK, width=W_RAIL)
+        cy = ty - 2
+        if kind in ("rail1", "rail2"):
+            if kind == "rail2":
+                svg.line(
+                    sx,
+                    cy - RAIL_DOUBLE_GAP / 2,
+                    sx + 16,
+                    cy - RAIL_DOUBLE_GAP / 2,
+                    stroke=INK,
+                    width=W_RAIL,
+                )
+                svg.line(
+                    sx,
+                    cy + RAIL_DOUBLE_GAP / 2,
+                    sx + 16,
+                    cy + RAIL_DOUBLE_GAP / 2,
+                    stroke=INK,
+                    width=W_RAIL,
+                )
+            else:
+                svg.line(sx, cy, sx + 16, cy, stroke=INK, width=W_RAIL)
             for t in (4, 8, 12):
-                svg.line(sx + t, ty - 4, sx + t, ty, stroke=INK, width=0.4)
+                svg.line(sx + t, cy - 2.2, sx + t, cy + 2.2, stroke=INK, width=0.4)
+        elif kind == "canal":
+            # a short filled waterway ribbon with two bank lines
+            g = CANAL_GAP / 2 + 0.4
+            svg.rect(sx, cy - g, 16, 2 * g, stroke="none", fill=WATER_TINT)
+            svg.line(sx, cy - g, sx + 16, cy - g, stroke=INK, width=W_CANAL)
+            svg.line(sx, cy + g, sx + 16, cy + g, stroke=INK, width=W_CANAL)
         elif kind == "hq":
             svg.rect(
                 sx + 5,
-                ty - 5,
+                cy - 1.6,
                 HQ_SQUARE,
                 HQ_SQUARE,
                 stroke=INK,
@@ -808,7 +1086,7 @@ def _legend(svg, proj, cfg):
                 fill="#ffffff",
             )
         else:
-            svg.line(sx, ty - 2, sx + 16, ty - 2, stroke=INK, width=w, dash=dash)
+            svg.line(sx, cy, sx + 16, cy, stroke=INK, width=w, dash=dash)
         svg.text(lx + 22, ty, label, FS_LEGEND, anchor="start")
         ty += 8
 

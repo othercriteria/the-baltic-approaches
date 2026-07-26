@@ -1,52 +1,58 @@
 {
-  "_provenance": "Hand-digitized generalized polylines, session e3137278 (2026-07-25). These water/earthwork features are absent from Natural Earth 10m at plate grain (NE 10m rivers return ZERO features inside the neck bbox: no Kiel Canal, Schlei, Eider, Treene). Per map-spec.md the sanctioned fallback is hand-digitizing at generalized 1:500k grain from PD sources / known geography, marked GUESS, disclosed. Endpoints are anchored to atlas node coordinates where a node exists (Rendsburg, Schleswig, Friedrichstadt, Lubeck...). NO copyrighted or scanned map was traced; these are coarse ~1:500k traces from public geographic knowledge. TIER: GUESS throughout. The Danevirke trace follows reference/danevirke.md (Schlei head WSW to the Treene marshes, ~19 km, facing south).",
+  "_provenance": "Hand-digitized generalized polylines, session e3137278 (2026-07-25), DENSIFIED in build 2 so the neck-plate water reads as continuous water bodies (the build-1 acceptance blocker). These features are absent from Natural Earth 10m at plate grain (NE 10m rivers return ZERO features inside the neck bbox: no Kiel Canal, Schlei, Eider, Treene). Per map-spec.md the sanctioned fallback is hand-digitizing at generalized ~1:500k grain from PD sources / public geographic knowledge, marked GUESS, disclosed. Endpoints are anchored to atlas node coordinates where a node exists (Rendsburg, Schleswig, Friedrichstadt, Lubeck...). NO copyrighted or scanned map was traced; these are coarse traces from public geographic knowledge. The `half_km` property on a water feature is the GUESS-tier half-width in km used to draw it as a filled water ribbon (a scalar, or a per-vertex list tapering the fjord); the renderer converts it to points at each plate's own scale, so the same feature is a thin line on the theater plate and a legible water body on the neck plate. Cartographically the canal is drawn a touch wider than true scale so it does not vanish. TIER: GUESS throughout. The Danevirke trace follows reference/danevirke.md (Schlei head WSW to the Treene marshes, ~19 km, facing south).",
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
-      "properties": {"layer": "canal", "name": "Kiel Canal", "tier": "GUESS"},
+      "properties": {"layer": "canal", "name": "Kiel Canal", "tier": "GUESS", "half_km": 0.35},
       "geometry": {"type": "LineString", "coordinates": [
-        [9.14, 53.89], [9.22, 53.97], [9.34, 54.06], [9.46, 54.14],
-        [9.57, 54.24], [9.63, 54.29], [9.70, 54.32], [9.80, 54.36],
-        [9.90, 54.39], [10.02, 54.38], [10.12, 54.37]
+        [9.14, 53.89], [9.19, 53.94], [9.25, 54.00], [9.32, 54.06],
+        [9.40, 54.11], [9.49, 54.16], [9.57, 54.22], [9.62, 54.27],
+        [9.66, 54.30], [9.72, 54.33], [9.80, 54.363], [9.86, 54.383],
+        [9.93, 54.39], [10.00, 54.385], [10.07, 54.375], [10.13, 54.365]
       ]}
     },
     {
       "type": "Feature",
-      "properties": {"layer": "firth", "name": "the Schlei", "tier": "GUESS"},
+      "properties": {"layer": "firth", "name": "the Schlei", "tier": "GUESS",
+        "half_km": [1.2, 1.3, 1.1, 1.0, 0.9, 0.8, 0.6, 0.35, 0.6, 0.9, 1.1]},
       "geometry": {"type": "LineString", "coordinates": [
-        [10.04, 54.67], [9.98, 54.68], [9.93, 54.66], [9.86, 54.62],
-        [9.80, 54.57], [9.735, 54.525], [9.66, 54.525], [9.57, 54.515]
+        [10.04, 54.665], [9.98, 54.665], [9.92, 54.645], [9.87, 54.625],
+        [9.82, 54.600], [9.78, 54.570], [9.755, 54.545], [9.735, 54.528],
+        [9.685, 54.523], [9.620, 54.520], [9.575, 54.515]
       ]}
     },
     {
       "type": "Feature",
-      "properties": {"layer": "river", "name": "the Eider", "tier": "GUESS"},
+      "properties": {"layer": "river", "name": "the Eider", "tier": "GUESS",
+        "half_km": [0.8, 0.7, 0.55, 0.45, 0.4, 0.35, 0.3, 0.3, 0.25, 0.25]},
       "geometry": {"type": "LineString", "coordinates": [
-        [8.84, 54.27], [8.94, 54.31], [9.02, 54.35], [9.09, 54.38],
-        [9.20, 54.36], [9.33, 54.33], [9.47, 54.31], [9.58, 54.30]
+        [8.80, 54.285], [8.88, 54.305], [8.96, 54.335], [9.03, 54.365],
+        [9.09, 54.380], [9.18, 54.370], [9.28, 54.352], [9.40, 54.332],
+        [9.52, 54.312], [9.61, 54.302]
       ]}
     },
     {
       "type": "Feature",
-      "properties": {"layer": "river", "name": "the Treene", "tier": "GUESS"},
+      "properties": {"layer": "river", "name": "the Treene", "tier": "GUESS", "half_km": 0.22},
       "geometry": {"type": "LineString", "coordinates": [
-        [9.24, 54.58], [9.19, 54.52], [9.14, 54.46], [9.10, 54.41], [9.09, 54.38]
+        [9.245, 54.585], [9.205, 54.535], [9.165, 54.485], [9.125, 54.435],
+        [9.10, 54.405], [9.09, 54.380]
       ]}
     },
     {
       "type": "Feature",
-      "properties": {"layer": "river", "name": "the Sorge", "tier": "GUESS"},
+      "properties": {"layer": "river", "name": "the Sorge", "tier": "GUESS", "half_km": 0.15},
       "geometry": {"type": "LineString", "coordinates": [
-        [9.28, 54.40], [9.32, 54.36], [9.35, 54.32], [9.36, 54.28]
+        [9.28, 54.405], [9.31, 54.375], [9.335, 54.345], [9.35, 54.315], [9.355, 54.285]
       ]}
     },
     {
       "type": "Feature",
-      "properties": {"layer": "river", "name": "the Trave", "tier": "GUESS"},
+      "properties": {"layer": "river", "name": "the Trave", "tier": "GUESS", "half_km": 0.3},
       "geometry": {"type": "LineString", "coordinates": [
-        [10.58, 53.78], [10.64, 53.83], [10.69, 53.87], [10.78, 53.92],
-        [10.85, 53.95], [10.88, 53.97]
+        [10.55, 53.76], [10.60, 53.80], [10.64, 53.83], [10.69, 53.87],
+        [10.75, 53.905], [10.82, 53.94], [10.87, 53.965]
       ]}
     },
     {

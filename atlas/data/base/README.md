@@ -61,6 +61,16 @@ only, never as survey data.
 - **Kiel Canal** — Brunsbüttel → Rendsburg → Holtenau, generalized.
 - **the Schlei** — Baltic (Schleimünde) → Missunde narrows → Schleswig.
 - **the Eider / Treene / Sorge** — the neck's valve waters.
+
+**Build-2 densification (2026-07-25):** the canal, Schlei, and Eider
+were given more vertices and a GUESS-tier `half_km` half-width (a scalar,
+or a per-vertex list tapering the Schlei fjord), so the renderer can draw
+them as FILLED water ribbons rather than thin lines — the fix for the
+Plate II "the water is the blocker" acceptance item. `half_km` is coarse
+public-knowledge geography (the canal is drawn a touch wider than true
+scale so it does not vanish); the renderer scales it to points per plate,
+so the same feature is a thin line on the theater plate and a legible
+water body on the neck plate. Still no copyrighted or scanned map traced.
 - **the Trave** — Lübeck → Travemünde (Plate I).
 - **the Danevirke** — Schlei-head WSW to the Treene marshes, ~19 km,
   facing south, per `reference/danevirke.md`. Rendered as an earthwork

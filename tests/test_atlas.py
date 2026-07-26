@@ -2,14 +2,40 @@
 the specimen's bridge-invention class of error (critique-profile
 2.6): geography claims fail loudly here, not silently in prose."""
 
+from pathlib import Path
+
 import pytest
+import tomllib
 
 from atlas import Atlas
+
+_RAW = tomllib.loads(
+    (
+        Path(__file__).resolve().parent.parent / "atlas" / "data" / "theater-1983.toml"
+    ).read_text()
+)
 
 
 @pytest.fixture(scope="module")
 def atlas():
     return Atlas.load()
+
+
+def test_every_rail_edge_asserts_a_track_count():
+    """Build 2 fix 4: no drawn rail line without a track assertion. Every
+    mode=rail edge must declare `tracks` (single|double) and carry a
+    graded `tracks_src` (SOURCED:... | GUESS:...), so the plate can never
+    render an un-asserted third rail class."""
+    for e in _RAW["edge"]:
+        if e["class"] != "rail":
+            continue
+        assert e.get("tracks") in ("single", "double"), (
+            f"{e['id']}: missing/invalid tracks"
+        )
+        src = e.get("tracks_src", "")
+        assert src.startswith("SOURCED") or src.startswith("GUESS"), (
+            f"{e['id']}: tracks_src not graded ({src!r})"
+        )
 
 
 def test_loads_clean(atlas):

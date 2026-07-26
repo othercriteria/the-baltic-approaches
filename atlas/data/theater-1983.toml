@@ -600,14 +600,41 @@ route = "B207/E4"
 km = 61
 cap_source = "DEFAULT"
 
+# B76/B430 Kiel-Lübeck, rerouted through Plön + Eutin shape nodes
+# (build 2 fix 3: the old straight kiel-lubeck edge drew across the
+# Großer Plöner See). Plön and Eutin are real towns on the route; as
+# shape nodes they render as unlabeled vertices bending the road south
+# of the Holstein lakes. km 30+12+36=78 preserves the former total.
 [[edge]]
-id = "rd-kiel-lubeck"
+id = "rd-kiel-ploen"
 a = "kiel"
+b = "ploen"
+mode = "road"
+class = "trunk"
+route = "B76"
+km = 30
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "rd-ploen-eutin"
+a = "ploen"
+b = "eutin"
+mode = "road"
+class = "trunk"
+route = "B76/B430"
+km = 12
+cap_source = "DEFAULT"
+verify = true
+
+[[edge]]
+id = "rd-eutin-lubeck"
+a = "eutin"
 b = "lubeck"
 mode = "road"
 class = "trunk"
-route = "B76/B207"
-km = 78
+route = "B76"
+km = 36
 cap_source = "DEFAULT"
 verify = true
 
@@ -779,6 +806,7 @@ mode = "rail"
 class = "rail"
 km = 26
 tracks = "double"
+tracks_src = "SOURCED: da.wikipedia Fredericia-Vamdrup-banen (double since 1955)"
 via = "via Lunderskov; DOUBLE TRACK Fredericia-Vamdrup in 1983"
 cap_source = "DEFAULT"
 notes = "Double track, diesel [transport-1983 §3]. Split from the former rail-fredericia-padborg for the Vamdrup track-change render."
@@ -789,6 +817,8 @@ a = "padborg"
 b = "flensburg"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED: de.wikipedia Fredericia-Flensburg (double; only the Danish Tinglev-Padborg side is single)"
 km = 16
 crossing = "dk_de_border"
 cap_source = "DEFAULT"
@@ -800,6 +830,8 @@ a = "fredericia"
 b = "middelfart"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED: da.wikipedia Lillebaeltsbroen 1935 (double track)"
 km = 7
 via = "old Lillebæltsbro (1935, road+rail)"
 crossing = "little_belt"
@@ -811,6 +843,8 @@ a = "middelfart"
 b = "odense"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED: Fynske hovedbane doubled 1908-1914"
 km = 44
 cap_source = "DEFAULT"
 
@@ -820,6 +854,8 @@ a = "odense"
 b = "nyborg"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED: Fynske hovedbane double by 1914"
 km = 29
 cap_source = "DEFAULT"
 
@@ -829,6 +865,8 @@ a = "korsor"
 b = "ringsted"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED: Vestbanen Sjaelland double 1899-1900"
 km = 45
 cap_source = "DEFAULT"
 
@@ -838,6 +876,8 @@ a = "ringsted"
 b = "koebenhavn"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED: Vestbanen double (Kbh-Roskilde 1874, Roskilde-Korsor 1899-1900)"
 km = 64
 cap_source = "DEFAULT"
 
@@ -847,6 +887,8 @@ a = "ringsted"
 b = "naestved"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED: da.wikipedia Sydbanen/Ringsted-Naestved (double from 1924) - CORRECTED from guess single"
 km = 25
 cap_source = "DEFAULT"
 
@@ -856,6 +898,8 @@ a = "naestved"
 b = "vordingborg"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED: da.wikipedia Sydbanen (double from 1925) - CORRECTED from guess single"
 km = 27
 cap_source = "DEFAULT"
 
@@ -865,6 +909,8 @@ a = "vordingborg"
 b = "nykobing_f"
 mode = "rail"
 class = "rail"
+tracks = "single"
+tracks_src = "SOURCED: da.wikipedia Storstromsbroen (single until the 2018 parallel bridge)"
 km = 41
 via = "Storstrømsbroen (1937, road+rail)"
 crossing = "storstrom"
@@ -878,6 +924,8 @@ a = "nykobing_f"
 b = "rodby"
 mode = "rail"
 class = "rail"
+tracks = "single"
+tracks_src = "SOURCED: danskejernbaner Nykobing F-Rodby (single 1963-2021)"
 km = 31
 cap_tpd = 7500
 cap_source = "DERIVED:TR0603-density"
@@ -898,18 +946,68 @@ cap_tpd = 4000
 cap_source = "DERIVED:wagons"
 notes = "~14 rail wagons/crossing class; carried the Hamburg-Kobenhavn through trains [transport-1983 §2]"
 
+# Vogelfluglinie land rail, rerouted through Burg auf Fehmarn +
+# Neustadt in Holstein shape nodes and the real Oldenburg node (build
+# 2 fix 2: the old single puttgarden-lubeck edge drew a straight line
+# across Lübeck Bay). The line runs Puttgarden - Burg auf Fehmarn -
+# [Fehmarnsundbrücke] - Oldenburg - Neustadt - Lübeck along the coast.
+# km 8+21+30+26=85 preserves the former total. Lübeck-Neustadt double,
+# Neustadt-Puttgarden single (see tracks note in the additions block).
 [[edge]]
-id = "rail-puttgarden-lubeck"
+id = "rail-puttgarden-burg"
 a = "puttgarden"
-b = "lubeck"
+b = "burg_fehmarn"
 mode = "rail"
 class = "rail"
-km = 85
+km = 8
+tracks = "single"
+tracks_src = "SOURCED: de.wikipedia Luebeck-Puttgarden (single throughout)"
+via = "Vogelfluglinie on Fehmarn (Puttgarden-Burg)"
+cap_tpd = 7500
+cap_source = "DERIVED:TR0603-density"
+notes = "Single track; diesel [transport-1983 §3]"
+
+[[edge]]
+id = "rail-burg-oldenburg"
+a = "burg_fehmarn"
+b = "oldenburg_h"
+mode = "rail"
+class = "rail"
+km = 21
+tracks = "single"
+tracks_src = "SOURCED: de.wikipedia Luebeck-Puttgarden (single; Fehmarnsundbruecke single)"
 via = "Fehmarnsundbrücke (1963, 1 track + 2 road lanes)"
 crossing = "fehmarn_sound"
 cap_tpd = 7500
 cap_source = "DERIVED:TR0603-density"
-notes = "Predominantly single track Lübeck-Puttgarden; diesel [transport-1983 §3]"
+notes = "Single track over the Fehmarnsund bridge; diesel [transport-1983 §3]"
+
+[[edge]]
+id = "rail-oldenburg-neustadt"
+a = "oldenburg_h"
+b = "neustadt_h"
+mode = "rail"
+class = "rail"
+km = 30
+tracks = "single"
+tracks_src = "SOURCED: de.wikipedia Luebeck-Puttgarden (single)"
+via = "Vogelfluglinie (Oldenburg-Neustadt), single track"
+cap_tpd = 7500
+cap_source = "DERIVED:TR0603-density"
+notes = "Single track; diesel [transport-1983 §3]"
+
+[[edge]]
+id = "rail-neustadt-lubeck"
+a = "neustadt_h"
+b = "lubeck"
+mode = "rail"
+class = "rail"
+km = 26
+tracks = "single"
+tracks_src = "SOURCED: de.wikipedia Luebeck-Puttgarden (whole line eingleisig) - CORRECTED from guess double"
+via = "Lübeck-Neustadt (Holstein), double track"
+cap_source = "DEFAULT"
+notes = "Double track Lübeck-Neustadt [transport-1983 §3]"
 
 [[edge]]
 id = "rail-hamburg-neumunster"
@@ -917,6 +1015,8 @@ a = "hamburg"
 b = "neumunster"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED: de.wikipedia Hamburg-Altona-Kiel (double throughout)"
 km = 70
 cap_source = "DEFAULT"
 
@@ -926,6 +1026,8 @@ a = "neumunster"
 b = "rendsburg"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED: de.wikipedia Neumuenster-Flensburg (double throughout)"
 km = 31
 cap_source = "DEFAULT"
 
@@ -937,6 +1039,7 @@ mode = "rail"
 class = "rail"
 km = 20
 tracks = "double"
+tracks_src = "SOURCED: de.wikipedia Rendsburger Hochbruecke (double; single only 1993-2014)"
 via = "Rendsburg high bridge + loop (1913)"
 crossing = "kiel_canal"
 cap_source = "DEFAULT"
@@ -948,6 +1051,8 @@ a = "schleswig"
 b = "flensburg"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED: de.wikipedia Neumuenster-Flensburg (double)"
 km = 30
 cap_source = "DEFAULT"
 
@@ -957,6 +1062,8 @@ a = "neumunster"
 b = "kiel"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED: de.wikipedia Hamburg-Altona-Kiel (double)"
 km = 30
 cap_source = "DEFAULT"
 
@@ -966,6 +1073,8 @@ a = "hamburg"
 b = "lubeck"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED: de.wikipedia Luebeck-Hamburg (doubled by 1877/78)"
 km = 63
 cap_source = "DEFAULT"
 
@@ -975,6 +1084,8 @@ a = "neumunster"
 b = "heide"
 mode = "rail"
 class = "rail"
+tracks = "single"
+tracks_src = "SOURCED: de.wikipedia Neumuenster-Heide (eingleisige Nebenbahn)"
 km = 45
 cap_tpd = 7500
 cap_source = "DERIVED:TR0603-density"
@@ -986,6 +1097,8 @@ a = "heide"
 b = "husum"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED: de.wikipedia Marschbahn / Eisenbahnbruecke Friedrichstadt (double until the 1988 rebuild; single only from April 1989 - so DOUBLE in Nov 1983)"
 km = 40
 crossing = "eider"
 via = "single-track swing bridge over the Eider at Friedrichstadt"
@@ -1066,6 +1179,8 @@ a = "rostock"
 b = "bad_kleinen"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED: de.wikipedia Bad Kleinen-Rostock (re-doubled 1973-75)"
 km = 55
 cap_source = "DEFAULT"
 notes = "Double track (re-doubled 1973-75), diesel in 1983 (DR electrification 1985-87) [transport-1983 §3]"
@@ -1076,6 +1191,8 @@ a = "schwerin"
 b = "bad_kleinen"
 mode = "rail"
 class = "rail"
+tracks = "double"
+tracks_src = "SOURCED (caveat): Ludwigslust-Bad Kleinen double; no reparations singling recorded for this segment"
 km = 17
 cap_source = "DEFAULT"
 notes = "Double track (on the 1973-75 rebuilt Bad Kleinen-Rostock main line), diesel 1983 [transport-1983 §3]"
@@ -1086,6 +1203,8 @@ a = "bad_kleinen"
 b = "lubeck"
 mode = "rail"
 class = "rail"
+tracks = "single"
+tracks_src = "SOURCED: de.wikipedia Luebeck-Bad Kleinen (2nd track removed as reparations; single)"
 km = 65
 crossing = "igb"
 via = "Herrnburg border crossing"
@@ -1244,6 +1363,70 @@ lat = 54.31
 lon = 9.50
 notes = "West of Rendsburg. GUESS position."
 
+# -- shape nodes (build 2, 2026-07-25) --------------------------
+# `kind = "shape"` marks a real, named intermediate place that lies
+# on a route (a station or junction) and is added purely so the drawn
+# line bends through a true point instead of drawing a straight
+# segment across water. graph.py ignores `kind` (unknown key); the
+# renderer draws these WITHOUT a town dot and WITHOUT a label (spec
+# build-2 work order: "unlabeled shape node class"). Positions are
+# GUESS-tier road-atlas-from-memory. Every shape node is reachable
+# via the split edges that route through it, so connectivity holds.
+
+[[node]]
+id = "ribe"
+name = "Ribe"
+region = "JY"
+kind = "shape"
+lat = 55.33
+lon = 8.77
+notes = "Vestkystbanen station between Esbjerg and Tønder; Marschbahn shape vertex. GUESS position."
+
+[[node]]
+id = "niebull"
+name = "Niebüll"
+region = "SH"
+kind = "shape"
+lat = 54.79
+lon = 8.83
+notes = "Marschbahn junction (Niebüll); west-coast rail shape vertex. GUESS position."
+
+[[node]]
+id = "burg_fehmarn"
+name = "Burg auf Fehmarn"
+region = "SH"
+kind = "shape"
+lat = 54.43
+lon = 11.19
+notes = "Vogelfluglinie station on Fehmarn; rail shape vertex. GUESS position."
+
+[[node]]
+id = "neustadt_h"
+name = "Neustadt in Holstein"
+region = "SH"
+kind = "shape"
+lat = 54.11
+lon = 10.82
+notes = "Vogelfluglinie/Holstein-coast rail junction; shape vertex. GUESS position."
+
+[[node]]
+id = "ploen"
+name = "Plön"
+region = "SH"
+kind = "shape"
+lat = 54.16
+lon = 10.42
+notes = "B76 town in the Holstein lake district; road shape vertex (south of the Großer Plöner See). GUESS position."
+
+[[node]]
+id = "eutin"
+name = "Eutin"
+region = "SH"
+kind = "shape"
+lat = 54.14
+lon = 10.62
+notes = "B76 town (a ch. 4 place); road shape vertex. Kept unlabeled to avoid the theater-plate crowding around Plön/Eutin. GUESS position."
+
 # -- edges ------------------------------------------------------
 
 [[edge]]
@@ -1252,6 +1435,8 @@ a = "vamdrup"
 b = "padborg"
 mode = "rail"
 class = "rail"
+tracks = "single"
+tracks_src = "SOURCED: da.wikipedia Vamdrup-Padborg-banen (single; doublings 1996/2014)"
 km = 66
 via = "SINGLE TRACK Vamdrup-Padborg in 1983 (doublings 1996/2014)"
 cap_tpd = 7500
@@ -1259,17 +1444,55 @@ cap_source = "DERIVED:TR0603-density"
 verify = true
 notes = "Single-track border rail feed; the chokepoint segment. Split from rail-fredericia-padborg [transport-1983 §3]."
 
+# Marschbahn west-coast rail, rerouted through Ribe + Niebüll shape
+# nodes (build 2 fix 1: the old single esbjerg-husum edge drew a
+# straight line across the North Sea). Ribe and Niebüll are real
+# stations that lie on the route; as `kind="shape"` nodes they render
+# as unlabeled path vertices, bending the line inland. km 30+40+40=110
+# preserves the former total. All single track (Vestkystbanen /
+# Marschbahn); see the tracks-provenance note in the additions block.
 [[edge]]
-id = "rail-esbjerg-husum"
+id = "rail-esbjerg-ribe"
 a = "esbjerg"
-b = "husum"
+b = "ribe"
 mode = "rail"
 class = "rail"
-km = 110
-via = "Marschbahn west coast (Bramming-Tondern-Niebull-Husum), single track"
+km = 30
+tracks = "single"
+tracks_src = "SOURCED: Vestkystbanen single (Esbjerg-Bramming-Ribe)"
+via = "Vestkystbanen (Esbjerg-Bramming-Ribe), single track"
 cap_source = "DEFAULT"
 verify = true
 notes = "Coarse western-net stub for the plate's Marschbahn label. GUESS routing/distance."
+
+[[edge]]
+id = "rail-ribe-niebull"
+a = "ribe"
+b = "niebull"
+mode = "rail"
+class = "rail"
+km = 40
+tracks = "single"
+tracks_src = "SOURCED: de.wikipedia Niebuell-Tondern (single, freight-only; passenger ended 1981)"
+via = "Vestkystbanen/Marschbahn (Ribe-Tondern-Niebull), single track"
+crossing = "dk_de_border"
+cap_source = "DEFAULT"
+verify = true
+notes = "Coarse western-net stub. GUESS routing/distance."
+
+[[edge]]
+id = "rail-niebull-husum"
+a = "niebull"
+b = "husum"
+mode = "rail"
+class = "rail"
+km = 40
+tracks = "double"
+tracks_src = "SOURCED: de.wikipedia Marschbahn (double Husum-Niebuell; short single Hattstedt-Bredstedt from 1942)"
+via = "Marschbahn (Niebull-Bredstedt-Husum), single track"
+cap_source = "DEFAULT"
+verify = true
+notes = "Coarse western-net stub. GUESS routing/distance."
 
 [[edge]]
 id = "canal-ferry-sehestedt"
@@ -1367,9 +1590,47 @@ a = "rendsburg"
 b = "sorgbruck"
 mode = "rail"
 class = "rail"
+tracks = "single"
+tracks_src = "SOURCED: de.wikipedia Rendsburg-Husum (single Nebenbahn; through line severed 1974, Rendsburg-Hohn freight stub survived)"
 km = 13
 crossing = "sorge"
 via = "Rendsburg-Husum line; Sorge bridge at Sorgbruck"
 cap_source = "DEFAULT"
 verify = true
 notes = "Rail stub carrying the Sorge crossing at Sorgbruck. GUESS routing."
+
+# Marschbahn Itzehoe-Heide (build 2 fix 1): the real west-coast rail
+# spine the plate's "Marschbahn" label names runs Itzehoe-Wilster-
+# Heide, not Neumünster-Heide. Added so Esbjerg-...-Husum-Heide-Itzehoe
+# reads as one coastal line. Single track (Wilster-Heide section).
+[[edge]]
+id = "rail-itzehoe-heide"
+a = "itzehoe"
+b = "heide"
+mode = "rail"
+class = "rail"
+tracks = "single"
+tracks_src = "GUESS: Marschbahn Itzehoe-Wilster-Heide, mixed track; asserted single where unfindable per work order"
+km = 40
+via = "Marschbahn (Itzehoe-Wilster-Heide), single track"
+cap_source = "DEFAULT"
+verify = true
+notes = "West-coast Marschbahn segment. GUESS routing/distance."
+
+# Lübeck-Ratzeburg rail (build 2 fix 7): part of the Lübeck-Lüneburg
+# railway ("Kaiserbahn", 1851), single track. Added so the IGB corner
+# SE of Lübeck is not empty and the two real border gaps read against
+# actual infrastructure.
+[[edge]]
+id = "rail-lubeck-ratzeburg"
+a = "lubeck"
+b = "ratzeburg"
+mode = "rail"
+class = "rail"
+tracks = "single"
+tracks_src = "SOURCED: de.wikipedia Luebeck-Lueneburg (eingleisige Hauptbahn)"
+km = 24
+via = "Lübeck-Lüneburg railway (Kaiserbahn, 1851), single track"
+cap_source = "DEFAULT"
+verify = true
+notes = "Single-track main-ish Nebenbahn SE of Lübeck. GUESS routing/distance."

@@ -302,3 +302,42 @@ long fjord Baltic→Schleswig; Eider likewise), more vertices,
 GUESS-tier disclosed; (b) Plate I label whitelist enforced per
 §3 (the Plate II-only features off Plate I); (c) F4
 (Friedrichstadt inset) judged on the new proof and reported.
+
+---
+
+## Build 2 review (session e3137278, same day)
+
+Report accepted; suite re-run green (112), atlas check clean
+(56 nodes/89 edges), wordcount unchanged, both plates eyeballed
+at trim. All ten Plate I fixes verified on the plate: coasts
+respected (Marschbahn inland, Vogelfluglinie via Fehmarn, B76
+south of the lakes), rail all asserted double/single with legend
+(19+14, one honest GUESS: Itzehoe–Heide), canal legended, labels
+in-frame, IGB corner populated, DENMARK/WEST GERMANY/EAST
+GERMANY at region-faintness, frontier trimmed, København
+unmarked. Plate II water blocker CLEARED — canal/Schlei/Eider
+read as ribbons. F4 call accepted: NO INSET — the three Eider
+crossings separate on the main frame, and a finer bridge
+coordinate would have to be invented, which the rules forbid.
+Rail-track sourcing table stands in the TOML notes (three of the
+builder's own guesses corrected by its sources: Heide–Husum
+double, Vogelfluglinie single, Sydbanen double).
+
+**Verdict: plates are now HAND-PASS TIER.** Build 3 (small)
+polish list:
+1. Plate II legend box is oversized and covers the lower-left
+   (part of the Eider ribbon + a clipped water label + scale
+   bar crowding). Shrink/relocate (top-right is open water).
+2. The Danevirke hachure's EAST end should anchor at the Schlei
+   head by Schleswig/Hedeby (currently ends short, floating);
+   west end into the Treene marshes. Improve the GUESS trace
+   per reference/danevirke.md.
+3. Plate II: Hohn label sits on the Rendsburg–Sorgbrück rail;
+   nudge.
+4. Plate I: Middelfart/Kolding label collision persists; faint
+   area-label overlaps (LITTLE BELT/FUNEN cluster, BALTIC/
+   Vordingborg, THE TRAVE/Lübeck) worth one greedy-pass
+   improvement or hand anchors.
+5. Then: DK look at the full proof → instrument gate (doctrine/
+   veteran/period readers) per spec §7 → lock for the panel
+   PDF.

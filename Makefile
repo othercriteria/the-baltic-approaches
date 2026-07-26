@@ -54,7 +54,7 @@ PDF_OPTS = $(PANDOC_OPTS) --pdf-engine=xelatex \
 MAP_DIR = build/maps
 PLATES = approaches neck
 METADATA = --metadata title="$(TITLE)" \
-           --metadata author="Daniel Klein" \
+           --metadata author="Daniel Klein with Claude" \
            --metadata date="$(DRAFT_STAMP)"
 
 .PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas maps pdf manuscript wordcount clean

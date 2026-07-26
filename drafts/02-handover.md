@@ -158,7 +158,17 @@ share of allied air, size unknown, timing not ours."
 "It is both," said Hvidt, "and it is item four. Write the
 Oberst's version. Grievances that are true belong on the page."
 
-Item five was the weather. By midafternoon the page held nine
+Item five was the weather. Item six was the ammunition
+accountancy: stocks computed in days of supply against
+consumption rates set in peacetime by committee, and part of
+the stock German-owned on Danish soil, held there through a
+clearing office the alliance had invented so that the
+arrangement need touch no nation's treasury.
+
+"Write: two owners again," Hvidt said. "This time the
+shells."
+
+By midafternoon the page held nine
 items, and the page was not full, and Lammers said so.
 
 "Leave the space," Hvidt said. "A full page would mean we had
@@ -172,7 +182,12 @@ tidy version. That one, with the crossings-out."
 The readiness measures began the same week, and they began
 cheap.
 
-That was Hvidt's word for it. Every measure on the quiet list
+That was Hvidt's word for it. The alliance kept a catalog for
+such weeks, graduated and numbered, every measure agreed in
+advance by sixteen governments — and every numbered measure
+therefore a signal the moment it was invoked, with the enemy
+as the catalog's first reader. The quiet list ran underneath
+the catalog. Every measure on it
 was priced twice: once in readiness bought, once in political
 noise made. The list was run strictly in order of the second
 price. Leave was recalled by telephone, individually,

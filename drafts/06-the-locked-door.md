@@ -90,7 +90,8 @@ building. The port machinery at Kiel and Flensburg:
 untouched, while the rail approaches to both are cratered.
 The pump stations on the fuel line, the ones his guns can
 already reach: untouched, and his maps have carried them
-for twenty years. Bridges: dropped at the approach spans,
+for twenty years — every autumn our own umpires burn that
+line in the first week, and he has not. Bridges: dropped at the approach spans,
 where engineers repair in days, not at the piers, where
 they repair in months. Add it up: a shop kept
 ready for a new owner. He is fighting for working

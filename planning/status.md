@@ -814,23 +814,42 @@ flag (ch. 9/15 COMBALTAP-vs-COMAIRBALTAP) awaiting DK.
   theater commander," ch. 15 makes him "a tired Danish airman" —
   historically COMBALTAP (the apportioner) was the Danish
   3-star, COMAIRBALTAP (the airman) his permanently-Danish air
-  commander; one figure can't be both title and trade. Cheapest
-  fixes: ch. 9 "theater commander" → "air commander," or accept
-  the compression on the record. DK to rule.
-  **Print-check asks, re-ranked after pass 2** (each a
-  minutes-grade look; fuller targeting list in
-  bogason-outline.md foot):
-  1. Fig 9.3 BALTAP org chart (photograph it — the premise's
-     load-bearing document, now confirmed in prose, wanted at
-     chart grade).
-  2. Ch 15 / Table 15.1 UKMF numbers (verify the package
-     readings: 29k full force / 13.5k land element / reduced
-     variants).
-  3. Fig 18.4 minefield map (enrichment now, not open question).
-  4. Fig 6.3 NEPS pipeline map + Fig 6.6 Karup/Aalborg
-     interception lines.
-  5. Figs 18.6–18.7 HURRICANE geometry (naval; feeds
-     zealand-landing.md, not ch. 9).
+  commander; one figure can't be both title and trade.
+  **RULED 2026-07-26 (DK): decompress toward accuracy — more
+  individuals in the room, probably not the call. APPLIED:**
+  ch. 9 gains the two-Danes sentence (theater commander met
+  only as consequences; air commander's voice runs the stall),
+  the voice retitled air commander, and the big allocation now
+  pauses while "a division [is] walked somewhere for a
+  signature"; ch. 15's bunker now seats BOTH men (the airman
+  running the liturgy; the theater commander, a Danish
+  lieutenant general, kept for the rates of exchange) plus the
+  maritime desk embodied as a German Kapitän zur See from
+  Kiel-Holtenau (Fig 9.3's NAVBALTAP seat). Flag CLOSED.
+  ~~Print-check asks 1–5~~ **ALL DISCHARGED 2026-07-26: DK
+  scanned the seven figures same day** (holdings
+  scans/bogason-2023/, pushed; verification block in
+  bogason-answers.md): Fig 9.3 confirmed at chart grade (note
+  the dashed direct SACEUR→COMBALTAP line), Table 15.1
+  print-confirmed (UKMF 29k/45 tanks/52 planes full, 10k/15/36
+  reduced — the scrape's "15,000" was a different-era package,
+  not this table), Fig 18.4 confirmed (Fehmarn + Grønsund
+  German-laid per caption), Figs 18.6–18.7 confirmed naval
+  (coastal-radar-echo deception detail now print grade), Fig
+  6.3 NEPS + Fig 6.6 confirmed. Remaining Bogason asks are TEXT
+  checks at DK's leisure: HOLD FAST 1960 exact wording; index
+  scan for any LANDJUT wartime-HQ mention (expected negative).
+  **Finds WORKED same day (DK: "any that seem productive"),
+  three in-scene touches:** ch. 2 gains the alliance measures
+  catalog ("graduated and numbered... the enemy as the
+  catalog's first reader; the quiet list ran underneath") and
+  assumptions-ledger item six (days-of-supply accountancy + the
+  SACEUR clearing office; Hvidt: "two owners again. This time
+  the shells"); ch. 6 Aakjær gains the DALGAS sharpener ("every
+  autumn our own umpires burn that line in the first week, and
+  he has not"). Not worked (judged): WINTEX friction palette
+  (contradicts the chosen over-compliance mobilization design);
+  Alford 1986 verdict (post-setting; apparatus-tier only).
   Full scan wishlist stands in landjut-front.md for a later day.
 - ~~The RUSSWO/AWS ceiling-visibility table~~ DISCHARGED
   2026-07-25 (AD-A118450 — november-climate.md §1; only the

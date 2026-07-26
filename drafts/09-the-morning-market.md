@@ -76,7 +76,12 @@ The bid went to the market at 0710, and for once the corps
 listened to the whole conference, Holt on the second
 handset, Kjeldsen at the air desk with the program open.
 
-The market had its liturgy. The weather brief first: a
+The market had its liturgy. Two Danes kept the stall: the
+theater commander, who made the division and whom the
+customers met only as its consequences; and his air
+commander, whose conference turned the division into
+sorties, and whose voice was the one the corps knew. The
+weather brief first: a
 front coming through by afternoon, windows before it. Then
 the customers, in the standing order. Air defense bid its
 minimum, in the voice of a man protecting the stall itself:
@@ -90,9 +95,9 @@ deep program, entire: the rail triangle east of Bad
 Kleinen, the Herrnburg line bridge, the march routes, the
 whole weight for twenty-four hours or nothing.
 
-The theater commander, a tired Danish voice the corps
-knew only as a signature block, let the stall go quiet
-for a moment.
+The air commander, a tired Danish voice the corps knew
+only as a signature block, let the stall go quiet for a
+moment.
 
 "Two questions to the corps. Your program buys delay on
 the follow-on forces. Who has costed what the front pays
@@ -114,8 +119,11 @@ sequenced deepest-first, while the fuel margins allow the
 distance. If the window halves, the close half dies. That
 is the program's own logic, stated plainly."
 
-"At least it is stated," the tired voice said. "Allocated
-as bid. Land battle's share plus one squadron of the
+"At least it is stated," the tired voice said, and went
+away from the microphone; the net carried half a minute
+of bunker room-tone, papers and a far teleprinter, a
+division being walked somewhere for a signature. Then:
+"Allocated as bid. Land battle's share plus one squadron of the
 maritime reserve, twenty-four hours, deep program.
 Maritime, you have the front's leavings and my apology;
 the fleet is loading slowly and your window returns

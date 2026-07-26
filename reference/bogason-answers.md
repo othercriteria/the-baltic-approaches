@@ -288,6 +288,59 @@ transfer order.
 
 ---
 
+## PRINT VERIFICATION 2026-07-26 — asks 1–5 DISCHARGED
+
+*DK scanned the seven figures the same day (holdings
+scans/bogason-2023/); read from the page images in-session.*
+
+1. **Fig 9.3 CONFIRMED at chart grade.** Exactly as distilled:
+   SACEUR → CINCNORTH → COMBALTAP → the four seats — COMAIRBALTAP
+   (Karup), COMNAVBALTAP (Kiel-Holtenau), COMLANDJUTLAND
+   (Rendsborg), COMLANDZEALAND (kbh.) — national forces beneath
+   (Danish Air Force + West German Air Force in S-H; Danish Navy +
+   West German Navy; Danish Army Jutland + German 6.
+   Panserinf-Div; Danish Army Sjælland + Danish Army Bornholm).
+   Chart notes: a DASHED direct SACEUR→COMBALTAP line bypassing
+   CINCNORTH (worth remembering); no 2 ATAF box and no
+   deputy/CoS boxes on this 1962 chart — those live in prose.
+2. **Table 15.1 CONFIRMED (print, "Options for
+   NATO-reinforcements in 1975"; source note: Forsvarskommandoen
+   planning-group middelstudier 1974–77, based on Lindhardt).**
+   UKMF full: **29,000 men / 45 tanks / 52 planes — Schleswig 11
+   days (Esbjerg/Karup), BALTAP 4 days (Jutland)**. UKMF reduced:
+   **10,000 / 15 tanks / 36 planes — Zealand 8 d (or Schleswig
+   6 d), BALTAP 3 d (Kastrup/Korsør, Skrydstrup/Esbjerg)**. The
+   scrape's "15,000" tangle: NOT in this table — the 13.5k and
+   15k figures are 1980s prose-era packages, consistent as
+   distilled. Also now print-grade: AMF land 5–6,000 (Zealand
+   6 d, Værløse/Korsør), AMF air 66 planes (BALTAP 48 h),
+   STANAVFORLANT 6–8 destroyers, UKJATFOR 2 bns (3 d, para),
+   CASTOG 6,000 + 54 planes, US Marines AMPF 10,000/60 planes
+   (15 d, west coast/Esbjerg), UK Royal Marines 4,000 (10 d);
+   general war: AMPF 46,000 / 320–400 planes (30 d), general air
+   support 130 sorties/day (carriers).
+3. **Fig 18.4 CONFIRMED.** Controlled (*) / anti-invasion (x) /
+   non-controlled (bubble) fields as distilled; print caption
+   assigns the **Fehmarn and Grønsund** fields to German forces
+   (the Lübeck-Bay-area fields appear on the map; the caption's
+   German-laid list names Fehmarn + Grønsund). Great Belt/Korsør
+   and Sound coverage as distilled — ch. 15 raid geometry stands.
+4. **Figs 18.6/18.7 CONFIRMED** — naval geometry exactly as
+   corrected: 18.6 minefields + defenders forward, red probing,
+   invasion fleet far east (D-1 marking), NATO submarines at
+   Bornholm; 18.7 fleet formed with escorts and closing, Danish
+   units hugging the coast to spoof incoming missiles with
+   coastal radar echoes, torpedo/gun attack after missile
+   release. NOT air-allocation charts.
+5. **Fig 6.3 CONFIRMED** (NEPS initiated 1955, POL types
+   color-coded, later expanded to the German airfields; Jutland
+   trunk with per-airfield storage insets) **+ Fig 6.6** (fighter
+   interception lines 1959: Karup high-altitude / Aalborg
+   low-altitude).
+
+Asks 6–7 below (HOLD FAST wording; the alternate-HQ index scan)
+are TEXT checks, not figures — still open at DK's leisure.
+
 ## Ranked print-check asks for DK (scrape figures/tables unreliable)
 
 1. **Figure 9.3, "BALTAP organisation 1962" (Ch. 9)** — photograph/transcribe

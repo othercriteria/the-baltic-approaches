@@ -81,7 +81,12 @@ the first time in the war, the land battle as a body in
 the room: Holt, with Kjeldsen at his shoulder, in a
 bunker under the heath where the tired Danish voice
 proved to belong to a tired Danish airman with reading
-glasses and a wall of his own.
+glasses and a wall of his own — the air commander, whose
+voice ran the stall. The stall's owner sat a little apart
+and said the least of anyone in the room: the theater
+commander, a Danish lieutenant general the corps had met
+all war only as consequences, who left the liturgy to his
+airman and kept himself for the rates of exchange.
 
 And a staff. The assessments cell sat along the side
 wall, and its chief came forward at the pause after the
@@ -135,9 +140,12 @@ assumptions showing."
 unpinned — that one converts at brigade scale, and it
 is the only bid at this table that converts into men."
 
-The maritime desk objected once, on hulls and honor;
-the commander converted the hulls to days and the
-objection became support. Days, everyone could weigh.
+The maritime desk objected once, on hulls and honor —
+in the room the desk proved to be a German Kapitän zur
+See down from Kiel-Holtenau, the navies' seat at a
+Danish table — and the theater commander converted the
+hulls to days, and the objection became support. Days,
+everyone could weigh.
 
 The allocation came back at 1130: theater strike weight
 committed for seventy-two hours against the embarkation

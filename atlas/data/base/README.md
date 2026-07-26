@@ -84,3 +84,30 @@ likewise hand-digitized generalized traces; they are defined inline in
 `atlas/render.py` (`_draw_frontiers`) rather than here, and are equally
 GUESS-tier. Modern PD admin boundaries carry no 1983 IGB, so it could
 not be sourced from Natural Earth.
+
+### Build-3 frontier research (2026-07-25)
+
+The two frontier traces were re-shaped in build 3 from the real
+courses (still GUESS-tier generalized polylines; no map image traced):
+
+- **Danish frontier — western terminus.** The 1983 land border reaches
+  the Wadden-Sea coast just west of **Siltoft** (the *Siltoftvej*
+  road crossing is at 54°54′41″N 8°40′11″E), runs east past **Rudbøl**,
+  and ends at the **Flensburg Firth** at ≈54°50′22″N 9°24′16″E. The
+  drawn western vertex is placed on this directory's NE mainland dike
+  coastline (~8.665°E, ~54.912°N) so the dashed line meets the coast —
+  neither short of it nor out to sea. Source: Wikipedia,
+  *Denmark–Germany border* (en.wikipedia.org/wiki/German-Danish_border),
+  crossing-table and Flensburg-Firth terminus coordinates.
+- **Inner-German border — Ratzeburg reach.** From the Baltic at
+  **Priwall** (east of Travemünde) the border ran south past the
+  **Schlutup** (road) and **Herrnburg** (rail) gaps, then along the
+  **north-eastern / eastern shore of the Ratzeburger See** (between
+  Rothenhusen / Groß Sarau and Römnitz) — so **Ratzeburg itself (FRG,
+  ~10.76°E) lies just WEST of the line**, not on a straight tangent —
+  then south-east toward the **Schaalsee** and on south. Sources:
+  Wikipedia, *Ratzeburger See* (en.wikipedia.org/wiki/Ratzeburger_See),
+  which records the NE lakeshore as the inner-German border between
+  Hohenleuchte/Römnitz and Rothenhusen/Groß Sarau; and the Schaalsee
+  reserve description confirming the border divided the Schaalsee to the
+  south-east.

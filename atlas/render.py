@@ -66,9 +66,11 @@ FS_SCALE = 6.0
 SUPPRESS_NODES = {"bad_kleinen", "gadebusch", "selmsdorf"}
 # Unlabeled far-bank ferry landings.
 NO_LABEL = {"sehestedt_s", "nordfeld_s", "missunde_s"}
-# København is drawn (labelled) but carries NO town dot (DK ruling,
-# build 2 fix 10: "København stays unmarked").
-NO_DOT = {"koebenhavn"}
+# Build-3 amendment (DK): the build-2 "København stays unmarked" ruling
+# was over-read — "no special treatment" means no capital styling, NOT
+# dotless. København carries an ordinary dot + label like any town, so
+# nothing is dot-suppressed.
+NO_DOT: set[str] = set()
 
 # Per-plate label whitelist (build 2 fix 2 / Plate II item b): a node
 # is labelled AND dotted only if its id is in that plate's whitelist.
@@ -133,6 +135,32 @@ LABEL_WHITELIST = {
     },
 }
 
+# Per-node label-side hints (build 3, DK review). A hint names the side
+# the labeller should TRY FIRST for that town's dot; it still falls back
+# to the ordinary greedy order if that side collides, so a hint never
+# forces an out-of-frame or overlapping box. Used only for the handful of
+# labels DK called out:
+#   - Aarhus / Vejle labels to the LEFT of their dots (item 2);
+#   - Middelfart / Kolding pushed apart (item 3);
+#   - Hohn off the Rendsburg-Sorgbrück rail, which runs just north of it
+#     (item 11) — nudged south.
+LABEL_HINTS = {
+    "approaches": {
+        "aarhus": "left",
+        "vejle": "left",
+        # Fredericia / Middelfart / Kolding are packed at the Little Belt
+        # narrows (Fredericia and Middelfart dots nearly coincide); fan
+        # them into distinct directions so they read (item 3): Fredericia
+        # NE over the belt, Middelfart E, Kolding W into Jutland.
+        "fredericia": "above-right",
+        "middelfart": "right",
+        "kolding": "left",
+    },
+    "neck": {
+        "hohn": "below",
+    },
+}
+
 # ---- per-plate configuration -------------------------------------
 # extent = (lon_min, lat_min, lon_max, lat_max) of the drawn neat-line.
 # water/region labels are area labels, hand-anchored at (lon, lat).
@@ -146,23 +174,31 @@ PLATES = {
         "extent": (8.00, 53.44, 12.80, 57.28),
         "target_w": 288.0,  # 4.0in live width, portrait
         "landscape": False,
+        # Water area labels. Several were nudged in build 3 (item 4) to
+        # clear town labels: BALTIC out into open sea SE of Falster (was
+        # on top of Vordingborg); LITTLE BELT south into the strait (was
+        # grazing Haderslev/FUNEN); THE TRAVE upstream SW of Lübeck (was
+        # on top of the town and near the IGB).
         "waters": [
             ("North Sea", 8.30, 55.45),
-            ("Baltic", 11.85, 55.00),
-            ("Little Belt", 9.85, 55.18),
+            ("Baltic", 12.28, 54.80),
+            ("Little Belt", 9.78, 55.08),
             ("Great Belt", 10.98, 55.64),
             ("Fehmarn Belt", 11.30, 54.40),
-            ("Kiel Canal", 9.24, 54.05),
+            ("Kiel Canal", 9.22, 54.02),
             ("the Schlei", 10.02, 54.66),
             ("the Eider", 8.62, 54.26),
-            ("the Trave", 10.82, 53.90),
+            ("the Trave", 10.55, 53.78),
         ],
+        # FUNEN moved onto the island interior (was low on the Little
+        # Belt); SCHLESWIG-HOLSTEIN dropped south into the Holstein
+        # interior so its long tracked setting stops grazing KIEL CANAL.
         "regions": [
             ("JUTLAND", 9.10, 56.30),
-            ("FUNEN", 10.45, 55.20),
+            ("FUNEN", 10.52, 55.26),
             ("ZEALAND", 11.98, 55.44),
             ("LOLLAND-FALSTER", 11.42, 54.70),
-            ("SCHLESWIG-HOLSTEIN", 9.72, 53.92),
+            ("SCHLESWIG-HOLSTEIN", 9.46, 53.80),
             ("MECKLENBURG", 12.10, 53.88),
         ],
         # Country labels (build 2 fix 8): faint, tracked, even lighter
@@ -188,10 +224,19 @@ PLATES = {
         # labels sit at their rendered 6.6pt (no scaling, above floor).
         "target_w": 348.0,
         "landscape": True,
+        # Build 3 item 9: the legend was oversized (104x66) and, bottom-
+        # left, reached up over the Eider ribbon + a water label while
+        # crowding the scale bar. It stays bottom-left (the emptiest open
+        # water on this plate — the top-right the review imagined is in
+        # fact occupied by the Eckernforde node and the Schlei/Missunde/
+        # Schleswig cluster, see build report) but is now content-sized
+        # and flush to the bottom neat-line, CLEARING the Eider ribbon and
+        # THE EIDER label; the scale bar moves to the opposite (bottom-
+        # right) corner so the two no longer crowd.
         "legend_corner": "bl",
         "waters": [
             ("Kiel Canal", 9.45, 54.155),
-            ("the Schlei", 9.80, 54.575),
+            ("the Schlei", 9.82, 54.58),
             ("the Eider", 8.86, 54.24),
             ("the Treene", 9.05, 54.55),
             ("the Danevirke", 9.42, 54.463),
@@ -452,13 +497,39 @@ class Labeller:
             and box[3] <= fy1 - m
         )
 
+    # side-hint -> the (ox, oy, anchor) candidate to try first
+    _PREFER = {
+        "right": (1, 0, "start"),
+        "left": (-1, 0, "end"),
+        "above": (0, -1, "mid"),
+        "below": (0, 1, "mid"),
+        "above-right": (1, -1, "start"),
+        "below-right": (1, 1, "start"),
+        "above-left": (-1, -1, "end"),
+        "below-left": (-1, 1, "end"),
+    }
+
     def place(
-        self, svg, x, y, text, size, italic=False, force=True, pad=3.0, tracking=0.0
+        self,
+        svg,
+        x,
+        y,
+        text,
+        size,
+        italic=False,
+        force=True,
+        pad=3.0,
+        tracking=0.0,
+        prefer=None,
     ):
         w = len(text) * size * 0.52 + (len(text) * tracking)
         h = size * 0.9
         chosen = None
-        for ox, oy, anchor in self.OFFSETS:
+        offsets = self.OFFSETS
+        if prefer in self._PREFER:
+            p = self._PREFER[prefer]
+            offsets = [p] + [o for o in self.OFFSETS if o != p]
+        for ox, oy, anchor in offsets:
             tx = x + ox * pad
             ty = y + oy * pad + (h * 0.32 if oy >= 0 else -h * 0.12)
             if anchor == "start":
@@ -718,6 +789,7 @@ def render_plate(name, face=DEFAULT_FACE):
     # reserve title / furniture zones so labels avoid them
     _reserve_furniture(lab, proj, cfg)
     town_start = len(lab.boxes)
+    hints = LABEL_HINTS.get(name, {})
     ordered = sorted(
         (
             n
@@ -729,7 +801,7 @@ def render_plate(name, face=DEFAULT_FACE):
     )
     for n in ordered:
         x, y = proj.xy(n.lon, n.lat)
-        lab.place(svg, x, y, _display_name(n.name), FS_TOWN)
+        lab.place(svg, x, y, _display_name(n.name), FS_TOWN, prefer=hints.get(n.id))
 
     # record the placed label boxes for the in-frame invariant test
     LABEL_AUDIT[name] = {
@@ -880,10 +952,25 @@ def _draw_frontiers(svg, proj, name):
     with its two real gaps). Hand-digitized generalized traces —
     GUESS-tier, disclosed in the base README. Real national frontiers
     only; no other boundary is ever drawn."""
-    # Danish frontier: from the Wadden coast east to Flensburg Fjord,
-    # ~lat 54.83. Western end trimmed to the coastline (build 2 fix 9:
-    # no dashed protrusion into the North Sea; it started at 8.60 before).
-    dk = [(8.84, 54.905), (9.05, 54.89), (9.25, 54.85), (9.43, 54.83)]
+    # Danish frontier: Wadden-Sea coast (west) to Flensburg Fjord (east),
+    # light dashed. Build 3 item 5 RESEARCHED terminus: the 1983 land
+    # border reaches the Wadden coast just west of Siltoft (the Siltoftvej
+    # crossing is 54°54'41"N 8°40'11"E; the drawn NE mainland dike here
+    # runs at ~8.665E, ~54.912N), then runs E past Rudbøl and on to the
+    # Flensburg-Firth terminus at ~54°50'22"N 9°24'16"E. The western
+    # vertex is set ON the drawn coastline (not short of it — build 2 had
+    # over-corrected it inland to 8.84 — and not out to sea). Sources in
+    # atlas/data/base/README.md. GUESS-tier generalized trace.
+    dk = [
+        (8.665, 54.912),
+        (8.70, 54.910),
+        (8.78, 54.906),
+        (8.90, 54.900),
+        (9.05, 54.892),
+        (9.20, 54.868),
+        (9.32, 54.850),
+        (9.43, 54.837),
+    ]
     if _touches_extent(dk, proj):
         svg.poly(
             [proj.xy(lo, la) for lo, la in dk],
@@ -891,20 +978,34 @@ def _draw_frontiers(svg, proj, name):
             width=W_FRONTIER,
             dash="4,2.5",
         )
-    # IGB SE of Lubeck: Baltic (Priwall) south past the Ratzeburg lakes,
-    # with gaps at Schlutup (road ~53.90) and Herrnburg (rail ~53.79).
+    # IGB SE of Lubeck. Build 3 item 6 RESEARCHED course: from the Baltic
+    # at Priwall (E of Travemunde) south past the Schlutup (road) and
+    # Herrnburg (rail) gaps, then EAST of Ratzeburg — the border ran along
+    # the NE/E shore of the Ratzeburger See (between Rothenhusen/Gross
+    # Sarau and Romnitz), so Ratzeburg (FRG, ~10.76E) sits just WEST of
+    # the line, not on a straight tangent — then SE toward the Schaalsee
+    # and on south. GUESS-tier, shaped from the real course. Sources in
+    # atlas/data/base/README.md.
     igb = [
-        (10.87, 53.96),
-        (10.84, 53.90),
-        (10.82, 53.83),
-        (10.80, 53.76),
-        (10.78, 53.69),
-        (10.76, 53.62),
-        (10.74, 53.56),
+        (10.90, 53.955),  # Priwall / Baltic shore
+        (10.87, 53.925),
+        (10.845, 53.905),  # approaching Schlutup
+        (10.82, 53.875),
+        (10.80, 53.845),
+        (10.785, 53.815),  # approaching Herrnburg
+        (10.78, 53.785),
+        (10.795, 53.755),  # NE shore, Ratzeburger See (Rothenhusen/Gross Sarau)
+        (10.81, 53.720),  # E shore — Ratzeburg (10.76) lies WEST of here
+        (10.82, 53.685),  # S of the lake
+        (10.865, 53.640),  # bending SE toward the Schaalsee
+        (10.92, 53.595),  # Schaalsee
+        (10.95, 53.540),
+        (10.96, 53.470),  # on south to the neat-line
     ]
     if _touches_extent(igb, proj):
         pts = [proj.xy(lo, la) for lo, la in igb]
-        gaps = [proj.xy(10.83, 53.90), proj.xy(10.805, 53.79)]  # Schlutup, Herrnburg
+        # gaps: Schlutup (road) and Herrnburg (rail)
+        gaps = [proj.xy(10.833, 53.895), proj.xy(10.783, 53.800)]
         _line_with_gaps(svg, pts, gaps, W_IGB)
 
 
@@ -960,26 +1061,66 @@ def _reserve_furniture(lab, proj, cfg):
     # title band (top), legend box (a corner), scale bar (bottom) —
     # keep town labels out of them.
     lab.reserve((proj.pad, 0, proj.cw - proj.pad, proj.pad))  # title
-    # scale bar zone (bottom-left, inside the neat-line)
-    lab.reserve((proj.pad, proj.ch - proj.pad - 22, proj.pad + 110, proj.ch - proj.pad))
+    # scale bar zone (bottom corner opposite the legend)
+    sx, sy, slen = _scale_pos(proj, cfg)
+    lab.reserve((sx - 6, sy - 10, sx + slen + 12, sy + 4))
     # N-tick zone (top-left, inside)
     lab.reserve((proj.pad, proj.pad, proj.pad + 24, proj.pad + 30))
     lab.reserve(_legend_box(proj, cfg))
 
 
+# Legend rows (every drawn line class, incl. the rail double/single
+# distinction and the canal waterway symbol). One source of truth so the
+# box can be sized to its contents (build 3 item 7).
+LEGEND_ROWS = [
+    ("motorway", "road", W_MOTORWAY, None),
+    ("rail (double)", "rail2", None, None),
+    ("rail (single)", "rail1", None, None),
+    ("canal", "canal", None, None),
+    ("ferry", "ferry", 0.6, "3.2,2.4"),
+    ("frontier", "road", W_FRONTIER, "4,2.5"),
+    ("HQ", "hq", None, None),
+]
+_LEGEND_TEXTGAP = 22  # swatch-to-text offset (lx+22 in _legend)
+_LEGEND_ROW_STEP = 8
+
+
+def _legend_dims():
+    """Legend box size, sized to its contents with tight padding (build 3
+    item 7 — the box was a fixed 104x66, far wider than the text)."""
+    text_w = max(len(lbl) * FS_LEGEND * 0.52 for lbl, *_ in LEGEND_ROWS)
+    w = 6 + _LEGEND_TEXTGAP + text_w + 6
+    h = 10 + len(LEGEND_ROWS) * _LEGEND_ROW_STEP - 4
+    return w, h
+
+
 def _legend_box(proj, cfg):
-    """Legend rectangle. Corner is per-plate: top-right by default; the
-    neck uses bottom-left (stacked above the scale bar) because its
-    top-right corner is owned by the Schlei/Eckernforde-Bay water and
-    label."""
-    w, h = 104, 66
-    if cfg.get("legend_corner") == "bl":
+    """Legend rectangle, sized to content. Corner is per-plate: top-right
+    by default (open water on both plates after the build-3 relocation of
+    the neck legend, item 9); a plate may still request another corner."""
+    w, h = _legend_dims()
+    corner = cfg.get("legend_corner", "tr")
+    if corner == "bl":
         x = proj.pad + 4
-        y = proj.ch - proj.pad - h - 17  # above the scale bar
-    else:
+        y = proj.ch - proj.pad - h - 4  # flush to the bottom neat-line
+    else:  # top-right
         x = proj.cw - proj.pad - w - 4
         y = proj.pad + 4
     return (x, y, x + w, y + h)
+
+
+def _scale_pos(proj, cfg):
+    """Left end + baseline of the scale bar. It sits opposite the legend
+    corner: bottom-right when the legend owns bottom-left, else the
+    default bottom-left. Keeps the two furniture pieces from crowding
+    (build 3 items 7/9)."""
+    length = cfg["scale_km"] * (proj.deg_lat_pt / 111.2)
+    y = proj.ch - proj.pad - 12
+    if cfg.get("legend_corner") == "bl":
+        x = proj.cw - proj.pad - 10 - length
+    else:
+        x = proj.pad + 10
+    return x, y, length
 
 
 def _draw_furniture(svg, proj, cfg, face):
@@ -996,11 +1137,25 @@ def _draw_furniture(svg, proj, cfg, face):
     # title (small caps, tracked), above the neat-line
     svg.text(
         proj.cw / 2,
-        proj.pad - 12,
+        proj.pad - 15,
         cfg["title"],
         FS_TITLE,
         anchor="middle",
         tracking=2.2,
+    )
+    # Year subtitle (build 3 item 8): dates the GEOGRAPHY, restrained and
+    # subordinate to the title, consistent on both plates. This is not a
+    # campaign timestamp — the no-time refusal (§6) is about operational
+    # DTGs, not the shelf-date of the map — so it sits with the title
+    # furniture, plain and small.
+    svg.text(
+        proj.cw / 2,
+        proj.pad - 4.5,
+        "NOVEMBER 1983",
+        FS_SCALE,
+        anchor="middle",
+        tracking=2.0,
+        opacity=0.72,
     )
     # N tick, top-left inside
     nx, ny = proj.pad + 12, proj.pad + 20
@@ -1009,17 +1164,15 @@ def _draw_furniture(svg, proj, cfg, face):
         f'<path d="M{nx:.1f},{ny - 12:.1f} l-1.7,4 l1.7,-1.6 l1.7,1.6 z" fill="{INK}"/>'
     )
     svg.text(nx, ny + 7, "N", 6.5, anchor="middle")
-    # scale bar (bottom-left inside)
-    _scale_bar(svg, proj, cfg["scale_km"])
+    # scale bar (bottom corner opposite the legend)
+    _scale_bar(svg, proj, cfg)
     # legend (<=5 lines)
     _legend(svg, proj, cfg)
 
 
-def _scale_bar(svg, proj, km):
-    pt_per_km = proj.deg_lat_pt / 111.2
-    length = km * pt_per_km
-    x = proj.pad + 10
-    y = proj.ch - proj.pad - 12
+def _scale_bar(svg, proj, cfg):
+    km = cfg["scale_km"]
+    x, y, length = _scale_pos(proj, cfg)
     svg.line(x, y, x + length, y, stroke=INK, width=0.9, cap="butt")
     for xx in (x, x + length / 2, x + length):
         svg.line(xx, y, xx, y - 3, stroke=INK, width=0.9, cap="butt")
@@ -1033,18 +1186,9 @@ def _legend(svg, proj, cfg):
     svg.rect(x0, y0, x1 - x0, y1 - y0, stroke=INK, width=0.4, fill="#ffffff")
     # Every drawn line class is legended, including the rail double/single
     # distinction (build 2 fix 4) and the canal waterway symbol (fix 5).
-    rows = [
-        ("motorway", "road", W_MOTORWAY, None),
-        ("rail (double)", "rail2", None, None),
-        ("rail (single)", "rail1", None, None),
-        ("canal", "canal", None, None),
-        ("ferry", "ferry", 0.6, "3.2,2.4"),
-        ("frontier", "road", W_FRONTIER, "4,2.5"),
-        ("HQ", "hq", None, None),
-    ]
     lx = x0 + 6
     ty = y0 + 10
-    for label, kind, w, dash in rows:
+    for label, kind, w, dash in LEGEND_ROWS:
         sx = lx
         cy = ty - 2
         if kind in ("rail1", "rail2"):

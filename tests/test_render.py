@@ -98,7 +98,10 @@ def test_no_war_marks_vocabulary(rendered):
         "boundary",
         "tonnes",
         "t/d",
-        "1983",
+        # NB: the bare year "1983" is deliberately NOT forbidden — build 3
+        # item 8 adds a restrained "NOVEMBER 1983" subtitle that dates the
+        # geography. The no-time refusal (§6) is about operational time
+        # (DTGs, H-hour, phase lines), which the tokens below still guard.
         "DTG",
         "H-hour",
         "H+",

@@ -390,3 +390,25 @@ gets an ordinary dot + label like any town.
     Schleswig/Hedeby (per reference/danevirke.md); west end
     into the Treene marshes.
 11. Hohn label off the Rendsburg–Sorgbrück rail line.
+
+---
+
+## Build 3 review (session e3137278, wrap)
+
+Accepted: all 11 items landed (112 tests green; the one test
+change — "1983" removed from the forbidden-vocabulary list — is
+sanctioned by item 8). Item-9 deviation accepted with its
+measured reasoning (Eckernförde occupies the top-right; legend
+stays bottom-left, shrunk, scale bar opposite). Research sources
+recorded (frontier terminus Siltoft/Rudbøl; IGB along the
+Ratzeburger See NE shore — Ratzeburg now ~3–4 km west of the
+line). DK verdict: **"Good enough for this draft."** Cover stamp
+bumped Draft one → Draft two same commit.
+
+Remaining defects list stands in the build-3 report (transcript)
++ honest-list above: THE TRAVE/infrastructure graze,
+SCHLESWIG-HOLSTEIN span, FUNEN graze, neck scale-bar tightness,
+FS_LEGEND 6.2pt vs the 6.5 floor. These are HAND-PASS items for
+final assembly, not another agent round. Instrument gate
+(doctrine/veteran/period readers over the plates) still owed
+before lock — run it with the next blind panel round.

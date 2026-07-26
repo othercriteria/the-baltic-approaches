@@ -31,7 +31,7 @@ DRAFT_DIR = drafts
 SOURCES = $(sort $(wildcard $(DRAFT_DIR)/*.md))
 # Front matter: apparatus, not narrative — in the PDF, never in wordcount
 FRONT_MATTER = $(wildcard apparatus/front-matter.md)
-DRAFT_STAMP = Draft one · $(shell date +%Y-%m-%d) · $(shell git rev-parse --short HEAD)
+DRAFT_STAMP = Draft two · $(shell date +%Y-%m-%d) · $(shell git rev-parse --short HEAD)
 
 # Body face — the SINGLE source of truth for the book's face. Both the
 # PDF build (mainfont) and the map plates (`make maps`, label face)

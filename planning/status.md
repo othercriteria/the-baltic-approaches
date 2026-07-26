@@ -626,6 +626,26 @@ Merete page/civil-column page (reader-ledger R1 §4) — DK to
 choose, not padding. Standing method note (re-read first)
 UNCHANGED and still correct.
 
+**2026-07-26 (e3137278@2, post-compaction; the session continued
+past its wrap):** full re-read done (drafts/ in order). DK
+close-read is mid-ch. 18, finding rate dropping; his three ch. 18
+catches CUT same day (tables-slack wall-gloss; money-arrive
+simile; specific-increment formula) + a bonus consistency fix
+(valve "third conjugation" double-claim vs 19a's third-count) —
+tic-inventory updated, incl. a measured census of the
+particular/specific+abstract-noun formula (8 remaining; ration
+at line pass). **Underserved package DRAFTED, adoption pending
+DK: notes/underserved-drafts.md** — (A) civil-column page (ch. 7
+close, Column 231, witness-grade), (B) Merete page (ch. 20
+homecoming insertion), (C) Rylski chapter "The Relief" (19b,
+between 19a and 20; the mirror of ch. 16 — the relief attempt as
+an operation conducted for a record, ending before the gales).
+~1,800 words total; all three adopted ≈ 50.75k. DK sequencing
+ruling: underserved lands BEFORE the exit-line-schedule campaign.
+Bogason/Dupuy spot-check asks re-presented with adjusted
+priorities (in-chat this date; #2 now Dupuy CAL-A table, #3
+HURRICANE air C2, UKMF glance demoted).
+
 **THE THIRD-DRAFT AGENDA ("meatier issues"), assembled:**
 1. The line editor's seven cross-chapter items
    (line-edit-r1.md foot): the particular/specific+abstract-noun

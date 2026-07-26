@@ -395,3 +395,176 @@ blue's:
 7. **Period multichannel/area-signal (AN/TTC-series) emplacement-time
    data** — to price the comms cost of the move in 1983 terms rather
    than MSE terms.
+
+---
+
+## § HDv 100/100 route-1 hunt (2026-07-26, session e3137278)
+
+*Executed the long-queued "route 1": hunt free US sources (CGSC/Fort
+Leavenworth SAMS+MMAS theses on cgsc.contentdm.oclc.org, DTIC, period
+Military Review/Armor articles) that quote HDv 100/100 at length on German
+command-post/Gefechtsstand/displacement doctrine. Same honesty rule as the
+rest of this file: German doctrine is named as unheld where it is unheld;
+no quote or page is invented.*
+
+### Headline finding (the load-bearing result)
+
+**Route 1 returns a null on its own terms, and sharpens the target.**
+The free US literature reachable from this environment does **not** quote
+HDv 100/100's command-post or displacement provisions. What the free US
+literature quotes of *German* command doctrine is the 1933-lineage
+**Truppenführung (H.Dv. 300/1, 1933/36)** and the **Auftragstaktik**
+mission-command *philosophy* — command culture, not CP mechanics. Three
+German-facing SAMS monographs pulled and full-text-searched
+(Gunther 2012, Eisel 1992, Kullack 1999) cite the 1933 Truppenführung and
+never HDv 100/100; none discusses Gefechtsstand echelonment or Verlegung.
+
+**Two structural correctives this pass establishes:**
+
+1. **Route 1 is probably aimed at the wrong manual.** HDv 100/100
+   *"Führung im Gefecht"* is the German operational-command **capstone**
+   — the counterpart to FM 100-5, doctrine of *how to fight*, not the
+   command-post handbook. Corroborated this pass (de-Wikipedia citations +
+   the DDB/Archivportal finding aids + the HDv 100/900 glossary): the
+   command-post **organization and displacement** material lives in
+   **HDv 100/200 *Führungssystem des Heeres*** (the command-*system*
+   manual — organization/procedures/means), with terms defined in
+   **HDv 100/900 *Führungsbegriffe*** (the command-vocabulary glossary).
+   → The cadence figure the prior pass already had (6–12 h / ~48 h) was
+   correctly sourced to HDv 100/**200**, not a mis-citation. **The acquire
+   target for the CP-displacement question should shift from 100/100 to
+   HDv 100/200 (period edition).** HDv 100/100 remains worth acquiring for
+   the *operational-command* register (Auftragstaktik as codified, not as
+   folklore), but it is unlikely to carry the Gefechtsstand-Verlegung drill.
+2. **DTIC is still hard-blocked from this network**, confirming the prior
+   pass. `apps.dtic.mil` PDFs return a 1408-byte JavaScript-challenge page
+   to `curl` (any UA) and HTTP 403 to WebFetch. Multiple on-point DTIC
+   reports were *identified by title* but could not be pulled (list below).
+   This is an infrastructure limit, not evidence the documents lack content.
+
+### Verdicts vs the ch. 14 canon (per element)
+
+The ch. 14 displacement (corps HQ night move Rendsburg→Hohn, echeloned,
+rear HQ takes the traffic, 5h40m) gains **no new German primary warrant**
+from route 1 — but nothing found **contradicts** it, and the doctrinal
+grain the prior pass established from US sources is unchanged:
+
+- **Main/rear/alternate echelonment** — **SILENT** from HDv 100/100 (still
+  unheld). Terminology re-confirmed from the German side (HDv 100/900
+  glossary, below): the *Basisgefechtsstand* and *Bewegliche Befehlsstelle*
+  are period-plausible German nouns; the Haupt/Rückwärtiger/Reserve triad
+  from §1c stands. No change.
+- **Rear HQ carries the traffic during the main's move** — **SILENT** in
+  German primary; the US mutual-alternacy logic (§1a, §2a) is still the
+  only warranted mechanism. Not contradicted.
+- **Echeloned night displacement as technique** — **SILENT** in German
+  primary this pass; remains a US-doctrine warrant (§2a).
+- **Pre-wired alternate site at Hohn, exercised in peacetime** — **SILENT.**
+  This is precisely the *Reservegefechtsstand-as-manned-standby* question
+  flagged in §6 as the sharpest US-vs-German divergence, and route 1 did
+  **not** resolve it. Still the top open item; it likely sits in HDv 100/200,
+  not 100/100.
+- **5h40m displacement duration** — **SILENT.** No German or US shelf
+  figure for a corps-main displacement clock (consistent with §2b). The
+  number remains our own plausible construction.
+
+Net: the ch. 14 move stays a **plausible, US-doctrine-analogized invention**
+with **no German primary corrective and no German primary confirmation**.
+Route 1's contribution is negative-but-useful: it rules out the free US
+monograph literature as a shortcut to the German CP text, and it redirects
+the acquisition to HDv 100/200.
+
+### Best source documents found this pass
+
+All CGSC CONTENTdm items are **freely fetchable** via the download API
+(`/digital/api/collection/<coll>/id/<id>/download`) and were pulled and
+full-text-searched locally (not deposited — distilled here).
+
+- **Gunther, Michael J., *"Auftragstaktik: the basis for modern military
+  command?"*** SAMS monograph, 2012. `p4013coll3/2963` (= DTIC ADA569668).
+  ~18.5k words. **Holds:** the fullest free English treatment of
+  Auftragstaktik's doctrinal genealogy; cites *Truppenführung, Teil I,
+  H.Dv. 300/1* (Berlin: Mittler, 1936) directly. **Does NOT** touch
+  Gefechtsstand/CP/displacement. Value = Auftragstaktik *register* for a
+  German-led staff, not CP mechanics.
+- **Kullack, Werner (LTC, German Army), *"Operational art of the German
+  Army: 'Freie Operationen'"*** SAMS monograph, 1999. `p4013coll3/649`.
+  ~14k words, German author. **Holds:** German operational-art concepts
+  (freedom of action, counter-concentration), Cold-War corps-sector layout
+  ("layer cake along the former inner-German [border]"), targeting the
+  enemy's command-and-control. Mentions "command-and-control regulations"
+  and "command post exercises" only in passing; **no CP organization or
+  displacement content.** Useful for German operational vocabulary.
+- **Eisel, George W. IV, *"Befehlstaktik and the Red Army experience"***
+  SAMS monograph, 1992. `p4013coll3/1427`. German command-philosophy
+  contrast (Befehlstaktik vs Auftragstaktik). No CP mechanics.
+- **Wolf, James F., *"Beyond ten in ten: command and control of follow-on
+  U.S. divisions to AFCENT"*** SAMS monograph, **1989** (period-adjacent).
+  `p4013coll3/1993`. NATO/AFCENT reinforcement C2 — US-side, no German CP
+  detail, but the closest period NATO-Central-Region C2 study surfaced.
+- **Richmond, Melvin E. Jr., *"Corps stay-behind force — a role for the
+  light infantry division on the Central European battlefield"*** SAMS,
+  **1987**. `p4013coll3/2075`. Period Central-European; US CP siting
+  references only.
+- **HDv 100/900 *Führungsbegriffe* (Oktober 1998 edition)** — German
+  **primary**, freely readable (pdfcoffee.com mirror,
+  `fhrungsbegriffe100-900-rjenik-znaenja-pdf-free`). **CAUTION: 1998
+  glossary, post-period, and a definitions manual — not a displacement
+  drill.** Confirmed German definitions (verbatim), useful as terminology
+  ground-truth even though late:
+  - *Gefechtsstand* — "Einrichtung, von der im Einsatz geführt und
+    Verbindung zur übergeordneten Führung sowie zu Nachbarn gehalten wird."
+  - *Basisgefechtsstand* — "Beweglicher, schichtfähiger Gefechtsstand auf
+    der Divisions- und Brigadeebene, auf dem alle Führungsgrundgebiete
+    sowie die erforderlichen Fachgebiete vertreten sind."
+  - *Bewegliche Befehlsstelle* — "Örtlich nicht gebundene Befehlsstelle zu
+    Lande, zu Wasser oder in der Luft, aus der ein Truppenführer abgesetzt
+    vom vorgeschobenen Gefechtsstand zeitlich begrenzt Einsicht in das
+    Gelände oder persönlichen Einfluß auf die Truppe nimmt."
+  → This confirms *bewegliche Befehlsstelle* ≈ command group and the
+  *Basisgefechtsstand* concept from the German side, but the 1998 edition
+  shows the term set had evolved (Basisgefechtsstand is a later coinage);
+  do **not** back-date "Basisgefechtsstand" into 1983 prose without the
+  period manual.
+
+### Identified but UNREACHABLE (DTIC-blocked; named, not read)
+
+Pulled by title in searches; `apps.dtic.mil` is unreachable from here, so
+none was read. Flagged for a network that can reach DTIC:
+
+- **Kanarowski, Stanley M., *"The German Army and NATO Strategy,"*** NDU,
+  **1982** (DTIC ADA122372; also a Google Books record). Period German-army
+  study — most likely of the DTIC hits to carry command-organization
+  texture. **Top DTIC re-try target.**
+- **DTIC ADA167405, *"Division and Corps Command Posts in World War II"***
+  (1986) — CP focus but WWII, lineage only.
+- **DTIC ADA569668** = the Gunther Auftragstaktik monograph above (already
+  read via the CGSC mirror — the CGSC copy is the workaround for
+  DTIC-hosted SAMS papers).
+
+### Residual — what still needs the German original (route-1 revision)
+
+1. **HDv 100/200 *Führungssystem des Heeres* (period edition)** — **PROMOTED
+   above HDv 100/100 for the CP-displacement question.** This is where the
+   Gefechtsstand echelonment, the *Reservegefechtsstand*-as-standby answer,
+   and the 6–12h/~48h cadence actually live. Not free online; Bundesarchiv/
+   purchased scan. **New top item for the displacement canon.**
+2. **HDv 100/100 *Führung im Gefecht* (mid-80s edition)** — still wanted,
+   but now scoped correctly: for the *operational-command register*
+   (Auftragstaktik as codified doctrine), not expected to carry the CP
+   drill. Downgraded from "the one document" to "one of two."
+3. **A period German edition of HDv 100/900 *Führungsbegriffe*** — to
+   date the CP vocabulary to 1983 (the readable copy is 1998 and shows
+   term drift).
+4. **DTIC access** (Kanarowski 1982 et al.) — needs a network that clears
+   the DTIC JS-challenge; not solvable from this environment.
+5. Danish field regulations (LANDJUT Danish half) — still nothing free;
+   unchanged from §7.
+
+**Do-not-re-hunt (false positives cleared this pass):** the two modern SAMS
+monographs that surface for "Bundeswehr operational command" —
+*"Comparing the OODA Loop…CJTF-180"* (2012, `p4013coll3/2890`) and
+*"Iron Sharpens Iron"* (Schoy, 2013, `p4013coll3/3111`, SAMS staff-education
+comparison) — are **not** about German CP doctrine. The CGSC CONTENTdm
+search API is live and fetchable (`/digital/api/search/collection/
+<coll>/searchterm/<terms>/…/maxRecords/N`) for future targeted passes.

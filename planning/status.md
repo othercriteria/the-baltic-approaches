@@ -913,20 +913,24 @@ flag (ch. 9/15 COMBALTAP-vs-COMAIRBALTAP) awaiting DK.
   (4-1-78 first) + NIE 11/17-85 + two CIA chemical items
   (shelf.md queue, URLs in chemical-posture.md); Wilson Center
   pair (ex. VAL-77, Maritime Front decision).
-- HDv 100/100 "Führung im Gefecht" (1973 — the edition governing
-  Nov 1983), for the HQ-displacement work (hq-displacement-brief):
-  three routes, cheapest first: (1) FREE NOW — CGSC/CARL digital
-  library + DTIC hold 1980s US student monographs comparing HDv
-  100/100 with FM 100-5 (e.g. cgsc.contentdm.oclc.org item
-  p4013coll2/id/1664), quoting the German doctrine at length —
-  fetch-shelf tier, likely sufficient for CP/displacement
-  triangulation with held FM 71-100/100-5 + Bogason; (2) the
-  Bundesarchiv holds the original (indexed via Deutsche Digitale
-  Bibliothek / Archivportal-D, Führungsakademie provenance) —
-  reproduction request, slow but certain; (3) German antiquarian
-  market (ZVAB/Booklooker/eBay.de) for a physical copy — sporadic
-  listings, VS-NfD long lapsed. DK browser/purchase tier: (3);
-  session tier: (1).
+- ~~HDv 100/100 route 1~~ **RUN 2026-07-26 (cp-doctrine.md §
+  route-1 hunt): honest negative + a route correction.** The free
+  US literature (5 SAMS/CGSC monographs full-text searched)
+  quotes Truppenführung 1933 and Auftragstaktik philosophy but
+  never HDv 100/100 on CPs — and the CP-echelonment/displacement
+  drill lives in **HDv 100/200 "Führungssystem des Heeres," now
+  the top acquire target** (HDv 100/100 is the FM 100-5-analog
+  capstone; wrong manual for the displacement question). Ch. 14's
+  Hohn displacement: still uncontradicted, still our
+  US-doctrine-analogized invention; the pre-wired alternate-site
+  question stays SILENT in everything free. Remaining routes, DK
+  tier: German antiquarian (ZVAB/Booklooker) now for **100/200**
+  (1972 edition) first, 100/100 second; Bundesarchiv reproduction
+  the slow-certain fallback; one DTIC re-try on a network that
+  passes its JS-challenge (Kanarowski, "The German Army and NATO
+  Strategy," NDU 1982). Best free source banked: Gunther, SAMS
+  2012 (Auftragstaktik register) + HDv 100/900 Führungsbegriffe
+  (German CP-term definitions).
 - Purchases pending, RE-RANKED 2026-07-23 (session eb2fcb4e, on
   the Lautsch substitute corpus — oob-verification.md Addendum 2,
   shelf batch 10): **Lautsch book DEMOTED to wanted-not-blocking**

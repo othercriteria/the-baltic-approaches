@@ -341,3 +341,52 @@ polish list:
 5. Then: DK look at the full proof → instrument gate (doctrine/
    veteran/period readers) per spec §7 → lock for the panel
    PDF.
+
+---
+
+## Build 3 work order (DK review of build 2, 2026-07-25)
+
+Process note: one more Opus polish pass now; afterwards DK
+decides whether a further pass runs or the session does a hand
+pass itself.
+
+**Amendment:** the København ruling was over-read — "no special
+treatment" means no capital styling, NOT dotless. København
+gets an ordinary dot + label like any town.
+
+### Plate I
+1. København: ordinary dot restored.
+2. Aarhus label to the LEFT of its dot; Vejle likewise.
+3. Middelfart/Kolding collision (carryover) — resolve.
+4. Faint area-label overlaps (carryover): LITTLE BELT/FUNEN
+   cluster, BALTIC/Vordingborg, THE TRAVE/Lübeck, KIEL
+   CANAL/SCHLESWIG-HOLSTEIN graze.
+5. Danish frontier west end: build 2 over-corrected. Split the
+   difference and RESEARCH the actual 1983 land-border west
+   terminus (the frontier meets the Wadden coast near
+   Siltoft/Rudbøl); end the drawn line at the researched
+   coast point, not short of it and not at sea.
+6. **IGB at Ratzeburg is wrong** — DK sees a line segment
+   tangent to Ratzeburg. Research the actual border course
+   (Priwall/Travemünde down past the Schlutup and Herrnburg
+   gaps, then EAST of Ratzeburg along the Ratzeburger See and
+   Schaalsee) and re-trace, GUESS-tier but shaped from the
+   real course. Ratzeburg is FRG, near but not on a straight
+   tangent.
+
+### Both plates
+7. Legend boxes are oversized for contents — size to content
+   with tight padding.
+8. Year annotation: add NOVEMBER 1983 as a restrained subtitle
+   (or title-integrated) on both plates, consistent placement;
+   this dates the GEOGRAPHY and does not breach the no-time
+   refusal (which concerns campaign time).
+
+### Plate II (carryover from build-2 review)
+9. Legend relocated (top-right open water is available) and
+   resized per item 7; scale bar uncrowded; nothing covering
+   the Eider ribbon or water labels.
+10. Danevirke hachure east end anchored at the Schlei head by
+    Schleswig/Hedeby (per reference/danevirke.md); west end
+    into the Treene marshes.
+11. Hohn label off the Rendsburg–Sorgbrück rail line.

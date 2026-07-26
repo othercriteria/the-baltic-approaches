@@ -91,9 +91,12 @@ pass. "The framework does not target the ports, out of
 respect for the mission. It does not need to. The
 prize is downwind of the means, in the most literal
 sense. What the operation exists to deliver is a
-working port before the ice. After this folder there
-is no working port in the sense the ministries intend
-the word, whatever the wind does. It feeds no
+working port before the ice — the port, and the canal
+behind the port, the Atlantic door the operation was
+approved to open. Three weeks the Front's own fire
+plans have spared its machinery. After this folder
+there is no working port in the sense the ministries
+intend the word, whatever the wind does. It feeds no
 division. It moves no railhead. It converts our own
 axis into our own obstacle."
 
@@ -103,9 +106,7 @@ operation was approved — I sat in the room — on the
 argument that it would be over before it became the
 other kind of war. That argument is the operation.
 The folder does not complete it; the folder confesses
-its failure, with fire, in the one theater where
-every government on the far side has spent twenty
-years rehearsing what our fire means. I am six days
+its failure, with fire. I am six days
 late against a closing sea, Vitaly Sergeyevich. The
 folder proposes to solve my week by making it a
 different century." He closed it and squared its edge
@@ -137,7 +138,19 @@ did not ask what you would have done."
 "No, Comrade General."
 
 "Keep it so. One of us must be able to say he was
-never asked." He looked at the phase lines a moment
+never asked." He was quiet a moment. "And one thing
+more, which goes in no column. The morning that
+certificate goes north over my signature, the war
+stops being mine. The targets pass to men I have
+never met, and the Front becomes the ground their
+fire is corrected from. Whatever else that folder
+is, it is my relief from command, drafted politely.
+I refused it for the reasons I gave the journal, and
+the reasons are true, and a man whose true reasons
+and whose own skin point the same way should be
+believed exactly as far as any other favorable
+return. You may apply the discount, Stefan. You
+will anyway." He looked at the phase lines a moment
 longer: the calm procession, Day Six standing on
 ground the war now assigned to nobody. "The
 twenty-seventh, then. Go and feed my dumps their

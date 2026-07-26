@@ -878,11 +878,20 @@ flag (ch. 9/15 COMBALTAP-vs-COMAIRBALTAP) awaiting DK.
   ch. 7 Lohse addition validated (seminar's anchor door);
   seminar verdict keep-it-last against the Anabasis/Night
   Flight/Caine/Good Shepherd/Catch-22 canon. TWO NEW FLAGS for
-  DK (collation §new-actionable): ch. 17 folder scene flat/too
-  noble (two instruments; options filed, incl. accept-as-is
-  given 19b); money-metaphor calcification in chs. 10–16
-  narration ("a tic wearing a thesis") — census-or-accept
-  ruling wanted.
+  DK, BOTH RULED same day: (1) ch. 17 Zawadzki roughening
+  APPROVED + APPLIED — the mixed-motive confession in the
+  private after-moment ("the folder is my relief from command,
+  drafted politely... you may apply the discount, Stefan. You
+  will anyway"), the position-paper clause trimmed from the
+  refusal speech, and one Bogason slot-in (find 3: the ports +
+  the canal as the Atlantic door, red's side of ch. 6's
+  untouched-locks restraint) into Rylski's audit; (2)
+  money-metaphor system — DK constraint STATED (early uses must
+  never be INCORRECT; incomplete or attention-focusing baroque
+  is licensed; mechanical narration uses thin after the system
+  is taught) — Opus mapping agent dispatched, findings to
+  notes/money-metaphor-map.md, trim to follow exactly along the
+  constraint.
 - ~~The RUSSWO/AWS ceiling-visibility table~~ DISCHARGED
   2026-07-25 (AD-A118450 — november-climate.md §1; only the
   optional parent Schleswig RUSSWO standalone remains, wanted for

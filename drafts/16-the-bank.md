@@ -22,8 +22,8 @@ level, which Witzel brought in without expression,
 about whether ground voluntarily relinquished had a
 negotiating meaning that ground held did not.
 
-Hvidt answered the traffic himself, in the wall's
-currency, patiently, like a catechism: the corps is not
+Hvidt answered the traffic himself, patiently, like
+a catechism: the corps is not
 declining combat; it is scheduling it. And to Holt, at
 the end of one such evening, signing the day's last
 reply: "The wall prices everything except what the

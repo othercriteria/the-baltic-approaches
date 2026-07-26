@@ -5,8 +5,8 @@ The headquarters moved on the fourteenth night.
 The decision was Hvidt's, taken in four minutes on the
 evidence of the harassment log and Aakjær's grading of
 the exemption: the enemy held the address and was
-saving it, and the corps declined to remain on
-deposit. The site had existed since the first week,
+saving it, and the corps declined to be there when
+he spent it. The site had existed since the first week,
 dispersed huts and cable runs under the trees at Hohn,
 wired, netted, its circuits tested every day at 1400
 by a signals cell nobody had once thanked. The move

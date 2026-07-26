@@ -86,7 +86,7 @@ voice ran the stall. The stall's owner sat a little apart
 and said the least of anyone in the room: the theater
 commander, a Danish lieutenant general the corps had met
 all war only as consequences, who left the liturgy to his
-airman and kept himself for the rates of exchange.
+airman and kept himself for the weighing.
 
 And a staff. The assessments cell sat along the side
 wall, and its chief came forward at the pause after the

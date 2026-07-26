@@ -131,7 +131,7 @@ Lübeck with army-level formats and unfamiliar operators;
 three prisoner statements from three sectors agreeing on
 nothing except a phrase, the second wave — a lieutenant
 of engineers who used it bitterly, a supply sergeant
-who used it the way men use payday, and a tank driver
+who used it as a promise, and a tank driver
 who did not know what it contained, only that his
 officers kept promising it; the road flow
 through the border crossings thickening night over night.

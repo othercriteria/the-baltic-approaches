@@ -61,8 +61,7 @@ the queue.
 Three decisions stood in line at the plexiglass by 0915,
 all of them the corps', which is to say all of them his to
 stage and Hvidt's to take, and each one was a spending
-decision, and the currencies were the ones the wall had
-taught them all to see. The reserve: eleven battalions on
+decision. The reserve: eleven battalions on
 paper on the first of the month, seven this morning, the
 difference already spent into the line by twos in the
 war's first fortnight. The bank: the rationing order's

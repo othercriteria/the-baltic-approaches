@@ -3,13 +3,12 @@
 The morning after a victory has its own arithmetic, and
 the staff did it beautifully.
 
-White flags at battalion level on the southern arc.
-Radio silence across the pocket's nets. The deserter
-colonel's testimony about the dumps, corroborating the
+Daylight changed none of it. The flags, the silence,
+the colonel and his empty dumps corroborating the
 wall's own curves: the instrument vindicated by a
 witness, which no instrument can resist. Aakjær's
-assessment stood on the board in the morning light, CUT
-ARMY ASSESSED COMBAT-INEFFECTIVE, and the corps began,
+assessment stood on the board, CUT ARMY ASSESSED
+COMBAT-INEFFECTIVE, and the corps began,
 prudently, correctly, by every doctrine it had learned
 and every doctrine it had invented, to spend its
 victory: the readjustment order, drafted by 0900, thinned
@@ -20,8 +19,7 @@ this corps did now, and the pocket was beaten, and the
 wall said so.
 
 Roloff's re-pinned sheet from the twenty-fifth hung
-beside the assessment: the silence that had meant
-preparation. At the 0900 conference nobody raised it.
+beside it. At the 0900 conference nobody raised it.
 Roloff was off shift, sleeping his ordered six hours,
 and the sheet had no initials requesting attention,
 because Roloff did not editorialize, even by pin. Holt

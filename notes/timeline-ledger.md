@@ -49,11 +49,31 @@ it lands; discrepancies found here were fixed in the same commit
 | Thu 24–Sat 26 Nov | | 17–19 | Ferries westward from the 24th ✓, 2.5 days, Halsskov raid on the run's second night (25/26), no third. Counter-battery counts posted: 1100 (23rd), 900 (24th), 640 (25th) ✓. Requirement from the capitals **on the twenty-fourth** (= day 17; "by the seventeenth day," was "twentieth") ✓; raid at dawn **Friday 25th** ✓ (chs. 18/19 headline references fixed Tuesday→Friday). Counterstroke overlay drafted **night of the twenty-fourth** (was "twentieth night"); countersigned 0140. Holt's ordered rest **on the twenty-sixth** (was 25th); count for the **twenty-sixth**: 410, lowest of the war (was dated 25th, colliding with ch. 15's 640); Aakjær's HE IS SPENDING FROM THE HOARD, evening 26th. Red: Kuragin's folder, night of the 25th ✓; Zawadzki's refusal; "the Front attacks on the twenty-seventh" ✓. Blue readiness + Rahn's telephone refusal, night of the 26th ✓. |
 | Sun 27 Nov | Su | 20 | **First Advent.** Red preparation 0340 ✓ ("AS SCHEDULED (HIS)"); meter read all day; H-hour set. Moon: last quarter — "does not rise until near midnight" ✓ almanac. |
 | Mon 28 Nov | Mo | 21 | Counterstroke: guns 0455, H 0500; civil twilight 0733 ✓; seam 0740 ✓; crest had passed early (inside the error band); door closed 1500 (sched. 1030); SPERBER denied. War exactly three weeks old ("three weeks of refusals" ✓ kept). |
-| Tue 29 Nov | Tu | 22 | White flags; readjustment order 0940; thinning; rearward marches from ~2045 (REST: SCHEDULED 292000 ✓). |
+| Tue 29 Nov | Tu | 22 | White flags; readjustment order 0940; thinning; rearward marches from ~2045 (REST: SCHEDULED 292000 ✓). Red (ch. 19b): relief directive in the night distribution; white flags in enemy plain-language traffic "since the previous evening" ✓ (= 28 Nov night, ch. 19's last signals); grouping's last transmission 30 h old ✓. |
 | Wed 30 Nov | We | 23 | Breakout 0340; hinge company; AP 14 0510; breach sealed 1140; price posted 2200 "on the twenty-third of the war's days" ✓. |
-| Thu 1 Dec – Sat 3 Dec | | 24–26 | Capitulation in fact at dawn day 24 ✓; "by battalions across the first three days of the month" ✓. |
+| Thu 1 Dec – Sat 3 Dec | | 24–26 | Capitulation in fact at dawn day 24 ✓; "by battalions across the first three days of the month" ✓. Red (ch. 19b): relief assembles "across four nights" (29/30 Nov – 2/3 Dec); Rylski's final dump entry evening 3 Dec; attack set for **Sun 4 Dec = Second Advent** (unremarked in text; red's great effort fell on First Advent — the rhyme is the calendar's own). |
 | Tue 6 Dec | Tu | 29 | Cease-fire 062400 ✓ (St. Nicholas night — almanac). Blue chinagraph 2350. |
 | Dec–Jan | | — | Wall down, week 2 ✓; Bjelke the 14th ✓; Holt home 19 Dec (30 h) ✓; Eckernförde 2 Jan ✓ (almanac range ends 2 Jan ✓). |
+
+## DK FLAG — the gales-date knot (opened 2026-07-26, with ch. 19b)
+
+Pre-existing tension that 19b's attack date (4 Dec) sharpens but
+did not create: **any relief attempt must die before the 6 Dec
+2400 cease-fire, yet every gale forecast in canon says ≥ 8 Dec**
+(ch. 13 sheet: window closure assessed 8–12 Dec; ch. 17 + 19b:
+red's circled annex, "first winter gales, second week of
+December"). Ch. 20's "died in the December gales, **the one
+schedule of the entire war that held to the day**" cannot be
+literally true of either forecast if the relief died 4–6 Dec.
+Cheapest resolutions, DK to rule: (a) recast the ch. 20 clause —
+e.g. the gales "arrived ahead of every forecast on either side
+of the line" (thematically ON thesis: the war's last auditor
+beats both staffs' numbers; the assessed 8–12 closure bracket
+survives as an honest wrong estimate); or (b) keep "held to the
+day" and cut the relief's dependence on the gales (weaker — the
+clause is doing real work). No text changed pending the ruling;
+19b deliberately repeats ch. 17's forecast verbatim so the knot
+stays in one place (ch. 20's clause).
 
 ## Geometry note
 

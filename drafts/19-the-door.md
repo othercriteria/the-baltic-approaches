@@ -225,8 +225,7 @@ must fight that army again, at a time of its choosing,
 with my men dug in around it like a fence around a
 bull. Release SPERBER and I take the crossing sites
 tonight and the pocket starves faster and fights
-sooner and smaller. The exploitation is not glory. It
-is economy."
+sooner and smaller."
 
 The operations room heard Karup break in then: the
 relay's flat voice, the capitals' evening appetite

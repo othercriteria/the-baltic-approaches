@@ -657,7 +657,17 @@ confirmed to the cell (4.0 = intense/hasty), CAL-A and CAL-E
 confirmed in bracket, CAL-D now has an in-period obstacle
 bracket, red's 10 km/day norm sits on NP&W's
 moderate-resistance/delay line — concordance holds, no text
-change.
+change. LATER SAME DAY: **(C) v2 ADOPTED and LANDED as
+drafts/19b-the-relief.md** (renumbering joins the 19/19a
+assembly decision); DK ch. 19 negation-survivor CUT ("not
+glory. It is economy"); 19→19a seam REWORKED (19a no longer
+re-narrates ch. 19's closing evidence — "Daylight changed none
+of it" marks the same pictures in changed light, arming the
+0356 "changed light" payoff); **NEW DK FLAG in the timeline
+ledger: the gales-date knot** (relief must die before the 6 Dec
+cease-fire; every canon forecast says gales ≥ 8 Dec; ch. 20's
+"held to the day" clause is the knot — options filed, DK to
+rule).
 
 **THE THIRD-DRAFT AGENDA ("meatier issues"), assembled:**
 1. The line editor's seven cross-chapter items

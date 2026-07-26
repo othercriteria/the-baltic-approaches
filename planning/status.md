@@ -663,11 +663,12 @@ assembly decision); DK ch. 19 negation-survivor CUT ("not
 glory. It is economy"); 19→19a seam REWORKED (19a no longer
 re-narrates ch. 19's closing evidence — "Daylight changed none
 of it" marks the same pictures in changed light, arming the
-0356 "changed light" payoff); **NEW DK FLAG in the timeline
-ledger: the gales-date knot** (relief must die before the 6 Dec
-cease-fire; every canon forecast says gales ≥ 8 Dec; ch. 20's
-"held to the day" clause is the knot — options filed, DK to
-rule).
+0356 "changed light" payoff); gales-date knot RULED same day (option
+(a)) and applied: ch. 20 now "gales... arrived four days ahead
+of every forecast in either alliance," agreeing with its own
+audit line; ledger flag closed. Breakout seam disambiguated
+Schleswig-Friedrichsberg (DK query proved the
+Friedrichstadt-confusability cost).
 
 **THE THIRD-DRAFT AGENDA ("meatier issues"), assembled:**
 1. The line editor's seven cross-chapter items

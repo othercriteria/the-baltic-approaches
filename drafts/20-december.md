@@ -6,9 +6,9 @@ Aakjær made the distinction at the morning conference on
 the fourth of December and the staff adopted it, because
 it was exact. The cut army capitulated by battalions
 across the first three days of the month. The relief
-attempt died in the December gales, the one schedule of
-the entire war that held to the day, and the front went
-quiet, then formal: the enemy digging a winter line east
+attempt died in the December gales, which arrived four
+days ahead of every forecast in either alliance, and the
+front went quiet, then formal: the enemy digging a winter line east
 of the neck, the corps digging opposite, the artillery
 of both sides falling silent out of an economy that had
 stopped being strategy and become simple poverty. In

@@ -55,7 +55,17 @@ it lands; discrepancies found here were fixed in the same commit
 | Tue 6 Dec | Tu | 29 | Cease-fire 062400 ✓ (St. Nicholas night — almanac). Blue chinagraph 2350. |
 | Dec–Jan | | — | Wall down, week 2 ✓; Bjelke the 14th ✓; Holt home 19 Dec (30 h) ✓; Eckernförde 2 Jan ✓ (almanac range ends 2 Jan ✓). |
 
-## DK FLAG — the gales-date knot (opened 2026-07-26, with ch. 19b)
+## ~~DK FLAG~~ RESOLVED — the gales-date knot (opened and ruled 2026-07-26)
+
+**Ruling: option (a), DK-ratified same day; applied.** Ch. 20's
+clause now reads "died in the December gales, which arrived four
+days ahead of every forecast in either alliance" — agreeing with
+the audit entry two paragraphs later ("The sea's schedule by four
+days") instead of contradicting it. Derivable canon fixed by the
+ruling: actual first gales ~4–6 Dec (four days early against the
+8–12 Dec assessed closure AND against red's "second week" annex);
+the relief attacks 4 Dec into their arrival; cease-fire 6 Dec
+2400 closes over the wreck. The original knot, for the record:
 
 Pre-existing tension that 19b's attack date (4 Dec) sharpens but
 did not create: **any relief attempt must die before the 6 Dec

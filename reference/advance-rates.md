@@ -325,6 +325,88 @@ Current parameters (wargame/scenarios/toy-landjut.toml:24-27, 68,
   within-pulse decay factor is a candidate campaign-3 mechanic, not a
   number to tune now.
 
+## 10. NP&W (1979) Appendix A spot-check — DK scans, 2026-07-26
+
+*Source: Dupuy, "Numbers, Predictions and War" (1979), Appendix A
+"Rules for Advance Rates," pp. 213–215, read from DK's phone scans
+of his print copy (deposited: holdings scans/dupuy-npw-1979/).
+This is the session ask #2 (one table read against the CAL-A
+brackets), executed the day the scans arrived. Cells below were
+read from the page images; a few dim cells (infantry/cavalry
+columns, mid-table) are left uncited rather than guessed.*
+
+**Structure.** Method: standard rate × relevant factors. The
+standard (unmodified) rates table crosses **P/P brackets**
+(combat-power preponderance, nine bands from 1.0–1.10 to 6.00+),
+each labeled with a resistance grade (Intense → Negligible),
+against **defense posture** (hasty defense/delay, prepared
+defense, fortified defense), by division type (armored /
+mechanized / infantry / horse cavalry). Footnote: "Based on HERO
+studies: ORALFORE, Barrier Effectiveness, and Combat Data
+Subscription Service" — the direct descent from §1's source,
+confirmed on the page. Sustainability rule (p. 214 footnote):
+the negligible/slight rates for armored and mech divisions are
+sustainable **10 days**; the next 30 days at standard rates; and
+infantry forces cannot exceed **half** standard rates in that
+follow-on period.
+
+**Key cells (km/day, armored / mechanized):**
+- Intense (P/P 1.0–1.10): hasty defense/delay **4.0 / 4.0**;
+  prepared 2.0 / 2.0; fortified 1.0 / 1.0.
+- Moderate (P/P 1.76–2.25): hasty **12.0 / 10.0**; prepared
+  6.0 / 5.0; fortified 3.0 / 2.5.
+- Slight (P/P 3.01–4.25): hasty **20.0 / 16.0**; prepared
+  10.0 / 8.0.
+- Negligible (P/P 6.00+): hasty **60.0 / 48.0** (infantry 24.0);
+  prepared/fortified 30.0 / 24.0.
+
+**Modifying factors (p. 214–215):** terrain — rugged heavily
+wooded 0.4 (infantry/combined-arms) / 0.2 (armored) at the
+bottom, flat-bare-hard 1.05 / 1.0 at the top, urban 0.7 / 0.7;
+road quality 1.0 / 0.8 / 0.6 (good / mediocre / poor); road
+density 1.0 European standard, 0.8 moderate, 0.6 sparse. Obstacle
+factors: fordable river 0.9→0.7 and unfordable 0.85→0.5 as width
+runs 20→500 m; minefields graded by density per km of front (10
+→ 0.9 … 500 → 0.5), with fortified-defense rates already
+including them. **Night: one-half the daytime rate** when using
+sub-24-hour increments.
+
+**Spot-check verdicts against §9:**
+- **CAL-B CONFIRMED to the cell.** `pressure_kmd = 4.0` is
+  exactly NP&W's intense-resistance / hasty-defense-or-delay rate
+  (4.0 km/day for armored, mech, and infantry alike).
+- **CAL-A CONFIRMED in direction.** NP&W unopposed (negligible):
+  48–60 standard, ~43–54 after typical SH terrain/road factors,
+  sustainable 10 days — consistent with ORALFORE's 45–60 bracket;
+  `march_kmd = 25.0` remains low for an uncovered axis.
+- **CAL-E CONFIRMED.** `w_max_kmd = 12.0` is NP&W's
+  moderate-resistance / delay cell for an armored division
+  (12.0; mech 10.0) — squarely in the ~10–23 pursuit band.
+- **CAL-D partially served.** NP&W supplies the quantified
+  river/minefield factors ORALFORE could not (§5): the declared
+  free parameters (`obstacle_adv_factor = 0.5` etc.) now have an
+  in-period bracket — 0.5 is NP&W's worst-case unfordable-river
+  factor, so the model's obstacle penalty sits at the severe end
+  of the published range rather than beyond it.
+- **CAL-C nuance, noted not actioned.** NP&W re-indexes
+  ORALFORE's resistance ladder BY force ratio — the P/P brackets
+  are the rows, with resistance grades as labels. Dupuy's own
+  1979 synthesis thus partially re-fuses the two variables
+  ORALFORE separated. The instrument's resistance-intensity
+  ladder still stands on ORALFORE's structural finding; what
+  NP&W adds is the in-period reading: a 1983 staff officer using
+  the standard reference would treat ratio and resistance as one
+  fused table.
+
+**Book-side check (the ask's real cargo):** red's 10 km/day
+conventional-variant norm (chs. 4, 11) sits precisely on NP&W's
+moderate-resistance / hasty-defense-or-delay line (mech 10.0,
+armored 12.0, at P/P ~2:1). The number the enemy's plan
+entitles itself to is the same number the period's Western
+predictive literature assigns to that situation — both sides'
+arithmetic mutually consistent, concordance holds, no text
+change required.
+
 ## Open items
 
 - Read the daily matrix sheets from page images (per-operation daily
@@ -336,10 +418,10 @@ Current parameters (wargame/scenarios/toy-landjut.toml:24-27, 68,
 - A quantified obstacle/demolition bench (ORALFORE names the gap;
   Conclusion 6a assigns the research nobody then funded) — engineer
   doctrine pubs, front research queue.
-- Dupuy's later *Numbers, Predictions and War* (1979) / HERO's 1980s
-  advance-rate work updates these categories with the larger database
-  ORALFORE asked for — in-period for the setting, not yet on the
-  shelf.
+- ~~Dupuy's later *Numbers, Predictions and War* (1979)~~ — Appendix A
+  advance-rate rules now held (DK scans, §10 above); the QJM
+  daily-casualty norms and CEV chapters remain wanted (scans on
+  request).
 - Soviet-attacker rates: ORALFORE has none; FM 100-2-1 (1984, held)
   gives the *planning norms* red staffs would use — "approximately 50
   kilometers per day" anticipated over weeks, "up to 30 kilometers per

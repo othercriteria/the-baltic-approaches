@@ -313,3 +313,52 @@ BRIDGE RESERVE, 7 HRS.
 He dated the order with both times, scheduled and actual.
 They were, for once, identical. He signed, and went back to
 the boards, and the war.
+
+---
+
+Column 231 spent its deferred day at its collection point,
+which was a school.
+
+The Lohse car stood fourth in the column order under the
+chestnuts in the yard, packed since four in the morning.
+Frau Lohse had packed it twice: once in October, by the
+pamphlet's list, when packing had been a precaution against
+nothing in particular; and again the night the column was
+called, when her father unpacked the pamphlet's version in
+silence and rebuilt it. He put in the axe, the tow rope, and
+the small paraffin stove, and carried the second suitcase of
+clothes back upstairs without explanation. He had come west
+in the winter of 1945, from Stolp, nineteen years old, on
+foot for the last two hundred kilometers. "Weight is time,"
+was all he had ever said to her about that. He did not say
+it now. He built the load, and she let him.
+
+The district fed the column at noon from a field kitchen set
+up on the handball court, pea soup with sausage in it, the
+serving generous. The road past the school was closed to the
+column that stood beside it, and down the road all day went
+the reason: guns under netting, bridging on transporters,
+fuel trucks in fours, moving south at intervals a boy could
+learn. Her son spent the day at the fence and learned them.
+Once a crew waved. Toward evening there was weather-sounding
+thunder from the southeast when the wind stood right, and the
+adults went on with their conversations at an unchanged
+volume, and the children understood that a lesson was being
+given, and took it.
+
+A hundred and six persons slept in the gymnasium on mats. In
+the classroom the column leader used for his lists, the
+blackboard still carried the timetable of a week the school
+had not held, and the homework for the ninth of November,
+which no one had assigned and no one had wiped.
+
+The column was called at five. Engines in the dark, the
+practiced fumbling, a soldier with a signal lamp at the gate
+who looked at his watch more than at them. They crossed the
+Eider at Friedrichstadt in the middle of the morning, between
+two Danish battalions, and were in the receiving district by
+dark: a village above the marsh, a billeting list read out by
+lantern, a widow's front room with the bed already made. Her
+father slept that night; she heard it through the wall. It
+was the fact she chose for the card the district issued for
+writing home, there being room on the card for one.

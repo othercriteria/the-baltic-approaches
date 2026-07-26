@@ -1,275 +1,164 @@
-# Underserved-candidates package (adoption pending DK)
+# Underserved-candidates package — DK dispositions (2026-07-26)
 
-*Session e3137278@2, 2026-07-26. The three underserved items from
-reader-ledger R1 §4, drafted in full per DK direction ("start
-working the underserved candidates... in place before we do the
-exit-line-schedule campaign"). Precedent: the fault-line drafts
-package. Nothing here is in canon; DK rules per piece (adopt /
-adopt-with-cuts / decline), then the session lands the adopted
-text verbatim or amended.*
+*Session e3137278@2. The three underserved items from reader-ledger
+R1 §4, drafted per DK direction, ruled same day:*
 
-**Budget arithmetic (measured):** narrative stands at 48,953
-after the ch. 18 cuts. The package totals ~1,800 words drafted;
-all three adopted ≈ 50.75k, i.e. on the 50.5k plan with the
-54.2k ceiling untouched. Any piece declined returns its words to
-the reserve.
+- **(A) Civil column — ADOPTED** ("I didn't expect to like (A),
+  but it's beautifully done"). **LANDED** as ch. 7's new closing
+  section, verbatim from the v1 package (see drafts/07-the-roads.md;
+  v1 text in git history at ec3dfe0).
+- **(B) Merete page — DECLINED** ("I expected to like (B), but I
+  don't think it really adds anything"). Words returned to the
+  reserve; the ch. 20 homecoming and doorstep verdict stand as
+  written. v1 text preserved in git history (ec3dfe0) if the next
+  panel reopens the question.
+- **(C) Rylski chapter — REWORK ORDERED** ("needs a style and
+  redundancy/repetition/borrowing pass, and maybe a full rework
+  before I can judge it on what it does rather than its
+  language"). v2 below; v1 in git history (ec3dfe0).
 
-**POV note common to A and C:** the book already licenses
-non-Holt vantages (Zawadzki/Rylski chapters; 19a's documentary
-register). Piece A is the one deliberate breach of the
-staff-side-only rule for civil material — R1's ask was witness,
-not grief ("distinct from the declined Q4"), and the piece keeps
-that: no interiority beyond observation, no narrator comment on
-the system that deferred them.
-
----
-
-## A. The civil column — ch. 7, new closing section (~430 words)
-
-**Placement:** after "He signed, and went back to the boards,
-and the war." — i.e. a new final section of ch. 7, following the
-deferral order it witnesses. Ch. 7's current ending is flat;
-this replaces it with a differently flat one (no maxim, ends on
-a form).
-
-**Rationale:** R1 — "at chapter 7's deferral of Columns 231 and
-232 I'd have paid a page to ride in the car." Cashes Aakjær's
-ch. 3 phrase ("a family in an Opel") and ch. 3's "some of them
-twice in one lifetime" (the 1945 trek memory) without glossing
-either.
+**Budget after dispositions:** A landed (+~430); B declined; C
+pending (~900 as reworked). A + C adopted ≈ 50.3k vs the 50.5k
+plan.
 
 ---
 
-Column 231 spent its deferred day at its collection point,
-which was a school.
+## C v2 — "The Relief" (rework; adoption pending)
 
-The Lohse car stood fourth in the column order under the
-chestnuts in the yard, packed since four in the morning.
-Frau Lohse had packed it twice: once in October, by the
-pamphlet's list, when packing had been a precaution against
-nothing in particular; and again the night the column was
-called, when her father unpacked the pamphlet's version in
-silence and rebuilt it. He put in the axe, the tow rope, and
-the small paraffin stove, and carried the second suitcase of
-clothes back upstairs without explanation. He had come west
-in the winter of 1945, from Stolp, nineteen years old, on
-foot for the last two hundred kilometers. "Weight is time,"
-was all he had ever said to her about that. He did not say
-it now. He built the load, and she let him.
+**What the chapter DOES (so it can be judged on function):**
 
-The district fed the column at noon from a field kitchen set
-up on the handball court, pea soup with sausage in it, the
-serving generous. The road past the school was closed to the
-column that stood beside it, and down the road all day went
-the reason: guns under netting, bridging on transporters,
-fuel trucks in fours, moving south at intervals a boy could
-learn. Her son spent the day at the fence and learned them.
-Once a crew waved. Toward evening there was weather-sounding
-thunder from the southeast when the wind stood right, and the
-adults went on with their conversations at an unchanged
-volume, and the children understood that a lesson was being
-given, and took it.
+1. **It shows Zawadzki authoring his own exhibit, eyes open.**
+   Ch. 20 shows Kuragin assembling the record of "a Front that had
+   known, in writing, and pressed on." This chapter shows that
+   record being *chosen* — the believer's last command act is to
+   sign his knowledge rather than launder it. Without 19b,
+   Zawadzki's end reads as a man caught by his own honesty; with
+   it, as a man who decided what his file would say.
+2. **It is the enemy's ch. 16.** The relief is an operation
+   conducted for a record — ordered from above, planned honestly
+   by men who know, executed for an audience that is not the
+   war. The two chapters price the same corruption in the two
+   systems' different currencies.
+3. **It gives the second-formation arrivals one scene** — the
+   men the relief spends, in the person of one colonel who does
+   the arithmetic in front of the reader and goes back to his
+   division anyway.
+4. It ends before the attack; the gales and the death remain
+   ch. 20's single clause.
 
-A hundred and six persons slept in the gymnasium on mats. In
-the classroom the column leader used for his lists, the
-blackboard still carried the timetable of a week the school
-had not held, and the homework for the ninth of November,
-which no one had assigned and no one had wiped.
-
-The column was called at five. Engines in the dark, the
-practiced fumbling, a soldier with a signal lamp at the gate
-who looked at his watch more than at them. They crossed the
-Eider at Friedrichstadt in the middle of the morning, between
-two Danish battalions, and were in the receiving district by
-dark: a village above the marsh, a billeting list read out by
-lantern, a widow's front room with the bed already made. Her
-father slept that night; she heard it through the wall. It
-was the fact she chose for the card the district issued for
-writing home, there being room on the card for one.
-
----
-
-## B. The Merete page — ch. 20, homecoming insertion (~340 words)
-
-**Placement:** into the Fredericia section, after "...the
-blackout curtains, re-hemmed to her standard, stayed." and
-before "On the second morning the children took him out to the
-garden..." The doorstep verdict stays exactly as written — the
-point is to give it more scene to land on.
-
-**Rationale:** R1 — the ch. 20 verdict "earns more scene than it
-gets"; also the only-one-woman-with-lines note. Pays off ch. 3's
-"who directs it? Is it you?", the ch. 7 letter (Sørensen boy,
-the coffee), the ch. 16 message slip (the count, K's recovery
-vehicle), and ch. 6's insurance-in-the-bureau — all unglossed.
-
----
-
-On the second evening, with the children upstairs, Merete put
-an exercise book on the kitchen table beside his cup. It was
-the census: fourteen pages ruled in a child's idea of columns,
-the daily counts totaled weekly, disputed entries initialed by
-both children and, in one case, adjudicated in a third hand —
-the Sørensen boy's mother, called in as umpire on the question
-of the recovery vehicle. The total at the bottom of the last
-page stood underlined twice, with the word SLUT, and beneath
-it the new census of returning units, already seven entries
-old.
-
-"They will want it someday, when they are grown and don't
-believe their own childhood," she said. "It goes in the bureau
-with the insurance and your letter."
-
-She asked her question with the cup halfway up, casually, the
-way she asked things that were not casual. "In November the
-radio said movement would be directed if it became necessary.
-You said it was composite. The town has theories. Kirsten's
-husband says nobody directed anything and it worked anyway;
-Ester's says everything was directed and none of it worked.
-Was any of it you?"
-
-"Some of it crossed my desk," he said, which was the honest
-answer, and this time she did not laugh.
-
-"Good. That is the version I tell at the school gate, so
-kindly do not correct it." She turned the cup a quarter turn.
-"The Sørensen boy is home since Tuesday. Taller. His quiet is
-being managed." She took the cups to the sink and ran the
-water, and over it, in the register of the pamphlet's
-provisions list, said the household's last order of the war:
-"There are twelve hours of sleep laid in for you tonight also.
-Use them."
-
----
-
-## C. The Rylski chapter — new chapter between 19a and 20
-(~1,050 words; file as `drafts/19b-the-relief.md` pending the
-assembly renumbering that already owes 19/19a a decision)
-
-**Placement/rationale:** R1's strongest ask ("I'd have paid for
-a full extra chapter of Rylski... two pages doing the work of
-ten"). The one unseen span of the enemy ledger: between the
-folder refused (ch. 17, 26 Nov) and December (ch. 20). Subject:
-the relief attempt, which canon currently carries in one ch. 20
-clause ("the relief attempt died in the December gales"). The
-chapter is the mirror of ch. 16 — an operation conducted for a
-record — and it manufactures, on the page, the exact exhibit
-Kuragin assembles in ch. 20 (the Front that knew, in writing,
-and pressed on). It ends before the attack: the gales and the
-death stay ch. 20's property.
-
-**Canon guards observed:** pocket capitulates by battalions
-1–3 Dec (19a day-24 dawn = 1 Dec); Zawadzki still commands
-(summons north is second week of cease-fire); Kuragin still in
-the visitors' role but post-folder; no third army in the column
-(the relief force is remnants plus second-formation arrivals);
-gales forecast "second week of December" (ch. 17) cited, not
-adjudicated; Russianized address forms per chs. 17/20.
+**v1 → v2 change log (the borrowings/redundancies cut):**
+- "beautiful document" opener cut — the beauty motif now fires
+  once, at the map, at the end (Rylski's own ch. 11 coinage, his
+  arc's close).
+- "which was its own commentary" cut (wall-doctrine sentence
+  shape); "which was itself a finding about the month" cut
+  (knowing-narrator, "which was itself a report" shape); the
+  either/or/or triple on the drafters cut.
+- "men of forty" cut (ch. 3 verbatim); "the straw" cut —
+  **coinage-crossing violation** (Lammers' Rendsburg coinage in
+  the Front's narration); "one set of books" cut from Zawadzki's
+  mouth (ledger idiom = homogenization; his register is
+  eats/queues/belief); "not the echelon" cut (Loheide's ch. 9
+  phrase); "the way a tired man climbs stairs" cut ("the way..."
+  simile tic); "an army that no longer believes its plan..."
+  aphorism cut (monotone).
+- The army-commanders summary paragraph replaced by one
+  dramatized scene (the second-formation colonel), which now
+  carries the two questions itself.
+- Kuragin trimmed to the dated question; no button.
 
 ---
 
 # 19b — The Relief
 
-The directive arrived on the twenty-ninth of November, and
-it was a beautiful document.
+The directive arrived on the twenty-ninth of November, in the
+night distribution, numbered and phased and signed at a level
+Rylski had seen before only on the operation's founding order.
+The word relief appeared nowhere in it. The encircled grouping
+was not encircled; it was temporarily separated, and the Front
+would restore the operational integrity of the front by
+concentric attack toward the neck of the peninsula, without
+delay, with the means at hand and the means arriving.
 
-Rylski read it at five in the morning in the communications
-bay, twice, before he woke the commander, which he had never
-done for any paper of the war. It was numbered, phased, and
-signed at a level whose signatures he had seen before only
-on the operation's founding order. The Front would restore
-contact with the encircled grouping by concentric attack
-toward the neck of the peninsula, without delay, with the
-means at hand and the means arriving. The word relief
-appeared nowhere in it. Relief conceded encirclement, and
-the grouping was not encircled; it was temporarily
-separated, and the attack would restore the operational
-integrity of the Front. The grouping's last transmission —
-a supply state, in the code groups for shells and diesel,
-with no commentary, which was its own commentary — was
-thirty hours old, and the monitoring summaries had begun
-reporting white flags on its southern arc in the enemy's
-own plain-language traffic, which the directive's drafters
-had either not seen or not been shown or not been permitted
-to weigh, and Rylski, folding the flimsy back into its
-envelope, found he could no longer tell those three
-conditions apart, and noted that the distinction had
-stopped mattering, which was itself a finding about the
-month.
+The grouping's last transmission stood thirty hours old in the
+signals log: a supply state, in the code groups for shells and
+diesel. The enemy's plain-language traffic had been reporting
+white flags on the grouping's southern arc since the previous
+evening.
 
-Zawadzki read it standing, in his greatcoat, and then asked
-for the estimate. "Ours, Stefan. Not theirs."
+Rylski woke the commander, which he had never done for any
+paper of the war. Zawadzki read the directive standing, in his
+greatcoat, and asked for the estimate. "Ours, Stefan. Not
+theirs."
 
 Rylski gave it from the single sheet he had built while the
-commander dressed. The means at hand: the Fifth Army's
-divisions, rebuilt to fractions and holding the winter line
-east of the neck. The means arriving: divisions of the
-second formation, coming down the same two crossings and
-one rail line that had metered the whole war, men of forty
-with new boots and guns a generation old, arriving at the
-rate the straw permitted and no faster. The dumps: one-fifth
-of the November norm, filling more slowly than the winter
-line alone consumed. The sky: the meteorological annex,
-circled on every copy since the twentieth, first winter
-gales in the second week of December. "The attack can be
-mounted once, at half echelon, on the fourth. It can be fed
-for three days. The grouping it attacks toward has supplies
-for none. That is the estimate, Comrade General, and I will
-sign it."
+commander dressed. The means at hand: the armies on the winter
+line east of the neck, rebuilt to fractions. The means
+arriving: divisions of the second formation, recalled men and
+guns of the older patterns, coming down the same two crossings
+and one rail line that had metered the war from its first
+morning, at the rate those allowed and no faster. The dumps:
+one-fifth of the November norm, filling more slowly than the
+winter line alone consumed. The meteorological annex, circled
+on every copy since the twentieth: first winter gales, second
+week of December. "The attack can be mounted once, at half
+echelon, on the fourth of December. It can be fed for three
+days. The grouping it attacks toward has supplies for none.
+That is the estimate, Comrade General, and I will sign it."
 
-"The directive does not ask whether," Zawadzki said. "It
-asks when." He put on his reading glasses and read the
-estimate through, line by line, as staff work, the way he
-had once read a different folder, and took the glasses off.
-"Prepare the attack for the fourth. The assessment goes
-north with the movement order — attached, not under
-separate cover. The Front has one set of books." He looked
-at the map while the draftsman on duty stood waiting to be
-told what to make beautiful. "And write beneath it: the
-Front executes with the means assessed above. If the
-arithmetic and the order cannot both be honored, the Front
-is not the echelon where one of them is chosen. That
-sentence is mine. Initial it as mine."
+"The directive does not ask whether," Zawadzki said. "It asks
+when." He put on his reading glasses and read the estimate
+through, line by line, as staff work, the way he had once read
+a different folder, and took them off, and stood for a moment
+looking at the map with the draftsman on duty waiting to be
+told what to draw.
 
-From the visitors' corner Kuragin asked his one question of
-the morning, pleasantly, pen already moving: the date-time
-of the grouping's last supply state, "for completeness."
-Rylski gave it. It went into the notebook with everything
-else that had a date.
+"The attack is prepared for the fourth. The assessment goes
+north attached to the movement order. Theater staff will have
+what I had." He handed the sheet back. "And under the
+assessment, one line, over my signature, not yours: the
+assessment was before the commander when he set the date.
+Write it exactly so, Stefan. A man should draft the sentence
+they will read him by. I have seen what happens to the men who
+leave the drafting to others."
+
+From the visitors' corner Kuragin asked the date-time group of
+the grouping's last supply state, for completeness, and
+entered it.
 
 ---
 
-The Front mounted the relief the way a tired man climbs
-stairs, one landing at a time, resting on the count.
+The relief assembled across four nights.
 
-The second-formation divisions came off the trains at night
-and their commanders reported their states to the Front
-directly, in figures nobody had improved: battalions at
-strength, batteries short their fire-control equipment,
-first echelons of trucks and second echelons of requisition
-horses. Rylski received the reports and found them exact,
-and understood why without pleasure. The plaster had
-stopped being applied. There was no one left to apply it
-for: the officers reporting had read the same month
-everyone had read, and an army that no longer believes its
-plan will finally tell its plan the truth. The regulation
-against lateral consultation held to the end; the army
-commanders were briefed separately, and each, separately,
-asked the same two questions — the dump state, and the date
-of the gales — and each, separately, was given the honest
-figures, and signed his acknowledgment, and said nothing
-that any record could carry.
+The divisions of the second formation came off the trains and
+their commanders reported their states to the Front exactly,
+which had stopped surprising Rylski in November's last week;
+the plaster had gone out of the returns when the plan it
+smoothed for stopped being anyone's to save. The commander of
+the lead division reported in person, a colonel of forty-nine
+recalled in October from a cement combine, his state in a
+quartered field notebook: battalions at strength in men,
+trucks at half establishment, the guns rebarreled pieces of
+the older pattern, fire-control complete in one battalion of
+three. He asked two questions — the dump state, and the date
+the gales were expected — and was given both figures honestly,
+and wrote them in the notebook under his own, and looked at
+the page.
+
+"Then we will not wait for the rest of my trucks," he said,
+and went back to his division.
+
+The army commanders were briefed separately, the regulation
+against lateral consultation holding to the end, and each
+asked, separately, the same two questions, and received the
+same two figures, and signed his acknowledgment.
 
 On the evening of the third of December Rylski entered the
-northern group's final dump state in his own hand: two days
-at assault scale, of which one and a half audited. He
-attached the movement order, the assessment, and the
-commander's sentence, dated the packet, and put it in the
-bag. Then he went back into the map room, where the single
-copy of the decision map hung with its phase lines drawn
-and nothing on them smoothed, nothing advanced, nothing
-beautiful, and stood in front of it for a moment in the
-draftsmen's respectful silence.
+northern group's final dump state in his own hand: two days at
+assault scale, of which one and a half audited. He attached
+the movement order, the assessment, and the commander's
+sentence, dated the packet, and put it in the bag. Then he
+went back into the map room, where the decision map of the
+relief hung in a single copy, phase lines drawn to the fourth.
 
-The map, for the first time in two years, was merely
-correct.
+The map, for the first time in the war, was merely correct.

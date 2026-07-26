@@ -644,7 +644,20 @@ an operation conducted for a record, ending before the gales).
 ruling: underserved lands BEFORE the exit-line-schedule campaign.
 Bogason/Dupuy spot-check asks re-presented with adjusted
 priorities (in-chat this date; #2 now Dupuy CAL-A table, #3
-HURRICANE air C2, UKMF glance demoted).
+HURRICANE air C2, UKMF glance demoted). SAME DAY: package RULED —
+(A) civil column ADOPTED + LANDED (ch. 7 closing section); (B)
+Merete page DECLINED (words to reserve); (C) Rylski chapter
+REWORK ordered → v2 in notes/underserved-drafts.md (borrowings
+cut incl. a coinage-crossing violation — Lammers' "straw" in
+Front narration; function statement added), adoption pending.
+AND: **Dupuy ask #2 DISCHARGED** — DK scanned NP&W Appendix A
+pp. 213–215 (deposited holdings scans/dupuy-npw-1979/, pushed);
+distillation + CAL spot-check in advance-rates.md §10: CAL-B
+confirmed to the cell (4.0 = intense/hasty), CAL-A and CAL-E
+confirmed in bracket, CAL-D now has an in-period obstacle
+bracket, red's 10 km/day norm sits on NP&W's
+moderate-resistance/delay line — concordance holds, no text
+change.
 
 **THE THIRD-DRAFT AGENDA ("meatier issues"), assembled:**
 1. The line editor's seven cross-chapter items

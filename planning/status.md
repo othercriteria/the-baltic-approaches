@@ -683,7 +683,10 @@ pinned, reader-ledger pricing questions, plates
 instrument-gated), then final assembly (19/19a/19b
 renumbering; title-dominant headers; Frimodighed;
 byline reassessment; "mission" asymmetry ratification; map
-hand-pass nits).
+hand-pass nits). THEN: Bogason scrape distillation pass 2
+(DK-directed, three Opus agents) — outcome and the re-ranked
+print asks in the standing reminders below; one new precision
+flag (ch. 9/15 COMBALTAP-vs-COMAIRBALTAP) awaiting DK.
 
 **THE THIRD-DRAFT AGENDA ("meatier issues"), assembled:**
 1. The line editor's seven cross-chapter items
@@ -782,21 +785,52 @@ hand-pass nits).
 - ~~Raw-archive 1a9aba32, 3845eb93, fa9b03ec~~ all done by
   2026-07-23; next owed: `make raw-archive
   SESSION=3340b8fd-23b9-49f2-8ee4-1069ce6ff3ed` (successor or DK).
-- **Bogason + Dupuy NP&W ARRIVED 2026-07-25** (DK, in hand; quick
-  figure-reads/spot-checks offered, NOT extensive scanning).
-  Priority asks, highest value first, each a minutes-grade look:
-  1. Bogason BALTAP org chart(s): confirm the ch. 6 release-
-     request ladder (COMLANDJUT → COMBALTAP → Kolsås) and the
-     COMLANDJUT DA/GE rotation practice — the October
-     change-of-command premise rests on it (canonical text).
-  2. Bogason Ch 15 reinforcement table: the UKMF strength figure
-     (scrape shows 29,000/15,000/10,000 — one glance settles it).
-  3. Bogason minefield map Fig 18.4: strait-barrier architecture
-     vs. ch. 1 "minefields close straits" + ch. 15 raid geometry.
-  4. Dupuy NP&W: one advance-rate-vs-resistance table read
-     against reference/advance-rates.md CAL-A brackets.
-  5. Bogason HURRICANE Figs 18.6–18.7 (air C2 vs. ch. 9's market
-     liturgy) — only if the mood strikes.
+- **Bogason + Dupuy NP&W ARRIVED 2026-07-25.** ~~Dupuy
+  advance-rate table~~ DISCHARGED 2026-07-26 (DK scans →
+  holdings + advance-rates.md §10). **Bogason scrape
+  distillation pass 2 COMPLETE 2026-07-26** (three Opus agents,
+  DK-directed): reference/bogason-answers.md (standing
+  questions: org chart CONFIRMS the change-of-command premise —
+  COMLANDJUT Rendsburg, alternating DA/GE, under COMBALTAP
+  Karup, always Danish; minefield architecture confirms chs.
+  1/15 incl. ferry routes kept clear; UKMF 29k/15k/10k resolves
+  as different force packages; NEPS extends — pipeline is a
+  STRUCK target in exercise DALGAS, sharpening red's canonical
+  restraint; Territorial OPCON has its warrant in HOLD FAST
+  1960; Hohn displacement = our invention, book silent);
+  reference/bogason-outline.md (19 chapters mapped; 130 figure
+  captions recovered, zero images render, all table numbers
+  stripped — the print copy's value IS the figures; ranked
+  print-targeting list at foot); reference/bogason-finds.md (12
+  graded finds; top: MCM-102-68 graduated alert measures,
+  reinforcement-presupposes-something-to-reinforce, Kiel-Canal-
+  as-objective + DA/GE dispute, WINTEX-81 home-front injects,
+  storage norms + SACEUR clearing office). CORRECTION absorbed:
+  HURRICANE is a two-navy missile ambush (zealand-landing.md had
+  it right; the old ask #5's "air C2" framing was wrong — the
+  book is SILENT on offensive-air apportionment, so ch. 9's
+  market remains our invention, unfalsified). **NEW DK FLAG
+  (precision, canon):** ch. 9 calls the Karup apportioner "the
+  theater commander," ch. 15 makes him "a tired Danish airman" —
+  historically COMBALTAP (the apportioner) was the Danish
+  3-star, COMAIRBALTAP (the airman) his permanently-Danish air
+  commander; one figure can't be both title and trade. Cheapest
+  fixes: ch. 9 "theater commander" → "air commander," or accept
+  the compression on the record. DK to rule.
+  **Print-check asks, re-ranked after pass 2** (each a
+  minutes-grade look; fuller targeting list in
+  bogason-outline.md foot):
+  1. Fig 9.3 BALTAP org chart (photograph it — the premise's
+     load-bearing document, now confirmed in prose, wanted at
+     chart grade).
+  2. Ch 15 / Table 15.1 UKMF numbers (verify the package
+     readings: 29k full force / 13.5k land element / reduced
+     variants).
+  3. Fig 18.4 minefield map (enrichment now, not open question).
+  4. Fig 6.3 NEPS pipeline map + Fig 6.6 Karup/Aalborg
+     interception lines.
+  5. Figs 18.6–18.7 HURRICANE geometry (naval; feeds
+     zealand-landing.md, not ch. 9).
   Full scan wishlist stands in landjut-front.md for a later day.
 - ~~The RUSSWO/AWS ceiling-visibility table~~ DISCHARGED
   2026-07-25 (AD-A118450 — november-climate.md §1; only the

@@ -183,7 +183,7 @@ The readiness measures began the same week, and they began
 cheap.
 
 That was Hvidt's word for it. The alliance kept a catalog for
-such weeks, graduated and numbered, every measure agreed in
+such weeks, graduated, every measure agreed in
 advance by sixteen governments — and every numbered measure
 therefore a signal the moment it was invoked, with the enemy
 as the catalog's first reader. The quiet list ran underneath

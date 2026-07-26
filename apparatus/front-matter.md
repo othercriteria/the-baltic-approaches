@@ -1,4 +1,4 @@
-# The Mission
+# The Baltic Approaches
 
 *A novel of November 1983*
 

@@ -169,3 +169,23 @@ Staff Work* (half-serious; the honest one).
 
 DECISION: DK's, at assembly. The repo/directory rename (and
 Makefile/artifact names) is the last action after the ruling.
+
+## PROVISIONAL RULING 2026-07-26 (DK, in-session to e3137278@2)
+
+**Working title switched to THE BALTIC APPROACHES** (title page
++ Makefile TITLE; build filenames and repo name deliberately
+unchanged until final assembly). **Kept in contention until
+final assembly:** The Approaches (and trimmed variants), The
+Mission, Candor Before Comfort. Everything else off the board.
+DK on the op-name family: Operation HOLDFAST is "a fun one
+since Schleswig-Holstein is arguably this with Denmark as a
+seaweed's body" — hold-fast being the holdfast, the anchoring
+organ — "but this is a deeper reading than the name invites,"
+and the style stays rejected. (The pun has a historical
+witness: the 1960 joint exercise really was named HOLD FAST —
+cp. bogason-answers.md Q6.) Note for assembly: if the ruling
+holds, the subtitle question changes shape — "A novel of
+November 1983" already does the period work, and "Baltic
+Approaches" does the theater work the old incumbent needed a
+subtitle for; also ratify or vary Plate I's THE APPROACHES
+sharing the title's root.

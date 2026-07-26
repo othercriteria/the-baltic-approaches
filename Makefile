@@ -25,7 +25,7 @@ OWN_DIR = $(HOME)/.claude/projects/-home-dlk-workspace-the-mission-1986
 # --- Manuscript build (reading apparatus; the production assembly
 # --- arrives later, WB assemble.py-style, when there is art/apparatus
 # --- to inject)
-TITLE = The Mission
+TITLE = The Baltic Approaches
 OUTPUT_DIR = build
 DRAFT_DIR = drafts
 SOURCES = $(sort $(wildcard $(DRAFT_DIR)/*.md))

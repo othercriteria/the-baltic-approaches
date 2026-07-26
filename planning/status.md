@@ -668,7 +668,22 @@ of it" marks the same pictures in changed light, arming the
 of every forecast in either alliance," agreeing with its own
 audit line; ledger flag closed. Breakout seam disambiguated
 Schleswig-Friedrichsberg (DK query proved the
-Friedrichstadt-confusability cost).
+Friedrichstadt-confusability cost). "Surge prices" anachronism
+(DK Ngram check) → "famine prices" (19a). **DK CLOSE READ OF
+DRAFT TWO COMPLETE. DRAFT THREE EXISTS: tag `draft-three`,
+cover stamp bumped, narrative 50,113 (−387 to plan).** DK
+expectation on the record: **the next draft is intended to be
+final** — remaining agenda accordingly: exit-line-schedule
+campaign (GO implicit in sequencing ruling — confirm), the
+line-pass ration decisions (particular/specific formula 8→2-3;
+superlatives; like-a-man), remaining spot-checks (#1 BALTAP
+org chart, #3 HURRICANE, #4 minefield map), the next blind
+panel (PDF WITH MAPS + 19b, front matter in scope, ingestion
+pinned, reader-ledger pricing questions, plates
+instrument-gated), then final assembly (19/19a/19b
+renumbering; title-dominant headers; Frimodighed;
+byline reassessment; "mission" asymmetry ratification; map
+hand-pass nits).
 
 **THE THIRD-DRAFT AGENDA ("meatier issues"), assembled:**
 1. The line editor's seven cross-chapter items

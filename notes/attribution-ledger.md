@@ -411,6 +411,22 @@ entity index generatable instead of reconstructable.
   worked BEFORE the exit-line-schedule campaign (DK sequencing
   ruling). Raw-archive for the whole session still falls to the
   final successor or DK.
+- 2026-07-26 — draft-three ruling (DK, in-session to
+  e3137278@2): **DRAFT THREE tagged** (`draft-three`) at the
+  close of DK's full close read of draft two. The arc between
+  tags: DK's close-read catches applied (ch. 18 ledger-gloss
+  cluster; ch. 19 negation survivor; "surge prices" anachronism
+  via the Ngram rule; Friedrichsberg disambiguation); the
+  19→19a seam reworked ("Daylight changed none of it");
+  the underserved package ruled and landed — civil column into
+  ch. 7 (adopted v1), Merete page DECLINED, Rylski chapter
+  ADOPTED at v2 after a borrowing/redundancy rework and landed
+  as 19b "The Relief"; the gales-date knot opened, ruled (a),
+  and applied in ch. 20; Dupuy NP&W Appendix A deposited
+  (holdings) and distilled (advance-rates.md §10, CAL-B
+  confirmed to the cell). Narrative at tag: 50,112. **DK
+  expectation on the record: the next draft after this one is
+  intended to be the final one.**
 
 ## Entity index
 

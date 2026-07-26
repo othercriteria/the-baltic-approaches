@@ -381,3 +381,151 @@ Bogason presumably carries the print-grade treatment — DK reading.
    ripple.
 4. Wargame: bulk POL lives inside the CAL-3 supply abstraction;
    no recalibration implied.
+
+## § Digital probe 2026-07-26 (session e3137278)
+
+Digital-availability sweep of the §9 pursuit list. Headline: **the
+ferry-beredskab capacity figure is NOT discharged — and the negative
+is now STRONGER**, because §9's highest-probability print holder
+(Riis-Knudsen) was obtained in full and read, and it does not contain
+the figure. Two errands DID close on availability. Cross-references
+§9 (findings) and §9's DK pursuit list (rewritten below).
+
+**Probe 1 — Riis-Knudsen, "Totalforsvar på skinner."**
+- **AVAILABILITY DISCHARGED.** The article version is open-access,
+  free, and now read in full (14 pp., pp. 26–39): Asbjørn Rune
+  Riis-Knudsen, "Totalforsvar på skinner," *Jernbanehistorie*
+  (Danmarks Jernbanemuseums årbog) 2014, pp. 26–39. Landing page
+  https://tidsskrift.dk/jernbanehistorie/article/view/26887 ; direct
+  PDF https://tidsskrift.dk/jernbanehistorie/article/download/26887/23643 .
+  Scanned image PDF (no text layer) but fully OCR-legible via
+  PDF-render read. **No purchase needed.** (The "Syddansk
+  Universitetsforlag 2013" book framing in the task was imprecise:
+  this is the SDU speciale's published article version. The
+  underlying full speciale is NOT online — not in the KU 2014
+  *Specialeoversigt* (Historisk Tidsskrift), consistent with an SDU
+  submission; SDU repository remains the print/archive errand if the
+  longer text is ever wanted.)
+- **NEGATIVE, load-bearing:** the article contains **no Great Belt
+  ferry capacity figure, no requisition arithmetic, no lane-m /
+  battalions-per-day**. Its entire subject is railway *civil defence*
+  — bedriftsværn (works-defence units), Jernbanehjemmeværnet,
+  Jernbanebeskyttelsen, the readiness ladder. Ferries appear only as
+  scenery (Nyborg station was large "i kraft af overfarten over
+  Storebælt"). This **lowers the prior** that the fuller speciale
+  holds the ferry figure — the author's frame is defence-OF-railways,
+  not transport-capacity planning.
+- **NEW facts (SECONDARY, scholarly + archive-based):**
+  - **Jernbanehjemmeværnet's five-step readiness ladder** (p. 39
+    table, "beredskabstrin," c. 1966 regs): 1 Fredsberedskab · 2
+    Skærpet opmærksomhed · 3 Overgangsberedskab · 4 Forstærket
+    overgangsberedskab · 5 Mobilisering. Ratcheted up stepwise toward
+    war. **Cross-locks the §9 vocabulary:** "forøgelse af
+    fredsstyrken (indkaldelse af sikringsstyrken)" is stated to
+    coincide with the home guard being ordered to *overgangsberedskab*
+    — same "forøgelse af fredsstyrken" trigger phrase the DSB
+    Beredskabsinstruks uses (§9). Two independent sources now share
+    the mobilization idiom. Usable as period-true escalation texture.
+  - **1953 militær forholdsordre** (p. 39): an *uvarslet* (unwarned)
+    attack on Danish territory is **automatically treated as a
+    mobilization order** — no separate political act needed; personnel
+    report per "Hjemmeværnet på plads." Directly relevant to a
+    surprise-attack opening; the requisition/mobilization machinery
+    self-arms on first contact.
+  - **Jernbanehjemmeværn task set** (1951 Gdt. announcement 27 Jan
+    1951; term official 1963): guard rolling + fixed rail materiel,
+    prevent capture intact, re-establish sabotage damage, and
+    **destroy fixed/rolling stock if a district must be abandoned**
+    (the DSB denial mission — matches Beredskabsinstruks pt. 2.6 in
+    §9). Guarded key knudepunkter (København godsbanegård et al.).
+  - **DSB bedriftsværn** persisted to **44 full units into the late
+    1980s**, voluntary only from 1998; Nyborg (1970) specimen: 2
+    sprøjtehold, 10 brandvagthold, 1 redningshold, 3 bårehold, 1
+    ventepladshold. Colour, not mechanism.
+- **ARCHIVE finding that reshapes Probe 3:** Riis-Knudsen states
+  (p. 27, kildemateriale) that DSB's **Generaldirektoratet archives —
+  where the beredskab decisions were actually taken — suffered massive
+  *kassation* and "stort set ikke findes længere"** (largely no longer
+  exist). Surviving beredskab material is chiefly bedriftsværn /
+  Jernbanehjemmeværn records at **Danmarks Jernbanemuseum** (the
+  museum home-took the Fredericia bedriftsværn kit in 2008). This is a
+  **load-bearing negative for the Rigsarkivet DSB-fond errand** — the
+  fond that would logically hold the Beredskabsinstruks decision file
+  is the one that was destroyed.
+
+**Probe 2 — danmarkidenkoldekrig.dk.**
+- **The domain is DEAD / squatted.** As of 2026-07 both the root
+  (danmarkidenkoldekrig.dk) and its `?p=` content slugs serve an
+  online-casino affiliate page, not Cold War history. The site a held
+  source's figures cite is **no longer live**. If those citations ever
+  need re-verifying, use the Wayback Machine
+  (web.archive.org/web/*/danmarkidenkoldekrig.dk) — not the live
+  domain. (FORUM/infrastructural note; nothing new distilled because
+  nothing is served.)
+- The live good site is **koldkrig-online.dk**. Its "Beredskabssystemet
+  i Danmark og NATO" page lists the DSB Beredskabsinstruks 1976 among
+  its *sources* but does not quote ferry/Storebælt specifics; its army
+  and navy pages restate the Storebælt command bisection (ØST/VEST)
+  and the navy's task to secure Storebælt traffic connections + allied
+  reinforcement reception via Jutland ports and Kalundborg — **all
+  already in §6/§9**. No new ferry figure.
+
+**Probe 3 — Rigsarkivet Daisy / Jernbanemuseum online.**
+- **No call number obtainable remotely.** Daisy
+  (daisy.rigsarkivet.dk) is a form/session-driven catalog; WebFetch
+  cannot drive its search (keyword URLs for "DSB beredskab" and
+  "Danske Statsbaner Generaldirektoratet" returned "der blev ikke
+  fundet nogen poster" / no server-side query). An exact reference
+  requires an **interactive Daisy session** (DK, in person or logged
+  in). Recommended search terms once there: arkivskaber "Danske
+  Statsbaner, Generaldirektoratet"; series filters on
+  "beredskab"/"mobilisering"/"sikringsstyrke."
+- **But the target is downgraded** (see Probe 1 kassation finding):
+  the Generaldirektoratet beredskab file is largely destroyed, so
+  Daisy is unlikely to yield the Beredskabsinstruks itself. Better
+  provenance trail: the *Jernbanehistorie* 2019 article (Jensen &
+  Hansen, §9) that already quotes the instruction's p. 1-1 — its
+  footnotes/authors are the shortest path to the surviving copy's
+  archive box.
+
+**Probe 4 — opportunistic (koldkrig-online docs, REGAN Vest,
+Ingeniøren).**
+- koldkrig-online.dk/dokumentation hosts period primary PDFs —
+  "Hvis krigen kommer" (1962, via reganvest.dk), "Truslen mod
+  Danmark" (1965/1988), Seidenfaden-rapporten (1970),
+  Dyvig-rapporten (1984), ship/aircraft recognition manuals — **none
+  ferry-capacity**. REGAN Vest (reganvest.dk) hosts the civil-defence
+  booklet. Logged for the OCR/reference shelf, not for the figure.
+- **Ingeniøren, 29 May 2026 (Laurids Hovgaard):** the Transport
+  Ministry + Sund & Bælt are **buying back the Halsskov (Sjælland)
+  and Knudshoved (Fyn) ferry harbours** and legislating a new
+  emergency law so "the country doesn't break in half" if the Great
+  Belt *bridge* is sabotaged. **Contemporary, not period** — but it
+  (a) confirms Halsskov/Knudshoved as THE ferry-harbour pair (matches
+  §2) and (b) shows the Cold-War *bisection* logic (§6) resurfacing
+  verbatim in 2026 policy. Resonance note only; SECONDARY, non-canon.
+  https://ing.dk/artikel/hvis-krigen-kommer-her-er-planen-genoplivning-af-faergehavnene-ved-storebaelt
+
+**DK pursuit list — REWRITTEN (supersedes §9's list):**
+1. ~~Riis-Knudsen full text~~ **CLOSED on availability** — article
+   version free + read (tidsskrift.dk 26887). Ferry figure NOT in it.
+   Only-if-ever-needed: SDU repository for the longer speciale (low
+   priority; author's frame is not transport-capacity).
+2. **Beredskabsinstruks 1976 itself — reroute.** Rigsarkivet DSB
+   *Generaldirektoratet* fond DOWNGRADED (records destroyed by
+   kassation). Best paths now: (a) chase Jensen & Hansen
+   (*Jernbanehistorie* 2019) footnote to the surviving copy's box;
+   (b) **Danmarks Jernbanemuseum** archive (holds the surviving
+   bedriftsværn / Jernbanehjemmeværn beredskab material). Still
+   **confirmed print/archive-only** — not online.
+3. **Landsdelskommando ØST/VEST staff studies, Rigsarkivet
+   (physical)** — now the **single most likely open home of a Danish
+   Belt-lift timeline/capacity figure**, since the DSB decision fond
+   is gone and Riis-Knudsen doesn't carry it. Needs an interactive
+   Daisy session (no remote call number; search "Landsdelskommando"
+   + beredskab/transport). **This is the sharpest remaining errand.**
+4. DIIS vol. 2 pp. 604, 619 + vol. 3 pp. 556–558, 564–565, and RA
+   FE-arkiv "V. Diverse sager (afklassificerede)" kasse 7–11 — carry
+   forward from §9 unchanged (print/archive).
+5. Daisy interactive session (DK): resolve exact references for #2/#3
+   in person — WebFetch cannot drive the catalog.

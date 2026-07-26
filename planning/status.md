@@ -895,11 +895,20 @@ flag (ch. 9/15 COMBALTAP-vs-COMAIRBALTAP) awaiting DK.
 - ~~The RUSSWO/AWS ceiling-visibility table~~ DISCHARGED
   2026-07-25 (AD-A118450 — november-climate.md §1; only the
   optional parent Schleswig RUSSWO standalone remains, wanted for
-  the joint cross-tab, not blocking). NEW print/archive pursuits
-  from the beredskab hunt (transport-1983.md §9): Riis-Knudsen
-  "Totalforsvar på skinner" (SDU 2013) and the DSB
-  Beredskabsinstruks 1976 itself (Rigsarkivet DSB fonds /
-  Jernbanemuseum).
+  the joint cross-tab, not blocking). ~~Beredskab print pursuits~~ RE-ROUTED
+  2026-07-26 (digital probe, transport-1983.md §digital-probe):
+  Riis-Knudsen obtained FREE and read in full
+  (tidsskrift.dk/jernbanehistorie) — NO Belt capacity/
+  requisition figure in it; the DSB Generaldirektoratet
+  archives were largely destroyed by kassation, so the
+  Rigsarkivet DSB-fond errand is DOWNGRADED low-probability.
+  The sharpest remaining errand is now: **Landsdelskommando
+  ØST/VEST staff studies at Rigsarkivet (physical visit;
+  Daisy catalog needs an interactive session)**; secondary,
+  the Jensen & Hansen (Jernbanehistorie 2019) footnote trail
+  to a surviving Beredskabsinstruks copy. Note
+  danmarkidenkoldekrig.dk is now a squatted domain — Wayback
+  for any old citations.
 - DK browser tier, standing: NIE siblings
   (4-1-78 first) + NIE 11/17-85 + two CIA chemical items
   (shelf.md queue, URLs in chemical-posture.md); Wilson Center

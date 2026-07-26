@@ -36,7 +36,7 @@ the forward nets holding radio silence through their
 approach, the fire-support net carrying nothing but
 the guns' own punctuation, and the staff standing at
 a map that would not change for forty more minutes,
-learning the specific helplessness of authors at a
+learning the helplessness of authors at a
 premiere. The intercept troop offered the room its
 first sentence at 0512: the enemy's artillery nets
 were up all along the arc, calling stations that did

@@ -18,11 +18,11 @@ PROGRAM DEGRADES EN ARTY RESUPPLY 30 PCT. OBSERVED: NO
 MEASURABLE CHANGE FWD OF LÜBECK.
 
 The night shift, which names everything, had begun calling
-it die Beichtwand, the confession wall, and the name stuck. The staff had begun to consult
+it die Beichtwand, the confession wall. The staff had begun to consult
 it before committing new estimates, the way one consults a
 priest or a police record, and Aakjær, asked by a visiting
 staff officer from Karup what the display was for, gave the
-answer that was quoted afterward in two languages: "It is
+answer: "It is
 the only document in the headquarters that grows more
 honest as it grows longer. Everything else we produce grows
 more polished."

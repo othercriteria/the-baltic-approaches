@@ -155,7 +155,7 @@ as ready as paper could make it, which was the trouble.
 The orders were signed, the fire plan distributed, the
 counts posted; the machine had eaten every task the
 staff could feed it and stood idling, and the idling
-was unbearable in a specific way no exercise had ever
+was unbearable in a way no exercise had ever
 reproduced, because at ENDEX everyone goes home and at
 0500 tomorrow twelve thousand men would execute Holt's
 arithmetic against an army. The operations room had

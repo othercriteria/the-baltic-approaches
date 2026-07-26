@@ -291,6 +291,4 @@ COMPOUND INTEREST, EXACTLY WHAT EVERYTHING COSTS. IN
 THE MORNING WE WILL FIND OUT WHAT IT BUYS.
 
 The room worked on beneath it. Nobody slept, and the
-order said nothing about sleeping, because the wall's
-own doctrine had priced this one night differently,
-and everyone knew it without a sheet.
+order said nothing about sleeping.

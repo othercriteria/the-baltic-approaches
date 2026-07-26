@@ -222,9 +222,7 @@ relief, no amendment to the mission, which a chief of
 staff was entitled to read as vindication, and Rylski
 read as a queue. "Feed the dumps," Zawadzki said, each
 evening. Each evening Rylski fed them what the rail had
-let through, and entered the shortfall in his own hand,
-and did not need to be told that somewhere across the
-water the shortfall was being kept twice.
+let through, and entered the shortfall in his own hand.
 
 Lammers ran the westward movement personally, which he did
 not need to do and did not explain. The explanation was

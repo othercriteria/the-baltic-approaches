@@ -851,6 +851,20 @@ flag (ch. 9/15 COMBALTAP-vs-COMAIRBALTAP) awaiting DK.
   (contradicts the chosen over-compliance mobilization design);
   Alford 1986 verdict (post-setting; apparatus-tier only).
   Full scan wishlist stands in landjut-front.md for a later day.
+- **LINE PASS + EXIT-LINE-SCHEDULE CAMPAIGN RUN 2026-07-26**
+  under DK's gentle-hand doctrine (worst offenders only; the
+  remainder accepted as Claude style unless it foregrounds the
+  author). Nine surgical edits: particular/specific formula
+  rationed 8→3 keeps (adjective dropped, content kept, chs.
+  9/12/17/19); ch. 14 + ch. 18 endings flattened (govern-twin
+  killed; double-delivery because-clause cut); ch. 15 beech-wood
+  knowingness cut; ch. 10's Beichtwand naming and future-fame
+  doubling made plain. Measured-and-closed without edits:
+  like-a-man (3, all keeps), superlatives (ruled keeps only),
+  negation 15–16 (thesis keepers). Deliberate keeps on the
+  record in tic-inventory (incl. "Walls do not sign orders" and
+  the promotion-epigram twins). Both agenda items CLOSED; the
+  next panel reads clean.
 - ~~The RUSSWO/AWS ceiling-visibility table~~ DISCHARGED
   2026-07-25 (AD-A118450 — november-climate.md §1; only the
   optional parent Schleswig RUSSWO standalone remains, wanted for

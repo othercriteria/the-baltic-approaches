@@ -134,7 +134,7 @@ corps had won it with carpentry, and for one morning the
 operations cell felt what winning the market felt like.
 The program went out to the wings by 0900, and the
 cell spent the rest of the morning with the
-particular lightness of a staff whose biggest
+lightness of a staff whose biggest
 argument has just been accepted somewhere else. The
 duty officers found reasons to mention the allocation
 to the brigades' liaison desks, and the brigades'

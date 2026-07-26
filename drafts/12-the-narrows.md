@@ -102,7 +102,7 @@ knowing that. No request. Out." A man spending his
 division with the meter running and declining, on
 principle, to make the corps' arithmetic easier by
 understating his own. The operations room heard it
-in the particular silence reserved for men making
+in the silence reserved for men making
 its sums harder on purpose, and Hvidt said "Log it
 verbatim," which was the only decoration he ever
 gave it.

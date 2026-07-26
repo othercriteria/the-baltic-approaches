@@ -250,5 +250,4 @@ formal ironies — "that we have become the thin man
 across the water. I intend to be better at it than he
 was."
 
-He left. The sheet stayed empty, and governed the
-building.
+He left. The sheet stayed empty.

@@ -146,12 +146,16 @@ sharper); "a week's hoarded shells"; "Ærlighed" vs
 "Oprigtighed."
 
 **FLAGS DISCHARGED 2026-07-24 (DK ratified all four as they
-stand).** BANKED FOR REVISIT (DK): ch. 20's Danish motto —
-**"Frimodighed før trøst"** as the alternative to "Ærlighed"
-(frimodighed = the Danish Bible's word for parrhesia/bold
-speech; churchly undertone that rhymes with the Advent
-calendar and the chaplains on the movement schedule). Revisit
-at final assembly alongside the 19/19a renumbering.
+stand).** ~~BANKED FOR REVISIT: Frimodighed vs Ærlighed~~ →
+**RULED 2026-07-26 (DK: "The word is Frimodighed"): ch. 20 now
+reads "Frimodighed før trøst. Betalt fuldt ud."** Grounds on
+the record (session e3137278@2): frimodighed = parrhesia, the
+bold-speech-at-cost the book's rule actually was (ærlighed was
+the fingerprint of the mechanical Kandor fix, not a choice);
+the f/f alliteration reproduces candor/comfort so the Danish
+reads as Hvidt's own rendering; the Bible-word undertone
+(1948 NT) rhymes with Advent below the waterline; zero cost to
+the non-Danish reader. Flag CLOSED.
 
 ## Addendum (same day, funded-adds pass)
 

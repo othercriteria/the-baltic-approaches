@@ -37,7 +37,7 @@ thinned through the afternoon in good order, by the
 book, at peace with its instruments.
 
 The pocket attacked at 0340 the next morning, northwest,
-through the seam at Friedrichsberg.
+through the seam at Schleswig-Friedrichsberg.
 
 ---
 

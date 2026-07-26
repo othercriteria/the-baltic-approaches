@@ -865,6 +865,24 @@ flag (ch. 9/15 COMBALTAP-vs-COMAIRBALTAP) awaiting DK.
   record in tic-inventory (incl. "Walls do not sign orders" and
   the promotion-epigram twins). Both agenda items CLOSED; the
   next panel reads clean.
+- **BLIND PANEL ROUND 2 RUN 2026-07-26** (DK design: two
+  reception-grade instruments, round-1 roster judged at
+  dynamic-range limits; accuracy now out-researches blind
+  agents): notes/blind-reads/06-book-club.md (dads' club
+  facilitator) + 07-lit-seminar.md ("Paper Wars" capstone
+  seminar) + 08-panel2-collation.md. HEADLINES: the standing
+  calibration question (theodicy-of-process) surfaced as BOTH
+  instruments' central event and both ruled it productive — the
+  coldness is the engine, question CLOSED; plates PASSED at
+  reception grade; disclosure a major positive a third time;
+  ch. 7 Lohse addition validated (seminar's anchor door);
+  seminar verdict keep-it-last against the Anabasis/Night
+  Flight/Caine/Good Shepherd/Catch-22 canon. TWO NEW FLAGS for
+  DK (collation §new-actionable): ch. 17 folder scene flat/too
+  noble (two instruments; options filed, incl. accept-as-is
+  given 19b); money-metaphor calcification in chs. 10–16
+  narration ("a tic wearing a thesis") — census-or-accept
+  ruling wanted.
 - ~~The RUSSWO/AWS ceiling-visibility table~~ DISCHARGED
   2026-07-25 (AD-A118450 — november-climate.md §1; only the
   optional parent Schleswig RUSSWO standalone remains, wanted for

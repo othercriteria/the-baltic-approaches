@@ -576,6 +576,56 @@ Programmer-SF review (notes/programmer-sf-review.md); editor
 round 1 applied with dispositions (notes/copyedit-r1.md,
 notes/line-edit-r1.md).
 
+**2026-07-25 SESSION e3137278 WRAP (fresh session, no
+compaction; measured state at wrap: narrative 48,986; cover
+stamp now "Draft two"; suite 112 green).** The arc: (1)
+**External reads registered** — notes/external-reads/01 (blind
+thematic, pod-shop frame NOT spotted) + 02 (five-turn
+cross-examination; tells-critique CONVERGES with in-house
+instruments; ch. 13 stitching artifact FIXED; silence-template
+rationed 3→1; wall-self-praise swept 3-cut-2-standby under DK's
+new external-review cringe rule — in session memory). (2)
+**Verify queue worked by four Opus agents:** Danevirke clause
+was WRONG → reworded per DK option (A) (reference/danevirke.md);
+WP radio silence row 10 CLOSED CONSISTENT (FM 100-2-1 primary);
+RUSSWO gate DISCHARGED (AD-A118450, Karup+Hohn: Nov flyable
+63%±5 CAS / 47%±4 conservative — november-climate.md §1);
+Belt-ferry beredskab mechanism sourced (DSB Beredskabsinstruks
+1976; figure stays print-tier; pursuit list transport-1983.md
+§9). (3) **NEPS** landed as ch. 6 plant + ch. 14 payoff
+(DK-ruled; transport-1983.md §10). (4) **Bogason + Dupuy
+arrived**; five spot-check asks in standing reminders (BALTAP
+org chart first — ch. 6 ladder + change-of-command premise).
+(5) **Reader-ledger opened and answered R1**
+(planning/reader-ledger.md + notes/reader-ledger-review-r1.md,
+fresh-Fable paying-reader: deal GOOD; map YES chs. 3/7/12;
+cast list NO; calendar marginal-no; exit-line-schedule now a
+3-instrument finding, campaign candidate in tic-inventory
+awaiting DK GO). (6) **THE MAP PROGRAM: RFP → ratified →
+BUILT.** Four-proposal RFP converged (planning/
+map-program-rfp.md, DK fork rulings in its RATIFIED block);
+spec + three Opus builds (planning/map-spec.md, work orders +
+review verdicts appended per build): `atlas render` pipeline,
+two plates (THE APPROACHES / THE NECK) in the front matter,
+water ribbons, shape-node mechanism (DK's), all rail asserted
+double/single (researched, one GUESS), absences untypable by
+test, DK verdict "good enough for this draft." Instrument gate
+over the plates OWED with the next panel; remaining plate nits
+= final-assembly hand pass (map-spec build-3 review). (7)
+Chapter-header near-alignment observation parked at assembly
+(title-dominant option); ch. 10-12 day/date drift note. NEXT
+FOR SUCCESSOR, in rough order: (a) DK spot-checks from Bogason/
+Dupuy (asks filed above); (b) exit-line-schedule campaign if DK
+GO; (c) remaining third-draft agenda items 1-2 (cross-chapter
+line items; theodicy calibration question); (d) next blind
+panel: PDF WITH MAPS + front matter in scope, ingestion mode
+pinned, reader-ledger questions included (reader-ledger.md
+§how-to-price), plates instrument-gated same round; (e)
+underserved candidates for the remaining −1.5k: Rylski chapter/
+Merete page/civil-column page (reader-ledger R1 §4) — DK to
+choose, not padding. Standing method note (re-read first)
+UNCHANGED and still correct.
+
 **THE THIRD-DRAFT AGENDA ("meatier issues"), assembled:**
 1. The line editor's seven cross-chapter items
    (line-edit-r1.md foot): the particular/specific+abstract-noun

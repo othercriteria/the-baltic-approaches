@@ -286,7 +286,7 @@ days, at 2200, in Roloff's hand, even as ever. The
 hinge company's losses. Loheide's turned-around
 battalions' losses, which were the day's worst,
 because tired men counterattacking at noon pay
-surge prices. The eleven recovered trucks and the six
+famine prices. The eleven recovered trucks and the six
 not. The school. And beneath the prices, the wall's
 last new sheet of the war, written after the fact,
 titled in the staff's own hand-lettered capitals:

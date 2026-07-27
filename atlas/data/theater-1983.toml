@@ -1321,7 +1321,7 @@ name = "Nordfeld"
 region = "SH"
 lat = 54.335
 lon = 9.245
-notes = "Heavy Eider ferry site (north bank), NW of Friedrichstadt. GUESS position."
+notes = "Heavy Eider ferry site (north bank). GUESS position. Instrument gate 2026-07-27: this note formerly said 'NW of Friedrichstadt' while the coordinate sits upstream (ESE) of it — a self-contradiction; the coordinate (near Gut Nordfeld/Drage, upstream north bank) is the more plausible half and is what the plate draws, but the true site is unverified either way."
 
 [[node]]
 id = "nordfeld_s"

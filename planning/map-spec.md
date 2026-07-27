@@ -462,3 +462,35 @@ Convention changes (DK proposals in-pass, both **provisional**):
    the neck plate's marsh stipple is also dots; at proof scale
    they read differently (area vs line), but the instrument gate
    should confirm.
+
+---
+
+## Instrument gate (§7) — RUN AND CLOSED, 2026-07-27
+
+One combined Opus pass (doctrine auditor + veteran reader +
+period-accuracy reader), howlers-only remit, over both plates at
+full resolution with the atlas data and build history as ground
+truth. **Verdict: CLEAN — zero blockers on all three lenses.**
+Specific clearances: LANDJUT HQ at Rendsburg; Danevirke corridor;
+all five crossing sites real and correctly typed; Great Belt
+ferry-only (no fixed link, verified in data and stroke); Little
+Belt two-bridge pair; Storstrøm solid with no Farø (1985);
+Fehmarnsund solid vs Vogelfluglinie ferry; E3 period gaps drawn
+as trunk; no post-1983 E-numbering; double→single rail change at
+Vamdrup; native Danish spellings internally consistent; IGB east
+of Ratzeburg with its two legal gaps; marsh stipple reads as area
+texture, distinct from the dotted frontier line class.
+
+Two NOTEs, neither a howler, dispositions:
+1. Nordfeld ferry node: the TOML note said "NW of
+   Friedrichstadt" while the GUESS coordinate sits upstream
+   (ESE) — self-contradiction. FIXED: note rewritten to record
+   the contradiction and the more-plausible coordinate half
+   (Gut Nordfeld/Drage), still GUESS-tier, site unverified.
+2. Legend carries "motorway" as its only road class while
+   trunk/federal/secondary draw unlegended — composition
+   matter, outside the howler remit, ACCEPTED under the
+   officer-from-memory ruling.
+
+With this, every gate the spec owes is discharged; the plates
+are LOCKED for the first edition.

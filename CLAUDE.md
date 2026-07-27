@@ -68,7 +68,7 @@ work, so its disciplines apply to every session from the first:
 
 This repo may become public; it must stay freely redistributable.
 DK-owned materials that can't be (book scans, purchased ebooks) live
-in the `holdings/` submodule → `the-mission-1986-private`,
+in the `holdings/` submodule → `the-baltic-approaches-private`,
 **always-private**. Metadata stays public (reference/shelf.md
 Holdings table + the holdings catalog). Never copy holdings content
 into this repo, its build outputs, or transcripts — distilled notes

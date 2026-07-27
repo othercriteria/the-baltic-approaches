@@ -300,8 +300,10 @@ Ruled (by existing ratifications, restated for the executor):
    sampled field color against the front art's shadow values in
    the proof.
 
-PROPOSED (DK ratification owed before execution; the one open
-creative item):
+RATIFIED (DK, 2026-07-27, same day: "I like the call on the
+back-panel excerpt. Neat that we can put one of the last items
+from the book back there without materially spoiling
+anything."):
 
 9. **The excerpt.** From the ch. 22 after-action assessment,
    abridged exactly thus: "We were not right. We were solvent.

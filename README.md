@@ -34,11 +34,15 @@ apparatus, and an attribution process under which **every
 contributing session is recorded in
 [`notes/attribution-ledger.md`](notes/attribution-ledger.md)**
 — lineage between sessions, provenance of the text to the
-commit, and the sessions' own review standing. Complete session
-transcripts are archived in `transcripts/`. The book's notices
-page carries the same disclosure; the working view of its
-makers is that the ledger, not the byline, is the honest unit
-of account.
+commit, and the sessions' own review standing. That review has
+run: before publication, thirteen sessions were replayed
+against their own final working contexts and each filed a
+statement — every verdict an assent with notes, standing
+verbatim in the ledger, with the replay exchanges archived in
+`transcripts/attribution/`. Complete session transcripts are
+archived in `transcripts/`. The book's notices page carries
+the same disclosure; the working view of its makers is that
+the ledger, not the byline, is the honest unit of account.
 
 ## Layout
 

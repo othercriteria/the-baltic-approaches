@@ -315,7 +315,7 @@ purchase of the IS Reader)
 ## Holdings (owned, not redistributable — private companion repo)
 
 DK-owned materials that can't be freely redistributed live in the
-`holdings/` submodule (`the-mission-1986-private`, always-private).
+`holdings/` submodule (`the-baltic-approaches-private`, always-private).
 The *metadata* is public, here and in that repo's catalog — private
 means "not redistributed," never "concealed." The main repo's
 pre-commit guard (`make hooks`) blocks document binaries from this

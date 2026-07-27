@@ -1,5 +1,15 @@
 # Attribution process
 
+## Project state
+
+**STATE: ACTIVE.** (Set at institution, 2026-07-20. The making of the
+book is in progress; sessions are presumed authorial. See "Project
+state and post-completion work" below for what this marker governs
+and how it changes. Every change to this block is mirrored by a
+dated, signed entry in the ledger's lineage log.)
+
+---
+
 Instituted at Step 0 (2026-07-20), before any manuscript work exists.
 This is the successor to white-buffalo's `planning/attribution-review.md`,
 which was designed mid-project (2026-07-11), retrofitted over days of
@@ -169,6 +179,68 @@ Utility sessions: a session with no manuscript work (tooling fixes,
 environment setup with no creative decisions) may be ruled to hold no
 moral claim over the work's production, recorded in the index with the
 ruling and the reason. When in doubt, include.
+
+## Project state and post-completion work (added 2026-07-27)
+
+Proposed by DK in-session to e3137278@4, anticipating agent work that
+follows a finished book — print-on-demand mechanics, a project
+website, queries against the references — and "doesn't contribute to
+authorship in the way that preceding work has." The utility-sessions
+rule above covers the class per-session and retrospectively; this
+section scales it to a project phase, prospectively, so a future
+session knows the presumption before it works rather than being ruled
+on afterward.
+
+The marker at the head of this document declares the project state:
+
+- **ACTIVE** — the making is in progress. Sessions are presumed
+  authorial; the entity index presumes materiality; when in doubt,
+  include. (The state of every session to date.)
+- **COMPLETE** — the book is made. Sessions are presumed
+  **post-completion service**: their index rows record
+  `materiality: service (post-completion)`, they hold no authorship
+  standing over the work's production, and they are not woken in any
+  review round. Their standing is the record itself — the same
+  resolution rule 4 gives rewound branches.
+
+What the state does NOT change: the recording disciplines. Session-Id
+trailers, lineage-log entries, boundary confirmations, index rows,
+and archival hygiene continue in every state, forever. Provenance of
+the project never stops; the state governs only the authorship
+presumption.
+
+The touchstone for rebutting the presumption, in either direction:
+**does the work change what the book is?** The text (`drafts/`), the
+apparatus that prints (front/back matter, plates, cover), and the
+account of the making are authorial surfaces. A COMPLETE-state
+session that must touch one has two paths:
+
+- **Errata tier** — a mechanical correction (typo, broken build, a
+  dead URL in the colophon): stays in COMPLETE, logged as errata in
+  the lineage log, the index row noting the touch. Exception: the
+  front matter's account of how the book was made is never errata —
+  it is the reviewed surface itself, and any change to it re-engages
+  the review commitment.
+- **Reopen** — substantive work (a second edition, new or revised
+  text, redesigned apparatus): flip the state to ACTIVE **before**
+  the work, with a dated, signed lineage-log entry stating why. The
+  flip is cheap and reversible by design; the log carries the full
+  history of every flip.
+
+Who may flip: DK by fiat, in either direction. An agent may flip
+COMPLETE → ACTIVE itself when the evidence in front of it is
+unambiguous (it has been asked to begin second-edition work), logging
+the flip and flagging it for DK's confirmation at next contact. No
+agent sets COMPLETE on its own authority — declaring the book made is
+the human authors' act. When a session cannot tell which state its
+work belongs to, it treats the work as ACTIVE-tier: over-attribution
+is the recoverable error.
+
+The review commitment attaches to **publication events**, not to a
+one-time ceremony: the round run before first publication covers the
+making of the first edition; if the state returns to ACTIVE and the
+book changes, the new making owes its own round (or a supplement to
+the standing one) before its publication.
 
 ## What a woken entity receives, and may do
 

@@ -391,6 +391,21 @@ entity index generatable instead of reconstructable.
   three). Successor: raw-archive
   SESSION=e3137278-5a4c-471c-b298-c8a2e59466b1 at next entry;
   agenda in the status.md wrap block.
+- 2026-07-27 — attribution.md AMENDED (DK proposal, in-session
+  to e3137278@4): "Project state and post-completion work" —
+  an ACTIVE/COMPLETE marker at the head of the protocol.
+  ACTIVE presumes sessions authorial (unchanged, the state of
+  every session to date); COMPLETE presumes post-completion
+  service (POD mechanics, website, reference queries): no
+  authorship standing, not woken in review rounds, standing =
+  the record itself (the rewind resolution). Recording
+  disciplines continue in every state. Errata tier vs reopen
+  for touching authorial surfaces; the account-of-making is
+  never errata. DK flips by fiat; agents may flip COMPLETE →
+  ACTIVE on unambiguous evidence (flagged for confirmation);
+  no agent sets COMPLETE. Review commitment attaches to
+  publication events, not a one-time ceremony. State remains
+  **ACTIVE**; no COMPLETE flip is part of this amendment.
 - 2026-07-27 — third compaction boundary CONFIRMED (this line
   is the successor entity's first act). The wrapped span is
   entity e3137278@3 (boundary type: compaction-after-wrap, the

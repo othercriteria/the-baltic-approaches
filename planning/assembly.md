@@ -283,3 +283,25 @@ must be updated at the repo rename (very last action). Cover
 program queued. Still open from the standing agenda: title FINAL
 ruling, byline ratification, mission-asymmetry ratification,
 map-plate hand-pass nits (map-spec build-3 list).
+
+**2026-07-27 later:** title RATIFIED (The Baltic Approaches;
+title-brief FINAL RULING block); mission-asymmetry RATIFIED
+(title-brief test 4); war-etiology position banked
+(notes/war-etiology.md); cover program OPENED
+(planning/cover-brief.md, four acquisition lanes run).
+
+**OPEN — epigraph (DK, 2026-07-27):** if the book has one, DK
+would pull it from *Pacific Overtures* (the "Someone in a Tree"
+kinship, notes/war-etiology.md Related) — "a very high bar of
+self-satisfaction to clear"; if done, ONE epigraph, no
+double-epigraph games, no Whedon-esque self-deflation. HARD
+CONSTRAINT: Sondheim lyrics are in copyright — epigraph use
+requires a permissions license (Concord/estate; music-lyric
+permissions are famously costly and refusable), and the lyric
+text cannot be committed to this repo (redistributability
+rule) regardless. So: decide null-vs-licensed at publication;
+if licensed, the text enters only the published artifact, with
+a TK placeholder in the repo. The null option is live on
+register grounds too (the book opens cold on ENDEX; an
+epistemology-stating epigraph is a brief at the reader before
+page 1 — the threshold version of the didactic-honesty rule).

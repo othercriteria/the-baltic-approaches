@@ -78,3 +78,14 @@ Mission-asymmetry ratification (same ruling, sharpened
 evidence): planning/title-brief.md test 4. "Mission" is red's
 grammar; blue's one "mission" is the ch. 16 raid, blue's one
 operation run in red's grammar.
+
+Kinship note (DK + entity @3, 2026-07-27): *Pacific Overtures*
+(Sondheim, 1976) — "Someone in a Tree" as this book's
+epistemology staged: the event known only through partial
+witnesses, none containing it; history assembled from what the
+fragments cost. Same genre in the deep sense: the epistemics of
+an event too large to witness. (Both titles name the encounter
+from the water and pun on it; both keep the decision center
+off-stage; both run an imposed working language over an
+alliance encounter.) Epigraph question opened on this — see
+planning/assembly.md open items.

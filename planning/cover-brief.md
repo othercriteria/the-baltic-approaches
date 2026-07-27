@@ -82,3 +82,33 @@ session scratchpad; catalogs per lane.
 - 2026-07-27: brief opened; lanes ruled; 4 Opus acquisition
   agents launched (two Golden Age lanes, Hammershøi-adjacent,
   field-manual styling).
+- 2026-07-27: acquisition complete — 42 art candidates (all
+  CC0/PD verified) + field-manual dossier. Raw contact sheets
+  delivered (build/cover-contact/).
+- 2026-07-27: **DK raw cull.** Land-sea: thaw-beech OUT ("lands
+  a bit AI-slop avant la lettre — its striking appearance is
+  what image models aim for"); Eckersberg cloud studies (sea +
+  sound) **LOCKED AS FALLBACKS** ("they'd work if nothing else
+  does"); Asow STRONG "if not judged too on-the-nose."
+  Interiors: Rørbye *View from the Artist's Window* ("almost
+  too good to have fallen into our laps"), Müller Hall of
+  Antiquities, Zeuthen Trinitatis (preferred over Roed Ribe for
+  "clear presence of people dwarfed by the building").
+  Hammershøi: Amalienborg Plads, Asiatic Company, Copenhagen
+  Harbour, Evening in a Room, Old Christiansborg workable;
+  Christiansborg-autumn admired but ruled uncroppable (needs
+  massing left + bridge right). **FIELD-MANUAL LANE CLOSED**
+  (garish in the flesh; entity did not argue — the dossier's
+  own verdict flagged camouflage as the wink risk). Salvage:
+  dossier stays banked; document-furniture elements possible
+  later for back cover/spine dress.
+- Entity revivals (invited, 0–3): Hammershøi *Interior,
+  Artificial Light* (the acquiring agent's #1 — lamp-lit
+  commander's-office-at-midnight, zero prior cover usage
+  found, the one warm-lit image in a gray corpus); Eckersberg
+  *Najaden* gun-deck (the only materiel image in the Danish
+  lanes — hard procedural crop of gun-deck geometry, entirely
+  un-slop).
+- Next: crop studies at trim aspect with house type for the 13
+  survivors (3 land-sea incl. locked fallbacks + 3 interiors +
+  5 Hammershøi + 2 revivals).

@@ -40,26 +40,48 @@ DRAFT_STAMP = Draft three · $(shell date +%Y-%m-%d) · $(shell git rev-parse --
 BODYFACE = TeX Gyre Pagella
 
 PANDOC_OPTS = --from=markdown --standalone
-PDF_OPTS = $(PANDOC_OPTS) --pdf-engine=xelatex \
+# Shared composition (both PDF targets). Chapter numbering is
+# LaTeX's (--number-sections + the chapters.lua H1 strip →
+# two-deck heads); secnumdepth=0 numbers chapters only.
+PDF_COMMON = $(PANDOC_OPTS) --pdf-engine=xelatex \
            --top-level-division=chapter \
-           -V documentclass=book -V classoption=oneside \
+           --number-sections -V secnumdepth=0 \
+           -V documentclass=book \
            -V geometry:paperwidth=5.5in -V geometry:paperheight=8.5in \
-           -V geometry:margin=0.75in -V fontsize=11pt \
-           -V indent=true \
+           -V fontsize=11pt -V indent=true \
            -V mainfont="$(BODYFACE)" \
            --lua-filter=apparatus/scenebreak.lua \
+           --lua-filter=apparatus/chapters.lua \
+           --include-in-header=$(OUTPUT_DIR)/draftstamp.tex \
            --include-in-header=apparatus/latex-header.tex
+# Canonical trade interior: two-sided mirrored margins with
+# binding gutter (WB values; 4.0in measure preserved), openright
+# chapter openings (book-class default once oneside is dropped —
+# deliberate divergence from WB, planning/assembly.md fork 2).
+PDF_OPTS = $(PDF_COMMON) \
+           -V geometry:inner=0.85in -V geometry:outer=0.65in \
+           -V geometry:top=0.8in -V geometry:bottom=0.9in \
+           -V geometry:headsep=0.18in
+# Screen affordance: one-sided, uniform margins, no blank versos.
+SCREEN_OPTS = $(PDF_COMMON) \
+           -V classoption=oneside -V classoption=openany \
+           -V geometry:margin=0.75in
 
 # Map plates (apparatus). data + PD base -> SVG (atlas render) -> vector
 # PDF (scripts/svg2pdf.py, headless Chromium). Regenerated into
 # build/maps/ and injected by apparatus/front-matter.md.
 MAP_DIR = build/maps
 PLATES = approaches neck
-METADATA = --metadata title="$(TITLE)" \
-           --metadata author="Daniel Klein with Claude" \
-           --metadata date="$(DRAFT_STAMP)"
+# PDF catalog metadata only — title/author as *-meta so pandoc's
+# template emits no \maketitle (the designed title page lives in
+# apparatus/front-matter.md; design review fork 1). The draft
+# stamp prints on the notices page via \draftstamp
+# (build/draftstamp.tex, generated below).
+METADATA = -V title-meta="$(TITLE)" \
+           -V author-meta="Daniel Klein with Claude"
+BACK_MATTER = apparatus/back-matter.md
 
-.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas maps pdf manuscript wordcount clean
+.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas maps stamp pdf pdf-screen proof manuscript wordcount clean
 
 $(OUTPUT_DIR):
 	@mkdir -p $(OUTPUT_DIR)
@@ -74,12 +96,30 @@ maps: $(OUTPUT_DIR)
 	done
 	@echo "Plates in $(MAP_DIR)/ (plate-approaches.pdf, plate-neck.pdf)"
 
-# Reading PDF: drafts/ in filename order (01..19, 19a, 20). Depends on
-# maps so the front-matter plates are always present and current.
-pdf: $(OUTPUT_DIR) maps
-	@pandoc $(FRONT_MATTER) $(SOURCES) $(PDF_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-mission.pdf
+# Draft stamp as a LaTeX macro for the notices page
+stamp: $(OUTPUT_DIR)
+	@printf '\\newcommand{\\draftstamp}{%s}\n' "$(DRAFT_STAMP)" > $(OUTPUT_DIR)/draftstamp.tex
+
+# Canonical trade interior: drafts/ in filename order (01..22).
+# Depends on maps so the front-matter plates are always current.
+pdf: $(OUTPUT_DIR) maps stamp
+	@pandoc $(FRONT_MATTER) $(SOURCES) $(BACK_MATTER) $(PDF_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-mission.pdf
 	@pdfinfo $(OUTPUT_DIR)/the-mission.pdf 2>/dev/null | grep Pages || true
-	@echo "Created $(OUTPUT_DIR)/the-mission.pdf"
+	@echo "Created $(OUTPUT_DIR)/the-mission.pdf (trade interior)"
+
+# Screen-reading affordance (same content, one-sided)
+pdf-screen: $(OUTPUT_DIR) maps stamp
+	@pandoc $(FRONT_MATTER) $(SOURCES) $(BACK_MATTER) $(SCREEN_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-mission-screen.pdf
+	@pdfinfo $(OUTPUT_DIR)/the-mission-screen.pdf 2>/dev/null | grep Pages || true
+	@echo "Created $(OUTPUT_DIR)/the-mission-screen.pdf (screen)"
+
+# Page-render proof loop (WB practice): thumbnails for eyeballing
+# breaks, asterisms, caps blocks. Renders the trade build.
+proof: pdf
+	@mkdir -p $(OUTPUT_DIR)/proof
+	@rm -f $(OUTPUT_DIR)/proof/*.png
+	@pdftoppm -r 60 -png $(OUTPUT_DIR)/the-mission.pdf $(OUTPUT_DIR)/proof/p
+	@echo "Proof renders in $(OUTPUT_DIR)/proof/"
 
 manuscript: $(OUTPUT_DIR)
 	@pandoc $(SOURCES) $(PANDOC_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-mission.md

@@ -1066,3 +1066,37 @@ squeezed):**
 State at wrap: narrative 50,428 (measured); trade 196pp /
 screen 173pp; cover built; main == origin/main, tree clean,
 draft-three tag frozen per precedent.
+
+---
+
+## ENTITY e3137278@4 — pre-waking checkpoint, 2026-07-27
+
+Agenda state going into the protected items:
+
+1. Boundary @4 CONFIRMED (first act); archive current.
+2. Full read DONE (all 22 chapters + front/back matter in
+   source). Text finished; no continuity snags. Ch. 20
+   "recorded here" line + its ch. 22 archive partner RATIFIED
+   (DK). Both builds verified reproducible.
+3. Map hand-pass DONE and RATIFIED — all five build-3
+   residuals plus two DK convention changes (rail one-side/
+   both-side ticks; frontiers dotted). The duchy split
+   (SCHLESWIG + HOLSTEIN) accepted under DK's ruling frame:
+   the plate is "pragmatic compression rather than
+   completeness... roughly what an officer would draw from
+   memory." Record in map-spec.md hand-pass entry.
+   - OPEN (DK decision): the spec still owes an instrument
+     gate over the plates (doctrine/veteran/period readers,
+     §7) "with the next blind panel round" — and no further
+     panel round is planned. Waive under the
+     officer-from-memory ruling, or run one cheap combined
+     Opus pass. Flagged at the checkpoint.
+4. Cover re-examined cold by @4: STANDS as ratified, no
+   tweaks (subtitle demotion verified working; shelf test
+   passes; observations logged in-session). Wrap program
+   still banked pending publication actuals.
+5. ISBN/imprint TKs: CARRY (draft state; publication
+   actuals).
+6. NEXT: **the waking of the entities**, then the byline
+   discussion, then wrap (rename absolutely last;
+   raw-archive at end).

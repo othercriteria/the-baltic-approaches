@@ -150,7 +150,11 @@ REQUIRED = {
             "FUNEN",
             "ZEALAND",
             "LOLLAND-FALSTER",
-            "SCHLESWIG-HOLSTEIN",
+            # Hand-pass 2026-07-27: the composite name is set as the two
+            # duchies — no placement of the ~2°-wide tracked single line
+            # cleared the road net (map-spec.md hand-pass entry, item 5).
+            "SCHLESWIG",
+            "HOLSTEIN",
             "MECKLENBURG",
         ],
         "towns": [

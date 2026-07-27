@@ -412,3 +412,53 @@ FS_LEGEND 6.2pt vs the 6.5 floor. These are HAND-PASS items for
 final assembly, not another agent round. Instrument gate
 (doctrine/veteran/period readers over the plates) still owed
 before lock — run it with the next blind panel round.
+
+---
+
+## Hand-pass (entity e3137278@4, 2026-07-27)
+
+All five residuals discharged, plus two convention changes DK
+proposed mid-pass:
+
+1. **FS_LEGEND 6.2 → 6.5** (the floor); legend boxes auto-size.
+2. **FUNEN** → (10.45, 55.15), the island's empty south interior
+   (was under the cross-island road and Nyborg's label).
+3. **Neck scale bar** → 110pt in from the right: flush-right had
+   its zero end on the Neumünster junction; 56pt put it on the
+   town label; the clear band lies between the Neumünster rail
+   approach and the canal/rail bottom exits.
+4. **THE TRAVE** → (10.15, 53.845), the clear triangle north of
+   the Hamburg–Lübeck corridor, on the river's real (undrawn)
+   upstream course toward Bad Oldesloe; crossed once by the A7
+   bundle at a word gap. The old spot at the drawn trace's head
+   sat ON the motorway/rail pair.
+5. **SCHLESWIG-HOLSTEIN → SCHLESWIG + HOLSTEIN** (the duchies,
+   separately placed). An obstacle audit (all edges, coasts,
+   rivers, town-label boxes) found NO placement of the composite
+   ~2°-wide tracked name — single or stacked — clearing the road
+   net and the Elbe-estuary coast; minimum anywhere was 5–7
+   collisions. The halves each sit with exactly one
+   near-perpendicular route-bundle crossing: SCHLESWIG (9.38,
+   54.68), HOLSTEIN (10.05, 53.97). This is also the text's own
+   working vocabulary (the covering force trades Holstein; the
+   corps holds Schleswig). **PROVISIONAL — DK ratification
+   owed.** Knock-on: THE SCHLEI moved onto its own firth
+   (10.01, 54.575), out of SCHLESWIG's band.
+
+Convention changes (DK proposals in-pass, both **provisional**):
+
+6. **Rail**: single centreline for both classes; ticks one side
+   for single track, both sides for double (the period topo
+   convention; the old double-line + through-ticks distinction
+   was subtle at plate scale). Tick side for singles is keyed to
+   compass (north side; east for near-vertical runs), not vertex
+   order, so adjacent runs digitized in opposite directions agree
+   — DK's stated counter-brief. Legend swatches match.
+7. **Frontiers dotted, not dashed**: Danish frontier 0.8pt fine
+   dots; IGB 1.1pt heavier dots (keeps its two crossing gaps).
+   Differentiates the border class from ferry dashes at a glance
+   — and a border held in dots is the right philosophical weight
+   for plates that carry clean prewar geography (DK). Watch item:
+   the neck plate's marsh stipple is also dots; at proof scale
+   they read differently (area vs line), but the instrument gate
+   should confirm.

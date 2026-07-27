@@ -45,11 +45,17 @@ W_TRUNK = 0.85
 W_FEDERAL = 0.62
 W_SECONDARY = 0.42
 W_RAIL = 0.5
-RAIL_TICK = 1.4  # half-length of a rail cross-tick
+RAIL_TICK = 1.6  # length of a rail tick (per side)
 RAIL_TICK_STEP = 6.5  # spacing of rail ticks along the line
-RAIL_DOUBLE_GAP = 1.4  # centre-to-centre for double track
-W_FRONTIER = 0.7  # national frontier (Danish): light dashed
-W_IGB = 1.1  # inner-German border: heavier, plain
+W_FRONTIER = 0.8  # national frontier (Danish): light dotted
+W_IGB = 1.1  # inner-German border: heavier dotted
+# Frontiers are DOTTED (hand-pass, DK 2026-07-27): dots read lighter
+# than the ferry dashes at equal ink, so the two classes stop competing
+# — and a border held in dots rather than a drawn wall is the right
+# philosophical weight for this map (the text's war does not treat the
+# line as permanent; the plates carry clean prewar geography).
+DOT_FRONTIER = "0.1,1.7"
+DOT_IGB = "0.1,2.1"
 W_DANEVIRKE = 0.6
 DOT_R = 1.5
 HQ_SQUARE = 3.2  # Rendsburg's side
@@ -57,7 +63,7 @@ FS_TOWN = 6.6
 FS_WATER = 6.8
 FS_REGION = 7.2
 FS_TITLE = 12.0
-FS_LEGEND = 6.2
+FS_LEGEND = 6.5  # hand-pass: raised to the spec's 6.5 floor
 FS_SCALE = 6.0
 
 # Deep red-side interior: names/edges suppressed (spec: edge-of-world
@@ -177,8 +183,10 @@ PLATES = {
         # Water area labels. Several were nudged in build 3 (item 4) to
         # clear town labels: BALTIC out into open sea SE of Falster (was
         # on top of Vordingborg); LITTLE BELT south into the strait (was
-        # grazing Haderslev/FUNEN); THE TRAVE upstream SW of Lübeck (was
-        # on top of the town and near the IGB).
+        # grazing Haderslev/FUNEN). THE TRAVE (hand-pass) moved further
+        # up the river's real course (toward Bad Oldesloe), into the
+        # clear triangle north of the Hamburg–Lübeck corridor — the old
+        # spot at the drawn trace's head sat ON the motorway/rail pair.
         "waters": [
             ("North Sea", 8.30, 55.45),
             ("Baltic", 12.28, 54.80),
@@ -186,19 +194,30 @@ PLATES = {
             ("Great Belt", 10.98, 55.64),
             ("Fehmarn Belt", 11.30, 54.40),
             ("Kiel Canal", 9.22, 54.02),
-            ("the Schlei", 10.02, 54.66),
+            # Hand-pass: onto the firth's own water at its mouth — the old
+            # spot NE of it sat in the band SCHLESWIG now occupies.
+            ("the Schlei", 10.01, 54.575),
             ("the Eider", 8.62, 54.26),
-            ("the Trave", 10.55, 53.78),
+            ("the Trave", 10.15, 53.845),
         ],
-        # FUNEN moved onto the island interior (was low on the Little
-        # Belt); SCHLESWIG-HOLSTEIN dropped south into the Holstein
-        # interior so its long tracked setting stops grazing KIEL CANAL.
+        # FUNEN (hand-pass) into the island's empty south interior — at
+        # 55.26 it sat under the cross-island road and Nyborg's label.
+        # SCHLESWIG-HOLSTEIN (hand-pass): the composite tracked name
+        # spanned ~2° of longitude and an obstacle audit found NO
+        # placement (single or stacked) clearing the road net and the
+        # Elbe-estuary coast. Set instead as the two duchies, SCHLESWIG
+        # north of the Schlei and HOLSTEIN south — each crossed exactly
+        # once, near-perpendicular, by one route bundle — which is also
+        # the text's own working vocabulary for the ground (the covering
+        # force trades Holstein; the corps holds Schleswig).
+        # PROVISIONAL pending DK ratification (hand-pass, 2026-07-27).
         "regions": [
             ("JUTLAND", 9.10, 56.30),
-            ("FUNEN", 10.52, 55.26),
+            ("FUNEN", 10.45, 55.15),
             ("ZEALAND", 11.98, 55.44),
             ("LOLLAND-FALSTER", 11.42, 54.70),
-            ("SCHLESWIG-HOLSTEIN", 9.46, 53.80),
+            ("SCHLESWIG", 9.38, 54.68),
+            ("HOLSTEIN", 10.05, 53.97),
             ("MECKLENBURG", 12.10, 53.88),
         ],
         # Country labels (build 2 fix 8): faint, tracked, even lighter
@@ -880,32 +899,52 @@ def _road_w(cls):
     }.get(cls, W_TRUNK)
 
 
+def _rail_tick_side(ux, uy):
+    """Deterministic tick side for single track: the NORTH side of the
+    run (falling back to EAST for near-vertical runs). Keyed to compass
+    direction, not vertex order, so adjacent edges digitized in opposite
+    directions still tick the same side (the hand-pass counter-brief)."""
+    nx, ny = -uy, ux
+    if abs(ny) > 0.05:
+        if ny > 0:  # svg +y is south; keep the upward normal
+            nx, ny = -nx, -ny
+    elif nx < 0:
+        nx, ny = -nx, -ny
+    return nx, ny
+
+
 def _draw_rail(svg, pts, double=False):
-    if double:
-        a = offset_line(pts, RAIL_DOUBLE_GAP / 2)
-        b = offset_line(pts, -RAIL_DOUBLE_GAP / 2)
-        svg.poly(a, stroke=INK, width=W_RAIL)
-        svg.poly(b, stroke=INK, width=W_RAIL)
-    else:
-        svg.poly(pts, stroke=INK, width=W_RAIL)
-    # cross ticks along the (centre) line
+    """One centreline for both classes; the track count is carried by the
+    ticks — one side for single, both sides for double (the period topo
+    convention; hand-pass, DK 2026-07-27)."""
+    svg.poly(pts, stroke=INK, width=W_RAIL)
     (x1, y1), (x2, y2) = pts[0], pts[-1]
     L = math.hypot(x2 - x1, y2 - y1)
     if L < 1:
         return
     ux, uy = (x2 - x1) / L, (y2 - y1) / L
-    nx, ny = -uy, ux
+    nx, ny = _rail_tick_side(ux, uy)
     d = RAIL_TICK_STEP
     while d < L:
         cx, cy = x1 + ux * d, y1 + uy * d
-        svg.line(
-            cx - nx * RAIL_TICK,
-            cy - ny * RAIL_TICK,
-            cx + nx * RAIL_TICK,
-            cy + ny * RAIL_TICK,
-            stroke=INK,
-            width=0.4,
-        )
+        if double:
+            svg.line(
+                cx - nx * RAIL_TICK,
+                cy - ny * RAIL_TICK,
+                cx + nx * RAIL_TICK,
+                cy + ny * RAIL_TICK,
+                stroke=INK,
+                width=0.4,
+            )
+        else:
+            svg.line(
+                cx,
+                cy,
+                cx + nx * RAIL_TICK,
+                cy + ny * RAIL_TICK,
+                stroke=INK,
+                width=0.4,
+            )
         d += RAIL_TICK_STEP
 
 
@@ -948,7 +987,7 @@ def _stipple(svg, pts, proj):
 
 
 def _draw_frontiers(svg, proj, name):
-    """The Danish frontier (light dashed) and the IGB (heavier, plain,
+    """The Danish frontier (light dotted) and the IGB (heavier dotted,
     with its two real gaps). Hand-digitized generalized traces —
     GUESS-tier, disclosed in the base README. Real national frontiers
     only; no other boundary is ever drawn."""
@@ -976,7 +1015,7 @@ def _draw_frontiers(svg, proj, name):
             [proj.xy(lo, la) for lo, la in dk],
             stroke=INK,
             width=W_FRONTIER,
-            dash="4,2.5",
+            dash=DOT_FRONTIER,
         )
     # IGB SE of Lubeck. Build 3 item 6 RESEARCHED course: from the Baltic
     # at Priwall (E of Travemunde) south past the Schlutup (road) and
@@ -1006,10 +1045,10 @@ def _draw_frontiers(svg, proj, name):
         pts = [proj.xy(lo, la) for lo, la in igb]
         # gaps: Schlutup (road) and Herrnburg (rail)
         gaps = [proj.xy(10.833, 53.895), proj.xy(10.783, 53.800)]
-        _line_with_gaps(svg, pts, gaps, W_IGB)
+        _line_with_gaps(svg, pts, gaps, W_IGB, dash=DOT_IGB)
 
 
-def _line_with_gaps(svg, pts, gap_pts, width, gap=3.0):
+def _line_with_gaps(svg, pts, gap_pts, width, gap=3.0, dash=None):
     """Draw a polyline broken by small gaps near given points."""
     seg = [pts[0]]
     for p in pts[1:]:
@@ -1033,7 +1072,7 @@ def _line_with_gaps(svg, pts, gap_pts, width, gap=3.0):
     out.append(cur)
     for s in out:
         if len(s) >= 2:
-            svg.poly(s, stroke=INK, width=width)
+            svg.poly(s, stroke=INK, width=width, dash=dash)
 
 
 def _toward(a, b, g, d):
@@ -1078,7 +1117,7 @@ LEGEND_ROWS = [
     ("rail (single)", "rail1", None, None),
     ("canal", "canal", None, None),
     ("ferry", "ferry", 0.6, "3.2,2.4"),
-    ("frontier", "road", W_FRONTIER, "4,2.5"),
+    ("frontier", "road", W_FRONTIER, DOT_FRONTIER),
     ("HQ", "hq", None, None),
 ]
 _LEGEND_TEXTGAP = 22  # swatch-to-text offset (lx+22 in _legend)
@@ -1117,7 +1156,11 @@ def _scale_pos(proj, cfg):
     length = cfg["scale_km"] * (proj.deg_lat_pt / 111.2)
     y = proj.ch - proj.pad - 12
     if cfg.get("legend_corner") == "bl":
-        x = proj.cw - proj.pad - 10 - length
+        # Hand-pass: 110pt in from the right, not 10 — flush right put
+        # the bar's zero end on the Neumünster junction, and 56 put it on
+        # the town's own label; the truly clear bottom band lies between
+        # the Neumünster rail approach and the canal/rail exits at left.
+        x = proj.cw - proj.pad - 110 - length
     else:
         x = proj.pad + 10
     return x, y, length
@@ -1192,27 +1235,13 @@ def _legend(svg, proj, cfg):
         sx = lx
         cy = ty - 2
         if kind in ("rail1", "rail2"):
-            if kind == "rail2":
-                svg.line(
-                    sx,
-                    cy - RAIL_DOUBLE_GAP / 2,
-                    sx + 16,
-                    cy - RAIL_DOUBLE_GAP / 2,
-                    stroke=INK,
-                    width=W_RAIL,
-                )
-                svg.line(
-                    sx,
-                    cy + RAIL_DOUBLE_GAP / 2,
-                    sx + 16,
-                    cy + RAIL_DOUBLE_GAP / 2,
-                    stroke=INK,
-                    width=W_RAIL,
-                )
-            else:
-                svg.line(sx, cy, sx + 16, cy, stroke=INK, width=W_RAIL)
+            # single centreline; ticks one side (single) / both (double),
+            # matching _draw_rail's convention
+            svg.line(sx, cy, sx + 16, cy, stroke=INK, width=W_RAIL)
             for t in (4, 8, 12):
-                svg.line(sx + t, cy - 2.2, sx + t, cy + 2.2, stroke=INK, width=0.4)
+                y_far = cy - RAIL_TICK
+                y_near = cy + RAIL_TICK if kind == "rail2" else cy
+                svg.line(sx + t, y_far, sx + t, y_near, stroke=INK, width=0.4)
         elif kind == "canal":
             # a short filled waterway ribbon with two bank lines
             g = CANAL_GAP / 2 + 0.4

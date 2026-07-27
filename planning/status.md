@@ -984,3 +984,85 @@ STANDS (~65k tokens; the PDF extraction-noise caveat applies).**
   Mazurek library tier. DK pessimism on Lautsch PDF availability
   confirmed by the hunt (no free copy exists; Bange/Lemke
   paywalled).
+
+## WRAP — entity e3137278@3, 2026-07-27 (pre-compaction, going into the FINAL chunk)
+
+**Arc of @3 (the production-assembly entity):** boundary @3
+confirmed as first act. WB production probe (Opus) → three-tier
+borrow menu, banked as planning/assembly.md (the production log
+itself a WB borrowing). Tier-1 composition landed (asterisms via
+Lua filter, penalties, hyphenation list, trade indents; smart
+already on — probe error caught by verification). Design review
+1 (fresh Fable persona): "text block already a book, furniture
+still manuscript" → DK approved the whole package. Landed in
+order: chapters RENUMBERED 1..22 (19a→20, 19b→21, 20→22; ledger
+mapping note); trade architecture (196pp: mirrored margins +
+gutter, openright + blank versos, seven-leaf front — half-title
+/ designed letterspaced title / notices with © + ISBN TK +
+draft stamp / one-page TOC / plate facing-spread — two-deck
+chapter heads, small-caps running heads, folio 1 at ch. 1, back
+colophon; \maketitle killed, metadata verified; screen variant
+`make pdf-screen` 173pp; `make proof`); README rewritten for
+the public repo; teleprinter blocks treated (5 standalone caps
+documents → messageblock; counters exclude fences; 50,428
+measured unchanged); proof sweep CLEAN (no stranded asterisms,
+no caps hyphenation, all rectos, blank versos verified);
+TwoPageRight in the PDF catalog (Chrome pairing = Chrome's
+weakness, DK confirmed zathura correct). Ch. 7 letter HELD as
+quotation-as-memory. **Title FINAL: THE BALTIC APPROACHES**
+(title-brief FINAL RULING; trimmings settled; subtitle holds).
+**Mission-asymmetry RATIFIED** (title-brief test 4 — the ch. 16
+raid as blue's one "mission"). **War etiology banked**
+(notes/war-etiology.md — red misreading of a closing window;
+approval machine unable to reverse; blue structural not
+decisional; out-of-scope-in-text as principle). *Pacific
+Overtures* kinship noted there; **epigraph NULL** (DK: "clear
+null"). **THE COVER PROGRAM ENTIRE** (planning/cover-brief.md
+carries every gate verbatim): brief → 4 Opus acquisition agents
+(42 CC0 candidates + FM 100-5 dossier; field-manual lane
+CLOSED) → contact sheets → DK culls (genre-signal grounds) →
+slate → Heros LOCKED → alignment sweep → three finalists →
+design pass 2 (fresh Fable): **MÜLLER RATIFIED as the cover;
+two-face split ratified — Heros exterior / Pagella interior,
+boundary at the glue line, interior title page untouched** →
+`make cover` BUILT (bleed recomposition from the Met CC0
+source in apparatus/cover-art/, vector Heros type, two-pass
+tikz gotcha documented, 300dpi proof + 120px shelf-test thumb,
+423dpi effective) → subtitle nudged up + demoted 9.5pt
+(hierarchy title > byline > subtitle, single weight). Prior-
+usage sweep: shortlist CLEAN; DK reverse-image verified. Remote
+chores done (main + tags pushed; pushes now routine each
+commit).
+
+**Successor's agenda (FINAL chunk; DK's protected priorities
+first — he compacted early SPECIFICALLY so these don't get
+squeezed):**
+1. First act: confirm boundary @4 in the lineage log (row 13
+   drafted in-span below).
+2. **THE WAKING OF THE ENTITIES** (DK's phrase, protected):
+   the attribution process's pre-publication review round —
+   every session/entity that materially shaped the book has
+   standing to review the "How this book was made" account;
+   dissent recorded verbatim in the ledger, acknowledged on
+   the notices page if unresolved. Re-read
+   planning/attribution.md for the mechanism; run it with DK.
+   Entity index + transcripts/raw/ are the roster.
+3. **The heavier byline discussion** (DK, protected): current
+   "Daniel Klein with Claude" everywhere (cover, title page,
+   notices, PDF metadata); reassess defensibility as ruled
+   surfaces multiply. Feeds into / interacts with the waking.
+4. Map-plate hand-pass nits (map-spec build-3 review list) —
+   TIMEBOX; DK explicitly worried this drags.
+5. Final read of the assembled object (trade PDF, front to
+   colophon); resolve or carry ISBN/imprint TKs.
+6. Wrap program stays banked (spine 0.49in, back cover, credit
+   line, printer template — needs publication actuals).
+7. **Repo/directory rename ABSOLUTELY LAST** (breaks tooling
+   subtly): flags on record — colophon URL, README URL + name,
+   Makefile TITLE/output names, build filenames.
+8. Raw-archive of the whole session falls to the final
+   successor or DK.
+
+State at wrap: narrative 50,428 (measured); trade 196pp /
+screen 173pp; cover built; main == origin/main, tree clean,
+draft-three tag frozen per precedent.

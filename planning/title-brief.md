@@ -194,6 +194,26 @@ Mission, Candor Before Comfort. Everything else off the board.
 (DK clarification 2026-07-27: "both trimmings" explicitly in
 play — *The Approaches* and the article-less *Baltic
 Approaches*.)
+
+## FINAL RULING 2026-07-27 (DK, in-session to e3137278@3)
+
+**THE BALTIC APPROACHES ratified as final.** Closing grounds:
+the only candidate that is at once the book's question (test 4
+as ratified — blue's inherited slogan on the cover, red's word
+inside), a verbatim quotation of the text's own wall (ch. 1,
+founding directive, dismantled by Rahn in the next breath),
+unique on the fiction shelf, and load-tested on the built title
+page. Eliminations: Candor Before Comfort fails test 3 (the
+answer on the cover — the motto the last page pays off); The
+Mission stays banked as historical incumbent (search-swamped;
+its question-carrying work inherited by the new title). The
+trimmings settle as: *The Approaches* = Plate I's name, the
+root-share RATIFIED as echo-not-duplicate (the plate works
+because it is the trimmed echo of a fuller name); *Baltic
+Approaches* = the term of art the title quotes. Subtitle holds:
+"A novel of November 1983" (period work). Remaining
+title-coupled work: repo/directory rename ONLY, dead last
+(colophon + README URL flags recorded in assembly.md).
 DK on the op-name family: Operation HOLDFAST is "a fun one
 since Schleswig-Holstein is arguably this with Denmark as a
 seaweed's body" — hold-fast being the holdfast, the anchoring

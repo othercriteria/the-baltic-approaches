@@ -29,13 +29,12 @@ NARHVALEN routine, desant, NEPS, UKMF as a name — see `bogason-outline.md`,
 ---
 
 ## 1. The NATO graduated precautionary/alert measures — a mobilisation checklist for the pre-war chapters
-*[Annotation 2026-07-26: the designator MCM-102-68 is EXTERNALLY
-UNVERIFIED — the alert-system hunt (nato-alert-system.md) found
-the verified lineage to be the MC 67 series (MC 67/2, 8 Dec
-1967, archives.nato.int); MCM-tier memoranda are poorly
-digitized, so Bogason's cite may well be right — CHECK THE PRINT
-FOOTNOTE before this designator is ever used anywhere. It does
-not appear in canon text.]*
+*[Annotation 2026-07-26, RESOLVED 2026-07-27: designator
+print-confirmed by DK — footnote reads exactly "MCM-102-68
+(draft) 18-12-68. HEM." A draft MCM of Dec 1968, one year after
+MC 67/2; the scrape did not garble it, the document is simply
+undigitized. Verified lineage for the promulgated system
+remains the MC 67 series (nato-alert-system.md).]*
 
 **What (Ch15/pp.475–476, "What to do if tension arises?", from MCM-102-68 draft
 1968).** Bogason reproduces NATO's graduated "Counter and Precautionary

@@ -193,6 +193,11 @@ Denmark ran a **five-grade national readiness system**, mapped to NATO:
   Ekspresforanstaltninger · Alarm O / Alarm S · Fuldmagtslov
 - Grades/Groups I–V (Danish national readiness)
 - Warning order → formal alert measure (the transition the DTG marks)
+- German, attested in 1960 press coverage of HOLD FAST (Spiegel
+  41/1960 — reference/hold-fast-1960.md): **einfacher Alarm** /
+  **erhöhter Alarm**, ordered in sequence as ORANGE massed —
+  Simple/Reinforced Alert operating under their German names in
+  the exact theater, two years before BALTAP
 
 ## Residual unknowns
 

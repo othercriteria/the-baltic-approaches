@@ -341,6 +341,64 @@ scans/bogason-2023/); read from the page images in-session.*
 Asks 6–7 below (HOLD FAST wording; the alternate-HQ index scan)
 are TEXT checks, not figures — still open at DK's leisure.
 
+**Ask 6 DISCHARGED 2026-07-27 (DK print transcription,
+typos-possible):** the HOLD FAST passage confirmed essentially
+as distilled — COMLANDSCHLESWIG-HOLSTEIN (citing what appears
+to be a classified NATO document, note 25) argued all forces in
+the area must be under tactical command of the joint HQ, else
+crisis brings the 6th Division retiring across the Kiel Canal
+into bridge bottlenecks and civilian-fugitive/military clashes;
+therefore the Territorialheer under the joint HQ "as the Danish
+home guard was in Denmark," and that HQ must be the NATO
+command. **DK's evidentiary caveat, on the record:** a 1960
+recommendation is weak evidence for 1983 arrangements — 23
+years is a long hold. **Session analysis — the caveat CUTS THE
+OTHER WAY for our canon:** the book does NOT depict the
+recommendation implemented; it depicts the problem UNFIXED in
+1983 (ch. 3's Territorial screen "none of them the corps' to
+command"; the Reinfeld message) and solved ad hoc by Witzel's
+week-two order (19a). What canon needs is exactly "problem
+identified, recommendation made, never implemented" — and the
+1960 rec plus the 1970 orbat's default ("home guard brigade
+not under NATO command") is precisely that pattern. The
+23-year gap is not a weakness in the warrant; it IS the
+warrant — institutional non-fix as the book's own theme. The
+one thing the passage cannot prove is that the seam was still
+open in 1983 specifically (some later arrangement could have
+fixed it silently); graded PLAUSIBLE-UNCONTRADICTED, which is
+where an invented-but-honest war novel wants its seams.
+SAME-DAY ENRICHMENT: DK surfaced Spiegel 41/1960's contemporary
+coverage of HOLD FAST itself — distilled to
+reference/hold-fast-1960.md (the corps' direct ancestor under
+Konteradmiral Rogge, English-commanded, 87/51/5 staff; the
+scripted-enemy critique in 1960 press; the alert ladder in
+German; Rogge's release-friction quote; 16 exercise nuclear
+strikes incl. 8 kT on the Rendsburg road bridge; the home-guard
+gap noted sardonically). The article doesn't carry the OPCON
+recommendation but hardens its frame considerably.
+
+**MCM-102-68 CONFIRMED 2026-07-27 (DK print footnote):** the
+citation reads exactly "MCM-102-68 (draft) 18-12-68. HEM." —
+the designator is real, a DRAFT Military Committee Memorandum
+of 18 Dec 1968, i.e. one year after MC 67/2, consistent with
+the MC 67 series as the promulgated lineage
+(nato-alert-system.md flag resolved: the scrape did not garble
+the cite; the document is simply undigitized).
+
+**SEP BARD BELL (E) wording CONFIRMED 2026-07-27 (DK print
+transcription):** as distilled, sourced to a SHAPE Historian
+Office interview (May 2022); the print's own text contains the
+garble "units from US, USA" (sic — likely UK/USA or USN/USAF
+in the source). Period check on DK's question (Starfighters in
+1983): CORRECT, not anachronism — the German Marineflieger's
+MFG 2 flew the F-104G in the maritime strike role until 1986
+(MFG 1 converted to Tornado 1981–82), and the F-104G carried
+the Marineflieger's nuclear-strike commitment, making it the
+natural SEP BARD BELL delivery platform; the Danish air force
+also still flew F-104Gs from Aalborg. A Sept 1983 live test
+against amphibious units with Starfighters is exactly what the
+period order of battle predicts.
+
 **Ask 7 DISCHARGED 2026-07-27 (DK print skim):** the printed
 book has NO index; a direct skim of the ToC and text finds
 nothing on HQ relocation — the expected negative, now confirmed

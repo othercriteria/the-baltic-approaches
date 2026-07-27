@@ -8,8 +8,11 @@ interior assembly; POD wrap/spine math banked in assembly.md.*
 
 - Repo stays freely redistributable → cover art must be PD/CC0
   (SMK Open is CC0 at high res; US federal works PD).
-- House dress: letterspaced TeX Gyre Pagella caps (the built
-  title page is the reference); trim 5.5×8.5in.
+- House dress — TWO FACES, ONE BOUNDARY (ratified 2026-07-27):
+  everything on the exterior wrap is letterspaced TeX Gyre
+  HEROS caps; everything inside the block is Pagella; the
+  boundary is the glue line; the interior title page stays
+  Pagella. Trim 5.5×8.5in.
 - Register: the book's own — austere, straight-played, no
   genre dress (no airbrushed armor).
 - The image should rhyme with the book's institutional
@@ -76,6 +79,20 @@ notes) into a gallery; entity assembles a contact sheet with
 crops mocked against the trim in house type; DK culls; only
 picked images enter the repo. Acquisition dirs under the
 session scratchpad; catalogs per lane.
+
+## RATIFICATION 2026-07-27 (DK)
+
+**The cover is the MÜLLER** (center-top, Heros), and the
+exterior/interior split is ratified as argued (glue-line
+boundary). Built: `make cover` → 
+build/cover/the-baltic-approaches-cover.pdf (5.75×8.75 bleed,
+vector Heros type via xelatex two-pass, warmed ink #F2EDE3,
+byline in the dark band) + 300dpi proof + the 120px shelf-test
+thumbnail (passes: title legible, red coat reads as beacon).
+Source art in-repo: apparatus/cover-art/ (Met CC0, provenance
+README). Remaining for the wrap program: spine/back (0.49in
+spine banked), ISBN/imprint TKs, credit line placement, printer
+template. 
 
 ## Log
 

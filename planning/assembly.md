@@ -290,7 +290,11 @@ title-brief FINAL RULING block); mission-asymmetry RATIFIED
 (notes/war-etiology.md); cover program OPENED
 (planning/cover-brief.md, four acquisition lanes run).
 
-**OPEN — epigraph (DK, 2026-07-27):** if the book has one, DK
+**CLOSED — epigraph: NULL (DK ruling 2026-07-27, "clear null").
+The book opens cold on ENDEX; no epigraph, no license question.
+History of the item kept below for the record.**
+
+Original item text (DK, 2026-07-27): if the book has one, DK
 would pull it from *Pacific Overtures* (the "Someone in a Tree"
 kinship, notes/war-etiology.md Related) — "a very high bar of
 self-satisfaction to clear"; if done, ONE epigraph, no

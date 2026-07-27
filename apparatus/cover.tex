@@ -1,0 +1,45 @@
+% Front cover, THE BALTIC APPROACHES — POD-ready panel.
+% Geometry: 5.5x8.5in trim + 0.125in bleed = 5.75x8.75in.
+% Art: build/cover/cover-art.jpg (scripts/cover-art.py recomposes
+% from the museum source each build). Type: TeX Gyre Heros caps,
+% single weight, letterspaced — hierarchy by size only (design
+% pass 2). Exterior face is Heros by the glue-line rule
+% (planning/cover-brief.md); the interior stays Pagella.
+\documentclass{article}
+\usepackage[paperwidth=5.75in,paperheight=8.75in,margin=0in]{geometry}
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\pagestyle{empty}
+\setmainfont{TeX Gyre Heros}
+
+% Warmed off-white ink (design pass 2: "sits in the painting
+% rather than floating digitally on top of it").
+\definecolor{coverink}{RGB}{242,237,227}
+
+% Title 28pt/LetterSpace=19 (cap ~0.28in, tracking ~19% em);
+% subtitle + byline 11.5pt, tracking wider than the title.
+\newcommand{\titleface}{\fontsize{28pt}{34pt}\selectfont\addfontfeatures{LetterSpace=19}}
+\newcommand{\smallface}{\fontsize{11.5pt}{14pt}\selectfont\addfontfeatures{LetterSpace=30}}
+
+\begin{document}%
+\noindent\begin{tikzpicture}[remember picture,overlay]
+  % Full-bleed art
+  \node[anchor=north west,inner sep=0] at (current page.north west)
+    {\includegraphics[width=5.75in,height=8.75in]{build/cover/cover-art.jpg}};
+  % Trim reference: trim origin is (0.125,0.125) from page corner.
+  % Title block, centered on the TRIM center (x = 0.125+2.75in),
+  % top line ~0.72in below trim top.
+  \node[anchor=north,text=coverink] at ($(current page.north west)+(2.875in,-0.86in)$)
+    {\titleface THE BALTIC};
+  \node[anchor=north,text=coverink] at ($(current page.north west)+(2.875in,-1.33in)$)
+    {\titleface APPROACHES};
+  \node[anchor=north,text=coverink] at ($(current page.north west)+(2.875in,-1.95in)$)
+    {\smallface A NOVEL OF NOVEMBER 1983};
+  % Byline: fully inside the dark floor band, baseline safety
+  % >=0.375in above trim bottom (trim bottom at page y=-8.625in).
+  \node[anchor=north,text=coverink] at ($(current page.north west)+(2.875in,-8.02in)$)
+    {\smallface DANIEL KLEIN WITH CLAUDE};
+\end{tikzpicture}%
+\end{document}

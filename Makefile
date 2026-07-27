@@ -81,7 +81,7 @@ METADATA = -V title-meta="$(TITLE)" \
            -V author-meta="Daniel Klein with Claude"
 BACK_MATTER = apparatus/back-matter.md
 
-.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas maps stamp pdf pdf-screen proof manuscript wordcount clean
+.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas maps stamp pdf pdf-screen proof cover manuscript wordcount clean
 
 $(OUTPUT_DIR):
 	@mkdir -p $(OUTPUT_DIR)
@@ -112,6 +112,21 @@ pdf-screen: $(OUTPUT_DIR) maps stamp
 	@pandoc $(FRONT_MATTER) $(SOURCES) $(BACK_MATTER) $(SCREEN_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-mission-screen.pdf
 	@pdfinfo $(OUTPUT_DIR)/the-mission-screen.pdf 2>/dev/null | grep Pages || true
 	@echo "Created $(OUTPUT_DIR)/the-mission-screen.pdf (screen)"
+
+# Front cover (Müller ratified 2026-07-27; planning/cover-brief.md).
+# Recomposes the raster from the museum source, sets vector type in
+# Heros via xelatex, and emits proof PNG + the 120px shelf-test
+# thumbnail (a standing regression artifact per design pass 2).
+cover: $(OUTPUT_DIR)
+	@python3 scripts/cover-art.py
+	@for pass in 1 2; do \
+		TEXINPUTS=.: xelatex -interaction=batchmode -output-directory=$(OUTPUT_DIR)/cover apparatus/cover.tex >/dev/null || \
+			{ tail -20 $(OUTPUT_DIR)/cover/cover.log; exit 1; }; \
+	done  # two passes: tikz remember-picture needs the .aux to place against the page
+	@mv $(OUTPUT_DIR)/cover/cover.pdf $(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf
+	@pdftoppm -r 300 -png -singlefile $(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf $(OUTPUT_DIR)/cover/cover-proof
+	@pdftoppm -r 14 -png -singlefile $(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf $(OUTPUT_DIR)/cover/cover-thumb-120
+	@echo "Cover: $(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf (+proof, +120px thumb)"
 
 # Page-render proof loop (WB practice): thumbnails for eyeballing
 # breaks, asterisms, caps blocks. Renders the trade build.

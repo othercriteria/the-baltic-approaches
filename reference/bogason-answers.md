@@ -341,6 +341,15 @@ scans/bogason-2023/); read from the page images in-session.*
 Asks 6–7 below (HOLD FAST wording; the alternate-HQ index scan)
 are TEXT checks, not figures — still open at DK's leisure.
 
+**Ask 7 DISCHARGED 2026-07-27 (DK print skim):** the printed
+book has NO index; a direct skim of the ToC and text finds
+nothing on HQ relocation — the expected negative, now confirmed
+at print grade. The ch. 14 Hohn displacement therefore stands
+as a CONFIRMED INVENTION: silent in Bogason (scrape + print),
+uncontradicted by doctrine (cp-doctrine.md route-1 hunt), its
+warrant analogized from US CP doctrine; the German-primary
+check would need HDv 100/200 (the promoted acquire).
+
 ## Ranked print-check asks for DK (scrape figures/tables unreliable)
 
 1. **Figure 9.3, "BALTAP organisation 1962" (Ch. 9)** — photograph/transcribe

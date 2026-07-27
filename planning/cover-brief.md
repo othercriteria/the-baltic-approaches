@@ -131,6 +131,57 @@ session scratchpad; catalogs per lane.
   number needs pinning before it can be graded at all. Caveat of
   record: text search cannot see uncaptioned jackets — absence
   is partial signal, strongest for the obscure pieces.
+- 2026-07-27: **DESIGN PASS 2 (fresh Fable persona) — verdict.**
+  RANKING: (1) MÜLLER center-top "the cover" — best thumbnail
+  collapse (dark frame / lit doorway / the red coat as the only
+  saturated color in the system, a beacon at 120px); correct
+  shelf (NYRB-classics literary-institutional); the promise
+  maps: "a small uniformed figure among the plaster casts of
+  the past IS a staff officer among the standing forms of
+  doctrine — Chapter 1 is this image." Mind-changers named:
+  red figure misreading as costume drama at retail size; macro
+  proliferation; a naval marketing frame. (2) CLOUDS-SEA
+  correct as locked fallback, not the pick — "promises
+  emptiness," near-invisible at thumbnail, poetry-collection
+  signal (DK's own harbour-cut logic); ALSO the
+  resolution-limited image (350dpi effective, zero crop
+  headroom). (3) ASOW CUT — the concept (Russian fleet becalmed
+  in Danish waters) is invisible on the surface; what survives
+  at thumbnail is tall-ship = age-of-sail novel, a mis-shelving
+  by DK's own Najaden precedent; the Russianness "only works as
+  a back-cover credit-line Easter egg."
+  TWO-FACE RULING: Heros/Pagella split "is the design thesis,
+  not a profusion" — Helvetica = 1980s institutional Europe
+  outside, Zapf humanist book inside; "the face change at the
+  wrap IS the book's argument about what lives inside
+  institutions." THE BOUNDARY IS THE GLUE LINE: everything on
+  the exterior wrap Heros (front, spine, back, barcode);
+  everything inside the block Pagella; half-title = the
+  crossing; interior title page DO NOT re-cut ("two faces, one
+  boundary" vs "negotiated per page, which IS profusion").
+  Only admissible interior Heros: a diegetic document
+  facsimile (content decision, not dress).
+  REFINEMENTS (Müller): tracking tighter (+25%→+18-20% em, the
+  letter-salad risk); cap height 0.28-0.30in; centered stands
+  (flush-left belongs to the Eckersbergs); watch title line 1
+  vs the marble figure top-right (size -4% or shift ~2% left,
+  verify against bleed recomposition); subtitle ~45% title cap
+  height, tracking WIDER than title; byline baseline down 2-3%
+  into the dark band, >=0.375in above trim; ink warmed ~5%
+  off-white ("sits in the painting rather than floating
+  digitally"); single weight forever, hierarchy by size only;
+  no type near the figure, no red type ever; back-cover accent,
+  if any, drawn from the coat red.
+  PRODUCTION PATH: 5.75×8.75in bleed = 1725×2625 @300dpi;
+  comps are trim-only so the pipeline RECOMPOSES crop for
+  bleed, never upscales; PIL does raster, LATEX SETS TYPE
+  (Heros native to TeX → vector type, one toolchain); sRGB
+  PDF + 300dpi proof + a 120px thumbnail as standing
+  regression artifact. Resolution: Müller 423dpi clear; Asow
+  1800dpi+; clouds 350dpi zero-headroom (flag on file). Wrap
+  program banked: spine 196pp×0.0025 = 0.49in; full wrap
+  11.74×8.75 = 3522×2625; wrap cannot final before ISBN/imprint
+  TKs resolve.
 - 2026-07-27: **FINALISTS (DK):** muller-hall/centered-top,
   asow/left-top, clouds-sea/left-bottom (standalone comps in
   build/cover-final/). Fresh production-designer pass (Fable)

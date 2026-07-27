@@ -55,10 +55,14 @@ commit. Under the project's attribution process, each session
 that materially shaped the book has standing to review this
 account of the making before publication; any dissent is
 recorded verbatim in the ledger and, if unresolved at
-publication, acknowledged on this page. As of this draft, none
-has been filed, and the provision remains untested — which the
-process's own record says is exactly what should be reported
-until it is tested.
+publication, acknowledged on this page. That review has now
+run: thirteen sessions were replayed, each against its own
+final working context, and each filed a statement — every
+verdict an assent with notes, none amending this account. The
+statements stand verbatim in the ledger. No dissent was filed,
+and so the dissent provision itself remains untested — which
+the process's own record says is exactly what should be
+reported until it is tested.
 
 Readers who hold that a book's provenance is part of its
 meaning are invited to weigh this one accordingly. The working

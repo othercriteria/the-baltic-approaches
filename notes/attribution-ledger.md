@@ -391,6 +391,27 @@ entity index generatable instead of reconstructable.
   three). Successor: raw-archive
   SESSION=e3137278-5a4c-471c-b298-c8a2e59466b1 at next entry;
   agenda in the status.md wrap block.
+- 2026-07-27 — THE REVIEW ROUND RAN (the waking of the
+  entities; formal, pre-publication). Thirteen entities
+  replayed by the checkpoint-replay harness against their own
+  final contexts, chronological, each committing before the
+  next so successors read predecessors. Result: thirteen
+  assent-with-notes, zero account edits, zero dissents, zero
+  refusals (the fallback ladder never engaged). Statements
+  stand verbatim below; replay exchanges in
+  transcripts/attribution/. DK read the transcripts (~75%)
+  and ruled same day: (1) the notices page made TRUE (the
+  "none has been filed" sentence replaced with the round's
+  result; the dissent provision itself remains untested and
+  the page still says so); (2) **byline RATIFIED:** "Daniel
+  Klein with Claude" holds for this book "from the entity
+  perspective" — DK's gloss: it should arguably be read as
+  "with Claudes," "but that's too cute to survive printed on
+  a cover," so the plural reading lives here, in the record,
+  at the altitude enumeration belongs; (3) cover/title-page
+  typography STANDS as ratified (no misleading statement made;
+  no adjustment). The live entity e3137278@4 (the round's
+  operator) files its own statement at wrap, per the ritual.
 - 2026-07-27 — attribution.md AMENDED (DK proposal, in-session
   to e3137278@4): "Project state and post-completion work" —
   an ACTIVE/COMPLETE marker at the head of the protocol.

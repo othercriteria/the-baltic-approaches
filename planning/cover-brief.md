@@ -131,6 +131,19 @@ session scratchpad; catalogs per lane.
   number needs pinning before it can be graded at all. Caveat of
   record: text search cannot see uncaptioned jackets — absence
   is partial signal, strongest for the obscure pieces.
+- 2026-07-27: **type/layout campaign.** DK reverse-image
+  verification: CLEAN across the slate five (one image-macro on
+  the Müller — "the figure looks more doofy than Friedrich's
+  wanderer," judged protective, not disqualifying). Crops
+  ruled settled ("crops don't buy us anything"). 2×2 type
+  sweep delivered ({Pagella, Heros} × {top, bottom}). **DK:
+  slate narrows to muller-hall / asow / clouds-sea; HEROS
+  LOCKED; both locations stay alive** (bottom "works
+  particularly well on clouds-sea"). Next axis (entity's
+  choice): alignment — centered vs flush-left, the
+  trade-book-vs-institutional-document fork
+  (build/cover-align/). Zeuthen + clouds-sound drop from
+  development; clouds-sound retains fallback status on file.
 - 2026-07-27: **DK comp cull — the working slate.** Unhappy
   surprises OUT on genre-signal grounds: Najaden gun-deck
   ("reads as maritime history"), Rørbye window ("domestic

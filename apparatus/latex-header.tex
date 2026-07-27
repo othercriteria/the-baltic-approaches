@@ -27,6 +27,17 @@
 % pdftex-only; protrusion works under XeTeX.
 \usepackage{microtype}
 
+% Declare the intended spread layout in the PDF catalog: odd
+% pages (rectos) on the right, first page alone. Conforming
+% viewers honor it; Chrome's viewer ignores it and mis-pairs
+% spreads regardless (known Chrome limitation, 2026-07-27).
+% Trade build only — the screen variant is one-sided. Passed as
+% a load-time option: pandoc's template loads hyperref AFTER
+% header-includes, so \hypersetup is not yet defined here.
+\makeatletter
+\if@twoside\PassOptionsToPackage{pdfpagelayout=TwoPageRight}{hyperref}\fi
+\makeatother
+
 % Blank versos inserted by openright must be truly blank
 % (emptypage.sty is not in texliveSmall; standard redefinition).
 \makeatletter

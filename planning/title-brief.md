@@ -177,6 +177,9 @@ Makefile/artifact names) is the last action after the ruling.
 unchanged until final assembly). **Kept in contention until
 final assembly:** The Approaches (and trimmed variants), The
 Mission, Candor Before Comfort. Everything else off the board.
+(DK clarification 2026-07-27: "both trimmings" explicitly in
+play — *The Approaches* and the article-less *Baltic
+Approaches*.)
 DK on the op-name family: Operation HOLDFAST is "a fun one
 since Schleswig-Holstein is arguably this with Denmark as a
 seaweed's body" — hold-fast being the holdfast, the anchoring

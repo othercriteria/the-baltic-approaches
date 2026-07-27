@@ -152,3 +152,86 @@ WB files of record: `assemble.py` (esp. 556–691, pandoc invocation
   title page repeating the title with the disclosure on the same
   page, folio 1 starting there. Title/notices architecture (Tier 1
   items 5–6) is real design work for the assembly pass.
+
+## 2026-07-27 — Design review (fresh-context Fable production
+## designer, against the built 171pp PDF + WB as reference)
+
+One-sentence verdict: **"The text block is already a book; the
+furniture around it is still a manuscript."** Composition judged
+at the reference bar (justification color, no widows/orphans
+found in a wide sample, hyphenation list visibly working,
+diacritics clean); the gap is entirely architecture.
+
+**Defects seen in renders (PDF page):** p.2–3 disclosure dressed
+as chapter one (foliated, running-headed, near-blank overflow) —
+"the single most amateur spread in the book"; p.1 duplicate
+undesigned title; **caps message passages hyphenate** (CLO-/SURE
+p.30, PRI-/ORITY p.59, CAL-/ENDAR p.104 — "a teleprinter never
+hyphenates") and justify gappy; p.57 visibly short page (the
+asterism needspace price — honest, re-check after reflow);
+top-of-page asterisms p.123/150 = standard practice, keep;
+default running heads duplicate the numeral, and "19A — THE
+POCKET" uppercases badly; no half-title/TOC/©/colophon/gutter.
+
+**Fork rulings:**
+
+1. **Front architecture — rebuild to WB pattern, seven leaves:**
+   i half-title (letterspaced, empty pagestyle) / ii blank /
+   iii designed title page (letterspaced ~20pt title, small caps
+   A NOVEL OF NOVEMBER 1983, byline caps, year at foot, no rules)
+   / iv notices verso: disclosure at \small flush-left with
+   letterspaced small-caps head (not bold H2), * * * separator,
+   © line, "First edition · ISBN TK · imprint TK", draft stamp as
+   last line while in draft / v Contents recto / vi–vii **map
+   plates as facing spread** (I verso, II broadside recto — both
+   maps open at once before the text) / Chapter 1 on next recto,
+   folio 1. Kill pandoc \maketitle (drop title from METADATA;
+   keep PDF metadata via title-meta/author-meta). Front matter
+   unfoliated; explicit \pagenumbering{arabic} at ch. 1.
+2. **Margins — adopt WB two-sided:** inner=0.85 outer=0.65
+   top=0.8 bottom=0.9 (measure stays 4.0in exactly — line breaks
+   barely move; vertical block −0.2in). **openright yes**, as the
+   deliberate divergence from WB (no interleaved plates here);
+   ~+10pp of blank versos; emptypage.sty NOT in texliveSmall →
+   inline the \cleardoublepage empty-blank redefinition. Optional
+   cheap oneside Makefile variant for screen reading. Reflow
+   BEFORE any page-referenced apparatus (two-pass rule).
+3. **Chapter headers — two-deck:** strip "N — " from H1s via Lua
+   filter + --number-sections → LaTeX default "Chapter 4" over
+   title (footnotesize letterspaced caps over huge bold title
+   once restyled). Counter-brief noted: the "N — TITLE" ledger
+   flavor could be ratified as a device, but at display size with
+   wrapping titles (p.112 "14 — The Cathedral, / Rebuilt") "it
+   stops looking like a device and starts looking like a
+   filename." Recommends against. Assumes 1..22 renumbering.
+4. **Running heads — keep, restyle** (folio-only rejected for a
+   22-chapter procedural): verso folio-outer + book title in
+   letterspaced small caps; recto chapter title (no numeral) +
+   folio-outer; plain on openings, empty in front. fancyhdr IS in
+   texliveSmall; \MakeLowercase inside \scshape for even small
+   caps; never bold. Snippet in review (banked verbatim in the
+   report file if needed — agent gave working fancyhdr block).
+5. **Colophon — yes, final recto:** set-in note ("Set in TeX Gyre
+   Pagella, 11 on 13.6, composed with pandoc and XeLaTeX"),
+   plates' provenance (project atlas + Natural Earth PD base),
+   public working record + attribution ledger by name. Letterspaced
+   small-caps head or headless with * * * above. Implementation:
+   apparatus/back-matter.md appended after $(SOURCES).
+
+**Punch list beyond the forks:** TOC yes (Caine Mutiny carries
+one; leaders or austere 1em-space style); **teleprinter
+treatment** = the one moderate-cost item: set-off message blocks
+→ \small, LetterSpace=3, ragged right, hyphenation off, via
+fenced-div markup pass (~10 chapters) + Lua filter →
+messageblock env; inline caps runs stay as-is; NO monospace
+(breaks single-face austerity + BODYFACE rule). Ch. 7 letter:
+defensible as-is (quotation-as-memory); document option =
+block-indent both margins, drop quotes, roman — DK taste call.
+Plate II rotation direction already correct. Post-reflow proof
+pass mandatory (foot/top asterisms, short pages, caps breaks).
+**microtype** (protrusion only under XeTeX) free win. Epoch-zero
+CreationDate = reproducibility artifact, defer.
+
+**Do-not-touch list:** body face/size/measure, asterism device
+incl. top-of-page appearances, raggedbottom+penalties (p.57 is
+the honest price), hyphenation list, the disclosure's *text*.

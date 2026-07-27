@@ -199,9 +199,11 @@ the twenty-third, on the weather table and the week's
 photography, and initialed it, and stood at the wall
 afterward a moment longer than the pinning required:
 
+::: message
 23 NOV: AMPHIB THREAT VS ZEALAND ASSESSED NO LONGER
 EXECUTABLE WITHIN REMAINING WEATHER WINDOW. RECOMMEND
 RELEASE OF EARMARKED FORCES TO FIELD ARMY TASKS.
+:::
 
 His initials on that sheet unpinned the beaches his
 own family waited behind: Korsør's harbor streets,

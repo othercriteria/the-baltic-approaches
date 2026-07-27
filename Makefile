@@ -125,10 +125,11 @@ manuscript: $(OUTPUT_DIR)
 	@pandoc $(SOURCES) $(PANDOC_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-mission.md
 	@echo "Created $(OUTPUT_DIR)/the-mission.md"
 
-# Narrative-only count (DK ruling 2026-07-23: apparatus excluded)
+# Narrative-only count (DK ruling 2026-07-23: apparatus excluded;
+# ::: div-fence markup lines excluded — they are typesetting, not text)
 wordcount:
-	@wc -w $(SOURCES)
-	@wc -w $(SOURCES) | tail -1 | awk '{printf "Narrative total: %s words (plan 50.5k, ceiling 54.2k)\n", $$1}'
+	@for f in $(SOURCES); do printf "%6d %s\n" $$(grep -v '^:::' $$f | wc -w) $$f; done
+	@printf "Narrative total: %d words (plan 50.5k, ceiling 54.2k)\n" $$(cat $(SOURCES) | grep -v '^:::' | wc -w)
 
 clean:
 	@rm -rf $(OUTPUT_DIR)

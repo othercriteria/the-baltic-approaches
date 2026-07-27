@@ -349,6 +349,7 @@ price his own returns would be reconciling for days.
 And under the day's prices, boxed, the G-2's evening
 estimate, which the night shift stood in line to read:
 
+::: message
 EN SECOND OPNL ECHELON COMMITTED AND BLUNTED. BY OUR
 RECONSTRUCTION OF HIS CALENDAR, EN NOW STANDS NOT LESS
 THAN 6 DAYS BEHIND HIS OWN PLAN, WITH HIS PRINCIPAL
@@ -356,6 +357,7 @@ FRESH FORCE ENGAGED FWD AND HIS MARGIN COMMITTED.
 ASSESSMENT: THE OPERATIONAL INITIATIVE IS NO LONGER
 BEING EXERCISED BY EITHER SIDE. IT IS LYING ON THE
 TABLE.
+:::
 
 Holt stayed at the plexiglass after the room emptied to
 its night shape. The fires release sat in the file with

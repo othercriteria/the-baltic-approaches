@@ -17,7 +17,7 @@ staged=$(git diff --cached --name-only --diff-filter=ACMR -- 'drafts/*.md')
 
 total=0
 for f in $(git ls-files -- 'drafts/*.md'); do
-    n=$(git show :"$f" 2>/dev/null | wc -w)
+    n=$(git show :"$f" 2>/dev/null | grep -v '^:::' | wc -w)
     total=$((total + n))
 done
 
@@ -25,7 +25,7 @@ done
     echo ""
     echo "Wordcount: $total narrative (staged state)"
     for f in $staged; do
-        n=$(git show :"$f" 2>/dev/null | wc -w)
+        n=$(git show :"$f" 2>/dev/null | grep -v '^:::' | wc -w)
         echo "Chapter-wc: ${f#drafts/} $n"
     done
 } >> "$msgfile"

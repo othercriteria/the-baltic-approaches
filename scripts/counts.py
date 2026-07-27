@@ -28,8 +28,9 @@ FLOORS = {
     "17-the-refusal.md": 1850,
     "18-the-crest.md": 2350,
     "19-the-door.md": 2250,
-    "19a-the-pocket.md": 2350,
-    "20-december.md": 2200,
+    "20-the-pocket.md": 2350,  # was 19a (renumbered 2026-07-27)
+    "21-the-relief.md": 0,  # was 19b; added post-allocation, no ratified floor
+    "22-december.md": 2200,  # was 20
 }
 
 drafts = Path(__file__).resolve().parent.parent / "drafts"
@@ -40,7 +41,8 @@ for name, floor in FLOORS.items():
     if not p.exists():
         rows.append((name, None, floor))
         continue
-    n = len(p.read_text().split())
+    n = len([w for ln in p.read_text().splitlines()
+             if not ln.startswith(':::') for w in ln.split()])
     rows.append((name, n, floor))
     total += n
     floor_total += floor

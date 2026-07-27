@@ -286,9 +286,11 @@ block letters and pinned, dead center, where every
 runner and every briefer would pass it before morning,
 a single sentence:
 
+::: message
 FOR THREE WEEKS THIS CORPS HAS BEEN LEARNING, AT
 COMPOUND INTEREST, EXACTLY WHAT EVERYTHING COSTS. IN
 THE MORNING WE WILL FIND OUT WHAT IT BUYS.
+:::
 
 The room worked on beneath it. Nobody slept, and the
 order said nothing about sleeping.

@@ -291,10 +291,12 @@ not. The school. And beneath the prices, the wall's
 last new sheet of the war, written after the fact,
 titled in the staff's own hand-lettered capitals:
 
+::: message
 WHAT THE DOOR BOUGHT / WHAT IT DID NOT.
 A CLOSED DOOR IS NOT A SURRENDERED ARMY.
 THE INSTRUMENTS PRICED HIS SUPPLY. NOTHING ON THIS
 WALL PRICED HIS CONSENT.
+:::
 
 The pocket capitulated in fact at dawn on the
 twenty-fourth day, by battalions, the white flags

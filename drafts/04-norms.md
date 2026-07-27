@@ -94,12 +94,14 @@ Rendsburg by the duty officer, and Holt, following his own
 copy, heard it the way one hears a familiar hymn sung slightly
 sharp.
 
+::: message
 PENETRATIONS: LÜBECK–BAD SEGEBERG AXIS, 14 KM. COASTAL AXIS
 EUTIN ROAD, 11 KM. COVERING FORCE INTACT AS FORCE, CONDUCTING
 DELAY SOUTH OF PLANNED TEMPO. DEMOLITION BELT ALFA EXECUTED
 100 PERCENT. BELT BRAVO PREPARED. EXCHANGE RATIOS ASSESSED:
 ARMOR 1:4.2. ALL SYSTEMS 1:3.1. OWN LOSSES WITHIN PLANNING
 RATE.
+:::
 
 The ratios had a pedigree, and Holt knew it, because the
 pedigree lived in his own filing: unit claims, consolidated

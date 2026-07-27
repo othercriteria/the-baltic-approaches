@@ -1,2 +1,76 @@
 % Loaded for the front-matter map plates (raw \includegraphics).
 \usepackage{graphicx}
+
+% --- Composition (borrowed from white-buffalo's preamble, tuned
+% --- against the identical 5.5x8.5in / Pagella / 11pt page; see
+% --- planning/assembly.md for provenance and the gotcha list).
+% (needspace.sty is not in texliveSmall; this is the package's core
+% macro inlined — a stretchable penalty that takes the page break
+% early when less than #1 remains.)
+\makeatletter
+\providecommand{\needspace}[1]{%
+  \begingroup
+    \setlength{\dimen@}{#1}%
+    \vskip\z@\@plus\dimen@
+    \penalty -100\vskip\z@\@plus-\dimen@
+  \endgroup}
+\makeatother
+\frenchspacing
+\raggedbottom
+\widowpenalty=10000
+\clubpenalty=10000
+\brokenpenalty=10000
+\finalhyphendemerits=10000000
+\emergencystretch=1.5em
+
+% Scene-break asterism, applied by apparatus/scenebreak.lua. The
+% \needspace reserves 8 baselines, not 4 — with fewer, a following
+% keep-together block can re-break the page and strand the asterism
+% at the foot (WB's bug, five folios).
+\newcommand{\scenebreak}{\par\needspace{8\baselineskip}%
+  \bigskip{\centering*\enspace*\enspace*\par}\nobreak\bigskip\nobreak}
+
+% Sanctioned break points for recurring long proper nouns: the
+% English patterns won't hyphenate German/Danish names, and on a
+% 4in measure an unbreakable Oberstløjtnant is a blown line.
+% Compounds with literal hyphens (Schleswig-Holstein) break at the
+% hyphen already and cannot be listed here.
+\hyphenation{
+  Oberst-løjt-nant
+  Oberst-leut-nant
+  General-løjt-nant
+  General-leut-nant
+  General-major
+  Brigade-general
+  Panzer-grena-dier
+  Heimat-schutz
+  Landes-polizei
+  Füh-rungs-aka-de-mie
+  Rends-burg
+  Schles-wig
+  Hol-stein
+  Eckern-förde
+  Fried-rich-stadt
+  Neu-mün-ster
+  Flens-burg
+  Fre-de-ri-cia
+  Dane-virke
+  Fri-mo-dig-hed
+  Vester-gaard
+  Za-wadz-ki
+  Ryl-ski
+  Lo-hei-de
+  Knuds-hoved
+  Hals-skov
+  Se-he-stedt
+  Nord-fries-land
+  Meck-len-burg
+  Warne-münde
+  Herrn-burg
+  Gade-busch
+  Süder-stapel
+  Schwab-stedt
+  Ratze-burg
+  Sege-berg
+  Olde-sloe
+}

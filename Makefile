@@ -45,7 +45,9 @@ PDF_OPTS = $(PANDOC_OPTS) --pdf-engine=xelatex \
            -V documentclass=book -V classoption=oneside \
            -V geometry:paperwidth=5.5in -V geometry:paperheight=8.5in \
            -V geometry:margin=0.75in -V fontsize=11pt \
+           -V indent=true \
            -V mainfont="$(BODYFACE)" \
+           --lua-filter=apparatus/scenebreak.lua \
            --include-in-header=apparatus/latex-header.tex
 
 # Map plates (apparatus). data + PD base -> SVG (atlas render) -> vector

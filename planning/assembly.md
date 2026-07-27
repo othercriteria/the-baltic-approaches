@@ -122,4 +122,33 @@ WB files of record: `assemble.py` (esp. 556–691, pandoc invocation
 
 ### Dispositions
 
-(pending DK picks)
+**2026-07-27 pass 1 (entity @3) — Tier 1 mechanical lifts applied:**
+
+- **Asterism DONE** — via `apparatus/scenebreak.lua` (HorizontalRule
+  → `\scenebreak`), cleaner than WB's source rewrite; 51 asterisms
+  confirmed in the PDF text layer; specimen page eyeballed.
+- **Composition preamble DONE** — penalties, `\frenchspacing`,
+  `\raggedbottom`, `\emergencystretch` in latex-header.tex.
+  Gotcha for the record: `needspace.sty` is NOT in texliveSmall —
+  its core macro is inlined in the header instead.
+- **Smart punctuation: NO-OP** — probe error; pandoc's `markdown`
+  input has `+smart` by default and the build already emits real
+  quotes/dashes. Verified by `--list-extensions` and output.
+- **Hyphenation list DONE** — ~35 German/Danish proper nouns and
+  rank-words with sanctioned break points (compounds with literal
+  hyphens excluded by TeX rule).
+- **Trade paragraphs DONE** — `-V indent=true`; page count 178 →
+  171. Render-verified. Two more probe errors found against the
+  actual render, both in our favor: pandoc emits NO "Chapter N"
+  furniture (headings unnumbered by default — chapters already
+  open as "1 — ENDEX" title-dominant), and running heads ALREADY
+  exist (book-class headings style: chapter title verso-italic +
+  folio). So Tier-2 items 8 and 9 are smaller than the probe
+  thought: the numeral question is only whether the literal "1 —"
+  stays in the H1, and running heads are a restyle-or-keep, not a
+  build.
+- **Render-confirmed gap:** the front is manuscript-grade — pandoc's
+  auto `\maketitle` (title/byline/draft-stamp) on p.1, then the H1
+  title page repeating the title with the disclosure on the same
+  page, folio 1 starting there. Title/notices architecture (Tier 1
+  items 5–6) is real design work for the assembly pass.

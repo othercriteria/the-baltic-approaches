@@ -1,11 +1,17 @@
-# The Mission (1986) - Writing Project
+# The Baltic Approaches — Writing Project
 
-**Status: pre-Phase-1, Step-0 complete.** Structure and process ported from
-[white-buffalo](https://github.com/othercriteria/white-buffalo); the
-Phase-1-pending sections below remain non-binding until Phase 1 runs.
-**Successor sessions start at `planning/status.md`** (broad outline, open
-decisions, standing unsettles); founding context in `planning/premise.md`
-and `planning/provenance.md`.
+**Status: COMPLETE (2026-07-27).** The book is made, at tag
+`draft-final`; the attribution protocol's project state is COMPLETE
+(`planning/attribution.md`, head of file — read it before working).
+Sessions from here are presumed **post-completion service**; authorial
+surfaces (drafts/, printing apparatus, cover, the notices account) are
+reachable only via the protocol's errata tier or a logged reopen.
+**Successor sessions still start at `planning/status.md`** (the final
+wrap block lists the remaining service items); founding context in
+`planning/premise.md` and `planning/provenance.md`. The repo was
+renamed from the working title (`the-mission-1986`); old URLs
+redirect. Everything below this header describes the completed
+making and stands as record.
 
 ## Project Structure
 

@@ -112,3 +112,22 @@ session scratchpad; catalogs per lane.
 - Next: crop studies at trim aspect with house type for the 13
   survivors (3 land-sea incl. locked fallbacks + 3 interiors +
   5 Hammershøi + 2 revivals).
+- 2026-07-27: crop studies DELIVERED (build/cover-comps/,
+  3 variants each, house type, luminance-picked ink).
+- 2026-07-27: **prior-usage sweep (Opus) on the 13:** zero
+  confirmed prior book/album/poster uses across the whole
+  shortlist. The documented "Hammershøi cover epidemic" (24+
+  covers) is concentrated entirely on the Strandgade-30
+  interiors — none of which are among our 13. Cleanest picks:
+  Müller (Met-accessioned only 2018), Najaden gun-deck, Zeuthen
+  (all OBSCURE-CLEAR) + the Hammershøi exteriors (Amalienborg /
+  Asiatic Company / Old Christiansborg). Flags: Rørbye window is
+  Danish-CANON (kulturkanon-adjacent) — "no hit is genuinely
+  surprising"; reverse-image check against the SMK master
+  recommended before committing (needs interactive browser —
+  DK-hands or Chrome-tooling later). Same verify step for the
+  two archetypal Hammershøi interiors (Evening in a Room;
+  Artificial Light). The harbour view's exact identity/inventory
+  number needs pinning before it can be graded at all. Caveat of
+  record: text search cannot see uncaptioned jackets — absence
+  is partial signal, strongest for the obscure pieces.

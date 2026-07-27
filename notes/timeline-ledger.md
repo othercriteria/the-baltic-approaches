@@ -9,6 +9,10 @@ H-clock figure in prose must reconcile against this table before
 it lands; discrepancies found here were fixed in the same commit
 (log at bottom) or flagged to DK.*
 
+*Chapter renumbering 2026-07-27 (final assembly): 19a → **20**,
+19b → **21**, old 20 → **22**. Entries below keep the working
+labels they were written with; map through this note.*
+
 ## The clock (ratified, outline §2)
 
 - **M-day** = Sun **6 Nov 1983**: BALTAP warning order 0640;

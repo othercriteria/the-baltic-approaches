@@ -1,4 +1,4 @@
-# 19a — The Pocket
+# 20 — The Pocket
 
 The morning after a victory has its own arithmetic, and
 the staff did it beautifully.

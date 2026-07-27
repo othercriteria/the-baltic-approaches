@@ -1,4 +1,4 @@
-# 20 — December
+# 22 — December
 
 The war did not end. It closed.
 

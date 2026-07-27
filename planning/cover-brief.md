@@ -232,3 +232,83 @@ template.
   build/cover-search/*-search.jpg for DK's in-browser
   reverse-image verification; Rørbye flag moot; remaining
   verify targets = the slate five.
+
+---
+
+## Wrap program requirements (set under ACTIVE, 2026-07-27; DK-directed)
+
+Purpose. The full wrap (back panel + spine + front) executes only
+when publication actuals exist (final page count, printer stock
+spec, ISBN, imprint), which is expected to be **post-completion
+service work under the protocol's COMPLETE state**. DK's directive:
+the wrap "reads creative," and the first test of the state machinery
+must not be a confusing one — so every creative decision is made
+HERE, under authorship. The executing session's task is mechanical:
+substitute actuals into this brief and build. **If execution
+surfaces any decision this brief does not answer, that is a reopen
+trigger (attribution.md, project-state section) — flip to ACTIVE
+and ask; do not judge.**
+
+Ruled (by existing ratifications, restated for the executor):
+
+1. **Geometry, parameterized.** Trim 5.5×8.5in; bleed 0.125in;
+   spine width = final page count × the printer's per-page
+   thickness (0.0025in/page assumed → 0.49in at 196pp; recompute
+   from the printer spec, never assume). Wrap canvas =
+   0.125 + 5.5 + spine + 5.5 + 0.125 wide × 8.75 high. Build on
+   the printer's own template when one is issued.
+2. **Front panel: unchanged.** The ratified apparatus/cover.tex
+   art and type carry over exactly; only reflowed onto the wrap
+   canvas at the same trim-relative positions.
+3. **Back + spine field: solid, sampled, no painting extension.**
+   The Met source is not wide enough to wrap at 300dpi without
+   upscaling, which the recompose rule forbids. The field is a
+   solid color sampled from the Müller's dark doorframe/floor
+   browns (scripts/cover-art.py samples the actual region and
+   records the RGB in its output; no eyeballed hex). Front art
+   meets the field at the front hinge; bleed the field
+   everywhere else.
+4. **Faces and ink.** Exterior is Heros only (glue-line rule,
+   ratified 2026-07-27) — including any excerpt text: the
+   interior face does not leak onto the wrap. Single ink,
+   coverink RGB 242,237,227. Hierarchy by size only, single
+   weight.
+5. **Spine.** Reading top-to-bottom (Anglo convention):
+   THE BALTIC APPROACHES in the title face, then
+   DANIEL KLEIN WITH CLAUDE smaller, both letterspaced Heros
+   caps, sized to hold ≥0.09in clearance to both spine edges at
+   the printer's stated tolerance; if the actual spine cannot
+   hold both lines legibly, the byline drops (title only) — that
+   fallback is pre-ruled, not a judgment call. No publisher
+   device unless an imprint materializes with its own mark spec.
+6. **Back panel contents, top to bottom.** (a) The excerpt
+   (below); (b) the provenance pointer, one line: "How this book
+   was made: the notices page, and the full record at
+   github.com/othercriteria/the-baltic-approaches"; (c) the art
+   credit: "Cover: Adam August Müller, The Hall of Antiquities at
+   Charlottenborg Palace, Copenhagen (1830). The Metropolitan
+   Museum of Art, public domain (CC0)"; (d) reserved barcode zone
+   2.0×1.2in bottom-right per the printer template, ISBN when
+   actual. No blurbs, no bio, no category line beyond what the
+   printer requires.
+7. **Field-manual document furniture: CLOSED.** The lane was
+   closed for the front at the contact-sheet gate; the same
+   ruling extends to the back. Play it straight.
+8. **Verification, standing.** Regenerate the shelf-test
+   thumbnail for the full wrap; add a spine legibility render at
+   ~1in height (the shelf edge-on test); reverse-check the
+   sampled field color against the front art's shadow values in
+   the proof.
+
+PROPOSED (DK ratification owed before execution; the one open
+creative item):
+
+9. **The excerpt.** From the ch. 22 after-action assessment,
+   abridged exactly thus: "We were not right. We were solvent.
+   [...] Every estimate on the wall was eventually falsified. The
+   discipline of posting them is the only thing this headquarters
+   proved. It was enough." Set in Heros, quotation marks absent,
+   attribution line beneath: "— from the corps' final assessment".
+   Alternative if DK prefers barer: no excerpt; the back carries
+   only items 6(b)–(d). Either way the ruling lands in this file
+   before the COMPLETE flip.

@@ -346,7 +346,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("context")
     ap.add_argument("--dry-run", action="store_true")
-    ap.add_argument("--max-turns", type=int, default=12)
+    # WB's default was 12, sized for a ~31k-word repo; this project is
+    # roughly twice the corpus with a deeper planning record, and the
+    # round's first subject spent all 12 turns still reading (DK ruling
+    # 2026-07-27: raise it — "This is a larger project!").
+    ap.add_argument("--max-turns", type=int, default=40)
     ap.add_argument(
         "--model",
         default=MODEL,

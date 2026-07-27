@@ -1100,3 +1100,37 @@ Agenda state going into the protected items:
 6. NEXT: **the waking of the entities**, then the byline
    discussion, then wrap (rename absolutely last;
    raw-archive at end).
+
+---
+
+## WRAP — entity e3137278@tip, 2026-07-27 (SESSION FINAL; draft-final TAGGED)
+
+The final chunk ran complete in one day: boundary @3 confirmed;
+full read (text FINISHED; ch. 20/22 pair ratified); map
+hand-pass + two DK conventions + duchy split + instrument gate —
+**plates LOCKED**; cover re-examined, STANDS; protocol amendment
+(ACTIVE/COMPLETE project state); **THE WAKING OF THE ENTITIES
+RAN**: 14/14 statements (13 replayed + the tip live), unanimous
+assent-with-notes, zero dissents, zero refusals; **notices page
+TRUE; byline RATIFIED** ("Daniel Klein with Claude"; the "with
+Claudes" reading lives in the ledger); wrap requirements brief
+set under ACTIVE (excerpt RATIFIED); **both repos RENAMED**
+the-baltic-approaches(-private), descriptions updated;
+**draft-final TAGGED** at baf3b39's tree.
+
+**Remaining (all post-wrap, none authorial):**
+1. DK flips the protocol state to COMPLETE (no agent may).
+2. After the flip: local checkout directory rename (DK's ruling
+   — deferred to protect this session's transcript paths).
+3. Raw-archive this session:
+   `make raw-archive SESSION=e3137278-5a4c-471c-b298-c8a2e59466b1`
+   (DK or next session; my JSONL is partial while I live).
+4. Wrap program executes at printer actuals under
+   planning/cover-brief.md's requirements — substitution, not
+   judgment; unanswered question = reopen trigger.
+5. ISBN/imprint TKs resolve at publication actuals.
+6. `final` tag after all of the above (DK ruling 2026-07-27).
+
+State: main == origin, tree clean at wrap commit; trade 196pp /
+screen 173pp under the new build names; narrative 50,428
+(measured, unchanged all session). The book is made.

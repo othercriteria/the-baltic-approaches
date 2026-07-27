@@ -29,6 +29,20 @@ archive paths, artifact links).*
    keep the incumbent is to name the book in the enemy's frame,
    on purpose, as the book's question.
 
+   **RATIFIED 2026-07-27 (DK, to entity @3), sharpened:** the
+   asymmetry survives the retitle and got cleaner — with the
+   word off the cover it is near-purely red-register in-text,
+   and the single blue occurrence is the ch. 16 raid ("told the
+   truth about his mission at his own insistence"): blue's one
+   operation conducted in red's grammar, justified by approval
+   rather than product. A mission is a purpose fixed at
+   approval time; blue's arc is purpose re-derived under audit.
+   The new title carries the other half: THE BALTIC APPROACHES
+   is blue's founding-directive slogan, dismantled by Rahn in
+   ch. 1 — the cover holds blue's inherited answer while red's
+   word stays inside, in red's mouths. See also
+   notes/war-etiology.md (authorial background, same ruling).
+
 ## The families
 
 ### A. The incumbent

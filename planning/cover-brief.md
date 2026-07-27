@@ -1,0 +1,84 @@
+# Cover brief — THE BALTIC APPROACHES
+
+*Opened 2026-07-27 (DK + entity e3137278@3). Status: lanes
+ruled, acquisition commissioned. The cover program runs after
+interior assembly; POD wrap/spine math banked in assembly.md.*
+
+## Constraints (standing)
+
+- Repo stays freely redistributable → cover art must be PD/CC0
+  (SMK Open is CC0 at high res; US federal works PD).
+- House dress: letterspaced TeX Gyre Pagella caps (the built
+  title page is the reference); trim 5.5×8.5in.
+- Register: the book's own — austere, straight-played, no
+  genre dress (no airbrushed armor).
+- The image should rhyme with the book's institutional
+  stillness, not its subject matter (the Müller principle,
+  below).
+
+## DK's opening bid
+
+Mine the Golden Age of Danish Painting — not portrait; maritime
+or religious or domestic or still life; possibly aggressively
+cropped. Named example: **Adam August Müller, "The Hall of
+Antiquities at Charlottenborg Palace, Copenhagen"** — an
+institutional interior in cool light, small figures among
+inherited forms. Read as the bid's principle: register-rhyme
+over subject-rhyme; cropped, it stops being a museum postcard.
+
+## Why the Golden Age fits (the standing case)
+
+- **The 1864 argument:** the art of the polity that had just
+  lost its fleet (1807) and was about to lose Schleswig (1864)
+  — quiet interiors painted while the state shrank. The book is
+  Denmark defending Schleswig; the Danevirke and DALGAS are in
+  canon. The cover would wear the visual memory of the era
+  whose ending was this exact ground.
+- **The method rhyme:** Eckersberg's surveyor-like exactness —
+  an art of instruments and honest observation.
+- **Practical:** all PD; SMK digitizations CC0 at high res.
+
+## Lanes
+
+RULED OUT for now (DK 2026-07-27): pure-typographic; atlas-
+derived (both remain on file as fallbacks, not in development).
+
+IN DEVELOPMENT (acquisition commissioned, 4 Opus agents):
+
+1. **Golden Age — institutional interiors** (Müller, Constantin
+   Hansen, Bendz, Købke): the Müller lane; strongest conceptual
+   fit ("men rehearsing among the standing forms of the past").
+2. **Golden Age — marine / coast / beech wood** (Eckersberg
+   marines + cloud studies, Lundbye, Skovgaard, Dreyer): ch. 1's
+   sleeping-dog Baltic made visible; the beech wood as the
+   enemy's map room (double reading); most trade-legible lane.
+3. **Hammershøi-adjacent** (Hammershøi, Ilsted, Holsøe):
+   develop despite the genericization concern (austere literary
+   fiction has worn Hammershøi heavily — agent to evidence the
+   actual recent-cover usage so the risk is measured, not
+   asserted). Off-period for "Golden Age" proper; register
+   match is real.
+4. **Period field-manual styling**: the cover as a piece of
+   period doctrine dress — DK recalls the FM 100-5 camouflage
+   cover "caused a stir" (1976 Active Defense and/or 1982
+   AirLand Battle edition — agent to establish the actual
+   history). Family: US FM dress, HDv, Danish reglementer,
+   NATO document furniture. Honest tension to adjudicate: a
+   manual-pastiche cover vs the no-winking rule — but it is
+   also the one lane that is diegetic to the book's didactic
+   lineage (The Goal's descendant). US Army manuals are PD.
+
+## Process
+
+Map-program pattern: agents acquire candidates (image, artist,
+date, collection, license VERIFIED, best-res source, crop
+notes) into a gallery; entity assembles a contact sheet with
+crops mocked against the trim in house type; DK culls; only
+picked images enter the repo. Acquisition dirs under the
+session scratchpad; catalogs per lane.
+
+## Log
+
+- 2026-07-27: brief opened; lanes ruled; 4 Opus acquisition
+  agents launched (two Golden Age lanes, Hammershøi-adjacent,
+  field-manual styling).

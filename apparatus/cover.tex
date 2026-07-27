@@ -18,9 +18,13 @@
 % rather than floating digitally on top of it").
 \definecolor{coverink}{RGB}{242,237,227}
 
-% Title 28pt/LetterSpace=19 (cap ~0.28in, tracking ~19% em);
-% subtitle + byline 11.5pt, tracking wider than the title.
+% Title 28pt/LetterSpace=19 (cap ~0.28in, tracking ~19% em).
+% Subtitle deliberately SMALLER than the byline (9.5pt vs
+% 11.5pt, tracking wider still): at equal sizes the two small
+% lines read as an associative pair and drag the eye to the
+% authorship line (DK, 2026-07-27). Hierarchy by size only.
 \newcommand{\titleface}{\fontsize{28pt}{34pt}\selectfont\addfontfeatures{LetterSpace=19}}
+\newcommand{\subface}{\fontsize{9.5pt}{12pt}\selectfont\addfontfeatures{LetterSpace=36}}
 \newcommand{\smallface}{\fontsize{11.5pt}{14pt}\selectfont\addfontfeatures{LetterSpace=30}}
 
 \begin{document}%
@@ -35,8 +39,8 @@
     {\titleface THE BALTIC};
   \node[anchor=north,text=coverink] at ($(current page.north west)+(2.875in,-1.33in)$)
     {\titleface APPROACHES};
-  \node[anchor=north,text=coverink] at ($(current page.north west)+(2.875in,-1.78in)$)
-    {\smallface A NOVEL OF NOVEMBER 1983};
+  \node[anchor=north,text=coverink] at ($(current page.north west)+(2.875in,-1.79in)$)
+    {\subface A NOVEL OF NOVEMBER 1983};
   % Byline: fully inside the dark floor band, baseline safety
   % >=0.375in above trim bottom (trim bottom at page y=-8.625in).
   \node[anchor=north,text=coverink] at ($(current page.north west)+(2.875in,-8.02in)$)

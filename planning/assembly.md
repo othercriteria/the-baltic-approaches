@@ -235,3 +235,51 @@ CreationDate = reproducibility artifact, defer.
 **Do-not-touch list:** body face/size/measure, asterism device
 incl. top-of-page appearances, raggedbottom+penalties (p.57 is
 the honest price), hyphenation list, the disclosure's *text*.
+
+## 2026-07-27 — pass 2: the review package worked (entity @3)
+
+DK approvals: whole package as ruled; ch. 7 letter HELD as-is
+(quotation-as-memory — the one document that lives in a person);
+trade canonical + screen variant; cover discussion QUEUED, not
+now; renumbering moved first to avoid rework.
+
+Landed, in order (commits 80abb9c..ea79d9e + proof sweep):
+
+1. **Renumbering 1..22** (19a→20, 19b→21, 20→22; H1s updated;
+   timeline ledger carries a mapping note, entries keep working
+   labels). Wordcount unchanged, measured.
+2. **Remote chores** (DK mid-turn ask): main pushed to origin
+   (was 53+ ahead), `draft-three` tag pushed. Holdings clean.
+3. **Trade architecture** (ffd1810): mirrored margins/gutter,
+   openright + truly-blank versos, microtype; seven-leaf front
+   (half-title / blank / letterspaced title / notices / Contents
+   / plate spread); two-deck heads via chapters.lua +
+   --number-sections; fancyhdr small-caps running heads;
+   StartFront/StartMain folio discipline; back colophon;
+   \maketitle killed, PDF metadata via *-meta (verified);
+   `make pdf-screen` affordance; `make proof` target; draft
+   stamp now prints on the notices page via generated
+   build/draftstamp.tex. **Fix en route:** default l@chapter
+   1em-per-entry air spilled the 22-chapter TOC to two pages and
+   broke the plate facing-spread — restyled austere (0.35em,
+   normal weight, no leaders), fits one page.
+4. **README refresh** (DK mid-turn ask) — public-facing, rename
+   caveat noted.
+5. **Teleprinter treatment**: the five standalone caps documents
+   wrapped as ::: message divs (ch. 4, 12, 15, 18, 20-Pocket);
+   inline runs untouched. All three counters exclude fences;
+   counts.py floors renamed (21 floor=0, post-allocation).
+6. **Proof sweep**: mechanical scans over all 196pp — zero
+   foot-stranded asterisms, zero caps hyphenations (the review's
+   inline instances reflowed away under the new geometry;
+   verified, not assumed); all 22 chapters open on rectos;
+   blank versos truly blank; ending = final text recto ("only
+   weather", folio 185) → colophon recto → closing blank verso.
+
+State: trade 196pp / screen 173pp, narrative 50,428.
+
+**Flags forward:** colophon + README print the repo URL — both
+must be updated at the repo rename (very last action). Cover
+program queued. Still open from the standing agenda: title FINAL
+ruling, byline ratification, mission-asymmetry ratification,
+map-plate hand-pass nits (map-spec build-3 list).

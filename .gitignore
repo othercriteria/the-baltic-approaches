@@ -18,3 +18,7 @@ __pycache__/
 # atlas/data/base/extract.py). Only the clipped *.json extracts beside
 # them are committed. See atlas/data/base/README.md.
 atlas/data/base/src/
+
+# Attribution harness: local venv + linter cache (the scripts are committed)
+scripts/attribution/.venv/
+scripts/attribution/.ruff_cache/

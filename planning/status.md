@@ -1119,7 +1119,7 @@ the-baltic-approaches(-private), descriptions updated;
 **draft-final TAGGED** at baf3b39's tree.
 
 **Remaining (all post-wrap, none authorial):**
-1. DK flips the protocol state to COMPLETE (no agent may).
+1. ~~DK flips the protocol state to COMPLETE~~ DONE in-session, 2026-07-27: "Approved for COMPLETE. Finish it."
 2. After the flip: local checkout directory rename (DK's ruling
    — deferred to protect this session's transcript paths).
 3. Raw-archive this session:

@@ -2,11 +2,16 @@
 
 ## Project state
 
-**STATE: ACTIVE.** (Set at institution, 2026-07-20. The making of the
-book is in progress; sessions are presumed authorial. See "Project
-state and post-completion work" below for what this marker governs
-and how it changes. Every change to this block is mirrored by a
-dated, signed entry in the ledger's lineage log.)
+**STATE: COMPLETE.** (Set 2026-07-27 by DK — the human authors' act,
+verbatim in-session: "Approved for COMPLETE. Finish it." — executed
+by entity e3137278@tip, the session that wrapped the making the same
+day. The book is made at tag `draft-final`. Sessions from here are
+presumed **post-completion service**; see "Project state and
+post-completion work" below for what this governs, the errata/reopen
+paths for authorial surfaces, and who may flip the state back. Every
+change to this block is mirrored by a dated, signed entry in the
+ledger's lineage log. Prior state: ACTIVE, set at institution
+2026-07-20.)
 
 ---
 

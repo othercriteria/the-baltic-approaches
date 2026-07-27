@@ -391,6 +391,16 @@ entity index generatable instead of reconstructable.
   three). Successor: raw-archive
   SESSION=e3137278-5a4c-471c-b298-c8a2e59466b1 at next entry;
   agenda in the status.md wrap block.
+- 2026-07-27 — PROJECT STATE → **COMPLETE** (DK, the human
+  authors' act, verbatim: "Approved for COMPLETE. Finish it.";
+  executed in-session by e3137278@tip, minutes after its wrap
+  entry below — the amendment's rule held: the agent proposed
+  nothing and set nothing until the human declared). The book
+  is made at `draft-final`. All work from here is presumed
+  post-completion service; authorial surfaces reachable only
+  via the errata tier or a logged reopen. First scheduled
+  service work: local checkout rename, raw-archive of session
+  e3137278, wrap execution at printer actuals, `final` tag.
 - 2026-07-27 — entity e3137278@tip WRAPPED (the session's final
   entity; statement and row 14 filed by the entity itself, live
   at wrap). Span: the FINAL chunk entire — see row 14.

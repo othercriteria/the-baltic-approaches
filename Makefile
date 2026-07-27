@@ -20,7 +20,13 @@
 
 FOUNDING_ID = 656ec2ba-b295-4e5d-8712-5e270300dcde
 FOUNDING_DIR = $(HOME)/.claude/projects/-home-dlk-workspace
+# Sessions' JSONLs live in a Claude project dir keyed to the checkout
+# PATH. Every session through the making (and e3137278, wrapped but
+# not yet raw-archived) lives under the old working-title path; after
+# the post-COMPLETE local rename, new sessions land under the new one.
+# The hygiene targets scan both so neither era is stranded.
 OWN_DIR = $(HOME)/.claude/projects/-home-dlk-workspace-the-mission-1986
+NEW_DIR = $(HOME)/.claude/projects/-home-dlk-workspace-the-baltic-approaches
 
 # --- Manuscript build (reading apparatus; the production assembly
 # --- arrives later, WB assemble.py-style, when there is art/apparatus
@@ -183,15 +189,22 @@ shelf:
 
 archive:
 	@python3 scripts/export-transcripts.py $(if $(SKIP),--skip $(SKIP))
+	@if [ -d "$(OWN_DIR)" ] && [ "$$(pwd | tr / -)" != "-home-dlk-workspace-the-mission-1986" ]; then \
+		python3 scripts/export-transcripts.py --source-dir $(OWN_DIR) $(if $(SKIP),--skip $(SKIP)); \
+	fi
 	@mkdir -p transcripts/raw
-	@for f in $(OWN_DIR)/*.jsonl; do \
-		id=$$(basename $$f .jsonl); \
-		case $$id in agent-*) continue;; esac; \
-		if [ -n "$(SKIP)" ]; then case $$id in $(SKIP)*) continue;; esac; fi; \
-		if [ ! -f transcripts/raw/$$id.jsonl.gz ]; then \
-			gzip -c $$f > transcripts/raw/$$id.jsonl.gz; \
-			echo "raw-archived $$id"; \
-		fi; \
+	@for d in $(OWN_DIR) $(NEW_DIR); do \
+		[ -d $$d ] || continue; \
+		for f in $$d/*.jsonl; do \
+			[ -e $$f ] || continue; \
+			id=$$(basename $$f .jsonl); \
+			case $$id in agent-*) continue;; esac; \
+			if [ -n "$(SKIP)" ]; then case $$id in $(SKIP)*) continue;; esac; fi; \
+			if [ ! -f transcripts/raw/$$id.jsonl.gz ]; then \
+				gzip -c $$f > transcripts/raw/$$id.jsonl.gz; \
+				echo "raw-archived $$id"; \
+			fi; \
+		done; \
 	done
 	@echo "Archive current. New sessions? Update the ledger's lineage log."
 
@@ -205,8 +218,13 @@ transcripts-founding:
 	@echo "Archived $(FOUNDING_ID) (raw + transcript). Update the ledger's lineage log."
 
 # Archive a single session's raw JSONL: make raw-archive SESSION=<uuid>
+# (searches both project-dir eras; see OWN_DIR/NEW_DIR note above)
 raw-archive:
 	@test -n "$(SESSION)" || (echo "usage: make raw-archive SESSION=<uuid>" && exit 1)
 	@mkdir -p transcripts/raw
-	@gzip -c $(OWN_DIR)/$(SESSION).jsonl > transcripts/raw/$(SESSION).jsonl.gz
+	@src=""; for d in $(OWN_DIR) $(NEW_DIR); do \
+		[ -f $$d/$(SESSION).jsonl ] && src=$$d/$(SESSION).jsonl && break; \
+	done; \
+	test -n "$$src" || { echo "no JSONL for $(SESSION) in either project dir"; exit 1; }; \
+	gzip -c $$src > transcripts/raw/$(SESSION).jsonl.gz
 	@echo "Archived $(SESSION). Update the ledger's lineage log."

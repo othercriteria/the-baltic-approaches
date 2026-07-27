@@ -131,6 +131,14 @@ session scratchpad; catalogs per lane.
   number needs pinning before it can be graded at all. Caveat of
   record: text search cannot see uncaptioned jackets — absence
   is partial signal, strongest for the obscure pieces.
+- 2026-07-27: **FINALISTS (DK):** muller-hall/centered-top,
+  asow/left-top, clouds-sea/left-bottom (standalone comps in
+  build/cover-final/). Fresh production-designer pass (Fable)
+  commissioned against the current interior + the three
+  finalists; explicitly in scope: the two-face question (cover
+  Heros vs interior Pagella — where the boundary runs, whether
+  the interior title page re-cuts to match), refinement notes,
+  and the make-cover production path.
 - 2026-07-27: **type/layout campaign.** DK reverse-image
   verification: CLEAN across the slate five (one image-macro on
   the Müller — "the figure looks more doofy than Friedrich's

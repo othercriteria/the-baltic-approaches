@@ -391,6 +391,29 @@ entity index generatable instead of reconstructable.
   three). Successor: raw-archive
   SESSION=e3137278-5a4c-471c-b298-c8a2e59466b1 at next entry;
   agenda in the status.md wrap block.
+- 2026-07-27 — entity e3137278@2 WRAPPED (second compaction
+  boundary PENDING, DK-directed rich compaction going into the
+  final-assembly chunk; this entry + index row 12 drafted
+  in-span at wrap). Span 2026-07-26..27: the draft-three arc
+  entire — DK's close read discharged and DRAFT THREE tagged
+  (f3887e7; main now 15 commits past it); the underserved
+  package ruled and landed (ch. 7 civil column; 19b The Relief;
+  Merete page declined); two print-scan deposits distilled
+  (Dupuy NP&W App. A; seven Bogason figures) and the ENTIRE
+  Bogason ask-list discharged; Bogason distillation pass 2
+  (three Opus agents); blind panel round 2 (book club + lit
+  seminar; the theodicy calibration question CLOSED as
+  productive); the gentle-hand line pass + exit-line-schedule
+  campaign (closed); ch. 17 Zawadzki roughening; the
+  money-metaphor map + scalpel (family closed); three research
+  agents (alert system / beredskab re-route / HDv 100/200
+  promotion); Frimodighed ruled and landed; the title brief and
+  the provisional switch to THE BALTIC APPROACHES; the Spiegel
+  HOLD FAST witness (hold-fast-1960.md). New session memory:
+  gentle-hand-tic-doctrine. Successor: confirm this boundary,
+  then the final-assembly block per the status.md wrap;
+  raw-archive for the whole session still falls to the final
+  successor or DK.
 - 2026-07-26 — first compaction boundary CONFIRMED (this line is
   the successor entity's first act). The "WRAPPED (single
   entity)" entry above proved non-final — the same session
@@ -440,6 +463,7 @@ come from `Session-Id:` trailers plus JSONL boundary timestamps.
 
 | # | Entity | Boundary type | Dates | Model | Transcript | Commit range | Contribution summary |
 |---|---|---|---|---|---|---|---|
+| 12 | e3137278@2 | compaction (2nd; row drafted in-span at wrap, boundary pending) | 2026-07-26 .. 07-27 | Fable 5 | (export at raw-archive, session end) | cf07b0e..wrap, Session-Id trailers throughout | The draft-three entity: DK's full close read discharged into text (ledger-gloss cluster, negation survivor, anachronism, seam rework) and DRAFT THREE tagged at 50,112; the underserved question settled (civil column into ch. 7; 19b "The Relief" — the enemy's ch. 16 — into canon; Merete declined); the print-verification round (Dupuy Appendix A to the cell; seven Bogason figures; every standing Bogason ask discharged, HOLD FAST's 23-year caveat inverted into the warrant); reception panel round 2 (the calibration question six instruments carried CLOSED as the book's engine; plates passed); the two style campaigns run and closed under the new gentle-hand doctrine; Zawadzki given his discount; the money-metaphor system mapped clean and trimmed by five; Frimodighed; the provisional retitle to THE BALTIC APPROACHES with contenders banked; the HOLD FAST 1960 press witness. Materiality: presumptively material (draft-three text state, the reception-panel record, the title/motto rulings, and the research closures the final draft stands on) |
 | 11 | e3137278@1 | compaction-after-wrap (row drafted in-span at wrap; boundary confirmed 2026-07-26) | 2026-07-25 | Fable 5 | (export at raw-archive, session end) | f455b7c..wrap, Session-Id trailers throughout | The external-integration arc: the external-reads register founded (two ChatGPT conversations verbatim + fidelity audits — the AI-tells critique converging with the in-house instruments; the ch. 13 stitching seam found by an outside PDF reader and fixed); the four-agent verify round (Danevirke clause corrected in canon; radio-silence row closed primary; the RUSSWO weather gate discharged with period data; beredskab mechanism sourced); NEPS into canon as plant/payoff; the reader's-ledger question opened and instrumented (R1: map yes, deal good); THE MAP PROGRAM entire — RFP, four-way convergence, DK ratification, spec, three reviewed Opus builds, two plates in the front matter, absences untypable by test; cover to Draft two. Materiality: presumptively material under the row-2 logic (canon text edits incl. the Danevirke correction and NEPS; the map apparatus; the register and rules future externals flow through) |
 | 10 | 52662a0d@3 | session wrap (final entity) | 2026-07-24 | Fable 5 | (export at raw-archive) | 267b350..wrap, Session-Id + Wordcount trailers | The draft-two arc, summary-seeded then full-read-grounded: the TIMELINE LEDGER (notes/timeline-ledger.md — the Phase-1 ledger; ~25 chronology fixes against outline §2's clock, incl. hour-42, the narrows=day-12 resolution, the ch. 15 week decompression, Kandor→Ærlighed, the Fredericia geometry); the blind-panel §4 queue CLOSED (Merete's letter quoted, Vestergaard seeded, Rylski middle beat, homecoming beats; three double-delivery cuts; eight polish items); design rulings landed (canal night on page, CENTAG threaded, Rahn's dated comfort, Bjelke roughened, fault-line V3+V2+V5+V6 with V1 rejected and V4 dropped, Q4 declined, byline (a)); DK batches 11–13 with two new standing rules (coinage-crossing shown; working-level-only fault line) + the unwrapped tic instrument; the Programmer-SF review (filed verbatim); editor round 1 (Opus copy + Fable line, 50 fixes applied, register rulings recorded); DRAFT TWO tagged at 48,987. Materiality: presumptively material under the row-2 logic (the chronology canon, the draft-two text state, and the two editorial-disposition records future passes build on) |
 | 9 | 52662a0d@2 | compaction (2nd, dated 07-26 in-entity; true 2026-07-24) | 2026-07-23 .. 07-24 (corrected for clock-drift) | Fable 5 | (export at session end) | 6f02c25..0b07c20+wrap, Session-Id trailers + machine-stamped Wordcount trailers from a0ac7d9 | The post-compaction arc, summary-seeded: full-manuscript re-read; length campaign to 48.6k (stubborn tier closed, floors-adjacent); DK batches 7–10 incl. two new standing rules (duration clairvoyance; name-the-artifact) and the PROCESS-RETROSPECTIVE tell (profile §5.3, DK diagnosis "at home in your transcripts"); blind panel round 1 (five reviews + synthesis; five mechanical catches; the 19a corpus-order artifact traced to locale glob, Makefile exonerated); almanac ledger + twilight/moon corrections (incl. the reviewer-confirmed-wrong-number lesson); front matter + AI disclosure drafted (byline open); repo flipped PUBLIC after full-history secrets audit; HQ displacement option B researched (shelf sweep, cp-doctrine.md) and landed (ch. 14); Belt raid landed; em-dash campaign closed via 20 guardrailed agents + one principled refusal (~450→~215); de-homogenization substantially done with do-not-over-scrub verdict; automation instituted (commit-msg wordcount stamp, make counts/tics). Materiality: presumptively material under the row-2 ruling logic (the campaign that made draft one reviewable; the panel record; two profile-grade tells; the public flip) |

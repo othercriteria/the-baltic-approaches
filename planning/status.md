@@ -688,6 +688,47 @@ hand-pass nits). THEN: Bogason scrape distillation pass 2
 print asks in the standing reminders below; one new precision
 flag (ch. 9/15 COMBALTAP-vs-COMAIRBALTAP) awaiting DK.
 
+**2026-07-27 ENTITY e3137278@2 WRAP (second compaction pending,
+DK-directed, going into "possibly our final chunk of work").
+Measured at wrap: narrative 50,428; main is 15 commits past the
+`draft-three` tag (f3887e7 — DK's frozen close-read copy; the
+draft-two precedent holds, the tag does not move).** The @2 arc
+after the boundary: full re-read; DK close-read discharged (ch.
+18 catches, negation survivor, surge-prices anachronism,
+Friedrichsberg disambiguation, 19→19a seam rework); underserved
+package (A adopted→ch. 7, B declined, C reworked→19b landed);
+gales-date knot ruled+applied; DRAFT THREE tagged; Dupuy NP&W
+App. A + seven Bogason print figures deposited+distilled (ALL
+Bogason asks now discharged, incl. HOLD FAST wording with the
+inverted-caveat analysis, MCM-102-68 print-confirmed, SEP BARD
+BELL + the Starfighter period check); Bogason distillation pass
+2 (answers/outline/finds); ch. 9/15 two-commander decompression;
+three finds worked into chs. 2/6; gentle-hand line pass +
+exit-line-schedule campaign (both CLOSED); blind panel round 2
+(book club + lit seminar — calibration question CLOSED
+productive, plates passed reception gate); ch. 17 Zawadzki
+roughened (discount confession + Atlantic-door slot-in);
+money-metaphor mapped (zero incorrect uses) + 5-cut scalpel,
+family CLOSED; three research agents (alert system: ch. 2 sound,
+"sixteen governments" exact; beredskab: errands re-routed to
+Landsdelskommando fonds; HDv: 100/200 promoted to top acquire);
+Frimodighed RULED+landed; title provisionally THE BALTIC
+APPROACHES (brief + contenders banked: The Approaches/The
+Mission/Candor Before Comfort); cover byline aligned; Spiegel
+HOLD FAST witness distilled (hold-fast-1960.md). NEW memory:
+gentle-hand-tic-doctrine. **SUCCESSOR (final-assembly chunk),
+in order: (1) boundary line in the lineage log; (2) the
+FINAL-ASSEMBLY BLOCK — 19/19a/19b renumbering; chapter-header
+style (title-dominant, numeral demoted); title FINAL ruling
+(brief §provisional-ruling; subtitle question reshaped); byline
+defensibility reassessment; "mission"-asymmetry ratification
+(note: title switch changes its terms — see brief); map-plate
+hand-pass nits (map-spec build-3 review list); repo/directory
+rename LAST; (3) remaining DK-hands items only: Rigsarkivet
+Landsdelskommando errand, HDv 100/200 antiquarian, DTIC re-try,
+NIE browser tier (rated low). The re-read-first method note
+STANDS (~65k tokens; the PDF extraction-noise caveat applies).**
+
 **THE THIRD-DRAFT AGENDA ("meatier issues"), assembled:**
 1. The line editor's seven cross-chapter items
    (line-edit-r1.md foot): the particular/specific+abstract-noun

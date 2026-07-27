@@ -103,15 +103,15 @@ stamp: $(OUTPUT_DIR)
 # Canonical trade interior: drafts/ in filename order (01..22).
 # Depends on maps so the front-matter plates are always current.
 pdf: $(OUTPUT_DIR) maps stamp
-	@pandoc $(FRONT_MATTER) $(SOURCES) $(BACK_MATTER) $(PDF_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-mission.pdf
-	@pdfinfo $(OUTPUT_DIR)/the-mission.pdf 2>/dev/null | grep Pages || true
-	@echo "Created $(OUTPUT_DIR)/the-mission.pdf (trade interior)"
+	@pandoc $(FRONT_MATTER) $(SOURCES) $(BACK_MATTER) $(PDF_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-baltic-approaches.pdf
+	@pdfinfo $(OUTPUT_DIR)/the-baltic-approaches.pdf 2>/dev/null | grep Pages || true
+	@echo "Created $(OUTPUT_DIR)/the-baltic-approaches.pdf (trade interior)"
 
 # Screen-reading affordance (same content, one-sided)
 pdf-screen: $(OUTPUT_DIR) maps stamp
-	@pandoc $(FRONT_MATTER) $(SOURCES) $(BACK_MATTER) $(SCREEN_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-mission-screen.pdf
-	@pdfinfo $(OUTPUT_DIR)/the-mission-screen.pdf 2>/dev/null | grep Pages || true
-	@echo "Created $(OUTPUT_DIR)/the-mission-screen.pdf (screen)"
+	@pandoc $(FRONT_MATTER) $(SOURCES) $(BACK_MATTER) $(SCREEN_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-baltic-approaches-screen.pdf
+	@pdfinfo $(OUTPUT_DIR)/the-baltic-approaches-screen.pdf 2>/dev/null | grep Pages || true
+	@echo "Created $(OUTPUT_DIR)/the-baltic-approaches-screen.pdf (screen)"
 
 # Front cover (Müller ratified 2026-07-27; planning/cover-brief.md).
 # Recomposes the raster from the museum source, sets vector type in
@@ -133,12 +133,12 @@ cover: $(OUTPUT_DIR)
 proof: pdf
 	@mkdir -p $(OUTPUT_DIR)/proof
 	@rm -f $(OUTPUT_DIR)/proof/*.png
-	@pdftoppm -r 60 -png $(OUTPUT_DIR)/the-mission.pdf $(OUTPUT_DIR)/proof/p
+	@pdftoppm -r 60 -png $(OUTPUT_DIR)/the-baltic-approaches.pdf $(OUTPUT_DIR)/proof/p
 	@echo "Proof renders in $(OUTPUT_DIR)/proof/"
 
 manuscript: $(OUTPUT_DIR)
-	@pandoc $(SOURCES) $(PANDOC_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-mission.md
-	@echo "Created $(OUTPUT_DIR)/the-mission.md"
+	@pandoc $(SOURCES) $(PANDOC_OPTS) $(METADATA) -o $(OUTPUT_DIR)/the-baltic-approaches.md
+	@echo "Created $(OUTPUT_DIR)/the-baltic-approaches.md"
 
 # Narrative-only count (DK ruling 2026-07-23: apparatus excluded;
 # ::: div-fence markup lines excluded — they are typesetting, not text)

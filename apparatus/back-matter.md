@@ -19,6 +19,6 @@ clean prewar geography and no marks of the war, by design.
 The full working record — drafts, research, instruments, and
 the attribution ledger that accounts for every contributing
 session — is public at
-github.com/othercriteria/the-mission-1986.
+github.com/othercriteria/the-baltic-approaches.
 \endgroup
 ```

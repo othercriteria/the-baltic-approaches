@@ -9,16 +9,16 @@ register is the bureaucratic mode in military fiction (*The Good
 Shepherd*, *The Caine Mutiny*), played straight, without
 hindsight.
 
-~50,000 words of narrative. **Status: draft three; final
-assembly in progress.** (The repository name carries the
-project's original working title and will be renamed at
-publication.)
+~50,000 words of narrative. **Status: final assembly.** (The
+project's working title was *The Mission*; the repository was
+renamed at final assembly, and old `the-mission-1986` URLs
+redirect here.)
 
 ## Reading it
 
 ```
-make pdf         # trade paperback interior -> build/the-mission.pdf
-make pdf-screen  # one-sided screen copy   -> build/the-mission-screen.pdf
+make pdf         # trade paperback interior -> build/the-baltic-approaches.pdf
+make pdf-screen  # one-sided screen copy   -> build/the-baltic-approaches-screen.pdf
 make wordcount   # narrative-only count (apparatus excluded)
 ```
 

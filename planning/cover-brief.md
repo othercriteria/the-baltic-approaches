@@ -131,3 +131,15 @@ session scratchpad; catalogs per lane.
   number needs pinning before it can be graded at all. Caveat of
   record: text search cannot see uncaptioned jackets — absence
   is partial signal, strongest for the obscure pieces.
+- 2026-07-27: **DK comp cull — the working slate.** Unhappy
+  surprises OUT on genre-signal grounds: Najaden gun-deck
+  ("reads as maritime history"), Rørbye window ("domestic
+  novel"), Hammershøi harbour ("poetry collection") — "good
+  images, but not for this project." The Hammershøi exteriors
+  and interiors likewise off the slate. **WORKING SLATE, in
+  rough order: muller-hall, asow, clouds-sea, clouds-sound,
+  zeuthen-trinitatis.** (Cloud studies remain the locked
+  fallbacks within the slate.) Search copies at
+  build/cover-search/*-search.jpg for DK's in-browser
+  reverse-image verification; Rørbye flag moot; remaining
+  verify targets = the slate five.

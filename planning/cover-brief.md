@@ -387,6 +387,15 @@ IMPRINT + ISBN (DK rulings, 2026-07-28, in-session to 665163f0):
   -edited is KDP's "AI-generated" by definition; disclosure is
   Amazon-internal; the notices page is the stronger public
   disclosure.
+- **KDP content settings (DK, 2026-07-28):** trim **5.5 x 8.5 in**
+  (interior verified 396x612pt — exact); interior **No Bleed**
+  (required, not just chosen: our pages are trim-sized with
+  nothing running to the edge; KDP's bleed setting is
+  interior-only and would expect 5.625x8.75 pages); cover finish
+  **MATTE** (trade-fiction convention; gloss would glare on the
+  Müller's dark field). Proof-copy check banked: matte over dark
+  ink is the finish most prone to edge-scuff in shipping —
+  eyeball the proof's edges; cosmetic, not a gloss argument.
 - **KDP categories (DK ruling 2026-07-28, comps checked honest
   in each):** (1) Fiction / **War & Military** — node
   10159275011; (2) **Lean** [Management] — node 10020713011,

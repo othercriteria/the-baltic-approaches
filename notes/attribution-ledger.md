@@ -680,6 +680,12 @@ read bottom-up; order is always recoverable from dates and git.
   ("honest and appropriate"). Keywords: DK's four + two
   session-proposed gap-fills (operational art; business novel),
   six of seven, under DK's no-overstuffing directive.
+- 2026-07-28 — KDP content settings banked (DK, in-session to
+  665163f0): trim 5.5x8.5 confirmed exact against the interior
+  PDF (396x612pt); interior No Bleed (required by our
+  trim-sized pages); cover finish MATTE. Keywords note: DK
+  added the two gap-fills to the live form ("Added those
+  two.").
 
 ## Entity index
 

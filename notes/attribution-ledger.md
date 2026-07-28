@@ -699,6 +699,17 @@ read bottom-up; order is always recoverable from dates and git.
   proof), rename long done. Remaining after the tag: KDP
   submission mechanics, proof check (incl. matte edge-scuff
   eyeball), Bowker title SUBMIT.
+- 2026-07-28 — tag REPLACED: `final` deleted (local + origin,
+  hours old, same day), **`first-281500ZJUL26` cut at the same
+  commit** (371607b). DK ruling, the reasoning verbatim in
+  spirit: if glitches are found, "we shouldn't have to make
+  'final' into dishonesty" — edition chunk + date-time group
+  states a fact where 'final' made a promise. The DTG borrows
+  the in-fiction convention (DK: this metadata "is the pinhole
+  through which we can laugh"). The notices stamp KEEPS "Final"
+  — repo-level metadata, correctness carried by the commit
+  hash. Convention forward: subsequent submissions re-tag
+  `first-<DTG>`; a revised edition would open `second-<DTG>`.
 
 ## Entity index
 

@@ -1158,10 +1158,13 @@ screen 173pp under the new build names; narrative 50,428
   CREAM banked (0.49in spine = the actual); the whole KDP entry
   sheet banked in cover-brief.md (edition/author/contributor/
   subtitle/AI-disclosure/description/categories with node IDs/
-  keywords/content settings). **`final` TAGGED at 371607b**
-  (2026-07-28, DK ruling: before KDP submission) — zero TKs,
-  trade 196pp, screen 175pp, narrative 50,428; upload artifacts
-  rebuilt at the tag (stamp shows 371607b). Remaining: KDP
+  keywords/content settings). **TAGGED `first-281500ZJUL26` at
+  371607b** (2026-07-28, DK ruling: before KDP submission; the
+  momentary `final` tag at the same commit was replaced same
+  day — edition + DTG states a fact, "final" made a promise;
+  the in-fiction DTG convention is the deliberate pinhole) —
+  zero TKs, trade 196pp, screen 175pp, narrative 50,428; upload
+  artifacts rebuilt at the tag (stamp shows 371607b). Remaining: KDP
   submission (uploads, previewer, proof order); proof check
   (matte edge-scuff eyeball; then Bowker title SUBMIT — Format &
   Size locks there); KDP publisher field = Mesokurtosis Press,

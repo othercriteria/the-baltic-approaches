@@ -1150,3 +1150,12 @@ screen 173pp under the new build names; narrative 50,428
   brief-unruled values RATIFIED 2026-07-28 (cover-brief.md items
   10–14). Remaining from the wrap list: wrap re-run at printer
   actuals (cover-brief.md); ISBN/imprint TKs; `final` tag last.
+- 2026-07-28 — session 665163f0 (cont.): stamp bumped to "Final";
+  KDP verified as vendor default (cream 0.0025in/page = the built
+  0.49in spine at 196pp; auto-barcode self-knockout; details in
+  cover-brief.md); imprint LOCKED **Mesokurtosis Press**; ISBN
+  979-8-9973189-0-1 provisionally on the notices line. Remaining:
+  Bowker title SUBMIT only after the KDP proof fixes page count
+  (Format & Size tab locks at submission); KDP title setup with
+  publisher field = Mesokurtosis Press (must match Bowker); wrap
+  re-check at final page count; `final` tag last.

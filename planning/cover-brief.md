@@ -352,3 +352,20 @@ presumptive vendor, cream paper):
 - Trim: 5.5×8.5in is a standard KDP paperback trim.
 - Caveat: numbers re-checked 2026-07-28; still confirm against
   KDP's cover calculator/template at title setup.
+
+IMPRINT + ISBN (DK rulings, 2026-07-28, in-session to 665163f0):
+
+- **Imprint LOCKED: Mesokurtosis Press** (DK's domain-anchored
+  candidate; collision-searched clean — no publisher, no
+  trademark adjacency; catalogs without acronym/case mangling;
+  to be registered as the Bowker imprint under DK's LLC, DBA as
+  the LLC's state requires).
+- **ISBN, provisional: 979-8-9973189-0-1** (paperback/POD;
+  Bowker 979-8 block; check digit machine-verified). Applied to
+  the notices line same day. PROVISIONAL until DK submits the
+  Bowker title registration — the Format & Size tab locks at
+  submission (medium/format/subject), so SUBMIT waits until the
+  KDP proof fixes final page count; saved-but-unsubmitted drafts
+  at MyIdentifiers are freely editable. Title/subtitle lock only
+  after the stated publication date passes; cover image stays
+  replaceable throughout.

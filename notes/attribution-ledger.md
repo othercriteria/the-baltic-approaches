@@ -634,6 +634,16 @@ read bottom-up; order is always recoverable from dates and git.
   auto-barcode ships its own white knockout (dark zone correct
   as built); spine text >79pp at 0.0625in floor (ours 0.09);
   5.5×8.5 a standard trim.
+- 2026-07-28 — imprint LOCKED: **Mesokurtosis Press** (DK ruling,
+  in-session to 665163f0, from DK's domain-anchored candidates;
+  collision-searched clean). ISBN applied PROVISIONALLY to the
+  notices line: 979-8-9973189-0-1 (paperback; Bowker 979-8
+  block; check digit verified). Two of the three notices-page
+  TKs thereby resolved (ISBN provisional, imprint final); the
+  Bowker title-registration SUBMIT deferred until KDP proof
+  fixes final page count (Format & Size tab locks at
+  submission — official Bowker guide, distilled to
+  cover-brief.md).
 
 ## Entity index
 

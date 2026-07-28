@@ -75,7 +75,7 @@ ledger, not the byline, is the honest unit of account.
 \vspace{0.6\baselineskip}
 © 2026 Daniel Klein. All rights reserved.
 
-First edition · ISBN TK · imprint TK
+First edition · ISBN 979-8-9973189-0-1 · Mesokurtosis Press
 
 {\footnotesize\draftstamp\par}
 \endgroup

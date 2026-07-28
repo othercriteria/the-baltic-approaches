@@ -604,6 +604,20 @@ read bottom-up; order is always recoverable from dates and git.
   crop. Logged errata-tier out of caution, though it assembles
   only ratified artifacts and changes nothing about the book
   itself.
+- 2026-07-27 — wrap program first execution, DRAFT (DK-directed,
+  in-session to 665163f0): `make cover-wrap` built per the brief's
+  wrap requirements — geometry parameterized on SPINE_IN (0.49in
+  assumed, 196pp x 0.0025in/pp; recompute at printer actuals),
+  field sampled RGB(58,45,33) from the floor band, front panel
+  reflowed trim-relative, spine rows at 0.093/0.097in measured
+  hinge clearance, barcode zone reserved, item-8 verification
+  artifacts emitted. Values the brief does not rule (back-panel
+  sizes/layout, elision mark style, spine row sizes,
+  frenchspacing) enumerated to DK in-session, ratification
+  PENDING — nothing judged silently. Same turn, DK directive:
+  screen build extended to carry the wrap's back panel as its
+  last page (cover p.1 + back panel last, 175pp) — the one-file
+  product view.
 
 ## Entity index
 

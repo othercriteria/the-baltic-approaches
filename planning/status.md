@@ -1143,7 +1143,11 @@ screen 173pp under the new build names; narrative 50,428
   export; wrap-list items 2-3 closed); entity-index hygiene (stale
   export placeholders, row-1 sort); lineage-log ordering ruling
   executed (oldest-first append; flipped block flagged in the log
-  header); screen build now carries the cover as page 1 (174pp,
-  DK directive). Remaining from the wrap list: wrap program at
-  printer actuals (cover-brief.md), ISBN/imprint TKs, `final` tag
-  last.
+  header); screen build now bookended — cover as page 1 and the
+  wrap's back panel as the last page (175pp, DK directives); the
+  WRAP PROGRAM first-executed in draft (`make cover-wrap`,
+  SPINE_IN parameterized at the assumed 0.49in; brief-unruled
+  back-panel/spine values enumerated, DK ratification pending).
+  Remaining from the wrap list: DK ruling on the enumerated wrap
+  values; wrap re-run at printer actuals (cover-brief.md);
+  ISBN/imprint TKs; `final` tag last.

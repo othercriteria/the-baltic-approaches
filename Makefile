@@ -113,19 +113,23 @@ pdf: $(OUTPUT_DIR) maps stamp
 	@pdfinfo $(OUTPUT_DIR)/the-baltic-approaches.pdf 2>/dev/null | grep Pages || true
 	@echo "Created $(OUTPUT_DIR)/the-baltic-approaches.pdf (trade interior)"
 
-# Screen-reading affordance (same content, one-sided), with the
-# cover as page 1 (DK directive 2026-07-27). The cover's 0.125in
-# bleed is cropped to trim so its page size matches the interior;
-# qpdf keeps the interior as primary so its metadata survives.
-pdf-screen: $(OUTPUT_DIR) maps stamp cover
+# Screen-reading affordance (same content, one-sided), bookended by
+# the cover as page 1 and the wrap's back panel as the last page
+# (DK directives 2026-07-27) — the one-file product view. Both are
+# cropped to trim so page sizes match the interior; qpdf keeps the
+# interior as primary so its metadata survives.
+pdf-screen: $(OUTPUT_DIR) maps stamp cover cover-wrap
 	@pandoc $(FRONT_MATTER) $(SOURCES) $(BACK_MATTER) $(SCREEN_OPTS) $(METADATA) -o $(OUTPUT_DIR)/screen-interior.pdf
 	@pdfjam --quiet --trim '0.125in 0.125in 0.125in 0.125in' --clip true --papersize '{5.5in,8.5in}' \
 		--outfile $(OUTPUT_DIR)/cover/cover-trim.pdf $(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf 1
+	@rt=$$(awk 'BEGIN{printf "%.4fin", 5.625+$(SPINE_IN)}'); \
+	pdfjam --quiet --trim "0.125in 0.125in $$rt 0.125in" --clip true --papersize '{5.5in,8.5in}' \
+		--outfile $(OUTPUT_DIR)/cover/back-trim.pdf $(OUTPUT_DIR)/cover/the-baltic-approaches-wrap.pdf 1
 	@qpdf $(OUTPUT_DIR)/screen-interior.pdf \
-		--pages $(OUTPUT_DIR)/cover/cover-trim.pdf 1 $(OUTPUT_DIR)/screen-interior.pdf 1-z -- \
+		--pages $(OUTPUT_DIR)/cover/cover-trim.pdf 1 $(OUTPUT_DIR)/screen-interior.pdf 1-z $(OUTPUT_DIR)/cover/back-trim.pdf 1 -- \
 		$(OUTPUT_DIR)/the-baltic-approaches-screen.pdf
 	@pdfinfo $(OUTPUT_DIR)/the-baltic-approaches-screen.pdf 2>/dev/null | grep Pages || true
-	@echo "Created $(OUTPUT_DIR)/the-baltic-approaches-screen.pdf (screen, cover as p.1)"
+	@echo "Created $(OUTPUT_DIR)/the-baltic-approaches-screen.pdf (screen, cover p.1 + back panel last)"
 
 # Front cover (Müller ratified 2026-07-27; planning/cover-brief.md).
 # Recomposes the raster from the museum source, sets vector type in

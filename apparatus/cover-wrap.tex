@@ -1,0 +1,92 @@
+% Full POD wrap (back panel + spine + front), THE BALTIC APPROACHES —
+% cover-brief.md "Wrap program requirements". Geometry parameterized:
+% build/cover/wrapgeom.tex is written by the Makefile from SPINE_IN
+% (assumed 196pp x 0.0025in/page = 0.49in until printer actuals;
+% recompute from the printer spec, never assume — brief item 1).
+% Front panel: the ratified cover.tex art and type, reflowed at the
+% same trim-relative positions (item 2). Back + spine: solid field
+% sampled from the Muller's floor browns by scripts/cover-art.py
+% (build/cover/field.tex; item 3). Exterior face Heros only, single
+% ink, hierarchy by size, single weight (item 4).
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\input{build/cover/wrapgeom.tex}
+\usepackage[paperwidth=\wrapw,paperheight=8.75in,margin=0in]{geometry}
+\pagestyle{empty}
+\setmainfont{TeX Gyre Heros}
+\definecolor{coverink}{RGB}{242,237,227}
+\input{build/cover/field.tex}
+
+% Front faces: identical to cover.tex (ratified 2026-07-27).
+\newcommand{\titleface}{\fontsize{28pt}{34pt}\selectfont\addfontfeatures{LetterSpace=19}}
+\newcommand{\subface}{\fontsize{9.5pt}{12pt}\selectfont\addfontfeatures{LetterSpace=36}}
+\newcommand{\smallface}{\fontsize{11.5pt}{14pt}\selectfont\addfontfeatures{LetterSpace=30}}
+% Spine rows (item 5): title tracking 19, byline tracking 30, per the
+% front faces. At 0.49in the cap heights (14pt -> 0.14in, 8.5pt ->
+% 0.085in) hold >=0.09in clearance to both hinges; recompute at
+% printer actuals — if both rows cannot hold legibly, the byline
+% drops (pre-ruled fallback, not a judgment call).
+\newcommand{\spinetitleface}{\fontsize{14pt}{14pt}\selectfont\addfontfeatures{LetterSpace=19}}
+\newcommand{\spinebylineface}{\fontsize{8.5pt}{8.5pt}\selectfont\addfontfeatures{LetterSpace=30}}
+% Back panel (items 6 and 9). Excerpt at the front smallface size,
+% support lines below it in descending size; DRAFT values pending DK
+% ratification (the brief rules contents/face/ink/order, not sizes).
+\newcommand{\excerptface}{\fontsize{11.5pt}{17pt}\selectfont}
+\newcommand{\attribface}{\fontsize{9.5pt}{12pt}\selectfont}
+\newcommand{\pointerface}{\fontsize{8pt}{11.5pt}\selectfont}
+\newcommand{\creditface}{\fontsize{7.5pt}{10.5pt}\selectfont}
+
+\begin{document}%
+\frenchspacing% match the interior's sentence spacing (latex-header.tex)
+\noindent\begin{tikzpicture}[remember picture,overlay]
+  % Field everywhere the art is not: back panel, spine, all bleed.
+  \fill[coverfield] (current page.north west) rectangle (current page.south east);
+  % Front art meets the field at the front hinge, bleeds right/top/bottom.
+  \node[anchor=north east,inner sep=0] at (current page.north east)
+    {\includegraphics[width=5.625in,height=8.75in]{build/cover/cover-art-wrap.jpg}};
+  % ---- Front panel type: cover.tex positions, front-trim-relative.
+  \node[anchor=north,text=coverink] at ($(current page.north west)+(\frontcenter,-0.86in)$)
+    {\titleface THE BALTIC};
+  \node[anchor=north,text=coverink] at ($(current page.north west)+(\frontcenter,-1.33in)$)
+    {\titleface APPROACHES};
+  \node[anchor=north,text=coverink] at ($(current page.north west)+(\frontcenter,-1.79in)$)
+    {\subface A NOVEL OF NOVEMBER 1983};
+  \node[anchor=north,text=coverink] at ($(current page.north west)+(\frontcenter,-8.02in)$)
+    {\smallface DANIEL KLEIN WITH CLAUDE};
+  % ---- Spine: reading top-to-bottom (Anglo), title row toward the
+  % front hinge, byline row toward the back hinge; both centered on
+  % the spine's length. Row offsets = 0.09in edge clearance + half
+  % the row's cap height.
+  \node[rotate=-90,anchor=center,text=coverink]
+    at ($(current page.north west)+(\fronthinge,-4.375in)+(-0.17in,0in)$)
+    {\spinetitleface THE BALTIC APPROACHES};
+  \node[rotate=-90,anchor=center,text=coverink]
+    at ($(current page.north west)+(\backhinge,-4.375in)+(0.14in,0in)$)
+    {\spinebylineface DANIEL KLEIN WITH CLAUDE};
+  % ---- Back panel, centered on the back trim center (x=2.875in).
+  % (a) The excerpt (item 9, ratified; abridgment marked honestly).
+  \node[anchor=north,text=coverink,text width=3.7in,align=left,font=\excerptface]
+    at ($(current page.north west)+(2.875in,-2.5in)$)
+    {\raggedright We were not right. We were solvent.
+     [\,…\,] Every estimate on the wall was eventually falsified.
+     The discipline of posting them is the only thing this
+     headquarters proved. It was enough.\par};
+  \node[anchor=north east,text=coverink,font=\attribface]
+    at ($(current page.north west)+(4.725in,-3.62in)$)
+    {— from the corps' final assessment};
+  % (b) Provenance pointer; (c) art credit. Both end >=1.45in above
+  % trim bottom, clear of (d) the reserved barcode zone (2.0x1.2in,
+  % bottom-right of the back trim; empty until ISBN actuals).
+  \node[anchor=north,align=center,text=coverink,font=\pointerface]
+    at ($(current page.north west)+(2.875in,-6.30in)$)
+    {How this book was made: the notices page, and the full record at\\
+     github.com/othercriteria/the-baltic-approaches};
+  \node[anchor=north,align=center,text=coverink,font=\creditface]
+    at ($(current page.north west)+(2.875in,-6.80in)$)
+    {Cover: Adam August Müller, The Hall of Antiquities at Charlottenborg Palace,\\
+     Copenhagen (1830). The Metropolitan Museum of Art, public domain (CC0)};
+\end{tikzpicture}%
+\end{document}

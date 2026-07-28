@@ -87,7 +87,7 @@ METADATA = -V title-meta="$(TITLE)" \
            -V author-meta="Daniel Klein with Claude"
 BACK_MATTER = apparatus/back-matter.md
 
-.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas maps stamp pdf pdf-screen proof cover manuscript wordcount clean
+.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas maps stamp pdf pdf-screen proof cover cover-wrap manuscript wordcount clean
 
 $(OUTPUT_DIR):
 	@mkdir -p $(OUTPUT_DIR)
@@ -141,6 +141,25 @@ cover: $(OUTPUT_DIR)
 	@pdftoppm -r 300 -png -singlefile $(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf $(OUTPUT_DIR)/cover/cover-proof
 	@pdftoppm -r 14 -png -singlefile $(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf $(OUTPUT_DIR)/cover/cover-thumb-120
 	@echo "Cover: $(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf (+proof, +120px thumb)"
+
+# Full POD wrap: back + spine + front (cover-brief.md wrap program).
+# SPINE_IN is the ASSUMED spine width until printer actuals exist:
+# 196pp x 0.0025in/page = 0.49in (brief item 1: recompute from the
+# printer spec, never assume). Override: make cover-wrap SPINE_IN=…
+SPINE_IN ?= 0.49
+
+cover-wrap: $(OUTPUT_DIR)
+	@python3 scripts/cover-art.py
+	@awk -v s=$(SPINE_IN) 'BEGIN{printf "\\def\\spinein{%.4fin}\n\\def\\wrapw{%.4fin}\n\\def\\backhinge{5.6250in}\n\\def\\fronthinge{%.4fin}\n\\def\\frontcenter{%.4fin}\n", s, 11.25+s, 5.625+s, 8.375+s}' > $(OUTPUT_DIR)/cover/wrapgeom.tex
+	@for pass in 1 2; do \
+		TEXINPUTS=.: xelatex -interaction=batchmode -output-directory=$(OUTPUT_DIR)/cover apparatus/cover-wrap.tex >/dev/null || \
+			{ tail -20 $(OUTPUT_DIR)/cover/cover-wrap.log; exit 1; }; \
+	done
+	@mv $(OUTPUT_DIR)/cover/cover-wrap.pdf $(OUTPUT_DIR)/cover/the-baltic-approaches-wrap.pdf
+	@pdftoppm -r 150 -png -singlefile $(OUTPUT_DIR)/cover/the-baltic-approaches-wrap.pdf $(OUTPUT_DIR)/cover/wrap-proof
+	@pdftoppm -r 14 -png -singlefile $(OUTPUT_DIR)/cover/the-baltic-approaches-wrap.pdf $(OUTPUT_DIR)/cover/wrap-thumb
+	@python3 -c "from PIL import Image; s=$(SPINE_IN); im=Image.open('$(OUTPUT_DIR)/cover/wrap-proof.png'); w,h=im.size; sc=w/(11.25+s); strip=im.crop((round(5.625*sc),0,round((5.625+s)*sc),h)); strip.save('$(OUTPUT_DIR)/cover/spine-strip.png'); t=strip.resize((max(1,round(strip.width*96/h)),96),Image.LANCZOS); t.save('$(OUTPUT_DIR)/cover/spine-shelf-96px.png')"
+	@echo "Wrap: $(OUTPUT_DIR)/cover/the-baltic-approaches-wrap.pdf (spine $(SPINE_IN)in assumed; +proof, +thumb, +spine shelf test)"
 
 # Page-render proof loop (WB practice): thumbnails for eyeballing
 # breaks, asterisms, caps blocks. Renders the trade build.

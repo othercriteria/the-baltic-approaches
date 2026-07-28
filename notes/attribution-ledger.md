@@ -644,6 +644,14 @@ read bottom-up; order is always recoverable from dates and git.
   fixes final page count (Format & Size tab locks at
   submission — official Bowker guide, distilled to
   cover-brief.md).
+- 2026-07-28 — imprint onto the wrap (DK proposal, in-session to
+  665163f0, built same turn, ratification pending): MESOKURTOSIS
+  PRESS at the spine foot (7pt, center axis) and back panel
+  bottom-left (7.5pt, opposite the barcode zone); name only, no
+  device. Spine clearances re-measured passing. Same turn:
+  `make cover` gains the trim-cropped catalog JPG
+  (Bowker-spec, ~0.8MB). Brief carries both as items 15-16 +
+  note.
 
 ## Entity index
 

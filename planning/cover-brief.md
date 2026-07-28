@@ -360,6 +360,17 @@ IMPRINT + ISBN (DK rulings, 2026-07-28, in-session to 665163f0):
   trademark adjacency; catalogs without acronym/case mangling;
   to be registered as the Bowker imprint under DK's LLC, DBA as
   the LLC's state requires).
+- **Imprint on the wrap** (DK proposal 2026-07-28, built same
+  day, ratification pending): item 15 — spine foot,
+  MESOKURTOSIS PRESS, 7pt letterspaced Heros caps on the spine's
+  center axis, reading end ~0.45in above trim bottom (title and
+  byline rows untouched; clearances re-measured 0.093/0.097in).
+  Item 16 — back panel bottom-left, 7.5pt, baseline 0.5in above
+  trim bottom, the barcode zone's opposite corner (>1in clear of
+  it). Name only, no device — item 5's no-device rule stands.
+- **Catalog cover JPG**: `make cover` now also emits
+  build/cover/the-baltic-approaches-cover.jpg (trim-cropped,
+  300dpi, ~0.8MB — inside Bowker's JPG-only, ≤5MB upload spec).
 - **ISBN, provisional: 979-8-9973189-0-1** (paperback/POD;
   Bowker 979-8 block; check digit machine-verified). Applied to
   the notices line same day. PROVISIONAL until DK submits the

@@ -147,7 +147,8 @@ cover: $(OUTPUT_DIR)
 	@mv $(OUTPUT_DIR)/cover/cover.pdf $(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf
 	@pdftoppm -r 300 -png -singlefile $(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf $(OUTPUT_DIR)/cover/cover-proof
 	@pdftoppm -r 14 -png -singlefile $(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf $(OUTPUT_DIR)/cover/cover-thumb-120
-	@echo "Cover: $(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf (+proof, +120px thumb)"
+	@python3 -c "from PIL import Image; im=Image.open('$(OUTPUT_DIR)/cover/cover-proof.png').convert('RGB'); im.crop((37,37,1687,2587)).save('$(OUTPUT_DIR)/cover/the-baltic-approaches-cover.jpg', quality=92)"  # trim-cropped JPG for catalog uploads (Bowker: JPG only, <=5MB)
+	@echo "Cover: $(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf (+proof, +120px thumb, +catalog JPG)"
 
 # Full POD wrap: back + spine + front (cover-brief.md wrap program).
 # SPINE_IN is the ASSUMED spine width until printer actuals exist:
@@ -157,7 +158,7 @@ SPINE_IN ?= 0.49
 
 cover-wrap: $(OUTPUT_DIR)
 	@python3 scripts/cover-art.py
-	@awk -v s=$(SPINE_IN) 'BEGIN{printf "\\def\\spinein{%.4fin}\n\\def\\wrapw{%.4fin}\n\\def\\backhinge{5.6250in}\n\\def\\fronthinge{%.4fin}\n\\def\\frontcenter{%.4fin}\n", s, 11.25+s, 5.625+s, 8.375+s}' > $(OUTPUT_DIR)/cover/wrapgeom.tex
+	@awk -v s=$(SPINE_IN) 'BEGIN{printf "\\def\\spinein{%.4fin}\n\\def\\wrapw{%.4fin}\n\\def\\backhinge{5.6250in}\n\\def\\fronthinge{%.4fin}\n\\def\\frontcenter{%.4fin}\n\\def\\spinecenter{%.4fin}\n", s, 11.25+s, 5.625+s, 8.375+s, 5.625+s/2}' > $(OUTPUT_DIR)/cover/wrapgeom.tex
 	@for pass in 1 2; do \
 		TEXINPUTS=.: xelatex -interaction=batchmode -output-directory=$(OUTPUT_DIR)/cover apparatus/cover-wrap.tex >/dev/null || \
 			{ tail -20 $(OUTPUT_DIR)/cover/cover-wrap.log; exit 1; }; \

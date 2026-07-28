@@ -31,6 +31,11 @@
 % drops (pre-ruled fallback, not a judgment call).
 \newcommand{\spinetitleface}{\fontsize{14pt}{14pt}\selectfont\addfontfeatures{LetterSpace=19}}
 \newcommand{\spinebylineface}{\fontsize{8.5pt}{8.5pt}\selectfont\addfontfeatures{LetterSpace=30}}
+% Imprint (Mesokurtosis Press, locked 2026-07-28): spine foot on the
+% center axis, and back panel bottom-left (the barcode's opposite
+% corner). Name only — no device (brief item 5's rule stands).
+\newcommand{\spineimprintface}{\fontsize{7pt}{7pt}\selectfont\addfontfeatures{LetterSpace=30}}
+\newcommand{\backimprintface}{\fontsize{7.5pt}{7.5pt}\selectfont\addfontfeatures{LetterSpace=30}}
 % Back panel (items 6 and 9). Excerpt at the front smallface size,
 % support lines below it in descending size; DRAFT values pending DK
 % ratification (the brief rules contents/face/ink/order, not sizes).
@@ -66,6 +71,11 @@
   \node[rotate=-90,anchor=center,text=coverink]
     at ($(current page.north west)+(\backhinge,-4.375in)+(0.14in,0in)$)
     {\spinebylineface DANIEL KLEIN WITH CLAUDE};
+  % Imprint at the spine foot: center axis, reading end 0.4in above
+  % trim bottom (east anchor = the rotated text's downhill end).
+  \node[rotate=-90,anchor=east,text=coverink]
+    at ($(current page.north west)+(\spinecenter,-8.225in)$)
+    {\spineimprintface MESOKURTOSIS PRESS};
   % ---- Back panel, centered on the back trim center (x=2.875in).
   % (a) The excerpt (item 9, ratified; abridgment marked honestly).
   \node[anchor=north,text=coverink,text width=3.7in,align=left,font=\excerptface]
@@ -88,5 +98,11 @@
     at ($(current page.north west)+(2.875in,-6.80in)$)
     {Cover: Adam August Müller, The Hall of Antiquities at Charlottenborg Palace,\\
      Copenhagen (1830). The Metropolitan Museum of Art, public domain (CC0)};
+  % Imprint, back panel: bottom-left, the barcode zone's opposite
+  % corner, baseline 0.5in above trim bottom — clear of the zone
+  % (which starts at x=3.625in) by over an inch.
+  \node[anchor=south west,text=coverink,font=\backimprintface]
+    at ($(current page.north west)+(0.875in,-8.125in)$)
+    {MESOKURTOSIS PRESS};
 \end{tikzpicture}%
 \end{document}

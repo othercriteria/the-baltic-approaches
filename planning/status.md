@@ -1175,3 +1175,13 @@ screen 173pp under the new build names; narrative 50,428
   → first-<DTG> resubmission; eBook deferred ~1 week (DK);
   book site + marketing-agent apparatus future-scope
   (desiderata in cover-brief.md).
+- 2026-07-28 — session 665163f0 provisionally WRAPPED (DK
+  expects to resume this session for KDP/Bowker follow-ups
+  rather than start fresh). Bowker SUBMITTED, status Pending
+  (Sales Rights corrected to exclusive-WORLD in-session; no
+  ISBN risk — locking tab was correct). Open when work
+  resumes: KDP publication review lands (listing live → flip
+  Bowker status to Active); physical-copy checklist; eBook
+  (~1 week); book site; Bowker green-check confirm.
+  Raw-archive owed by DK or next entry: `make raw-archive
+  SESSION=665163f0-4fcb-4b4a-807b-917716351d56`.

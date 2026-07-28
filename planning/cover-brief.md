@@ -361,7 +361,8 @@ IMPRINT + ISBN (DK rulings, 2026-07-28, in-session to 665163f0):
   to be registered as the Bowker imprint under DK's LLC, DBA as
   the LLC's state requires).
 - **Imprint on the wrap** (DK proposal 2026-07-28, built same
-  day, ratification pending): item 15 — spine foot,
+  day, RATIFIED same day — DK: "Wrap looks good."): item 15 —
+  spine foot,
   MESOKURTOSIS PRESS, 7pt letterspaced Heros caps on the spine's
   center axis, reading end ~0.45in above trim bottom (title and
   byline rows untouched; clearances re-measured 0.093/0.097in).

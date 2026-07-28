@@ -651,7 +651,8 @@ read bottom-up; order is always recoverable from dates and git.
   device. Spine clearances re-measured passing. Same turn:
   `make cover` gains the trim-cropped catalog JPG
   (Bowker-spec, ~0.8MB). Brief carries both as items 15-16 +
-  note.
+  note. RATIFIED next turn (DK: "Wrap looks good."), brief
+  updated in place.
 
 ## Entity index
 

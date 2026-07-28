@@ -391,7 +391,14 @@ IMPRINT + ISBN (DK rulings, 2026-07-28, in-session to 665163f0):
   non-itemized): $3.35**/copy — consistent with $1.00 fixed +
   196pp × $0.012. Royalty at 60% list-minus-print: e.g. $16.95
   list → $6.82/copy Amazon channel; floor list ≈ $5.59
-  ($3.35/0.60). List price NOT yet ruled.
+  ($3.35/0.60). **List price RULED: $17.95** (DK, 2026-07-28:
+  "Good call, using $17.95."). The credibility argument that
+  set it: an AI-disclosed book priced in the $2.99–9.99 KDP
+  band pattern-matches to slop; the traditional trade band
+  ($16.95–18.95 for this format) is the counter-signal, and
+  $17.95 is its center. Yields $7.42/copy Amazon channel,
+  $3.83 via Expanded Distribution; sign-positive from copy
+  one; ISBN block amortizes in ~17 copies.
 - **Pricing desiderata (DK, 2026-07-28, banked before any
   ruling):** (1) The project is an experiment — "reconnaissance
   in force" — into working with agents on large tasks; no

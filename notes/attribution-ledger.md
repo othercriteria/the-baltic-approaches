@@ -737,6 +737,9 @@ read bottom-up; order is always recoverable from dates and git.
   on a marketing agent with its dispossession/alignment
   caveats. Session recommendation pending DK ruling: list
   $17.95 (the trade-paperback credibility band).
+- 2026-07-28 — list price RULED: **$17.95** (DK: "Good call,
+  using $17.95."). The KDP entry sheet is thereby COMPLETE —
+  every field ruled or banked in cover-brief.md.
 
 ## Entity index
 

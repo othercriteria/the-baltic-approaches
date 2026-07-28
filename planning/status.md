@@ -1154,8 +1154,15 @@ screen 173pp under the new build names; narrative 50,428
   KDP verified as vendor default (cream 0.0025in/page = the built
   0.49in spine at 196pp; auto-barcode self-knockout; details in
   cover-brief.md); imprint LOCKED **Mesokurtosis Press**; ISBN
-  979-8-9973189-0-1 provisionally on the notices line. Remaining:
-  Bowker title SUBMIT only after the KDP proof fixes page count
-  (Format & Size tab locks at submission); KDP title setup with
-  publisher field = Mesokurtosis Press (must match Bowker); wrap
-  re-check at final page count; `final` tag last.
+  979-8-9973189-0-1 provisionally on the notices line; paper
+  CREAM banked (0.49in spine = the actual); the whole KDP entry
+  sheet banked in cover-brief.md (edition/author/contributor/
+  subtitle/AI-disclosure/description/categories with node IDs/
+  keywords/content settings). **`final` TAGGED at 371607b**
+  (2026-07-28, DK ruling: before KDP submission) — zero TKs,
+  trade 196pp, screen 175pp, narrative 50,428; upload artifacts
+  rebuilt at the tag (stamp shows 371607b). Remaining: KDP
+  submission (uploads, previewer, proof order); proof check
+  (matte edge-scuff eyeball; then Bowker title SUBMIT — Format &
+  Size locks there); KDP publisher field = Mesokurtosis Press,
+  must match Bowker.

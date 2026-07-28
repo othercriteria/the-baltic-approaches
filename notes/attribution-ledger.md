@@ -686,6 +686,19 @@ read bottom-up; order is always recoverable from dates and git.
   trim-sized pages); cover finish MATTE. Keywords note: DK
   added the two gap-fills to the live form ("Added those
   two.").
+- 2026-07-28 — **`final` TAGGED** at 371607b (DK ruling,
+  in-session to 665163f0: cut before KDP submission, session
+  continuing). Pre-tag sweep clean: zero TKs in front/back
+  matter; trade rebuilt 196pp; screen 175pp; narrative 50,428
+  unchanged; wrap at cream actuals. Upload artifacts rebuilt at
+  the tag — the printed notices stamp reads "Final ·
+  2026-07-28 · 371607b", the tagged commit. The 2026-07-27
+  wrap-list gates all discharged at tag time: wrap program
+  executed + ratified, ISBN/imprint resolved (ISBN provisional
+  pending Bowker SUBMIT, which by design follows the KDP
+  proof), rename long done. Remaining after the tag: KDP
+  submission mechanics, proof check (incl. matte edge-scuff
+  eyeball), Bowker title SUBMIT.
 
 ## Entity index
 

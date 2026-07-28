@@ -387,6 +387,11 @@ IMPRINT + ISBN (DK rulings, 2026-07-28, in-session to 665163f0):
   -edited is KDP's "AI-generated" by definition; disclosure is
   Amazon-internal; the notices page is the stronger public
   disclosure.
+- **KDP printing cost, ACTUAL (2026-07-28, from the live form,
+  non-itemized): $3.35**/copy — consistent with $1.00 fixed +
+  196pp × $0.012. Royalty at 60% list-minus-print: e.g. $16.95
+  list → $6.82/copy Amazon channel; floor list ≈ $5.59
+  ($3.35/0.60). List price NOT yet ruled.
 - **KDP Print Previewer findings (2026-07-28, DK screenshots;
   submission at `first-281500ZJUL26`):** PASSED, no blockers.
   (1) The "removed non-printable markup, check p.5" notice =

@@ -719,6 +719,15 @@ read bottom-up; order is always recoverable from dates and git.
   knockout landed inside the reserved zone exactly as designed;
   Transparency-code watch item banked for the proof. Findings
   in cover-brief.md.
+- 2026-07-28 — KDP digital proof PDF inspected (100 spreads;
+  parked UNTRACKED at scratch/KDP_PRINT_INTERIOR_SPREAD.pdf,
+  vendor-regenerable ephemera). Verified against design:
+  half-title recto; designed title page; notices/Contents
+  spread with stamp; plate pair (I upright verso, II broadside
+  recto); openright ch.1 with two-deck head and drop folio;
+  mirrored running heads and gutter at pp.2-3; colophon recto
+  at the tail; KDP's own "Proof" end-sheet (absent from retail
+  copies). No deviations found.
 
 ## Entity index
 

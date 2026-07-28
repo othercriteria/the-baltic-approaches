@@ -1164,8 +1164,14 @@ screen 173pp under the new build names; narrative 50,428
   day — edition + DTG states a fact, "final" made a promise;
   the in-fiction DTG convention is the deliberate pinhole) —
   zero TKs, trade 196pp, screen 175pp, narrative 50,428; upload
-  artifacts rebuilt at the tag (stamp shows 371607b). Remaining: KDP
-  submission (uploads, previewer, proof order); proof check
-  (matte edge-scuff eyeball; then Bowker title SUBMIT — Format &
-  Size locks there); KDP publisher field = Mesokurtosis Press,
-  must match Bowker.
+  artifacts rebuilt at the tag (stamp shows 371607b).
+  **PUBLISHED TO KDP 2026-07-28** at that tag ($17.95 cream
+  5.5x8.5; entry sheet complete in cover-brief.md; previewer +
+  digital proof both passed; in publication review). Remaining:
+  Bowker title SUBMIT (safe now — 196pp final; publisher field
+  = Mesokurtosis Press must match KDP's); physical-copy
+  checklist (matte edges, Transparency-code strip, spine
+  centering, plates) against proof or author copies, findings
+  → first-<DTG> resubmission; eBook deferred ~1 week (DK);
+  book site + marketing-agent apparatus future-scope
+  (desiderata in cover-brief.md).

@@ -740,6 +740,18 @@ read bottom-up; order is always recoverable from dates and git.
 - 2026-07-28 — list price RULED: **$17.95** (DK: "Good call,
   using $17.95."). The KDP entry sheet is thereby COMPLETE —
   every field ruled or banked in cover-brief.md.
+- 2026-07-28 — **PUBLISHED TO KDP** (DK: "Trigger pulled."),
+  from the artifacts at tag `first-281500ZJUL26`, without
+  waiting on the physical proof (reasoning recorded in-session:
+  both digital checks passed; spine clearances beat KDP's
+  registration tolerance; post-publish file updates + the
+  first-<DTG> convention make defects recoverable; the
+  zero-marketing launch makes the exposure window nil). Title
+  now in KDP's publication review (24-72h typical, AI
+  disclosure in the routing). eBook DEFERRED ~a week (DK:
+  physical copy in hand first, regroup). Physical checklist
+  stays OPEN against the first copy in hand. Next: Bowker
+  title registration (SUBMIT now safe — 196pp is final).
 
 ## Entity index
 

@@ -664,6 +664,15 @@ read bottom-up; order is always recoverable from dates and git.
   the cream/groundwood/white walkthrough): **CREAM banked** —
   the wrap's built 0.49in spine at 196pp is thereby the KDP
   actual. Grounds recorded in cover-brief.md.
+- 2026-07-28 — KDP entry sheet banked (DK, in-session to
+  665163f0): edition 1; author "Daniel Klein"; contributor
+  "Claude" (last-name mononym, Author role); subtitle canonical
+  "A Novel of November 1983"; AI disclosure YES-text; and the
+  book DESCRIPTION of record, DK's landed text from the
+  session's draft (condensing back panel + README; the no-URL
+  rule noted). All in cover-brief.md's KDP block. Categories
+  discussion opened on DK's comps (The Goal, Caine Mutiny,
+  Good Shepherd, Red Storm Rising, Goal graphic novel).
 
 ## Entity index
 

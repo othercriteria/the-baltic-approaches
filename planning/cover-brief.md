@@ -372,6 +372,52 @@ IMPRINT + ISBN (DK rulings, 2026-07-28, in-session to 665163f0):
 - **Catalog cover JPG**: `make cover` now also emits
   build/cover/the-baltic-approaches-cover.jpg (trim-cropped,
   300dpi, ~0.8MB — inside Bowker's JPG-only, ≤5MB upload spec).
+- **KDP entry sheet (DK rulings/adoptions, 2026-07-28):**
+  Edition Number **1** (digits only). Author **Daniel Klein**
+  (no middle content — one canonical string across cover,
+  Bowker, KDP; Amazon-side disambiguation via Author Central,
+  not the name string). Second contributor **Claude**, Last
+  Name field only (the Bowker mononym convention), role
+  **Author** (KDP has no "with" role; the byline relationship
+  lives on the cover, standard for "with" books). Subtitle
+  metadata string, canonical: **"A Novel of November 1983"**
+  (title case in Bowker/KDP fields; cover caps and title-page
+  small caps are display treatments of it). **AI-content
+  disclosure: YES, text** — AI-drafted, human-directed and
+  -edited is KDP's "AI-generated" by definition; disclosure is
+  Amazon-internal; the notices page is the stronger public
+  disclosure.
+- **KDP description of record (DK's landed text, 2026-07-28;
+  freely editable post-publish, so not an actuals gate).** The
+  no-URL rule forces the repo pointer to plain "is public" —
+  DK: "web-search is easy." Verbatim:
+
+  > November 1983. The war everyone planned for arrives, and
+  > it lands on a headquarters.
+  >
+  > The Baltic Approaches follows the staff of NATO's Allied
+  > Land Forces Schleswig-Holstein and Jutland — the corps
+  > holding the approaches to the Baltic — through the first
+  > weeks of a war fought at the map table: estimates posted
+  > and falsified, columns that arrive late or not at all, a
+  > front that answers to arithmetic before it answers to
+  > courage. It is a war novel in the bureaucratic register of
+  > The Caine Mutiny and The Good Shepherd, with the
+  > operational engine of Goldratt's The Goal transposed to
+  > theater war: a staff learning, under fire, what its
+  > numbers mean and what the corps is for.
+  >
+  > From the corps' final assessment: "We were not right. We
+  > were solvent. […] Every estimate on the wall was
+  > eventually falsified. The discipline of posting them is
+  > the only thing this headquarters proved. It was enough."
+  >
+  > Written by Claude, Anthropic's family of large language
+  > models, in working sessions directed, read, and edited by
+  > Daniel Klein. The complete working record — drafts,
+  > research, and session-by-session attribution — is public;
+  > the book's notices page says how it was made.
+
 - **Paper: CREAM (DK ruling 2026-07-28** — "Cream banked.").
   The walkthrough's grounds: trade-fiction convention; the
   interior's trade-object design language; bulkiest stock (0.49in

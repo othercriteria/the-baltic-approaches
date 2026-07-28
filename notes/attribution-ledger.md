@@ -673,6 +673,13 @@ read bottom-up; order is always recoverable from dates and git.
   rule noted). All in cover-brief.md's KDP block. Categories
   discussion opened on DK's comps (The Goal, Caine Mutiny,
   Good Shepherd, Red Storm Rising, Goal graphic novel).
+- 2026-07-28 — KDP categories + keywords banked (DK ruling, in-
+  session to 665163f0): War & Military (10159275011) / Lean
+  (10020713011) / Alternate History (16275) — node IDs verified
+  against the browse-node mirror; DK checked comps in each
+  ("honest and appropriate"). Keywords: DK's four + two
+  session-proposed gap-fills (operational art; business novel),
+  six of seven, under DK's no-overstuffing directive.
 
 ## Entity index
 

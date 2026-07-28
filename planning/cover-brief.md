@@ -387,6 +387,22 @@ IMPRINT + ISBN (DK rulings, 2026-07-28, in-session to 665163f0):
   -edited is KDP's "AI-generated" by definition; disclosure is
   Amazon-internal; the notices page is the stronger public
   disclosure.
+- **KDP categories (DK ruling 2026-07-28, comps checked honest
+  in each):** (1) Fiction / **War & Military** — node
+  10159275011; (2) **Lean** [Management] — node 10020713011,
+  the Goal-lineage shelf, small and chartable (the badge play);
+  (3) **Alternate History** — node 16275, the WWIII-what-if
+  readership (Hackett → Red Storm Rising). The Goal graphic
+  novel's shelving was the template: exoteric genre door +
+  lineage shelf + one complement, fiction-side.
+- **KDP backend keywords (DK-approved four + two gap-fills,
+  2026-07-28):** "world war three"; "cold war turns hot";
+  "theory of constraints"; "NATO 1983"; + "operational art"
+  (the PME/doctrine searcher population); + "business novel"
+  (the reader explicitly hunting Goal-likes — the empty slot's
+  own genre term). Six of seven slots; no stuffing. Rule kept:
+  no other authors' names or book titles in keywords (Goldratt
+  and the comps live legitimately in the description).
 - **KDP description of record (DK's landed text, 2026-07-28;
   freely editable post-publish, so not an actuals gate).** The
   no-URL rule forces the repo pointer to plain "is public" —

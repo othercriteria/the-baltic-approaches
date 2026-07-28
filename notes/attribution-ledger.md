@@ -710,6 +710,15 @@ read bottom-up; order is always recoverable from dates and git.
   — repo-level metadata, correctness carried by the commit
   hash. Convention forward: subsequent submissions re-tag
   `first-<DTG>`; a revised edition would open `second-<DTG>`.
+  (Convention RATIFIED by DK next turn: "Aligned on
+  convention.")
+- 2026-07-28 — KDP Print Previewer PASSED (DK ran the upload;
+  screenshots read in-session to 665163f0). One notice decoded
+  benign (TOC hyperlink annotations stripped for print — the
+  standard LaTeX-book notice, recurs each submission); barcode
+  knockout landed inside the reserved zone exactly as designed;
+  Transparency-code watch item banked for the proof. Findings
+  in cover-brief.md.
 
 ## Entity index
 

@@ -387,6 +387,17 @@ IMPRINT + ISBN (DK rulings, 2026-07-28, in-session to 665163f0):
   -edited is KDP's "AI-generated" by definition; disclosure is
   Amazon-internal; the notices page is the stronger public
   disclosure.
+- **KDP Print Previewer findings (2026-07-28, DK screenshots;
+  submission at `first-281500ZJUL26`):** PASSED, no blockers.
+  (1) The "removed non-printable markup, check p.5" notice =
+  the TOC's hyperlink annotations (pandoc/hyperref), stripped
+  for print; text/page numbers intact; benign, recurs every
+  submission. (2) Amazon's barcode + white knockout landed
+  inside the reserved 2.0x1.2in zone, no overlap — item 6(d)
+  verified in production. (3) Watch on proof: a Transparency
+  code may print above the ISBN barcode (clear field there,
+  >0.3in to the credit block). (4) Notices page and spine
+  render exact.
 - **KDP content settings (DK, 2026-07-28):** trim **5.5 x 8.5 in**
   (interior verified 396x612pt — exact); interior **No Bleed**
   (required, not just chosen: our pages are trim-sized with

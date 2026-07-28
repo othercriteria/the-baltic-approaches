@@ -372,6 +372,18 @@ IMPRINT + ISBN (DK rulings, 2026-07-28, in-session to 665163f0):
 - **Catalog cover JPG**: `make cover` now also emits
   build/cover/the-baltic-approaches-cover.jpg (trim-cropped,
   300dpi, ~0.8MB — inside Bowker's JPG-only, ≤5MB upload spec).
+- **Paper: CREAM (DK ruling 2026-07-28** — "Cream banked.").
+  The walkthrough's grounds: trade-fiction convention; the
+  interior's trade-object design language; bulkiest stock (0.49in
+  spine at 196pp vs white 0.441 / groundwood ~0.460 — presence
+  for a slim book); archival free sheet vs groundwood's
+  mechanical pulp (lignin; this book is a record); and the wrap
+  was built and verified at cream's 0.0025in/page — zero rework.
+  Groundwood rejected also for its reported texture-vs-ink issue
+  on bold/display strokes (our two-deck heads, small caps,
+  teleprinter blocks); white rejected as nonfiction convention
+  with no benefit the plates need. Cost delta was noise
+  (~$0.12/copy at 196pp).
 - **Subjects/genres (DK ruling 2026-07-28):** Bowker carries
   **FIC032000 FICTION / War & Military alone** — the intended
   secondary, BUS017000 Decision-Making & Problem Solving, is not

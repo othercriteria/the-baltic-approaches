@@ -653,6 +653,13 @@ read bottom-up; order is always recoverable from dates and git.
   (Bowker-spec, ~0.8MB). Brief carries both as items 15-16 +
   note. RATIFIED next turn (DK: "Wrap looks good."), brief
   updated in place.
+- 2026-07-28 — subjects ruling (DK, in-session to 665163f0):
+  Bowker primary FIC032000 (FICTION / War & Military) ALONE —
+  Bowker's form does not expose the recommended secondary
+  (BUS017000 Decision-Making & Problem Solving). The three-
+  category KDP recommendation (War & Military fiction /
+  Decision-Making / Leadership) banked in cover-brief.md for
+  title setup.
 
 ## Entity index
 

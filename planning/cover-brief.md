@@ -372,6 +372,18 @@ IMPRINT + ISBN (DK rulings, 2026-07-28, in-session to 665163f0):
 - **Catalog cover JPG**: `make cover` now also emits
   build/cover/the-baltic-approaches-cover.jpg (trim-cropped,
   300dpi, ~0.8MB — inside Bowker's JPG-only, ≤5MB upload spec).
+- **Subjects/genres (DK ruling 2026-07-28):** Bowker carries
+  **FIC032000 FICTION / War & Military alone** — the intended
+  secondary, BUS017000 Decision-Making & Problem Solving, is not
+  exposed by Bowker's form, so primary-only stands for now. The
+  positioning analysis is BANKED for KDP title setup, where three
+  categories are allowed: (1) Fiction / War & Military, (2)
+  Decision-Making & Problem Solving, (3) Leadership — the
+  Goal-slot crossover claim (business-novel precedent: The Goal
+  and Phoenix Project both shelve business-first; one honest
+  crossover code is positioning, three is spam). Rejected:
+  Philosophy / Career Development (wrong promise), Military Art
+  and Science (redundant with the fiction primary).
 - **ISBN, provisional: 979-8-9973189-0-1** (paperback/POD;
   Bowker 979-8 block; check digit machine-verified). Applied to
   the notices line same day. PROVISIONAL until DK submits the

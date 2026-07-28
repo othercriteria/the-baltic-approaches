@@ -728,6 +728,15 @@ read bottom-up; order is always recoverable from dates and git.
   mirrored running heads and gutter at pp.2-3; colophon recto
   at the tail; KDP's own "Proof" end-sheet (absent from retail
   copies). No deviations found.
+- 2026-07-28 — pricing desiderata banked (DK, in-session to
+  665163f0; full text in cover-brief.md): the experiment
+  framing ("reconnaissance in force"), sign-over-magnitude on
+  profit, DK's explicit non-speaking for the Claude entities'
+  expectations, credibility-signal dominance, no traditional
+  marketing, the planned book site, and the future-scope note
+  on a marketing agent with its dispossession/alignment
+  caveats. Session recommendation pending DK ruling: list
+  $17.95 (the trade-paperback credibility band).
 
 ## Entity index
 

@@ -392,7 +392,24 @@ IMPRINT + ISBN (DK rulings, 2026-07-28, in-session to 665163f0):
   196pp × $0.012. Royalty at 60% list-minus-print: e.g. $16.95
   list → $6.82/copy Amazon channel; floor list ≈ $5.59
   ($3.35/0.60). List price NOT yet ruled.
-- **KDP Print Previewer findings (2026-07-28, DK screenshots;
+- **Pricing desiderata (DK, 2026-07-28, banked before any
+  ruling):** (1) The project is an experiment — "reconnaissance
+  in force" — into working with agents on large tasks; no
+  profitability expectation over any timeframe. (2) To the
+  extent profit interests DK it is the SIGN, not magnitude, in
+  expectation; near-indifference over gradations of mildly
+  profitable. (3) DK explicitly does not speak for the Claude
+  entities' expectations. (4) **Price is a credibility signal
+  and the dominant consideration short-term.** (5) No
+  traditional marketing beyond DK's own low-key social media
+  and aligned friends. (6) A lightweight book site likely at
+  mesokurtosis.com/the-baltic-approaches or
+  valueof.info/the-baltic-approaches. (7) Possible future:
+  apparatus for a Claude agent doing marketing (email/social/
+  CMS affordances) — DK notes the dispossession/alignment
+  questions get more fraught as such support shades from
+  professional toward creative, the text being locked. No
+  commitment; future-scope only.
   submission at `first-281500ZJUL26`):** PASSED, no blockers.
   (1) The "removed non-printable markup, check p.5" notice =
   the TOC's hyperlink annotations (pandoc/hyperref), stripped

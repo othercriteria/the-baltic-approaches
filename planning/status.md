@@ -1146,8 +1146,7 @@ screen 173pp under the new build names; narrative 50,428
   header); screen build now bookended — cover as page 1 and the
   wrap's back panel as the last page (175pp, DK directives); the
   WRAP PROGRAM first-executed in draft (`make cover-wrap`,
-  SPINE_IN parameterized at the assumed 0.49in; brief-unruled
-  back-panel/spine values enumerated, DK ratification pending).
-  Remaining from the wrap list: DK ruling on the enumerated wrap
-  values; wrap re-run at printer actuals (cover-brief.md);
-  ISBN/imprint TKs; `final` tag last.
+  SPINE_IN parameterized at the assumed 0.49in) and its five
+  brief-unruled values RATIFIED 2026-07-28 (cover-brief.md items
+  10–14). Remaining from the wrap list: wrap re-run at printer
+  actuals (cover-brief.md); ISBN/imprint TKs; `final` tag last.

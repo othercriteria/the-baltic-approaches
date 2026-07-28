@@ -314,3 +314,22 @@ anything."):
    Alternative if DK prefers barer: no excerpt; the back carries
    only items 6(b)–(d). Either way the ruling lands in this file
    before the COMPLETE flip.
+
+EXECUTION VALUES RATIFIED (DK, 2026-07-28, in-session to 665163f0:
+"Aligned with those values."). The first draft execution of this
+program (`make cover-wrap`, apparatus/cover-wrap.tex) surfaced five
+values items 1–9 do not rule; all five ratified as built:
+
+10. **Back-panel scale.** Excerpt 11.5pt/17pt (the front byline's
+    size), attribution 9.5pt, pointer 8pt, credit 7.5pt —
+    hierarchy strictly descending by size, per item 4.
+11. **Excerpt block.** 3.7in measure, ragged right, upper-middle
+    of the panel; attribution flush right beneath.
+12. **Elision mark.** Literal bracketed [\,…\,] — the honest
+    abridgment mark. Play it straight extends to punctuation.
+13. **Spine row sizes.** Title 14pt / byline 8.5pt at the assumed
+    0.49in spine (measured clearances 0.093/0.097in); tracking
+    matches the front faces (19/30). Recompute at actuals; the
+    byline-drop fallback of item 5 stands.
+14. **Sentence spacing.** \frenchspacing on the back panel,
+    matching the interior (apparatus/latex-header.tex).

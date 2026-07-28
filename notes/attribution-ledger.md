@@ -618,6 +618,12 @@ read bottom-up; order is always recoverable from dates and git.
   screen build extended to carry the wrap's back panel as its
   last page (cover p.1 + back panel last, 175pp) — the one-file
   product view.
+- 2026-07-28 — wrap execution values RATIFIED (DK, in-session to
+  665163f0: "Aligned with those values."). The five brief-unruled
+  values from the draft execution stand as built; recorded as
+  items 10–14 in planning/cover-brief.md's wrap requirements.
+  The wrap program now awaits only printer actuals (spine width,
+  ISBN/barcode) for its mechanical re-run.
 
 ## Entity index
 

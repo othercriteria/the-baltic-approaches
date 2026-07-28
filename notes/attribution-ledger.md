@@ -660,6 +660,10 @@ read bottom-up; order is always recoverable from dates and git.
   category KDP recommendation (War & Military fiction /
   Decision-Making / Leadership) banked in cover-brief.md for
   title setup.
+- 2026-07-28 — paper ruling (DK, in-session to 665163f0, after
+  the cream/groundwood/white walkthrough): **CREAM banked** —
+  the wrap's built 0.49in spine at 196pp is thereby the KDP
+  actual. Grounds recorded in cover-brief.md.
 
 ## Entity index
 

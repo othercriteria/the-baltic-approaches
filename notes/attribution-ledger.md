@@ -593,6 +593,17 @@ read bottom-up; order is always recoverable from dates and git.
   note added; this session's own start entry relocated here
   from the top of that block, text unchanged, so chronological
   append resumes from this point.
+- 2026-07-27 — screen-build change (DK directive, in-session to
+  665163f0): the screen PDF now carries the cover as page 1.
+  `pdf-screen` depends on `cover`, crops the 0.125in bleed to
+  trim (pdfjam) so page sizes match, and prepends it with qpdf
+  keeping the interior primary — title/author metadata and
+  outlines survive. Screen now 174pp (was 173); trade interior
+  and the cover artifact itself untouched. Verified: uniform
+  5.5x8.5in pages, page-1 render eyeballed, type clear of the
+  crop. Logged errata-tier out of caution, though it assembles
+  only ratified artifacts and changes nothing about the book
+  itself.
 
 ## Entity index
 

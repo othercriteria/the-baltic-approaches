@@ -1134,3 +1134,16 @@ the-baltic-approaches(-private), descriptions updated;
 State: main == origin, tree clean at wrap commit; trade 196pp /
 screen 173pp under the new build names; narrative 50,428
 (measured, unchanged all session). The book is made.
+
+---
+
+## POST-COMPLETION SERVICE LOG (sessions under COMPLETE)
+
+- 2026-07-27 — session 665163f0: e3137278 archived (raw + 2073-msg
+  export; wrap-list items 2-3 closed); entity-index hygiene (stale
+  export placeholders, row-1 sort); lineage-log ordering ruling
+  executed (oldest-first append; flipped block flagged in the log
+  header); screen build now carries the cover as page 1 (174pp,
+  DK directive). Remaining from the wrap list: wrap program at
+  printer actuals (cover-brief.md), ISBN/imprint TKs, `final` tag
+  last.

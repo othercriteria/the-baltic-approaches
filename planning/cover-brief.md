@@ -333,3 +333,22 @@ values items 1–9 do not rule; all five ratified as built:
     byline-drop fallback of item 5 stands.
 14. **Sentence spacing.** \frenchspacing on the back panel,
     matching the interior (apparatus/latex-header.tex).
+
+KDP ACTUALS VERIFICATION (web pass, 2026-07-28, official help +
+cross-checks — for the executor when actuals arrive; KDP is the
+presumptive vendor, cream paper):
+
+- Spine factor: cream = 0.0025in/page, **official** (white
+  0.002252) — item 1's "assumption" is KDP-cream's actual; at
+  196pp the built 0.49in IS the actual.
+- Barcode: KDP auto-places 2.0×1.2in lower-right if none is
+  supplied, and its barcode ships its own white knockout box over
+  whatever is beneath — the dark field with the zone kept clear of
+  type is correct as built; nothing to add at actuals unless DK
+  supplies own ISBN/barcode.
+- Spine text: allowed for >79 pages (196 ✓); KDP's clearance
+  floor is 0.0625in text-to-edge — the brief's 0.09in floor is
+  stricter and passes it automatically.
+- Trim: 5.5×8.5in is a standard KDP paperback trim.
+- Caveat: numbers re-checked 2026-07-28; still confirm against
+  KDP's cover calculator/template at title setup.

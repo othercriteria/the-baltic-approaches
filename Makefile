@@ -37,7 +37,10 @@ DRAFT_DIR = drafts
 SOURCES = $(sort $(wildcard $(DRAFT_DIR)/*.md))
 # Front matter: apparatus, not narrative — in the PDF, never in wordcount
 FRONT_MATTER = $(wildcard apparatus/front-matter.md)
-DRAFT_STAMP = Draft three · $(shell date +%Y-%m-%d) · $(shell git rev-parse --short HEAD)
+# Bumped from "Draft three" at the post-COMPLETE wrap work (DK
+# directive 2026-07-28): the book is made; the stamp keeps date +
+# commit as build provenance on the notices page.
+DRAFT_STAMP = Final · $(shell date +%Y-%m-%d) · $(shell git rev-parse --short HEAD)
 
 # Body face — the SINGLE source of truth for the book's face. Both the
 # PDF build (mainfont) and the map plates (`make maps`, label face)

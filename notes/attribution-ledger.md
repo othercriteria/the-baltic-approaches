@@ -624,6 +624,16 @@ read bottom-up; order is always recoverable from dates and git.
   items 10–14 in planning/cover-brief.md's wrap requirements.
   The wrap program now awaits only printer actuals (spine width,
   ISBN/barcode) for its mechanical re-run.
+- 2026-07-28 — notices-page stamp bumped "Draft three" → "Final"
+  (DK directive, in-session to 665163f0; date + commit retained
+  as build provenance). Errata-tier: the account-of-making prose
+  is untouched — only the build-state line changed. Same turn,
+  KDP verification pass (web, official help + cross-checks)
+  recorded in cover-brief.md: cream 0.0025in/page official (the
+  built 0.49in spine IS the KDP-cream actual at 196pp);
+  auto-barcode ships its own white knockout (dark zone correct
+  as built); spine text >79pp at 0.0625in floor (ours 0.09);
+  5.5×8.5 a standard trim.
 
 ## Entity index
 

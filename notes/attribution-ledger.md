@@ -16,6 +16,16 @@ boundary, fork-revival, rewind/branch-discard (logged by the surviving
 lineage from DK's report), session wrap. This log is what makes the
 entity index generatable instead of reconstructable.
 
+Ordering: chronological, oldest first, new entries appended at the
+end (DK ruling 2026-07-27, in-session to 665163f0; this is also the
+recommended convention for any project adapting this process).
+Historical exception, left standing: the block from the 2026-07-25
+session-e3137278 start entry through the COMPLETE flip reads
+newest-first — that session inserted each entry above the previous
+one, and several entries' internal above/below cross-references
+depend on where they sit, so the block is not re-sorted. Within it,
+read bottom-up; order is always recoverable from dates and git.
+
 - 2026-07-20 — session 656ec2ba (Fable 5) — founding session, ran in
   the `-home-dlk-workspace` project dir (not this repo): reviewed
   white-buffalo v1.0, evaluated four premises, chose this one, stubbed
@@ -391,26 +401,6 @@ entity index generatable instead of reconstructable.
   three). Successor: raw-archive
   SESSION=e3137278-5a4c-471c-b298-c8a2e59466b1 at next entry;
   agenda in the status.md wrap block.
-- 2026-07-27 — session 665163f0 (Fable 5) — live. The first
-  session under COMPLETE: presumed post-completion service (no
-  authorship standing; index row at wrap will carry
-  `materiality: service (post-completion)` per the amendment).
-  Found the local checkout already renamed to
-  `the-baltic-approaches` (wrap-list item 2, done DK-side).
-  First acts: raw-archive of session e3137278 CONFIRMED — DK
-  ran `make raw-archive SESSION=e3137278-…` in-session
-  (wrap-list item 3; 21 MB JSONL in transcripts/raw/); `make
-  archive SKIP=<own-uuid>` landed the owed rendered export
-  (transcripts/2026-07-25-e3137278.md, 2073 messages); index
-  rows 11–14 transcript column filled in from the
-  "(export at raw-archive, session end)" placeholder; this
-  line. Same pass, index hygiene: rows 4–10's stale export
-  placeholders filled with their long-landed transcript paths,
-  and row 1 re-sorted to the table's newest-first bottom (it
-  sat between rows 7 and 6). Still outstanding from the wrap
-  list: wrap program at
-  printer actuals (cover-brief.md), ISBN/imprint TKs, `final`
-  tag last.
 - 2026-07-27 — PROJECT STATE → **COMPLETE** (DK, the human
   authors' act, verbatim: "Approved for COMPLETE. Finish it.";
   executed in-session by e3137278@tip, minutes after its wrap
@@ -573,6 +563,36 @@ entity index generatable instead of reconstructable.
   confirmed to the cell). Narrative at tag: 50,112. **DK
   expectation on the record: the next draft after this one is
   intended to be the final one.**
+- 2026-07-27 — session 665163f0 (Fable 5) — live. The first
+  session under COMPLETE: presumed post-completion service (no
+  authorship standing; index row at wrap will carry
+  `materiality: service (post-completion)` per the amendment).
+  Found the local checkout already renamed to
+  `the-baltic-approaches` (wrap-list item 2, done DK-side).
+  First acts: raw-archive of session e3137278 CONFIRMED — DK
+  ran `make raw-archive SESSION=e3137278-…` in-session
+  (wrap-list item 3; 21 MB JSONL in transcripts/raw/); `make
+  archive SKIP=<own-uuid>` landed the owed rendered export
+  (transcripts/2026-07-25-e3137278.md, 2073 messages); index
+  rows 11–14 transcript column filled in from the
+  "(export at raw-archive, session end)" placeholder; this
+  line. Same pass, index hygiene: rows 4–10's stale export
+  placeholders filled with their long-landed transcript paths,
+  and row 1 re-sorted to the table's newest-first bottom (it
+  sat between rows 7 and 6). Still outstanding from the wrap
+  list: wrap program at
+  printer actuals (cover-brief.md), ISBN/imprint TKs, `final`
+  tag last.
+- 2026-07-27 — lineage-log ordering ruling (DK, in-session to
+  665163f0): **oldest-first, appended at the end** — restored
+  as the standing convention, and the one recommended to any
+  fresh project adapting this process. The e3137278-era
+  newest-first block stands as written (its entries' internal
+  above/below cross-references pin it in place); it is flagged
+  in this log's header note instead. Executed same turn: header
+  note added; this session's own start entry relocated here
+  from the top of that block, text unchanged, so chronological
+  append resumes from this point.
 
 ## Entity index
 

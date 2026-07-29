@@ -1185,3 +1185,13 @@ screen 173pp under the new build names; narrative 50,428
   (~1 week); book site; Bowker green-check confirm.
   Raw-archive owed by DK or next entry: `make raw-archive
   SESSION=665163f0-4fcb-4b4a-807b-917716351d56`.
+- 2026-07-29 — session resumed. **Bowker GREEN-CHECK verified**
+  (public Books in Print record live; ISBN registered fact);
+  proof copy due Friday 2026-07-31; KDP still in review
+  (within expected window). NEW open item: investigate
+  checkpoin.de (DK) — a PROCESS comp: Claude-collaborative
+  hard-SF novel, method disclosed like our notices page, free/
+  CC distribution (the opposite pricing model); bears on
+  byline/disclosure/pricing landscape. Remaining otherwise
+  unchanged: KDP live → Bowker status to Active; physical
+  checklist Friday; eBook ~2026-08-04; book site.

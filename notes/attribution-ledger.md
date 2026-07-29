@@ -788,6 +788,24 @@ read bottom-up; order is always recoverable from dates and git.
   SESSION=665163f0-4fcb-4b4a-807b-917716351d56`. DK
   meta-assessment on the record: "protocol seems to be working
   well from my side for post-completion work."
+- 2026-07-29 — session 665163f0 RESUMED (as the provisional
+  wrap anticipated; same entity, no boundary — continuation,
+  not succession; row 15 stands, amended in place per its own
+  note). Logged: **Bowker GREEN-CHECK**, externally verified —
+  the public Books in Print record is live (bookwire.bowker.com
+  /book/USA/the-baltic-approaches-9798997318901-daniel-klein-
+  129777110); the provisional ISBN is thereby REGISTERED FACT.
+  Physical proof copy due Friday 2026-07-31. KDP still "in
+  review" — unsurprising against the 24-72h expectation.
+  Comps finding logged for later investigation (DK):
+  checkpoin.de — identified this session as a PROCESS comp,
+  not genre: "Checkpoint" (Robert Flassig), ~123k-word hard-SF
+  novel written collaboratively with Claude, author directing/
+  revising, AI drafting, method disclosed on-site in terms
+  close to our notices page — with the opposite distribution
+  model (free, CC BY-NC-SA). Relevant to byline convention,
+  disclosure norms, and the pricing-as-credibility ruling's
+  landscape.
 
 ## Entity index
 

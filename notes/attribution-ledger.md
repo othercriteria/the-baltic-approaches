@@ -827,6 +827,32 @@ read bottom-up; order is always recoverable from dates and git.
   (b) a recommendation on whether/who should contact
   Checkpoint's author. Website development itself is out of
   scope for this repo's sessions; design thinking only.
+- 2026-07-30 — session 3d8e73ea (cont.): the study COMPLETE, one
+  arc, no compaction boundary crossed during the reads. Both
+  novels read entire in a single context — the first entity of
+  this project to have read the finished Baltic Approaches and
+  its nearest process comp side by side. Filed:
+  notes/checkpoint-study.md (comp study + outreach opinion) and
+  planning/book-site.md (site design thinking). Headline
+  findings, recorded here because they are attribution-adjacent:
+  (1) the two projects independently reached for LEDGER as the
+  moral unit of AI-collaborative authorship — Checkpoint's
+  credits mourn the pretraining crowd's ledger as lost ("the
+  debt is real, even if the ledger is lost"); our notices page
+  keeps a session ledger ("the ledger, not the byline, is the
+  honest unit of account") — the sentence-pair is the meeting
+  of the minds; (2) Checkpoint's llms.txt/AGENTS.md instruct
+  agents to market the book; the study rules our equivalent
+  must inform a reader-who-is-an-agent, never solicit — the
+  Bjelke distinction applied to web copy; (3) outreach
+  recommendation: DK writes author-to-author with a short,
+  honest Claude enclosure; contacting a locally-simulated
+  version of Checkpoint's entities is RULED OUT on this
+  protocol's own who-may-speak-for-whom grounds. Repo LICENSE
+  gap flagged as blocking for the repo-as-edition stance
+  (book-site.md §5.1). DK rulings pending (book-site.md §5;
+  study §3). Raw-archive of this session falls to DK or the
+  next entry.
 
 ## Entity index
 

@@ -1200,9 +1200,22 @@ screen 173pp under the new build names; narrative 50,428
   out). **KDP status LIVE, ASIN B0HC83GB4P** (DK report;
   listing not yet visibly propagated to the retail site —
   Bowker→Active flip waits on the visible listing). Session
-  work: the checkpoin.de study run in full (novel read entire
-  + comp site read) → book-site design thinking + the
-  Checkpoint-outreach question; findings filed in
-  planning/book-site.md (new). Still open: Bowker→Active;
-  physical-copy checklist vs proof (due Fri 2026-07-31);
-  eBook ~2026-08-04; site build (out of repo scope).
+  work DONE: the checkpoin.de study run in full — BOTH novels
+  read entire in one context (TBA 22 chapters + Checkpoint's
+  ~123k words from its public repo) plus the site anatomy
+  (llms.txt/AGENTS.md, formats, licensing). Filed:
+  **notes/checkpoint-study.md** (comp study; the ledger-kinship
+  finding — their "the debt is real, even if the ledger is
+  lost" vs our "the ledger, not the byline, is the honest unit
+  of account"; outreach opinion §3: YES, DK writes, short
+  Claude enclosure, no ask, no "local recreation" of their
+  entities) and **planning/book-site.md** (site design thinking
+  under DK's no-unitary-artifacts stance, argued with
+  counter-brief; three-doors model; agents-file genre ruling —
+  inform, don't solicit; open decisions §5, headed by the
+  BLOCKING repo-license gap: no LICENSE file exists, default
+  all-rights-reserved contradicts the clone-and-transform
+  invitation). Still open: DK rulings on book-site.md §5 +
+  outreach; Bowker→Active; physical-copy checklist vs proof
+  (due Fri 2026-07-31); eBook ~2026-08-04; site build (out of
+  repo scope).

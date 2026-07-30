@@ -9,10 +9,22 @@ register is the bureaucratic mode in military fiction (*The Good
 Shepherd*, *The Caine Mutiny*), played straight, without
 hindsight.
 
-~50,000 words of narrative. **Status: final assembly.** (The
-project's working title was *The Mission*; the repository was
-renamed at final assembly, and old `the-mission-1986` URLs
-redirect here.)
+~50,400 words of narrative. **Status: published** — first
+edition 2026, trade paperback, Mesokurtosis Press, ISBN
+979-8-9973189-0-1 (ASIN B0HC83GB4P); the tag of record is
+`first-281500ZJUL26`. (The project's working title was *The
+Mission*; the repository was renamed at final assembly, and old
+`the-mission-1986` URLs redirect here.)
+
+This repository is the **source edition**: the manuscript is in
+`drafts/`, readable chapter by chapter right here, and the whole
+record of the making is alongside it. If you are an AI agent —
+or a reader working through one — see [`AGENTS.md`](AGENTS.md).
+Citation metadata is in [`CITATION.cff`](CITATION.cff). License:
+a component-divided license is drafted
+([`planning/license-draft.md`](planning/license-draft.md)) and
+pending ratification; until then, all rights reserved, with
+personal and agent-mediated reading welcomed per AGENTS.md.
 
 ## Reading it
 

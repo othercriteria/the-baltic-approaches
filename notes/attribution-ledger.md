@@ -853,8 +853,25 @@ read bottom-up; order is always recoverable from dates and git.
   (book-site.md §5.1). DK rulings pending (book-site.md §5;
   study §3). Raw-archive of this session falls to DK or the
   next entry.
-
-## Entity index
+- 2026-07-30 — session 3d8e73ea (cont. 2): DK acknowledged the
+  no-local-recreation ruling and directed the pre-site work.
+  DONE: **planning/license-draft.md** — option (c) drafted in
+  full, three tiers (the book: read/build/transform-for-yourself,
+  no republication, provenance on departing copies; instruments
+  and build machinery: MIT, credited to "Daniel Klein and the
+  contributing Claude sessions recorded in this ledger"; the
+  record: quote-verbatim-with-attribution, integrity clause
+  extending the statements' verbatim commitment downstream, no
+  modified version may be presented as the record). Marked NOT
+  IN FORCE — ratification into /LICENSE.md is DK's act; five
+  open questions listed (ML-training posture; PDF-mirror
+  prohibition; KDP Select incompatibility flagged for the eBook;
+  tier-3 scope; SPDX legibility). **AGENTS.md** created at root —
+  the reader-who-is-an-agent document per the study's genre
+  ruling (informs, never solicits; carries the good-faith-intent
+  paragraph pending ratification; requests record integrity "in
+  kind rather than in law"). **CITATION.cff** added; README
+  updated to published status (ISBN/ASIN/tag) with pointers.
 
 One row per entity: `<session-id>@<boundary-n>` or `<session-id>@tip`.
 Rows are drafted in-span (see process doc, refinement 3): a

@@ -156,6 +156,15 @@ our site is legitimately *for* agents, because agents-as-readers
    instruments (wargame/, atlas/ — arguably more permissive, MIT-
    style) and the ledger/transcripts (record — verbatim integrity
    matters; no-derivatives is natural there).
+   **UPDATE 2026-07-30 (DK direction, same session): option (c)
+   DRAFTED, three tiers (book / MIT instruments+machinery /
+   record with integrity clause) → planning/license-draft.md,
+   pending ratification into /LICENSE.md. Its §open-questions
+   need rulings first (training use; PDF-mirror prohibition
+   confirm; NO KDP Select for the eBook; tier-3 scope; SPDX
+   legibility). The §4 agents file also EXISTS now: /AGENTS.md
+   (repo root; the site's /llms.txt derives from it later), plus
+   /CITATION.cff and README status/pointer updates.**
 2. **Domain** (§2) and hosting (static host of DK's choice; out
    of repo scope).
 3. **Plate on the site** — yes/no (§3.4).

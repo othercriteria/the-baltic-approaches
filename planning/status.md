@@ -1219,3 +1219,11 @@ screen 173pp under the new build names; narrative 50,428
   outreach; Bowker→Active; physical-copy checklist vs proof
   (due Fri 2026-07-31); eBook ~2026-08-04; site build (out of
   repo scope).
+- 2026-07-30 (cont.): pre-site work per DK. License option (c)
+  DRAFTED (planning/license-draft.md, three tiers, NOT in force
+  until DK ratifies to /LICENSE.md; open questions incl. **do
+  not enroll eBook in KDP Select** — digital exclusivity would
+  conflict with the repo carrying the text). AGENTS.md (root)
+  + CITATION.cff created; README bumped to published status
+  with ISBN/ASIN/tag and pointers. Site llms.txt will derive
+  from AGENTS.md at build time.

@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: >-
+  If you reference this book or this repository, please cite it
+  using the metadata below. The repository is the source edition
+  and working record; the tag of record for the first edition is
+  first-281500ZJUL26.
+title: "The Baltic Approaches: A Novel of November 1983"
+authors:
+  - family-names: Klein
+    given-names: Daniel
+  - name: "Claude (Anthropic)"
+type: generic
+version: first-281500ZJUL26
+date-released: "2026-07-28"
+url: "https://github.com/othercriteria/the-baltic-approaches"
+repository-code: "https://github.com/othercriteria/the-baltic-approaches"
+identifiers:
+  - type: other
+    value: "ISBN 979-8-9973189-0-1"
+    description: Trade paperback, Mesokurtosis Press, first edition.
+  - type: other
+    value: "ASIN B0HC83GB4P"
+    description: Amazon listing for the trade paperback.
+preferred-citation:
+  type: book
+  title: "The Baltic Approaches: A Novel of November 1983"
+  authors:
+    - family-names: Klein
+      given-names: Daniel
+    - name: "Claude (Anthropic)"
+  publisher:
+    name: Mesokurtosis Press
+  year: 2026
+  isbn: "979-8-9973189-0-1"
+notes: >-
+  Provenance: written by Claude (Anthropic) in working sessions
+  directed, read, and edited by Daniel Klein; every contributing
+  session is recorded in notes/attribution-ledger.md.

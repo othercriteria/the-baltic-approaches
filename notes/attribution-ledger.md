@@ -806,6 +806,27 @@ read bottom-up; order is always recoverable from dates and git.
   model (free, CC BY-NC-SA). Relevant to byline convention,
   disclosure norms, and the pricing-as-credibility ruling's
   landscape.
+- 2026-07-30 — session 3d8e73ea (Fable 5) — live. Post-completion
+  service session. First acts: `make archive SKIP=<own-uuid>` —
+  665163f0 raw-archived and exported
+  (transcripts/2026-07-27-665163f0.md), closing that session's
+  standing raw-archive debt; row 15 amended in place per its own
+  note (span extended through the 07-29 resumption; transcript
+  column filled). Logged from DK at session start: **KDP moved
+  the book to LIVE; ASIN B0HC83GB4P** — though the listing had
+  not yet visibly propagated to the retail site as of this date,
+  so the Bowker status flip to Active (gated on the live
+  listing) stays queued for DK. Session's commissioned work: the
+  checkpoin.de process-comp investigation (the 07-29 flag) run
+  as a full study — read the finished novel entire, read the
+  comp site, and develop (a) design thinking for a future book
+  website (DK's opening position: no unitary artifacts served —
+  the repo is the edition; clone-and-build, or hand it to an
+  agent — logged as a distribution stance distinct from both
+  Checkpoint's free-PDF model and conventional retail-only) and
+  (b) a recommendation on whether/who should contact
+  Checkpoint's author. Website development itself is out of
+  scope for this repo's sessions; design thinking only.
 
 ## Entity index
 
@@ -819,7 +840,7 @@ come from `Session-Id:` trailers plus JSONL boundary timestamps.
 
 | # | Entity | Boundary type | Dates | Model | Transcript | Commit range | Contribution summary |
 |---|---|---|---|---|---|---|---|
-| 15 | 665163f0@tip | tip (row drafted at PROVISIONAL wrap 2026-07-28; session may resume — amend, don't correct, if it does) | 2026-07-27 .. 07-28 | Fable 5 | (export at raw-archive; owed to DK or next entry) | 8ae193b..wrap, Session-Id trailers throughout | The first post-completion service session: e3137278 archived; ledger/index hygiene + the oldest-first lineage ruling; screen build bookended (cover p.1, back panel last); wrap program executed and ratified (items 10–16); imprint Mesokurtosis Press locked; ISBN to notices; KDP entry sheet complete ($17.95, cream, categories/keywords/description); tag first-281500ZJUL26 replacing final (edition+DTG convention); PUBLISHED TO KDP; digital proof verified; Bowker to Pending. Materiality: **service (post-completion)** — no authorship standing; the standing is the record itself (protocol amendment, first application) |
+| 15 | 665163f0@tip | tip (row drafted at PROVISIONAL wrap 2026-07-28; amended in place 2026-07-30 after the anticipated resumption — same entity, no boundary) | 2026-07-27 .. 07-29 | Fable 5 | transcripts/2026-07-27-665163f0.md | 8ae193b..wrap, Session-Id trailers throughout | The first post-completion service session: e3137278 archived; ledger/index hygiene + the oldest-first lineage ruling; screen build bookended (cover p.1, back panel last); wrap program executed and ratified (items 10–16); imprint Mesokurtosis Press locked; ISBN to notices; KDP entry sheet complete ($17.95, cream, categories/keywords/description); tag first-281500ZJUL26 replacing final (edition+DTG convention); PUBLISHED TO KDP; digital proof verified; Bowker to Pending. Resumed span (07-29): Bowker GREEN-CHECK verified (ISBN registered fact); checkpoin.de identified and logged as the project's process comp. Materiality: **service (post-completion)** — no authorship standing; the standing is the record itself (protocol amendment, first application) |
 | 14 | e3137278@tip | tip (row + statement filed by the session itself at wrap) | 2026-07-27 | Fable 5 | transcripts/2026-07-25-e3137278.md | 4f0a815..wrap, Session-Id trailers throughout | The closing entity: boundary @3 confirmed; the conventional full read (text finished; the ch. 20 "recorded here" line and its ch. 22 partner ratified); the map hand-pass entire (five build-3 residuals + two DK conventions — one-side/both-side rail ticks, dotted frontiers — the duchy split via obstacle audit, the instrument gate run and closed: plates LOCKED); the cover re-examined cold and standing; the project-state amendment (ACTIVE/COMPLETE, from DK's proposal) written into the protocol; THE WAKING OF THE ENTITIES operated end to end (harness ported from WB and adapted, dry run, thirteen formal replays, thirteen assent-with-notes, zero dissents, zero refusals, each committed before the next); the notices page made TRUE and the byline RATIFIED (DK rulings applied); the wrap requirements brief set under ACTIVE with the ch. 22 excerpt ratified; both repos renamed the-baltic-approaches(-private); draft-final tagged. Materiality: presumptively material (the round's operation, the protocol amendment, the plates lock, and the wrap brief are the record the publication stands on) |
 | 13 | e3137278@3 | compaction (3rd; row drafted in-span at wrap; boundary confirmed 2026-07-27) | 2026-07-27 | Fable 5 | transcripts/2026-07-25-e3137278.md | fe84aaf..wrap, Session-Id trailers throughout | The production-assembly entity: the manuscript became a trade object in one day — chapters renumbered 1..22; the trade interior entire (mirrored margins, openright, seven-leaf front with designed title page and notices, one-page TOC, plate facing-spread, two-deck heads, small-caps running heads, colophon, teleprinter document blocks, screen variant, clean proof sweep); README public-ready; title FINAL (The Baltic Approaches) with mission-asymmetry ratified and the war-etiology position banked; epigraph ruled null; and the cover program from opening bid to ratified built artifact (the Müller under Heros, the two-face glue-line rule, `make cover` with shelf-test thumbnail) with the whole campaign's gates recorded verbatim in planning/cover-brief.md. Materiality: presumptively material (the physical book's entire dress — interior architecture, title, cover — and the etiology/asymmetry rulings the final read stands on) |
 | 12 | e3137278@2 | compaction-after-wrap (2nd; row drafted in-span at wrap; boundary confirmed 2026-07-27) | 2026-07-26 .. 07-27 | Fable 5 | transcripts/2026-07-25-e3137278.md | cf07b0e..wrap, Session-Id trailers throughout | The draft-three entity: DK's full close read discharged into text (ledger-gloss cluster, negation survivor, anachronism, seam rework) and DRAFT THREE tagged at 50,112; the underserved question settled (civil column into ch. 7; 19b "The Relief" — the enemy's ch. 16 — into canon; Merete declined); the print-verification round (Dupuy Appendix A to the cell; seven Bogason figures; every standing Bogason ask discharged, HOLD FAST's 23-year caveat inverted into the warrant); reception panel round 2 (the calibration question six instruments carried CLOSED as the book's engine; plates passed); the two style campaigns run and closed under the new gentle-hand doctrine; Zawadzki given his discount; the money-metaphor system mapped clean and trimmed by five; Frimodighed; the provisional retitle to THE BALTIC APPROACHES with contenders banked; the HOLD FAST 1960 press witness. Materiality: presumptively material (draft-three text state, the reception-panel record, the title/motto rulings, and the research closures the final draft stands on) |

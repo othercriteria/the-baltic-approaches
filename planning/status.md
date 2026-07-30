@@ -1195,3 +1195,14 @@ screen 173pp under the new build names; narrative 50,428
   byline/disclosure/pricing landscape. Remaining otherwise
   unchanged: KDP live → Bowker status to Active; physical
   checklist Friday; eBook ~2026-08-04; book site.
+- 2026-07-30 — session 3d8e73ea (fresh). Archive swept
+  (665163f0 raw-archived + exported; its index row 15 closed
+  out). **KDP status LIVE, ASIN B0HC83GB4P** (DK report;
+  listing not yet visibly propagated to the retail site —
+  Bowker→Active flip waits on the visible listing). Session
+  work: the checkpoin.de study run in full (novel read entire
+  + comp site read) → book-site design thinking + the
+  Checkpoint-outreach question; findings filed in
+  planning/book-site.md (new). Still open: Bowker→Active;
+  physical-copy checklist vs proof (due Fri 2026-07-31);
+  eBook ~2026-08-04; site build (out of repo scope).

@@ -1268,3 +1268,21 @@ screen 173pp under the new build names; narrative 50,428
   two built plate PDFs so full builds don't need Chromium — both
   touch printing apparatus. Next: DK re-tests from web Claude
   Code (real checkout; risk shifts to TeX toolchain).
+- 2026-07-31 (cont. 3): **CHROME-FREE ASSEMBLY LANDED**
+  (DK-directed; supersedes the screen-lite/committed-plates
+  proposals). Three undeclared host deps closed: google-chrome
+  (→ rsvg-convert via librsvg in flake; converter chain in
+  svg2pdf.py), pdfjam (→ texliveSmall.withPackages), PIL
+  (→ flake python pillow). MEASUREMENT FINDING: Chromium had
+  rendered plate text ~12% below spec (geometry exact; FreeType
+  + rsvg agree with spec) — the locked plates assume the
+  smaller labels, so atlas/render.py now carries TEXT_SCALE=0.88
+  to preserve the ratified appearance under a spec-correct
+  converter; residuals quantified NON-MATERIAL in map-spec.md
+  (converter-switch entry): untracked labels glyph-for-glyph,
+  display-text tracking 3-6% narrower (collision-safe,
+  centered), AA-halo floor 2.7% px >64/255, page box now exact
+  where Chrome rounded. Verified end-to-end in nix develop:
+  trade 196pp, screen 175pp, suite 112 green, narrative 50,428
+  unchanged. AGENTS.md no-nix guidance now a pure apt list (no
+  browser). Ready for the web Claude Code re-test.

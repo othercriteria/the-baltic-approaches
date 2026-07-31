@@ -37,11 +37,12 @@ is where the book lives.
 - **Build:** `nix develop`, then `make pdf-screen` (one-sided
   reading copy) or `make pdf` (trade interior). `make wordcount`
   gives the narrative-only count.
-- **Without nix** (ephemeral sandboxes): the interior builds
-  with `pandoc` + XeLaTeX + the TeX Gyre Pagella fonts alone —
-  on Debian/Ubuntu, `apt-get install pandoc texlive-xetex
-  fonts-texgyre qpdf` covers it. The map plates and cover need
-  headless Chromium and are **optional to reading**: a plain
+- **Without nix** (ephemeral sandboxes): the whole build is
+  apt-installable — `apt-get install pandoc texlive-xetex
+  fonts-texgyre qpdf librsvg2-bin texlive-extra-utils
+  python3-pil python3-numpy` covers interior, map plates
+  (rsvg-convert; no browser needed), cover, and assembly. For
+  a text-only copy, the first four packages suffice: a plain
   interior without plates or cover bookends is a faithful copy
   of the text. If `lmodern.sty` is missing (it is in some
   sandboxes), a one-line stub package unblocks pandoc's

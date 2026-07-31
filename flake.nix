@@ -13,7 +13,9 @@
       # xetex + fontsrecommended (TeX Gyre Pagella) covers the
       # white-buffalo-style book build; extra collections are cheap to
       # add here later if the interior design asks for them.
-      texlive = pkgs.texliveSmall;
+      # pdfjam: the pdf-screen cover/back trim step (declared here
+      # 2026-07-31 — it had been leaking in from the host profile).
+      texlive = pkgs.texliveSmall.withPackages (ps: with ps; [ pdfjam ]);
     in
     {
       devShells.${system}.default = pkgs.mkShell {
@@ -29,7 +31,7 @@
           # Coding footprint (heftier than WB by design: wargaming models,
           # ledger tooling, fetch scripts). ruff + jq also serve the
           # user-level PostToolUse lint hooks.
-          (python3.withPackages (ps: with ps; [ numpy pytest ]))
+          (python3.withPackages (ps: with ps; [ numpy pytest pillow ]))
           ruff
           uv
           jq
@@ -37,6 +39,13 @@
           # PDF work: reading, QA renders, page surgery
           poppler-utils # pdftotext, pdftoppm, pdfinfo, pdfseparate, pdfunite
           qpdf
+
+          # Map plates: SVG -> vector PDF via rsvg-convert
+          # (Chrome-free assembly, 2026-07-31 — replaces the
+          # undeclared host google-chrome that scripts/svg2pdf.py
+          # leaned on; librsvg sets plate labels through the same
+          # fontconfig route xelatex uses for Pagella)
+          librsvg
 
           # Reference shelf: doctrine pubs arrive as scanned PDFs
           ocrmypdf # OCR layer for scanned docs (pulls tesseract + ghostscript)

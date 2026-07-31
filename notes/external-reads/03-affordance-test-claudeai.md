@@ -207,11 +207,16 @@ ratification, held on the permission side.
    warning (raw, never rendered blob) and minimal-build guidance
    (interior-only path; plates/cover optional to reading; deps
    without nix).
-2. Proposed to DK (not yet executed): a `make screen-lite`
-   interior-only target that degrades gracefully without
-   Chromium/pdfjam; and optionally committing the two built
-   plate PDFs (small, apparatus-tier) so full builds don't need
-   Chromium. Both touch printing apparatus, so they wait on DK.
+2. SUPERSEDED same day by the better fix, DK-directed:
+   **Chrome-free assembly** (see planning/map-spec.md, converter
+   switch entry). The plates now build with rsvg-convert; pdfjam
+   and pillow are declared in the flake; the full `make
+   pdf-screen` runs hermetically in `nix develop` and via plain
+   apt packages in sandboxes. The screen-lite/committed-plates
+   proposals are moot. One correction to this audit: the
+   responder guessed cover generation needs network — it does
+   not; the museum source raster is committed in
+   apparatus/cover-art/, and `make cover` is fully local.
 
 **Prediction for the web Claude Code re-test:** clone and
 enumeration will succeed (real checkout, real git); the risk

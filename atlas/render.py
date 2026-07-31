@@ -375,6 +375,20 @@ def offset_var(pts, halfs, sign):
     return out
 
 
+# Text-size compensation, measured 2026-07-31 (Chrome-free assembly).
+# The plates were designed, hand-passed, and RATIFIED under a
+# Chromium SVG->PDF conversion that rendered <text> ~12% below the
+# spec'd font-size (geometry was exact; FreeType ground truth and
+# rsvg agree with the spec — Chromium was the outlier). The locked
+# plate appearance therefore assumes the smaller labels, and the
+# label-collision hand-pass was tuned to them. This factor makes a
+# spec-correct converter (rsvg-convert) reproduce the ratified
+# appearance. Override for experiments: ATLAS_TEXT_SCALE=1.0.
+import os as _os
+
+TEXT_SCALE = float(_os.environ.get("ATLAS_TEXT_SCALE", "0.88"))
+
+
 class SVG:
     def __init__(self, w, h, face):
         self.w, self.h, self.face = w, h, face
@@ -445,7 +459,7 @@ class SVG:
         a = [
             f'x="{x:.2f}" y="{y:.2f}"',
             f'font-family="{esc(self.face)}, serif"',
-            f'font-size="{size}"',
+            f'font-size="{size * TEXT_SCALE:.3f}"',
             f'fill="{INK}"',
             f'text-anchor="{anchor}"',
         ]

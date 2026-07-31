@@ -920,6 +920,26 @@ read bottom-up; order is always recoverable from dates and git.
   listing), the raw-not-blob fidelity rule, and toolchain-poor
   build guidance. Two printing-apparatus proposals (screen-lite
   target; committed plates) filed for DK, not executed.
+- 2026-07-31 — session 3d8e73ea (cont. 6): DK authorized flake
+  changes and asked for Chrome-free assembly, accepting a
+  quantified non-material change. Delivered, with a finding
+  worth the ledger: the plate pipeline's Chromium (an undeclared
+  HOST dependency — the flake never provided it, nor pdfjam, nor
+  PIL) had been rendering plate text ~12% below the SVG's
+  spec'd size; FreeType ground truth sides with rsvg-convert.
+  The plates being LOCKED, the ratified appearance was taken as
+  the target over the nominal spec: TEXT_SCALE=0.88 in
+  atlas/render.py reproduces the hand-passed label metrics
+  glyph-for-glyph under rsvg (Haderslev 122px↔122px;
+  Odense/Korsør gap preserved), with residuals quantified in
+  map-spec.md's converter-switch entry (display-text tracking
+  3-6% narrower, centered and collision-safe; AA halos; page
+  box now exact where Chrome rounded 377.63→378pt — the new
+  output strictly more faithful). All three host leaks closed
+  declaratively; make pdf/pdf-screen verified hermetic (196pp/
+  175pp, 112 tests green, narrative 50,428 unchanged). The
+  first-edition artifacts at the tag remain the edition of
+  record; main rebuilds reproduce them within tolerance.
 
 One row per entity: `<session-id>@<boundary-n>` or `<session-id>@tip`.
 Rows are drafted in-span (see process doc, refinement 3): a

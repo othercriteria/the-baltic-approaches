@@ -494,3 +494,42 @@ Two NOTEs, neither a howler, dispositions:
 
 With this, every gate the spec owes is discharged; the plates
 are LOCKED for the first edition.
+
+## Converter switch — Chrome-free assembly (2026-07-31, session 3d8e73ea; DK-directed)
+
+The plate SVG→PDF step moved from an undeclared host
+`google-chrome` to `rsvg-convert` (librsvg, now declared in
+flake.nix; chain in scripts/svg2pdf.py: rsvg → cairosvg →
+chrome-legacy). Measurement findings, for the record:
+
+- Geometry was pixel-exact under both converters (100-unit ruler:
+  416px vs 416px at 300dpi). But **Chromium had been rendering
+  `<text>` ~12% below the spec'd font-size** (controlled test,
+  20pt Pagella "Hxg": FreeType ground truth 158×81px @300dpi;
+  rsvg 155×80; Chrome 138×71). The plates were designed,
+  hand-passed, and ratified around Chrome's shrunken labels.
+- Since the plates are LOCKED, the ratified *appearance* is the
+  target, not the SVG's nominal spec: `TEXT_SCALE = 0.88` (env
+  `ATLAS_TEXT_SCALE` to override) now compensates in
+  atlas/render.py, chosen by sweep — untracked labels (the
+  collision-relevant class the hand-pass tuned) match the
+  ratified renders glyph-for-glyph (Haderslev span 122px ↔
+  122px; Odense/Korsør gap preserved).
+- Residual, quantified NON-MATERIAL: (a) letterspaced display
+  text (title/subtitle/region ghosts) runs 3–6% narrower — the
+  engines disagree on letter-spacing units; narrower is
+  collision-safe and all such text is center-anchored; (b)
+  antialiasing halos on dense line art (aligned mean|d| ≈
+  4.9/255; 2.7% of pixels >64/255 — ±1px stroke-edge effects);
+  (c) the page box is now EXACT to the SVG (377.63pt where
+  Chrome rounded to 378pt) — the new output is the more faithful
+  one. No layout, content, or face changes. Comparison crops in
+  the session record.
+- The published first-edition artifacts at `first-281500ZJUL26`
+  remain the edition of record (built with the Chrome plates);
+  rebuilds from main reproduce them within the tolerance above.
+- Same commit closed the other two host leaks: pdfjam (now via
+  texliveSmall.withPackages) and pillow (flake python). The full
+  `make pdf-screen` — plates, cover, wrap, trims, assembly — now
+  runs hermetically in `nix develop`, and in plain sandboxes via
+  apt packages alone.

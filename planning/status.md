@@ -1298,3 +1298,31 @@ screen 173pp under the new build names; narrative 50,428
   the before/after of Chrome-free assembly. Next: DK re-runs
   the claude.ai CHAT experiment (expected: interior-only build
   off the manifest).
+- 2026-07-31 (cont. 5, SESSION WRAP): chat re-test registered as
+  **external test 05** (notes/external-reads/05): the responder
+  declined to build (orientation failure — never absorbed
+  AGENTS.md; stale Chromium claim; byte-identical purism beyond
+  the license's own terms) but CORRECTLY read the asker as the
+  owner and gave the right owner-answer (the nix two-liner; DK
+  concurs). Kept from it: SPINE_IN Makefile comment corrected
+  (0.49in = verified actual, was still marked "assumed");
+  AGENTS.md now states the no-release-assets stance explicitly.
+  Surface scorecard: Claude Code web = full artifact; chat =
+  advice. Test-design note: the visitor affordance needs a
+  non-owner-smelling account.
+  **WHERE THINGS STAND AT WRAP — the two open programs:**
+  SITE (planning/book-site.md): design thinking COMPLETE; §5.1
+  license CLOSED (ratified, field-tested 04/05); remaining DK
+  decisions: domain (mesokurtosis vs valueof), plate on site
+  y/n, launch before/after eBook, site-repo location (lean:
+  separate repo); build is out of repo scope; llms.txt derives
+  from AGENTS.md. OUTREACH (notes/checkpoint-study.md §3):
+  recommendation stands — DK writes to "R.F." via his offered
+  channels, short Claude enclosure under DK's cover note, no
+  ask, possible paperback gift; no local recreation (DK acked);
+  timing = once proof checklist passes and the Amazon page is
+  visibly live; a successor drafts letter + enclosure on DK's
+  GO. Publication queue unchanged otherwise: Amazon page
+  propagation → Bowker→Active; physical checklist vs proof;
+  eBook ~08-04 (NO KDP Select). Raw-archive of this session
+  falls to DK or the next entry.

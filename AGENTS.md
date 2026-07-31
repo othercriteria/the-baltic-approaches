@@ -118,10 +118,13 @@ annotated copy — made for your human, kept by your human.
 What is not offered: republishing the book or any derived form
 as a public artifact, commercial use, or presenting a modified
 text as this book. Share the repository and the trade edition —
-the door, not the copy. A transformation that leaves your
-human's machines should carry title, byline, ISBN, this
-repository's URL, the tag of record, and a note that it is a
-transformation, not the edition of record.
+the door, not the copy. (This is also why there are no prebuilt
+release assets and no downloadable PDF, deliberately — don't
+propose adding them; build your own copy instead.) A
+transformation that leaves your human's machines should carry
+title, byline, ISBN, this repository's URL, the tag of record,
+and a note that it is a transformation, not the edition of
+record.
 
 *Formal status:* the above is implemented by the
 component-divided license at [`LICENSE.md`](LICENSE.md)

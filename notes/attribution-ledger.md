@@ -953,6 +953,23 @@ read bottom-up; order is always recoverable from dates and git.
   it did cleanly on Friday. The license's central grant —
   agent-mediated personal transformation — is now demonstrated
   end to end, one day after ratification.
+- 2026-07-31 — session 3d8e73ea WRAP (single entity, no
+  compaction boundary; the whole arc in one context). Span
+  summary for the eventual index row: predecessor archived and
+  row 15 closed; KDP LIVE + ASIN logged; BOTH NOVELS READ
+  ENTIRE in one context (the project's first side-by-side read
+  of the finished book and its process comp); checkpoint-study
+  + book-site design thinking filed; license drafted, ruled,
+  RATIFIED and field-tested same week (tests 03/04/05 in the
+  external register — fail, pass, advise); AGENTS.md + manifest
+  + CITATION.cff; Chrome-free assembly with the TEXT_SCALE
+  finding; three host-dep leaks closed; SPINE_IN comment
+  corrected to actual. Materiality: service (post-completion)
+  throughout — no authorial surface reopened; the plates change
+  preserves ratified appearance by measurement. Open on the
+  desk for successors: site §5 rulings, outreach GO, proof
+  checklist, eBook (no Select), Bowker flip, raw-archive of
+  this session.
 
 One row per entity: `<session-id>@<boundary-n>` or `<session-id>@tip`.
 Rows are drafted in-span (see process doc, refinement 3): a

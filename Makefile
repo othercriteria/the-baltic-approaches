@@ -151,9 +151,11 @@ cover: $(OUTPUT_DIR)
 	@echo "Cover: $(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf (+proof, +120px thumb, +catalog JPG)"
 
 # Full POD wrap: back + spine + front (cover-brief.md wrap program).
-# SPINE_IN is the ASSUMED spine width until printer actuals exist:
-# 196pp x 0.0025in/page = 0.49in (brief item 1: recompute from the
-# printer spec, never assume). Override: make cover-wrap SPINE_IN=…
+# SPINE_IN: 0.49in is the ACTUAL for the first edition — verified
+# against KDP's cream-paper spec (196pp x 0.0025in/page) at
+# publication, 2026-07-28 (status.md service log; cover-brief.md).
+# Recompute only if page count or paper changes. Override:
+# make cover-wrap SPINE_IN=…
 SPINE_IN ?= 0.49
 
 cover-wrap: $(OUTPUT_DIR)

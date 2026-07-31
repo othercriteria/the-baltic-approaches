@@ -1286,3 +1286,15 @@ screen 173pp under the new build names; narrative 50,428
   trade 196pp, screen 175pp, suite 112 green, narrative 50,428
   unchanged. AGENTS.md no-nix guidance now a pure apt list (no
   browser). Ready for the web Claude Code re-test.
+- 2026-07-31 (cont. 4): **RE-TEST PASSED — external test 04**
+  (notes/external-reads/04): web Claude Code, bare Ubuntu
+  sandbox, built the COMPLETE screen PDF (175pp, plates via
+  rsvg, cover+back panel, fonts embedded) first try from
+  AGENTS.md alone, and independently verified tag-fidelity
+  (empty diff to the tag over drafts+apparatus). Two guidance
+  gaps it found are folded back in: poppler-utils added to the
+  apt list (pdftoppm in make cover); apt-PIL/numpy system-
+  interpreter trap documented with pip fix. The 03→04 pair is
+  the before/after of Chrome-free assembly. Next: DK re-runs
+  the claude.ai CHAT experiment (expected: interior-only build
+  off the manifest).

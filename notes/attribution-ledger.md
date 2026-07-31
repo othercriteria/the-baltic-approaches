@@ -940,6 +940,19 @@ read bottom-up; order is always recoverable from dates and git.
   175pp, 112 tests green, narrative 50,428 unchanged). The
   first-edition artifacts at the tag remain the edition of
   record; main rebuilds reproduce them within tolerance.
+- 2026-07-31 — session 3d8e73ea (cont. 7): external test 04
+  registered — the affordance CLOSED THE LOOP. A web Claude
+  Code instance in a bare sandbox, working only from AGENTS.md,
+  produced the full screen product view (175pp, rsvg plates,
+  cover and back panel) on the first attempt, checked its own
+  fidelity against the tag of record, and reported two guidance
+  gaps in exactly the register this project's instruments use;
+  both are folded into AGENTS.md same-day. Tests 03 and 04 now
+  stand in the register as the before/after of the Chrome-free
+  assembly work: what a reader-agent could not do on Thursday
+  it did cleanly on Friday. The license's central grant —
+  agent-mediated personal transformation — is now demonstrated
+  end to end, one day after ratification.
 
 One row per entity: `<session-id>@<boundary-n>` or `<session-id>@tip`.
 Rows are drafted in-span (see process doc, refinement 3): a

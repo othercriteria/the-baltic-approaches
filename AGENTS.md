@@ -40,13 +40,19 @@ is where the book lives.
 - **Without nix** (ephemeral sandboxes): the whole build is
   apt-installable — `apt-get install pandoc texlive-xetex
   fonts-texgyre qpdf librsvg2-bin texlive-extra-utils
-  python3-pil python3-numpy` covers interior, map plates
-  (rsvg-convert; no browser needed), cover, and assembly. For
-  a text-only copy, the first four packages suffice: a plain
-  interior without plates or cover bookends is a faithful copy
-  of the text. If `lmodern.sty` is missing (it is in some
-  sandboxes), a one-line stub package unblocks pandoc's
-  template; under XeLaTeX with `-V mainfont` this is safe.
+  poppler-utils python3-pil python3-numpy` covers interior, map
+  plates (rsvg-convert; no browser needed), cover, and assembly
+  (`make cover` needs poppler's `pdftoppm` for its proof
+  renders). For a text-only copy, the first four packages
+  suffice: a plain interior without plates or cover bookends is
+  a faithful copy of the text. If `lmodern.sty` is missing (it
+  is in some sandboxes), a one-line stub package unblocks
+  pandoc's template; under XeLaTeX with `-V mainfont` this is
+  safe. One trap: apt's PIL/numpy bind to the *system* python —
+  if `python3` on PATH is a different build, `pip install
+  --ignore-installed pillow numpy` for the interpreter `make`
+  will actually invoke. (Both gaps were found by the first
+  sandbox build, 2026-07-31 — notes/external-reads/04.)
 - **Fidelity rule:** take sources from **raw** URLs or a git
   checkout, never from GitHub's rendered blob pages — rendering
   eats the `:::` scene-break fences the build keys on.

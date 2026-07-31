@@ -970,6 +970,52 @@ read bottom-up; order is always recoverable from dates and git.
   desk for successors: site §5 rulings, outreach GO, proof
   checklist, eBook (no Select), Bowker flip, raw-archive of
   this session.
+- 2026-07-31 — session 372bd078 (Fable 5) — live. Post-completion
+  service session. First acts: `make archive SKIP=<own-uuid>` —
+  3d8e73ea raw-archived and its transcript exported, closing that
+  session's standing debt. Commissioned work: the first PHYSICAL
+  PROOF COPY arrived (DK photos on file); DK's report — text
+  pages good, one finding: KDP's barcode knockout occludes the
+  back-cover art credit.
+- 2026-07-31 — session 372bd078: **ERRATA — back-cover barcode
+  collision, fixed under the errata tier.** The finding measured
+  in the built wrap PDF, not just the photo: the credit block's
+  last line ended 1.53in above trim bottom against a KDP barcode
+  zone whose top is 1.45in above trim bottom (2.0×1.2in, inset
+  0.25in from bottom/right trim) — 0.08in nominal clearance,
+  inside KDP's ~0.125in cover-shift tolerance, so the knockout
+  was near-certain to clip it on every retail copy; the proof
+  made it visible. Not proof-specific. Fix: provenance pointer
+  and credit blocks raised 0.5in in apparatus/cover-wrap.tex
+  (credit now ~0.58in nominal / ≥0.45in worst-case above the
+  zone top; stale zone-arithmetic comments corrected, x=3.625→
+  3.375in). SCOPE RULING, argued for the record (DK held the
+  errata-tier belief weakly; this entry is the argument): the
+  resubmission REBUILDS AND RE-UPLOADS BOTH ARTIFACTS (interior
+  + wrap) at one commit, new tag `first-312200ZJUL26`, because
+  the repo-as-edition stance (AGENTS.md: "build or quote from
+  the tag when fidelity matters"; external test 04's empty-diff
+  verification) presumes one tag = one buildable artifact set —
+  a cover-only upload would make the physical object a
+  two-commit chimera whose printed stamp names a commit that
+  never carried its cover. The whole package stays errata tier:
+  narrative text byte-identical; the notices SENTENCES unchanged
+  (the stamp's commit slug is machine metadata, not the account
+  of the making, so the never-errata clause is not engaged); the
+  interior deltas are the stamp slug/date and the plates now
+  rendered by the spec-correct Chrome-free chain (TEXT_SCALE
+  finding, quantified non-material, 3d8e73ea cont. 6); AGENTS.md/
+  README tag-pointer bumps are mechanical hygiene. Named cost,
+  accepted: the proof copy validated the exact 371607b interior
+  file; the resubmitted interior is one quantified step removed
+  from that physical validation — check plates against author
+  copies downstream. Prior tag stands immovable as the initial
+  submission's record. Service facts logged from DK same turn:
+  amazon.com/dp/B0HC83GB4P still not live (propagation lag
+  continues); Bowker accordingly still Forthcoming — the Active
+  flip stays gated on the visible page. Queue after this fix,
+  per DK: eBook process next (upstream of the site; NO KDP
+  Select, banked), then site rulings and the R.F. outreach GO.
 
 One row per entity: `<session-id>@<boundary-n>` or `<session-id>@tip`.
 Rows are drafted in-span (see process doc, refinement 3): a

@@ -12,7 +12,7 @@ hindsight.
 ~50,400 words of narrative. **Status: published** — first
 edition 2026, trade paperback, Mesokurtosis Press, ISBN
 979-8-9973189-0-1 (ASIN B0HC83GB4P); the tag of record is
-`first-281500ZJUL26`. (The project's working title was *The
+`first-312200ZJUL26`. (The project's working title was *The
 Mission*; the repository was renamed at final assembly, and old
 `the-mission-1986` URLs redirect here.)
 

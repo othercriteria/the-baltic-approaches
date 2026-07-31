@@ -87,20 +87,27 @@
   \node[anchor=north east,text=coverink,font=\attribface]
     at ($(current page.north west)+(4.725in,-3.62in)$)
     {— from the corps' final assessment};
-  % (b) Provenance pointer; (c) art credit. Both end >=1.45in above
-  % trim bottom, clear of (d) the reserved barcode zone (2.0x1.2in,
-  % bottom-right of the back trim; empty until ISBN actuals).
+  % (b) Provenance pointer; (c) art credit. Both clear of (d) KDP's
+  % barcode knockout: a 2.0x1.2in zone inset 0.25in from the back
+  % trim's bottom/right edges (zone top = 1.45in above trim bottom;
+  % zone left = x 3.375in page coords). KDP prints its own barcode
+  % with a white knockout box there when none is supplied. ERRATA
+  % 2026-07-31 (first proof copy): the credit's last line ended
+  % 1.53in above trim bottom — 0.08in nominal clearance, inside
+  % KDP's ~0.125in cover-shift tolerance — and the knockout clipped
+  % it. Both blocks raised 0.5in: credit now bottoms ~2.03in above
+  % trim bottom, ~0.58in above the zone top (>=0.45in worst-case).
   \node[anchor=north,align=center,text=coverink,font=\pointerface]
-    at ($(current page.north west)+(2.875in,-6.30in)$)
+    at ($(current page.north west)+(2.875in,-5.80in)$)
     {How this book was made: the notices page, and the full record at\\
      github.com/othercriteria/the-baltic-approaches};
   \node[anchor=north,align=center,text=coverink,font=\creditface]
-    at ($(current page.north west)+(2.875in,-6.80in)$)
+    at ($(current page.north west)+(2.875in,-6.30in)$)
     {Cover: Adam August Müller, The Hall of Antiquities at Charlottenborg Palace,\\
      Copenhagen (1830). The Metropolitan Museum of Art, public domain (CC0)};
   % Imprint, back panel: bottom-left, the barcode zone's opposite
   % corner, baseline 0.5in above trim bottom — clear of the zone
-  % (which starts at x=3.625in) by over an inch.
+  % (which starts at x=3.375in) by over an inch.
   \node[anchor=south west,text=coverink,font=\backimprintface]
     at ($(current page.north west)+(0.875in,-8.125in)$)
     {MESOKURTOSIS PRESS};

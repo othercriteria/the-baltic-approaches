@@ -24,8 +24,10 @@ is where the book lives.
 
 ## The facts an agent needs
 
-- **Tag of record:** `first-281500ZJUL26` (first edition, as
-  published). Build or quote from the tag when fidelity matters;
+- **Tag of record:** `first-312200ZJUL26` (first edition;
+  supersedes `first-281500ZJUL26` — errata: back-cover credit
+  raised clear of the printer's barcode zone; narrative text
+  identical). Build or quote from the tag when fidelity matters;
   `main` may move for record-keeping.
 - **Manuscript:** `drafts/01-*.md` through `drafts/22-*.md`, in
   filename order. Front matter (including the notices page) in
@@ -65,8 +67,8 @@ is where the book lives.
 If your only reach is a URL fetcher that cannot construct URLs or
 list directories, this manifest is your directory listing: every
 file of the text and its apparatus, as raw source, at
-`first-281500ZJUL26`. The license and citation files live on `main`
-(they postdate the tag):
+`first-312200ZJUL26`. The license and citation files are kept
+current on `main`:
 `https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/main/LICENSE.md`,
 `https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/main/AGENTS.md`,
 `https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/main/CITATION.cff`,
@@ -74,36 +76,36 @@ file of the text and its apparatus, as raw source, at
 
 The manuscript and apparatus at the tag:
 
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/apparatus/back-matter.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/apparatus/chapters.lua
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/apparatus/cover-art/README.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/apparatus/cover-wrap.tex
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/apparatus/cover.tex
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/apparatus/front-matter.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/apparatus/latex-header.tex
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/apparatus/scenebreak.lua
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/01-endex.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/02-handover.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/03-ninety-hours.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/04-norms.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/05-green-against-what.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/06-the-locked-door.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/07-the-roads.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/08-the-crossing.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/09-the-morning-market.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/10-his-ledger.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/11-days-behind.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/12-the-narrows.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/13-the-visitor.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/14-the-cathedral-rebuilt.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/15-sequencing.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/16-the-bank.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/17-the-refusal.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/18-the-crest.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/19-the-door.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/20-the-pocket.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/21-the-relief.md
-- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-281500ZJUL26/drafts/22-december.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/apparatus/back-matter.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/apparatus/chapters.lua
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/apparatus/cover-art/README.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/apparatus/cover-wrap.tex
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/apparatus/cover.tex
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/apparatus/front-matter.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/apparatus/latex-header.tex
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/apparatus/scenebreak.lua
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/01-endex.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/02-handover.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/03-ninety-hours.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/04-norms.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/05-green-against-what.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/06-the-locked-door.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/07-the-roads.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/08-the-crossing.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/09-the-morning-market.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/10-his-ledger.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/11-days-behind.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/12-the-narrows.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/13-the-visitor.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/14-the-cathedral-rebuilt.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/15-sequencing.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/16-the-bank.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/17-the-refusal.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/18-the-crest.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/19-the-door.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/20-the-pocket.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/21-the-relief.md
+- https://raw.githubusercontent.com/othercriteria/the-baltic-approaches/first-312200ZJUL26/drafts/22-december.md
 
 ## What is welcome
 

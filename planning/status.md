@@ -1326,3 +1326,26 @@ screen 173pp under the new build names; narrative 50,428
   propagation → Bowker→Active; physical checklist vs proof;
   eBook ~08-04 (NO KDP Select). Raw-archive of this session
   falls to DK or the next entry.
+- 2026-07-31 — session 372bd078 (fresh). 3d8e73ea raw-archived
+  (debt closed). **PROOF COPY ARRIVED; barcode errata fixed.**
+  DK's physical check: text pages and plates good, spine good,
+  front panel matches comp; ONE finding — KDP's barcode knockout
+  occludes the back-cover art credit. Measured in the built wrap:
+  0.08in nominal clearance to the barcode zone top, inside KDP's
+  ~0.125in shift tolerance — a design-margin error, NOT
+  proof-specific. Fixed errata-tier (full argument in the
+  lineage log): pointer+credit raised 0.5in in cover-wrap.tex
+  (now ≥0.45in worst-case clearance, measured from the rebuilt
+  PDF); ALIGNED RESUBMISSION ruled over cover-only — both
+  artifacts rebuilt at one commit, **tag `first-312200ZJUL26`**
+  (supersedes first-281500ZJUL26, which stands as the initial
+  submission's record); AGENTS.md manifest + README repinned.
+  KDP review expectation: title-level either way, same ~24-72h
+  cycle and prospects whether one file or both change — no
+  review-economics reason to go narrow. DK TO DO: upload
+  build/the-baltic-approaches.pdf (interior) +
+  build/cover/the-baltic-approaches-wrap.pdf (cover) to KDP.
+  Logged: amazon.com/dp/B0HC83GB4P NOT yet live; Bowker still
+  Forthcoming (flip gated on visible page). NEXT per DK: eBook
+  process (upstream of site; NO KDP Select), then site rulings +
+  R.F. outreach GO.

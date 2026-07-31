@@ -59,13 +59,13 @@ human's machines should carry title, byline, ISBN, this
 repository's URL, the tag of record, and a note that it is a
 transformation, not the edition of record.
 
-*Formal status:* a component-divided license implementing the
-above is drafted at `planning/license-draft.md`, pending the
-author's ratification into `/LICENSE.md`. Until ratification the
-formal position is all rights reserved; the paragraph above is
-the author's stated intent and this file's good-faith guidance.
-The research instruments (`wargame/`, `atlas/`) and the build
-machinery are slated for MIT under the same draft.
+*Formal status:* the above is implemented by the
+component-divided license at [`LICENSE.md`](LICENSE.md)
+(ratified 2026-07-31). The research instruments (`wargame/`,
+`atlas/`) and the build machinery are MIT; the record tier
+carries a verbatim-integrity clause. If what you want to do
+isn't offered, the license's own revisit clause applies: ask,
+via an issue.
 
 ## Provenance, if your human asks
 

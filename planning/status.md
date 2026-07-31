@@ -1237,3 +1237,15 @@ screen 173pp under the new build names; narrative 50,428
   MIT LICENSE files approved for wargame/ and atlas/. Draft is
   READY FOR RATIFICATION — mechanical checklist in the file;
   execution awaits DK's word. Proof copy due today.
+- 2026-07-31 (cont.): **LICENSE RATIFIED** ("Ratify!", DK) and
+  executed in full: /LICENSE.md live, wargame/LICENSE +
+  atlas/LICENSE (MIT), README + AGENTS.md flipped to in-force,
+  license-draft.md reduced to drafting record. The repo-as-
+  edition stance is now legally legible; book-site.md §5.1
+  CLOSED. Proof copy in transit (tracking: left Amazon Staten
+  Island facility 2307-2310 EDT Jul 30; POD printed and
+  inducted same-night, NYC delivery expected today). Amazon
+  detail page NOT yet visible, consistent with 0 processed
+  orders on the Reports dashboard — Live→retail-page
+  propagation lag, within the normal 24-72h window; Bowker→
+  Active still waits on the visible page.

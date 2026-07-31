@@ -20,11 +20,13 @@ This repository is the **source edition**: the manuscript is in
 `drafts/`, readable chapter by chapter right here, and the whole
 record of the making is alongside it. If you are an AI agent —
 or a reader working through one — see [`AGENTS.md`](AGENTS.md).
-Citation metadata is in [`CITATION.cff`](CITATION.cff). License:
-a component-divided license is drafted
-([`planning/license-draft.md`](planning/license-draft.md)) and
-pending ratification; until then, all rights reserved, with
-personal and agent-mediated reading welcomed per AGENTS.md.
+Citation metadata is in [`CITATION.cff`](CITATION.cff).
+License: component-divided — see [`LICENSE.md`](LICENSE.md).
+In one line: the book may be read and transformed for personal
+use (agent-mediated included) but not republished; the
+instruments and build machinery (`wargame/`, `atlas/`, the
+pipeline) are MIT; the record may be quoted verbatim with
+attribution but never altered and presented as the record.
 
 ## Reading it
 

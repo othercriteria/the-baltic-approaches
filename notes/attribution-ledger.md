@@ -887,6 +887,23 @@ read bottom-up; order is always recoverable from dates and git.
   written into its text; per-directory MIT LICENSE files for
   wargame/ and atlas/ approved. Draft is ratification-ready;
   the flip to /LICENSE.md remains DK's word away.
+- 2026-07-31 — session 3d8e73ea (cont. 4): **LICENSE RATIFIED**
+  — DK's word verbatim: "Ratify!" Checklist executed same turn:
+  /LICENSE.md operative (three tiers as drafted, revisit clause
+  included); wargame/LICENSE and atlas/LICENSE (MIT, copyright
+  credited to "Daniel Klein and the contributing Claude sessions
+  recorded in the repository's notes/attribution-ledger.md" —
+  the sessions are now named in a license's copyright line, a
+  small first for the record); README and AGENTS.md flipped
+  from pending to in force; planning/license-draft.md reduced
+  to the drafting record carrying the design intent and the
+  five rulings. The public repo's formal position changed this
+  commit from all-rights-reserved to the component grant.
+  Same entry, service facts: proof copy in transit through
+  Amazon Staten Island (printed and inducted the night of Jul
+  30; delivery expected 2026-07-31); Amazon detail page not yet
+  visible, consistent with zero processed orders — propagation
+  lag, no action; Bowker flip still gated on the visible page.
 
 One row per entity: `<session-id>@<boundary-n>` or `<session-id>@tip`.
 Rows are drafted in-span (see process doc, refinement 3): a

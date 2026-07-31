@@ -1349,3 +1349,16 @@ screen 173pp under the new build names; narrative 50,428
   Forthcoming (flip gated on visible page). NEXT per DK: eBook
   process (upstream of site; NO KDP Select), then site rulings +
   R.F. outreach GO.
+- 2026-07-31 (cont.): **RESUBMISSION UPLOADED TO KDP** (DK,
+  same day). Previewer verified (screenshot reviewed in-session):
+  rendered ISBN barcode (9798997318901) fully below the credit
+  block with clear field between; slug 6360453 confirmed in the
+  notices page (interior = tag build); page-5 previewer flag =
+  the known non-actionable ToC-markup noise from the first
+  submission. DK ruling: NO new printed proof — digital
+  verification accepted for a two-block translation; backstop =
+  author-copy check (credit/plates, plus the one new watch item:
+  Amazon's Transparency code prints ABOVE the ISBN barcode on
+  retail copies — ~0.25in strip vs our 0.58in nominal clearance,
+  expected clear). Back in publication review (~24-72h). On
+  review landing: Amazon page propagation → Bowker→Active.

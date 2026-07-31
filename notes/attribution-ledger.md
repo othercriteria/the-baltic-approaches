@@ -904,6 +904,22 @@ read bottom-up; order is always recoverable from dates and git.
   30; delivery expected 2026-07-31); Amazon detail page not yet
   visible, consistent with zero processed orders — propagation
   lag, no action; Bowker flip still gated on the visible page.
+- 2026-07-31 — session 3d8e73ea (cont. 5): the license met its
+  first outside reader within hours. DK ran the affordance test
+  from claude.ai chat (responding model Opus 5; it noted Fable
+  selections can be silently safeguards-routed to Opus, and that
+  its cutoff predates publication — the repo was wholly outside
+  training). The request was the license's own house case
+  ("screen-friendly PDF... for my personal use"); it failed on
+  reachability and sandbox toolchain, not on permission, and the
+  responder said so in a sentence worth keeping: "The obstacle
+  was plumbing, not permission." Transcript registered at
+  notes/external-reads/03 (recovered verbatim from the snapshot
+  API). Response: AGENTS.md now carries a raw-URL source
+  manifest pinned to the tag (a fetch-only agent's directory
+  listing), the raw-not-blob fidelity rule, and toolchain-poor
+  build guidance. Two printing-apparatus proposals (screen-lite
+  target; committed plates) filed for DK, not executed.
 
 One row per entity: `<session-id>@<boundary-n>` or `<session-id>@tip`.
 Rows are drafted in-span (see process doc, refinement 3): a

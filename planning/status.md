@@ -1249,3 +1249,22 @@ screen 173pp under the new build names; narrative 50,428
   orders on the Reports dashboard — Live→retail-page
   propagation lag, within the normal 24-72h window; Bowker→
   Active still waits on the visible page.
+- 2026-07-31 (cont. 2): **the license's first field test.** DK
+  asked a fresh claude.ai Claude (Opus 5, chat surface) for the
+  screen PDF "for my personal use" — the exact licensed
+  affordance. MOSTLY FAILED on plumbing: chat sandbox has no
+  network in bash; web_fetch can't list /tree/ (robots) nor
+  construct raw URLs, so the manuscript was unreachable; and the
+  sandbox lacks lmodern.sty/pdfjam/Chromium. Its verdict for the
+  record: "The obstacle was plumbing, not permission."
+  Transcript recovered verbatim via the public snapshot API and
+  REGISTERED: notes/external-reads/03-affordance-test-claudeai.md
+  (with audit). FIXES: AGENTS.md gained a SOURCE MANIFEST (raw
+  URLs for all 30 text/apparatus files pinned to the tag — a
+  fetch-only agent's directory listing), a raw-not-blob fidelity
+  rule, and no-nix build guidance (interior-only path;
+  plates/cover optional to reading). PROPOSED, awaiting DK: (a)
+  `make screen-lite` interior-only target; (b) committing the
+  two built plate PDFs so full builds don't need Chromium — both
+  touch printing apparatus. Next: DK re-tests from web Claude
+  Code (real checkout; risk shifts to TeX toolchain).

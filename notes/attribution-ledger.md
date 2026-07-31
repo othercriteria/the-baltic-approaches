@@ -1016,6 +1016,21 @@ read bottom-up; order is always recoverable from dates and git.
   flip stays gated on the visible page. Queue after this fix,
   per DK: eBook process next (upstream of the site; NO KDP
   Select, banked), then site rulings and the R.F. outreach GO.
+- 2026-07-31 — session 372bd078: resubmission uploaded by DK
+  (previewer verified in-session: barcode clear of credit, slug
+  6360453; no new printed proof — DK ruling, author-copy
+  backstop incl. the Transparency-code-above-barcode watch
+  item); paperback to "Live — Updates in review." Then the
+  eBook program opened per DK: `make epub` built and validated
+  (EPUB 3.3, epubcheck clean), parallel apparatus only — print
+  path verified byte-stable (196pp, 112 green). Tier note: the
+  eBook publishes the made book in a second format under the
+  paperback-publication pattern (service by substitution from
+  the ratified design); the notices ACCOUNT is verbatim, so the
+  review commitment is not re-engaged; every wording without a
+  trade precedent (imprint line, colophon sentence, nav
+  texture) is DRAFTED in planning/ebook-brief.md for DK
+  ratification before upload, not judged unilaterally.
 
 One row per entity: `<session-id>@<boundary-n>` or `<session-id>@tip`.
 Rows are drafted in-span (see process doc, refinement 3): a

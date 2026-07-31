@@ -1362,3 +1362,19 @@ screen 173pp under the new build names; narrative 50,428
   retail copies — ~0.25in strip vs our 0.58in nominal clearance,
   expected clear). Back in publication review (~24-72h). On
   review landing: Amazon page propagation → Bowker→Active.
+- 2026-07-31 (cont. 2): DK pulled the trigger — paperback state
+  **"Live — Updates in review."** eBook program OPENED (DK
+  working the KDP Create-Kindle-eBook flow, NO Select): **`make
+  epub` BUILT AND VALIDATED** — build/the-baltic-approaches.epub,
+  EPUB 3.3, epubcheck 5.3.0 zero errors/warnings; parallel
+  apparatus (epub-front-matter/back-matter/metadata/chapters.lua/
+  css), print path verified untouched (196pp, 112 green, 50,428).
+  Notices account VERBATIM; stamp mechanism carried over; cover =
+  ratified front panel 1650×2550 JPG (build/epub/cover-ebook.jpg);
+  plates via rsvg PNG. **planning/ebook-brief.md** carries the
+  program: substitution decisions banked; EIGHT items drafted
+  pending DK ratification before upload (imprint/ISBN line,
+  colophon rewording, nav texture, Maps heading, neck-plate
+  orientation, no-embed fonts, no half-title, title-page byline
+  case); DK-side = entry-sheet carryover + pricing + tag
+  `ebook-<DTG>` at submission with stamp-matched rebuild.

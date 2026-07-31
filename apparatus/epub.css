@@ -1,0 +1,72 @@
+/* eBook edition stylesheet (planning/ebook-brief.md). Substitution
+   from the ratified trade design where a reflowable page can carry
+   it: two-deck chapter heads, asterism scene breaks, set-off
+   message blocks, book-convention paragraphs (indent, no gap).
+   No fonts are embedded — readers own the face (brief, decision 5);
+   these rules style structure, not letterforms. */
+
+body { margin: 0; padding: 0; }
+
+/* Paragraphs: book convention. First paragraph after a head or a
+   scene break sets flush. */
+p { margin: 0; text-indent: 1.2em; text-align: justify; }
+h1 + p, .scenebreak + p, .message + p { text-indent: 0; }
+
+/* Chapter head: the trade two-deck (latex-header.tex
+   \@makechapterhead) — flush left, small letterspaced caps
+   CHAPTER N over the bold title. */
+h1 { margin: 2.5em 0 2em 0; text-align: left; font-weight: bold; font-size: 1.6em; }
+h1 .chapnum {
+  display: block;
+  font-size: 0.5em;
+  font-weight: normal;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.9em;
+}
+
+/* Scene break: the asterism (apparatus/latex-header.tex \scenebreak). */
+.scenebreak {
+  text-align: center;
+  text-indent: 0;
+  margin: 1.2em 0;
+}
+
+/* Set-off message/teleprinter blocks (::: message divs): smaller,
+   faintly letterspaced, ragged right, never hyphenated — a
+   different paper stock (latex-header.tex messageblock). */
+.message {
+  margin: 1em 0 1em 1em;
+  font-size: 0.85em;
+  letter-spacing: 0.04em;
+  text-align: left;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+.message p { text-indent: 0; text-align: left; margin-bottom: 0.5em; }
+
+/* Pandoc's generated title page, styled to the trade title page's
+   proportions (front-matter.md iii). */
+section[data-epub-type="titlepage"], #title-page, .titlepage { text-align: center; }
+h1.title { margin-top: 4em; letter-spacing: 0.18em; font-weight: normal; }
+p.subtitle { font-variant: small-caps; letter-spacing: 0.14em; margin-top: 1em; text-indent: 0; text-align: center; }
+p.author { letter-spacing: 0.08em; margin-top: 6em; text-indent: 0; text-align: center; }
+p.date { margin-top: 3em; text-indent: 0; text-align: center; }
+
+/* Front/back-matter apparatus sections. Trade: notices head flush
+   left, colophon head centered, both small caps at body size. */
+.notices h1, .making h1, .plates h1 {
+  font-size: 1em;
+  font-weight: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  letter-spacing: 0.12em;
+}
+.making h1 { text-align: center; }
+.notices p { text-indent: 0; margin-bottom: 0.6em; }
+.making p { text-indent: 0; margin-bottom: 0.6em; }
+.imprint { margin-top: 1.5em; }
+.imprint p, .stamp p { text-align: center; text-indent: 0; margin-bottom: 0.6em; }
+.stamp { font-size: 0.85em; }
+.plates { text-align: center; }
+.plates p { text-indent: 0; }
+.plates img { max-width: 100%; }

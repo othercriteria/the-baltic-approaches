@@ -1,0 +1,11 @@
+# eBook edition OPF metadata (planning/ebook-brief.md). KDP takes its
+# listing metadata from the entry form, not this file; these fields are
+# what the file itself declares to any reader.
+title: The Baltic Approaches
+subtitle: A Novel of November 1983
+author: Daniel Klein with Claude
+date: "2026"
+lang: en-US
+publisher: Mesokurtosis Press
+rights: © 2026 Daniel Klein. All rights reserved.
+toc-title: Contents

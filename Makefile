@@ -90,7 +90,7 @@ METADATA = -V title-meta="$(TITLE)" \
            -V author-meta="Daniel Klein with Claude"
 BACK_MATTER = apparatus/back-matter.md
 
-.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas maps stamp pdf pdf-screen proof cover cover-wrap manuscript wordcount clean
+.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas maps stamp pdf pdf-screen epub proof cover cover-wrap manuscript wordcount clean
 
 $(OUTPUT_DIR):
 	@mkdir -p $(OUTPUT_DIR)
@@ -133,6 +133,39 @@ pdf-screen: $(OUTPUT_DIR) maps stamp cover cover-wrap
 		$(OUTPUT_DIR)/the-baltic-approaches-screen.pdf
 	@pdfinfo $(OUTPUT_DIR)/the-baltic-approaches-screen.pdf 2>/dev/null | grep Pages || true
 	@echo "Created $(OUTPUT_DIR)/the-baltic-approaches-screen.pdf (screen, cover p.1 + back panel last)"
+
+# eBook edition (planning/ebook-brief.md). Same sources, parallel
+# apparatus: epub-front-matter/epub-back-matter (imprint + colophon
+# wording pending DK ratification, marked in the brief), epub-chapters
+# filter (two-deck heads, asterism, message divs via CSS), epub.css.
+# Plates render to PNG via rsvg; the eBook cover is the ratified front
+# panel trimmed and rasterized. Print targets untouched.
+EPUB_DIR = $(OUTPUT_DIR)/epub
+epub: $(OUTPUT_DIR) cover
+	@mkdir -p $(EPUB_DIR)
+	@for p in $(PLATES); do \
+		python3 -m atlas render $$p --face "$(BODYFACE)" --out $(EPUB_DIR)/plate-$$p.svg; \
+		rsvg-convert --width=2000 --keep-aspect-ratio --background-color=white \
+			--output $(EPUB_DIR)/plate-$$p.png $(EPUB_DIR)/plate-$$p.svg; \
+	done
+	@pdfjam --quiet --trim '0.125in 0.125in 0.125in 0.125in' --clip true \
+		--papersize '{5.5in,8.5in}' \
+		--outfile $(EPUB_DIR)/cover-ebook-trim.pdf \
+		$(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf 1
+	@pdftoppm -r 300 -jpeg -jpegopt quality=90 -singlefile \
+		$(EPUB_DIR)/cover-ebook-trim.pdf $(EPUB_DIR)/cover-ebook
+	@sed "s|@DRAFTSTAMP@|$(DRAFT_STAMP)|" apparatus/epub-front-matter.md > $(EPUB_DIR)/front-matter.md
+	@pandoc $(EPUB_DIR)/front-matter.md $(SOURCES) apparatus/epub-back-matter.md \
+		--from=markdown-implicit_figures --to=epub3 --standalone \
+		--toc --toc-depth=1 -V toc-title="Contents" \
+		--lua-filter=apparatus/epub-chapters.lua \
+		--css=apparatus/epub.css \
+		--epub-cover-image=$(EPUB_DIR)/cover-ebook.jpg \
+		--resource-path=$(EPUB_DIR) \
+		--metadata-file=apparatus/epub-metadata.yaml \
+		-o $(OUTPUT_DIR)/the-baltic-approaches.epub
+	@ls -la $(OUTPUT_DIR)/the-baltic-approaches.epub
+	@echo "Created $(OUTPUT_DIR)/the-baltic-approaches.epub (eBook edition)"
 
 # Front cover (Müller ratified 2026-07-27; planning/cover-brief.md).
 # Recomposes the raster from the museum source, sets vector type in

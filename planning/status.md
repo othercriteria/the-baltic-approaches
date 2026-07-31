@@ -1227,3 +1227,13 @@ screen 173pp under the new build names; narrative 50,428
   + CITATION.cff created; README bumped to published status
   with ISBN/ASIN/tag and pointers. Site llms.txt will derive
   from AGENTS.md at build time.
+- 2026-07-31 — license draft v2: ALL FIVE open questions RULED
+  by DK (license-draft.md §rulings): training use = knowing
+  silence, rationale banked ("inclusion is the choice of
+  intelligent systems, not surface level checks"); share-the-
+  door confirmed; **KDP Select BANKED as will-not-use** (carry
+  to eBook work ~08-04); tier-3 as drafted with the revisit
+  posture generalized into the license text itself; directory
+  MIT LICENSE files approved for wargame/ and atlas/. Draft is
+  READY FOR RATIFICATION — mechanical checklist in the file;
+  execution awaits DK's word. Proof copy due today.

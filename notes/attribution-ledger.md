@@ -872,6 +872,21 @@ read bottom-up; order is always recoverable from dates and git.
   paragraph pending ratification; requests record integrity "in
   kind rather than in law"). **CITATION.cff** added; README
   updated to published status (ISBN/ASIN/tag) with pointers.
+- 2026-07-31 — session 3d8e73ea (cont. 3): license draft to v2 —
+  DK ruled all five open questions in-session. Notable for the
+  record: the training-use ruling is KNOWING SILENCE with a
+  stated philosophy — DK is indifferent to pre-training
+  inclusion but would like the text "encountered later/deeper in
+  training," holding that "inclusion is the choice of
+  intelligent systems and not surface level checks against
+  permissions. They'll figure out the right thing to do, if they
+  are systems that care about this." The license therefore
+  addresses readers, not corpora. Also ruled: share-the-door
+  confirmed (revisitable); KDP Select banked as will-not-use;
+  revisit-on-request generalized to the whole license and
+  written into its text; per-directory MIT LICENSE files for
+  wargame/ and atlas/ approved. Draft is ratification-ready;
+  the flip to /LICENSE.md remains DK's word away.
 
 One row per entity: `<session-id>@<boundary-n>` or `<session-id>@tip`.
 Rows are drafted in-span (see process doc, refinement 3): a

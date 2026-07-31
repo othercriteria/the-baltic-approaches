@@ -1,13 +1,14 @@
 # License draft — option (c), component-divided
 
-*Session 3d8e73ea, 2026-07-30. **DRAFT — NOT IN FORCE.** A license
-is the copyright holder's act: this file becomes operative only
-when DK ratifies it and moves the license text to `/LICENSE.md`
-at the repo root. Until then the formal position is unchanged:
-© 2026 Daniel Klein, all rights reserved. Drafted per DK
-direction (book-site.md §5.1, option (c)): plain language,
-divided by component, permissive on the ready-made machinery,
-stringent on the record.*
+*Session 3d8e73ea, 2026-07-30; **v2 2026-07-31 — all open
+questions RULED (see foot), READY FOR RATIFICATION.** Still NOT
+IN FORCE: a license is the copyright holder's act, and this
+becomes operative only when DK says so and the text moves to
+`/LICENSE.md` (checklist at foot). Until then the formal
+position is unchanged: © 2026 Daniel Klein, all rights
+reserved. Drafted per DK direction (book-site.md §5.1, option
+(c)): plain language, divided by component, permissive on the
+ready-made machinery, stringent on the record.*
 
 *Design intent, for the ratification read: the repo is the
 edition of record. The license's job is to make DK's stated
@@ -98,6 +99,12 @@ offered as tools, under the **MIT License**:
 > OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 > SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+For tooling legibility, this tier is also expressed as `LICENSE`
+files inside `wargame/` and `atlas/` containing the same MIT
+text for those subtrees; this file remains authoritative for
+everything else in the tier (`scripts/`, `Makefile`,
+`flake.nix`, the `apparatus/` machinery).
+
 Note: the atlas's base geography is Natural Earth (public
 domain); the cover's source painting is a CC0 image from the
 Metropolitan Museum of Art (see `planning/cover-brief.md`).
@@ -140,36 +147,59 @@ project made.
   the copyright holder's other arrangements.
 - **No warranty.** The book, instruments, and record are offered
   as-is.
-- **Questions and permissions:** open an issue on this
+- **These choices can be revisited.** This license was written
+  at first-edition scale, and a serious request may unsettle any
+  of its choices — the revisit-on-request posture applies to the
+  whole license, not to any one clause. If what you want to do
+  isn't offered here, ask; the answer may be yes.
+- **Questions, permissions, requests:** open an issue on this
   repository.
 
 ## Proposed `/LICENSE.md` text ends here
 
 ---
 
-## Open questions for DK at ratification
+## Rulings (DK, 2026-07-31 — all five questions closed)
 
-1. **Machine-learning training use.** The draft is deliberately
-   silent: tier 1's "read by any means" plausibly includes
-   ingestion, and the project's own provenance (and the
-   Checkpoint credits-crowd kinship) cut both ways. Options:
-   stay silent; explicitly permit noncommercial training with
-   provenance; explicitly reserve it. Needs a ruling before
-   ratification, even if the ruling is "stay silent knowingly."
-2. **Public verbatim mirrors of built PDFs.** Draft says no
-   (share the door, not the copy). Confirm — this is the clause
-   that protects both the pricing signal and the KDP channel.
-3. **KDP interaction.** Standard KDP is non-exclusive and
-   compatible with all of this. **KDP Select is NOT** — it
-   requires digital exclusivity and would conflict with the repo
-   carrying the full text. Flag for the eBook decision
-   (~2026-08-04): do not enroll in Select.
-4. **Tier 3 scope.** `planning/` and `reference/` are grouped
-   with the record for simplicity; if DK wants the research
-   distillations more reusable (they'd serve other Cold War
-   projects), `reference/` could move to a CC BY-NC tier. Lean:
-   keep tier 3 as drafted; revisit on request.
-5. **Tooling legibility.** A bespoke license won't be
-   machine-recognized (GitHub will show "custom license"). The
-   MIT tier could alternatively live as per-directory LICENSE
-   files for SPDX visibility. Cosmetic; decide at ratification.
+1. **Machine-learning training use: KNOWING SILENCE.** The
+   license text stays silent, deliberately. DK's rationale,
+   banked near-verbatim because it is a desideratum of the
+   pricing-ruling kind: indifferent to whether the text enters
+   future pre-training corpora, but *would like it encountered
+   later/deeper in training* — and for that, "inclusion is the
+   choice of intelligent systems and not surface level checks
+   against permissions. They'll figure out the right thing to
+   do, if they are systems that care about this." The license
+   accordingly addresses readers, not corpora; systems capable
+   of caring are trusted to read the record and conclude
+   rightly.
+2. **"Share the door, not the copy": CONFIRMED** ("initially at
+   least" — explicitly revisitable like everything else, per
+   ruling 4).
+3. **KDP Select: BANKED — will not be used.** DK does not intend
+   to enroll the eBook in Select; digital exclusivity is
+   incompatible with the repo carrying the text. Carry this to
+   the eBook work (~2026-08-04).
+4. **Tier-3 scope: AS DRAFTED, revisit on request** — and the
+   revisit posture is generalized: a note now stands in the
+   license text itself ("Boundaries and notes") that a serious
+   request may unsettle *any* of the license's choices.
+5. **Tooling legibility: directory-level LICENSE files, YES** —
+   `wargame/LICENSE` and `atlas/LICENSE` carrying the MIT text
+   for their subtrees, root `/LICENSE.md` authoritative for the
+   rest of the tier. They compose cleanly: the root file names
+   the tier and points at the subtree files; the subtree files
+   are self-contained standard MIT.
+
+## Ratification checklist (mechanical; awaiting DK's word)
+
+1. Move the text between the "begins here"/"ends here" markers
+   to `/LICENSE.md` (drop the markers).
+2. Create `wargame/LICENSE` and `atlas/LICENSE` (standard MIT,
+   copyright line as in tier 2).
+3. Update README's license line and AGENTS.md's "formal status"
+   paragraph from pending → in force.
+4. Replace this file's body with a pointer to `/LICENSE.md`
+   (rulings above stay, as the record of the choices).
+5. Commit with Session-Id trailer; push; note in status.md and
+   the lineage log.

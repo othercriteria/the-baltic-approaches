@@ -1532,3 +1532,31 @@ screen 173pp under the new build names; narrative 50,428
   tick should log "nothing to swap" and leave Last-Modified
   untouched — verified in-session (result below by the next
   entry or DK report).
+- 2026-08-01 (cont. 7): the cont.-6 live test PASSED —
+  Last-Modified stable across 15+ minutes (at least one full
+  poller tick past the record-keeping push): the NAR-hash
+  nothing-to-swap branch works end to end; reader caches
+  survive record-keeping commits. Serving side fully verified.
+- 2026-08-01 SESSION 372bd078 WRAP (single entity, one
+  context; ledger wrap entry + index rows 16/17 filed). THE
+  STATE, measured at wrap: **paperback LIVE (corrected cover),
+  eBook LIVE (B0H2X5TFDR, $9.95), site LIVE
+  (valueof.info/the-baltic-approaches/, watcher deployed and
+  cache-stability proven), suite 118 green, all edition tags
+  pushed** (first-312200ZJUL26, ebook-010256ZAUG26). Bowker:
+  both entries bumped, Pending→Active awaited. REMAINING FOR
+  SUCCESSORS, in order: (1) raw-archive this session (`make
+  raw-archive SESSION=372bd078-2526-4a61-8320-9540c817090c`)
+  + standing `make archive SKIP=<own-uuid>`; (2) R.F.
+  outreach — DK intends to wake the Checkpoint-study agent
+  (session 3d8e73ea context) to draft letter + enclosure on
+  his GO; all material gates passed; (3) Bowker Active
+  confirmations when pages settle; (4) author-copy glance
+  when they arrive (credit clearance in the flesh;
+  Transparency-code watch item, ebook-brief). The re-read-
+  first method note STANDS for any successor doing text-
+  adjacent work; for pure service work, planning/status.md +
+  the relevant brief (ebook-brief, book-site §6, site-handoff)
+  are the entry points. External read 06 (the infra session's
+  cold read) is registered with its CLAIMED caveat — panels
+  citing it should carry the caveat forward.

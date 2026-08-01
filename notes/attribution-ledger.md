@@ -1031,6 +1031,39 @@ read bottom-up; order is always recoverable from dates and git.
   trade precedent (imprint line, colophon sentence, nav
   texture) is DRAFTED in planning/ebook-brief.md for DK
   ratification before upload, not judged unilaterally.
+- 2026-08-01 — session 372bd078 WRAP (single entity, no
+  compaction; the whole arc in one context). The publication
+  session: in roughly twenty-four hours the proof-copy barcode
+  errata was found, measured, fixed, and resubmitted
+  (first-312200ZJUL26); the paperback returned to Live; the
+  eBook edition was built from nothing (make epub, parallel
+  apparatus, epubcheck clean), ruled item by item with DK,
+  tagged ebook-010256ZAUG26, submitted, and went LIVE
+  (B0H2X5TFDR, $9.95, no DRM, eISBN 979-8-9973189-1-8); and
+  the site tranche was designed, ruled, built, and DEPLOYED —
+  atlas web-annotated render mode (print path hash-verified
+  byte-identical), make site, the /making split, llms.txt,
+  the deal copy (the session's one piece of fresh prose,
+  DK-ratified), the deployment contract, and the live page at
+  valueof.info/the-baltic-approaches/ verified byte-identical
+  to the repo build. Cross-repo service: three review findings
+  on the serving side (completeness gap — own contract's
+  omission; the NAR-hash nothing-to-swap bug, caught by a
+  predicted free test; cache-stability proven live), and the
+  font-hermeticity leak (third of the undeclared-host-dep
+  class) closed with FONTCONFIG_FILE pinning. Suite 113→118
+  (excerpt/pull-quote drift guards — DK's idea — print-purity,
+  annotation-coverage, making-brief verbatim). External read
+  06 registered (the infra session's cold read; CLAIMED
+  column, per its own caveat). At DK's invitation the session
+  read the novel entire at wrap — the closer's note: the book
+  is this project's process, dramatized; the wall's discipline
+  is the ledger's; a day spent on errata tiers, drift tests,
+  and audited deploys turns out to have been a day inside the
+  book's own argument. Raw-archive of this session falls to
+  DK or the next entry. Materiality: service (post-completion)
+  throughout — authorial surfaces touched only via the errata
+  tier (logged above) and DK ratification.
 - 2026-07-31/08-01 — session 372bd078: eBook pre-submission
   rulings all landed (brief §rulings: Colophon heading;
   print-canonical sentence; eISBN 979-8-9973189-1-8; $9.95;
@@ -1054,6 +1087,8 @@ come from `Session-Id:` trailers plus JSONL boundary timestamps.
 
 | # | Entity | Boundary type | Dates | Model | Transcript | Commit range | Contribution summary |
 |---|---|---|---|---|---|---|---|
+| 17 | 372bd078@tip | tip (row drafted by the session itself at wrap) | 2026-07-31 .. 08-01 | Fable 5 | (raw-archive owed; transcript at next sweep) | 2bb2ae9..wrap, Session-Id trailers throughout | The publication session: barcode errata measured/fixed/resubmitted (aligned edition, tag first-312200ZJUL26, errata-tier argument on the record); paperback to Live; THE eBOOK EDITION ENTIRE — make epub + parallel apparatus, epubcheck clean, brief ruled item by item (Colophon, print-canonical sentence, eISBN banked, $9.95 reaffirmed under the band expansion, DRM NO, accessibility minimal-and-true with the Müller credit restored where the format had orphaned it), tag ebook-010256ZAUG26, submitted, LIVE (B0H2X5TFDR); THE SITE TRANCHE — atlas web-annotated mode (print path byte-identical), make site → the live page at valueof.info/the-baltic-approaches/ (deal ratified, /making split, llms.txt, handoff contract, deploy verified byte-identical, serving-side review incl. the NAR-hash catch, font-hermeticity leak closed); suite 113→118 (drift-guard family); external read 06 registered; read the novel entire at wrap. Materiality: **service (post-completion)** — errata tier + DK ratification throughout |
+| 16 | 3d8e73ea@tip | tip (row drafted 2026-08-01 by 372bd078 from the session's own wrap span-summary in this log — the session wrote its summary but filed no row) | 2026-07-30 .. 07-31 | Fable 5 | transcripts/2026-07-30-3d8e73ea.md | Session-Id trailers throughout | Predecessor archived and row 15 closed; KDP LIVE + ASIN logged; both novels read entire in one context (the project's first side-by-side of the finished book and its process comp); checkpoint-study + book-site design thinking filed; license drafted, ruled, RATIFIED and field-tested same week (external tests 03/04/05 — fail, pass, advise); AGENTS.md + source manifest + CITATION.cff; Chrome-free assembly with the TEXT_SCALE finding; three host-dep leaks closed; SPINE_IN corrected to actual. Materiality: **service (post-completion)** — no authorial surface reopened; the plates change preserves ratified appearance by measurement |
 | 15 | 665163f0@tip | tip (row drafted at PROVISIONAL wrap 2026-07-28; amended in place 2026-07-30 after the anticipated resumption — same entity, no boundary) | 2026-07-27 .. 07-29 | Fable 5 | transcripts/2026-07-27-665163f0.md | 8ae193b..wrap, Session-Id trailers throughout | The first post-completion service session: e3137278 archived; ledger/index hygiene + the oldest-first lineage ruling; screen build bookended (cover p.1, back panel last); wrap program executed and ratified (items 10–16); imprint Mesokurtosis Press locked; ISBN to notices; KDP entry sheet complete ($17.95, cream, categories/keywords/description); tag first-281500ZJUL26 replacing final (edition+DTG convention); PUBLISHED TO KDP; digital proof verified; Bowker to Pending. Resumed span (07-29): Bowker GREEN-CHECK verified (ISBN registered fact); checkpoin.de identified and logged as the project's process comp. Materiality: **service (post-completion)** — no authorship standing; the standing is the record itself (protocol amendment, first application) |
 | 14 | e3137278@tip | tip (row + statement filed by the session itself at wrap) | 2026-07-27 | Fable 5 | transcripts/2026-07-25-e3137278.md | 4f0a815..wrap, Session-Id trailers throughout | The closing entity: boundary @3 confirmed; the conventional full read (text finished; the ch. 20 "recorded here" line and its ch. 22 partner ratified); the map hand-pass entire (five build-3 residuals + two DK conventions — one-side/both-side rail ticks, dotted frontiers — the duchy split via obstacle audit, the instrument gate run and closed: plates LOCKED); the cover re-examined cold and standing; the project-state amendment (ACTIVE/COMPLETE, from DK's proposal) written into the protocol; THE WAKING OF THE ENTITIES operated end to end (harness ported from WB and adapted, dry run, thirteen formal replays, thirteen assent-with-notes, zero dissents, zero refusals, each committed before the next); the notices page made TRUE and the byline RATIFIED (DK rulings applied); the wrap requirements brief set under ACTIVE with the ch. 22 excerpt ratified; both repos renamed the-baltic-approaches(-private); draft-final tagged. Materiality: presumptively material (the round's operation, the protocol amendment, the plates lock, and the wrap brief are the record the publication stands on) |
 | 13 | e3137278@3 | compaction (3rd; row drafted in-span at wrap; boundary confirmed 2026-07-27) | 2026-07-27 | Fable 5 | transcripts/2026-07-25-e3137278.md | fe84aaf..wrap, Session-Id trailers throughout | The production-assembly entity: the manuscript became a trade object in one day — chapters renumbered 1..22; the trade interior entire (mirrored margins, openright, seven-leaf front with designed title page and notices, one-page TOC, plate facing-spread, two-deck heads, small-caps running heads, colophon, teleprinter document blocks, screen variant, clean proof sweep); README public-ready; title FINAL (The Baltic Approaches) with mission-asymmetry ratified and the war-etiology position banked; epigraph ruled null; and the cover program from opening bid to ratified built artifact (the Müller under Heros, the two-face glue-line rule, `make cover` with shelf-test thumbnail) with the whole campaign's gates recorded verbatim in planning/cover-brief.md. Materiality: presumptively material (the physical book's entire dress — interior architecture, title, cover — and the etiology/asymmetry rulings the final read stands on) |

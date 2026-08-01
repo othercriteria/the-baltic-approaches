@@ -79,10 +79,15 @@ text — license ruling 2026-07-31).*
   154951011 (Business & Money > Management & Leadership; the
   substitution for Lean, which the Kindle picker lacks — shifts
   the shelf from lineage (TPS/Goldratt) to payload
-  (thinking-under-uncertainty), honest either way, though bigger
-  and harder to chart than Lean; if **Quality Control &
-  Management** exists in the picker it is the closer
-  lineage-shelf swap); (3) **Alternative History** — node
+  (thinking-under-uncertainty). SIGHT-CHECKED against Quality
+  Control 2026-07-31, DK screenshots: Quality Control's live
+  shelf is cert-prep/compliance texture — ASQ handbooks,
+  OSHA manuals, sponsored primers, Toyota Way drowning in it —
+  while Decision-Making's first page is Kahneman/Rumelt/Duke/
+  Lencioni trade-published company. The lineage argument
+  WITHDRAWN on the evidence; shelf quality beats shelf
+  chartability. Decision-Making CONFIRMED); (3) **Alternative
+  History** — node
   6157855011 (the Kindle tree's spelling of print's Alternate
   History; = node 16275's population). Comps assessed from
   category identity — Amazon's shelf pages bot-block direct

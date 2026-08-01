@@ -134,23 +134,38 @@ def main() -> int:
 
     plate_svg, entries = plate_and_entries()
 
-    page = (SITE_SRC / "template.html").read_text()
-    for slot, value in {
-        "{{TAG}}": tag,
-        "{{DEAL}}": deal_html,
-        "{{NOTICES}}": notices_html,
-        "{{PLATE}}": plate_svg,
-        "{{ENTRIES}}": json.dumps(entries, ensure_ascii=False).replace("</", "<\\/"),
-    }.items():
-        if slot not in page:
-            raise SystemExit(f"template slot missing: {slot}")
-        page = page.replace(slot, value)
+    def fill(template_name: str, slots: dict) -> str:
+        page = (SITE_SRC / template_name).read_text()
+        for slot, value in slots.items():
+            if slot not in page:
+                raise SystemExit(f"{template_name}: slot missing: {slot}")
+            page = page.replace(slot, value)
+        return page
 
-    (OUT / "index.html").write_text(page)
+    # main page: the making section carries three verbatim sentences
+    # (in the template, drift-guarded by tests); the full account is
+    # the making subpage's.
+    (OUT / "index.html").write_text(
+        fill(
+            "template.html",
+            {
+                "{{TAG}}": tag,
+                "{{DEAL}}": deal_html,
+                "{{PLATE}}": plate_svg,
+                "{{ENTRIES}}": json.dumps(entries, ensure_ascii=False).replace(
+                    "</", "<\\/"
+                ),
+            },
+        )
+    )
+    (OUT / "making").mkdir(exist_ok=True)
+    (OUT / "making" / "index.html").write_text(
+        fill("making.html", {"{{TAG}}": tag, "{{NOTICES}}": notices_html})
+    )
     (OUT / "site.css").write_text((SITE_SRC / "site.css").read_text())
     (OUT / "site.js").write_text((SITE_SRC / "site.js").read_text())
     (OUT / "llms.txt").write_text(llms_txt(tag))
-    print(f"Site assembled in {OUT.relative_to(ROOT)}/ (tag {tag})")
+    print(f"Site assembled in {OUT.relative_to(ROOT)}/ (tag {tag}; + making/)")
     return 0
 
 

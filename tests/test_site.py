@@ -52,3 +52,21 @@ def test_web_render_annotated_and_entries_cover_it():
 def test_tag_of_record_wellformed():
     tag = build_site.read_tag()
     assert re.fullmatch(r"(first|ebook)-\d{6}Z[A-Z]{3}\d{2}", tag), tag
+
+
+def test_main_page_making_brief_is_verbatim_notices():
+    """The main page quotes the ratified account; the quoted
+    sentences must stay verbatim with the notices source (the
+    same rule the excerpt and pull-quote live under)."""
+    tpl = (ROOT / "apparatus" / "site" / "template.html").read_text()
+    m = re.search(r'<section class="making">.*?</section>', tpl, re.S)
+    assert m, "making section missing from template"
+    body = re.sub(r"<!--.*?-->", "", m.group(0), flags=re.S)
+    paras = re.findall(r"<p>(.*?)</p>", body, re.S)
+    assert paras, "no making sentences on the main page"
+    quoted = normalize(re.sub(r"<[^>]+>", "", paras[0]))
+    notices = normalize(
+        (ROOT / "apparatus" / "epub-front-matter.md").read_text()
+    )
+    for sentence in re.split(r"(?<=\.)\s+(?=[A-Z])", quoted):
+        assert sentence in notices, f"main-page making text drifted: {sentence!r}"

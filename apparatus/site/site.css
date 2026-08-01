@@ -154,6 +154,19 @@ footer {
 }
 footer p { margin: 0 0 0.5rem; }
 
+/* --- making subpage --------------------------------------------- */
+.masthead-sub { padding: 2rem 1.5rem; }
+.masthead-sub h1 { font-size: 1.15rem; margin: 0; }
+.crumb {
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  margin: 0 0 1rem;
+  opacity: 0.75;
+}
+.crumb a { text-decoration: none; }
+.crumb a:hover { color: inherit; text-decoration: underline; }
+.editions p { font-size: 0.95rem; }
+
 @media (max-width: 40rem) {
   .masthead { gap: 1.5rem; padding: 2rem 1rem; }
   .masthead .cover { width: 150px; }

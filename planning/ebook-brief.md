@@ -133,8 +133,27 @@ fixed, the print edition is canonical."), awaiting DK read.
 
 - Entry sheet fields (description, categories, keywords,
   AI-disclosure) carry over from the paperback sheet in
-  cover-brief.md. Pricing is DK's call — the 70% royalty band is
-  $2.99–$9.99; NO Select enrollment (banked).
+  cover-brief.md. NO Select enrollment (banked).
+- **Pricing brief (2026-07-31, options for DK ruling).**
+  Structure: 70% royalty only at $2.99–$9.99 minus ~$0.30
+  delivery (file ≈2 MB); above-band drops to 35% — $14.95
+  yields ≈$5.23, LESS than $9.99's ≈$6.78, so above-band pays
+  twice (less money, worse value signal): closed. Doctrine:
+  pricing-as-credibility (the $17.95 ruling, applied where the
+  slop floor lives) + the repo IS the free door, so the eBook
+  need not be the cheap one. Options: **$9.99** (band ceiling,
+  Clancy-backlist shelf number, ≈$6.78 — but the .99 is the
+  algorithm's); **$9.95** (same shelf, house .95, ≈$6.76 —
+  RECOMMENDED); **$8.95** (half-of-print, the canonicality
+  sentence's pricing echo, ≈$6.06); **$6.99** (approachability,
+  ≈$4.68 — declined on doctrine: the free door already serves
+  it). Launch price sets the deal frame; changeable post-publish.
+- **Bowker form answers (2026-07-31):** Medium E-Book; File Type
+  EPUB; Format **"Electronic book text"** (= ONIX DG, e-book
+  delivered as a file — correct for Kindle/EPUB) not "Digital
+  online" (= ONIX List 150 EC, online-access-only web-reader
+  product, wrong for us; empty string underspecifies the Books
+  in Print record if it validates at all).
 - Upload artifacts: `build/the-baltic-approaches.epub` +
   `build/epub/cover-ebook.jpg` (KDP asks for the marketing cover
   separately).

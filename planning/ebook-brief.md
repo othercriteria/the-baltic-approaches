@@ -148,6 +148,19 @@ fixed, the print edition is canonical."), awaiting DK read.
   sentence's pricing echo, ≈$6.06); **$6.99** (approachability,
   ≈$4.68 — declined on doctrine: the free door already serves
   it). Launch price sets the deal frame; changeable post-publish.
+  **RULED 2026-07-31 (DK): $9.95 BANKED.**
+- **DRM: NO (DK ruling 2026-07-31, session concurring, argued):**
+  the repo grants strangers read/build/transform free, so DRM
+  would make the PAID copy the most restricted form of the text;
+  it technically blocks the license's central grant
+  (agent-mediated personal transformation, field-tested 03/04);
+  the piracy theory is void by design (the text is public at the
+  tag); and KDP DRM only taxes honest buyers. NOTE: the choice is
+  permanent per title — "no" at submission is final, and right.
+- **Bowker eBook registration: SUBMITTED, status Pending**
+  (2026-07-31; 979-8-9973189-1-8, E-Book/EPUB/Electronic book
+  text). Flip to Active follows the eBook going live, same as
+  the paperback's gate.
 - **Bowker form answers (2026-07-31):** Medium E-Book; File Type
   EPUB; Format **"Electronic book text"** (= ONIX DG, e-book
   delivered as a file — correct for Kindle/EPUB) not "Digital

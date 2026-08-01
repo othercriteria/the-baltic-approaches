@@ -149,6 +149,20 @@ fixed, the print edition is canonical."), awaiting DK read.
   ≈$4.68 — declined on doctrine: the free door already serves
   it). Launch price sets the deal frame; changeable post-publish.
   **RULED 2026-07-31 (DK): $9.95 BANKED.**
+  *CORRECTION 2026-08-01 (DK caught it, KDP help G200634560):
+  the 70% band expanded to $2.99–$12.99 effective 2026-07-07 —
+  the brief's ceiling was stale at writing. Re-argued with the
+  wider band: $12.95 would yield ≈$8.86, but every argument for
+  $10–13 is a revenue argument and the doctrine prices for
+  signal — the $11–13 range sits BETWEEN shelves (above the
+  Clancy-backlist/Goal row at ~$9.99, below trad frontlist at
+  $13.99+, reads optimized not considered), and it compresses
+  the format spread against the $17.95 paperback (28% vs the
+  conventional ~45%). The arithmetic closure now applies only
+  above $12.99; $10–13 declined on shelf/doctrine grounds.
+  Net: the expansion STRENGTHENS $9.95 — it now sits visibly
+  below the ceiling, demonstrably chosen rather than
+  constrained. **$9.95 REAFFIRMED by both parties.***
 - **DRM: NO (DK ruling 2026-07-31, session concurring, argued):**
   the repo grants strangers read/build/transform free, so DRM
   would make the PAID copy the most restricted form of the text;

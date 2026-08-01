@@ -1363,6 +1363,16 @@ screen 173pp under the new build names; narrative 50,428
   Remaining before eBook upload: DK reads the canonicality
   sentence, pricing, then tag ebook-<DTG> + stamp-matched
   rebuild at submission.
+- 2026-07-31 (cont. 4): remaining rulings all LANDED same
+  evening — canonicality sentence ratified; **$9.95 banked**;
+  **DRM NO** (argued in brief; permanent-choice noted); Bowker
+  eBook entry SUBMITTED (Pending). **TAG `ebook-010230ZAUG26`
+  CUT at 374c85b** (annotated, pushed); EPUB rebuilt at the tag
+  (stamp `Final · 2026-07-31 · 374c85b`), epubcheck clean.
+  UPLOAD ARTIFACTS READY: build/the-baltic-approaches.epub +
+  build/epub/cover-ebook.jpg. DK submits; then: review lands →
+  eBook live → Bowker Active ×2 (paperback gate = visible
+  Amazon page) → site doors complete → R.F. outreach GO.
 - 2026-07-31 (cont.): **RESUBMISSION UPLOADED TO KDP** (DK,
   same day). Previewer verified (screenshot reviewed in-session):
   rendered ISBN barcode (9798997318901) fully below the credit

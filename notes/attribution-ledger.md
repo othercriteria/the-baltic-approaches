@@ -1031,6 +1031,18 @@ read bottom-up; order is always recoverable from dates and git.
   trade precedent (imprint line, colophon sentence, nav
   texture) is DRAFTED in planning/ebook-brief.md for DK
   ratification before upload, not judged unilaterally.
+- 2026-07-31/08-01 — session 372bd078: eBook pre-submission
+  rulings all landed (brief §rulings: Colophon heading;
+  print-canonical sentence; eISBN 979-8-9973189-1-8; $9.95;
+  DRM NO; accessibility minimal-and-true — the Müller credit
+  restored to the eBook imprint, where this format had orphaned
+  it). TAG DISCARD LOGGED per the rewind rule:
+  `ebook-010230ZAUG26` (cut at 374c85b as the submission build)
+  was deleted before any submission occurred — DK's
+  accessibility question changed the file first; the fact the
+  tag stated ("first submission") never became true. Successor
+  tag cut at the accessibility commit; the paperback edition
+  tags are unaffected.
 
 One row per entity: `<session-id>@<boundary-n>` or `<session-id>@tip`.
 Rows are drafted in-span (see process doc, refinement 3): a

@@ -12,3 +12,19 @@ lang: en-US
 publisher: Mesokurtosis Press
 rights: © 2026 Daniel Klein. All rights reserved.
 toc-title: Contents
+# Accessibility declarations (schema.org vocabulary; pandoc's native
+# fields). They state the design facts: the plates are apparatus,
+# reference/record only — the text is sufficient without them
+# (CLAUDE.md apparatus ruling) — and every image carries alt text.
+accessModes: [textual, visual]
+accessModeSufficient: [textual]
+accessibilityFeatures:
+  - alternativeText
+  - readingOrder
+  - structuralNavigation
+  - tableOfContents
+accessibilityHazards: [none]
+accessibilitySummary: >-
+  A prose novel with two reference map plates in the front matter;
+  the text is complete without the images, and all images carry
+  alternative text.

@@ -161,6 +161,30 @@ fixed, the print edition is canonical."), awaiting DK read.
   (2026-07-31; 979-8-9973189-1-8, E-Book/EPUB/Electronic book
   text). Flip to Active follows the eBook going live, same as
   the paperback's gate.
+- **Accessibility (DK position ratified + implemented,
+  2026-07-31): minimal-and-true.** (a) Cover: NO description —
+  a detailed one would narrate the violated expectation
+  (inventorying absent tanks/red/front-maps). Instead the print
+  back panel's Müller credit line joins the eBook imprint
+  verbatim — it had NO carrier in this format (no back panel),
+  so attribution doubles as the cover's accessible
+  identification: name the painting, don't describe it. (b)
+  Plates: alt text to PARITY grade — one clause conveying what
+  a glance gives (transport map, not front-line map); no
+  extended descriptions (serializing a road network serves no
+  one); the colophon already carries no-war-marks-by-design for
+  every reader. (c) OPF accessibility metadata via pandoc's
+  native fields (accessModes textual+visual,
+  **accessModeSufficient: textual** = the apparatus ruling
+  stated machine-readably, features, hazard none, one-sentence
+  summary). KDP form answers thereby file-backed: alt text YES;
+  long/extended descriptions NONE NEEDED (text-sufficient).
+  Note: pandoc 3.7 emits default a11y metadata; the yaml fields
+  are the supported override route (--epub-metadata XML is
+  ignored for these).
+- **Tag note:** `ebook-010230ZAUG26` was cut pre-accessibility
+  and never submitted — DELETED (logged in the ledger) and
+  superseded by the fresh cut at the accessibility commit.
 - **Bowker form answers (2026-07-31):** Medium E-Book; File Type
   EPUB; Format **"Electronic book text"** (= ONIX DG, e-book
   delivered as a file — correct for Kindle/EPUB) not "Digital

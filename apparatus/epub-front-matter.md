@@ -40,6 +40,10 @@ ledger, not the byline, is the honest unit of account.
 First edition · Mesokurtosis Press
 
 eBook ISBN 979-8-9973189-1-8 · trade paperback ISBN 979-8-9973189-0-1
+
+Cover: Adam August Müller, *The Hall of Antiquities at
+Charlottenborg Palace, Copenhagen* (1830). The Metropolitan
+Museum of Art, public domain (CC0)
 :::
 
 ::: stamp
@@ -48,6 +52,6 @@ eBook ISBN 979-8-9973189-1-8 · trade paperback ISBN 979-8-9973189-0-1
 
 # Maps {.plates .unnumbered}
 
-![The Approaches, November 1983](plate-approaches.png)
+![Plate I, The Approaches: transport map of Denmark and the north German Baltic coast, November 1983 — motorway, rail, ferry, canal, frontier.](plate-approaches.png)
 
-![The Neck, November 1983](plate-neck.png)
+![Plate II, The Neck: transport map of the Schleswig neck between the Schlei and the Eider at closer scale, November 1983.](plate-neck.png)

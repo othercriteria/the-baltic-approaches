@@ -1373,6 +1373,20 @@ screen 173pp under the new build names; narrative 50,428
   build/epub/cover-ebook.jpg. DK submits; then: review lands →
   eBook live → Bowker Active ×2 (paperback gate = visible
   Amazon page) → site doors complete → R.F. outreach GO.
+- 2026-08-01 — **eBook SUBMITTED TO KDP** (DK; late 07-31 local).
+  Final pre-submission turn: accessibility ruled minimal-and-true
+  and implemented (Müller credit restored to imprint — the format
+  had orphaned it; plate alts to parity; OPF a11y declarations
+  via pandoc native fields; KDP form answers file-backed);
+  stale pre-submission tag discarded (logged) → build of record
+  **`ebook-010256ZAUG26` at 692f92b**, epubcheck clean; pricing
+  band correction absorbed (70% now $2.99–$12.99, DK catch) and
+  **$9.95 reaffirmed** on shelf/doctrine grounds. Status at
+  submission: **Kindle eBook "In review"; paperback back to
+  "Live"** (barcode-errata update review completed). In flight,
+  no action: eBook review lands → Live (ASIN assigned) →
+  Bowker Active ×2 (paperback gate = visibly live Amazon page);
+  then site doors complete; R.F. outreach on DK's GO.
 - 2026-07-31 (cont.): **RESUBMISSION UPLOADED TO KDP** (DK,
   same day). Previewer verified (screenshot reviewed in-session):
   rendered ISBN barcode (9798997318901) fully below the credit

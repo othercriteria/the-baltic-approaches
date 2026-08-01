@@ -1483,3 +1483,16 @@ screen 173pp under the new build names; narrative 50,428
   is COMPLETE.** DK is landing the valueof.info watcher per
   site-handoff.md; next report = hosted site or a blocker.
   Then: README URL; R.F. outreach GO still on the stack.
+- 2026-08-01 (cont. 4): **FONT HERMETICITY LEAK CLOSED** — the
+  deploy sandbox (valueof.info side) found `make site` non-
+  hermetic: texliveSmall ships NO TeX Gyre font files; desktop
+  builds leaned on the system X11 font set (gyre-fonts,
+  transitively). The THIRD leak of the undeclared-host-dep
+  class (google-chrome, pdfjam, now fonts). Fix: flake declares
+  gyre-fonts AND pins FONTCONFIG_FILE (makeFontsConf) so the
+  shell cannot lean on host fonts — verified: cover raster
+  BYTE-IDENTICAL under the pinned config (same upstream font
+  files), suite 118 green in the hermetic shell, site rebuilds.
+  AGENTS.md apt path was already honest (fonts-texgyre listed).
+  site-handoff.md updated. Matters for the planned hive
+  (headless) move on the serving side.

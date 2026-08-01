@@ -16,10 +16,23 @@
       # pdfjam: the pdf-screen cover/back trim step (declared here
       # 2026-07-31 — it had been leaking in from the host profile).
       texlive = pkgs.texliveSmall.withPackages (ps: with ps; [ pdfjam ]);
+
+      # The book's faces (TeX Gyre Heros + Pagella), DECLARED — the
+      # third leak of the undeclared-host-dep class (google-chrome,
+      # pdfjam, now fonts; found by the valueof.info deploy sandbox
+      # 2026-08-01): texliveSmall ships no TeX Gyre font files, and
+      # desktop builds silently picked them up from the system X11
+      # font set. FONTCONFIG_FILE below pins fontconfig to exactly
+      # this set, so the shell cannot lean on host fonts and a
+      # headless server builds identically. (The apt path was already
+      # honest: AGENTS.md lists fonts-texgyre.)
+      fontsConf = pkgs.makeFontsConf { fontDirectories = [ pkgs.gyre-fonts ]; };
     in
     {
       devShells.${system}.default = pkgs.mkShell {
+        FONTCONFIG_FILE = fontsConf;
         packages = with pkgs; [
+          gyre-fonts
           # Writing / build (white-buffalo pipeline: Makefile + assemble-style scripts)
           git
           git-lfs # transcripts/raw/ JSONL archive (attribution process)

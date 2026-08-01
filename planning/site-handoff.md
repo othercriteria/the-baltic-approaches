@@ -35,8 +35,12 @@ From a checkout of `othercriteria/the-baltic-approaches`, branch
 
 - `nix develop` is the supported environment (the repo flake
   carries every build dependency: pandoc, TeX Live, poppler,
-  librsvg, python). Transcript LFS objects are not needed for the
-  site: `GIT_LFS_SKIP_SMUDGE=1` clones are fine.
+  librsvg, python, and — since 2026-08-01 — the TeX Gyre fonts,
+  with `FONTCONFIG_FILE` pinned to the declared set so a headless
+  host builds identically; the deploy sandbox's finding, absorbed
+  upstream with a rendered-output byte-identity check). Transcript
+  LFS objects are not needed for the site:
+  `GIT_LFS_SKIP_SMUDGE=1` clones are fine.
 - `make test` is the deploy gate (117 tests; includes the
   quote-drift and plate-annotation guards). **A failing suite must
   not deploy.**

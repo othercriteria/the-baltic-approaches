@@ -1518,3 +1518,17 @@ screen 173pp under the new build names; narrative 50,428
   **README now carries the site URL + eBook ISBN/listing.**
   Remaining on the whole stack: R.F. outreach on DK's GO;
   Bowker Pending→Active confirmations.
+- 2026-08-01 (cont. 6): serving-side follow-ups reviewed
+  (nixos-config 997fbfe + eca5e3e): completeness check now
+  covers making/index.html PLUS a drift-proof empty-file sweep
+  (covers pages added after the contract table); and the
+  predicted free test caught a REAL BUG — the nothing-to-swap
+  branch compared store paths, which change with every source
+  revision even when output bytes don't, so the branch was
+  unreachable and a docs-only commit invalidated reader caches.
+  Fixed to compare the output's NAR hash from the store DB.
+  Both stamp sites updated consistently. THIS COMMIT is the
+  live test: it changes no site output, so the next poller
+  tick should log "nothing to swap" and leave Last-Modified
+  untouched — verified in-session (result below by the next
+  entry or DK report).

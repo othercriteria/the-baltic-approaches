@@ -2,6 +2,9 @@
 # listing metadata from the entry form, not this file; these fields are
 # what the file itself declares to any reader.
 title: The Baltic Approaches
+identifier:
+  - scheme: ISBN-13
+    text: "9798997318918"
 subtitle: A Novel of November 1983
 author: Daniel Klein with Claude
 date: "2026"

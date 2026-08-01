@@ -528,6 +528,11 @@ chrome-legacy). Measurement findings, for the record:
 - The published first-edition artifacts at `first-281500ZJUL26`
   remain the edition of record (built with the Chrome plates);
   rebuilds from main reproduce them within the tolerance above.
+  *UPDATE 2026-07-31 (372bd078): superseded by the barcode-errata
+  resubmission at `first-312200ZJUL26`, whose artifacts are built
+  with the rsvg plates — the tolerance above is now the published
+  state, not a divergence from it. The eBook plates (make epub,
+  PNG) come off the same chain.*
 - Same commit closed the other two host leaks: pdfjam (now via
   texliveSmall.withPackages) and pillow (flake python). The full
   `make pdf-screen` — plates, cover, wrap, trims, assembly — now

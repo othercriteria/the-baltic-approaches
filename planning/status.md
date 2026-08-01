@@ -1349,6 +1349,20 @@ screen 173pp under the new build names; narrative 50,428
   Forthcoming (flip gated on visible page). NEXT per DK: eBook
   process (upstream of site; NO KDP Select), then site rulings +
   R.F. outreach GO.
+- 2026-07-31 (cont. 3): **eBook brief RULED item-by-item** (DK;
+  categories confirmed by shelf sight-check — Decision-Making
+  over Quality Control, lineage argument withdrawn on the live
+  comps; KPF declined, acked). Back-matter heading → **Colophon**
+  (applied); print-is-canonical sentence drafted into it (DK
+  read pending); **eBook ISBN 979-8-9973189-1-8 BANKED** (DK) —
+  in imprint line + OPF; Bowker eBook format entry = DK errand.
+  epubcheck clean after all changes. STALENESS PASS run:
+  book-site.md (license §5.1 CLOSED, tag updated + quote-at-
+  build-time note, eBook/outreach gates refreshed), map-spec.md
+  (edition-of-record note superseded by first-312200ZJUL26).
+  Remaining before eBook upload: DK reads the canonicality
+  sentence, pricing, then tag ebook-<DTG> + stamp-matched
+  rebuild at submission.
 - 2026-07-31 (cont.): **RESUBMISSION UPLOADED TO KDP** (DK,
   same day). Previewer verified (screenshot reviewed in-session):
   rendered ISBN barcode (9798997318901) fully below the credit

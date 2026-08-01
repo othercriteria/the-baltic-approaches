@@ -44,6 +44,30 @@ text — license ruling 2026-07-31).*
 
 ## Drafted pending DK ratification (before upload)
 
+**RULED 2026-07-31 (DK, in-session to 372bd078; he flagged he'd
+lost SA on this list — re-presented and ruled item by item).
+Substitution decisions ratified as sound. (1) acked, with the
+Bowker eBook-ISBN question turned back for recommendation —
+answered: DO IT NOW (the 979-8-9973189 registrant is a block;
+assigning a title number costs minutes and nothing, the file
+then carries its eISBN from first upload with no post-publish
+file update, and Books in Print lists both formats; KDP's
+Kindle flow has no ISBN field, so the eISBN lives in the OPF +
+imprint line + Bowker, which is normal). **BANKED same turn
+(DK): eBook ISBN 979-8-9973189-1-8** (check digit verified) —
+applied to the imprint line and the OPF identifier; Bowker
+registration of the eBook format entry is DK's errand
+(publisher field Mesokurtosis Press, format EPUB, status
+Forthcoming until live). (2) ratified. (3)
+ruled: back-matter heading becomes **Colophon** (the sameness
+of the two making-titles only surfaces in a TOC, which print
+doesn't have) — APPLIED. (4) ratified. (5) ratified, plus DK
+direction: the non-paper products should state the print
+edition is canonical — sentence DRAFTED into the colophon
+("Where a medium reflows or re-orients what the printed page
+fixed, the print edition is canonical."), awaiting DK read.
+(6) (7) acked. (8) ratified as-is.**
+
 1. **Imprint line:** "eBook edition · trade paperback ISBN
    979-8-9973189-0-1". No separate eBook ISBN — KDP assigns an
    ASIN and requires nothing more; a Bowker eBook ISBN is optional

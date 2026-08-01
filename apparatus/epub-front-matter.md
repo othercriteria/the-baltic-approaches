@@ -39,7 +39,7 @@ ledger, not the byline, is the honest unit of account.
 
 First edition · Mesokurtosis Press
 
-eBook edition · trade paperback ISBN 979-8-9973189-0-1
+eBook ISBN 979-8-9973189-1-8 · trade paperback ISBN 979-8-9973189-0-1
 :::
 
 ::: stamp

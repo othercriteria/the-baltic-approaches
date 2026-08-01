@@ -1445,3 +1445,16 @@ screen 173pp under the new build names; narrative 50,428
   location, path-vs-subdomain, plate y/n, deal copy). Remaining
   stack: site build (out of repo scope; copy drafting on ask) +
   R.F. outreach GO.
+- 2026-08-01 (cont. 2): site design advanced (book-site.md
+  §6.1): **plate ruled YES as INTERACTIVE SVG** (atlas-native,
+  mouseover → atlas entry with provenance tier; print plates
+  stay locked); **source location ruled: in-repo `make site` →
+  build/site/**, valueof.info runs a watch-main rebuild-and-
+  serve service (suite gates deploys; keep-last-good) — the
+  separate-repo lean died with its premises (site consumes
+  atlas/drafts/AGENTS.md/git); **path ruled** (/the-baltic-
+  approaches/); **tests/test_excerpt.py ADDED (suite 113)** —
+  back-cover excerpt segments must be verbatim ch. 22; site
+  pull-quote joins the table when the target lands. NEXT
+  buildable in repo scope: the `make site` target + atlas
+  annotated-SVG render mode + deal-copy draft, on DK's word.

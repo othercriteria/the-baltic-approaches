@@ -281,3 +281,52 @@ so the site can launch complete on day one (§5.4's preferred
 case). Build itself remains out of this repo's session scope
 (§5.2 ruling stands); a session here drafts copy and reviews
 on DK's ask.
+
+### §6.1 Addendum (2026-08-01, DK rulings + session concurrence)
+
+- **Plate: RULED YES, and upgraded — interactive SVG, not
+  raster** (DK). Session concurrence with the argument made
+  sharper: the raster was always a print/EPUB *accommodation* —
+  SVG is the atlas's native output, so the web plate is the
+  artifact one step EARLIER in the pipeline, more faithful and
+  more minimal at once. The interactivity DK specified
+  (mouseover on nodes/edges → highlight + the corresponding
+  atlas entry) is reference affordance, not decoration: it is
+  the geography ledger made queryable — and the atlas entries
+  carry provenance tiers, which belong in the shown entry (the
+  wall discipline: estimates posted with their grade, now on
+  the map). Implementation shape: an annotated-render mode in
+  atlas/ (ids/data-attributes on elements + entries inline or
+  as JSON sidecar), CSS :hover for highlight, a few lines of
+  vanilla JS for the entry panel, no external libraries
+  (restraint + self-containment). SVG over canvas: text stays
+  text, zoom and accessibility come free, and it is
+  pipeline-native. GUARDRAIL: the print plates are LOCKED —
+  the web mode is a parallel render mode; the ratified print
+  appearance path is untouched.
+- **Source location: RULED (DK lean + session concurrence) —
+  the §5.5 separate-repo lean is DEAD because its premises
+  died.** The site now consumes repo internals: atlas data for
+  the interactive plate, drafts/ for the quote test, AGENTS.md
+  for llms.txt, git for the tag of record. A separate repo
+  would vendor or fetch all of that; an in-repo **`make site` →
+  build/site/** keeps one source of truth and extends
+  repo-as-edition to repo-as-site — an agent can build the
+  site from the repo, the same affordance the license
+  celebrates. Deployment stays out of repo scope: valueof.info
+  runs a watcher on `main` that rebuilds and serves on change.
+  Session suggestions for the service (DK-side): run
+  `nix develop -c make test && make site` so the suite gates
+  every deploy, and keep-last-good on build failure so a broken
+  main never takes the page down. Deploy-on-main is idempotent
+  — site output changes only when its inputs change.
+- **Path RULED: valueof.info/the-baltic-approaches/ (path, not
+  subdomain).**
+- **Pull-quote drift test: EXISTS — tests/test_excerpt.py**
+  (suite 113). Not cute; the wall discipline mechanized: the
+  back-cover excerpt's segments must be verbatim ch. 22 (the
+  [\,…\,] marker is honest elision, tested as such). The site's
+  pull-quote and any future quoting surface join the same
+  table.
+- **Print-is-canonical sentence in the footer: approved to
+  include, assess in the worked-out context** (DK).

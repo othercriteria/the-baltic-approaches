@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- The book site (planning/book-site.md §6). Assembled by
+     scripts/build_site.py from ratified sources; the only fresh
+     prose is deal.md. Self-contained: no external requests. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Baltic Approaches — A Novel of November 1983</title>
+<meta name="description" content="A staff novel of a NATO corps headquarters in the Baltic Approaches, November 1983. Written by Claude in sessions directed, read, and edited by Daniel Klein. Trade paperback and Kindle; the source repository is public.">
+<link rel="stylesheet" href="./site.css">
+</head>
+<body>
+
+<header class="masthead">
+  <img class="cover" src="./cover.jpg" alt="Cover: Adam August Müller, The Hall of Antiquities at Charlottenborg Palace, Copenhagen (1830)." width="825" height="1275">
+  <div class="mast-text">
+    <h1>THE BALTIC APPROACHES</h1>
+    <p class="subtitle">A NOVEL OF NOVEMBER 1983</p>
+    <p class="byline">DANIEL KLEIN <em>with</em> CLAUDE</p>
+  </div>
+</header>
+
+<main>
+<section class="deal">
+{{DEAL}}
+</section>
+
+<section class="doors">
+  <h2>Three doors</h2>
+  <ol>
+    <li><strong>Buy the book.</strong>
+      <a href="https://www.amazon.com/dp/B0HC83GB4P">Trade paperback,
+      $17.95 · Kindle, $9.95</a> — one listing carries both.</li>
+    <li><strong>Read the source.</strong> The
+      <a href="https://github.com/othercriteria/the-baltic-approaches">public
+      repository</a> is the source edition: the manuscript,
+      chapter by chapter, with the research instruments and the
+      complete working record beside it.</li>
+    <li><strong>Hand it to an agent.</strong> If you use an AI
+      agent, point it at the repository; the tag of record is
+      <code>{{TAG}}</code>, and <code>AGENTS.md</code> at the root
+      is the builder's guide. The license welcomes personal,
+      agent-mediated transformation.</li>
+  </ol>
+  <p class="position">The site serves no book files — by design,
+  not neglect: the store sells the editions, and the repository
+  <em>is</em> the free one.</p>
+</section>
+
+<section class="plate">
+  <h2>The theater</h2>
+  <p class="plate-hint">Plate I of the book's front matter, drawn
+  from the project's transport atlas of the 1983 Baltic
+  Approaches. Touch a road, rail line, ferry, or town for its
+  atlas record — every capacity figure carries its source grade.
+  The plate holds clean prewar geography and no marks of the war,
+  by design.</p>
+  <figure class="plate-figure">
+{{PLATE}}
+  </figure>
+  <aside id="atlas-panel" aria-live="polite">
+    <p class="panel-idle">Nothing selected. The map is the ledger;
+    touch it anywhere the ink runs.</p>
+  </aside>
+</section>
+
+<section class="making">
+{{NOTICES}}
+  <ul class="record-links">
+    <li><a href="https://github.com/othercriteria/the-baltic-approaches">The repository</a> — manuscript, instruments, working record</li>
+    <li><a href="https://github.com/othercriteria/the-baltic-approaches/blob/main/notes/attribution-ledger.md">The attribution ledger</a> — every contributing session, and its statements</li>
+    <li><a href="https://github.com/othercriteria/the-baltic-approaches/blob/main/planning/attribution.md">The attribution protocol</a> — the process the ledger runs under</li>
+    <li><a href="https://github.com/othercriteria/the-baltic-approaches/tree/main/transcripts">The transcripts</a> — the sessions themselves, raw and rendered</li>
+    <li><a href="https://github.com/othercriteria/the-baltic-approaches/blob/main/LICENSE.md">The license</a> — what readers and their agents may do</li>
+  </ul>
+</section>
+</main>
+
+<footer>
+  <p>Mesokurtosis Press · trade paperback ISBN 979-8-9973189-0-1 ·
+  eBook ISBN 979-8-9973189-1-8</p>
+  <p>© 2026 Daniel Klein. All rights reserved. Where a medium
+  reflows or re-orients what the printed page fixed, the print
+  edition is canonical.</p>
+</footer>
+
+<script id="atlas-data" type="application/json">{{ENTRIES}}</script>
+<script src="./site.js"></script>
+</body>
+</html>

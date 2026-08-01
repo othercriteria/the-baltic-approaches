@@ -330,3 +330,37 @@ on DK's ask.
   table.
 - **Print-is-canonical sentence in the footer: approved to
   include, assess in the worked-out context** (DK).
+
+### §6.2 BUILT (2026-08-01, session 372bd078)
+
+The §6/§6.1 intent is implemented; `make site` → `build/site/`
+(index.html with the web-annotated Plate I + 130 atlas entries
+inline, site.css, site.js, cover.jpg, llms.txt). Facts of record:
+
+- **atlas web mode:** `render_plate(..., web=True)` /
+  `python3 -m atlas render approaches --web --entries-out …` —
+  data-a wrappers + invisible hit targets; entries carry
+  capacity, provenance grade, route, km, tracks, notes. The
+  PRINT path is byte-identical (hash-verified before/after; suite
+  guard test_site.py::test_print_render_carries_no_web_annotation).
+- **Hover panel:** name, class/route/km, capacity with its source
+  grade as a chip, sourced notes. Highlight in instrument blue —
+  deliberately NOT red (no war marks, even in UI state).
+- **The deal:** apparatus/site/deal.md, DRAFT PENDING DK
+  RATIFICATION — the page's only fresh prose. Pull-quote audited
+  against ch. 22 by test_site.py (the excerpt-drift rule
+  extended, per DK's direction).
+- **Notices:** sourced verbatim from epub-front-matter.md (single
+  source with the eBook); llms.txt composed per §4's genre ruling
+  (informs, solicits nothing); tag of record read from AGENTS.md
+  at build.
+- **Suite 117** (four new: quote-drift, print purity, web
+  annotation coverage, tag well-formedness).
+- **Deployment contract: planning/site-handoff.md** — build
+  interface (`nix develop -c make test site`), atomic-swap +
+  keep-last-good discipline, serving details, ownership split.
+
+Remaining before launch: DK ratifies the deal copy (and the page
+in a browser — the repo side had no browser this session); the
+valueof.info service lands per the handoff; README gains the URL
+once live.

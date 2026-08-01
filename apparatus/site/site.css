@@ -1,0 +1,162 @@
+/* The book site (book-site.md §6). The cover's two-face thesis as
+   CSS: Heros-class grotesque for chrome (masthead, headings,
+   footer), Pagella-class humanist serif for running text. System
+   stacks stand in for the TeX Gyre faces — nothing is fetched.
+   One restrained accent for the map interaction; no other color. */
+
+:root {
+  --ink: #111;
+  --paper: #fffdf8;
+  --field: #3a2d21;        /* the wrap's sampled floor brown */
+  --accent: #1f4f7a;       /* map highlight: instrument blue, not war-mark red */
+  --chrome: "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --text: "TeX Gyre Pagella", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--text);
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
+/* --- masthead: the cover's dark field --------------------------- */
+.masthead {
+  background: var(--field);
+  color: #f2ede3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 3rem 1.5rem;
+  flex-wrap: wrap;
+}
+.masthead .cover {
+  width: 220px;
+  height: auto;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);
+}
+.mast-text { text-align: center; font-family: var(--chrome); }
+.mast-text h1 {
+  font-size: 1.9rem;
+  font-weight: normal;
+  letter-spacing: 0.22em;
+  margin: 0 0 0.8rem;
+}
+.mast-text .subtitle {
+  font-size: 0.8rem;
+  letter-spacing: 0.3em;
+  margin: 0 0 3rem;
+}
+.mast-text .byline {
+  font-size: 0.95rem;
+  letter-spacing: 0.14em;
+  margin: 0;
+}
+.mast-text .byline em { font-family: var(--text); letter-spacing: 0.02em; }
+
+/* --- column ----------------------------------------------------- */
+main { max-width: 42rem; margin: 0 auto; padding: 1rem 1.25rem 3rem; }
+h2 {
+  font-family: var(--chrome);
+  font-size: 0.95rem;
+  font-weight: normal;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 2.8rem 0 1rem;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 0.35rem;
+}
+section p { margin: 0 0 0.8rem; }
+a { color: inherit; }
+a:hover { color: var(--accent); }
+
+.deal { margin-top: 2.2rem; }
+.deal blockquote {
+  margin: 1.4rem 2rem 0;
+  font-style: italic;
+}
+.deal blockquote p { margin: 0 0 0.3rem; }
+
+.doors ol { padding-left: 1.4rem; }
+.doors li { margin-bottom: 0.9rem; }
+.doors .position { font-size: 0.9rem; opacity: 0.85; }
+code {
+  font-size: 0.9em;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 0.05em 0.3em;
+}
+
+/* --- the plate --------------------------------------------------- */
+.plate-hint { font-size: 0.9rem; opacity: 0.85; }
+.plate-figure { margin: 1rem 0 0; }
+.plate-figure svg { width: 100%; height: auto; display: block; }
+
+/* interaction: thicken + tint the hovered/focused element */
+.a-e, .a-n { cursor: pointer; outline: none; }
+.a-e:hover path, .a-e:focus path, .a-e.hl path,
+.a-n:hover circle, .a-n:focus circle, .a-n.hl circle,
+.a-n:hover rect, .a-n:focus rect, .a-n.hl rect {
+  stroke: var(--accent);
+}
+.a-e:hover path[stroke-opacity="0"],
+.a-e:focus path[stroke-opacity="0"],
+.a-e.hl path[stroke-opacity="0"] { stroke: #000; }
+.a-n:hover circle[fill-opacity], .a-n:focus circle[fill-opacity],
+.a-n.hl circle[fill-opacity] { fill: #000; }
+.a-n:hover circle:not([fill-opacity]), .a-n:focus circle:not([fill-opacity]),
+.a-n.hl circle:not([fill-opacity]) { fill: var(--accent); }
+
+#atlas-panel {
+  min-height: 7.5rem;
+  border: 1px solid var(--ink);
+  padding: 0.8rem 1rem;
+  margin-top: 1rem;
+  font-size: 0.92rem;
+}
+#atlas-panel .panel-idle { opacity: 0.55; font-style: italic; margin: 0; }
+#atlas-panel h3 {
+  font-family: var(--chrome);
+  font-size: 0.95rem;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  margin: 0 0 0.4rem;
+}
+#atlas-panel .fields { margin: 0 0 0.4rem; }
+#atlas-panel .tier {
+  font-family: var(--chrome);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  border: 1px solid var(--ink);
+  padding: 0.08em 0.45em;
+  margin-left: 0.5em;
+  white-space: nowrap;
+}
+#atlas-panel .notes { margin: 0; font-size: 0.88rem; opacity: 0.9; }
+
+/* --- making + footer -------------------------------------------- */
+.making h2 { margin-top: 3rem; }
+.record-links { padding-left: 1.4rem; font-size: 0.95rem; }
+.record-links li { margin-bottom: 0.35rem; }
+
+footer {
+  font-family: var(--chrome);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-align: center;
+  border-top: 1px solid var(--ink);
+  margin-top: 1rem;
+  padding: 1.5rem 1.25rem 2.5rem;
+  opacity: 0.9;
+}
+footer p { margin: 0 0 0.5rem; }
+
+@media (max-width: 40rem) {
+  .masthead { gap: 1.5rem; padding: 2rem 1rem; }
+  .masthead .cover { width: 150px; }
+  .mast-text h1 { font-size: 1.3rem; }
+  .mast-text .subtitle { margin-bottom: 1.6rem; }
+}

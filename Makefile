@@ -90,7 +90,7 @@ METADATA = -V title-meta="$(TITLE)" \
            -V author-meta="Daniel Klein with Claude"
 BACK_MATTER = apparatus/back-matter.md
 
-.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas maps stamp pdf pdf-screen epub proof cover cover-wrap manuscript wordcount clean
+.PHONY: archive transcripts transcripts-founding raw-archive shelf hooks test demo atlas maps stamp pdf pdf-screen epub site proof cover cover-wrap manuscript wordcount clean
 
 $(OUTPUT_DIR):
 	@mkdir -p $(OUTPUT_DIR)
@@ -166,6 +166,22 @@ epub: $(OUTPUT_DIR) cover
 		-o $(OUTPUT_DIR)/the-baltic-approaches.epub
 	@ls -la $(OUTPUT_DIR)/the-baltic-approaches.epub
 	@echo "Created $(OUTPUT_DIR)/the-baltic-approaches.epub (eBook edition)"
+
+# Book site (planning/book-site.md §6; deployment contract in
+# planning/site-handoff.md). Static, self-contained; assembled by
+# scripts/build_site.py from ratified sources + the atlas web-annotated
+# plate. Cover raster at 150dpi (web weight; the print/eBook pipelines
+# keep their own).
+site: $(OUTPUT_DIR) cover
+	@mkdir -p $(OUTPUT_DIR)/site
+	@pdfjam --quiet --trim '0.125in 0.125in 0.125in 0.125in' --clip true \
+		--papersize '{5.5in,8.5in}' \
+		--outfile $(OUTPUT_DIR)/site/.cover-trim.pdf \
+		$(OUTPUT_DIR)/cover/the-baltic-approaches-cover.pdf 1
+	@pdftoppm -r 150 -jpeg -jpegopt quality=88 -singlefile \
+		$(OUTPUT_DIR)/site/.cover-trim.pdf $(OUTPUT_DIR)/site/cover
+	@rm -f $(OUTPUT_DIR)/site/.cover-trim.pdf
+	@python3 scripts/build_site.py
 
 # Front cover (Müller ratified 2026-07-27; planning/cover-brief.md).
 # Recomposes the raster from the museum source, sets vector type in

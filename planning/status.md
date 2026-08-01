@@ -1458,3 +1458,18 @@ screen 173pp under the new build names; narrative 50,428
   pull-quote joins the table when the target lands. NEXT
   buildable in repo scope: the `make site` target + atlas
   annotated-SVG render mode + deal-copy draft, on DK's word.
+- 2026-08-01 (cont. 3): **THE SITE TRANCHE IS BUILT** (DK GO
+  "work it"; record in book-site.md §6.2). `make site` →
+  build/site/ complete: web-annotated Plate I inline (atlas
+  web mode — data-a wrappers + hit targets, print path
+  hash-verified byte-identical), hover panel with provenance-
+  graded atlas entries (highlight instrument-blue, not red),
+  deal copy DRAFTED (apparatus/site/deal.md — the page's only
+  fresh prose, PENDING DK RATIFICATION), notices verbatim from
+  the epub source, llms.txt per the §4 genre ruling, tag read
+  from AGENTS.md at build. Suite 117 (quote-drift, print
+  purity, annotation coverage, tag form). **Deployment
+  contract: planning/site-handoff.md** (nix develop -c make
+  test site; atomic swap; keep-last-good; ownership split).
+  Remaining to launch: DK browser pass + deal ratification;
+  valueof.info watcher per handoff; README URL once live.

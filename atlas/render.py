@@ -630,7 +630,13 @@ class Labeller:
 # ================================================================ the renderer
 
 
-def render_plate(name, face=DEFAULT_FACE):
+def render_plate(name, face=DEFAULT_FACE, web=False):
+    """Render a plate. web=False (default) is the LOCKED print path —
+    byte-identical output, guarded by test_render. web=True is the
+    site's annotated mode (book-site.md §6.1): identical geometry and
+    ink, plus <g data-a="e:id|n:id"> wrappers and invisible hit
+    targets so the page can highlight elements and show their atlas
+    entries. No content differences — annotation only."""
     global _AREA_ACC
     _AREA_ACC = []
     cfg = PLATES[name]
@@ -752,12 +758,21 @@ def render_plate(name, face=DEFAULT_FACE):
         p1 = proj.xy(na.lon, na.lat)
         p2 = proj.xy(nb.lon, nb.lat)
         drawn_edges.append(e.id)
+        if web:
+            svg.add(f'<g class="a-e" data-a="e:{esc(e.id)}" tabindex="0">')
         if e.mode == "ferry":
             svg.poly([p1, p2], stroke=INK, width=0.6, dash="3.2,2.4")
         elif e.mode == "rail":
             _draw_rail(svg, [p1, p2], double=(tracks.get(e.id) == "double"))
         else:
             svg.poly([p1, p2], stroke=INK, width=_road_w(e.cls))
+        if web:
+            # invisible wide stroke: the hover/focus hit target
+            svg.add(
+                f'<path d="{path_d([p1, p2])}" stroke="#000" '
+                'stroke-opacity="0" stroke-width="7" fill="none"/>'
+            )
+            svg.add("</g>")
 
     # --- the Danevirke: earthwork hachure (over the network so the
     #     rampart reads; it is the plate's subject relief) -----------
@@ -777,11 +792,21 @@ def render_plate(name, face=DEFAULT_FACE):
             continue
         if nid == "rendsburg":
             x, y = proj.xy(n.lon, n.lat)
+            if web:
+                svg.add(f'<g class="a-n" data-a="n:{esc(nid)}" tabindex="0">')
             s = HQ_SQUARE
             svg.rect(x - s / 2, y - s / 2, s, s, stroke=INK, width=0.7, fill=LAND)
+            if web:
+                svg.add(_hit_circle(x, y))
+                svg.add("</g>")
         elif labelled(nid) and nid not in NO_DOT:
             x, y = proj.xy(n.lon, n.lat)
+            if web:
+                svg.add(f'<g class="a-n" data-a="n:{esc(nid)}" tabindex="0">')
             svg.dot(x, y)
+            if web:
+                svg.add(_hit_circle(x, y))
+                svg.add("</g>")
 
     svg.add("</g>")  # end neat-line clip
 
@@ -847,6 +872,53 @@ def render_plate(name, face=DEFAULT_FACE):
     _draw_furniture(svg, proj, cfg, face)
 
     return svg.render(), drawn_edges
+
+
+def _hit_circle(x, y, r=6.0):
+    """Invisible node hit target for the web-annotated mode."""
+    return f'<circle cx="{x:.2f}" cy="{y:.2f}" r="{r}" fill="#000" fill-opacity="0"/>'
+
+
+def web_entries():
+    """The atlas entries the web plate's hover panel shows, keyed as
+    the data-a attributes key the elements ("e:<id>" / "n:<id>").
+    Reference/record only — the fields the CLI prints, with their
+    provenance grade carried (the wall discipline: every figure
+    posted with its source tier). Suppressed red nodes are excluded,
+    matching the drawn map; shape vertices likewise (no visual
+    anchor, nothing to hover)."""
+    atlas = Atlas.load()
+    raw = _raw_toml()
+    tracks = {e["id"]: e.get("tracks") for e in raw.get("edge", [])}
+    shape = {n["id"] for n in raw.get("node", []) if n.get("kind") == "shape"}
+    out = {}
+    for e in atlas.edges:
+        if e.a in SUPPRESS_NODES or e.b in SUPPRESS_NODES:
+            continue
+        na, nb = atlas.nodes[e.a], atlas.nodes[e.b]
+        d = {
+            "name": f"{na.name} – {nb.name}",
+            "mode": e.mode,
+            "class": e.cls,
+            "route": e.route or None,
+            "km": e.km,
+            "cap_t_d": round(e.capacity()),
+            "provenance": e.cap_source,
+            "tracks": tracks.get(e.id),
+            "crossing": e.crossing or None,
+            "notes": e.notes or None,
+        }
+        out[f"e:{e.id}"] = {k: v for k, v in d.items() if v is not None}
+    for nid, n in atlas.nodes.items():
+        if nid in SUPPRESS_NODES or nid in shape:
+            continue
+        d = {
+            "name": n.name,
+            "region": n.region or None,
+            "notes": n.notes or None,
+        }
+        out[f"n:{nid}"] = {k: v for k, v in d.items() if v is not None}
+    return out
 
 
 # ---------------------------------------------------------------- sub-draws
@@ -1327,13 +1399,17 @@ def _pt_in_poly(x, y, pts):
 
 def cmd_render(args):
     face = args.face or DEFAULT_FACE
-    svg, _ = render_plate(args.plate, face=face)
+    svg, _ = render_plate(args.plate, face=face, web=getattr(args, "web", False))
     if args.out:
         Path(args.out).write_text(svg)
     else:
         import sys
 
         sys.stdout.write(svg)
+    if getattr(args, "entries_out", ""):
+        Path(args.entries_out).write_text(
+            json.dumps(web_entries(), ensure_ascii=False, indent=1)
+        )
     return 0
 
 
@@ -1342,4 +1418,14 @@ def add_subparser(sub):
     pr.add_argument("plate", choices=list(PLATES.keys()))
     pr.add_argument("--face", default="", help="label face (default: build body face)")
     pr.add_argument("--out", default="", help="output path (default: stdout)")
+    pr.add_argument(
+        "--web",
+        action="store_true",
+        help="annotated site mode: data-a wrappers + hit targets (print path unchanged)",
+    )
+    pr.add_argument(
+        "--entries-out",
+        default="",
+        help="also write the web entries JSON (atlas records for the hover panel)",
+    )
     return pr

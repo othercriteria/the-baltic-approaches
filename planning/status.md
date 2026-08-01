@@ -1349,6 +1349,35 @@ screen 173pp under the new build names; narrative 50,428
   Forthcoming (flip gated on visible page). NEXT per DK: eBook
   process (upstream of site; NO KDP Select), then site rulings +
   R.F. outreach GO.
+- 2026-07-31 (cont.): **RESUBMISSION UPLOADED TO KDP** (DK,
+  same day). Previewer verified (screenshot reviewed in-session):
+  rendered ISBN barcode (9798997318901) fully below the credit
+  block with clear field between; slug 6360453 confirmed in the
+  notices page (interior = tag build); page-5 previewer flag =
+  the known non-actionable ToC-markup noise from the first
+  submission. DK ruling: NO new printed proof — digital
+  verification accepted for a two-block translation; backstop =
+  author-copy check (credit/plates, plus the one new watch item:
+  Amazon's Transparency code prints ABOVE the ISBN barcode on
+  retail copies — ~0.25in strip vs our 0.58in nominal clearance,
+  expected clear). Back in publication review (~24-72h). On
+  review landing: Amazon page propagation → Bowker→Active.
+- 2026-07-31 (cont. 2): DK pulled the trigger — paperback state
+  **"Live — Updates in review."** eBook program OPENED (DK
+  working the KDP Create-Kindle-eBook flow, NO Select): **`make
+  epub` BUILT AND VALIDATED** — build/the-baltic-approaches.epub,
+  EPUB 3.3, epubcheck 5.3.0 zero errors/warnings; parallel
+  apparatus (epub-front-matter/back-matter/metadata/chapters.lua/
+  css), print path verified untouched (196pp, 112 green, 50,428).
+  Notices account VERBATIM; stamp mechanism carried over; cover =
+  ratified front panel 1650×2550 JPG (build/epub/cover-ebook.jpg);
+  plates via rsvg PNG. **planning/ebook-brief.md** carries the
+  program: substitution decisions banked; EIGHT items drafted
+  pending DK ratification before upload (imprint/ISBN line,
+  colophon rewording, nav texture, Maps heading, neck-plate
+  orientation, no-embed fonts, no half-title, title-page byline
+  case); DK-side = entry-sheet carryover + pricing + tag
+  `ebook-<DTG>` at submission with stamp-matched rebuild.
 - 2026-07-31 (cont. 3): **eBook brief RULED item-by-item** (DK;
   categories confirmed by shelf sight-check — Decision-Making
   over Quality Control, lineage argument withdrawn on the live
@@ -1387,32 +1416,18 @@ screen 173pp under the new build names; narrative 50,428
   no action: eBook review lands → Live (ASIN assigned) →
   Bowker Active ×2 (paperback gate = visibly live Amazon page);
   then site doors complete; R.F. outreach on DK's GO.
-- 2026-07-31 (cont.): **RESUBMISSION UPLOADED TO KDP** (DK,
-  same day). Previewer verified (screenshot reviewed in-session):
-  rendered ISBN barcode (9798997318901) fully below the credit
-  block with clear field between; slug 6360453 confirmed in the
-  notices page (interior = tag build); page-5 previewer flag =
-  the known non-actionable ToC-markup noise from the first
-  submission. DK ruling: NO new printed proof — digital
-  verification accepted for a two-block translation; backstop =
-  author-copy check (credit/plates, plus the one new watch item:
-  Amazon's Transparency code prints ABOVE the ISBN barcode on
-  retail copies — ~0.25in strip vs our 0.58in nominal clearance,
-  expected clear). Back in publication review (~24-72h). On
-  review landing: Amazon page propagation → Bowker→Active.
-- 2026-07-31 (cont. 2): DK pulled the trigger — paperback state
-  **"Live — Updates in review."** eBook program OPENED (DK
-  working the KDP Create-Kindle-eBook flow, NO Select): **`make
-  epub` BUILT AND VALIDATED** — build/the-baltic-approaches.epub,
-  EPUB 3.3, epubcheck 5.3.0 zero errors/warnings; parallel
-  apparatus (epub-front-matter/back-matter/metadata/chapters.lua/
-  css), print path verified untouched (196pp, 112 green, 50,428).
-  Notices account VERBATIM; stamp mechanism carried over; cover =
-  ratified front panel 1650×2550 JPG (build/epub/cover-ebook.jpg);
-  plates via rsvg PNG. **planning/ebook-brief.md** carries the
-  program: substitution decisions banked; EIGHT items drafted
-  pending DK ratification before upload (imprint/ISBN line,
-  colophon rewording, nav texture, Maps heading, neck-plate
-  orientation, no-embed fonts, no half-title, title-page byline
-  case); DK-side = entry-sheet carryover + pricing + tag
-  `ebook-<DTG>` at submission with stamp-matched rebuild.
+  *(Service-log note: the three entries above this one were
+  inserted out of order by an anchor mismatch and re-sequenced
+  2026-08-01 — content unchanged, chronology restored.)*
+- 2026-08-01 — **eBOOK LIVE: amazon.com/dp/B0H2X5TFDR** (DK;
+  review cleared within hours of submission). Both formats now
+  published. The eBook's retail page is VISIBLE while the
+  paperback's (B0HC83GB4P) still hasn't propagated — the older
+  wait continues. Unblocked NOW (DK errand): **Bowker eBook
+  entry 979-8-9973189-1-8 → Active** (its live-page gate is
+  satisfied); the paperback's Bowker flip still waits on its
+  visible page. Site door 1 complete on the eBook side; the
+  three-doors launch needs only the paperback page + DK's site
+  rulings (book-site.md §5: domain, plate, launch timing,
+  site-repo location). R.F. outreach: proof gate ✓, a listing
+  visibly live ✓ — DK's GO remains the trigger.

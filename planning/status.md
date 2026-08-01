@@ -1478,4 +1478,8 @@ screen 173pp under the new build names; narrative 50,428
   VERBATIM notices sentences (new drift guard; suite 118) + a
   pointer; making/ carries the full account, record links, and
   an Editions block where the print-canonical sentence now
-  lives. Main footer slimmed.
+  lives. Main footer slimmed. **SITE RATIFIED IN FULL
+  (DK, same day): page + subpage + deal copy — the repo side
+  is COMPLETE.** DK is landing the valueof.info watcher per
+  site-handoff.md; next report = hosted site or a blocker.
+  Then: README URL; R.F. outreach GO still on the stack.

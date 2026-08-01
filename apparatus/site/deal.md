@@ -1,6 +1,6 @@
 <!-- The deal (book-site.md §3.2): the site's one piece of fresh
-prose. DRAFT pending DK ratification — everything else on the page
-is ratified text or links. The pull-quote is tested against ch. 22
+prose. RATIFIED 2026-08-01 (DK, with the whole page: "Ratifying
+everything I see"). The pull-quote is tested against ch. 22
 (tests/test_site.py); the attribution line matches the back cover. -->
 
 In November 1983 the war comes to the Baltic Approaches — the

@@ -364,3 +364,9 @@ Remaining before launch: DK ratifies the deal copy (and the page
 in a browser — the repo side had no browser this session); the
 valueof.info service lands per the handoff; README gains the URL
 once live.
+
+**RATIFIED 2026-08-01 (DK, after the /making/ split): the page,
+the subpage, and the deal copy — "Ratifying everything I see."
+The repo side of the site is COMPLETE. Remaining: the
+valueof.info watcher service (site-handoff.md is the contract;
+DK working it), then README gains the URL once live.**

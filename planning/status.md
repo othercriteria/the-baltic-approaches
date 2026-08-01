@@ -1496,3 +1496,25 @@ screen 173pp under the new build names; narrative 50,428
   AGENTS.md apt path was already honest (fonts-texgyre listed).
   site-handoff.md updated. Matters for the planned hive
   (headless) move on the serving side.
+- 2026-08-01 (cont. 5): **THE SITE IS LIVE —
+  https://valueof.info/the-baltic-approaches/ — and VERIFIED.**
+  Serving side reviewed (nixos-config 30089fc + 54ca96a): the
+  implementation exceeds the contract — site built as a Nix
+  derivation from a pinned revision taking toolchain/nixpkgs/
+  FONTCONFIG_FILE from THIS repo's devShell (serving side pins
+  nothing), make test as the deploy gate inside the sandbox,
+  15m poll with short-circuit on unchanged rev AND on
+  identical output (deterministic-build clause used), atomic
+  symlink swap with previous release retained, mtime-real copy
+  (store epoch-mtimes would have broken cache validators — a
+  finding beyond the contract), CSP/security headers, UTF-8 on
+  every text type incl. the .js→text/javascript wrinkle,
+  Prometheus rules for failing deploy + dead timer. Live
+  checks ALL PASS: 200s (index/making/llms), bare-path 301,
+  tag on page = AGENTS.md, charset+CSP headers, and the served
+  bytes DIFF-IDENTICAL to local make site. Handoff table
+  corrected (making/index.html was missing — landed after the
+  table; deploy-side completeness check should add it).
+  **README now carries the site URL + eBook ISBN/listing.**
+  Remaining on the whole stack: R.F. outreach on DK's GO;
+  Bowker Pending→Active confirmations.

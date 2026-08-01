@@ -10,11 +10,14 @@ Shepherd*, *The Caine Mutiny*), played straight, without
 hindsight.
 
 ~50,400 words of narrative. **Status: published** — first
-edition 2026, trade paperback, Mesokurtosis Press, ISBN
-979-8-9973189-0-1 (ASIN B0HC83GB4P); the tag of record is
-`first-312200ZJUL26`. (The project's working title was *The
-Mission*; the repository was renamed at final assembly, and old
-`the-mission-1986` URLs redirect here.)
+edition 2026, trade paperback (ISBN 979-8-9973189-0-1) and
+Kindle eBook (ISBN 979-8-9973189-1-8), Mesokurtosis Press,
+[one Amazon listing](https://www.amazon.com/dp/B0HC83GB4P); the
+tag of record is `first-312200ZJUL26`. The book's page is
+**<https://valueof.info/the-baltic-approaches/>** (built from
+this repository by `make site`). (The project's working title
+was *The Mission*; the repository was renamed at final assembly,
+and old `the-mission-1986` URLs redirect here.)
 
 This repository is the **source edition**: the manuscript is in
 `drafts/`, readable chapter by chapter right here, and the whole

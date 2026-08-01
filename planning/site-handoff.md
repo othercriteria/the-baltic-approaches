@@ -16,11 +16,17 @@ One static page for the book at the ruled path:
 
 | file | role |
 |---|---|
-| `index.html` | the whole page (plate SVG + atlas entries inline) |
+| `index.html` | the main page (plate SVG + atlas entries inline) |
+| `making/index.html` | the making subpage (full account, record links, editions) |
 | `site.css` | dress (system font stacks; nothing fetched) |
 | `site.js` | the plate's hover panel (vanilla, no requests) |
 | `cover.jpg` | masthead cover, 825×1275 |
 | `llms.txt` | the reader-who-is-an-agent file |
+
+*(Correction 2026-08-01: `making/index.html` was missing from this
+table — it landed with the subpage split after the table was
+written. A deploy-side completeness check built from this table
+should include it.)*
 
 All internal references are relative (`./…`), so the directory is
 mountable at any path — the page is portable to a future

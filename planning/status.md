@@ -1473,3 +1473,9 @@ screen 173pp under the new build names; narrative 50,428
   test site; atomic swap; keep-last-good; ownership split).
   Remaining to launch: DK browser pass + deal ratification;
   valueof.info watcher per handoff; README URL once live.
+  DK browser pass verdict: "looks great" but heavy → **/making/
+  subpage split** (DK ruling, same day): main page keeps three
+  VERBATIM notices sentences (new drift guard; suite 118) + a
+  pointer; making/ carries the full account, record links, and
+  an Editions block where the print-canonical sentence now
+  lives. Main footer slimmed.

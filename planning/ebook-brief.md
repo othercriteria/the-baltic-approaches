@@ -70,6 +70,36 @@ text — license ruling 2026-07-31).*
    mixed case (pandoc's generated title page), vs the trade's
    letterspaced caps. Cosmetic; CSS-correctable if DK wants.
 
+## Landed in the KDP flow (2026-07-31, DK)
+
+- **Kindle categories** (the print trio's Kindle-tree equivalents;
+  print's exact labels weren't offered): (1) **War** — node
+  157072011 (Literature & Fiction; the genre door, = print War &
+  Military); (2) **Decision-Making & Problem Solving** — node
+  154951011 (Business & Money > Management & Leadership; the
+  substitution for Lean, which the Kindle picker lacks — shifts
+  the shelf from lineage (TPS/Goldratt) to payload
+  (thinking-under-uncertainty), honest either way, though bigger
+  and harder to chart than Lean; if **Quality Control &
+  Management** exists in the picker it is the closer
+  lineage-shelf swap); (3) **Alternative History** — node
+  6157855011 (the Kindle tree's spelling of print's Alternate
+  History; = node 16275's population). Comps assessed from
+  category identity — Amazon's shelf pages bot-block direct
+  listing scans.
+- **KPF/Kindle Create: DECLINED (recommendation).** KDP's format
+  page pitches KPF for reflowable books, but the pitch targets
+  Word-manuscript authors who need typesetting done for them.
+  Kindle Create is a GUI tool whose KPF output is a proprietary
+  package: not scriptable, not diffable, not buildable from the
+  repo — it would break the repo-as-edition stance (external
+  tests 03/04 proved an agent can build this book from source;
+  KPF can't be) and orphan the stamp/tag discipline, while
+  replacing the book's own design with a Kindle Create theme.
+  The EPUB path is fully supported, epubcheck-clean, and KDP's
+  own previewer validates it at upload — same flow as the
+  paperback.
+
 ## DK-side (the KDP form)
 
 - Entry sheet fields (description, categories, keywords,

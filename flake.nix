@@ -50,6 +50,15 @@
           # Reference shelf: doctrine pubs arrive as scanned PDFs
           ocrmypdf # OCR layer for scanned docs (pulls tesseract + ghostscript)
 
+          # eBook edition (make epub; planning/ebook-brief.md):
+          # epubcheck is the validation gate the target's artifacts
+          # are held to; libxml2's xmllint for poking at the
+          # unzipped XHTML. (calibre — viewer/converter — weighed
+          # and left out: ~1 GB closure for a manual-use tool; add
+          # it here if eBook work becomes recurring.)
+          epubcheck
+          libxml2
+
           # Fetching and unpacking reference documents
           curl
           unzip # also handy for epub inspection

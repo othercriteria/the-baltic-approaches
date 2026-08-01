@@ -1431,3 +1431,17 @@ screen 173pp under the new build names; narrative 50,428
   rulings (book-site.md §5: domain, plate, launch timing,
   site-repo location). R.F. outreach: proof gate ✓, a listing
   visibly live ✓ — DK's GO remains the trigger.
+- 2026-08-01 (cont.): **BOTH RETAIL PAGES VISIBLE** (the dp page
+  carries both formats — amazon.com/Baltic-Approaches-Novel-
+  November-1983/dp/B0HC83GB4P); **Bowker: both entries bumped,
+  Pending → Active in flight** (DK). Every publication gate is
+  now passed or in-flight with no action owed. SITE DOMAIN
+  RULED (DK): **valueof.info now; mesokurtosis.com deferred**
+  until the press has more properties — ruling + design
+  consequences in book-site.md §5.2, and the full CURRENT
+  INTENT synthesized as **book-site.md §6** (the buildable
+  statement: one static portable page, three doors all live,
+  notices verbatim, llms.txt from AGENTS.md; four opens: source
+  location, path-vs-subdomain, plate y/n, deal copy). Remaining
+  stack: site build (out of repo scope; copy drafting on ask) +
+  R.F. outreach GO.

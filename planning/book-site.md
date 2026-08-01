@@ -187,7 +187,16 @@ our site is legitimately *for* agents, because agents-as-readers
    05 (chat re-test, advised correctly). This decision is no
    longer open; §4's "once §5.1 is ruled" clause is satisfied.**
 2. **Domain** (§2) and hosting (static host of DK's choice; out
-   of repo scope).
+   of repo scope). **RULED 2026-08-01 (DK): build on
+   valueof.info now; mesokurtosis.com DEFERRED until Mesokurtosis
+   Press has another property or two** (a one-book press site
+   would be a facade; the author's own domain is the honest
+   carrier until the imprint has a catalog). Design consequence:
+   build the page portable — self-contained, no domain-coupled
+   assets — so it can later move under the press domain behind a
+   redirect; and put the URL in only ONE repo surface (README)
+   until it stabilizes, to keep the eventual move a one-line
+   change. See §6 for the resulting current intent.
 3. **Plate on the site** — yes/no (§3.4).
 4. **eBook door timing** — add the link when KDP eBook is live,
    or launch the site after it, so the doors are complete on day
@@ -207,3 +216,68 @@ our site is legitimately *for* agents, because agents-as-readers
    proof gate is passed (physical checklist done; barcode errata
    fixed and resubmitted, paperback Live). Remaining gate: the
    Amazon page visibly live. Then this needs only DK's GO.*
+
+## §6 Current intent (synthesized 2026-08-01, session 372bd078 — the buildable statement)
+
+*Both formats are live and visible on Amazon; the domain is
+ruled (valueof.info now, mesokurtosis.com deferred). This
+section restates the whole design as it now stands, so the
+build can proceed from one place. Everything here is ratified
+except the four marked OPEN.*
+
+**What gets built:** one static page (plus at most /making) at
+valueof.info — path vs subdomain OPEN (lean:
+valueof.info/the-baltic-approaches/, a path; subdomains imply a
+property, and the property is the book, not a web app). No
+scripts that phone out, no analytics beyond server logs, no tip
+jar, no store. Built portable per the §5.2 ruling: when
+Mesokurtosis Press has a catalog, the page moves under the
+press domain behind a redirect, a one-line change.
+
+**Page contents, in order (§3, updated to published state):**
+
+1. Masthead: cover image, THE BALTIC APPROACHES, "a novel of
+   November 1983," byline "Daniel Klein with Claude."
+2. The deal, 3–5 sentences, reader-contract derived, played
+   straight; pull-quote "We were not right. We were solvent."
+   (Copy drafted at build; the DEAL text is the one piece of
+   fresh prose the site needs — draft-and-ratify with DK.)
+3. Three doors, now all live:
+   - Buy: paperback $17.95 (B0HC83GB4P) · Kindle $9.95
+     (B0H2X5TFDR), one Amazon link (the dp page carries both
+     formats).
+   - Read the source: the public repo is the edition;
+     chapter-by-chapter in any repo browser; clone and make.
+   - Hand it to an agent: point it at the repo; quote the tag
+     of record FROM AGENTS.md AT BUILD TIME (it has moved once
+     and will move on any errata).
+4. One map plate — OPEN (§5.3, DK yes/no; if yes, Plate I
+   upright, the same PNG the eBook carries).
+5. How this book was made: the notices text VERBATIM (ratified
+   surface, never re-drafted for marketing) + live links: repo,
+   ledger, attribution protocol, transcripts, LICENSE.
+6. Footer: Mesokurtosis Press · print ISBN 979-8-9973189-0-1 ·
+   eBook ISBN 979-8-9973189-1-8 · ASINs · © 2026 Daniel Klein.
+   Optionally the colophon's print-is-canonical sentence — the
+   site is a non-paper product; the sentence was written for
+   exactly this use (ebook-brief ruling 5).
+
+**Register (§2, all ratified):** the book's own restraint — no
+genre cosplay, no DTG paratext; the cover's two-face thesis as
+CSS (Heros chrome, Pagella text); nothing on the page churns.
+
+**Alongside the page:** /llms.txt derived from AGENTS.md at
+build (inform-don't-solicit genre ruling, §4); it and the page
+state the no-unitary-artifacts position in one sentence each so
+the absence of a download reads as design, not neglect.
+
+**Still OPEN, in order of consequence:** (1) site source
+location — §5.5 lean stands: with valueof.info ruled, the page
+lives with that site's own source, and THIS repo carries only
+the URL (README) once live; (2) path vs subdomain (lean above);
+(3) plate yes/no; (4) the deal copy ratification at build.
+Launch timing resolved by events: both doors' targets are live,
+so the site can launch complete on day one (§5.4's preferred
+case). Build itself remains out of this repo's session scope
+(§5.2 ruling stands); a session here drafts copy and reviews
+on DK's ask.

@@ -216,6 +216,11 @@ copyright position (DK-directed; distillation in
 - `pdf/uscoai-review-board-suryast-2023.pdf` — Review Board
   refusal, *SURYAST* (style transfer; base photo + style choice =
   insufficient creative control).
+- `pdf/uscoai-form-tx.pdf` + `pdf/uscoai-circ04-fees.pdf` —
+  Form TX (the paper application itself; print single-sided) and
+  Circular 4 (fee schedule: paper TX $125, online $65/$45).
+  Fetched 2026-08-02 for the snail-mail filing route
+  (copyright-brief §1a).
 
 ## Local archive tier (use in place, never redistribute)
 

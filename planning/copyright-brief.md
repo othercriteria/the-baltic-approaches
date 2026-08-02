@@ -306,5 +306,25 @@ form + Circulars 1/2/4/7d held in reference/pdf/):
   (scroll box); DK aware the record publishes address + birth
   year. Post-submit: pay, shipping slip, copies mail on
   arrival (~08-09).
+- 2026-08-02 (cont. 2) — PRE-SUBMISSION REVIEW run (DK-directed,
+  fresh-context "dangerous professional" persona; full report =
+  planning/copyright-filing-review.md). VERDICT: SUBMIT WITH
+  CHANGES, three cheap edits — (7) trim "editorial direction"
+  from the Note's CLAIM sentence (fields and Note must state the
+  same scope; direction may stay as process description); (8)
+  scroll-verify + screenshot the Note stored in full; (13)
+  decide deliberately on optional PII (birth year, R&P block =
+  home address/cell/gmail — all publish in the catalog). OPEN DK
+  DECISION (finding 5): whether to add the one-clause statement
+  that arrangement was itself substantially AI-proposed and
+  human-ratified — integrity-of-experiment vs grant-probability;
+  reviewer's frame: know which you're optimizing. Date nuance
+  (finding 9): repo went public 07-26 with near-final text →
+  conservative §412 close ~2026-10-26; treat end-September as
+  drop-dead. Receipts protocol (finding 14) adopted into the
+  mailing step: slip copy INSIDE the box, signature tracking,
+  T+3wk eCO deposit check, @copyright.gov whitelisted, ~45-day
+  examiner-response deadlines. Also: five-minute KDP
+  AI-disclosure consistency check (finding 6).
 - (append here: submission/payment date, shipping-slip mailing
   date + tracking, Office correspondence, disposition)

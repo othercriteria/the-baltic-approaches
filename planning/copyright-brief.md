@@ -289,5 +289,22 @@ form + Circulars 1/2/4/7d held in reference/pdf/):
   mailed deposit's arrival (§4 catch). Next: finish the eCO
   screens per §2, pay $65, print the shipping slip; mail the two
   reserved copies (tracked) when author copies arrive (~08-09).
+- 2026-08-02 (cont.) — REVIEW SCREEN REACHED (Claims.pdf
+  reviewed in-session). Confirmed good: Author Created stored
+  the full 100-char string, all author checkboxes N (claim
+  lives in freetext as ruled); **validator ACCEPTED the
+  no-checkbox New Material side**; publication block matches
+  the pinned record (2026 / 07/30/2026 / US / 979-8-9973189-0-1);
+  certification clean, Special Handling off. FOUND: the two
+  Limitation "Other" fields truncate (~40 chars) — Included
+  landed clean at exactly "Selection, coordination, and
+  arrangement" (kept: complete phrase, pairs with the full
+  Author Created string); Excluded cut mid-word
+  ("...artificia") — BLOCKING, fix before Add to Cart with
+  ≤40 replacement: "AI-generated; cover art public domain"
+  (38). Also to verify pre-submit: Note field completeness
+  (scroll box); DK aware the record publishes address + birth
+  year. Post-submit: pay, shipping slip, copies mail on
+  arrival (~08-09).
 - (append here: submission/payment date, shipping-slip mailing
   date + tracking, Office correspondence, disposition)

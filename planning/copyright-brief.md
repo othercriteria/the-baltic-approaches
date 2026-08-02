@@ -170,9 +170,9 @@ form + Circulars 1/2/4/7d held in reference/pdf/):
   making is documented at session grain in a public repository
   (github.com/othercriteria/the-baltic-approaches), including a
   per-session attribution ledger and raw transcripts. The models
-  also proposed candidate selections and arrangements; the
-  applicant adopted, revised, or rejected these, and the
-  repository documents those decisions. The claim is limited to
+  also proposed candidates for the selection, coordination, and
+  arrangement; the applicant adopted, revised, or rejected
+  these, and the repository documents those decisions. The claim is limited to
   the applicant's selection, coordination, and arrangement. The
   applicant is available for any inquiry." Honesty up front
   converts the likely examiner correspondence into a shorter
@@ -328,7 +328,11 @@ form + Circulars 1/2/4/7d held in reference/pdf/):
   human-ratified — integrity-of-experiment vs grant-probability;
   reviewer's frame: know which you're optimizing.
   **→ DECIDED (DK, same day): the clause goes IN**, mechanism-
-  stated, no quantifier (final Note text in §2). Same round:
+  stated, no quantifier (final Note text in §2); extended same
+  day to cover COORDINATION too (DK: e.g. the attribution-ledger
+  process was model-elaborated) — the clause now mirrors the
+  claim triple verbatim, so nothing claimed escapes the
+  disclosure. Same round:
   claim sentence trimmed (finding 7 ✓); PII accepted as-is
   (finding 13 ✓); final submission PDF to be captured with all
   fields scrolled to end (finding 8, pending capture);

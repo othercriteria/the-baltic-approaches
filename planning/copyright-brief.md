@@ -353,5 +353,24 @@ form + Circulars 1/2/4/7d held in reference/pdf/):
   T+3wk eCO deposit check, @copyright.gov whitelisted, ~45-day
   examiner-response deadlines. Also: five-minute KDP
   AI-disclosure consistency check (finding 6).
-- (append here: submission/payment date, shipping-slip mailing
-  date + tracking, Office correspondence, disposition)
+- 2026-08-02 (cont. 3) — **SUBMITTED.** Pre-submission captures
+  verified in-session: all three suspect fields store full
+  strings (scroll-end screenshots, DK local:
+  screenshots/screenshot_2026-08-02_13-20-55/-21-09.png — ends
+  of both Limitation Others and the final Note text visible;
+  pub date 07/26/2026 on screen). Shipping slip inspected
+  (CORCPT `1-6ZVA7EM`, DK local Downloads): **NEW OPERATIVE
+  DEADLINE — deposit must be MAILED within 30 days of case
+  date, i.e. by 2026-09-01** (tighter than all §412 math;
+  author copies ~08-09 leave ~3 weeks slack). Slip's Materials
+  Submitted table printed blank → hand-fill "2 / paperback
+  book" before boxing. Deposit address IS NOT the paper-form
+  address: U.S. Copyright Office – Materials Control and
+  Analysis Division – TX, 101 Independence Ave SE, Washington
+  DC **20540** (use the slip's address exactly; slip attached
+  to copies + second copy inside the box per the receipts
+  protocol). Claims.pdf/screenshots/slip carry PII — retained
+  DK-local/holdings tier, NOT committed to the public repo.
+- (append here: payment confirmation, mailing date + tracking,
+  eCO deposit-received check ~T+3wk, Office correspondence,
+  disposition)

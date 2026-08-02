@@ -1579,7 +1579,10 @@ screen 173pp under the new build names; narrative 50,428
   so the **§412 window closes 2026-10-30**; route RULED
   2026-08-02: eCO favored, paper Form TX a fully developed
   contingency, decision point = author-copy arrival ~08-09,
-  five ordered / two reserved for the LoC deposit) + shelf
+  five ordered / two reserved for the LoC deposit; eCO login
+  RESOLVED same day, case OPEN — **# 1-15229554401, opened
+  8/2/2026**, provisional pending the rest of the flow; filing
+  log = copyright-brief §8) + shelf
   batch 11 (eleven US-gov PD documents in reference/pdf/, incl.
   the complete paper filing kit).
   **LICENSE.md AMENDED (DK-directed): copyright-status note

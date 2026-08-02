@@ -251,3 +251,16 @@ form + Circulars 1/2/4/7d held in reference/pdf/):
    leaving three (one is the physical-check copy for the
    credit-clearance/Transparency-code watch items; R.F. gift
    copy, if outreach goes that way, comes out of the remainder).
+
+## 8. Filing log
+
+- 2026-08-02 — eCO login issues RESOLVED (DK); route holds as
+  favored. **Case # `1-15229554401`, Date Opened 8/2/2026** —
+  banked provisionally, pending survival of the rest of the eCO
+  flow. Case opened ≠ filed: the application completes on
+  payment + submission, and the EFFECTIVE DATE waits on the
+  mailed deposit's arrival (§4 catch). Next: finish the eCO
+  screens per §2, pay $65, print the shipping slip; mail the two
+  reserved copies (tracked) when author copies arrive (~08-09).
+- (append here: submission/payment date, shipping-slip mailing
+  date + tracking, Office correspondence, disposition)

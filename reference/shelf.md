@@ -221,6 +221,11 @@ copyright position (DK-directed; distillation in
   Circular 4 (fee schedule: paper TX $125, online $65/$45).
   Fetched 2026-08-02 for the snail-mail filing route
   (copyright-brief §1a).
+- `pdf/uscoai-circ01-basics.pdf`, `pdf/uscoai-circ02-registration.pdf`,
+  `pdf/uscoai-circ07d-mandatory-deposit.pdf` — Circulars 1
+  (Copyright Basics), 2 (Registration overview), 7d (Mandatory
+  Deposit — the §407 obligation the registration deposit
+  satisfies). Fetched 2026-08-02, completing the filing kit.
 
 ## Local archive tier (use in place, never redistribute)
 

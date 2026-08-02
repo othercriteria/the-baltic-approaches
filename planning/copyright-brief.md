@@ -13,7 +13,13 @@ the same kind this project has kept throughout.*
 
 File a Standard Application for the literary work, claiming
 exactly the human layer and excluding the AI-generated text,
-with the ledger available as the supporting record. Outcome
+with the ledger available as the supporting record. **Route
+ruling (DK, 2026-08-02): eCO online is the favored path** —
+the delay economics decide it — **with the §1a paper route
+maintained as a fully developed contingency.** DK is working
+through eCO account friction (possibly propagation/transient
+backend); decision point = author-copy arrival (~2026-08-09;
+five ordered, two reserved for the deposit). Outcome
 genuinely uncertain (see §5); cost bounded (~$65 + two deposit
 copies + postage); the deadline that matters is the §412 window
 (§4). A refusal does not extinguish any rights that exist and
@@ -34,12 +40,11 @@ joins the record.
   979-8-9973189-1-8 (eBook). One registration covers the work;
   editions with identical text do not need separate filings.
 
-### 1a. The paper path (Form TX) — viable, and DK's preference
+### 1a. The paper path (Form TX) — the developed contingency
 
-Given eCO's login/UX friction and the fact that physical deposit
-copies must be mailed regardless, a full snail-mail filing is a
-legitimate route (verified 2026-08-02; form + Circular 4 held in
-reference/pdf/ as `uscoai-form-tx.pdf` / `uscoai-circ04-fees.pdf`):
+If eCO stays broken past the author-copy decision point, a full
+snail-mail filing is a legitimate route (verified 2026-08-02;
+form + Circulars 1/2/4/7d held in reference/pdf/):
 
 - **Form TX**, downloadable (copyright.gov/forms/formtx.pdf —
   print single-sided per its instructions), or mailed on request
@@ -102,11 +107,12 @@ reference/pdf/ as `uscoai-form-tx.pdf` / `uscoai-circ04-fees.pdf`):
   available for any inquiry." Honesty up front converts the
   likely examiner correspondence into a shorter conversation and
   forecloses any later §411(b) question.
-- **Publication:** published, YES. **Date of first publication:**
-  the paperback's first go-live date — DK to confirm from the
-  KDP dashboard (the record brackets it 2026-07-29..31; the
-  original submission went live before the errata resubmission).
-  Nation: United States.
+- **Publication:** published, YES. **Date of first publication:
+  2026-07-30** — PINNED (DK from the KDP dashboard, 2026-08-02:
+  paperback "Submitted on July 30, 2026"; the eBook's Aug 1 date
+  is the later format and doesn't govern — first publication of
+  the work is the earliest format offered). Nation: United
+  States.
 - **Claimant:** Daniel Klein (same as author; no transfer).
 
 ## 3. Deposit
@@ -126,13 +132,20 @@ reference/pdf/ as `uscoai-form-tx.pdf` / `uscoai-circ04-fees.pdf`):
 
 - **Effective date of registration = the date the Office
   receives** application + fee + deposit in acceptable form.
+  **eCO catch:** with a physical-deposit work, the effective
+  date is set by the arrival of the LAST element — the mailed
+  deposit copies under the shipping slip — not by the online
+  submission. The DC-mail screening lag therefore applies to
+  the eCO route's deposit too: mail the copies promptly after
+  submitting, tracked.
 - **§412 window:** statutory damages and attorney's fees for
   post-publication infringements are preserved only if the
   effective date lands **within three months of first
-  publication** — i.e., roughly **by end of October 2026**
-  (exact day pins to the publication date DK confirms). After
-  the window, registration still works; only the remedies
-  premium lapses.
+  publication — by 2026-10-30** (pinned from the 2026-07-30
+  publication date). Comfortable margin from the ~Aug 9
+  author-copy arrival; aim to have everything received by
+  mid-October. After the window, registration still works; only
+  the remedies premium lapses.
 - Processing: months (typical 2–8+); AI-involved claims
   frequently draw correspondence. The effective date, not the
   certificate date, is what the window cares about — file, then
@@ -175,21 +188,27 @@ reference/pdf/ as `uscoai-form-tx.pdf` / `uscoai-circ04-fees.pdf`):
   moot), Authors Guild certification (certifies the opposite
   fact).
 
-## 7. DK-hands checklist (paper route, per §1a)
+## 7. DK-hands checklist (eCO favored; paper contingency)
 
-1. Confirm first-publication date from the KDP dashboard.
-2. Print Form TX (single-sided); fill per §1a's field mapping;
-   sign space 8. Draft the cover letter from §2's Note text.
-3. Check or money order, $125, payable to "U.S. Copyright
-   Office". Two paperback copies (order with or alongside author
-   copies).
-4. One package — form + fee + both copies + cover letter — to
-   Library of Congress, Copyright Office-TX, 101 Independence
-   Ave SE, Washington DC 20559-6000. **Mail by early October**
-   (screening lag vs the §412 window), tracked.
-5. If an examiner letter arrives, answer from the Note + the
-   ledger. Log filing date/tracking in status.md; deposit any
-   Office correspondence into the record when it arrives
-   (US-gov PD; reference/pdf/ + shelf).
-   (eCO fallback if preferences change: §§1–3 as originally
-   mapped; $65, deposit mailed under a shipping slip.)
+1. ~~Confirm first-publication date~~ PINNED: 2026-07-30.
+2. **eCO route (favored):** keep working the account (transient
+   backend / propagation plausible; if it persists, escalate —
+   (202) 707-3000 or the eCO help pages — rather than assuming
+   user error). Standard Application per §2; pay $65; print the
+   shipping slip; mail the two reserved author copies under it,
+   tracked, promptly (the deposit's arrival sets the effective
+   date — §4).
+3. **Decision point: author-copy arrival (~2026-08-09).** If eCO
+   still won't yield an account by then, switch to the §1a paper
+   package without further deliberation — $125, one tracked box,
+   same two copies, cover letter from §2's Note text. Either
+   route: everything received by mid-October, window closes
+   2026-10-30.
+4. If an examiner letter arrives, answer from the Note + the
+   ledger. Log filing date/case number/tracking in status.md;
+   deposit any Office correspondence into the record when it
+   arrives (US-gov PD; reference/pdf/ + shelf).
+5. Author-copy arithmetic: five ordered — two to LoC deposit,
+   leaving three (one is the physical-check copy for the
+   credit-clearance/Transparency-code watch items; R.F. gift
+   copy, if outreach goes that way, comes out of the remainder).

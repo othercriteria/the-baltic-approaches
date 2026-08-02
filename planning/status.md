@@ -1575,8 +1575,9 @@ screen 173pp under the new build names; narrative 50,428
   DK RULING this date: the finished text will NOT be salted with
   human touches to strengthen the claim) +
   planning/copyright-brief.md (Standard Application mapped
-  field-by-field; publication date PINNED 2026-07-30 from KDP,
-  so the **§412 window closes 2026-10-30**; route RULED
+  field-by-field; publication date RE-PINNED 2026-07-26 (repo
+  publication, DK ruling on the pre-submission review's finding
+  9), so the **§412 window closes 2026-10-26**; route RULED
   2026-08-02: eCO favored, paper Form TX a fully developed
   contingency, decision point = author-copy arrival ~08-09,
   five ordered / two reserved for the LoC deposit; eCO login

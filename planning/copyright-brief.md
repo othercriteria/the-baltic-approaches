@@ -162,22 +162,29 @@ form + Circulars 1/2/4/7d held in reference/pdf/):
   limited to selection, coordination, and arrangement of
   AI-generated text"). Previous Registration subsection: leave
   empty (nothing previously registered).
-- **Note to Copyright Office field (use it):** two or three
-  sentences, e.g.: "The narrative text was drafted by Anthropic
-  Claude models under the applicant's direction; the making is
-  documented at session grain in a public repository
-  (github.com/othercriteria/the-baltic-approaches, incl. a
-  per-session attribution ledger and raw transcripts). The claim
-  is limited to the applicant's selection, coordination,
-  arrangement, and editorial direction. The applicant is
-  available for any inquiry." Honesty up front converts the
-  likely examiner correspondence into a shorter conversation and
-  forecloses any later §411(b) question.
+- **Note to Copyright Office field — FINAL TEXT (claim sentence
+  trimmed per review finding 7; finding-5 clause added, DK-
+  ratified 2026-08-02; no-quantifier discipline per the
+  process-comps lesson):** "The narrative text was drafted by
+  Anthropic Claude models under the applicant's direction; the
+  making is documented at session grain in a public repository
+  (github.com/othercriteria/the-baltic-approaches), including a
+  per-session attribution ledger and raw transcripts. The models
+  also proposed candidate selections and arrangements; the
+  applicant adopted, revised, or rejected these, and the
+  repository documents those decisions. The claim is limited to
+  the applicant's selection, coordination, and arrangement. The
+  applicant is available for any inquiry." Honesty up front
+  converts the likely examiner correspondence into a shorter
+  conversation and forecloses any later §411(b) question.
 - **Publication:** published, YES. **Date of first publication:
-  2026-07-30** — PINNED (DK from the KDP dashboard, 2026-08-02:
-  paperback "Submitted on July 30, 2026"; the eBook's Aug 1 date
-  is the later format and doesn't govern — first publication of
-  the work is the earliest format offered). Nation: United
+  2026-07-26** — RE-PINNED (DK ruling 2026-08-02, on review
+  finding 9): the repo went public that day with the
+  LICENSE-authorized near-final text, which is arguably first
+  publication under online-publication practice; using it makes
+  every window maximally conservative against the applicant, and
+  coheres with the Note's pointer to the repo. (KDP paperback
+  "Submitted" 07/30; eBook 08/01 — both later.) Nation: United
   States.
 - **Claimant:** Daniel Klein (same as author; no transfer).
 
@@ -207,7 +214,7 @@ form + Circulars 1/2/4/7d held in reference/pdf/):
 - **§412 window:** statutory damages and attorney's fees for
   post-publication infringements are preserved only if the
   effective date lands **within three months of first
-  publication — by 2026-10-30** (pinned from the 2026-07-30
+  publication — by 2026-10-26** (from the re-pinned 2026-07-26
   publication date). Comfortable margin from the ~Aug 9
   author-copy arrival; aim to have everything received by
   mid-October. After the window, registration still works; only
@@ -256,7 +263,8 @@ form + Circulars 1/2/4/7d held in reference/pdf/):
 
 ## 7. DK-hands checklist (eCO favored; paper contingency)
 
-1. ~~Confirm first-publication date~~ PINNED: 2026-07-30.
+1. ~~Confirm first-publication date~~ RE-PINNED: 2026-07-26
+   (repo publication; §2).
 2. **eCO route (favored):** keep working the account (transient
    backend / propagation plausible; if it persists, escalate —
    (202) 707-3000 or the eCO help pages — rather than assuming
@@ -268,8 +276,8 @@ form + Circulars 1/2/4/7d held in reference/pdf/):
    still won't yield an account by then, switch to the §1a paper
    package without further deliberation — $125, one tracked box,
    same two copies, cover letter from §2's Note text. Either
-   route: everything received by mid-October, window closes
-   2026-10-30.
+   route: everything received by end of September, window closes
+   2026-10-26.
 4. If an examiner letter arrives, answer from the Note + the
    ledger. Log filing date/case number/tracking in status.md;
    deposit any Office correspondence into the record when it
@@ -318,7 +326,15 @@ form + Circulars 1/2/4/7d held in reference/pdf/):
   DECISION (finding 5): whether to add the one-clause statement
   that arrangement was itself substantially AI-proposed and
   human-ratified — integrity-of-experiment vs grant-probability;
-  reviewer's frame: know which you're optimizing. Date nuance
+  reviewer's frame: know which you're optimizing.
+  **→ DECIDED (DK, same day): the clause goes IN**, mechanism-
+  stated, no quantifier (final Note text in §2). Same round:
+  claim sentence trimmed (finding 7 ✓); PII accepted as-is
+  (finding 13 ✓); final submission PDF to be captured with all
+  fields scrolled to end (finding 8, pending capture);
+  **publication date RE-PINNED 07/26/2026** (finding 9 adopted
+  at its conservative edge — §412 window closes 2026-10-26).
+  Date nuance
   (finding 9): repo went public 07-26 with near-final text →
   conservative §412 close ~2026-10-26; treat end-September as
   drop-dead. Receipts protocol (finding 14) adopted into the

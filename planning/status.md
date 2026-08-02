@@ -1560,3 +1560,30 @@ screen 173pp under the new build names; narrative 50,428
   are the entry points. External read 06 (the infra session's
   cold read) is registered with its CLAIMED caveat — panels
   citing it should carry the caveat forward.
+- 2026-08-01 — SESSION 94f69afb (service): archival first acts
+  done (372bd078 raw-archived + exported; row 17 closed). **THE
+  COMPS MAP EXISTS: reference/comps-map.md** (DK-directed
+  six-agent sweep — four Opus lenses + a full-read variant run
+  as a methods experiment + venues; all four lenses returned
+  "position unoccupied"; the full-read variant moved the map's
+  center of gravity and is the file's §0 methods lesson).
+  **Venues: planning/venues-non-natty.md** — IBPA best real
+  option; BookLife Prize DECIDE BY 2026-08-31; NaNoGenMo free;
+  Hoshi verified Japanese-only. **THE COPYRIGHT POSITION IS
+  BRIEFED AND ON THE RECORD:** reference/copyright-ai.md
+  (doctrine; the prose as such likely uncopyrightable in the US;
+  DK RULING this date: the finished text will NOT be salted with
+  human touches to strengthen the claim) +
+  planning/copyright-brief.md (Standard Application mapped
+  field-by-field; **§412 window ≈ end of October 2026** — DK to
+  confirm first-publication date from KDP and decide) + shelf
+  batch 11 (six US-gov PD documents in reference/pdf/).
+  **LICENSE.md AMENDED (DK-directed): copyright-status note
+  added ("requests in place of locks, with the record as
+  witness"); stale tag-of-record fixed → first-312200ZJUL26 via
+  AGENTS.md pointer.** Flag parked for DK: eBook imprint's
+  "© 2026 … All rights reserved." line is broader in tone than
+  the stated position (errata tier, next eBook rebuild, no
+  errand). R.F. outreach: DK HOLDS for now; will run it himself
+  via `/resume` of 3d8e73ea (JSONL verified on disk) when ready.
+  Suite 118 green after all changes.

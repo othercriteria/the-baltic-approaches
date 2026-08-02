@@ -186,6 +186,37 @@ CIA reading room).
   exercises collection if the air war or naval OOB ever needs
   them). One-line content preserved here.
 
+## Held — batch 11 (copyright/AI law cluster, fetched 2026-08-01, session 94f69afb; all US-government public domain)
+
+Post-completion service tier: the legal record behind the book's own
+copyright position (DK-directed; distillation in
+`reference/copyright-ai.md`, application map in
+`planning/copyright-brief.md`).
+
+- `pdf/uscoai-part2-copyrightability-2025.pdf` — US Copyright
+  Office, *Copyright and Artificial Intelligence, Part 2:
+  Copyrightability* (Jan 2025). The governing policy statement:
+  prompts alone insufficient; selection/coordination/arrangement
+  and creative modification as the registrable routes.
+- `pdf/thaler-v-perlmutter-dc-cir-23-5233-2025.pdf` — *Thaler v.
+  Perlmutter*, D.C. Cir. No. 23-5233 (decided 2025-03-18):
+  human-authorship requirement affirmed for machine-as-author
+  claims; AI-assisted works with human authors expressly left open.
+- `pdf/uscoai-zarya-of-the-dawn-letter-2023.pdf` — the *Zarya of
+  the Dawn* registration decision letter (Feb 2023): human text +
+  selection/coordination/arrangement protected, Midjourney images
+  excluded. The template for mixed-authorship registration.
+- `pdf/uscoai-registration-guidance-88fr16190-2023.pdf` — 88 FR
+  16190 (Mar 2023): the registration-practice rules — disclosure
+  duty for more-than-de-minimis AI content, how to exclude/limit
+  the claim, duty to correct prior filings.
+- `pdf/uscoai-review-board-theatre-dopera-spatial-2023.pdf` —
+  Review Board refusal, *Théâtre D'opéra Spatial* (624 prompts +
+  Photoshop work ruled insufficient) — the refusal-path exemplar.
+- `pdf/uscoai-review-board-suryast-2023.pdf` — Review Board
+  refusal, *SURYAST* (style transfer; base photo + style choice =
+  insufficient creative control).
+
 ## Local archive tier (use in place, never redistribute)
 
 `/bulk/dlk/military` (DK's local archive) holds unclear-provenance

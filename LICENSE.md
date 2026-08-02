@@ -39,9 +39,9 @@ any artifact built from these (the PDFs `make` produces).
 - **Use it commercially** in any form.
 - **Present a modified text as this book.** A transformation
   that leaves your own machines must carry: title, byline, ISBN,
-  this repository's URL, the tag of record
-  (`first-281500ZJUL26`), and a statement that it is a
-  transformation and not the edition of record.
+  this repository's URL, the tag of record (per `AGENTS.md`;
+  `first-312200ZJUL26` as of this writing), and a statement that
+  it is a transformation and not the edition of record.
 
 ## 2. The instruments and machinery (MIT)
 
@@ -116,6 +116,22 @@ project made.
 
 ## Boundaries and notes
 
+- **Copyright status, stated plainly.** The text of this book —
+  every sentence of it — was drafted by AI models, as the record
+  documents. Under current United States doctrine (the Copyright
+  Office's 2025 *Copyrightability* report; *Thaler v.
+  Perlmutter*, D.C. Cir. 2025), AI-generated text is not itself
+  copyrightable; the enforceable claim here is limited to the
+  human layer — selection, arrangement, and editorial direction —
+  and that claim is untested at this project's grain of
+  documentation. So read this license honestly: where copyright
+  is thin or absent, its terms are the project's stated
+  expectations rather than enforceable locks — requests in place
+  of locks, with the record as witness. We chose not to alter
+  the finished text to manufacture a stronger claim. Other
+  jurisdictions differ (the UK, for one, protects
+  computer-generated works by statute). The project's position
+  and sources: `reference/copyright-ai.md`.
 - **`holdings/`** is a private submodule of non-redistributable
   source material. It is not covered by this license, is not
   needed to build or read anything here, and is not offered.
@@ -135,4 +151,6 @@ project made.
 
 *Ratified by the copyright holder 2026-07-31. The drafting
 record and the rulings behind these choices are in
-`planning/license-draft.md`.*
+`planning/license-draft.md`. Amended 2026-08-01 (DK-directed):
+copyright-status note added; tag-of-record reference updated to
+the aligned edition (`first-312200ZJUL26`).*

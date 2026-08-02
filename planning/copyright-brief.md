@@ -329,10 +329,17 @@ form + Circulars 1/2/4/7d held in reference/pdf/):
   reviewer's frame: know which you're optimizing.
   **→ DECIDED (DK, same day): the clause goes IN**, mechanism-
   stated, no quantifier (final Note text in §2); extended same
-  day to cover COORDINATION too (DK: e.g. the attribution-ledger
-  process was model-elaborated) — the clause now mirrors the
-  claim triple verbatim, so nothing claimed escapes the
-  disclosure. Same round:
+  day to cover COORDINATION too, and RE-GROUNDED after a DK
+  reading check: DK's initial warrant (the attribution-ledger
+  process was model-elaborated) used "coordination" in the
+  process-orchestration sense, which is not the compilation
+  term and is not claimed; the extension STANDS on the correct
+  product sense — the interrelation of the work's materials
+  (strand interleaving, epigraph pairing/ration, plate and
+  apparatus integration) was itself substantially
+  model-proposed and DK-disposed, largely via the ratified
+  outline. The clause mirrors the claim triple verbatim, so
+  nothing claimed escapes the disclosure. Same round:
   claim sentence trimmed (finding 7 ✓); PII accepted as-is
   (finding 13 ✓); final submission PDF to be captured with all
   fields scrolled to end (finding 8, pending capture);

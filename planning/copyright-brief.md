@@ -371,6 +371,17 @@ form + Circulars 1/2/4/7d held in reference/pdf/):
   to copies + second copy inside the box per the receipts
   protocol). Claims.pdf/screenshots/slip carry PII — retained
   DK-local/holdings tier, NOT committed to the public repo.
-- (append here: payment confirmation, mailing date + tracking,
-  eCO deposit-received check ~T+3wk, Office correspondence,
-  disposition)
+- 2026-08-05 — **PAYMENT CONFIRMED** (record recovered via an
+  inadvertent back-press; Pay.gov sends no email, so the
+  screenshot is the only receipt — DK local
+  screenshots/screenshot_2026-08-05_10-25-28.png, PII tier):
+  $65.00, Pay Date 8/2/2026, Direct Debit, Confirmation # /
+  Pay.gov Tracking `284NRQJ4`, **Agency Tracking `1-6ZVA7OQ`**
+  (distinct from the shipping slip's `1-6ZVA7EM` — two IDs,
+  both banked). Case row shows "Require Submission: Y" — the
+  system awaits the deposit. Author copies arriving TODAY
+  (08-05, four days early) → mailing step imminent; slip
+  deadline 2026-09-01 now has ~4 weeks slack.
+- (append here: author-copy physical checks, mailing date +
+  tracking, eCO deposit-received check ~T+3wk, Office
+  correspondence, disposition)
